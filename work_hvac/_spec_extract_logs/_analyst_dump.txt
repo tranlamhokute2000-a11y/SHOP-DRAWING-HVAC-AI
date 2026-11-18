@@ -1,0 +1,237 @@
+=== SUMMARY ===
+Disk entities: 228, Live unsaved: 1
+LINE: 99, MTEXT: 34, INSERT: 95
+
+=== ALL 34 MTEXTS ===
+10DCE | text="BOD=FFL+2695" | pos=(7915.14, 59182.31) | rot=0.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DCD | text="SED-550x350" | pos=(7915.14, 59321.21) | rot=0.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DCC | text="BOD=FFL+2695" | pos=(17480.05, 63460.11) | rot=0.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DCB | text="SED-550x350" | pos=(17480.05, 63599.02) | rot=0.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DCA | text="BOD=FFL+2645" | pos=(27018.62, 63460.92) | rot=0.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DC9 | text="SED-800x400" | pos=(27018.62, 63599.83) | rot=0.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DC8 | text="BOD=FFL+2595" | pos=(38180.03, 63461.92) | rot=0.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DC7 | text="SED-950x450" | pos=(38180.03, 63600.82) | rot=0.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DC6 | text="BOD=FFL+2595" | pos=(45104.06, 57701.64) | rot=90.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DC5 | text="SED-950x450" | pos=(44965.16, 57701.64) | rot=90.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DC4 | text="BOD=FFL+2545" | pos=(45104.92, 47645.17) | rot=90.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DC3 | text="SED-1150x500" | pos=(44966.01, 47645.17) | rot=90.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DC2 | text="BOD=FFL+2500" | pos=(40703.00, 33508.08) | rot=90.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DC1 | text="SED-1400x500" | pos=(40564.09, 33508.08) | rot=90.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DC0 | text="BOD=FFL+2500" | pos=(45181.25, 22621.27) | rot=90.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DBF | text="SED-1400x500" | pos=(45042.34, 22621.27) | rot=90.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DBE | text="BOD=FFL+2500" | pos=(45181.39, 10712.06) | rot=90.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DBD | text="SED-1700x500" | pos=(45042.48, 10712.06) | rot=90.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DBC | text="BOD=FFL+2500" | pos=(39740.23, 7433.12) | rot=0.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DBB | text="SED-1700x500" | pos=(39740.23, 7572.02) | rot=0.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DBA | text="BOD=FFL+2500" | pos=(16024.68, 47373.71) | rot=90.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DB9 | text="SED-550x350" | pos=(15885.77, 47373.71) | rot=90.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DB8 | text="BOD=FFL+2500" | pos=(16025.47, 36212.32) | rot=90.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DB7 | text="SED-800x400" | pos=(15886.56, 36212.32) | rot=90.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DB6 | text="BOD=FFL+2500" | pos=(16026.58, 23053.59) | rot=90.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DB5 | text="SED-1100x400" | pos=(15887.68, 23053.59) | rot=90.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DB4 | text="BOD=FFL+2500" | pos=(15852.58, 11464.82) | rot=90.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DB3 | text="SED-1450x400" | pos=(15713.68, 11464.82) | rot=90.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DB2 | text="BOD=FFL+2500" | pos=(18189.68, 2152.78) | rot=0.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DB1 | text="SED-1450x400" | pos=(18189.68, 2291.69) | rot=0.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DB0 | text="BOD=FFL+2500" | pos=(27180.11, 2152.98) | rot=0.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DAF | text="SED-1600x450" | pos=(27180.11, 2291.88) | rot=0.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DAE | text="BOD=FFL+2450" | pos=(35819.82, 2152.98) | rot=0.0deg | h=90.0 | lay=MEPG-AC-TEXT
+10DAD | text="SED-2200x600" | pos=(35819.82, 2291.88) | rot=0.0deg | h=90.0 | lay=MEPG-AC-TEXT
+
+=== ALL 99 LINES ===
+10CC7 | HORIZ | len=   403.67 | X=[39594.94, 39998.61] | Y=[400.30, 400.33] | raw=(39998.61,400.30)->(39594.94,400.33) | col=42
+10CC4 | HORIZ | len=    45.55 | X=[39399.39, 39444.94] | Y=[400.33, 400.33] | raw=(39444.94,400.33)->(39399.39,400.33) | col=42
+10CC3 | VERT  | len=  1700.00 | X=[39399.39, 39399.39] | Y=[400.33, 2100.33] | raw=(39399.39,400.33)->(39399.39,2100.33) | col=42
+10CAB | HORIZ | len=    71.43 | X=[44814.68, 44886.11] | Y=[625.22, 625.22] | raw=(44814.68,625.22)->(44886.11,625.22) | col=42
+10CAE | HORIZ | len=   124.90 | X=[44978.61, 45103.51] | Y=[625.22, 625.22] | raw=(44978.61,625.22)->(45103.51,625.22) | col=42
+10CB2 | HORIZ | len=   349.90 | X=[45253.51, 45603.42] | Y=[625.22, 625.22] | raw=(45253.51,625.22)->(45603.42,625.22) | col=42
+10CB0 | VERT  | len=  1250.00 | X=[45603.42, 45603.42] | Y=[625.22, 1875.22] | raw=(45603.42,1875.22)->(45603.42,625.22) | col=42
+10B0B | HORIZ | len=  2357.00 | X=[35222.39, 37579.39] | Y=[1075.33, 1075.33] | raw=(35222.39,1075.33)->(37579.39,1075.33) | col=42
+10B09 | VERT  | len=  2200.00 | X=[37579.39, 37579.39] | Y=[1075.33, 3275.33] | raw=(37579.39,3275.33)->(37579.39,1075.33) | col=42
+10CC6 | VERT  | len=   850.00 | X=[39594.94, 39595.01] | Y=[1250.33, 2100.33] | raw=(39594.94,1250.33)->(39595.01,2100.33) | col=42
+10D48 | VERT  | len=   800.00 | X=[20642.36, 20642.36] | Y=[1375.33, 2175.33] | raw=(20642.36,1375.33)->(20642.36,2175.33) | col=42
+10D4A | HORIZ | len= 13937.30 | X=[20644.43, 34581.73] | Y=[1375.33, 1375.33] | raw=(34581.73,1375.33)->(20644.43,1375.33) | col=42
+10D49 | VERT  | len=   800.00 | X=[34581.73, 34581.73] | Y=[1375.33, 2175.33] | raw=(34581.73,2175.33)->(34581.73,1375.33) | col=42
+10B2E | HORIZ | len=   286.60 | X=[34731.79, 35018.39] | Y=[1375.34, 1375.34] | raw=(34731.79,1375.34)->(35018.39,1375.34) | col=42
+10C83 | HORIZ | len=  3157.32 | X=[17283.11, 20440.42] | Y=[1450.06, 1450.32] | raw=(20440.42,1450.32)->(17283.11,1450.06) | col=42
+10CAA | HORIZ | len=    71.43 | X=[44814.68, 44886.11] | Y=[1875.22, 1875.22] | raw=(44814.68,1875.22)->(44886.11,1875.22) | col=42
+10CAD | HORIZ | len=   124.90 | X=[44978.61, 45103.51] | Y=[1875.22, 1875.22] | raw=(44978.61,1875.22)->(45103.51,1875.22) | col=42
+10CB1 | HORIZ | len=   349.90 | X=[45253.51, 45603.42] | Y=[1875.22, 1875.22] | raw=(45253.51,1875.22)->(45603.42,1875.22) | col=42
+10CC8 | HORIZ | len=   403.74 | X=[39595.01, 39998.75] | Y=[2100.30, 2100.33] | raw=(39998.75,2100.30)->(39595.01,2100.33) | col=42
+10CC5 | HORIZ | len=    45.55 | X=[39399.39, 39444.94] | Y=[2100.33, 2100.33] | raw=(39444.94,2100.33)->(39399.39,2100.33) | col=42
+10B2C | VERT  | len=   800.00 | X=[34731.73, 34731.73] | Y=[2175.34, 2975.34] | raw=(34731.73,2175.34)->(34731.73,2975.34) | col=42
+10CCA | HORIZ | len=   403.67 | X=[39594.94, 39998.61] | Y=[2250.30, 2250.33] | raw=(39998.61,2250.30)->(39594.94,2250.33) | col=42
+10CC0 | HORIZ | len=    45.55 | X=[39399.39, 39444.94] | Y=[2250.33, 2250.33] | raw=(39444.94,2250.33)->(39399.39,2250.33) | col=42
+10CBF | VERT  | len=  1700.00 | X=[39399.39, 39399.39] | Y=[2250.33, 3950.33] | raw=(39399.39,2250.33)->(39399.39,3950.33) | col=42
+10CB5 | HORIZ | len=    71.43 | X=[44814.68, 44886.11] | Y=[2475.08, 2475.08] | raw=(44814.68,2475.08)->(44886.11,2475.08) | col=42
+10CB8 | HORIZ | len=   124.90 | X=[44978.61, 45103.52] | Y=[2475.08, 2475.08] | raw=(44978.61,2475.08)->(45103.52,2475.08) | col=42
+10CBC | HORIZ | len=   349.90 | X=[45253.52, 45603.42] | Y=[2475.08, 2475.08] | raw=(45253.52,2475.08)->(45603.42,2475.08) | col=42
+10CBA | VERT  | len=  1250.00 | X=[45603.42, 45603.42] | Y=[2475.08, 3725.08] | raw=(45603.42,3725.08)->(45603.42,2475.08) | col=42
+10C84 | HORIZ | len=  3157.32 | X=[17282.99, 20440.30] | Y=[2900.06, 2900.32] | raw=(20440.30,2900.32)->(17282.99,2900.06) | col=42
+10D4B | HORIZ | len= 13937.36 | X=[20644.30, 34581.66] | Y=[2975.33, 2975.33] | raw=(34581.66,2975.33)->(20644.30,2975.33) | col=42
+10B2D | HORIZ | len=   286.67 | X=[34731.73, 35018.39] | Y=[2975.34, 2975.34] | raw=(34731.73,2975.34)->(35018.39,2975.34) | col=42
+10CC9 | VERT  | len=   850.00 | X=[39594.94, 39595.01] | Y=[3100.33, 3950.33] | raw=(39594.94,3100.33)->(39595.01,3950.33) | col=42
+10B0A | HORIZ | len=  2357.00 | X=[35222.39, 37579.39] | Y=[3275.33, 3275.33] | raw=(35222.39,3275.33)->(37579.39,3275.33) | col=42
+10B1E | VERT  | len=   530.89 | X=[35609.06, 35609.09] | Y=[3427.29, 3958.17] | raw=(35609.09,3427.29)->(35609.06,3958.17) | col=42
+10B1F | VERT  | len=   530.91 | X=[37309.06, 37309.09] | Y=[3427.38, 3958.29] | raw=(37309.09,3427.38)->(37309.06,3958.29) | col=42
+10D3A | VERT  | len=  5083.50 | X=[15105.47, 15105.93] | Y=[3626.87, 8710.37] | raw=(15105.47,8710.37)->(15105.93,3626.87) | col=42
+10D38 | VERT  | len=  5083.50 | X=[16555.47, 16555.93] | Y=[3626.99, 8710.50] | raw=(16555.47,8710.50)->(16555.93,3626.99) | col=42
+10CB4 | HORIZ | len=    71.43 | X=[44814.68, 44886.11] | Y=[3725.08, 3725.08] | raw=(44814.68,3725.08)->(44886.11,3725.08) | col=42
+10CB7 | HORIZ | len=   124.90 | X=[44978.61, 45103.52] | Y=[3725.08, 3725.08] | raw=(44978.61,3725.08)->(45103.52,3725.08) | col=42
+10CBB | HORIZ | len=   349.90 | X=[45253.52, 45603.42] | Y=[3725.08, 3725.08] | raw=(45253.52,3725.08)->(45603.42,3725.08) | col=42
+10CCB | HORIZ | len=   403.74 | X=[39595.01, 39998.75] | Y=[3950.30, 3950.33] | raw=(39998.75,3950.30)->(39595.01,3950.33) | col=42
+10CC1 | HORIZ | len=    45.55 | X=[39399.39, 39444.94] | Y=[3950.33, 3950.33] | raw=(39444.94,3950.33)->(39399.39,3950.33) | col=42
+10CA2 | VERT  | len=  1644.99 | X=[35608.95, 35609.05] | Y=[4108.20, 5753.19] | raw=(35608.95,5753.19)->(35609.05,4108.20) | col=42
+10CA1 | VERT  | len=  1644.97 | X=[37308.95, 37309.05] | Y=[4108.32, 5753.29] | raw=(37308.95,5753.29)->(37309.05,4108.32) | col=42
+10B4A | HORIZ | len=  5104.06 | X=[38160.88, 43264.94] | Y=[6605.34, 6605.77] | raw=(43264.94,6605.77)->(38160.88,6605.34) | col=42
+10B4B | HORIZ | len=  5104.06 | X=[38160.74, 43264.80] | Y=[8305.34, 8305.77] | raw=(43264.80,8305.77)->(38160.74,8305.34) | col=42
+10D39 | DIAG  | len=  6308.37 | X=[15104.91, 15105.47] | Y=[8710.37, 15018.74] | raw=(15104.91,15018.74)->(15105.47,8710.37) | col=42
+10D37 | DIAG  | len=  6308.36 | X=[16554.91, 16555.47] | Y=[8710.50, 15018.86] | raw=(16554.91,15018.86)->(16555.47,8710.50) | col=42
+10C9D | HORIZ | len=   849.14 | X=[44967.59, 45816.72] | Y=[9155.92, 9155.92] | raw=(45816.72,9155.92)->(44967.59,9155.92) | col=42
+10CA0 | VERT  | len= 11836.92 | X=[44116.72, 44116.72] | Y=[9157.85, 20994.77] | raw=(44116.72,20994.77)->(44116.72,9157.85) | col=42
+10C9F | VERT  | len= 11836.92 | X=[45816.72, 45816.72] | Y=[9157.99, 20994.92] | raw=(45816.72,20994.92)->(45816.72,9157.99) | col=42
+10E37 | HORIZ | len=  1450.00 | X=[15104.91, 16554.91] | Y=[15018.74, 15018.86] | raw=(15104.91,15018.74)->(16554.91,15018.86) | col=42
+10E36 | DIAG  | len=   738.24 | X=[15104.91, 15454.85] | Y=[15018.74, 15668.77] | raw=(15454.85,15668.77)->(15104.91,15018.74) | col=42
+10E38 | VERT  | len=   650.00 | X=[16554.85, 16554.91] | Y=[15018.86, 15668.86] | raw=(16554.91,15018.86)->(16554.85,15668.86) | col=42
+10B33 | DIAG  | len= 15844.26 | X=[15453.51, 15454.85] | Y=[15668.77, 31513.03] | raw=(15454.85,15668.77)->(15453.51,31513.03) | col=42
+10E35 | HORIZ | len=  1100.00 | X=[15454.85, 16554.85] | Y=[15668.77, 15668.86] | raw=(16554.85,15668.86)->(15454.85,15668.77) | col=42
+10B34 | DIAG  | len= 15844.27 | X=[16553.51, 16554.85] | Y=[15668.86, 31513.12] | raw=(16554.85,15668.86)->(16553.51,31513.12) | col=42
+10C9E | HORIZ | len=   850.86 | X=[44309.03, 45159.90] | Y=[20996.84, 20996.84] | raw=(44309.03,20996.84)->(45159.90,20996.84) | col=42
+10B47 | DIAG  | len=  6279.00 | X=[44416.19, 44416.72] | Y=[21198.78, 27477.78] | raw=(44416.72,21198.78)->(44416.19,27477.78) | col=42
+10B48 | DIAG  | len=  6279.00 | X=[45816.19, 45816.72] | Y=[21198.90, 27477.90] | raw=(45816.72,21198.90)->(45816.19,27477.90) | col=42
+10B45 | HORIZ | len=  1673.60 | X=[42082.82, 43756.42] | Y=[28179.58, 28179.73] | raw=(43756.42,28179.73)->(42082.82,28179.58) | col=42
+10B46 | HORIZ | len=  1673.60 | X=[42082.71, 43756.31] | Y=[29579.58, 29579.73] | raw=(43756.31,29579.73)->(42082.71,29579.58) | col=42
+10B41 | HORIZ | len=   700.00 | X=[40680.65, 41380.65] | Y=[30279.46, 30279.46] | raw=(41380.65,30279.46)->(40680.65,30279.46) | col=42
+10B42 | VERT  | len=    86.55 | X=[39980.65, 39980.65] | Y=[30281.40, 30367.95] | raw=(39980.65,30281.40)->(39980.65,30367.95) | col=42
+10B44 | VERT  | len=  6846.17 | X=[41380.65, 41380.65] | Y=[30281.52, 37127.69] | raw=(41380.65,30281.52)->(41380.65,37127.69) | col=42
+10B43 | VERT  | len=  6009.74 | X=[39980.65, 39980.65] | Y=[31117.95, 37127.69] | raw=(39980.65,31117.95)->(39980.65,37127.69) | col=42
+10B32 | DIAG  | len=  7627.13 | X=[15602.85, 15603.49] | Y=[31717.04, 39344.18] | raw=(15602.85,39344.18)->(15603.49,31717.04) | col=42
+10B30 | DIAG  | len=  7627.07 | X=[16402.85, 16403.49] | Y=[31717.11, 39344.18] | raw=(16402.85,39344.18)->(16403.49,31717.11) | col=42
+10BA6 | VERT  | len=     4.79 | X=[40105.54, 40105.54] | Y=[37324.90, 37329.69] | raw=(40105.54,37324.90)->(40105.54,37329.69) | col=42
+10BA5 | HORIZ | len=  1150.00 | X=[40105.54, 41255.54] | Y=[37324.90, 37325.00] | raw=(41255.54,37325.00)->(40105.54,37324.90) | col=42
+10BA8 | VERT  | len=     4.70 | X=[41255.54, 41255.54] | Y=[37325.00, 37329.69] | raw=(41255.54,37325.00)->(41255.54,37329.69) | col=42
+10BA7 | VERT  | len=  1093.46 | X=[40105.45, 40105.54] | Y=[37331.69, 38425.15] | raw=(40105.54,37331.69)->(40105.45,38425.15) | col=42
+10BA9 | VERT  | len=  1093.55 | X=[41255.45, 41255.54] | Y=[37331.69, 38425.25] | raw=(41255.54,37331.69)->(41255.45,38425.25) | col=42
+10BA3 | VERT  | len=     9.49 | X=[40105.45, 40105.45] | Y=[38427.72, 38437.21] | raw=(40105.45,38437.21)->(40105.45,38427.72) | col=42
+10BA4 | HORIZ | len=  1150.00 | X=[40105.45, 41255.45] | Y=[38427.72, 38427.81] | raw=(40105.45,38427.72)->(41255.45,38427.81) | col=42
+10B40 | HORIZ | len=  2098.90 | X=[41832.40, 43931.30] | Y=[39002.76, 39002.94] | raw=(41832.40,39002.76)->(43931.30,39002.94) | col=42
+10B31 | VERT  | len=  2937.87 | X=[15602.60, 15602.85] | Y=[39344.18, 42282.04] | raw=(15602.60,42282.04)->(15602.85,39344.18) | col=42
+10B2F | VERT  | len=  2937.93 | X=[16402.60, 16402.85] | Y=[39344.18, 42282.11] | raw=(16402.60,42282.11)->(16402.85,39344.18) | col=42
+10B3F | HORIZ | len=  2098.90 | X=[41832.30, 43931.20] | Y=[40152.55, 40152.73] | raw=(41832.30,40152.55)->(43931.20,40152.73) | col=42
+10B3D | HORIZ | len=     0.76 | X=[41832.30, 41833.06] | Y=[40162.04, 40162.04] | raw=(41832.30,40162.04)->(41833.06,40162.04) | col=42
+10B3E | HORIZ | len=  2092.93 | X=[41838.27, 43931.20] | Y=[40162.04, 40162.22] | raw=(41838.27,40162.04)->(43931.20,40162.22) | col=42
+10B3B | DIAG  | len= 13130.31 | X=[44507.04, 44508.15] | Y=[40734.63, 53864.94] | raw=(44508.15,40734.63)->(44507.04,53864.94) | col=42
+10B3C | DIAG  | len= 13130.31 | X=[45657.04, 45658.15] | Y=[40734.73, 53865.04] | raw=(45658.15,40734.73)->(45657.04,53865.04) | col=42
+10B22 | DIAG  | len= 10349.00 | X=[15726.87, 15727.73] | Y=[42486.05, 52835.05] | raw=(15726.87,52835.05)->(15727.73,42486.05) | col=42
+10B21 | DIAG  | len= 10349.00 | X=[16276.87, 16277.73] | Y=[42486.10, 52835.10] | raw=(16276.87,52835.10)->(16277.73,42486.10) | col=42
+10B20 | HORIZ | len=   550.00 | X=[15726.87, 16276.87] | Y=[52835.05, 52835.10] | raw=(15726.87,52835.05)->(16276.87,52835.10) | col=42
+10B39 | DIAG  | len=  8463.87 | X=[44606.30, 44607.02] | Y=[54068.95, 62532.82] | raw=(44607.02,54068.95)->(44606.30,62532.82) | col=42
+10B3A | DIAG  | len=  8463.87 | X=[45556.30, 45557.02] | Y=[54069.03, 62532.90] | raw=(45557.02,54069.03)->(45556.30,62532.90) | col=42
+10B24 | HORIZ | len=  9368.24 | X=[4415.11, 13783.35] | Y=[58929.66, 58929.66] | raw=(13783.35,58929.66)->(4415.11,58929.66) | col=42
+10B23 | VERT  | len=   550.00 | X=[4415.11, 4415.11] | Y=[58929.66, 59479.66] | raw=(4415.11,58929.66)->(4415.11,59479.66) | col=42
+10B25 | HORIZ | len=  9368.19 | X=[4415.11, 13783.30] | Y=[59479.66, 59479.66] | raw=(13783.30,59479.66)->(4415.11,59479.66) | col=42
+10B27 | VERT  | len=  3173.49 | X=[14060.01, 14060.28] | Y=[59756.68, 62930.18] | raw=(14060.01,62930.18)->(14060.28,59756.68) | col=42
+10B26 | VERT  | len=  3173.49 | X=[14610.01, 14610.28] | Y=[59756.73, 62930.22] | raw=(14610.01,62930.22)->(14610.28,59756.73) | col=42
+10B37 | DIAG  | len=  9393.42 | X=[34735.84, 44129.26] | Y=[63008.98, 63009.78] | raw=(44129.26,63009.78)->(34735.84,63008.98) | col=42
+10B35 | DIAG  | len= 13214.04 | X=[21317.79, 34531.83] | Y=[63082.79, 63083.92] | raw=(34531.83,63083.92)->(21317.79,63082.79) | col=42
+10B28 | DIAG  | len=  6226.80 | X=[14886.98, 21113.78] | Y=[63207.25, 63207.77] | raw=(21113.78,63207.77)->(14886.98,63207.25) | col=42
+10B29 | DIAG  | len=  6226.80 | X=[14886.94, 21113.74] | Y=[63757.25, 63757.77] | raw=(21113.74,63757.77)->(14886.94,63757.25) | col=42
+10B36 | DIAG  | len= 13214.04 | X=[21317.73, 34531.77] | Y=[63882.79, 63883.92] | raw=(34531.77,63883.92)->(21317.73,63882.79) | col=42
+10B38 | DIAG  | len=  9393.42 | X=[34735.76, 44129.18] | Y=[63958.98, 63959.78] | raw=(44129.18,63959.78)->(34735.76,63958.98) | col=42
+
+=== ALL 95 INSERTS ===
+10CD1 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[41100.68, 370.22 .. 41672.68, 2130.22] (572.00 x 1760.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L500-10982435-MB HỆ THỐNG ĐHKK HẦM B1"
+10D6D | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[39980.12, 370.29 .. 40202.76, 2130.35] (222.64 x 1760.06) | rot=180.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-11044342-MB HỆ THỐNG ĐHKK HẦM B1"
+10CC2 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[39444.94, 370.33 .. 39594.94, 2130.33] (150.00 x 1760.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-Van Vuông - Van MFD-EI60-10979405-MB HỆ THỐNG ĐHKK HẦM B1"
+10CA8 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[40202.61, 375.22 .. 41100.75, 2125.29] (898.15 x 1750.08) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN_SILENCER DUCT - L900xW1700xH1000-10978500-MB HỆ THỐNG ĐHKK HẦM B1"
+10CBD | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[37579.39, 400.33 .. 39399.39, 3950.33] (1820.00 x 3550.00) | rot=180.0deg | scale=[1.00,1.00,1.00] | name="CEN-DUCT-Trouser Piece-R2 - Trouser Piece-8868157-MB HỆ THỐNG ĐHKK HẦM B1"
+10CA7 | lay=MEPG-M-EQUIP | bbox=[41882.68, 560.22 .. 43132.68, 1940.22] (1250.00 x 1380.00) | rot=270.0deg | scale=[1.00,1.00,1.00] | name="CEN-KRUGER_AXIAL FAN_TDC-SERIES - TDC 1250_C25_J_7-7V_15-10981811-MB HỆ THỐNG ĐHKK HẦM B1"
+10CD3 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[43342.68, 595.22 .. 43914.68, 1905.22] (572.00 x 1310.00) | rot=180.0deg | scale=[1.00,1.00,1.00] | name="CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L500-10982476-MB HỆ THỐNG ĐHKK HẦM B1"
+10CAC | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[44886.11, 595.22 .. 44978.61, 1905.22] (92.50 x 1310.00) | rot=180.0deg | scale=[1.00,1.00,1.00] | name="CEN-Van Vuông - Van NRD-10978763-MB HỆ THỐNG ĐHKK HẦM B1"
+10CAF | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[45103.51, 595.22 .. 45253.51, 1905.22] (150.00 x 1310.00) | rot=180.0deg | scale=[1.00,1.00,1.00] | name="CEN-Van Vuông - Van MFD-EI60-10978791-MB HỆ THỐNG ĐHKK HẦM B1"
+10CA9 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[43914.68, 600.22 .. 44814.68, 1900.22] (900.00 x 1300.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN_SILENCER DUCT - L900xW1250xH1400-10978750-MB HỆ THỐNG ĐHKK HẦM B1"
+10CCF | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[41632.68, 615.22 .. 41882.68, 1885.22] (250.00 x 1270.00) | rot=90.0deg | scale=[1.00,1.00,1.00] | name="CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1270-MB HỆ THỐNG ĐHKK HẦM B1"
+10CCE | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[43132.68, 615.22 .. 43382.68, 1885.22] (250.00 x 1270.00) | rot=270.0deg | scale=[1.00,1.00,1.00] | name="CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1269-MB HỆ THỐNG ĐHKK HẦM B1"
+10D50 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[35012.28, 1045.33 .. 35240.88, 3305.33] (228.60 x 2260.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-11043657-MB HỆ THỐNG ĐHKK HẦM B1"
+10B17 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[34581.66, 1335.33 .. 34731.80, 3005.34] (150.14 x 1670.01) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-Van Vuông - Van VCD-V495-MB HỆ THỐNG ĐHKK HẦM B1"
+10C85 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[20434.19, 1345.31 .. 20662.92, 3005.33] (228.74 x 1660.02) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10443520-MB HỆ THỐNG ĐHKK HẦM B1"
+10D4C | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15075.93, 1420.06 .. 17289.22, 3633.11] (2213.29 x 2213.05) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-11042062-MB HỆ THỐNG ĐHKK HẦM B1"
+10CD0 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[41100.68, 2220.18 .. 41672.68, 3980.18] (572.00 x 1760.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L500-10982433-MB HỆ THỐNG ĐHKK HẦM B1"
+10D6C | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[39980.12, 2220.31 .. 40202.76, 3980.35] (222.64 x 1760.04) | rot=180.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-11044338-MB HỆ THỐNG ĐHKK HẦM B1"
+10CBE | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[39444.94, 2220.33 .. 39594.94, 3980.33] (150.00 x 1760.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-Van Vuông - Van MFD-EI60-10979405-MB HỆ THỐNG ĐHKK HẦM B1"
+10CA6 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[40202.61, 2225.18 .. 41100.75, 3975.26] (898.15 x 1750.08) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN_SILENCER DUCT - L900xW1700xH1000-10978500-MB HỆ THỐNG ĐHKK HẦM B1"
+10CA5 | lay=MEPG-M-EQUIP | bbox=[41882.68, 2410.09 .. 43132.68, 3790.09] (1250.00 x 1380.00) | rot=270.0deg | scale=[1.00,1.00,1.00] | name="CEN-KRUGER_AXIAL FAN_TDC-SERIES - TDC 1250_C25_J_7-7V_15-10981811-MB HỆ THỐNG ĐHKK HẦM B1"
+10CD2 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[43342.68, 2445.08 .. 43914.68, 3755.08] (572.00 x 1310.00) | rot=180.0deg | scale=[1.00,1.00,1.00] | name="CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L500-10982474-MB HỆ THỐNG ĐHKK HẦM B1"
+10CB6 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[44886.11, 2445.08 .. 44978.61, 3755.08] (92.50 x 1310.00) | rot=180.0deg | scale=[1.00,1.00,1.00] | name="CEN-Van Vuông - Van NRD-V1259-MB HỆ THỐNG ĐHKK HẦM B1"
+10CB9 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[45103.52, 2445.08 .. 45253.52, 3755.08] (150.00 x 1310.00) | rot=180.0deg | scale=[1.00,1.00,1.00] | name="CEN-Van Vuông - Van MFD-EI60-V1260-MB HỆ THỐNG ĐHKK HẦM B1"
+10CB3 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[43914.68, 2450.08 .. 44814.68, 3750.08] (900.00 x 1300.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN_SILENCER DUCT - L900xW1250xH1400-V1258-MB HỆ THỐNG ĐHKK HẦM B1"
+10CCD | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[41632.68, 2465.09 .. 41882.68, 3735.09] (250.00 x 1270.00) | rot=90.0deg | scale=[1.00,1.00,1.00] | name="CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1268-MB HỆ THỐNG ĐHKK HẦM B1"
+10CCC | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[43132.68, 2465.09 .. 43382.68, 3735.09] (250.00 x 1270.00) | rot=270.0deg | scale=[1.00,1.00,1.00] | name="CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-7369848-MB HỆ THỐNG ĐHKK HẦM B1"
+10D51 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[35579.09, 3275.28 .. 37459.10, 3433.49] (1880.01 x 158.21) | rot=90.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-11043671-MB HỆ THỐNG ĐHKK HẦM B1"
+10BAE | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[35569.05, 3958.17 .. 37339.06, 4108.32] (1770.01 x 150.15) | rot=270.0deg | scale=[1.00,1.00,1.00] | name="CEN-Van Vuông - Van VCD-10249905-MB HỆ THỐNG ĐHKK HẦM B1"
+10D4F | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[35578.95, 5747.08 .. 38166.99, 8335.34] (2588.04 x 2588.26) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-11043622-MB HỆ THỐNG ĐHKK HẦM B1"
+10D4D | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[43258.68, 6575.78 .. 45846.72, 9164.11] (2588.04 x 2588.33) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-11043435-MB HỆ THỐNG ĐHKK HẦM B1"
+10BCF | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[14947.39, 7712.26 .. 15105.52, 8492.26] (158.14 x 780.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V746-MB HỆ THỐNG ĐHKK HẦM B1"
+10BCE | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[14925.47, 7847.25 .. 14953.50, 8477.25] (28.03 x 630.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1"
+10BB1 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[39893.28, 8305.52 .. 40673.28, 8463.66] (780.00 x 158.14) | rot=90.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V740-MB HỆ THỐNG ĐHKK HẦM B1"
+10BB0 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[40028.27, 8455.48 .. 40658.27, 8485.59] (630.00 x 30.10) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V724-MB HỆ THỐNG ĐHKK HẦM B1"
+10BD1 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[14946.86, 13912.06 .. 15104.97, 14692.06] (158.11 x 780.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V747-MB HỆ THỐNG ĐHKK HẦM B1"
+10BD0 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[14924.94, 14047.06 .. 14952.97, 14677.06] (28.03 x 630.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1"
+10BC0 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[43958.61, 14165.84 .. 44116.72, 14945.84] (158.11 x 780.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V637-MB HỆ THỐNG ĐHKK HẦM B1"
+10BB2 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[43936.67, 14300.83 .. 43966.78, 14930.84] (30.10 x 630.00) | rot=90.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V651-MB HỆ THỐNG ĐHKK HẦM B1"
+10BD5 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15296.35, 19563.25 .. 15454.49, 20343.25] (158.14 x 780.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10268514-MB HỆ THỐNG ĐHKK HẦM B1"
+10BD2 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15274.44, 19698.25 .. 15302.46, 20328.25] (28.03 x 630.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V748-MB HỆ THỐNG ĐHKK HẦM B1"
+10BC1 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[43958.61, 20083.92 .. 44116.72, 20863.92] (158.11 x 780.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V637-MB HỆ THỐNG ĐHKK HẦM B1"
+10BB3 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[43936.67, 20218.92 .. 43966.78, 20848.92] (30.10 x 630.00) | rot=90.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1"
+10D4E | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[44106.74, 20988.66 .. 45848.62, 21217.39] (1741.88 x 228.73) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-11043439-MB HỆ THỐNG ĐHKK HẦM B1"
+10BC2 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[44258.23, 24955.73 .. 44416.37, 25735.73] (158.14 x 780.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V738-MB HỆ THỐNG ĐHKK HẦM B1"
+10BD6 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15295.89, 24961.59 .. 15454.03, 25741.59] (158.14 x 780.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V749-MB HỆ THỐNG ĐHKK HẦM B1"
+10BB4 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[44236.29, 25090.73 .. 44266.39, 25720.73] (30.10 x 630.00) | rot=90.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1"
+10BD3 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15273.98, 25096.58 .. 15302.00, 25726.58] (28.03 x 630.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1"
+10BAC | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[43707.90, 27471.61 .. 45846.19, 29609.90] (2138.29 x 2138.29) | rot=90.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213488-MB HỆ THỐNG ĐHKK HẦM B1"
+10BAB | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[39950.65, 28149.40 .. 42088.94, 30287.70] (2138.30 x 2138.30) | rot=270.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10249549-MB HỆ THỐNG ĐHKK HẦM B1"
+10BC3 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[39822.51, 30367.95 .. 39986.77, 31147.95] (164.26 x 780.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10268188-MB HỆ THỐNG ĐHKK HẦM B1"
+10BD7 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15295.43, 30388.73 .. 15453.57, 31168.73] (158.14 x 780.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V750-MB HỆ THỐNG ĐHKK HẦM B1"
+10BB5 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[39800.51, 30502.95 .. 39828.62, 31132.95] (28.11 x 630.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V741-MB HỆ THỐNG ĐHKK HẦM B1"
+10BD4 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15273.52, 30523.73 .. 15301.54, 31153.73] (28.03 x 630.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1"
+10B4C | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15423.53, 31494.54 .. 16583.55, 31723.24] (1160.02 x 228.70) | rot=270.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213517-MB HỆ THỐNG ĐHKK HẦM B1"
+10BC4 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[39822.51, 35360.62 .. 39980.65, 36140.62] (158.14 x 780.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V742-MB HỆ THỐNG ĐHKK HẦM B1"
+10BB6 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[39800.57, 35495.61 .. 39830.67, 36125.61] (30.10 x 630.00) | rot=90.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V651-MB HỆ THỐNG ĐHKK HẦM B1"
+10BDC | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15445.10, 35728.02 .. 15603.15, 36507.94] (158.05 x 779.92) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10268594-MB HỆ THỐNG ĐHKK HẦM B1"
+10BD8 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15423.18, 35862.93 .. 15451.21, 36492.93] (28.03 x 630.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1"
+10BAA | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[39950.65, 37109.20 .. 41410.65, 37337.80] (1460.00 x 228.60) | rot=270.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10249476-MB HỆ THỐNG ĐHKK HẦM B1"
+10B49 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[40075.45, 38419.19 .. 41838.53, 40192.61] (1763.09 x 1773.42) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213481-MB HỆ THỐNG ĐHKK HẦM B1"
+10B51 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[43925.04, 38977.58 .. 45688.30, 40740.84] (1763.26 x 1763.26) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V543-MB HỆ THỐNG ĐHKK HẦM B1"
+10BDD | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15444.64, 41142.40 .. 15602.69, 41922.32] (158.05 x 779.92) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V751-MB HỆ THỐNG ĐHKK HẦM B1"
+10BD9 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15422.72, 41277.32 .. 15450.75, 41907.32] (28.03 x 630.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1"
+10BC5 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[44349.95, 41358.05 .. 44508.06, 42138.05] (158.11 x 780.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V743-MB HỆ THỐNG ĐHKK HẦM B1"
+10BB7 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[44328.01, 41493.04 .. 44358.11, 42123.04] (30.10 x 630.00) | rot=90.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1"
+10C97 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15572.84, 42263.55 .. 16432.86, 42492.22] (860.02 x 228.67) | rot=270.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10702500-MB HỆ THỐNG ĐHKK HẦM B1"
+10BDE | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15569.30, 45946.51 .. 15727.44, 46726.51] (158.14 x 780.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10268613-MB HỆ THỐNG ĐHKK HẦM B1"
+10BDA | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15547.39, 46081.51 .. 15575.42, 46711.51] (28.03 x 630.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1"
+10BC6 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[44349.51, 46529.67 .. 44507.62, 47309.67] (158.11 x 780.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V743-MB HỆ THỐNG ĐHKK HẦM B1"
+10BB8 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[44327.57, 46664.67 .. 44357.67, 47294.67] (30.10 x 630.00) | rot=90.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1"
+10BDF | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15568.77, 51952.25 .. 15726.90, 52732.25] (158.14 x 780.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V752-MB HỆ THỐNG ĐHKK HẦM B1"
+10BDB | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15546.85, 52087.24 .. 15574.88, 52717.24] (28.03 x 630.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1"
+10BC7 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[44348.98, 52833.13 .. 44507.09, 53613.13] (158.11 x 780.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V743-MB HỆ THỐNG ĐHKK HẦM B1"
+10BAF | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15726.97, 52835.05 .. 16276.97, 52860.10] (550.00 x 25.05) | rot=90.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-ENDCAP - Bít ống gió EI60-10249703-MB HỆ THỐNG ĐHKK HẦM B1"
+10BB9 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[44327.03, 52968.12 .. 44357.14, 53598.12] (30.10 x 630.00) | rot=90.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1"
+10B50 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[44477.02, 53846.45 .. 45687.04, 54075.15] (1210.02 x 228.70) | rot=270.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213541-MB HỆ THỐNG ĐHKK HẦM B1"
+10BC8 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[44448.50, 58143.49 .. 44606.63, 58923.49] (158.14 x 780.00) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V738-MB HỆ THỐNG ĐHKK HẦM B1"
+10BBA | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[44426.56, 58278.48 .. 44456.66, 58908.48] (30.10 x 630.00) | rot=90.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1"
+10B2A | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[13777.17, 58899.66 .. 14640.35, 59762.84] (863.18 x 863.18) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213455-MB HỆ THỐNG ĐHKK HẦM B1"
+10BAD | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[4390.11, 58929.66 .. 4415.11, 59479.66] (25.00 x 550.00) | rot=180.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-ENDCAP - Bít ống gió EI60-10249703-MB HỆ THỐNG ĐHKK HẦM B1"
+10B4F | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[44123.07, 62526.67 .. 45586.30, 63989.90] (1463.23 x 1463.23) | rot=90.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213325-MB HỆ THỐNG ĐHKK HẦM B1"
+10BBC | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[35197.39, 62828.99 .. 35827.39, 62859.10] (630.00 x 30.10) | rot=180.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1"
+10BBB | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[42013.43, 62829.57 .. 42643.43, 62859.67] (630.00 x 30.10) | rot=180.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1"
+10BCA | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[35182.38, 62850.93 .. 35962.38, 63009.04] (780.00 x 158.11) | rot=270.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V743-MB HỆ THỐNG ĐHKK HẦM B1"
+10BC9 | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[41998.42, 62851.51 .. 42778.42, 63009.62] (780.00 x 158.11) | rot=270.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V743-MB HỆ THỐNG ĐHKK HẦM B1"
+10BBE | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[21577.39, 62902.76 .. 22207.39, 62932.86] (630.00 x 30.10) | rot=180.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1"
+10BBD | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[28377.39, 62903.36 .. 29007.39, 62933.46] (630.00 x 30.10) | rot=180.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1"
+10B2B | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[14029.93, 62924.06 .. 14893.12, 63787.25] (863.18 x 863.18) | rot=180.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213455-MB HỆ THỐNG ĐHKK HẦM B1"
+10BCC | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[21562.38, 62924.70 .. 22342.38, 63082.84] (780.00 x 158.14) | rot=270.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V744-MB HỆ THỐNG ĐHKK HẦM B1"
+10BCB | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[28362.38, 62925.30 .. 29142.38, 63083.44] (780.00 x 158.14) | rot=270.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10268197-MB HỆ THỐNG ĐHKK HẦM B1"
+10B4E | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[34525.65, 62979.83 .. 34754.33, 63989.85] (228.69 x 1010.02) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213536-MB HỆ THỐNG ĐHKK HẦM B1"
+10BBF | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15401.23, 63027.23 .. 16031.23, 63057.33] (630.00 x 30.10) | rot=180.0deg | scale=[1.00,1.00,1.00] | name="CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1"
+10BCD | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[15386.22, 63049.17 .. 16166.22, 63207.31] (780.00 x 158.14) | rot=270.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10268200-MB HỆ THỐNG ĐHKK HẦM B1"
+10B4D | lay=MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED | bbox=[21107.61, 63053.64 .. 21336.29, 63913.66] (228.67 x 860.02) | rot=0.0deg | scale=[1.00,1.00,1.00] | name="CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213533-MB HỆ THỐNG ĐHKK HẦM B1"

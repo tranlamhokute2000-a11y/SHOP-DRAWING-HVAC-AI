@@ -1,0 +1,200 @@
+﻿--- Match at #108 ---
+  [100] KieuCutOngGio
+  [101] EI
+  [102] DoLoeChanRe
+  [103] Nhap
+  [104] _NEPC
+  [105]  [Nẹp AUTO] Ống {0} → {1} (vẽ kiểu {2}).
+  [106] TDC
+  [107] nẹp C
+  [108]  Chọn đoạn ống gió thẳng muốn chuyển thành Bịt đầu: 
+  [109]  Chỉ hỗ trợ chọn Block ống gió.
+  [110]  Lỗi: Vui lòng chọn đoạn ống thẳng (xxx-OG-...).
+  [111]  [Auto] Đã tìm thấy đầu hở, đang đảo chiều bịt đầu...
+  [112]  [Cảnh báo] Ống đang chạm cả 2 đầu hoặc hở cả 2 đầu. Lấy hướng mặc định.
+  [113] {0}-CAP-TRON-D{1}-L{2}
+  [114] {0}-CAP-{1}x{2}-L{3}
+  [115]  Đã chuyển thành Đầu bịt thành công!
+  [116]  [Nẹp AUTO] Loại nẹp tự đổi theo cỡ ống (bảng ở Setup Spec → HVAC); ô LOẠI NẸP trên bảng HVAC không áp dụng.
+  [117]  Chọn điểm bắt đầu (TIM / CẠNH ống cũ, hoặc TRỤC ống gió): 
+  [118]    Vẽ tiếp ống cao độ đáy 
+  [119]  (H = đổi cao độ đáy).
+  [120] VuongTron
+  [121]  Chiều dài chân rẽ (L): 
+  [122]  Độ loe chân rẽ [{0}]: 
+  [123] Phai
+--- Match at #139 ---
+  [131] Con
+  [132] Zigzac
+  [133] Z45Len
+  [134] Z45Xuong
+  [135] Ngang
+  [136] Te
+  [137] Bit
+  [138] Cut
+  [139] TrucOG
+  [140] BLOCK:
+  [141] CutLenTron
+  [142] CutXuongTron
+  [143] Undo
+  [144]  Chức năng Undo đang cập nhật...
+  [145] C
+  [146] Z
+  [147] H
+  [148]    >> Cao độ ĐÁY ống gió: 
+  [149]  — vẽ tiếp bình thường.
+  [150]  — đoạn đã vẽ giữ cao độ cũ; nối hai cao độ bằng Z (phím Z).
+  [151] N
+  [152] T
+  [153] B
+  [154] K
+--- Match at #186 ---
+  [178]  Chuyển thành ống [Vuong/Tron] <
+  [179] Vuong
+  [180] Tron
+  [181] >: 
+  [182]  Nhập D Mới [{0}]: 
+  [183]  Nhập W Mới [{0}]: 
+  [184]  Nhập H Mới [{0}]: 
+  [185]  Chiều dài Côn/Phụ kiện (L): 
+  [186] {0}-CON-{1}-{2}x{3}-{4}x{5}-L{6}
+  [187] {0}-VT-{1}-{2}x{3}-D{4}-L{5}
+  [188] {0}-CON-TRON-{1}-D{2}-D{3}-L{4}
+  [189] {0}-TV-{1}-D{2}-{3}x{4}-L{5}
+  [190]  Chiều dài Z (L): 
+  [191]  Độ lệch cao độ (H): 
+  [192] {0}-Z2-TRON-D{1}-L{2}-H{3}
+  [193] {0}-Z2-{1}x{2}-L{3}-H{4}
+  [194]    >> Cút 45° {0} H={1} — 2 cút 45° + {2} — dài mặt bằng L={3}.
+  [195] xuống
+  [196] lên
+  [197] không đoạn giữa
+  [198] ống xiên S={0}
+  [199] 0.#
+  [200]  Cút 45° XUỐNG — độ lệch cao độ H hoặc
+  [201]  Cút 45° LÊN — độ lệch cao độ H hoặc
+--- Match at #257 ---
+  [249]  và kết thúc nhánh.
+  [250]  Đã chèn Cút VUÔNG ống gió Wc={0}, Hc={1}, L1={2}, L2={3} 
+  [251] gập lên
+  [252] gập xuống
+  [253]  Đã chèn Cút TRÒN ống gió Wc={0}, Hc={1}, R={2} 
+  [254] {0}-OG-D{1} L{2}
+  [255] {0}-OG-{1}x{2} L{3}
+  [256] UP/DOWN H={0}
+  [257] HTS-TRUCOG-*
+  [258] ChanReUp
+  [259]  Chưa có kích thước ống trên bảng HVAC — không dựng được chân rẽ.
+  [260] Down
+  [261] Up
+  [262]  [Chân rẽ đứng 
+  [263] XUỐNG
+  [264] LÊN
+  [265] ] ống 
+  [266] , L = 
+  [267] , độ loe = 
+  [268]  (
+  [269] ). Vẽ tiếp ống gió…
+  [270] HTS
+  [271] -OG-
+  [272] -CAP-
+--- Match at #274 ---
+  [266] , L = 
+  [267] , độ loe = 
+  [268]  (
+  [269] ). Vẽ tiếp ống gió…
+  [270] HTS
+  [271] -OG-
+  [272] -CAP-
+  [273] -Z
+  [274] -CON-
+  [275] -VT-
+  [276] -TV-
+  [277] -CO-
+  [278] -TAP-
+  [279] -TEE-
+  [280] -CO45D-
+  [281] -OGX45-
+  [282] XUONG
+  [283]  L
+  [284] -OG-D
+  [285] -CAP-TRON-D
+  [286] -A
+  [287] LEN
+  [288] -CO45D-TRON-D
+  [289] -OGX45-TRON-D
+--- Match at #297 ---
+  [289] -OGX45-TRON-D
+  [290] -Z45-
+  [291] -H
+  [292] -Z45-TRON-D
+  [293] -Z2-
+  [294] -Z2-TRON-D
+  [295] -ZN-
+  [296] -E
+  [297] -CON-TRON-
+  [298] -CO-V47-
+  [299] -CO-EI-
+  [300] -CO-TRON-D
+  [301] -VT-TAP-
+  [302] ^(.+)-TAP-(Can|Trai|Phai)-([\d.]+)x([\d.]+)-L([\d.]+)-D(-?[\d.]+)-(Up|Down)$
+  [303] ^(.+)-VT-TAP-(Can|Trai|Phai)-D([\d.]+)-L([\d.]+)-D([\d.]+)$
+  [304] ^(.+)-VT-(Can|Trai|Phai)-([\d.]+)x([\d.]+)-D([\d.]+)-L([\d.]+)$
+  [305] ^(.+)-TV-(Can|Trai|Phai)-D([\d.]+)-([\d.]+)x([\d.]+)-L([\d.]+)$
+  [306] ^(.+)-CAP-TRON-D([\d.]+)-L([\d.]+)$
+  [307] ^(.+)-CAP-([\d.]+)x([\d.]+)-L([\d.]+)$
+  [308] ^(.+)-CO45D-TRON-D([\d.]+)-R([\d.]+)-A([\d.]+)-(LEN|XUONG)$
+  [309] ^(.+)-CO45D-([\d.]+)x([\d.]+)-R([\d.]+)-A([\d.]+)-(LEN|XUONG)$
+  [310] ^(.+)-OGX45-TRON-D([\d.]+)-L([\d.]+)-(LEN|XUONG)$
+  [311] ^(.+)-OGX45-([\d.]+)x([\d.]+)-L([\d.]+)-(LEN|XUONG)$
+  [312] ^(.+)-Z45-TRON-D([\d.]+)-L([\d.]+)-H(-?[\d.]+)$
+--- Match at #317 ---
+  [309] ^(.+)-CO45D-([\d.]+)x([\d.]+)-R([\d.]+)-A([\d.]+)-(LEN|XUONG)$
+  [310] ^(.+)-OGX45-TRON-D([\d.]+)-L([\d.]+)-(LEN|XUONG)$
+  [311] ^(.+)-OGX45-([\d.]+)x([\d.]+)-L([\d.]+)-(LEN|XUONG)$
+  [312] ^(.+)-Z45-TRON-D([\d.]+)-L([\d.]+)-H(-?[\d.]+)$
+  [313] ^(.+)-Z45-([\d.]+)x([\d.]+)-L([\d.]+)-H(-?[\d.]+)$
+  [314] ^(.+)-Z2?-TRON-D([\d.]+)-L([\d.]+)-H(-?[\d.]+)$
+  [315] ^(.+)-ZN-([\d.]+)x([\d.]+)-L([\d.]+)-E(-?[\d.]+)$
+  [316] ^(.+)-Z2?-([\d.]+)x([\d.]+)-L([\d.]+)-H(-?[\d.]+)$
+  [317] ^(.+)-CON-TRON-(Can|Trai|Phai)-D([\d.]+)-D([\d.]+)-L([\d.]+)$
+  [318] ^(.+)-CON-(Can|Trai|Phai)-([\d.]+)x([\d.]+)-([\d.]+)x([\d.]+)-L([\d.]+)$
+  [319] ^(.+)-CO-TRON-D([\d.]+)-R([\d.]+)-A([\d.]+)$
+  [320] ^(.+)-CO-V47-([\d.]+)x([\d.]+)-R([\d.]+)-A([\d.]+)$
+  [321] ^(.+)-CO-EI-([\d.]+)x([\d.]+)-R([\d.]+)-A([\d.]+)$
+  [322] ^(.+)-CO-EI-([\d.]+)x([\d.]+)-A([\d.]+)$
+  [323] ^(.+)-TAP-(Can|Trai|Phai)-([\d.]+)x([\d.]+)-L([\d.]+)-D([\d.]+)$
+  [324] ^(.+)-TEE-([\d.]+)x([\d.]+)$
+  [325] ^(.+)-OG-D([\d.]+) L([\d.]+)$
+  [326] ^(.+)-OG-([\d.]+)x([\d.]+) L([\d.]+)$
+  [327] INSERT,LWPOLYLINE,POLYLINE
+  [328]  [OG3D] Chọn ống gió HTS cần dựng 3D — gồm cả ống mềm (Enter = tất cả): 
+  [329]    (Không chọn — quét toàn bộ không gian hiện hành: {0} block)
+  [330]  [OG3D] Đã hủy.
+  [331]  [OG3D] Không có block nào. Đã hủy.
+  [332]  Cao độ ĐÁY ống (mm) cho 
+--- Match at #1205 ---
+  [1197] BOT. EL xxx
+  [1198] H=xxx
+  [1199] Z=xxx
+  [1200] xxx
+  [1201] 3.2 → +3.200 · 0 → ±0.000. Theo XData: cao độ đáy gán lúc vẽ (ô CAO ĐỘ ĐÁY) hoặc nút GÁN — thang chưa gán thì ghi số ở ô (trống = bỏ qua); Z, cút lên / xuống lấy đầu gần mũi tên. Gõ C ở dòng lệnh để đổi số giữa chừng.
+  [1202] Cập nhật theo thang máng
+  [1203] Đọc lại MỌI tag thang / máng đã chèn bằng công cụ này: kích thước, và cao độ của tag lấy theo XData — thang đã đổi cỡ / gán lại cao độ thì tag đổi theo; chỉ thay đúng các cụm đó, phần chữ khác giữ nguyên.
+  [1204] OGIO
+  [1205] HTS_TAGOG
+  [1206] Tag ống gió
+  [1207] ống gió
+  [1208] VẼ ỐNG GIÓ / VẼ ỐNG GIÓ TRÒN / ỐNG GIÓ MỀM
+  [1209] tag-ong-gio.cfg
+  [1210] Cap
+  [1211] Gió cấp:
+  [1212] ỐNG GIÓ CẤP
+  [1213] ỐNG CẤP GIÓ LẠNH
+  [1214] SUPPLY AIR DUCT
+  [1215] SA
+  [1216] Hoi
+  [1217] Gió hồi:
+  [1218] ỐNG GIÓ HỒI
+  [1219] RETURN AIR DUCT
+  [1220] RA

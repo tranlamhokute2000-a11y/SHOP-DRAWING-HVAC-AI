@@ -1,0 +1,2352 @@
+﻿[0] Protected section integrity validation failed.
+[1] Unable to make a protected section writable.
+[2] HTS Cable tray
+[3] HTS Elbow Cable tray
+[4] HTS Elbow 45 Cable tray
+[5] HTS Reducer Cable tray
+[6] HTS Tee Cable tray
+[7] HTS Cross Cable tray
+[8] \nLỗi: 
+[9] \nNhập bề rộng máng (Width): 
+[10] \nNhập chiều cao máng (Height): 
+[11] \nChọn điểm bắt đầu: 
+[12] \nĐã chuyển Tee thành Cross. Kết thúc lệnh.
+[13] SHORTCUTMENU
+[14] Width1
+[15] Length
+[16] Width2
+[17] Fitting
+[18] MangCap
+[19] \nĐã chèn block: 
+[20] \nLỗi chèn block 
+[21] : 
+[22] Width
+[23] \nNhập bề rộng mới (Hiện tại: {0}): 
+[24] \nHoàn thành vẽ máng cáp.
+[25] POINT
+[26] HTS Cable Tray W{0}xH{1}
+[27] HTS Cable Tray
+[28] HTS Cable tray.dwg
+[29] .dwg
+[30] Thiếu file thư viện: 
+[31] . Hãy chạy CẤU HÌNH THƯ VIỆN trước.
+[32] \nChọn vị trí Dàn nóng hoặc Trục kỹ thuật: 
+[33] \nDi chuột và Click điểm để định hướng tuyến chính (X hoặc Y): 
+[34] \nChọn Dàn lạnh số 1 để kết nối: 
+[35] \nChỉ được chọn Block.
+[36] NODE_COPPER
+[37] \nLỗi: Không tìm thấy điểm NODE_COPPER trong Dàn lạnh này.
+[38] \n[Lỗi Khởi tạo]: 
+[39] OSMODE
+[40] \nChọn điểm trên ống vừa vẽ để đặt Bộ chia ga [Enter để kết thúc & Bo góc]: 
+[41] BOCHIAGA
+[42] Không tìm thấy Block hoặc File DWG nào chứa tên BOCHIAGA trong Support Search Path.
+[43] OUT1
+[44] \n[Lỗi Chèn Bộ Chia Ga]: 
+[45] \nChọn Dàn lạnh số {0} để kết nối từ bộ chia ga: 
+[46] OUT2
+[47] \nThiếu Node kết nối. Bỏ qua Dàn lạnh số {0}.
+[48] \n[Lỗi Nối Dàn Lạnh]: 
+[49] \nĐã hoàn tất định tuyến và tự động bo tròn các góc R100 thành công!
+[50] \n[Lỗi Auto-Fillet]: 
+[51] HTS-
+[52] *
+[53] *.dwg
+[54] SupportPath
+[55] Files
+[56] Preferences
+[57] ACAD
+[58] \n[CVPIPE] Chế độ phụ kiện: {0}\n
+[59] THƯỜNG
+[60] THU (nối thu)
+[61] \n[CVPIPE] Quét chọn Polyline + Block đầu phun cần xử lý: 
+[62] <OR
+[63] LWPOLYLINE
+[64] INSERT
+[65] OR>
+[66] \n[CVPIPE] Không có đối tượng nào được chọn.
+[67] (unnamed)
+[68] UP
+[69] \n[CVPIPE] Selection không có BlockReference nào.
+[70] HTS_BENCH_DAUPHUN
+[71] HTS-SCREW-RED-DN25x15
+[72] WELD
+[73] SCREW
+[74] HTS-{0}-ELB90-DN{1}
+[75] HTS-{0}-TEE-DN{1}x{2}
+[76] HTS-Kepren-DN{0}
+[77] SIDE
+[78] \n[Cảnh báo] Không tìm thấy block '{0}' trong support path. Bỏ qua Kepren cho nhánh DN{1}.
+[79] HTS-{0}-RED-DN{1}x{2}
+[80] \nĐã tạo Mline tự động trim theo mép phụ kiện (PO).
+[81] \n[CVPIPE] Lỗi mở dialog: 
+[82] \n[CVPIPE] Đã huỷ.
+[83] \n[CVPIPE-Thu] Khong tim thay cut '
+[84] '. Bo qua dau phun nay.
+[85] \n[CVPIPE-Thu] Khong tim thay con 'HTS-SCREW-RED-DN25x15' tai dau phun. Bo qua con.
+[86] HTS-{0}-TEE-DN{1}x{2}x{3}
+[87] \n[CVPIPE-Thu] Khong tim thay te thu '
+[88] \n[CVPIPE-Thu] Khong tim thay con thu '
+[89] ' tai dau phun. Bo qua con.
+[90] PipeConfig.json
+[91] "TeeBranchSize"\s*:\s*(\d+)
+[92] {\n  "TeeBranchSize": 25\n}
+[93] \nĐã tạo file cấu hình mẫu tại: 
+[94] \n[Cảnh báo] Lỗi truy xuất file config (PipeConfig.json). Đang dùng nhánh TEE mặc định là 25. Chi tiết lỗi: 
+[95] DN(\d+)
+[96] Visibility1
+[97] Spec
+[98] SpecHVAC.json
+[99] "
+[100] KieuCutOngGio
+[101] EI
+[102] DoLoeChanRe
+[103] Nhap
+[104] _NEPC
+[105] \n[Nẹp AUTO] Ống {0} → {1} (vẽ kiểu {2}).
+[106] TDC
+[107] nẹp C
+[108] \nChọn đoạn ống gió thẳng muốn chuyển thành Bịt đầu: 
+[109] \nChỉ hỗ trợ chọn Block ống gió.
+[110] \nLỗi: Vui lòng chọn đoạn ống thẳng (xxx-OG-...).
+[111] \n[Auto] Đã tìm thấy đầu hở, đang đảo chiều bịt đầu...
+[112] \n[Cảnh báo] Ống đang chạm cả 2 đầu hoặc hở cả 2 đầu. Lấy hướng mặc định.
+[113] {0}-CAP-TRON-D{1}-L{2}
+[114] {0}-CAP-{1}x{2}-L{3}
+[115] \nĐã chuyển thành Đầu bịt thành công!
+[116] \n[Nẹp AUTO] Loại nẹp tự đổi theo cỡ ống (bảng ở Setup Spec → HVAC); ô LOẠI NẸP trên bảng HVAC không áp dụng.
+[117] \nChọn điểm bắt đầu (TIM / CẠNH ống cũ, hoặc TRỤC ống gió): 
+[118] \n  Vẽ tiếp ống cao độ đáy 
+[119]  (H = đổi cao độ đáy).
+[120] VuongTron
+[121] \nChiều dài chân rẽ (L): 
+[122] \nĐộ loe chân rẽ [{0}]: 
+[123] Phai
+[124] Trai
+[125] ChanRe
+[126] \nĐiểm tiếp theo [C-Côn/Z-Zđứng/N-Ngang/T-Tê/B-Bịt/K-Khớp mềm/H-Cao độ đáy
+[127]  
+[128] /Undo]: 
+[129] U
+[130] HTS_BENCH_POPUP_OG
+[131] Con
+[132] Zigzac
+[133] Z45Len
+[134] Z45Xuong
+[135] Ngang
+[136] Te
+[137] Bit
+[138] Cut
+[139] TrucOG
+[140] BLOCK:
+[141] CutLenTron
+[142] CutXuongTron
+[143] Undo
+[144] \nChức năng Undo đang cập nhật...
+[145] C
+[146] Z
+[147] H
+[148] \n  >> Cao độ ĐÁY ống gió: 
+[149]  — vẽ tiếp bình thường.
+[150]  — đoạn đã vẽ giữ cao độ cũ; nối hai cao độ bằng Z (phím Z).
+[151] N
+[152] T
+[153] B
+[154] K
+[155] HTS_Khop noi mem tron
+[156] \nGóc cua 90° [CÚT EI] — kích thước lấy theo ống chính W={0}.
+[157] \nGóc cua {0:0.#}° [CÚT EI] Bán kính cong R (mặc định W/2 = {1}) <{2}>: 
+[158] \nGóc cua {0:0.#}° — bán kính cong R (mặc định {1}/2 = {2}) <{3}>: 
+[159] W
+[160] D
+[161] -TEE01-
+[162] x
+[163] -
+[164] \nĐã chèn Tê ống gió Wc={0}, Hc={1}, W1={2}, R1={3}, W2={4}, R2={5} tại ({6:F0}, {7:F0})
+[165] \nĐã chèn Tê THẲNG ống gió Wc={0}, Hc={1}, W1={2}, L1={3}, W2={4}, R1={5} 
+[166] ({0}) tại ({1:F0}, {2:F0})
+[167] rẽ lên
+[168] rẽ xuống
+[169] \nĐã chèn Tê RẼ NHÁNH ống gió Wc={0}, Hc={1}, L1={2}, W1={3}, L2={4}, R1={5} 
+[170] \nĐường kính ống (D) [{0}]: 
+[171] \nChiều rộng (W) [{0}]: 
+[172] \nChiều cao (H) [{0}]: 
+[173] \n[Côn thu] Ống cũ {0} khác cỡ đang đặt {1} → chèn côn nối.
+[174] Can
+[175] \nChiều dài côn
+[176] Bo
+[177] \n  Bỏ chèn côn — vẽ tiếp theo cỡ ống cũ {0}.
+[178] \nChuyển thành ống [Vuong/Tron] <
+[179] Vuong
+[180] Tron
+[181] >: 
+[182] \nNhập D Mới [{0}]: 
+[183] \nNhập W Mới [{0}]: 
+[184] \nNhập H Mới [{0}]: 
+[185] \nChiều dài Côn/Phụ kiện (L): 
+[186] {0}-CON-{1}-{2}x{3}-{4}x{5}-L{6}
+[187] {0}-VT-{1}-{2}x{3}-D{4}-L{5}
+[188] {0}-CON-TRON-{1}-D{2}-D{3}-L{4}
+[189] {0}-TV-{1}-D{2}-{3}x{4}-L{5}
+[190] \nChiều dài Z (L): 
+[191] \nĐộ lệch cao độ (H): 
+[192] {0}-Z2-TRON-D{1}-L{2}-H{3}
+[193] {0}-Z2-{1}x{2}-L{3}-H{4}
+[194] \n  >> Cút 45° {0} H={1} — 2 cút 45° + {2} — dài mặt bằng L={3}.
+[195] xuống
+[196] lên
+[197] không đoạn giữa
+[198] ống xiên S={0}
+[199] 0.#
+[200] \nCút 45° XUỐNG — độ lệch cao độ H hoặc
+[201] \nCút 45° LÊN — độ lệch cao độ H hoặc
+[202] S
+[203] Đoạn giữa S
+[204] \nDài đoạn giữa S (theo trục ống xiên): 
+[205] \n  >> Đoạn giữa S={0} → độ lệch H={1}.
+[206] \nChiều dài khớp nối mềm (L): 
+[207] -KNM-D
+[208] -L
+[209] \nChưa xác định được đường kính ống tròn.
+[210] \nBán kính cong R của cút 
+[211]  <
+[212] COXTR01
+[213] COLTR01
+[214] -D
+[215] -R
+[216] 0
+[217] \n[Cút 
+[218]  tròn] Lỗi: 
+[219] \nĐã chèn Cút 
+[220]  ống tròn: D=
+[221] , R=
+[222] .
+[223] \nKhông tìm thấy block '
+[224] .dwg' trong thư viện HVAC.
+[225] \nChiều dài van L <
+[226] L
+[227] \n[Van] Lỗi chèn block: 
+[228] Library
+[229] HVAC
+[230] Phụ kiện
+[231] \nĐộ lệch trục ngang (E): 
+[232] \nChọn điểm kết thúc (xác định chiều dài L): 
+[233] \nChiều dài quá ngắn.
+[234] {0}-ZN-{1}x{2}-L{3}-E{4}
+[235] \nĐã tạo ống Z ngang: W={0}, H={1}, L={2}, E={3}
+[236] \nChưa có hướng ống, không thể chèn Tê.
+[237] \nKhông tìm thấy ống gió tại vị trí hiện tại để chèn Tê.
+[238] \nỐng chính: Wc = {0} (tự nhận diện). Chọn loại + thông số Tê:
+[239] \nChiều dài Bịt đầu (L) [50]: 
+[240] \nĐã bịt đầu ống và kết thúc nhánh.
+[241] \nChưa có hướng ống, không thể chèn Cút.
+[242] \nKhông tìm thấy ống gió tại vị trí hiện tại để chèn Cút.
+[243] \nỐng chính: Wc={0}, Hc={1} (tự nhận diện). Chọn loại + thông số Cút:
+[244] DOWN
+[245] {0}-CO-{1}-{2}x{3}-R{4}-A90
+[246] \nĐã chèn Cút ống gió 
+[247] Xuống
+[248] Lên
+[249]  và kết thúc nhánh.
+[250] \nĐã chèn Cút VUÔNG ống gió Wc={0}, Hc={1}, L1={2}, L2={3} 
+[251] gập lên
+[252] gập xuống
+[253] \nĐã chèn Cút TRÒN ống gió Wc={0}, Hc={1}, R={2} 
+[254] {0}-OG-D{1} L{2}
+[255] {0}-OG-{1}x{2} L{3}
+[256] UP/DOWN H={0}
+[257] HTS-TRUCOG-*
+[258] ChanReUp
+[259] \nChưa có kích thước ống trên bảng HVAC — không dựng được chân rẽ.
+[260] Down
+[261] Up
+[262] \n[Chân rẽ đứng 
+[263] XUỐNG
+[264] LÊN
+[265] ] ống 
+[266] , L = 
+[267] , độ loe = 
+[268]  (
+[269] ). Vẽ tiếp ống gió…
+[270] HTS
+[271] -OG-
+[272] -CAP-
+[273] -Z
+[274] -CON-
+[275] -VT-
+[276] -TV-
+[277] -CO-
+[278] -TAP-
+[279] -TEE-
+[280] -CO45D-
+[281] -OGX45-
+[282] XUONG
+[283]  L
+[284] -OG-D
+[285] -CAP-TRON-D
+[286] -A
+[287] LEN
+[288] -CO45D-TRON-D
+[289] -OGX45-TRON-D
+[290] -Z45-
+[291] -H
+[292] -Z45-TRON-D
+[293] -Z2-
+[294] -Z2-TRON-D
+[295] -ZN-
+[296] -E
+[297] -CON-TRON-
+[298] -CO-V47-
+[299] -CO-EI-
+[300] -CO-TRON-D
+[301] -VT-TAP-
+[302] ^(.+)-TAP-(Can|Trai|Phai)-([\d.]+)x([\d.]+)-L([\d.]+)-D(-?[\d.]+)-(Up|Down)$
+[303] ^(.+)-VT-TAP-(Can|Trai|Phai)-D([\d.]+)-L([\d.]+)-D([\d.]+)$
+[304] ^(.+)-VT-(Can|Trai|Phai)-([\d.]+)x([\d.]+)-D([\d.]+)-L([\d.]+)$
+[305] ^(.+)-TV-(Can|Trai|Phai)-D([\d.]+)-([\d.]+)x([\d.]+)-L([\d.]+)$
+[306] ^(.+)-CAP-TRON-D([\d.]+)-L([\d.]+)$
+[307] ^(.+)-CAP-([\d.]+)x([\d.]+)-L([\d.]+)$
+[308] ^(.+)-CO45D-TRON-D([\d.]+)-R([\d.]+)-A([\d.]+)-(LEN|XUONG)$
+[309] ^(.+)-CO45D-([\d.]+)x([\d.]+)-R([\d.]+)-A([\d.]+)-(LEN|XUONG)$
+[310] ^(.+)-OGX45-TRON-D([\d.]+)-L([\d.]+)-(LEN|XUONG)$
+[311] ^(.+)-OGX45-([\d.]+)x([\d.]+)-L([\d.]+)-(LEN|XUONG)$
+[312] ^(.+)-Z45-TRON-D([\d.]+)-L([\d.]+)-H(-?[\d.]+)$
+[313] ^(.+)-Z45-([\d.]+)x([\d.]+)-L([\d.]+)-H(-?[\d.]+)$
+[314] ^(.+)-Z2?-TRON-D([\d.]+)-L([\d.]+)-H(-?[\d.]+)$
+[315] ^(.+)-ZN-([\d.]+)x([\d.]+)-L([\d.]+)-E(-?[\d.]+)$
+[316] ^(.+)-Z2?-([\d.]+)x([\d.]+)-L([\d.]+)-H(-?[\d.]+)$
+[317] ^(.+)-CON-TRON-(Can|Trai|Phai)-D([\d.]+)-D([\d.]+)-L([\d.]+)$
+[318] ^(.+)-CON-(Can|Trai|Phai)-([\d.]+)x([\d.]+)-([\d.]+)x([\d.]+)-L([\d.]+)$
+[319] ^(.+)-CO-TRON-D([\d.]+)-R([\d.]+)-A([\d.]+)$
+[320] ^(.+)-CO-V47-([\d.]+)x([\d.]+)-R([\d.]+)-A([\d.]+)$
+[321] ^(.+)-CO-EI-([\d.]+)x([\d.]+)-R([\d.]+)-A([\d.]+)$
+[322] ^(.+)-CO-EI-([\d.]+)x([\d.]+)-A([\d.]+)$
+[323] ^(.+)-TAP-(Can|Trai|Phai)-([\d.]+)x([\d.]+)-L([\d.]+)-D([\d.]+)$
+[324] ^(.+)-TEE-([\d.]+)x([\d.]+)$
+[325] ^(.+)-OG-D([\d.]+) L([\d.]+)$
+[326] ^(.+)-OG-([\d.]+)x([\d.]+) L([\d.]+)$
+[327] INSERT,LWPOLYLINE,POLYLINE
+[328] \n[OG3D] Chọn ống gió HTS cần dựng 3D — gồm cả ống mềm (Enter = tất cả): 
+[329] \n  (Không chọn — quét toàn bộ không gian hiện hành: {0} block)
+[330] \n[OG3D] Đã hủy.
+[331] \n[OG3D] Không có block nào. Đã hủy.
+[332] \nCao độ ĐÁY ống (mm) cho 
+[333]  ống / phụ kiện chưa gán cao độ khi vẽ
+[334] \n  Mọi ống đã gán cao độ ĐÁY khi vẽ — dựng theo cao độ đã gán.
+[335] \n[OG3D] Lỗi: 
+[336] \nĐiểm đặt mô hình 3D ống gió (góc dưới trái vùng chọn đặt tại đây)
+[337] \nĐiểm đặt mô hình 3D ống gió (góc dưới trái vùng chọn đặt tại đây; Enter = chỗ cũ)
+[338] TaiCho
+[339] \n  Dựng tại chỗ — mô hình chồng lên mặt bằng 2D.
+[340] HTS_OG3D_LECH
+[341] bề rộng
+[342] OG
+[343] VG
+[344] OGM
+[345] MG
+[346] \n[OG3D] Dựng 
+[347]  giá đỡ 3D, 
+[348]  ty ren treo lên trần thô.
+[349] \n[OG3D] Đã dựng {0} khối 3D cùng layer block 2D (đáy = cao độ gán khi vẽ; ống chưa gán đáy {1:0.#} mm) — {2} ms.
+[350] \n  Đã thay {0} khối 3D của lần dựng trước (cùng ống / phụ kiện 2D).
+[351] \n  Trong đó {0} khối dựng gần đúng (hộp bao).
+[352] \n  Trong đó {0} ống gió mềm (cao độ lấy theo đầu nối).
+[353] \n  ⚠ {0} ống mềm không bám vào phụ kiện nào → dùng cao độ gốc.
+[354] \n  {0} ống mềm bo cong hạ cao độ xuống đấu vào miệng gió ở trần giả.
+[355] \n  Dựng {0} miệng gió 3D tại trần giả (cao độ theo: {1}).
+[356] , 
+[357] \n  Trong đó {0} van gió / khớp nối mềm 3D (thân + mặt bích, tay gạt / motor theo hình 2D).
+[358] \n  ⚠ {0} van vuông không rõ chiều cao (không hậu tố cỡ, không nối ống) → lấy bằng bề rộng.
+[359] \n  ⚠ {0} van chèn tay hẹp hơn ống nằm dưới (chưa kéo Width1 theo bề rộng ống) → khối van lọt trong ống; chỉnh Width1 rồi OG3D lại.
+[360] \n  {0} van đã có sẵn khối 3D trong block — giữ nguyên, không dựng chồng.
+[361] \n  Đặt {0} thiết bị 3D (block có state 3D: dàn lạnh, chiller, máy cục bộ…) — {1} theo cao độ đã gán, {2} chưa gán → cao độ 0; xoay / căn chỉnh trong HCAD.
+[362] \n  {0} thiết bị đã có khối 3D của hệ khác tại chỗ (QUÉT CTN / PCCC) — không đặt trùng.
+[363] \n  {0} phụ kiện Z đổi cao độ → mô hình có {1} mức cao độ.
+[364] \n  ⚠ {0} chỗ cao độ mâu thuẫn (vòng kín có Hdiff không khớp) — lấy giá trị lan tới trước.
+[365] \n  Bỏ qua {0} block không phải ống gió HTS.
+[366] \n  {0} block không dựng được khối.
+[367] \n  Giữ nguyên khối 3D cũ của {0} nguồn dựng lại không được.
+[368] -TEE
+[369] POLYLINE
+[370] LWPOLYLINE,POLYLINE
+[371] \n[OGM3D] Chọn ống gió mềm đã vẽ (hình gấp nếp của lệnh NM): 
+[372] \n[OGM3D] Đã hủy.
+[373] \n[OGM3D] Không có đối tượng nào. Đã hủy.
+[374] \nCao độ ĐÁY ống mềm (mm)
+[375] \n[OGM3D] Đã dựng {0} ống mềm cùng layer ống 2D (đáy {1:0.#} mm) — {2} ms.
+[376] \n  Đã thay {0} khối 3D của lần dựng trước.
+[377] \n  Đường kính đọc được từ hình: {0}.
+[378] \n  Bỏ qua {0} đường không phải ống gió mềm (không có dạng gấp nếp của lệnh NM).
+[379] \n  {0} ống không dựng được khối (đường tâm quá ngắn hoặc tự cắt).
+[380] \n  Xem 3D bằng lệnh 3DORBIT.
+[381] \n[OGM3D] Lỗi: 
+[382] HTS_OGM
+[383] , …
+[384] HTS_HVAC_3D
+[385] |
+[386] HTS_3D_LECH
+[387] HTS_BENCH_KB
+[388] \n  [bench] bo qua mo chot goc HCAD (
+[389]  khoi).
+[390] \n  (Bỏ qua chốt góc: 
+[391] )
+[392] \n  (Không mở được chốt góc — xem lại bằng lệnh OG3DHCAD; khung nhìn Layout: OG3DVP.)
+[393] \n[OG3DHCAD] Chọn mô hình 3D ống gió cần xem / chốt góc (Enter = mọi khối OG3D): 
+[394] \n[OG3DHCAD] Chưa có mô hình 3D ống gió — chạy OG3D trước.
+[395] \n[OG3DHCAD] 
+[396]  đối tượng → chốt góc.
+[397] gán
+[398] vùng trần
+[399] palette
+[400] HTS_ELEVATION
+[401] KHOP NOI MEM
+[402] -KNM-
+[403] KNM
+[404] TRON
+[405] VAN GIO
+[406] VAN CHAN LUA
+[407] VANGIO
+[408] HTS-VG-
+[409] MFD
+[410] CHAN LUA
+[411] FD
+[412] MOT CHIEU
+[413] RND
+[414] NRD
+[415] MOTOR
+[416] MD
+[417] VCD
+[418] -RD-
+[419] tên
+[420] DUCT
+[421] thuộc tính
+[422] ống nối
+[423] HTS_3D_CAP
+[424] HTS-Tudien
+[425] HTS-BOX
+[426] HTS-CONGTAC
+[427] HTS-OCAM
+[428] HTS-DEN
+[429] HTS-Hopchiadien
+[430] HTS-CAMBIEN
+[431] HTS-DauBao
+[432] VEDAY_SYSTEM
+[433] Origin
+[434] visibility
+[435] hiển thị
+[436] TB
+[437] \n  Tuyến chia thành {0} mức cao độ ({1} phụ kiện Z).
+[438] \n  Mức chính ({0} phụ kiện) = cao độ đã nhập {1:0.#} mm.
+[439] \n  Tuyến đang TÔ SÁNG ({0} phụ kiện) lệch {1:0.#} mm so với mức chính — [Len/Xuong] <Xuong>: 
+[440] Len
+[441] Xuong
+[442] \n    → cao độ {0:0.#} mm ({1}).
+[443] \n[OG3DVP] Chưa có khối 3D ống gió nào. Chạy OG3D trước.
+[444] TILEMODE
+[445] \n[OG3DVP] Đã chuyển sang Layout '{0}'.
+[446] \n[OG3DVP] Quét vùng trên Layout để đặt khung nhìn 3D.
+[447] \nGóc thứ nhất: 
+[448] \n[OG3DVP] Đã hủy.
+[449] \nGóc đối diện: 
+[450] \n[OG3DVP] Vùng quá nhỏ. Đã hủy.
+[451] \n  Không bật được khung nhìn — kiểm tra biến MAXACTVP.
+[452] \n[OG3DVP] Đã đặt khung nhìn 3D (SE Isometric) — chỉ hiện layer có khối 3D ống gió.
+[453] \n  Muốn khoá tỉ lệ khung nhìn: chọn khung → bảng Properties → Display Locked = Yes.
+[454] 3DSOLID
+[455] ^.+-(?:TEE01|TEETH02|TEEBR01)-[\d.]+x([\d.]+)(?:-.*)?$
+[456] ^.+-CO-EI-[\d.]+x([\d.]+)(?:-.*)?$
+[457] ^(HTS[-_ ])?(SAG|SAL|RAG|RAL|SAD|RAD|SLD|RLD|EAG|EAL|FAL)-|^(HTS[-_ ])?MG-|MI[EỆ]NG\s*GI[OÓ]|C[UỬ]A\s*GI[OÓ]|DIFFUSER
+[458] TR[OÒ]N|[-_ ]RD\b|ROUND|CIRC
+[459] -(\d+(?:\.\d+)?)x(\d+(?:\.\d+)?)(?:-L(\d+(?:\.\d+)?))?$
+[460] -D(\d+(?:\.\d+)?)(?:-L(\d+(?:\.\d+)?))?$
+[461] W\s*(\d+(?:\.\d+)?)\s*[xX×*]\s*H\s*(\d+(?:\.\d+)?)
+[462] ^\s*[DØ]\s*(\d+(?:\.\d+)?)\s*$
+[463] (^|[-_ ])FD($|[-_ ])
+[464] (^|[-_ ])MD($|[-_ ])
+[465] HTS_DCTOG
+[466] \n[Điều chỉnh tuyến ống gió] Chọn 1 ống thẳng (kéo ngang cả tuyến), 1 phụ kiện, hoặc quét cả cụm: 
+[467] \n[Điều chỉnh tuyến ống gió] Lỗi đọc mạng ống: 
+[468] \n[Điều chỉnh tuyến ống gió] Không có ống gió / phụ kiện ống gió nào trong các đối tượng chọn.
+[469] \n[Điều chỉnh tuyến ống gió] Lưu ý: UCS đang nghiêng so với mặt bằng — tính trên mặt phẳng XY, trục X / Y của UCS lấy theo hình chiếu.
+[470] \n[Điều chỉnh tuyến ống gió] 
+[471] [Điều chỉnh tuyến ống gió]
+[472] \n[Điều chỉnh tuyến ống gió] Chưa dời được: 
+[473] \n[Điều chỉnh tuyến ống gió] [THÀNH CÔNG] Đã co giãn đồng bộ, các cổng nối tiếp xúc khít (dời dx=
+[474] , dy=
+[475]  theo 
+[476] ; chế độ 
+[477] ).
+[478] 0.##
+[479] Phụ kiện / van / cửa gió
+[480] Cút 
+[481] °
+[482] Côn thu
+[483] ° đứng (cụm cút 45°)
+[484] Ống xiên 45° (cụm cút 45°)
+[485] Cút 45° 
+[486] Z đổi cao độ / đổi trục
+[487] Chân rẽ
+[488] Tê
+[489] Bịt đầu
+[490] Ống gió
+[491] Đã nhận diện TUYẾN ỐNG GIÓ THẲNG: 
+[492]  ống nối liền, 
+[493]  phụ kiện nối thẳng — kéo cả tuyến vuông góc (phím K = nhập khoảng cách).
+[494] Đã nhận diện phụ kiện ống gió: 
+[495]  — 
+[496]  nhánh nối vào co giãn / dời theo.
+[497]  phụ kiện/van, 
+[498]  ống nối bộ, 
+[499]  nhánh co giãn.
+[500] Đã nhận diện CỤM 2 CÚT NÉ DẦM / VÁT GÓC 45°
+[501] Đã nhận diện CỤM 2 CÚT GIẬT CẤP 90°
+[502] Đã nhận diện CỤM HÀNH LANG ỐNG GIÓ
+[503] _.UNDO
+[504] _Begin
+[505] \n[Điều chỉnh tuyến ống gió] Đã dời 
+[506]  block, co giãn 
+[507]  đoạn ống thẳng
+[508] , xoá 
+[509]  đoạn bị co hết
+[510]  tag ống gió đi theo
+[511] \n[Điều chỉnh tuyến ống gió] Lỗi: 
+[512] _End
+[513] không mở được một block để sửa (
+[514] có ống / phụ kiện nằm trên layer bị khoá — mở khoá layer rồi làm lại.
+[515] không dựng được block ống thẳng dài 
+[516]  mm.
+[517] GIADO
+[518] \n[Điều chỉnh tuyến ống gió] Chọn vị trí mới cho 
+[519] phụ kiện / cụm
+[520] tuyến ống
+[521]  — chế độ 
+[522] , bấm để chốt: 
+[523] V
+[524] Vuông góc (V)
+[525] Dọc trục (D)
+[526] X
+[527] Ngang UCS (X)
+[528] Y
+[529] Đứng UCS (Y)
+[530] Tự do (T)
+[531] Nhập số (K)
+[532] SpecDIEN.json
+[533] PIPE
+[534] SW
+[535] SW3
+[536] DB
+[537] LIGHT
+[538] \n[INFO] Không tìm thấy SpecDIEN.json, dùng giá trị mặc định.
+[539] "CaoDo"
+[540] "ThietBi"
+[541] Key
+[542] "([^"]+)"\s*:\s*([-0-9.]+)
+[543] \n[ERROR] Lỗi đọc file JSON: 
+[544] LINE
+[545] \nQuét chọn thiết bị (Block) hoặc đường ống (Line/Pline) để gán cao độ ngoại lệ: 
+[546] \nNhập cao độ Z (mm): 
+[547] \nĐã thiết lập cao độ Z = {0} cho {1} đối tượng.
+[548] \n  {0} block thuộc hệ Điện — 3D / HCAD của hệ Điện quản lý.
+[549] DIEN
+[550] \nChọn 1 đối tượng để kiểm tra cao độ (HTS_ELEVATION): 
+[551] \nCao độ (HTS_ELEVATION) hiện tại của đối tượng là: {0}
+[552] \nĐối tượng chưa được gán cao độ thủ công (sẽ dùng XData cũ hoặc JSON mặc định).
+[553] \n[MEP25D] Quét chọn toàn bộ hệ thống 2D để dựng model 3D (DIM tự động bị loại): 
+[554] \n[MEP25D] Không tính được bounding-box selection. Hủy.
+[555] \n[MEP25D] Chọn vị trí đặt model 3D mới (anchor = góc trái-dưới của bbox 2D): 
+[556] HTS-BOX-
+[557] \n[MEP25D] Thành công — đã clone {0} đối tượng sang model 3D mới 
+[558] (+ {0} ống đứng thiết bị, {1} ống đứng nối đoạn ống khác cao độ). 
+[559] Bản vẽ 2D gốc GIỮ NGUYÊN tại chỗ. Model 3D KHÔNG kèm DIM cũ. 
+[560] Anchor 2D=({0:F1},{1:F1}) → 3D=({2:F1},{3:F1}).
+[561] HTS_DRAIN
+[562] \n=== VẼ MÁNG CÁP (HTS_VEMC) ===
+[563] \nĐã đổi Tê thành Chữ thập — vẽ nhánh mới tiếp.
+[564] \nĐã đổi Cút 90° thành Tê — vẽ nhánh mới tiếp.
+[565] \nĐã chèn Tê từ thang có sẵn — vẽ nhánh tiếp.
+[566] \nĐiểm tiếp theo [Con-thu/Zcaodo/cutLen/cutXuong/Hcaodo] <
+[567] \n(!) Tê ở cao độ đáy 
+[568]  của tuyến đích, nhánh đang vẽ ở 
+[569]  — dùng phím H để chèn cút trước khi nối.
+[570] \nLỗi Tê: 
+[571] \nĐã nối vào thang có sẵn (Tê).
+[572] \nBề rộng MỚI W2 [{0}]: 
+[573] \nCăn chỉnh [Can/Trai/Phai]: 
+[574] \nĐộ lệch cao độ ΔH (lên +/xuống -): 
+[575] Cao độ ĐÁY sau cút XUỐNG
+[576] Cao độ ĐÁY sau cút LÊN
+[577] @-1000
+[578] @+1000
+[579] \nCao độ không đổi — không chèn cút.
+[580] chưa gán cao độ
+[581] đáy 
+[582] Tuyến chưa có cao độ — cao độ ĐÁY hiện tại
+[583] Cao độ ĐÁY cho tuyến
+[584] \nCao độ đáy tuyến: 
+[585] Cao độ ĐÁY mới (chèn cút lên / xuống)
+[586] \nCao độ không đổi.
+[587] \nĐã chèn Cút xuống + Cút lên (đổi cao độ): {0} -> {1}.
+[588] \nĐã chèn Cút lên + Cút xuống (đổi cao độ): {0} -> {1}.
+[589] \nĐã chèn Cút xuống: {0} -> {1} — tuyến đi xuống khỏi mặt bằng, kết thúc lệnh (đổi cao độ rồi vẽ tiếp: dùng H).
+[590] \nĐã chèn Cút lên: {0} -> {1} — tuyến đi lên khỏi mặt bằng, kết thúc lệnh (đổi cao độ rồi vẽ tiếp: dùng H).
+[591] \nCần vẽ ít nhất một đoạn thẳng trước khi chèn Tê/Thập.
+[592] \nBề rộng nhánh Wn [{0}]: 
+[593] \nChọn hướng nhánh: 
+[594] \nĐã chèn Tê.
+[595] \nĐã chèn Chữ thập.
+[596] \nĐã bịt đầu và kết thúc.
+[597] \nBề rộng thang W [{0}]: 
+[598] \nChiều cao tiết diện H [{0}]: 
+[599] \nBước nan S [{0}]: 
+[600] \nCao độ đáy <
+[601] \nBắt vào đầu thang (cùng W) — kéo dài thang.
+[602] \nCôn thu tại đầu thang - Căn chỉnh [Can/Trai/Phai]: 
+[603] \nBắt vào đầu thang (khác W) — chèn côn thu.
+[604] Defpoints
+[605] HTS-TRUNKING
+[606] HTS-MANGCAP
+[607] \n=== VẼ MÁNG CÁP ĐỤC LỖ (HTS_VEMCL) ===
+[608] \nĐã chèn Tê từ máng có sẵn — vẽ nhánh tiếp.
+[609] \nĐã nối vào máng có sẵn (Tê).
+[610] \nBề rộng máng W [{0}]: 
+[611] \nBước nan S (chỉ ghi vào tên block) [{0}]: 
+[612] \nBắt vào đầu máng (cùng W) — kéo dài máng.
+[613] \nCôn thu tại đầu máng - Căn chỉnh [Can/Trai/Phai]: 
+[614] \nBắt vào đầu máng (khác W) — chèn côn thu.
+[615] \n=== VẼ THANG CÁP (HTS_VETC) ===
+[616] HTS-THANGCAP
+[617] \nNhập cao độ Z cho các đối tượng: 
+[618] MLINE
+[619] MEP_ELEVATION_Z
+[620] \nChọn đối tượng để kiểm tra cao độ: 
+[621] \n>> Cao độ Z của đối tượng hiện tại là: {0}
+[622] \n>> Đối tượng này chưa được thiết lập cao độ Z.
+[623] \nQuét chọn các tuyến Mline cấp thoát nước cần chuyển thành Polyline3d: 
+[624] \nQuét chọn các tuyến Mline PCCC cần chuyển thành Polyline3d: 
+[625] \nKhông tìm thấy Mline hợp lệ trong vùng chọn.
+[626] \nChọn điểm đặt sơ đồ Polyline 3D: 
+[627] \n  >> Đã bung {0} combo thư viện (chếch TT / 2 chếch / Y chếch / cút ren) còn nguyên block ra phụ kiện rời để dựng 3D.
+[628] \n  >> Da gan lai cao do 
+[629]  manh combo (Y chech / 2 chech...) dang o cao do 0 theo ong xung quanh.
+[630] \n  >> Da sua 
+[631]  block dong bi tinh hoa (*U...) ve block dong goc.
+[632] \nDựng sơ đồ tuyến (bản vẽ AI) lỗi: 
+[633]  — chuyển về cách dựng thường.
+[634] loi
+[635] \nĐã dựng sơ đồ tuyến 3D (bản vẽ AI): 
+[636] tuyenSoDo
+[637]  tuyến, 
+[638] phuKien
+[639]  phụ kiện, 
+[640] trucDungTuNhan
+[641]  trục đứng tự nhận, cốt trần 
+[642] cotTranMm
+[643]  mm. QUÉT tiếp để đặt phụ kiện 3D.
+[644] \nKhông có Mline nào đã gắn TAG cao độ để dựng 3D.
+[645] \n
+[646] \n[3D PCCC] 
+[647] Đã tạo bản sao mặt bằng tại điểm đặt: 
+[648]  Polyline3d giữ nguyên Layer thông số kích thước ống, 
+[649]  đoạn đứng.
+[650]  Đã kéo 
+[651]  đầu ống lệch nhỏ về cùng cao độ (tránh sinh đoạn đứng giả).
+[652]  Bỏ qua 
+[653]  ống chưa có TAG cao độ.
+[654]  Mline trùng khít ống khác (chồng 2 lớp) — chỉ dựng 1 lần; nên xoá ống trùng trên mặt bằng.
+[655]  Đã nối topology qua 
+[656]  phụ kiện (
+[657]  đầu ống).
+[658]  Nhận 
+[659]  van trên ống (van 2D đã lấy cao độ của ống; tuyến 3D cắt tại tâm van).
+[660]  Nối 
+[661]  đầu ống với block ngoài (khác cao độ thì dựng đoạn đứng tới block).
+[662]  Không tạo Block phụ kiện. Bản vẽ 2D gốc chỉ được ghi thêm cao độ cho van.
+[663] \nLỗi 3D CẤP THOÁT NƯỚC: 
+[664] \nLỗi 3D PCCC: 
+[665] HTS_3D_TOPOLOGY
+[666] HTS-TEE-
+[667] ELB90
+[668] HTS-2Chech
+[669] 2Chech
+[670] ELB45
+[671] THONG HOI
+[672]  MUA
+[673]  MUA 
+[674] MUA
+[675]  NONG
+[676] NONG
+[677]  LANH
+[678] LANH
+[679] HTS-ONG
+[680] ELB
+[681] TEE
+[682] TECONG
+[683] Y-
+[684] YCHECH
+[685] RED
+[686] CROSS
+[687] 2CHECH
+[688] HTS_3D_REDUNG
+[689] S|
+[690] E|
+[691] (?i)DN\s*[-_]?\s*(\d+)
+[692] -DN
+[693] (?i)(?:DN|D)\s*[-_]?\s*(\d+(?:[\.,]\d+)?)
+[694] (?i)^HTS-(SCREW|WELD)-RED-DN\d+x15$
+[695] -RED-
+[696] (?i)RED-DN(\d+)x(\d+)
+[697] (?i)RED-DN(\d+)x
+[698] (?i)DN\s*[-_]?\s*\d+
+[699] (?i)(DN\s*[-_]?\s*)\d+
+[700] ${1}
+[701] HTS-MH3D
+[702] HTS-GIADO
+[703] HTS-QUANGTREO
+[704] DN90
+[705] UP90
+[706] HTS-ELB45
+[707] UP45
+[708] UPX45
+[709] TOP45
+[710] DN45
+[711] DNX45
+[712] BOTTOM45
+[713] HTS-THONGTAC
+[714] Cutrentrong
+[715] Cutrenngoai
+[716] TOP
+[717] HTS-TECONG-
+[718] Polyline3d cần ít nhất hai điểm.
+[719] pathPoints
+[720] (?i)-D(\d{2,3})(?:x(\d{2,3}))?(?![\d])
+[721] HTS_RISER_TOPOLOGY
+[722] PCCC
+[723] CUTRENTRONG
+[724] DAUPHUN
+[725] VALVE
+[726] \nĐã dựng xong mô hình 3D (Đã vá kín toàn bộ mạch)!
+[727] fire
+[728] ,
+[729] P
+[730] {"t":"pipe","h":"
+[731] ","sys":"
+[732] ","ly":
+[733] ,"d":
+[734] ,"p":[
+[735] ],"rgb":"
+[736] X6
+[737] "}
+[738] F1
+[739] Đang preview {0} block — chỉnh α/φ/θ để xem thay đổi.
+[740] Lỗi snapshot: 
+[741] α={0:F1}°  φ={1:F1}°  θ={2}{3:F1}°
+[742] +
+[743] Lỗi apply: 
+[744] /VCSHOP;component/view/blocktilt3dwindow.xaml
+[745] (theo DimStyle hiện hành)
+[746] Chưa thấy ống 3D nào để liệt kê cỡ (mọi cỡ đều được DIM).
+[747] 0.###
+[748] D25
+[749] {D}
+[750] {d}
+[751] 1250
+[752] Ví dụ: "
+[753] "  ·  {D} = cỡ ống (vd 
+[754] Cỡ chữ phải là số > 0 (mm).
+[755] DIM ống 3D
+[756] Độ dài ống nhỏ nhất phải là số ≥ 0 (mm).
+[757] Khoảng cách tới TIM phải là số ≥ 0 (mm).
+[758] Đang bỏ qua MỌI cỡ ống — sẽ không có DIM nào. Chọn ít nhất một cỡ.
+[759] /VCSHOP;component/view/dim3dwindow.xaml
+[760] Mô hình 3D — chọn góc nhìn & tạo Block
+[761] XOAY MÔ HÌNH 3D → BLOCK TRÊN MẶT BẰNG
+[762] Kéo chuột TRÁI: quay quanh trục đứng + nâng/hạ mắt nhìn · kéo chuột PHẢI (hoặc Ctrl + trái): xoay nghiêng quanh trục nhìn · lăn chuột: phóng to/thu nhỏ. Chốt góc xong, mô hình được xoay đúng như hình đang thấy và gom thành MỘT Block đặt xuống mặt bằng.
+[763] Chốt góc & tạo Block
+[764] Phương vị 
+[765] ° · nâng 
+[766] ° · nghiêng 
+[767] ° · 
+[768]  mặt · 
+[769]  nét
+[770] Không mở được cài đặt DIM: 
+[771] mọi ống
+[772] chỉ ống đứng
+[773] cách tim 
+[774] trên thành ống
+[775]  · chữ 
+[776]  · 
+[777]  · bỏ ống < 
+[778]  · bỏ 
+[779] Mặc định = 1/3 cỡ chữ ghi chú ống (
+[780] Đã đặt riêng · để trống = về mặc định 1/3 cỡ chữ ghi chú ống
+[781] Cỡ chữ TAG phải là số dương (mm), ví dụ 15.
+[782] TAG ống 3D
+[783] Xoá SectionBox và phục hồi mô hình gốc?
+[784] SectionBox
+[785] /VCSHOP;component/view/sectionboxanglewindow.xaml
+[786] Khong co handle nao.
+[787] Loi gan XData Z: 
+[788] Khong tim thay entity nao.
+[789] Loi dung 3D: 
+[790] set_pipe_elevation_z
+[791] Gan XData cao do Z (mm) cho cac Mline/BlockReference. Du lieu nay dung de dung 3D pipe system sau (goi build_3d_pipe_system). BATCH: param 'groups' nhan mang nhieu nhom voi Z khac nhau. Single: dung 'handles' + 'z'.
+[792] object
+[793] array
+[794] (Batch) Nhieu nhom voi Z khac nhau
+[795] Handle (hex) cua Mline / BlockReference can gan Z
+[796] string
+[797] number
+[798] Cao do Z (mm)
+[799] handles
+[800] z
+[801] (Single) Danh sach handle entity
+[802] (Single) Cao do Z (mm)
+[803] Khong co ban ve nao dang mo.
+[804] groups
+[805] Phai cung cap 'groups' (batch) hoac 'handles'+'z' (single).
+[806] Da gan Z cho {0} entity ({1} group).
+[807]  Co loi: 
+[808] build_3d_pipe_system
+[809] Dung mo hinh 3D pipe system tu cac Mline/BlockReference 2D co XData cao do Z. Tao Line 3D tu Mline (Z lay tu XData), symbol 3D cho VALVE/RED/CUTRENTRONG, va Riser line tai cac diem nuoc lien tang. Goi set_pipe_elevation_z TRUOC khi goi tool nay. Neu khong truyen 'handles' → quet TOAN BO entity tren ban ve.
+[810] (Tuy chon) Danh sach handle entity can xu ly. Bo trong → quet toan ban ve.
+[811] (Tuy chon) Ban kinh symbol CUTRENTRONG (mm). Mac dinh 10.
+[812] (Tuy chon) Chieu dai symbol VALVE (mm). Mac dinh 40.
+[813] (Tuy chon) Chieu rong symbol VALVE (mm). Mac dinh 30.
+[814] (Tuy chon) Chieu dai symbol REDUCER (mm). Mac dinh 40.
+[815] (Tuy chon) Ban kinh snap dau ong vao fitting (mm). Mac dinh 50.
+[816] Ban ve khong co Mline / BlockReference nao.
+[817] cutrenRadius
+[818] valveLength
+[819] valveWidth
+[820] redLength
+[821] snapTolerance
+[822] Da dung 3D: {0} fitting + {1} doan ong + {2} riser.
+[823] dim_3d
+[824] Tao AlignedDimension cho cac Line THANG DUNG (// truc Z) — dim chieu cao riser 3D. Tu loc Line co Δx,Δy < tolerance, tao dim song song voi line. Param 'offset' = khoang cach dim toi line (mm, am = phia X-). Bo trong 'handles' → quet TAT CA Line tren ban ve.
+[825] (Tuy chon) Handle cua Line. Bo trong → quet toan ban ve.
+[826] Khoang cach dim toi line (mm). Mac dinh 200. Am de doi phia.
+[827] Dung sai XY (mm) de coi line la 'thang dung'. Mac dinh 1.
+[828] offset
+[829] tolerance
+[830] Da tao {0} dim 3D. Skip {1} line khong // Z, {2} entity khong phai Line.
+[831] W1
+[832] W2
+[833] khe=
+[834] goc=
+[835] HTOOLS
+[836] combine_dien.dat
+[837] khe
+[838] goc
+[839] \n[COMBINE DIEN - KET CAU] Quet chon he dien 2D (ong, day, thiet bi) + PLine dam: 
+[840] \n  (!) Khong tinh duoc vung chon.
+[841] \n  (!) Vung chon khong co ong / thiet bi dien.
+[842] \n  (Khong co PLine dam (lenh VD) trong vung — dung 3D nhu VIEW 3D, khong co vai bo.)
+[843] \n[COMBINE DIEN - KET CAU] Chon vi tri dat model 3D (goc trai-duoi vung chon): 
+[844] VEDAY_DIMSUFFIX
+[845] \n  >> COMBINE DIEN - KET CAU: 
+[846]  tuyen ong/day, 
+[847]  doan VAI BO duoi dam (
+[848]  doan dung, 
+[849]  co so day de DIM 3D), 
+[850]  thiet bi (+
+[851]  ong dung), 
+[852]  ong dung noi doan ong khac cao do, 
+[853]  khoi dam. Dinh dam Z=
+[854]  (Ong dien chinh - SETUP SPEC + san day 
+[855] ; trong 
+[856]  vung BO TRAN = tran tho + san day cua vung, den = tran gia
+[857] ), khe ho 
+[858] . Ban ve 2D goc giu nguyen — xoay 3DORBIT de xem.
+[859] \P
+[860] HTS_DAM
+[861] combine_ctn.dat
+[862] SÁT DẦM
+[863] CHẠM DẦM
+[864] XUYÊN DẦM
+[865] SAT DAM
+[866] CHAM DAM
+[867] XUYEN DAM
+[868] \n[VA CHAM ONG NUOC - DAM] Quet chon ong (Mline) + PLine dam <Enter = ca ban ve>: 
+[869] \n  (!) Khong co ong nao co cao do de kiem tra
+[870]  ong chua gan cao do — dung CAO DO tren palette / GZCTN5K8).
+[871] \n  (!) Khong co PLine dam (lenh VD) trong vung — ve dam truoc roi kiem tra lai.
+[872] \n  >> VA CHAM ONG NUOC - DAM: 
+[873]  ong x 
+[874]  dam. 
+[875]  XUYEN DAM, 
+[876]  CHAM DAM, 
+[877]  SAT DAM (khe < 
+[878] ). Dinh dam Z=
+[879] ; dam trong 
+[880]  vung BO TRAN theo tran tho + san day cua vung
+[881]  Bo qua 
+[882]  ong chua co cao do.
+[883]  Khong co va cham.
+[884]  Da danh dau tren layer HTS-COMBINE-VACHAM.
+[885] \n  (!) Khong mo duoc bang va cham: 
+[886] \n  >> Da xoa 
+[887]  dau va cham ong nuoc - dam.
+[888] HTS_VACHAM
+[889]  D
+[890] \PTim ong Z=
+[891]  - day dam 
+[892] )\P
+[893] Khe 
+[894]  -> ha tim <= 
+[895] Lan 
+[896] HTS-COMBINE-VACHAM
+[897] HTS_MODEL3D
+[898] HTS_3D_SODAY
+[899] ỐNG ĐIỆN D20
+[900] ghichu_ong_pccc.dat
+[901] PCCC-D
+[902] enabled
+[903] hatang
+[904] style
+[905] height
+[906] side
+[907] prefix
+[908] suffix
+[909] auto
+[910] layer
+[911] upper
+[912] minlen
+[913] ghitatca
+[914] lenunit
+[915] lendec
+[916] slope
+[917] elevation
+[918] version=1
+[919] enabled=
+[920] 1
+[921] hatang=
+[922] style=
+[923] height=
+[924] offset=
+[925] side=
+[926] prefix=
+[927] suffix=
+[928] auto=
+[929] layer=
+[930] upper=
+[931] minlen=
+[932] ghitatca=
+[933] lenunit=
+[934] lendec=
+[935] slope=
+[936] elevation=
+[937] \n[TO25D] Chọn các đối tượng cần chuyển sang sơ đồ không gian: 
+[938] \n[TO25D] Chọn điểm đặt sơ đồ không gian (Destination point): 
+[939] \n[TO25D] Bỏ qua 1 entity (AutoCAD): 
+[940] \n[TO25D] Bỏ qua 1 entity: 
+[941] \n[TO25D] Lỗi tổng: 
+[942] \n[TO25D] Hoàn tất — biến đổi {0} entity, bỏ qua {1}. 
+[943] Layer gốc được giữ nguyên.
+[944] \n[TMC3D] Quét chọn thang / máng / trunking cáp HTS (Enter = tất cả): 
+[945] \n[TMC3D] Đã hủy.
+[946] \n[TMC3D] Không tìm thấy block thang / máng / trunking HTS nào trong lựa chọn.
+[947]  block chưa gán cao độ — cao độ đáy dùng tạm [số | B = bỏ qua] <0>: 
+[948] \n[TMC3D] Cao độ không hợp lệ: 
+[949] \nChọn ĐIỂM ĐẶT mô hình 3D (góc dưới-trái của phần mặt bằng đã chọn): 
+[950] TMC
+[951] \n[TMC3D] Dựng 
+[952] \n[TMC3D] Đã dựng 3D 
+[953]  thang / máng (
+[954]  định nghĩa mới)
+[955] , cao độ 
+[956]  … 
+[957]  block chưa gán cao độ dựng ở 
+[958] , bỏ qua 
+[959]  block chưa gán cao độ
+[960]  block không dựng được
+[961] \n  (accoreconsole: bỏ qua bước xem 3D)
+[962] \n  (bỏ qua bước xem 3D: 
+[963] \n[TMC3D] Lỗi: 
+[964] accoreconsole
+[965] HTS_TMC_3D
+[966] TMC|
+[967] HTS3D-
+[968] -CAP2
+[969] -DZ
+[970] -LO
+[971] \nPED khong tim thay ong chinh thang hoac phu kien Block hop le trong tap chon.
+[972] \nPED can it nhat hai ong/phu kien hop le de tao cum co dinh.
+[973] \nKhoang dich chuyen qua nho, khong co thay doi.
+[974] Khong doc duoc khong gian ve hien tai.
+[975] Vi tri moi lam mot ong ket noi ben ngoai co chieu dai bang 0.
+[976] Khong doc duoc mot doi tuong trong cum.
+[977] Khong doc duoc ong ket noi ben ngoai.
+[978] \nPED da huy toan bo thay doi vi co doi tuong khong the chinh sua (kiem tra layer khoa): 
+[979] Đã dời đồng bộ 
+[980]  đối tượng của cụm, co giãn 
+[981]  nhánh ống bên ngoài; kết nối trong cụm giữ nguyên
+[982] \nPED khong tim thay dau ong nao dang ket noi voi phu kien da chon.
+[983] \nPED khong doc duoc khong gian ve hien tai.
+[984] Doi tuong da chon khong con la phu kien Block.
+[985] PED đã huỷ: vị trí mới làm một đoạn ống có chiều dài bằng 0.
+[986] \nPED khong con tim thay ong ket noi voi phu kien.
+[987] Khong doc duoc ong ket noi.
+[988] Đã dời 1 phụ kiện, co giãn 
+[989]  ống nối vào
+[990] \nPED - Chon ong chinh, mot phu kien, hoac quet mot lan toan bo he ong: 
+[991] \nBo doi tuong khoi tap chon: 
+[992] Khong the tao ban sao Mline de ghi Undo.
+[993] Khong doc duoc khong gian chua Mline.
+[994] [PED]
+[995] \n[PED] [THÀNH CÔNG] 
+[996]  (dời dx=
+[997] ; CẢNH BÁO: 
+[998]  ống bị nghiêng vì đầu xa còn nối với phụ kiện / ống khác — dùng V / D (dời dọc theo ống) hoặc quét thêm cả cụm để giữ thẳng
+[999] \n[PED] 
+[1000] 2 chếch 45°
+[1001] Chếch 45°
+[1002] ELB-90
+[1003] Cút 90°
+[1004] Cút
+[1005] Tê cong
+[1006] Thập
+[1007] HTS-Y
+[1008] -Y-
+[1009] Ba chạc Y
+[1010] CON
+[1011] COUPLING
+[1012] NOI
+[1013] Nối ống
+[1014] VAN
+[1015] Van
+[1016] Nối thẳng (côn / nối ống)
+[1017] Đã nhận diện phụ kiện: 
+[1018]  — nối 
+[1019]  đầu ống.
+[1020]  ống liên kết, 
+[1021] Đã nhận diện: Né dầm 45° (2 chếch 45°)
+[1022] Đã nhận diện: Vát góc 90° (2 chếch 45°)
+[1023] Đã nhận diện: Giật cấp 90° (2 cút 90°)
+[1024] Đã nhận diện CỤM HÀNH LANG MEP: 
+[1025] Lưu ý: UCS đang nghiêng so với mặt bằng — PED tính trên mặt phẳng XY, trục X / Y của UCS lấy theo hình chiếu.
+[1026] R
+[1027] O
+[1028] Cả tuyến (R)
+[1029] Chỉ ống chọn (O)
+[1030] Khoảng dịch chuyển quá nhỏ, không có thay đổi.
+[1031] Đã nhận diện TUYẾN THẲNG: 
+[1032]  phụ kiện nối thẳng, 
+[1033]  nhánh co giãn — dời cả tuyến vuông góc (phím O = chỉ dời ống đã chọn).
+[1034] Đã nhận diện: 
+[1035]  — dời ống nối vuông góc, hai phụ kiện trượt theo chân ống.
+[1036] Chỉ dời ống đã chọn: 
+[1037]  phụ kiện đi theo, 
+[1038]  nhánh bám thân.
+[1039] Đã nhận diện ống thẳng: 
+[1040] Né dầm 45° (2 chếch 45°)
+[1041] Vát góc 90° (2 chếch 45°)
+[1042] Giật cấp 90° (2 cút 90°)
+[1043] PED không đọc được không gian vẽ hiện tại.
+[1044] PED đã huỷ: khoảng di chuyển làm hai đầu một ống của tuyến vượt qua nhau.
+[1045] Khong doc duoc ong chinh.
+[1046] Khong doc duoc phu kien.
+[1047] Khong doc duoc ong nhanh.
+[1048] PED đã huỷ toàn bộ thay đổi vì có đối tượng không thể chỉnh sửa (kiểm tra layer khoá): 
+[1049] PED đã huỷ toàn bộ thay đổi: 
+[1050] Đã co giãn 
+[1051]  ống chính, 
+[1052]  ống nhánh
+[1053]  (bỏ qua 
+[1054]  đối tượng không kết nối)
+[1055]  (không đọc được 
+[1056]  đối tượng đã chọn)
+[1057] \nPED da huy: khong khoi tao duoc nhom Undo. 
+[1058] \n[PED] Chọn vị trí mới cho 
+[1059] , click để chấp nhận: 
+[1060] cụm
+[1061] phụ kiện
+[1062] Document null.
+[1063] Selection rỗng.
+[1064] yyyyMMddHHmmss
+[1065] \n[BLOCK] Skip — GetObject fail: 
+[1066] \n[BLOCK] Skip (
+[1067] ) — không hỗ trợ.
+[1068] \n[BLOCK] Explode 0 parts (
+[1069] ) — skip.
+[1070] Không clone được entity nào.
+[1071] \n[BLOCK] Erase fail: 
+[1072] Lỗi AutoCAD: 
+[1073] Lỗi: 
+[1074] \n[BLOCK] Clone fail (
+[1075] ): 
+[1076] \n[BLOCK] Append fail (
+[1077] \n[BLOCK] TransformBy fail (
+[1078] \n[BLOCK] Max explode depth {0} hit ({1}) — skip.
+[1079] \n[BLOCK] Explode fail ({0}, depth={1}): {2}
+[1080] \n[BLOCK] Skip 1 part (
+[1081] \n[BLOCKTILT] Chọn các Block cần điều chỉnh 3D: 
+[1082] \n[BLOCKTILT] Không có block nào được chọn. Hủy.
+[1083] \n[BLOCKTILT] Lỗi mở cửa sổ: 
+[1084] \n[BLOCKTILT] Đã chốt — {0} block, 
+[1085] α={0:F1}°, φ={1:F1}°, θ={2:F1}°. 
+[1086] Chạy lại BLOCKTILT để chỉnh tiếp; UNDO để hoàn tác.
+[1087] \n[BLOCKTILT] Hủy — block đã được trả về trạng thái gốc.
+[1088] \nKhoảng cách chân DIM đến Line (âm để đảo phía) <
+[1089] \nQuét chọn vùng có ống cần dim (đoạn // trục Z: Line, tuyến ống điện 3D / Solid ống của VIEW 3D; Enter chọn toàn bản vẽ): 
+[1090] \n\n
+[1091] \n
+[1092] DIMPOST
+[1093] <>\P
+[1094] _.DIMLINEAR
+[1095] \n[DIM3D] Lỗi tạo dim cho 1 Line: 
+[1096] \n[DIM3D] Tổng Line chọn: {0}. Tạo DIM: {1} (có suffix ký hiệu dây: {2}). Bỏ qua (không // trục Z): {3}. Lỗi: {4}. Offset: {5:F2}. Block có XData cache: {6}.
+[1097] \n[DIM3D] Lỗi: 
+[1098] \n[DIM3D] Đóng mô hình 3D thành block để xoay (BLOCKTILT)? [Yes/No] <No>: 
+[1099] Yes No
+[1100] No
+[1101] Yes
+[1102] \n[DIM3D] Chọn TOÀN BỘ mô hình 3D + DIM cần đóng block: 
+[1103] \n[DIM3D] Bỏ qua đóng block.
+[1104] \n[DIM3D] Pick điểm gốc cho block 
+[1105] (Enter dùng tâm bbox = {0:F1},{1:F1},{2:F1}): 
+[1106] HTS-3D-
+[1107] \n[DIM3D] Block '
+[1108] ' tại 
+[1109] ({0:F1},{1:F1},{2:F1}). 
+[1110] Erased={0}/{1}, 
+[1111] Clone={0}, Explode={1}
+[1112] , Skip={0}
+[1113] . Chạy BLOCKTILT để điều chỉnh tilt 3D.
+[1114] \n[DIM3D] Tạo block FAIL: 
+[1115] \n[DIM3D] Lỗi khi đóng block: 
+[1116] VEDAY_LIGHTDROP
+[1117] VEDAY_OCAMDROP
+[1118] SOLID|
+[1119] \n[LAMSACH2D] Chọn đối tượng cần ép về Z=0 (Enter = cả bản vẽ): 
+[1120] \n[LAMSACH2D] Đã hủy.
+[1121] \n[LAMSACH2D] Không có đối tượng nào.
+[1122] \n[LAMSACH2D] Đã ép {0} đối tượng về Z=0; {1} cái vốn đã phẳng.
+[1123] \n  ⚠ {0} đối tượng có mặt phẳng NGHIÊNG — chỉ kéo điểm gốc về Z=0, mặt phẳng vẫn nghiêng. Kiểm lại nếu thấy méo.
+[1124] \n  {0} đối tượng bỏ qua (layer khoá hoặc không sửa được).
+[1125] :
+[1126] \n  {0} đối tượng chưa hỗ trợ ({1}).
+[1127] \n[LAMSACH2D] Lỗi: 
+[1128] Không
+[1129] Có
+[1130] Không có file
+[1131] Khớp
+[1132] Khác bản
+[1133] \n[Chuan hoa Block] Loi quet: 
+[1134] : khong co file thu vien
+[1135] Đã cập nhật 
+[1136]  block từ thư viện
+[1137]  block lỗi: 
+[1138]  | 
+[1139] —
+[1140] Thiếu
+[1141] Thiếu trạng thái 3D
+[1142] Không phải block động
+[1143] Thiếu điểm nối
+[1144] Khác bản thư viện
+[1145] Đạt
+[1146] HTS-ELB90-
+[1147] HTS-ELB45-
+[1148] HTS-RED-
+[1149] HTS-CROSS-
+[1150] HTS-2Chech-
+[1151] HTS-2CUTREN2CUT-
+[1152] HTS-1CUTREN1CUT-
+[1153] HTS-Siphong-
+[1154] HTS-ChechTT-
+[1155] HTS-VALVE-
+[1156] \n[Chuan hoa Block] Loi mo bang: 
+[1157] HTS_TAGTMC
+[1158] Tag thang máng cáp
+[1159] Tag thang máng
+[1160] thang / máng cáp
+[1161] VẼ THANG CÁP / VẼ MÁNG CÁP / TRUNKING
+[1162] tag-thang-mang.cfg
+[1163] Thang
+[1164] Thang cáp:
+[1165] THANG CÁP
+[1166] THANG CÁP ĐỘNG LỰC
+[1167] THANG CÁP ĐIỆN NHẸ
+[1168] CABLE LADDER
+[1169] Mang
+[1170] Máng cáp:
+[1171] MÁNG CÁP
+[1172] MÁNG CÁP ĐỘNG LỰC
+[1173] MÁNG CÁP ĐIỆN NHẸ
+[1174] CABLE TRAY
+[1175] Trunking
+[1176] Trunking:
+[1177] TRUNKING
+[1178] MÁNG CÁP KÍN
+[1179] CABLE TRUNKING
+[1180] Tự nhận loại theo block đã vẽ (HTS-THANGCAP · HTS-MANGCAP · HTS-TRUNKING) — gõ tên khác được.
+[1181] 300x100
+[1182] W300xH100
+[1183] 300x100mm
+[1184] 300 x 100
+[1185] (300x100)
+[1186] W300 x H100
+[1187] {W}x{H}
+[1188] W{W}xH{H}
+[1189] {W}x{H}mm
+[1190] {W} x {H}
+[1191] ({W}x{H})
+[1192] W{W} x H{H}
+[1193] Đọc R × C (mm) theo tên block đã vẽ — côn thu ghi 300/200x100.
+[1194] CĐ ĐÁY xxx
+[1195] CĐ: xxx
+[1196] BOT xxx
+[1197] BOT. EL xxx
+[1198] H=xxx
+[1199] Z=xxx
+[1200] xxx
+[1201] 3.2 → +3.200 · 0 → ±0.000. Theo XData: cao độ đáy gán lúc vẽ (ô CAO ĐỘ ĐÁY) hoặc nút GÁN — thang chưa gán thì ghi số ở ô (trống = bỏ qua); Z, cút lên / xuống lấy đầu gần mũi tên. Gõ C ở dòng lệnh để đổi số giữa chừng.
+[1202] Cập nhật theo thang máng
+[1203] Đọc lại MỌI tag thang / máng đã chèn bằng công cụ này: kích thước, và cao độ của tag lấy theo XData — thang đã đổi cỡ / gán lại cao độ thì tag đổi theo; chỉ thay đúng các cụm đó, phần chữ khác giữ nguyên.
+[1204] OGIO
+[1205] HTS_TAGOG
+[1206] Tag ống gió
+[1207] ống gió
+[1208] VẼ ỐNG GIÓ / VẼ ỐNG GIÓ TRÒN / ỐNG GIÓ MỀM
+[1209] tag-ong-gio.cfg
+[1210] Cap
+[1211] Gió cấp:
+[1212] ỐNG GIÓ CẤP
+[1213] ỐNG CẤP GIÓ LẠNH
+[1214] SUPPLY AIR DUCT
+[1215] SA
+[1216] Hoi
+[1217] Gió hồi:
+[1218] ỐNG GIÓ HỒI
+[1219] RETURN AIR DUCT
+[1220] RA
+[1221] Tuoi
+[1222] Gió tươi:
+[1223] ỐNG GIÓ TƯƠI
+[1224] ỐNG CẤP GIÓ TƯƠI
+[1225] FRESH AIR DUCT
+[1226] OA
+[1227] Thai
+[1228] Gió thải:
+[1229] ỐNG GIÓ THẢI
+[1230] ỐNG HÚT GIÓ THẢI
+[1231] EXHAUST AIR DUCT
+[1232] EA
+[1233] Khoi
+[1234] Hút khói:
+[1235] ỐNG HÚT KHÓI
+[1236] SMOKE EXHAUST DUCT
+[1237] SEA
+[1238] TangAp
+[1239] Tăng áp:
+[1240] ỐNG TĂNG ÁP
+[1241] ỐNG TĂNG ÁP CẦU THANG
+[1242] PRESSURIZATION DUCT
+[1243] Khac
+[1244] Khác:
+[1245] ỐNG GIÓ
+[1246] AIR DUCT
+[1247] Tự nhận hệ theo LAYER ống gió (Supply · Return · FreshAir · Exhaust…, ống mềm theo cấp / hồi) — layer không nói hệ thì ghi theo ô Khác.
+[1248] 1000x500 · Ø400
+[1249] W1000xH500 · D400
+[1250] 1000x500mm · Ø400mm
+[1251] 1000 x 500 · Ø 400
+[1252] (1000x500) · (Ø400)
+[1253] %%c{D}
+[1254] D{D}
+[1255] %%c{D}mm
+[1256] %%c {D}
+[1257] (%%c{D})
+[1258] Đọc R × C (ống tròn Ø) theo tên block ống gió đã vẽ — côn / chuyển tiếp ghi hai đầu, vd 1000x500/800x400.
+[1259] BOD xxx
+[1260] CĐ TÂM xxx
+[1261] CL xxx
+[1262] Theo ống: cao độ ĐÁY gán lúc vẽ (ô CAO ĐỘ ĐÁY / phím H) hoặc nút GÁN tab HVAC — đoạn Z lấy đầu gần mũi tên; ống chưa gán thì ghi số ở ô (trống = bỏ qua). Đang chèn gõ C ở dòng lệnh để đổi số giữa chừng.
+[1263] Cập nhật theo ống gió
+[1264] Đọc lại MỌI tag ống gió đã chèn: kích thước, và cao độ của tag lấy theo ống — ống đã đổi cỡ (grip / sửa ống) hoặc gán lại cao độ đáy thì tag đổi theo; chỉ thay đúng các cụm đó, phần chữ khác giữ nguyên.
+[1265] OCTN
+[1266] HTS_TAGCTN
+[1267] Tag ống cấp thoát nước
+[1268] Tag ống CTN
+[1269] ống
+[1270] VẼ ĐƯỜNG ỐNG (MLINE)
+[1271] tag-ong-ctn.cfg
+[1272] Cấp nước:
+[1273] ỐNG CẤP NƯỚC
+[1274] ỐNG CẤP NƯỚC PPR
+[1275] ỐNG CẤP NƯỚC LẠNH
+[1276] CW
+[1277] Nong
+[1278] Nước nóng:
+[1279] ỐNG CẤP NƯỚC NÓNG
+[1280] ỐNG NƯỚC NÓNG PPR
+[1281] HW
+[1282] Thoat
+[1283] Thoát nước:
+[1284] ỐNG THOÁT NƯỚC
+[1285] ỐNG THOÁT NƯỚC uPVC
+[1286] ỐNG THOÁT NƯỚC THẢI
+[1287] ỐNG THOÁT XÍ
+[1288] SP
+[1289] ThongHoi
+[1290] Thông hơi:
+[1291] ỐNG THÔNG HƠI
+[1292] ỐNG THÔNG HƠI uPVC
+[1293] VP
+[1294] Mua
+[1295] Nước mưa:
+[1296] ỐNG THOÁT NƯỚC MƯA
+[1297] ỐNG NƯỚC MƯA uPVC
+[1298] RP
+[1299] ỐNG
+[1300] ỐNG uPVC
+[1301] ỐNG PPR
+[1302] ỐNG HDPE
+[1303] Tự nhận hệ theo LAYER ống (Cap nuoc · Nuoc nong · Thoat nuoc · Thong hoi · Nuoc mua, hoặc CW · HW · SP · VP · RP); ống đã đánh độ dốc tính là thoát nước; layer không nói hệ thì ghi theo ô Khác.
+[1304] D110
+[1305] Ø110
+[1306] D110mm
+[1307] (D110)
+[1308] D{D}mm
+[1309] (D{D})
+[1310] Đọc theo cỡ ống đã vẽ (tỉ lệ MLINE = đường kính ngoài như ô KÍCH THƯỚC lúc vẽ; Hạ tầng tự đổi m → mm).
+[1311] BOP=FLxxx
+[1312] BOP xxx
+[1313] CĐ TÂM ỐNG xxx
+[1314] CĐ xxx
+[1315] TOP xxx
+[1316] Cao độ gán cho ống lúc vẽ (ô CAO ĐỘ) / CÀI ĐẶT CAO ĐỘ / ĐÁNH ĐỘ DỐC — nội suy đúng chỗ đặt mũi tên. Gõ C ở dòng lệnh để đổi số cho ống chưa gán.
+[1317] Cập nhật theo ống
+[1318] Đọc lại MỌI tag ống CTN đã chèn: cỡ ống, cao độ và độ dốc lấy lại từ ống (ống đã đổi cỡ / gán lại cao độ thì tag đổi theo); chỉ thay đúng các cụm đó, phần chữ khác giữ nguyên.
+[1319] OPCCC
+[1320] HTS_TAGPCCC
+[1321] Tag ống chữa cháy
+[1322] Tag ống PCCC
+[1323] ống chữa cháy
+[1324] VẼ ĐƯỜNG ỐNG CHỮA CHÁY (MLINE) / Pline nhánh trên layer DN
+[1325] tag-ong-pccc.cfg
+[1326] Sprinkler
+[1327] Sprinkler:
+[1328] ỐNG SPRINKLER
+[1329] ỐNG CHỮA CHÁY SPRINKLER
+[1330] ỐNG THÉP
+[1331] VachTuong
+[1332] Vách tường:
+[1333] ỐNG CHỮA CHÁY VÁCH TƯỜNG
+[1334] ỐNG CẤP NƯỚC CHỮA CHÁY
+[1335] ỐNG HỌNG NƯỚC
+[1336] Fm200
+[1337] Khí FM200:
+[1338] ỐNG KHÍ FM200
+[1339] ỐNG CHỮA CHÁY KHÍ
+[1340] ỐNG CHỮA CHÁY
+[1341] ỐNG THÉP ĐEN
+[1342] ỐNG THÉP TRÁNG KẼM
+[1343] Tự nhận hệ theo LAYER (Sprinkler · Hoa Cuoi / họng nước vách tường · Khi FM200) — layer không nói hệ thì ghi theo ô Khác.
+[1344] DN100
+[1345] D100
+[1346] Ø100
+[1347] DN{D}
+[1348] DN đọc theo cỡ ống đã vẽ (MLINE đường kính ngoài 114 → DN100, 110 → DN100…) hoặc đuôi layer DN25 của nhánh Pline.
+[1349] DN
+[1350] Cao độ gán cho ống lúc vẽ (ô CAO ĐỘ PCCC) / CÀI ĐẶT CAO ĐỘ — nội suy đúng chỗ đặt mũi tên. Gõ C ở dòng lệnh để đổi số cho ống chưa gán.
+[1351] Đọc lại MỌI tag ống chữa cháy đã chèn: DN và cao độ lấy lại từ ống (ống đã đổi cỡ / gán lại cao độ thì tag đổi theo); chỉ thay đúng các cụm đó, phần chữ khác giữ nguyên.
+[1352] +3.200
+[1353] i=xxx%
+[1354] Arial
+[1355] {0} tag có {1} gốc đã bị xoá
+[1356] {0} tag đã sửa chữ tay (không còn chữ cũ để thay)
+[1357] {0} tag nằm trên layer bị khoá
+[1358] Bản vẽ chưa có tag {0} nào do công cụ này chèn.
+[1359] Đã cập nhật {0} tag, {1} tag vẫn đúng.
+[1360] Đã cập nhật {0} tag.
+[1361]  Bỏ qua {0}.
+[1362] ; 
+[1363] {0} lần bấm không trúng {1}
+[1364] {0} tag không ghi được kích thước (đối tượng không mang kích thước, chưa nhập tay)
+[1365] {0} tag không có cao độ (ống chưa gán cao độ, ô số trống)
+[1366] {0} tag không có cao độ (thang / máng chưa gán cao độ, ô số trống)
+[1367] Đã chèn {0} tag {1}.
+[1368] Chưa chọn {0} nào — chưa chèn tag.
+[1369] Chưa chèn được tag nào.
+[1370]  Cao độ đổi thành {0}.
+[1371] /
+[1372] {W}
+[1373] {H}
+[1374] %%p
+[1375] ±
+[1376] %%P
+[1377]  - 
+[1378] \\
+[1379] \{
+[1380] \}
+[1381] Thiếu thông số.
+[1382] Chưa bật phần nào — bật ít nhất một trong Tên / Kích thước / Cao độ / Ghi chú thêm.
+[1383] Đang bật Tên nhưng các ô tên đều trống.
+[1384] Bề rộng
+[1385]  nhập tay phải là số mm > 0 (hoặc để trống).
+[1386] Chiều cao nhập tay phải là số mm > 0 (hoặc để trống).
+[1387] Cao độ phải là số, vd 3.2 hoặc +3.200 (m).
+[1388] Cao độ cho ống chưa gán phải là số (hoặc để trống = bỏ qua cao độ ở ống đó).
+[1389] Cao độ cho thang / máng chưa gán phải là số (hoặc để trống = bỏ qua cao độ ở thang / máng đó).
+[1390] Đang bật Ghi chú thêm nhưng ô ghi chú trống.
+[1391] Cỡ chữ phải là số > 0 (hoặc để trống = theo cỡ chữ DIM).
+[1392] Cỡ mũi tên phải là số > 0 (hoặc để trống = bằng cỡ chữ).
+[1393] Chiều dài đoạn gãy ngang phải là số > 0 (hoặc để trống = bằng cỡ chữ).
+[1394] Hệ số rộng chữ phải trong khoảng 0,1 – 10 (thường 0,8 – 1).
+[1395] Chưa chọn font chữ.
+[1396] Tên layer có ký tự không dùng được: < > / \ " : ; ? * | , = `
+[1397] %%c
+[1398] Ø
+[1399] %%C
+[1400] %%d
+[1401] %%D
+[1402] %%%
+[1403] %
+[1404] F
+[1405] 0.
+[1406] mm
+[1407]   
+[1408] i = xxx%
+[1409] i=xxx
+[1410] xxx%
+[1411] 0.0
+[1412] 0.00
+[1413] 0.000
+[1414] m
+[1415] 2 dòng — tên + kích thước / cao độ
+[1416] 1 dòng — mọi phần nối liền
+[1417] Mỗi phần một dòng
+[1418] Dấu phẩy   ( , )
+[1419] Gạch ngang   ( - )
+[1420] Khoảng trắng
+[1421] Mũi tên đặc
+[1422] Chấm tròn
+[1423] Chấm tròn nhỏ
+[1424] Gạch chéo (kiến trúc)
+[1425] Gạch nghiêng
+[1426] Mũi tên hở 30°
+[1427] Mũi tên hở
+[1428] Tam giác rỗng
+[1429] Không có mũi tên
+[1430] _DOT
+[1431] _DOTSMALL
+[1432] _ARCHTICK
+[1433] _OBLIQUE
+[1434] _OPEN30
+[1435] _OPEN
+[1436] _CLOSEDBLANK
+[1437] _NONE
+[1438] ByLayer
+[1439] 1 — Đỏ
+[1440] 2 — Vàng
+[1441] 3 — Xanh lá
+[1442] 4 — Xanh ngọc
+[1443] 5 — Xanh dương
+[1444] 6 — Tím
+[1445] 7 — Trắng / đen
+[1446] 8 — Xám
+[1447] ByBlock
+[1448] HTS-TC
+[1449] HTS-MCL
+[1450] HTS 
+[1451] ladder
+[1452] Cable tray
+[1453] ^(HTS-THANGCAP|HTS-MANGCAP|HTS-TRUNKING|HTS-TC|HTS-MCL|HTS-MC)(?:_L2)?(?:-(STR|CON-(?:Can|Trai|Phai)|Z|CO90|COV|CO|TE|THAP|BIT|CUTL|CUTX))?-(W.+)$
+[1454] ^HTS Cable Tray W(\d+(?:\.\d+)?)xH(\d+(?:\.\d+)?)$
+[1455] KHOI
+[1456] SMOKE
+[1457] SMK
+[1458] TANG AP
+[1459] TANGAP
+[1460] PRESSUR
+[1461] SPF
+[1462] TUOI
+[1463] FRESH
+[1464] FA
+[1465] OAD
+[1466] THAI
+[1467] EXHAUST
+[1468] EAD
+[1469] RETURN
+[1470] HOI
+[1471] RAD
+[1472] SUPPLY
+[1473] CAP
+[1474] SAD
+[1475] THONGHOI
+[1476] VENT
+[1477] TH
+[1478] NUOC MUA
+[1479] NUOCMUA
+[1480] RAIN
+[1481] STORM
+[1482] RWP
+[1483] NUOC NONG
+[1484] NUOCNONG
+[1485] HOT
+[1486] HWS
+[1487] HWR
+[1488] THOAT
+[1489] DRAIN
+[1490] WASTE
+[1491] SEWER
+[1492] SOIL
+[1493] WP
+[1494] KP
+[1495] MP
+[1496] CD
+[1497] DP
+[1498] CAP NUOC
+[1499] CAPNUOC
+[1500] NUOC LANH
+[1501] COLD
+[1502] CN
+[1503] DCW
+[1504] WS
+[1505] FM200
+[1506] FM 200
+[1507] NOVEC
+[1508] INERGEN
+[1509] SPRINK
+[1510] DAU PHUN
+[1511] SPK
+[1512] SPR
+[1513] HOA CUOI
+[1514] HOACUOI
+[1515] VACH TUONG
+[1516] HOSE
+[1517] HYDRANT
+[1518] HONG NUOC
+[1519] HONG CUU
+[1520] FHC
+[1521] FH
+[1522] HR
+[1523]  +
+[1524] (?:^|[^A-Za-z0-9])DN[\s_\-]*(\d{2,3})\s*$
+[1525] ^(.+)-(?:COV90|COCANHHUONG)-W([\d.]+)xH([\d.]+)-L[\d.]+$
+[1526] ^(.+)-(?:TEE01|TEETH02|TEEBR01)-([\d.]+)x([\d.]+)-
+[1527] ^(.+)-CUTT01-([\d.]+)x([\d.]+)-R
+[1528] ^(.+)-CO-(?:UP|DOWN)-([\d.]+)x([\d.]+)-R
+[1529] ^(.+)-CO[LX]TR01-D([\d.]+)-R
+[1530] Ten.
+[1531] TenThang
+[1532] GhiCaoDo
+[1533] GhiDoDoc
+[1534] NganCach
+[1535] CoMuiTen
+[1536] GayNgang
+[1537] KhungChu
+[1538] HeSoRong
+[1539] TenMang
+[1540] RongTay
+[1541] CaoDoMm
+[1542] ChuThem
+[1543] DauPhay
+[1544] TenTrunking
+[1545] ChuTrenGach
+[1546] GhiTen
+[1547] CaoTay
+[1548] MuiTen
+[1549] DaiGay
+[1550] GhiKichThuoc
+[1551] CaoDoTheoOng
+[1552] KieuKichThuoc
+[1553] CaoDo
+[1554] BoCuc
+[1555] Layer
+[1556] CaoDoTheoXData
+[1557] KieuCaoDo
+[1558] KieuDoDoc
+[1559] SoLeCaoDo
+[1560] GhiChuThem
+[1561] StyleCoSan
+[1562] Font
+[1563] Cao
+[1564] Mau
+[1565] GhiTen=
+[1566] =
+[1567] GhiKichThuoc=
+[1568] KieuKichThuoc=
+[1569] RongTay=
+[1570] CaoTay=
+[1571] GhiCaoDo=
+[1572] CaoDo=
+[1573] CaoDoTheoOng=
+[1574] CaoDoTheoXData=
+[1575] KieuCaoDo=
+[1576] SoLeCaoDo=
+[1577] CaoDoMm=
+[1578] GhiDoDoc=
+[1579] KieuDoDoc=
+[1580] GhiChuThem=
+[1581] ChuThem=
+[1582] BoCuc=
+[1583] NganCach=
+[1584] DauPhay=
+[1585] MuiTen=
+[1586] CoMuiTen=
+[1587] GayNgang=
+[1588] DaiGay=
+[1589] ChuTrenGach=
+[1590] KhungChu=
+[1591] Font=
+[1592] StyleCoSan=
+[1593] HeSoRong=
+[1594] Cao=
+[1595] Mau=
+[1596] Layer=
+[1597] VIEWSIZE
+[1598] PICKBOX
+[1599] SCREENSIZE
+[1600] HTS-TAG-
+[1601] <>/\":;?*|,=`
+[1602] DIMBLK
+[1603] [
+[1604] ] 
+[1605] Không gian vẽ này chưa có 
+[1606]  vẽ bằng 
+[1607]  — nhập kích thước tay trên bảng để tag đối tượng khác.
+[1608] Chọn điểm đặt MŨI TÊN trên 
+[1609]  [Caodo] <xong>: 
+[1610] Caodo
+[1611] Điểm này không trúng 
+[1612]  vẽ bằng công cụ — ghi theo kích thước nhập tay.
+[1613] Không thấy 
+[1614]  tại điểm này — chọn đúng lên thân 
+[1615]  (bắt điểm Nearest), hoặc nhập kích thước tay trên bảng.
+[1616] Không có chữ nào để ghi (đối tượng không mang kích thước — nhập kích thước tay trên bảng).
+[1617] Cao độ cho ống CHƯA gán cao độ ({0}) <{1}>: 
+[1618] Cao độ cho thang / máng CHƯA gán cao độ ({0}) <{1}>: 
+[1619] Cao độ cho các tag tiếp theo ({0}) <{1}>: 
+[1620] Cao độ phải là số, vd 3.2 hoặc +3.200 — giữ cao độ cũ 
+[1621] Đã bật ghi cao độ.
+[1622] Cao độ: 
+[1623] \n[
+[1624] ] Chọn vị trí đặt chữ: 
+[1625] Chèn tag
+[1626] Chọn điểm đặt mũi tên trên 
+[1627]  (bắt điểm Nearest được), rê chuột đặt chữ — lặp lại cho 
+[1628]  khác, Enter để xong. Gõ C ở dòng lệnh để đổi cao độ giữa chừng.
+[1629] Đóng
+[1630] Nội dung tag
+[1631] Bật / tắt từng phần bằng công tắc — tag chỉ ghi các phần đang bật.
+[1632] Tên
+[1633] Tên ghi trên tag theo loại 
+[1634]  nhận được — gõ tên riêng được, vd 
+[1635] Kích thước
+[1636] Kiểu ghi:
+[1637] Không đọc được thì ghi:
+[1638] Dùng khi bấm vào đối tượng không phải 
+[1639]  vẽ bằng công cụ (tên ghi theo ô Khác). Để trống = không ghi kích thước cho những chỗ đó.
+[1640] ×   C
+[1641]  vẽ bằng công cụ (tên ghi theo ô 
+[1642] ), hoặc block chỉ mang bề rộng. Để trống = không ghi kích thước cho những chỗ đó.
+[1643] Độ dốc
+[1644] xxx là chỗ ghi độ dốc theo % (2 → i=2%) — gõ kiểu khác được.
+[1645] Đọc độ dốc đã đánh cho ống (ĐÁNH ĐỘ DỐC / vẽ ống thoát có độ dốc, đoạn đổi cao độ) — chỉ ghi cho ống thoát nước / nước mưa; ống không có độ dốc thì bỏ qua phần này.
+[1646] Cao độ
+[1647] Nhập tay
+[1648] TagMepNguonCaoDo
+[1649] Mọi tag ghi cùng một số — số ở ô dưới.
+[1650] Theo thang máng đã vẽ (XData cao độ đáy)
+[1651] Lấy cao độ ĐÁY đã gán cho từng thang / máng lúc vẽ (ô CAO ĐỘ ĐÁY) hoặc bằng nút GÁN — thang chưa gán thì ghi số ở ô dưới (trống = bỏ qua phần cao độ).
+[1652] Nhập tay: số ghi lên mọi tag · Theo XData: số cho thang / máng chưa gán cao độ (trống = bỏ qua).
+[1653] Đơn vị nhập và ghi cao độ: m → +3.200 · mm → +3200.
+[1654] xxx là chỗ ghi số cao độ (kèm dấu + / - / ±) — gõ kiểu khác được, vd CAO ĐỘ ĐÁY: xxx.
+[1655] Số lẻ:
+[1656] Lấy cao độ đã gán cho ống — ống chưa gán thì dùng số ở ô trên (trống = bỏ qua)
+[1657] Dấu phẩy thập phân (+3,200)
+[1658] Ghi chú thêm
+[1659] Dòng cuối của tag, vd ĐI TRÊN TRẦN GIẢ · LÊN TẦNG 2 · XUỐNG TỦ MSB.
+[1660] Trình bày & mũi tên leader
+[1661] Bố cục:
+[1662] nối bằng:
+[1663] Dấu nối các phần khi ghi 1 dòng.
+[1664] Mũi tên:
+[1665] Cỡ:
+[1666] (trống = bằng cỡ chữ)
+[1667] Đoạn gãy:
+[1668] Có đoạn gãy ngang, dài
+[1669] Vị trí chữ:
+[1670] Nằm trên gạch ngang
+[1671] TagMepViTri
+[1672] Ngang tầm đoạn gãy
+[1673] Khung quanh chữ
+[1674] Ví dụ:
+[1675] Hts.Border
+[1676] Chữ & layer
+[1677] Font chữ:
+[1678] Font TrueType — tự tạo text style HTS-TAG-<font> nên chữ tiếng Việt có dấu hiện đúng.
+[1679] Hệ số rộng:
+[1680] Độ rộng chữ so với chuẩn (1 = chuẩn, 0.9 = hẹp hơn một chút — hay dùng cho bản vẽ MEP).
+[1681] Hoặc style có sẵn:
+[1682] Cỡ chữ:
+[1683] Màu:
+[1684] Layer tag:
+[1685] Chọn layer có sẵn, hoặc gõ tên mới — chưa có thì tự tạo khi chèn.
+[1686] Gõ tên mới thì tự tạo layer.
+[1687] (Không — dùng font ở trên)
+[1688] (Layer hiện hành)
+[1689] (trống = theo DIM
+[1690] Bấm Chèn tag rồi chọn điểm đặt mũi tên trên 
+[1691]  (bắt điểm Nearest), rê chuột đặt chữ — lặp lại cho 
+[1692]  khác, Enter để xong.
+[1693] Chiều dài đoạn gãy phải là số > 0 (hoặc để trống = bằng cỡ chữ).
+[1694] (không ghi gì)
+[1695] Global 
+[1696] Tahoma
+[1697] Times New Roman
+[1698] Calibri
+[1699] Segoe UI
+[1700] Verdana
+[1701] Hts.TextMuted
+[1702] Hts.Navy
+[1703] Hts.Text
+[1704] Bật / tắt 
+[1705]  trên tag
+[1706] ray
+[1707] num
+[1708] Hts.Accent
+[1709] Segoe MDL2 Assets, Segoe Fluent Icons, Segoe UI Symbol
+[1710] ] Lỗi: 
+[1711] Không có bản vẽ nào đang mở.
+[1712] Lỗi khi 
+[1713] cập nhật tag: 
+[1714] chèn tag: 
+[1715] \nQuét chọn các Polyline3d định tuyến cấp thoát nước: 
+[1716] \nKhông có Polyline3d hợp lệ có Layer chứa kích thước ống.
+[1717]  Layer chưa đọc được đường kính: 
+[1718] PCCC ống thép + 
+[1719] PCCC ống thép
+[1720] \nQUÉT MÔ HÌNH 3D hoàn tất [
+[1721] ]: 
+[1722]  đoạn Solid3d, 
+[1723]  vị trí phụ kiện
+[1724]  (trong đó 
+[1725]  góc vuông ống thoát = 2 chếch)
+[1726]  (dùng lại 
+[1727]  Block sẵn có)
+[1728]  Bỏ qua Layer không đọc được đường kính: 
+[1729]  Thiếu 
+[1730]  Block trong thư viện: 
+[1731] …
+[1732]  Có 
+[1733]  vị trí không đặt được Block.
+[1734]  Block không có điểm nối — đặt theo trục ống: 
+[1735]  Block không có Visibility '3D'
+[1736]  — bản vẽ đang dùng định nghĩa CŨ, chạy lệnh HTSBLOCKSYNC để cập nhật từ thư viện)
+[1737]  đoạn không dựng được Solid.
+[1738]  Polyline3d trùng khít tuyến khác (sơ đồ dựng từ ống chồng 2 lớp) — chỉ quét 1 lần.
+[1739]  Dựng 
+[1740]  giá đỡ / quang treo 3D, 
+[1741]  Dựng hào đào đắp 3D (cát + đất đắp + tấm đan) cho 
+[1742]  ống.
+[1743]  Đặt 
+[1744]  thiết bị vệ sinh chưa có ống nối (khối 3D tại chỗ, theo vị trí / góc xoay trên mặt bằng).
+[1745]  thiết bị 1 cổng (van xả khí, đồng hồ, cảm biến…): 
+[1746]  ở đầu ống, 
+[1747]  lắp trên mặt ống.
+[1748]  thiết bị 1 cổng không có ống ở gần (đặt cổng chạm ống / đầu ống trên mặt bằng).
+[1749]  Thư viện thiếu block (hoặc block chưa có hình 3D) → mô hình dùng phụ kiện thay thế: 
+[1750]  Polyline3d định tuyến được giữ lại để hiệu chỉnh/quét lại.
+[1751]  vị trí KHÔNG có tên phụ kiện gán sẵn — loại đoán theo góc ống (+ ô Loại ống hiện tại nếu là góc vuông ống thoát): quét lại với Loại ống / vật liệu khác thì CHÍNH những vị trí này có thể đổi Block dù hình không đổi; muốn cố định thì vẽ/chọn rõ phụ kiện đó trên mặt cắt đứng rồi Cập nhật 3D.
+[1752] \n  (!) Giao diện đang chọn bộ block [
+[1753] ] nhưng 
+[1754]  (theo Layer / tên phụ kiện 2D). Phụ kiện thiếu trong bộ đang chọn đã lấy theo tên 2D; nếu cần đúng bộ đó hãy đổi ô HT trên palette rồi quét lại.
+[1755] \nLỗi QUÉT MÔ HÌNH 3D: 
+[1756] \n  (Bỏ qua đối chiếu sơ đồ AI với 2D: 
+[1757] \n  (Bo qua bang xoay mo hinh: 
+[1758] uPVC
+[1759] KX=
+[1760] KY=
+[1761] PPR
+[1762]  PPR
+[1763] HDPE
+[1764]  HDPE
+[1765] PVC
+[1766] HTS-Y-D
+[1767] HTS-ELB45-D
+[1768] HTS-TEE-D
+[1769] HTS-ELB90
+[1770] HTS-RED-D
+[1771] HTS-ELB90-D
+[1772] HTS-CROSS-D
+[1773] F0
+[1774] HTS-Siphong
+[1775] FITTING|
+[1776] CHECH|
+[1777] (?i)^(HTS-(?:TEE|Y)-D)(\d+)x(\d+)$
+[1778] CTN
+[1779] 3D
+[1780]  3D
+[1781] Đoạn ống 3D có toạ độ không hợp lệ (NaN/∞).
+[1782] Đoạn ống 3D không có chiều dài/đường kính hợp lệ.
+[1783] HTS-MCONG-
+[1784] HTS-MCDN
+[1785] HTS-Van
+[1786] HTS-YLoc
+[1787] HTS-KhopNoiMem
+[1788] HTS-WATER-METER
+[1789] HTS-MatBich
+[1790] HTS-SCREW-
+[1791] HTS-WELD-
+[1792] \n  (Bo qua cap nhat block PCCC cu: 
+[1793]  Đã cập nhật 
+[1794]  định nghĩa block PCCC cũ (chưa có trạng thái 3D) theo thư viện: 
+[1795]  — block 2D trên mặt bằng giữ nguyên trạng thái hiển thị.
+[1796]  Van / thiết bị PCCC chưa có hình 3D trong thư viện (đặt hình 2D theo trục ống, ống thu về 2 mặt van): 
+[1797] RED-DN
+[1798] MANGSONG
+[1799] MANGSONG-DN
+[1800] ELB90-DN
+[1801] ELB45-DN
+[1802] TEE-DN
+[1803] HTS-SCREW-RED-
+[1804] HTS-WELD-RED-
+[1805] HTS-Kepren
+[1806] GIADO|
+[1807] HTS-TYREN
+[1808] SIDE90
+[1809] SIZE
+[1810] MB
+[1811] BOT
+[1812] \n  Phụ kiện uPVC chưa có hình 3D trong thư viện → đã dựng khối 3D từ hình 2D của chính block: {0}.
+[1813] \n  (!) Không dựng được khối 3D cho: {0} — phụ kiện giữ hình phẳng.
+[1814] HTS-MATCAT
+[1815] (?i)(?:DN|D|Ø|Φ)\s*[-_]?\s*(\d+(?:[\.,]\d+)?)
+[1816] (?i)^HTS-(?:SCREW|WELD)-ELB(?:90|45)-DN\d+x\d+$
+[1817]  → 
+[1818]  tuyến là 
+[1819] tự nhận vật liệu
+[1820] uPVC thông hơi
+[1821] uPVC thoát nước
+[1822] cm
+[1823] L=
+[1824] BOP
+[1825] COP
+[1826] - 
+[1827] Standard
+[1828] \n[HTS] Tu dong ghi chu: loi tim ong moi: 
+[1829] ghichu_ong.dat
+[1830] show_endpoint_elevation
+[1831] elev_step_canho
+[1832] elev_div1000_canho
+[1833] elev_dec_canho
+[1834] elev_step_hatang
+[1835] elev_div1000_hatang
+[1836] elev_dec_hatang
+[1837] version=2
+[1838] show_endpoint_elevation=
+[1839] elev_step_canho=
+[1840] elev_div1000_canho=
+[1841] elev_dec_canho=
+[1842] elev_step_hatang=
+[1843] elev_div1000_hatang=
+[1844] elev_dec_hatang=
+[1845] \nChon cac ong (Mline) can ghi chu: 
+[1846] \n[HTS] Da ghi chu {0} ong.{1}
+[1847]  Bo qua {0} ong ngan hon {1} (DO DAI TOI THIEU).
+[1848]  Bo qua {0} ong qua ngan, khong du cho de ghi chu.
+[1849] \n[HTS] Bo qua ghi chu 1 ong: 
+[1850] \n[HTS] Tu dong ghi chu 
+[1851]  doan ong moi.
+[1852] \n[HTS] Tu dong ghi chu: khong dat duoc ghi chu nao.
+[1853] \n[HTS] Loi tu dong ghi chu ong: 
+[1854] \n[HTS] Cap nhat ghi chu {0} ong cu bi tach / doi chieu dai: {1} ghi chu.{2}
+[1855] \n[HTS] Loi cap nhat ghi chu ong bi tach: {0}
+[1856] HTS_GHICHU_ONG
+[1857] L\s*=\s*(\d+(?:[.,]\d+)?)\s*(mm|cm|m)(?![a-z])
+[1858] 0.######
+[1859] HTS_ELEVATION_SPAN
+[1860] Z=
+[1861]  - i=
+[1862]  i=
+[1863] HTS-3D-TAG
+[1864] HTS-3D-DIM
+[1865] HTS_SECTIONBOX
+[1866] tag3d.dat
+[1867] CoChu
+[1868] GhiTag
+[1869] GhiDim
+[1870] DungHcad
+[1871] TienTo
+[1872] HauTo
+[1873] ViTri
+[1874] DocOng
+[1875] CoChu=
+[1876] GhiTag=
+[1877] GhiDim=
+[1878] DungHcad=
+[1879] TienTo=
+[1880] HauTo=
+[1881] ViTri=
+[1882] DocOng=
+[1883] SAN|
+[1884] SAN|TEXT
+[1885] \n  (!) Khong doc duoc hinh cua cac doi tuong da chon de xem truoc.
+[1886] \n  (!) Mo hinh qua lon: moi ve duoc 
+[1887]  doi tuong (
+[1888]  mat) — cac doi tuong con lai KHONG co hinh. Quet tung vung nho hon de xem du.
+[1889]  [Chon/TatCa] <Chon>: 
+[1890] Chon
+[1891] TatCa
+[1892] \nChon cac ong 3D (Solid do QUET MO HINH 3D dung): 
+[1893] TAG3D|
+[1894] DIM3D|
+[1895] TAG ong 3D theo goc nhin hien tai
+[1896] \n  (Khong co ong 3D nao.)
+[1897] \n  Loi TAG ong 3D: 
+[1898] \n  >> Da TAG 
+[1899]  doan ong 3D (chu quay ve goc nhin hien tai
+[1900] , bo qua 
+[1901]  doi tuong khong phai ong 3D / qua ngan
+[1902] ). Xoay goc nhin roi chay lai lenh de TAG theo goc moi.
+[1903] \nLoai DIM ong 3D [ChieuDai/CaoDo/CaiDat] <ChieuDai>: 
+[1904] ChieuDai
+[1905] CaiDat
+[1906] \n  >> Da luu cai dat DIM ong 3D.
+[1907] DIM chieu dai ong 3D
+[1908] DIM cao do toi san +-0.00
+[1909] DIM3D|L|
+[1910] DIM3D|Z|
+[1911] \n  Loi DIM ong 3D: 
+[1912] \n  >> Da DIM 
+[1913]  doan ong 3D
+[1914]  (chieu dai that
+[1915]  doan theo cai dat DIM: pham vi / do dai / co ong
+[1916] ). Doi cai dat: chon CaiDat.
+[1917]  (cao do tu san +-0.00; goc nhin tu tren xuong khong DIM dung duoc).
+[1918]  TAG/DIM ong 3D.
+[1919] \nChon mo hinh 3D can xoay goc nhin va gom thanh Block [BangHts]: 
+[1920] BangHts
+[1921] --chot-goc
+[1922] HCAD_EXE
+[1923] Tools
+[1924] HCAD
+[1925] hts_app.exe
+[1926] D:\00.CODING\02.HTS-CAD\build\bin\hts_app.exe
+[1927] D:\00.CODING\02.HTS-CAD\dist\HCAD\hts_app.exe
+[1928] HTS_HCAD
+[1929] mohinh_
+[1930] .dxf
+[1931] chotgoc_
+[1932] .json
+[1933] .ong.txt
+[1934] \n  (!) Khong co hinh mo hinh de gui sang HCAD.
+[1935] .hts.json
+[1936] \n  (Bo qua mo hinh ngu nghia HTS3D: 
+[1937] --import-dxf "
+[1938] " --chot-goc "
+[1939]  --hts-pipes "
+[1940]  --hts-model "
+[1941] \n  >> Da mo HCAD (
+[1942]  mat): xoay mo hinh roi bam CHOT GOC trong HCAD -> HTS dat Block xuong mat bang. Dong HCAD khong chot = huy.
+[1943] \n  (!) Khong mo duoc HCAD: 
+[1944]  — dung bang xoay cua HTS.
+[1945] \n  >> HCAD: da huy chot goc.
+[1946] ghiTag
+[1947] ghiDim
+[1948] notes
+[1949] dims
+[1950] moi
+[1951] \n  (!) HCAD tra file chot goc khong doc duoc — huy.
+[1952] HTS3DHCADDAT\n
+[1953] \n  >> Da dong HCAD ma chua CHOT GOC — khong dat mo hinh.
+[1954] \n  (!) Loi cho HCAD chot goc: 
+[1955] "huy"\s*:\s*true
+[1956] view
+[1957] right
+[1958] yaw
+[1959] pitch
+[1960] "\s*:\s*\[\s*([-+]?(?:\d+\.?\d*|\.\d+)(?:[eE][-+]?\d+)?)\s*,\s*([-+]?(?:\d+\.?\d*|\.\d+)(?:[eE][-+]?\d+)?)\s*,\s*([-+]?(?:\d+\.?\d*|\.\d+)(?:[eE][-+]?\d+)?)\s*\]
+[1961] "\s*:\s*\[(.*?)\]
+[1962] \{[^{}]*\}
+[1963] "id"\s*:\s*"([^"]*)"
+[1964] "side"\s*:\s*(\d+)
+[1965] "at"\s*:\s*(\d+)
+[1966] "\s*:\s*(true|false)
+[1967] true
+[1968] "\s*:\s*([-+]?(?:\d+\.?\d*|\.\d+)(?:[eE][-+]?\d+)?)
+[1969] "rotations"\s*:\s*\[
+[1970] "h"\s*:\s*"([0-9A-Fa-f]+)"
+[1971] p1
+[1972] p2
+[1973] deg
+[1974] seq
+[1975] "\s*:\s*"((?:[^"\\]|\\.)*)"
+[1976] \\(.)
+[1977] $1
+[1978] HTSMOI
+[1979] M
+[1980] HTS-3D
+[1981] SECTION
+[1982] HEADER
+[1983] $INSUNITS
+[1984] 4
+[1985] 6
+[1986] ENDSEC
+[1987] ENTITIES
+[1988] 64
+[1989] HCAD_BIM
+[1990] mesh
+[1991] VERTEX
+[1992] 192
+[1993] 128
+[1994] SEQEND
+[1995] 8
+[1996] 32
+[1997] EOF
+[1998] HTSPIPES	1\n
+[1999] S	
+[2000] HATANG	
+[2001] P	
+[2002] i=
+[2003] 0.####
+[2004] \n  (Khong co goc nao HCAD vua chot.)
+[2005] \n  >> Goc HCAD: phuong vi 
+[2006]  · nang 
+[2007]  · nghieng 
+[2008]  do.
+[2009]  Ghi chu chon tay: 
+[2010]  ong.
+[2011]  DIM chon tay: 
+[2012] \n  (!) Khong doc duoc thay doi ngu nghia trong ket qua HCAD (htsOps / htsNew).
+[2013] \n  >> HCAD: xoay 
+[2014]  · doi 
+[2015]  · xoa 
+[2016]  doi tuong goc
+[2017]  (bo qua 
+[2018] : khong con / layer khoa / ngoai mo hinh)
+[2019] \n  >> HCAD ve them: 
+[2020]  tuyen ong (quet ra 
+[2021]  Solid / phu kien), 
+[2022]  tuyen cap (
+[2023]  doan, net Pline 3D).
+[2024] \n  (!) 
+[2025] \n  >> HCAD: them 
+[2026]  khoi 3D ve trong HCAD vao mo hinh.
+[2027] objects
+[2028] planOffset
+[2029] solid
+[2030] schema
+[2031] hts3d
+[2032] version
+[2033] generator
+[2034] dxf
+[2035] units
+[2036] center
+[2037] move
+[2038] cable
+[2039] tuyến mới lỗi: 
+[2040] SOLID
+[2041] FITTING
+[2042] CHECH
+[2043] HTS_MATCAT
+[2044] MC|1
+[2045] TANG|
+[2046] MPTT|
+[2047] GEN
+[2048] DASHDOT
+[2049] CENTER
+[2050] acadiso.lin
+[2051] acad.lin
+[2052] HTS-MATCAT-
+[2053] 00
+[2054] \nChon Block mat cat da ve them ong + phu kien: 
+[2055] \n  (Chi chon Block mat cat.)
+[2056] \n  (!) Doi tuong chon khong phai Block mat cat HTS-MATCAT.
+[2057] \n  (!) Chua thay ong Mline hay phu kien nao ve tren mat cat (ong Mline di qua khung mat cat; phu kien Te / Y / chech / cut / van / con / thong tac...: block HTS-... thu vien CTN).
+[2058] HTS_MATCAT3D
+[2059]  thiet bi 1 cong (van xa khi, dong ho...) khong nam tren ong nao.
+[2060]  phu kien khong nam tren ong nao (dat tai ky hieu ong cat / tren dai ong / tren ong ve).
+[2061]  diem noi chua co ong nao di qua / cham vao.
+[2062]  ong ve qua ngan nen chua vao 3D.
+[2063]  dau tuyen co san nam NGOAI khung mat cat hien tai nhung duoc nhan vi ong ve moi vuon toi do.
+[2064]  ong / phu kien ve NGOAI khung duoc nhan vi noi lien mach voi phan trong khung.
+[2065] \n  (!) Khong cap nhat duoc phu kien nao (
+[2066]  phu kien, 
+[2067]  ong ve tren mat cat).
+[2068]  Giu nguyen ket qua lan truoc.
+[2069] \n  >> Cap nhat 3D tu mat cat: 
+[2070]  diem noi co ong
+[2071]  ong moi
+[2072]  phu kien giua ong 3D (cat tuyen tai do)
+[2073]  phu kien tren ong ve moi
+[2074]  phu kien dau tuyen
+[2075]  ong ve noi tiep dau tuyen 3D
+[2076]  thiet bi 1 cong bam ong (van xa khi, dong ho...)
+[2077]  ong nhanh han thang len mat ong (khong Te)
+[2078]  may bom / thiet bi dat san vao 3D
+[2079]  ong tu do (khong cham diem noi nao
+[2080]  theo do sau bom / thiet bi
+[2081]  tren mat phang thao tac
+[2082] , con lai
+[2083]  dat tren mat phang cat, lui 
+[2084]  vao do sau
+[2085]  (thay 
+[2086]  ong cua lan cap nhat truoc)
+[2087]  (ghep lai 
+[2088]  cho cat tuyen cua lan truoc)
+[2089]  Do lech so do 3D uoc luong: (
+[2090] \n  >> Quet lai 
+[2091]  tuyen trong cum de dat phu kien + thu ong vao cong...
+[2092] HTS-MTEE
+[2093] HTS-TEE
+[2094] HTS-TECONG
+[2095] ^HTS-[A-Za-z0-9]+-D\d+
+[2096] ;
+[2097] @
+[2098] ;KY=
+[2099] Y + chech
+[2100] 2 chech
+[2101] cut
+[2102] phu kien tren ong
+[2103] D|
+[2104] SC|
+[2105] EC|
+[2106] HTS_MATCAT_SUA
+[2107] E
+[2108] SC
+[2109] EC
+[2110] |cap2
+[2111] ANSI31
+[2112] ±0.000
+[2113] (\d+)(?!.*\d)
+[2114]  (TẦNG TRÊN)
+[2115] TẦNG TRÊN
+[2116] SDNL-MOC TANG
+[2117] SDNL-GHI CHU
+[2118] CAODO
+[2119] TANG
+[2120] SDNL_MOCTANG
+[2121] SDNLTN
+[2122] arial.ttf
+[2123] Cao do
+[2124] +0.000
+[2125] Ten tang
+[2126] TANG 1
+[2127] TẦNG 01
+[2128] HTS_MATCAT_TANG
+[2129] \n  (Khong mo duoc cua so moc tang: 
+[2130]  — nhap o dong lenh.)
+[2131] \nTen tang tai cao do 0 cua mat bang (- = khong ve moc tang) <
+[2132] \nCao do san tang nay so voi +-0.000 (m) <
+[2133] \nChieu cao tang (mm, san den san tang tren) <
+[2134] MPVE|
+[2135] MP THAO TAC
+[2136] \nMat phang thao tac - diem 1 tren mat bang (ong / thiet bi ve tren mat cat chua noi se nam tren mat phang nay) <Enter = bo qua>: 
+[2137] \nMat phang thao tac - diem 2: 
+[2138] \n  (!) Duong mat phang thao tac qua ngan - bo qua.
+[2139] HTS-RED
+[2140] HTS-VALVE
+[2141] HTS-ChechTT
+[2142] HTS-Mangsong
+[2143] HTS-NapBit
+[2144] HTS-CAP
+[2145] HTS-RacCo
+[2146] HTS-Cutren
+[2147] HTS-1CUTREN
+[2148] HTS-2CUTREN
+[2149] HTS-MALE
+[2150] HTS-FEMALE
+[2151] HTS-CLAMP
+[2152] HTS-CROSS
+[2153] HTS-Ubolt
+[2154] HTS-SECTIONBOX
+[2155] HTS-COUPLING-
+[2156] HTS-CUMNOI
+[2157] HTS-MatBichMu
+[2158] HTS-MatBichRong
+[2159] ^HTS-RED-D(\d+(?:[\.,]\d+)?)\s*x\s*(\d+(?:[\.,]\d+)?)
+[2160] ^HTS-(?:WELD|SCREW|COUPLING)-RED-(?:LECH-)?DN\s*(\d+)\s*x\s*(\d+)
+[2161] \nDiem 3 - huong nhin + do sau nhin (phia mui ten): 
+[2162] loai-noi
+[2163] TRẦN THÔ 
+[2164] TRẦN GIẢ 
+[2165] \nMat cat dung [VeMoi/CapNhat3D/MatPhang] <VeMoi>: 
+[2166] VeMoi
+[2167] CapNhat3D
+[2168] MatPhang
+[2169] \n  Loi cap nhat 3D tu mat cat: 
+[2170] \nChon Block mat cat HTS-MATCAT: 
+[2171] \n  Phai chon Block mat cat.
+[2172] \n  >> Da dat mat phang thao tac. Chay Cap nhat 3D de ong / thiet bi ve tren mat cat nam tren mat phang nay.
+[2173] \nDiem 1 - dau duong cat: 
+[2174] \nDiem 2 - cuoi duong cat: 
+[2175] \n  (!) Duong cat qua ngan.
+[2176] \n  (!) Do sau nhin qua nho.
+[2177] \nDiem dat Block mat cat tren mat bang (goc duoi-trai khung): 
+[2178] \n  Loi tao mat cat: 
+[2179] \n  >> Da tao mat cat "
+[2180] ": 
+[2181]  hinh ong, 
+[2182]  phu kien 3D
+[2183]  (chua QUET MO HINH 3D thi mat cat chi co ong)
+[2184]  thang / mang cap
+[2185]  khoi ong gio 3D
+[2186]  tu / thiet bi 3D
+[2187]  dam
+[2188]  tuong
+[2189]  doan tran tho / tran gia
+[2190]  (phan bi cat to hatch)
+[2191]  (do sau nhin 
+[2192] ). Chon Block -> keo 4 grip o giua canh khung de mo rong tren/duoi/trai/phai.
+[2193] \n[MatCat-Grip] Loi dung lai mat cat: 
+[2194] Mo rong mat cat - canh 
+[2195] \n[HTS] 3D CAP NUOC - BAN 01: dung mo hinh mot net tu hinh 2D.
+[2196] \n  Luu y: hinh 2D duoc chon se bi XOA va thay bang net 3D (go U de hoan tac).
+[2197] \nTiep tuc? [Co/Khong] <Co>: 
+[2198] Co
+[2199] Khong
+[2200] CUTRENNGOAI
+[2201] \nLoi 3D CAP NUOC ban 01: 
+[2202] \n  >> Da dung: 
+[2203]  doan ong, 
+[2204]  truc dung.
+[2205]  doi tuong chua co cao do (dung CAI DAT CAO DO truoc).
+[2206] \n[Ống 3D-Grip] Lỗi: 
+[2207] Kéo đầu ống 3D (cuối tuyến)
+[2208] Kéo đầu ống 3D (đầu tuyến)
+[2209] \nSECTION BOX 3D chỉ hoạt động trong Model Space.
+[2210] \nQuét mô hình cần tạo SectionBox: 
+[2211] \nLỗi SECTION BOX 3D: 
+[2212] \nKhông tìm thấy đối tượng có hình học 3D hợp lệ.
+[2213] HTS_SECTIONBOX_MODEL_
+[2214] MODEL
+[2215] HTS_SECTIONBOX_FRAME_
+[2216] \nĐã tạo SectionBox cho 
+[2217]  đối tượng. Chọn khung màu cyan và kéo một trong sáu grip mặt hộp để hiệu chỉnh.
+[2218] \nĐã tắt SectionBox và phục hồi mô hình gốc.
+[2219] \nĐã bật SectionBox.
+[2220] \nĐã xóa SectionBox và phục hồi mô hình gốc.
+[2221] \nKhông thể xóa SectionBox: 
+[2222] CONTROLLER
+[2223] mo khung dieu khien
+[2224] ghi du lieu hop
+[2225] (khong ro)
+[2226] mo tu dien mo rong
+[2227] mo tu dien ACAD_FILTER
+[2228] ACAD_FILTER
+[2229] dung dinh nghia bo cat
+[2230] go bo cat cu
+[2231] SPATIAL
+[2232] gan bo cat moi
+[2233] HTS_SECTIONBOX_DATA
+[2234] CLIP=
+[2235] SRC=
+[2236] \n[SectionBox-Grip] Loi AutoCAD o buoc "
+[2237] \n[SectionBox-Grip] Loi o buoc "
+[2238] Kéo mặt SectionBox 
+[2239] ONG:
+[2240] \nDiem dat mo hinh 3D tren mat bang: 
+[2241] \n[SectionBox-Goc] Loi dat mo hinh: 
+[2242] \n  >> Da dat mo hinh 3D (phuong vi 
+[2243]  do · nang 
+[2244]  do · xoay 
+[2245]  do) tai (
+[2246] \nDiem dat Block mo hinh 3D tren mat bang: 
+[2247] HTS-MH3D-
+[2248] -01
+[2249] -GC
+[2250] \n[MoHinh3D] Loi tao Block mo hinh: 
+[2251] \n  >> Đã tạo mô hình 3D "{0}": {1} Block, mỗi Block nằm trên layer của hệ ({2} đối tượng{3}{4}), gom nhóm "{0}" — phương vị {5}° · nâng {6}° · xoay {7}°.
+[2252]  TAG
+[2253]  DIM
+[2254] \n  >> Da tao Block "
+[2255] " (
+[2256]  doi tuong
+[2257] ) — phuong vi 
+[2258] \n  >> Phiếu khối lượng VCS: {0} dòng (bóc bằng VCS).
+[2259] _
+[2260] Mô hình 3D theo layer từng hệ
+[2261] \n  (!) Chua doc duoc SectionBox de xem truoc.
+[2262] \n  (!) Ban ve chua co SectionBox — chay lenh HSB3D9X truoc.
+[2263] PointMonitor: BAT — re chuot vao doi tuong de xem thong tin.
+[2264] PointMonitor: TAT.
+[2265] PointMonitor: BAT.
+[2266] PointMonitor theme: 
+[2267] DARK
+[2268] ROLLOVERTIPS
+[2269] Angle
+[2270] Start
+[2271] End
+[2272] Vertices
+[2273] Area
+[2274] Closed
+[2275] Elevation
+[2276] Center
+[2277] Radius
+[2278] Diameter
+[2279] Sweep
+[2280] Major R
+[2281] Minor R
+[2282] Text
+[2283] “
+[2284] ”
+[2285] Height
+[2286] Style
+[2287] Position
+[2288] Pattern
+[2289] ?
+[2290] Loops
+[2291] Degree
+[2292] Ctrl Pts
+[2293] Volume
+[2294]  ³
+[2295] Dim Text
+[2296] <>
+[2297] Measure
+[2298] ĐƯỜNG ỐNG (MLINE)
+[2299] Chưa có cao độ
+[2300] Cao độ điểm đầu
+[2301] Cao độ điểm cuối
+[2302] Block
+[2303] Scale
+[2304] {0:F2} × {1:F2} × {2:F2}
+[2305] Rotation
+[2306] BlockReference
+[2307] DBText
+[2308] MText
+[2309] Polyline
+[2310] Polyline2d
+[2311] Polyline3d
+[2312] DBPoint
+[2313] Block Reference
+[2314] Polyline (LW)
+[2315] Polyline 2D
+[2316] Polyline 3D
+[2317] Point
+[2318] ╱
+[2319] ⌐
+[2320] ◯
+[2321] ⌒
+[2322] ✎
+[2323] •
+[2324] ▦
+[2325] ∿
+[2326] ◧
+[2327] ↔
+[2328] ▣
+[2329] ▸
+[2330] (null)
+[2331]  (RGB)
+[2332] ({0:#,0.##}, {1:#,0.##})
+[2333] ({0:#,0.##}, {1:#,0.##}, {2:#,0.##})
+[2334] #,0.##
+[2335]  ²
+[2336] dim3d.dat
+[2337] PhamVi
+[2338] KieuChu
+[2339] BoQuaCo
+[2340] DaiToiThieu
+[2341] KhoangCach
+[2342] Ben
+[2343] TachLopTheoCo
+[2344] PhamVi=
+[2345] KieuChu=
+[2346] DaiToiThieu=
+[2347] KhoangCach=
+[2348] Ben=
+[2349] TachLopTheoCo=
+[2350] BoQuaCo=
+[2351] HTS-3D-DIM-

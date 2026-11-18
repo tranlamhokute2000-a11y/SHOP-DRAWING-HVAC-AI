@@ -1,0 +1,203 @@
+﻿Redirect stdout (file: C:\Users\Nguye\AppData\Local\Temp\accc97042).
+AcCoreConsole: StdOutConsoleMode: processed-output: disabled,auto
+AutoCAD Core Engine Console - Copyright 2026 Autodesk, Inc.  All rights reserved. (X.118.0.0)
+
+Execution Path:
+C:\Program Files\Autodesk\AutoCAD 2027\accoreconsole.exe
+Current Directory: C:\Users\Nguye\Desktop\SHOP DRAWING-AI
+
+Version Number: X.118.0.0 (UNICODE)
+LogFilePath has been set to the working folder.
+CoreHeartBeat
+Regenerating model.
+CoreHeartBeat
+
+**** System Variable Changed ****
+3 of the monitored system variables have changed from the preferred value. Use SYSVARMONITOR command to view changes.
+
+
+  Loading HVAC15------You can use right now HVAC15, (D) HVAC15 - 2018
+; error: bad argument type: VLA-OBJECT nil
+
+AutoCAD menu utilities loaded.
+  Loading HVAC15------You can use right now HVAC15, (D) HVAC15 - 2018
+; error: bad argument type: VLA-OBJECT nil
+
+Command:
+Command:
+
+Command:
+Command: (load "C:/Users/Nguye/Desktop/SHOP DRAWING-AI/work_hvac/inspect_blocks.lsp")
+C:INSPBLK
+
+Command: INSPBLK
+_.-INSERT Enter block name or [?]: C:\Users\Nguye\AppData\Roaming/Autodesk/ApplicationPlugins/Htools.bundle/Contents/Windows/Library/HVAC/Phụ kiện/HTS_Van gio vuong VCD.dwg
+Units: Millimeters   Conversion:    1.0000
+Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _S Specify scale factor for XYZ axes <1>: 1 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _R
+Specify rotation angle <0>: 0 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]:
+Command: INSPBLK
+Unknown command "INSPBLK".  Press F1 for help.
+
+Command:
+=== BLOCK: "HTS_Van gio vuong VCD" ===
+  ATTDEF: Tag="NAME_FITTING" Default="VCD" Prompt=""
+  ATTDEF: Tag="Duct" Default="W300xH100" Prompt="WxH"
+  DYN_NODE (BLOCKLINEARPARAMETER): [301]=DisplacementX [302]=DisplacementY [303]=DisplacementX [305]=Width1 [140]=133.853
+  DYN_NODE (BLOCKLINEARPARAMETER): [301]=DisplacementX [302]=DisplacementY [303]=DisplacementX [305]=L [140]=-81.0954
+_.-INSERT Enter block name or [?] <HTS_Van gio vuong VCD>: C:\Users\Nguye\AppData\Roaming/Autodesk/ApplicationPlugins/Htools.bundle/Contents/Windows/Library/HVAC/Phụ kiện/HTS_Van gio tron VCD.dwg
+Units: Inches   Conversion:   25.4000
+Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _S Specify scale factor for XYZ axes <1>: 1 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _R
+Specify rotation angle <0>: 0 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]:
+Command:
+=== BLOCK: "HTS_Van gio tron VCD" ===
+  ATTDEF: Tag="NAME_FITTING" Default="VCD" Prompt=""
+  ATTDEF: Tag="Duct" Default="W300xH100" Prompt="WxH"
+  DYN_NODE (BLOCKLINEARPARAMETER): [301]=DisplacementX [302]=DisplacementY [303]=DisplacementX [305]=Width1 [140]=133.853
+_.-INSERT Enter block name or [?] <HTS_Van gio tron VCD>: C:\Users\Nguye\AppData\Roaming/Autodesk/ApplicationPlugins/Htools.bundle/Contents/Windows/Library/HVAC/Phụ kiện/HTS_Van chan lua FD.dwg
+Units: Millimeters   Conversion:    1.0000
+Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _S Specify scale factor for XYZ axes <1>: 1 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _R
+Specify rotation angle <0>: 0 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]:
+Command:
+=== BLOCK: "HTS_Van chan lua FD" ===
+  ATTDEF: Tag="NAME_FITTING" Default="FD" Prompt=""
+  ATTDEF: Tag="Duct" Default="W300xH100" Prompt="WxH"
+  DYN_NODE (BLOCKLINEARPARAMETER): [301]=DisplacementX [302]=DisplacementY [303]=DisplacementX [305]=L [140]=-54.8451
+  DYN_NODE (BLOCKLINEARPARAMETER): [301]=DisplacementX [302]=DisplacementY [303]=DisplacementX [305]=Width1 [140]=78.8215
+_.-INSERT Enter block name or [?] <HTS_Van chan lua FD>: C:\Users\Nguye\AppData\Roaming/Autodesk/ApplicationPlugins/Htools.bundle/Contents/Windows/Library/HVAC/Phụ kiện/HTS_Van chan lua dieu khien bang motor MFD.dwg
+Units: Millimeters   Conversion:    1.0000
+Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _S Specify scale factor for XYZ axes <1>: 1 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _R
+Specify rotation angle <0>: 0 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]:
+Command:
+=== BLOCK: "HTS_Van chan lua dieu khien bang motor MFD" ===
+  ATTDEF: Tag="NAME_FITTING" Default="MFD" Prompt=""
+  ATTDEF: Tag="Duct" Default="W300xH100" Prompt="WxH"
+  DYN_NODE (BLOCKLINEARPARAMETER): [301]=DisplacementX [302]=DisplacementY [303]=DisplacementX [305]=Width1 [140]=133.853
+  DYN_NODE (BLOCKLINEARPARAMETER): [301]=DisplacementX [302]=DisplacementY [303]=DisplacementX [305]=L [140]=-49.1569
+_.-INSERT Enter block name or [?] <HTS_Van chan lua dieu khien bang motor MFD>: C:\Users\Nguye\AppData\Roaming/Autodesk/ApplicationPlugins/Htools.bundle/Contents/Windows/Library/HVAC/Phụ kiện/HTS_Van gio vuong dieu chinh gio bang motor MD.dwg
+Units: Inches   Conversion:   25.4000
+Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _S Specify scale factor for XYZ axes <1>: 1 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _R
+Specify rotation angle <0>: 0 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]:
+Command:
+=== BLOCK: "HTS_Van gio vuong dieu chinh gio bang motor MD" ===
+  ATTDEF: Tag="NAME_FITTING" Default="MD" Prompt=""
+  ATTDEF: Tag="Duct" Default="W300xH100" Prompt="WxH"
+  DYN_NODE (BLOCKLINEARPARAMETER): [301]=DisplacementX [302]=DisplacementY [303]=DisplacementX [305]=Width1 [140]=133.853
+_.-INSERT Enter block name or [?] <HTS_Van gio vuong dieu chinh gio bang motor MD>: C:\Users\Nguye\AppData\Roaming/Autodesk/ApplicationPlugins/Htools.bundle/Contents/Windows/Library/HVAC/Phụ kiện/HTS_Van gio tron dieu chinh gio bang motor MD.dwg
+Units: Millimeters   Conversion:    1.0000
+Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _S Specify scale factor for XYZ axes <1>: 1 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _R
+Specify rotation angle <0>: 0 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]:
+Command:
+=== BLOCK: "HTS_Van gio tron dieu chinh gio bang motor MD" ===
+  ATTDEF: Tag="NAME_FITTING" Default="MD" Prompt=""
+  ATTDEF: Tag="Duct" Default="W300xH100" Prompt="WxH"
+  DYN_NODE (BLOCKLINEARPARAMETER): [301]=DisplacementX [302]=DisplacementY [303]=DisplacementX [305]=Width1 [140]=133.853
+  DYN_NODE (BLOCKLINEARPARAMETER): [301]=DisplacementX [302]=DisplacementY [303]=DisplacementX [305]=L [140]=-55.5054
+_.-INSERT Enter block name or [?] <HTS_Van gio tron dieu chinh gio bang motor MD>: C:\Users\Nguye\AppData\Roaming/Autodesk/ApplicationPlugins/Htools.bundle/Contents/Windows/Library/HVAC/Phụ kiện/HTS_Van gio mot chieu RND.dwg
+Units: Inches   Conversion:   25.4000
+Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _S Specify scale factor for XYZ axes <1>: 1 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _R
+Specify rotation angle <0>: 0 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]:
+Checking 780 intersections...
+Command:
+=== BLOCK: "HTS_Van gio mot chieu RND" ===
+  ATTDEF: Tag="NAME_FITTING" Default="RND" Prompt=""
+  ATTDEF: Tag="Duct" Default="W300xH100" Prompt="WxH"
+  DYN_NODE (BLOCKLINEARPARAMETER): [301]=DisplacementX [302]=DisplacementY [303]=DisplacementX [305]=Width1 [140]=133.853
+_.-INSERT Enter block name or [?] <HTS_Van gio mot chieu RND>: C:\Users\Nguye\AppData\Roaming/Autodesk/ApplicationPlugins/Htools.bundle/Contents/Windows/Library/HVAC/Phụ kiện/HTS_Khop noi mem vuong.dwg
+Units: Millimeters   Conversion:    1.0000
+Specify insertion point or [Basepoint/Scale/Rotate/Explode/REpeat]: _S Specify scale factor for XYZ axes <1>: 1 Specify insertion point or [Basepoint/Scale/Rotate/Explode/REpeat]: _R
+Specify rotation angle <0>: 0 Specify insertion point or [Basepoint/Scale/Rotate/Explode/REpeat]:
+Checking 1081 intersections...
+
+Command:
+=== BLOCK: "HTS_Khop noi mem vuong" ===
+  DYN_NODE (BLOCKLINEARPARAMETER): [301]=DisplacementX [302]=DisplacementY [303]=DisplacementX [305]=Width1 [140]=-137.234
+_.-INSERT Enter block name or [?] <HTS_Khop noi mem vuong>: C:\Users\Nguye\AppData\Roaming/Autodesk/ApplicationPlugins/Htools.bundle/Contents/Windows/Library/HVAC/Phụ kiện/HTS_Khop noi mem tron.dwg
+Units: Millimeters   Conversion:    1.0000
+Specify insertion point or [Basepoint/Scale/Rotate/Explode/REpeat]: _S Specify scale factor for XYZ axes <1>: 1 Specify insertion point or [Basepoint/Scale/Rotate/Explode/REpeat]: _R
+Specify rotation angle <0>: 0 Specify insertion point or [Basepoint/Scale/Rotate/Explode/REpeat]:
+Too many objects selected for INTERSECT
+
+
+Command:
+=== BLOCK: "HTS_Khop noi mem tron" ===
+  DYN_NODE (BLOCKLINEARPARAMETER): [301]=DisplacementX [302]=DisplacementY [303]=DisplacementX [305]=Width1 [140]=-137.234
+_.-INSERT Enter block name or [?] <HTS_Khop noi mem tron>: C:\Users\Nguye\AppData\Roaming/Autodesk/ApplicationPlugins/Htools.bundle/Contents/Windows/Library/HVAC/Phụ kiện/HTS_Mieng gio khuyech tan 4 huong.dwg
+Units: Millimeters   Conversion:    1.0000
+Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _S Specify scale factor for XYZ axes <1>: 1 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _R
+Specify rotation angle <0>: 0 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]:
+Too many objects selected for INTERSECT
+
+Command:
+=== BLOCK: "HTS_Mieng gio khuyech tan 4 huong" ===
+  ATTDEF: Tag="Duct" Default="400x400" Prompt="WxH"
+  DYN_NODE (BLOCKLINEARPARAMETER): [303]=DisplacementX [305]=Width1 [140]=-71.0
+_.-INSERT Enter block name or [?] <HTS_Mieng gio khuyech tan 4 huong>: C:\Users\Nguye\AppData\Roaming/Autodesk/ApplicationPlugins/Htools.bundle/Contents/Windows/Library/HVAC/Phụ kiện/HTS_Mieng gio khuyech tan tron.dwg
+Units: Millimeters   Conversion:    1.0000
+Specify insertion point or [Basepoint/Scale/Rotate/Explode/REpeat]: _S Specify scale factor for XYZ axes <1>: 1 Specify insertion point or [Basepoint/Scale/Rotate/Explode/REpeat]: _R
+Specify rotation angle <0>: 0 Specify insertion point or [Basepoint/Scale/Rotate/Explode/REpeat]:
+Too many objects selected for INTERSECT
+
+
+Command:
+=== BLOCK: "HTS_Mieng gio khuyech tan tron" ===
+  ATTDEF: Tag="Duct" Default="400x400" Prompt="WxH"
+  DYN_NODE (BLOCKLINEARPARAMETER): [303]=DisplacementX [305]=Diameter [140]=-93.3571
+_.-INSERT Enter block name or [?] <HTS_Mieng gio khuyech tan tron>: C:\Users\Nguye\AppData\Roaming/Autodesk/ApplicationPlugins/Htools.bundle/Contents/Windows/Library/HVAC/Phụ kiện/HTS_Mieng gio louver.dwg
+Units: Millimeters   Conversion:    1.0000
+Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _S Specify scale factor for XYZ axes <1>: 1 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _R
+Specify rotation angle <0>: 0 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]:
+Too many objects selected for INTERSECT
+
+Command:
+=== BLOCK: "HTS_Mieng gio louver" ===
+  ATTDEF: Tag="Duct" Default="W300xH100" Prompt="WxH"
+  DYN_NODE (BLOCKLINEARPARAMETER): [301]=DisplacementX [302]=DisplacementY [303]=DisplacementX [305]=Width1 [140]=286.534
+  DYN_NODE (BLOCKFLIPPARAMETER): [305]=Flip state1
+  DYN_NODE (BLOCKLINEARPARAMETER): [303]=DisplacementX [305]=Distance1 [140]=-357.0
+_.-INSERT Enter block name or [?] <HTS_Mieng gio louver>: C:\Users\Nguye\AppData\Roaming/Autodesk/ApplicationPlugins/Htools.bundle/Contents/Windows/Library/HVAC/Phụ kiện/HTS_Mieng gio nan don.dwg
+Units: Millimeters   Conversion:    1.0000
+Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _S Specify scale factor for XYZ axes <1>: 1 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _R
+Specify rotation angle <0>: 0 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]:
+Too many objects selected for INTERSECT
+
+Command:
+=== BLOCK: "HTS_Mieng gio nan don" ===
+  ATTDEF: Tag="Duct" Default="400x400" Prompt="WxH"
+  DYN_NODE (BLOCKLINEARPARAMETER): [301]=DisplacementX [302]=DisplacementY [303]=DisplacementX [305]=Width1 [140]=-234.085
+  DYN_NODE (BLOCKLINEARPARAMETER): [301]=DisplacementX [302]=DisplacementY [303]=DisplacementX [305]=Width2 [140]=347.538
+_.-INSERT Enter block name or [?] <HTS_Mieng gio nan don>: C:\Users\Nguye\AppData\Roaming/Autodesk/ApplicationPlugins/Htools.bundle/Contents/Windows/Library/HVAC/Phụ kiện/HTS_Mieng gio sot trung.dwg
+Units: Millimeters   Conversion:    1.0000
+Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _S Specify scale factor for XYZ axes <1>: 1 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _R
+Specify rotation angle <0>: 0 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]:
+Too many objects selected for INTERSECT
+
+Command:
+=== BLOCK: "HTS_Mieng gio sot trung" ===
+  ATTDEF: Tag="Duct" Default="W300xH100" Prompt="WxH"
+  DYN_NODE (BLOCKLINEARPARAMETER): [301]=DisplacementX [302]=DisplacementY [303]=DisplacementX [305]=Width1 [140]=-234.085
+  DYN_NODE (BLOCKLINEARPARAMETER): [301]=DisplacementX [302]=DisplacementY [303]=DisplacementX [305]=Width2 [140]=347.538
+_.-INSERT Enter block name or [?] <HTS_Mieng gio sot trung>: C:\Users\Nguye\AppData\Roaming/Autodesk/ApplicationPlugins/Htools.bundle/Contents/Windows/Library/HVAC/Phụ kiện/HTS-BOCHIAGA.dwg
+Units: Millimeters   Conversion:    1.0000
+Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _S Specify scale factor for XYZ axes <1>: 1 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]: _R
+Specify rotation angle <0>: 0 Specify insertion point or [Basepoint/Scale/X/Y/Z/Rotate/Explode/REpeat]:
+Too many objects selected for INTERSECT
+
+Command:
+=== BLOCK: "HTS-BOCHIAGA" ===
+
+=== TEST 1: REVCLOUD FROM RECTANG ===
+_RECTANG
+Specify first corner point or [Chamfer/Elevation/Fillet/Thickness/Width]:
+Too many objects selected for INTERSECT
+
+Specify other corner point or [Area/Dimensions/Rotation]:
+Too many objects selected for INTERSECT
+
+Command: _.REVCLOUD
+Minimum arc length: 666.6667   Maximum arc length: 1333.3333   Style: Normal   Type: Rectangular
+Specify first corner point or [Arc length/Object/Rectangular/Polygonal/Freehand/Style/Modify/Layer] <Object>: _A
+Specify approximate length of arc <1000>: 300
+Specify first corner point or [Arc length/Object/Rectangular/Polygonal/Freehand/Style/Modify/Layer] <Object>: 300
+Point or option keyword required.
+; error: Function cancelled
+

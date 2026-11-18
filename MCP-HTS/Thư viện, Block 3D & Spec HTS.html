@@ -1,0 +1,458 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Thư viện, Block 3D &amp; Spec HTS</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Sổ tay kỹ thuật một cột (~820px), cùng hệ token với trang Kết nối AI: bảng thư mục, bảng state, bước soạn block, bảng khoá Spec. */
+:root {
+  --bg: #f3f5f4;
+  --mat: #ffffff;
+  --muc: #17211f;
+  --phu: #56655f;
+  --ke: #d5ddd9;
+  --nhan: #0b6873;
+  --nhan-nen: #e2f0f1;
+  --ma-nen: #eaefed;
+  --doc: #2c7a4b;  --doc-nen: #e3f2e8;
+  --ghi: #2453a0;  --ghi-nen: #e4ecf8;
+  --xoa: #ae2f28;  --xoa-nen: #f8e4e2;
+  --tt:  #95600a;  --tt-nen:  #f6ecd8;
+  --chu: "Be Vietnam Pro", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --ma: "IBM Plex Mono", Consolas, "Cascadia Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111715; --mat: #18201e; --muc: #e1e9e6; --phu: #95a6a0; --ke: #2a3532;
+    --nhan: #5cc0ca; --nhan-nen: #16302f; --ma-nen: #0d1311;
+    --doc: #74cf98; --doc-nen: #17301f; --ghi: #8db0ee; --ghi-nen: #1a2641;
+    --xoa: #f08a82; --xoa-nen: #3a1c1a; --tt: #e5b158; --tt-nen: #35290f;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111715; --mat: #18201e; --muc: #e1e9e6; --phu: #95a6a0; --ke: #2a3532;
+  --nhan: #5cc0ca; --nhan-nen: #16302f; --ma-nen: #0d1311;
+  --doc: #74cf98; --doc-nen: #17301f; --ghi: #8db0ee; --ghi-nen: #1a2641;
+  --xoa: #f08a82; --xoa-nen: #3a1c1a; --tt: #e5b158; --tt-nen: #35290f;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+/* con của lưới không được nở theo nội dung dài (đường dẫn, bảng) — khối mã / bảng tự cuộn ngang bên trong */
+header > *, section.muc > *, section.nhom > *, .tabs > *, [role="tabpanel"] > *, ol.buoc > li > div > * { min-width: 0; }
+body { background: var(--bg); color: var(--muc); font: 15px/1.6 var(--chu); margin: 0; }
+.khung { max-width: 820px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 40px 64px; }
+h1, h2, h3, h4 { text-wrap: balance; line-height: 1.25; margin: 0; }
+h1 { font-size: 2.1rem; font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: 1.35rem; font-weight: 700; padding-top: 8px; }
+h3 { font-size: 1.05rem; font-weight: 600; }
+h4 { font-size: 1rem; font-weight: 600; display: flex; align-items: baseline; gap: 8px; }
+h5 { font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--phu); margin: 14px 0 4px; }
+p { margin: 0; max-width: 68ch; }
+a { color: var(--nhan); }
+code { font-family: var(--ma); font-size: 0.86em; background: var(--ma-nen); padding: 1px 5px; border-radius: 4px; overflow-wrap: anywhere; }
+section.muc { display: grid; gap: 14px; padding-top: 36px; }
+.nhan-dau { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--nhan); }
+.dan { color: var(--phu); font-size: 1.05rem; max-width: 62ch; }
+
+/* đầu trang */
+header { display: grid; gap: 14px; }
+.so-lieu { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; margin-top: 8px; }
+.so-lieu div { background: var(--mat); border: 1px solid var(--ke); border-radius: 8px; padding: 12px 14px; display: grid; gap: 2px; }
+.so-lieu b { font-size: 1.3rem; font-variant-numeric: tabular-nums; }
+.so-lieu span { color: var(--phu); font-size: 0.85rem; }
+nav.ml { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 0.9rem; padding-top: 8px; border-top: 1px solid var(--ke); margin-top: 10px; padding-top: 12px; }
+nav.ml a { text-decoration: none; }
+nav.ml a:hover, nav.ml a:focus-visible { text-decoration: underline; }
+
+/* sơ đồ luồng */
+.luong { display: flex; align-items: stretch; gap: 8px; flex-wrap: wrap; }
+.luong .o { flex: 1 1 180px; background: var(--mat); border: 1px solid var(--ke); border-radius: 8px; padding: 12px; display: grid; gap: 4px; min-width: 0; }
+.luong .o b { font-size: 0.95rem; }
+.luong .o span { color: var(--phu); font-size: 0.85rem; }
+.luong .noi { display: grid; place-items: center; color: var(--phu); font-family: var(--ma); font-size: 0.72rem; text-align: center; flex: 0 0 64px; }
+.luong .noi::before { content: "⇄"; font-size: 1.3rem; color: var(--nhan); line-height: 1; }
+
+/* bước */
+ol.buoc { list-style: none; counter-reset: b; padding: 0; margin: 0; display: grid; gap: 14px; }
+ol.buoc > li { counter-increment: b; display: grid; grid-template-columns: 34px 1fr; gap: 12px; }
+ol.buoc > li::before { content: counter(b); width: 30px; height: 30px; border-radius: 50%; background: var(--nhan-nen); color: var(--nhan); font-weight: 700; display: grid; place-items: center; font-variant-numeric: tabular-nums; }
+ol.buoc > li > div { display: grid; gap: 8px; min-width: 0; }
+ul.gon { margin: 0; padding-left: 20px; display: grid; gap: 4px; }
+
+/* khối mã */
+.ma { border: 1px solid var(--ke); border-radius: 8px; background: var(--ma-nen); min-width: 0; }
+.ma-dau { display: flex; justify-content: space-between; align-items: center; padding: 6px 10px; border-bottom: 1px solid var(--ke); font-size: 0.78rem; color: var(--phu); }
+.ma pre { margin: 0; padding: 12px; overflow-x: auto; }
+.ma pre code { background: none; padding: 0; font-size: 0.82rem; overflow-wrap: normal; white-space: pre; }
+button { font: inherit; cursor: pointer; }
+button.chep { border: 1px solid var(--ke); background: var(--mat); color: var(--muc); border-radius: 6px; padding: 2px 10px; font-size: 0.78rem; }
+button:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid var(--nhan); outline-offset: 2px; }
+
+/* tab ứng dụng */
+.tabs { display: grid; gap: 12px; }
+.tablist { display: flex; flex-wrap: wrap; gap: 6px; }
+.tablist button { border: 1px solid var(--ke); background: var(--mat); color: var(--muc); border-radius: 999px; padding: 5px 12px; font-size: 0.86rem; }
+.tablist button[aria-selected="true"] { background: var(--nhan); border-color: var(--nhan); color: var(--mat); }
+[role="tabpanel"] { display: grid; gap: 10px; }
+
+/* hộp ghi chú */
+.chu-y { border-left: 3px solid var(--tt); background: var(--tt-nen); padding: 10px 14px; border-radius: 0 6px 6px 0; display: grid; gap: 4px; }
+.chu-y.xanh { border-color: var(--nhan); background: var(--nhan-nen); }
+
+/* bảng */
+.cuon { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+th, td { text-align: left; vertical-align: top; padding: 7px 8px; border-bottom: 1px solid var(--ke); }
+th { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--phu); font-weight: 600; }
+td.tn { width: 34%; }
+td.tn code { background: none; padding: 0; font-weight: 500; color: var(--muc); overflow-wrap: anywhere; }
+td.lo { width: 92px; text-align: right; }
+.chip { display: inline-block; font-size: 0.74rem; font-weight: 600; padding: 1px 8px; border-radius: 999px; white-space: nowrap; }
+.chip.doc { color: var(--doc); background: var(--doc-nen); }
+.chip.ghi { color: var(--ghi); background: var(--ghi-nen); }
+.chip.xoa { color: var(--xoa); background: var(--xoa-nen); }
+.chip.tt  { color: var(--tt);  background: var(--tt-nen); }
+.bo-loc { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding: 10px 0; display: grid; gap: 8px; border-bottom: 1px solid var(--ke); }
+.bo-loc input { width: 100%; font: inherit; padding: 8px 12px; border: 1px solid var(--ke); border-radius: 8px; background: var(--mat); color: var(--muc); }
+.loc { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 0.85rem; }
+.loc button { border: 1px solid var(--ke); background: var(--mat); color: var(--muc); border-radius: 999px; padding: 3px 11px; font-size: 0.82rem; }
+.loc button[aria-pressed="true"] { border-color: var(--nhan); color: var(--nhan); background: var(--nhan-nen); }
+.loc .dem-loc { margin-left: auto; color: var(--phu); font-variant-numeric: tabular-nums; }
+section.nhom { display: grid; gap: 6px; padding-top: 18px; }
+.dem { font-size: 0.78rem; font-weight: 500; color: var(--phu); font-variant-numeric: tabular-nums; }
+p.gt { color: var(--phu); font-size: 0.88rem; }
+.chu-giai { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 0.85rem; color: var(--phu); }
+.chu-giai span { display: inline-flex; gap: 6px; align-items: center; }
+
+/* phụ lục */
+details { background: var(--mat); border: 1px solid var(--ke); border-radius: 8px; }
+summary { cursor: pointer; padding: 10px 14px; font-weight: 600; display: flex; gap: 8px; align-items: baseline; }
+.pl { padding: 0 14px 12px; }
+.pl ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; font-size: 0.88rem; }
+.pl li { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: baseline; }
+.pl .tt { font-weight: 500; }
+.pl .mt { color: var(--phu); }
+.pl code { font-size: 0.76rem; }
+.pl .kieu { font-size: 0.74rem; color: var(--tt); }
+.cuoi { color: var(--phu); font-size: 0.82rem; padding-top: 40px; }
+@media (max-width: 560px) {
+  h1 { font-size: 1.6rem; }
+  .luong .noi { flex-basis: 100%; }
+  .luong .noi::before { content: "⇅"; }
+  td.tn { width: 40%; }
+  td.lo { width: auto; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+
+th.so, td.so { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.nhom-hang td { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--nhan); padding-top: 14px; }
+table.hep { width: auto; min-width: 320px; }
+section.muc h3 { padding-top: 6px; }
+</style>
+<div class="khung">
+<header>
+  <span class="nhan-dau">HTS Software · Hướng dẫn cho người dùng</span>
+  <h1>Thư viện, Block 3D &amp; Spec</h1>
+  <p class="dan">Thư viện block HTS được sắp xếp thế nào, các trạng thái (state) của block và điểm cổng nối để HTS dựng 3D, cách soạn block của riêng bạn, cùng ý nghĩa các tệp Spec và mẫu Excel của VCS.</p>
+  <div class="so-lieu">
+    <div><b>~1.800 block</b><span>thư viện HTS: cấp thoát nước, PCCC, điện, HVAC</span></div>
+    <div><b>~1.360 block có 3D</b><span>state "3D" + điểm cổng, dùng khi dựng mô hình</span></div>
+    <div><b>6 tệp Spec</b><span>giá đỡ, cao độ, layer, ghi chú… sửa trong SETUP SPEC</span></div>
+  </div>
+  <nav class="ml" aria-label="Mục lục">
+    <a href="#thu-muc">Thư mục cài đặt</a><a href="#thu-vien">Thư viện HTS</a><a href="#thu-vien-rieng">Thư viện của bạn</a>
+    <a href="#state">State của block</a><a href="#diem-cong">Điểm cổng (POINT)</a><a href="#soan-block">Soạn block 3D</a>
+    <a href="#vcs">Mẫu VCS</a><a href="#spec">Tệp Spec</a><a href="#sao-luu">Sao lưu &amp; bảo mật</a>
+  </nav>
+</header>
+
+<section class="muc" id="thu-muc">
+  <h2>Thư mục cài đặt</h2>
+  <p>Mọi thư viện, Spec và mẫu nằm trong thư mục cài đặt HTS. Tuỳ bộ cài, đó là một trong hai đường dẫn dưới; dán vào thanh địa chỉ của File Explorer để mở.</p>
+  <div class="ma"><div class="ma-dau"><span>Bộ cài AutoCAD 2017–2024</span><button type="button" class="chep">Chép</button></div><pre><code>C:\ProgramData\Autodesk\ApplicationPlugins\Htools.bundle\Contents\Windows</code></pre></div>
+  <div class="ma"><div class="ma-dau"><span>Bộ cài chung 2017–2027 / 2025–2027</span><button type="button" class="chep">Chép</button></div><pre><code>%APPDATA%\Autodesk\ApplicationPlugins\Htools.bundle\Contents\Windows</code></pre></div>
+  <div class="cuon"><table>
+    <thead><tr><th>Thư mục / tệp</th><th>Chứa gì</th><th>Bạn được làm gì</th></tr></thead>
+    <tbody>
+      <tr><td><code>Library</code></td><td>Thư viện block chuẩn của HTS, chia theo hệ</td><td><span class="chip doc">Chỉ dùng</span> chèn bằng nút Insert block, không sửa tệp</td></tr>
+      <tr><td><code>UserLibrary</code></td><td>Thư viện riêng của bạn (tab THƯ VIỆN)</td><td><span class="chip ghi">Tự do</span> thêm, sửa, xoá</td></tr>
+      <tr><td><code>Spec</code></td><td>6 tệp cấu hình tiêu chuẩn (.json)</td><td><span class="chip tt">Qua SETUP SPEC</span></td></tr>
+      <tr><td><code>PipeConfig.json</code></td><td>Cỡ nhánh mặc định của tê đầu phun PCCC</td><td><span class="chip tt">Sửa cẩn thận</span></td></tr>
+      <tr><td><code>Template</code></td><td>Danh mục tên chuẩn hoá và cấu hình bóc khối lượng của VCS (Excel)</td><td><span class="chip tt">Qua SETUP / SETUP BOQ</span> của VCS</td></tr>
+      <tr><td><code>Projects</code></td><td>Dự án bóc khối lượng VCS đã lưu</td><td><span class="chip ghi">Sao lưu</span></td></tr>
+      <tr><td><code>Control</code></td><td>Tiện ích LISP / VLX đi kèm</td><td><span class="chip doc">Chỉ dùng</span></td></tr>
+      <tr><td><code>Tools</code>, <code>Update</code></td><td>HCAD (xem 3D), dọn rác block, trình cập nhật</td><td><span class="chip doc">Chỉ dùng</span> mở từ HTS</td></tr>
+      <tr><td>Tệp <code>.dll</code> / <code>.exe</code> và các thư mục còn lại</td><td>Chương trình HTS / VCS</td><td><span class="chip xoa">Không đụng</span> không sửa, không sao chép, không gửi đi</td></tr>
+    </tbody>
+  </table></div>
+  <div class="chu-y xanh"><p>Máy chỉ nên có <b>một</b> thư mục cài đặt. Nếu có cả hai, AutoCAD 2017–2024 nạp HTS hai lần, lệnh và tuỳ chọn chạy lẫn lộn. SETUP SPEC sẽ cảnh báo trường hợp này; hãy gỡ bản không dùng.</p></div>
+  <div class="chu-y"><p><b>Bảo mật bản quyền.</b> Thư mục cài đặt chứa chương trình có bản quyền. Không chép cả thư mục hoặc tệp chương trình sang máy khác, không gửi cho người khác. Mỗi máy cài bằng bộ cài chính thức và đăng nhập tài khoản riêng. Block, Spec và mẫu Excel do bạn tạo thì chép, chia sẻ bình thường.</p></div>
+</section>
+
+<section class="muc" id="thu-vien">
+  <h2>Thư viện block HTS</h2>
+  <p>Mỗi block là một tệp <code>.dwg</code>, tên tệp chính là tên block. HTS nhận diện phụ kiện theo tên này để rải phụ kiện, bóc khối lượng và dựng 3D, nên tên tệp, tên block và tên state trong thư viện phải giữ nguyên.</p>
+  <div class="cuon"><table>
+    <thead><tr><th>Thư mục</th><th>Nội dung</th><th class="so">Tệp</th><th class="so">Có 3D</th></tr></thead>
+    <tbody>
+      <tr class="nhom-hang"><td colspan="4">CTN · Cấp thoát nước</td></tr>
+      <tr><td><code>uPVC\Phụ kiện</code></td><td>Cút, chếch, tê, Y, côn, tê cong, nút bịt, măng sông, mặt bích, van uPVC</td><td class="so">342</td><td class="so">325</td></tr>
+      <tr><td><code>PPR\Phụ kiện</code>, <code>PPR\Van vòi</code></td><td>Phụ kiện PPR, cút / măng sông ren, van, vòi, đồng hồ nước</td><td class="so">190</td><td class="so">177</td></tr>
+      <tr><td><code>HDPE\Phụ kiện</code></td><td>Cút, tê, Y, côn, đai khởi thuỷ, đầu nối ren, nắp bịt HDPE</td><td class="so">150</td><td class="so">134</td></tr>
+      <tr><td><code>Combo</code></td><td>Cụm phụ kiện chèn một lần (2 chếch, Y + chếch, chếch + thông tắc…), tự tách thành phụ kiện con</td><td class="so">98</td><td class="so">6</td></tr>
+      <tr><td><code>Quangtreo</code></td><td>Quang treo, giá đỡ, U-bolt</td><td class="so">37</td><td class="so">36</td></tr>
+      <tr><td><code>Thiết bị vệ sinh</code></td><td>Lavabo, xí, tiểu, phễu thu sàn, bình nóng lạnh…</td><td class="so">14</td><td class="so">14</td></tr>
+      <tr class="nhom-hang"><td colspan="4">PCCC</td></tr>
+      <tr><td><code>Phụ kiện ống thép</code></td><td>Phụ kiện ren (SCREW), hàn (WELD), nối rãnh (COUPLING / Grooved), mặt bích, măng sông</td><td class="so">645</td><td class="so">390</td></tr>
+      <tr><td><code>Thiết bị</code></td><td>Van các loại, Y lọc, khớp nối mềm, đồng hồ, cảm biến, bình tích áp, bơm…</td><td class="so">262</td><td class="so">259</td></tr>
+      <tr class="nhom-hang"><td colspan="4">ELEC · Điện</td></tr>
+      <tr><td><code>BOX ĐIỆN</code></td><td>Tủ điện, hộp chia ngả</td><td class="so">29</td><td class="so">18</td></tr>
+      <tr><td><code>Thang máng</code></td><td>Phụ kiện thang / máng cáp, giá đỡ</td><td class="so">26</td><td class="so">—</td></tr>
+      <tr class="nhom-hang"><td colspan="4">HVAC</td></tr>
+      <tr><td><code>Phụ kiện</code>, <code>Thiết bị</code></td><td>Van gió (VCD, MD, FD, MFD, RND), miệng gió, khớp nối mềm</td><td class="so">20</td><td class="so">—</td></tr>
+    </tbody>
+  </table></div>
+  <p class="gt">Số liệu theo bản cài hiện hành, bản của bạn có thể chênh vài tệp. Thang máng cáp, ống gió và phụ kiện ống gió không cần state 3D vì HTS tự dựng 3D theo kích thước khi chạy lệnh 3D.</p>
+
+  <h3>Quy ước đặt tên</h3>
+  <div class="cuon"><table>
+    <thead><tr><th>Mẫu tên</th><th>Ý nghĩa</th></tr></thead>
+    <tbody>
+      <tr><td><code>HTS-TEE-D110x90</code></td><td>Phụ kiện uPVC: <b>D</b> + đường kính ngoài (mm); phụ kiện 2 cỡ ghi <code>chính x nhánh</code></td></tr>
+      <tr><td><code>HTS-ELB90-D25 PPR</code>, <code>HTS-Y-D110x110 HDPE</code></td><td>Hậu tố vật liệu PPR / HDPE sau dấu cách</td></tr>
+      <tr><td><code>HTS-SCREW-ELB90-DN50</code>, <code>HTS-WELD-TEE-DN100x25</code></td><td>Thép PCCC: <b>DN</b> + đường kính danh nghĩa; SCREW = nối ren, WELD = hàn</td></tr>
+      <tr><td><code>HTS-TEE-DN100x50 COUPLING</code></td><td>Thép nối rãnh (coupling)</td></tr>
+      <tr><td><code>HTS-VanGiamAp-DN50</code>, <code>HTS-YLoc-DN80</code></td><td>Thiết bị theo tên tiếng Việt không dấu + cỡ</td></tr>
+      <tr><td><code>HTS-TBVS-…</code>, <code>HTS-Tudien-…</code>, <code>HTS_Van gio…</code></td><td>Thiết bị vệ sinh, tủ điện, phụ kiện HVAC</td></tr>
+    </tbody>
+  </table></div>
+  <p class="gt">Họ phụ kiện thường gặp: <code>ELB90</code> cút 90°, <code>ELB45</code> chếch 45°, <code>TEE</code> tê, <code>Y</code> tê xiên, <code>RED</code> côn thu, <code>TECONG</code> tê cong, <code>MCONG</code> ký hiệu mặt cắt ống, <code>Nutbit</code> / <code>NapBit</code> nút bịt, <code>Mangsong</code> măng sông, <code>THONGTAC</code> thông tắc, <code>QUANGTREO</code> quang treo, <code>GIADO</code> giá đỡ.</p>
+
+  <h3>Dùng thư viện</h3>
+  <ul class="gon">
+    <li>Chèn bằng nút <b>Insert block</b> của từng hệ (Cấp thoát nước, PCCC, HVAC, Điện). Bảng chọn tự lấy đúng tệp, đúng cỡ, đúng state và tỉ lệ theo SETUP.</li>
+    <li>Không sửa trực tiếp tệp trong <code>Library</code>: lần cập nhật HTS sau có thể ghi đè. Muốn biến thể riêng, chép tệp sang <code>UserLibrary</code> và <b>đặt tên khác</b> để không trùng block thư viện.</li>
+    <li>Bản vẽ cũ còn định nghĩa block đời trước (chưa có state 3D, hình cũ): mở <b>SETUP SPEC → QUẢN LÝ BLOCK → UPDATE BLOCK</b>. HTS so từng block HTS trong bản vẽ với tệp thư viện và định nghĩa lại block nào khác.</li>
+    <li>Tab <b>DỌN DẸP BLOCK</b> quét thư mục cài đặt: tệp thư viện trùng tên mà đã có bản mang state 3D thì đề xuất xoá các bản thiếu 3D, cùng các thư mục sao lưu <code>.BAK</code> cũ.</li>
+  </ul>
+</section>
+
+<section class="muc" id="thu-vien-rieng">
+  <h2>Thư viện của bạn (UserLibrary)</h2>
+  <p>Thư mục <code>UserLibrary</code> là nơi để block riêng của công ty bạn. Sẵn có các nhóm <code>Cấp thoát nước</code>, <code>HVAC</code>, <code>PCCC</code>, <code>Điện</code>; bạn tạo thêm thư mục con tuỳ ý.</p>
+  <ul class="gon">
+    <li>Trên palette HTS, tab <b>THƯ VIỆN</b> hiện cây thư mục <code>UserLibrary</code>; kéo thả tệp vào bản vẽ để chèn. Nút chọn thư mục mở tạm một thư mục thư viện khác, ví dụ ổ mạng chung của công ty. Lần mở AutoCAD sau, cây quay về <code>UserLibrary</code>.</li>
+    <li>Mỗi tệp <code>.dwg</code> là một block; đặt tên tệp rõ ràng vì đó sẽ là tên block trong bản vẽ.</li>
+    <li>Block riêng muốn HTS dựng 3D và nối ống tự động thì soạn theo quy ước ở mục <a href="#state">State</a> và <a href="#diem-cong">Điểm cổng</a>. Tên block <b>không cần</b> bắt đầu bằng <code>HTS-</code>.</li>
+    <li>Sao lưu <code>UserLibrary</code> trước khi cài lại HTS.</li>
+  </ul>
+</section>
+
+<section class="muc" id="state">
+  <h2>State của block (Visibility)</h2>
+  <p>Block động trong thư viện có nhiều trạng thái hiển thị (Visibility state): cùng một phụ kiện nhưng vẽ theo hướng khác nhau. Khi vẽ ống, HTS tự chọn state theo hướng ống, ví dụ đổi cao độ tại góc thì dùng cút UP90 / DN90. Bạn chỉ chọn tay (grip Visibility) khi muốn đổi ký hiệu.</p>
+  <div class="cuon"><table>
+    <thead><tr><th>Tên state</th><th>Dùng khi</th></tr></thead>
+    <tbody>
+      <tr><td><code>SIDE</code> / <code>Side</code></td><td>Mặt bằng, phụ kiện nằm trong mặt phẳng ngang. Là state mặc định khi chèn.</td></tr>
+      <tr><td><code>UP90</code> · <code>DN90</code> (hoặc <code>UP</code> · <code>DOWN</code>)</td><td>Nhánh rẽ vuông góc đi lên / đi xuống. Trên mặt bằng thấy ký hiệu ống đứng.</td></tr>
+      <tr><td><code>UP45</code> · <code>DN45</code></td><td>Nhánh chếch 45° đi lên / đi xuống.</td></tr>
+      <tr><td><code>TOP</code> · <code>TOP90</code> · <code>TOP45</code> · <code>BOTTOM…</code></td><td>Hình nhìn từ trên / từ dưới, thường gặp khi phụ kiện nằm trên ống đứng.</td></tr>
+      <tr><td><code>TOPx45</code> · <code>BOTTOMx45</code> · <code>UPx45</code> · <code>DNx45</code></td><td>Các tổ hợp nhánh 45° (Y, chếch) theo hướng nhìn.</td></tr>
+      <tr><td><code>SIDE45</code> · <code>SIDE-45</code></td><td>Mặt bằng, nhánh lệch 45° trong mặt phẳng ngang.</td></tr>
+      <tr><td><code>MB</code> · <code>MD</code> · <code>MBen</code></td><td>Thiết bị: mặt bằng · mặt đứng · mặt bên.</td></tr>
+      <tr><td><code>Section</code></td><td>Hình mặt cắt.</td></tr>
+      <tr><td><code>3D</code></td><td>Khối 3D đặc + điểm cổng. Luôn là state <b>cuối cùng</b>. HTS dùng khi QUÉT 3D, COMBINE 3D và gửi sang HCAD; bạn không cần bật tay.</td></tr>
+    </tbody>
+  </table></div>
+  <h3>Quy ước state "3D"</h3>
+  <ul class="gon">
+    <li>3D nằm <b>ngay trong</b> block động, ở state tên đúng <code>3D</code> đặt cuối danh sách. Không tạo block 3D riêng.</li>
+    <li>State 3D gồm: nét của state mặt bằng (bỏ Wipeout), các POINT cổng dùng chung với state mặt bằng, và khối 3D đặc (Solid) đúng kích thước thật.</li>
+    <li>Ở mọi state khác, khối 3D phải ẩn. Nếu không, bản chèn mới sẽ vẽ chồng khối 3D lên ký hiệu 2D.</li>
+    <li>Không xoá, không đổi tên state của block thư viện. HTS chọn state theo đúng tên.</li>
+  </ul>
+</section>
+
+<section class="muc" id="diem-cong">
+  <h2>Điểm cổng nối (POINT)</h2>
+  <p>Mỗi miệng nối ống của block có một đối tượng <b>POINT</b> đặt đúng tâm miệng, nằm trên trục ống. HTS đọc các POINT này để biết ống cắm vào đâu: nối ống, kế thừa cao độ, dựng ống đứng và đặt khối 3D. Block không có POINT vẫn chèn và bóc khối lượng được, chỉ không tự nối khi dựng 3D.</p>
+  <h3>Quy tắc đặt POINT</h3>
+  <ol class="buoc">
+    <li><div><p><b>Một miệng nối = một POINT</b>, đặt ở tâm mặt cắt miệng ống, không đặt ở mép. Không thêm POINT trang trí: HTS coi mọi POINT đang hiện là một cổng.</p></div></li>
+    <li><div><p><b>POINT hiện ở state mặt bằng (SIDE / MB) và ở state 3D.</b> Dùng chung cùng một POINT cho hai state, không vẽ hai lần.</p></div></li>
+    <li><div><p><b>Phụ kiện, van trên ống:</b> điểm chèn ở tâm phụ kiện, trục ống trùng trục X của block, hai POINT ở hai đầu trên trục X.</p></div></li>
+    <li><div><p><b>Cao độ (Z) của POINT</b> là độ cao miệng nối so với điểm chèn. Phụ kiện nằm ngang để Z = 0. Thiết bị đặt sàn (bơm, bình) đặt POINT đúng chiều cao miệng hút / miệng đẩy.</p></div></li>
+    <li><div><p><b>Đáy khối 3D của thiết bị ở Z = 0</b> của block. Cao độ bạn gán cho thiết bị là cao độ đáy.</p></div></li>
+  </ol>
+  <h3>HTS hiểu block theo số cổng</h3>
+  <div class="cuon"><table>
+    <thead><tr><th>Cách đặt POINT</th><th>HTS coi là</th><th>Khi dựng 3D</th></tr></thead>
+    <tbody>
+      <tr><td>2 POINT trên cùng trục X</td><td>Thiết bị trên ống: van, Y lọc, đồng hồ nước, khớp nối mềm</td><td>Đặt khối trên tuyến, ống đi xuyên qua</td></tr>
+      <tr><td>2 POINT trở lên, không thẳng hàng</td><td>Phụ kiện nút: cút, tê, Y</td><td>Các đầu ống nối vào đúng cổng</td></tr>
+      <tr><td>1 POINT</td><td>Thiết bị một cổng: đồng hồ áp, cảm biến, van xả khí</td><td>Gắn vào ống gần nhất, hướng cổng theo hình vẽ</td></tr>
+      <tr><td>POINT cao hơn đáy (Z &gt; 0)</td><td>Thiết bị đặt sàn: bơm, bình tích áp</td><td>Ống tự đi đứng tới đúng miệng</td></tr>
+      <tr><td>Có state 3D, không có POINT</td><td>Thiết bị không nối ống: FCU, dàn lạnh</td><td>Hiện khối 3D tại cao độ đã gán</td></tr>
+    </tbody>
+  </table></div>
+  <div class="chu-y xanh"><p>Trong bản vẽ, POINT thường quá nhỏ để thấy. Gõ <code>PDMODE</code> = <code>3</code> và <code>PDSIZE</code> = <code>-2</code> để POINT hiện thành dấu chéo, kiểm xong đặt lại <code>PDMODE</code> = <code>0</code>.</p></div>
+</section>
+
+<section class="muc" id="soan-block">
+  <h2>Soạn block 3D của riêng bạn</h2>
+  <p>Làm trong Block Editor (<code>BEDIT</code>) của AutoCAD, theo thứ tự:</p>
+  <ol class="buoc">
+    <li><div><h3>Vẽ ký hiệu mặt bằng</h3><p>Vẽ ở Z = 0. Đặt điểm gốc block (Base point) đúng tâm phụ kiện, hoặc tâm đáy với thiết bị.</p></div></li>
+    <li><div><h3>Tạo các state</h3><p>Thêm Visibility Parameter nếu block chưa có. Tạo các state cần dùng, đặt tên theo bảng ở mục <a href="#state">State</a>, rồi thêm state <code>3D</code> ở <b>cuối</b> danh sách.</p></div></li>
+    <li><div><h3>Dựng khối 3D trong state 3D</h3><p>Ở state <code>3D</code>: giữ nét hình chiếu (ẩn Wipeout), dựng khối đặc đúng kích thước thật bằng BOX / EXTRUDE / REVOLVE / SWEEP.</p></div></li>
+    <li><div><h3>Đặt POINT cổng</h3><p>Lệnh <code>POINT</code> tại tâm từng miệng nối. Cho POINT hiện ở state mặt bằng và state 3D.</p></div></li>
+    <li><div><h3>Ẩn khối 3D ở state khác</h3><p>Chuyển qua từng state còn lại, chọn khối 3D và ẩn (<code>BVHIDE</code>).</p></div></li>
+    <li><div><h3>Trả về state mặc định rồi lưu</h3><p>Chọn lại state mặt bằng trước khi <code>BSAVE</code>, để bản chèn mới không vẽ chồng khối 3D. Lưu tệp vào <code>UserLibrary</code>.</p></div></li>
+    <li><div><h3>Kiểm tra</h3><p>Chèn block, đổi lần lượt từng state xem hình có đúng. Vẽ thử một đoạn ống nối vào, chạy QUÉT 3D hoặc COMBINE 3D, rồi xem trong HCAD.</p></div></li>
+  </ol>
+</section>
+
+<section class="muc" id="vcs">
+  <h2>Mẫu Excel của VCS</h2>
+  <p>VCS đọc các tệp Excel trong thư mục <code>Template</code> và <code>Projects</code>. Sửa qua cửa sổ <b>SETUP</b> / <b>SETUP BOQ</b> của VCS là an toàn nhất; Windows có thể hỏi quyền Administrator vì thư mục cài đặt được bảo vệ. Nếu sửa bằng Excel, đóng AutoCAD trước, giữ nguyên tên sheet và thứ tự cột.</p>
+  <div class="cuon"><table>
+    <thead><tr><th>Tệp</th><th>Nội dung</th><th>Cấu trúc</th></tr></thead>
+    <tbody>
+      <tr><td><code>Template\DanhMuc-CTN.xlsx</code><br><code>DanhMuc-PCCC.xlsx</code><br><code>DanhMuc-HVAC.xlsx</code><br><code>DanhMuc-ELEC.xlsx</code></td><td>Danh mục tên chuẩn hoá tiếng Việt của block, theo hệ</td><td>Sheet <code>Block</code>: <code>STT</code> · <code>TênBlock</code> · <code>Chuẩn hóa tiếng việt</code> · <code>Ghi chú</code></td></tr>
+      <tr><td><code>Template\Setup-HVAC.xlsx</code></td><td>Độ dày tôn ống gió theo cạnh lớn nhất</td><td>Cột 1: kích thước tối đa W / H (mm) · Cột 2: độ dày tôn (mm)</td></tr>
+      <tr><td><code>Template\Setup-DIEN.xlsx</code></td><td>Chiều dài một đốt máng cáp khi bóc khối lượng</td><td><code>Thông số</code> · <code>Giá trị</code> · <code>Đơn vị</code> · <code>Ghi chú</code></td></tr>
+      <tr><td><code>Projects\VCS_&lt;Tên dự án&gt;.xlsx</code></td><td>Một dự án bóc khối lượng đã lưu</td><td>Sheet <code>Thông tin dự án</code> + các sheet dữ liệu bạn lưu từ bảng tổng hợp</td></tr>
+    </tbody>
+  </table></div>
+  <h3>Tên chuẩn hoá được tra theo thứ tự</h3>
+  <ol class="buoc">
+    <li><div><p><b>Danh mục Excel</b> <code>DanhMuc-&lt;hệ&gt;.xlsx</code>: luôn được ưu tiên, so tên không phân biệt hoa thường.</p></div></li>
+    <li><div><p><b>Suy theo họ</b>: block cùng họ, chỉ khác cỡ, mượn văn phong tên đã có. Ví dụ đã có tên cho DN100 thì DN250 cùng họ tự ra tên tương ứng.</p></div></li>
+    <li><div><p><b>Block HTS sinh theo kích thước</b> (ống gió, thang máng cáp): tên ghép từ loại và cỡ.</p></div></li>
+    <li><div><p><b>Quy tắc HTS</b> cho các họ thư viện chưa có mẫu (miệng gió, van gió, mặt bích…).</p></div></li>
+  </ol>
+  <p>Không khớp bước nào thì ô tên để trống và dòng được bôi vàng. Không có tên bịa ra. Tên do AI gợi ý mang dấu 🤖 và chỉ thành tên chính thức khi bạn duyệt. Tên đã duyệt được ghi thêm vào danh mục Excel của hệ đó.</p>
+  <h3>Độ dày tôn mặc định (Setup-HVAC)</h3>
+  <div class="cuon"><table class="hep">
+    <thead><tr><th class="so">Cạnh lớn nhất W / H đến (mm)</th><th class="so">Độ dày tôn (mm)</th></tr></thead>
+    <tbody>
+      <tr><td class="so">400</td><td class="so">0,58</td></tr>
+      <tr><td class="so">1.000</td><td class="so">0,75</td></tr>
+      <tr><td class="so">2.500</td><td class="so">0,95</td></tr>
+      <tr><td class="so">lớn hơn</td><td class="so">1,15</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section class="muc" id="spec">
+  <h2>Tệp Spec của HTS</h2>
+  <p>Spec là các thông số tiêu chuẩn dự án: khoảng cách giá đỡ, cao độ lắp đặt, quy tắc layer, ghi chú. Spec áp dụng cho mọi bản vẽ trên máy. Mở cửa sổ <b>SETUP SPEC</b> bằng nút <b>⚙ SETUP SPEC</b> trên palette HTS, hoặc nút <b>SETUP SPEC</b> trên thanh tiêu đề HTS.V2 (mở đúng tab của hệ đang xem). Cửa sổ có các tab: Quản lý layer, Cấp thoát nước, Điện, HVAC, PCCC, Quản lý block, Lệnh tắt.</p>
+  <div class="cuon"><table>
+    <thead><tr><th>Tệp (thư mục <code>Spec</code>)</th><th>Dùng cho</th><th>Tab SETUP SPEC</th></tr></thead>
+    <tbody>
+      <tr><td><code>SpecCTN.json</code></td><td>Khoảng cách giá đỡ / quang treo ống cấp, ống thoát</td><td>Cấp thoát nước</td></tr>
+      <tr><td><code>SpecPCCC.json</code></td><td>Quang treo, giá đỡ, măng sông / coupling ống thép; vẽ nhanh nhánh đầu phun</td><td>PCCC</td></tr>
+      <tr><td><code>SpecHVAC.json</code></td><td>Kiểu cút, chân rẽ, nẹp ống gió; khoảng cách giá đỡ ống gió</td><td>HVAC</td></tr>
+      <tr><td><code>SpecDIEN.json</code></td><td>Cao độ thiết bị điện; giá đỡ, chia đốt, kiểu lỗ máng / thang cáp</td><td>Điện</td></tr>
+      <tr><td><code>SpecLayer.json</code></td><td>Bảng đặt tên layer theo công ty / hạng mục / hệ</td><td>Quản lý layer</td></tr>
+      <tr><td><code>SmartTag.json</code></td><td>Cỡ chữ và tên loại ống của ghi chú thông minh, theo hệ</td><td>—</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>SpecCTN.json</h3>
+  <div class="cuon"><table>
+    <thead><tr><th>Khoá</th><th>Ý nghĩa</th><th>Mặc định</th></tr></thead>
+    <tbody>
+      <tr><td><code>CapNuoc.GiaDo</code> · <code>ThoatNuoc.GiaDo</code></td><td>Bộ quy tắc giá đỡ cho ống cấp / ống thoát</td><td></td></tr>
+      <tr><td><code>KhoangCachToiDaPhuKien</code></td><td>Khoảng cách tối đa từ phụ kiện tới giá đỡ gần nhất (mm)</td><td>300</td></tr>
+      <tr><td><code>QuyTac[]</code> · <code>DuongKinhMin</code> / <code>DuongKinhMax</code></td><td>Dải đường kính ống (mm), hiểu là Min &lt; D ≤ Max</td><td>0–25 · 25–90 · 90–99999</td></tr>
+      <tr><td><code>KhoangCach</code></td><td>Khoảng cách giữa hai giá đỡ (mm)</td><td>900 · 1200 · 2000</td></tr>
+      <tr><td><code>LoaiGiaDo</code></td><td>Tên thép giá đỡ ghi vào block / bảng khối lượng</td><td>U40x20x2 …</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>SpecPCCC.json</h3>
+  <div class="cuon"><table>
+    <thead><tr><th>Khoá</th><th>Ý nghĩa</th><th>Mặc định</th></tr></thead>
+    <tbody>
+      <tr><td><code>AutoInsertMangSong</code></td><td>Tự chèn măng sông (ren, ≤ DN50) / khớp nối coupling (≥ DN65) khi vẽ ống</td><td>false</td></tr>
+      <tr><td><code>MangSongCoupling.QuyTac[]</code></td><td>Khoảng cách tối đa giữa hai mối nối theo cỡ ống</td><td>6000 mm</td></tr>
+      <tr><td><code>QuangTreo</code> · <code>GiaDo</code></td><td>Khoảng cách rải quang treo / giá đỡ theo cỡ ống, kèm <code>KhoangCachToiDaPhuKien</code></td><td>600 mm tới phụ kiện</td></tr>
+      <tr><td><code>MLineScaleMin</code> / <code>MLineScaleMax</code> · <code>DN</code></td><td>Dải tỉ lệ Mline (đường kính ngoài ống thép, mm) ứng với một DN</td><td>DN25 = 34 · DN50 = 60 · DN100 = 110…</td></tr>
+      <tr><td><code>Spacing</code> · <code>LoaiGiaDo</code></td><td>Khoảng cách (mm) và tên thép giá đỡ</td><td></td></tr>
+      <tr><td><code>VenhanhPline.PipeMappings[]</code></td><td>Bậc cỡ ống khi vẽ nhanh nhánh đầu phun, theo thứ tự <code>Index</code> tăng dần, từ cuối nhánh vào ống chính</td><td>DN25 → DN100</td></tr>
+      <tr><td><code>VenhanhPline.TextHeight</code> · <code>LabelOffset</code></td><td>Cỡ chữ ghi cỡ ống và khoảng cách chữ tới đường ống (mm). Sửa trên palette PCCC thì lưu riêng cho máy bạn.</td><td>150 · 50</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>SpecHVAC.json</h3>
+  <div class="cuon"><table>
+    <thead><tr><th>Khoá</th><th>Ý nghĩa</th><th>Giá trị</th></tr></thead>
+    <tbody>
+      <tr><td><code>KieuCutOngGio</code></td><td>Kiểu cút ống gió</td><td><code>Thuong</code> (thường) · <code>EI</code> (chống cháy)</td></tr>
+      <tr><td><code>DoLoeChanRe</code></td><td>Độ loe chân rẽ nhánh</td><td><code>Auto</code> · <code>Nhap</code> (tự nhập)</td></tr>
+      <tr><td><code>NepTuDong</code></td><td>Tự ghi chi tiết ghép nối (nẹp) theo cỡ ống</td><td><code>Auto</code> · <code>Khong</code></td></tr>
+      <tr><td><code>BangNep[]</code> · <code>Tu</code> / <code>Den</code> / <code>Nep</code></td><td>Cạnh ống từ… đến… (mm) dùng nẹp gì; <code>Den</code> = 0 nghĩa là trở lên</td><td>NẸP C · NẸP TDC · THÉP GÓC V30X3</td></tr>
+      <tr><td><code>OngGio.GiaDo.QuyTac[]</code> · <code>Width</code> / <code>Spacing</code></td><td>Khoảng cách giá đỡ theo chiều rộng ống gió (mm)</td><td>400 → 2500 · 1000 → 1500</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>SpecDIEN.json</h3>
+  <div class="cuon"><table>
+    <thead><tr><th>Khoá</th><th>Ý nghĩa</th><th>Mặc định</th></tr></thead>
+    <tbody>
+      <tr><td><code>CaoDo.ThietBi[]</code> · <code>Key</code> / <code>Z</code></td><td>Cao độ lắp đặt mặc định (mm). Công tắc, ổ cắm tính tới tâm; tủ điện, đèn tính tới đỉnh. <code>PIPE</code> là cao độ ống điện chính, cũng dùng làm cao độ trần thô khi chưa bo trần.</td><td>PIPE 3000 · SW 1200 · DB 1500 · LIGHT 2800 · ổ cắm 400</td></tr>
+      <tr><td><code>MangCap.GiaDo</code> · <code>ThangCap.GiaDo</code></td><td>Khoảng cách giá đỡ theo bề rộng (<code>MinWidth</code> / <code>MaxWidth</code> → <code>Spacing</code>)</td><td>≤ 599: 1500 · ≥ 600: 1200</td></tr>
+      <tr><td><code>GiaDoChung.KhoangHoToiDa</code></td><td>Khe hở tối đa giữa hai máng / thang để dùng chung một thanh giá đỡ dài (mm)</td><td>500</td></tr>
+      <tr><td><code>ChiaDot</code></td><td>Chiều dài một đốt máng / thang / trunking (mm); <code>BatKhiVe</code> = cắt đốt ngay khi vẽ</td><td>3000 · false</td></tr>
+      <tr><td><code>LoaiMangCap</code></td><td>Kiểu lỗ máng: <code>1</code> ô van so le, <code>2</code> lỗ thẳng hàng; bước lỗ dọc / ngang, kích thước lỗ</td><td>1</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>SpecLayer.json · SmartTag.json · PipeConfig.json</h3>
+  <ul class="gon">
+    <li><code>SpecLayer.json</code>: mỗi dòng <code>layers[]</code> là một layer, có các cột <code>Tên công ty</code> · <code>Hạng mục</code> · <code>Hệ thống</code> · <code>SubSystem</code> · <code>Thiết bị / Đường ống</code> · <code>Thông số người dùng tự thêm</code> · <code>TÊN LAYER</code> · <code>Color</code> · <code>Mô tả</code>. Tên layer ghép từ các cột, ví dụ <code>HTS-MEPF-CTN-CW</code>. Sửa ở tab Quản lý layer.</li>
+    <li><code>SmartTag.json</code>: theo từng hệ (CTN, Điện, HVAC, PCCC) có <code>TextHeight</code> (cỡ chữ), <code>MlineCategory</code> và <code>PlineCategory</code> (tên loại ống ghi cho ống vẽ bằng Mline / Polyline).</li>
+    <li><code>PipeConfig.json</code> (cạnh thư mục Spec): <code>TeeBranchSize</code> là cỡ nhánh mặc định (DN) của tê nối đầu phun khi chuyển Polyline sang ống PCCC. Mặc định 25.</li>
+  </ul>
+
+  <h3>Nếu sửa tay tệp .json</h3>
+  <ul class="gon">
+    <li>Ưu tiên sửa trong SETUP SPEC. Sửa tay chỉ khi cần chép cấu hình giữa các máy.</li>
+    <li>Đóng AutoCAD và sao lưu tệp trước khi sửa. Lưu lại bằng mã UTF-8.</li>
+    <li>Giữ nguyên tên khoá. Số viết không có dấu ngoặc kép, dấu thập phân là dấu chấm.</li>
+    <li>Các dải Min–Max phải nối liền nhau, không hở, không chồng.</li>
+    <li>Kiểm cú pháp bằng trình soạn có báo lỗi JSON (VS Code, Notepad++ có plugin). Tệp sai cú pháp có thể làm HTS đọc thiếu thông số hoặc quay về giá trị mặc định.</li>
+  </ul>
+</section>
+
+<section class="muc" id="sao-luu">
+  <h2>Sao lưu &amp; bảo mật</h2>
+  <ul class="gon">
+    <li>Trước khi cài lại hoặc cập nhật HTS, sao lưu 4 thư mục của bạn: <code>Spec</code>, <code>Template</code>, <code>Projects</code>, <code>UserLibrary</code>.</li>
+    <li>Muốn nhiều máy dùng chung tiêu chuẩn: chép <code>Spec</code> và <code>Template</code> từ một máy chuẩn sang các máy khác (cùng phiên bản HTS). Thư viện chung của công ty có thể đặt ở ổ mạng và mở bằng nút chọn thư mục của tab THƯ VIỆN.</li>
+    <li>Chỉ chia sẻ dữ liệu của bạn (block, Spec, mẫu Excel, bản vẽ). Không chia sẻ tệp chương trình, bộ cài hay thông tin đăng nhập; mỗi tài khoản chỉ dùng cho người được cấp.</li>
+  </ul>
+</section>
+
+<p class="cuoi">HTS Software · Thư viện, Block 3D &amp; Spec · cập nhật 15/11/2026. Xem thêm: <a href="https://claude.ai/artifact/Q5qeTeJRg99nDDwqqDTPPn" target="_blank" rel="noopener">Kết nối AI với HTS &amp; VCS</a>.</p>
+</div>
+
+<script>
+(function () {
+  document.querySelectorAll('button.chep').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var code = b.closest('.ma').querySelector('code');
+      var xong = function () { b.textContent = 'Đã chép'; setTimeout(function () { b.textContent = 'Chép'; }, 1600); };
+      var chon = function () { var r = document.createRange(); r.selectNodeContents(code); var s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Đã chọn, bấm Ctrl+C'; };
+      try { navigator.clipboard.writeText(code.textContent).then(xong, chon); } catch (e) { chon(); }
+    });
+  });
+})();
+</script>
+
+</body></html>

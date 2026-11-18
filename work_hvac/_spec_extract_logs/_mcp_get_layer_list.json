@@ -1,0 +1,58 @@
+{
+  "tool": "get_layer_list",
+  "success": true,
+  "content": "Co 8 layer, layer hien tai: 0",
+  "data": {
+    "currentLayer": "0",
+    "layers": [
+      {
+        "name": "0",
+        "isOff": false,
+        "isFrozen": false,
+        "color": 7
+      },
+      {
+        "name": "MEPG-XREF-ARC",
+        "isOff": false,
+        "isFrozen": false,
+        "color": 8
+      },
+      {
+        "name": "MEPG-M-EQUIP",
+        "isOff": false,
+        "isFrozen": false,
+        "color": 8
+      },
+      {
+        "name": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+        "isOff": false,
+        "isFrozen": false,
+        "color": 7
+      },
+      {
+        "name": "MEPG-AC-M-Cấp gió tạo áp-Pressurization Air-PAD",
+        "isOff": false,
+        "isFrozen": false,
+        "color": 7
+      },
+      {
+        "name": "MEPG-AC-M-Cấp gió tươi không khí-Fresh Air-FAD",
+        "isOff": false,
+        "isFrozen": false,
+        "color": 7
+      },
+      {
+        "name": "MEPG-AC",
+        "isOff": false,
+        "isFrozen": false,
+        "color": 7
+      },
+      {
+        "name": "MEPG-AC-TEXT",
+        "isOff": false,
+        "isFrozen": false,
+        "color": 7
+      }
+    ]
+  }
+}

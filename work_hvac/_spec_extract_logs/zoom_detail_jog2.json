@@ -1,0 +1,25 @@
+{
+  "schema": "hts-image-cad-georef/1",
+  "dwg": "C:\\Users\\Nguye\\Desktop\\SHOP DRAWING-AI\\shop drawwing onng gio.dwg",
+  "svg": "zoom_detail_jog2.png",
+  "unit": "mm",
+  "region": {
+    "xmin": 39800, "ymin": 37000, "xmax": 45800, "ymax": 40900,
+    "width": 6000, "height": 3900
+  },
+  "image": { "width": 1800, "height": 1170 },
+  "transform": {
+    "unitsPerPxX": 3.3333333333333335, "unitsPerPxY": 3.3333333333333335,
+    "pxPerUnitX": 0.3, "pxPerUnitY": 0.3,
+    "imageToUcs": "ucsX = xmin + px*unitsPerPxX ; ucsY = ymax - py*unitsPerPxY",
+    "ucsToImage": "px = (ucsX - xmin)*pxPerUnitX ; py = (ymax - ucsY)*pxPerUnitY",
+    "ucsToWcsMatrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+    "wcsToUcsMatrix": [1, -0, 0, 0, -0, 1, -0, 0, 0, -0, 1, 0, 0, 0, 0, 1]
+  },
+  "objectCount": 3,
+  "objects": [
+    { "handle": "10B49", "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213481-MB HỆ THỐNG ĐHKK HẦM B1", "bboxPx": [82.63397813482443, 212.21823702635882, 611.5532580638886, 744.2425457128702], "bboxUcs": [40075.44659378275, 38419.19151429043, 41838.51086021296, 40192.605876578804], "insertUcs": [367725.6740412542, -114275.69389590921], "insertPx": [98377.70221237626, 46552.70816877276], "rotationDeg": 0 },
+    { "handle": "10B51", "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V543-MB HỆ THỐNG ĐHKK HẦM B1", "bboxPx": [1237.5264027893086, 47.74852059338227, 1766.4454166713112, 576.7261776999243], "bboxUcs": [43925.088009297695, 38977.57940766692, 45688.15138890437, 40740.838264688726], "insertUcs": [45083.24904487694, 39582.67722910966], "insertPx": [1584.9747134630816, 395.19683126710294], "rotationDeg": 0.0048653479151004415 },
+    { "handle": "10BAA", "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10249476-MB HỆ THỐNG ĐHKK HẦM B1", "bboxPx": [45.19398752389534, 1068.6594685473756, 483.1939875238954, 1137.23971225262], "bboxUcs": [39950.64662507965, 37109.20095915793, 41410.64662507965, 37337.80177150875], "insertUcs": [40680.54069017414, 37329.69142234948], "insertPx": [264.1622070522412, 1071.0925732951553], "rotationDeg": 270 }
+  ]
+}

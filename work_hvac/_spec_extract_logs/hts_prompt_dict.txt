@@ -1,0 +1,276 @@
+﻿VI: , {0} tag ống gió đi theo  ==>  EN: , {0} duct tag(s) moved along
+VI: 3D ống gió  ==>  EN: 3D ducts
+VI: 3D ống gió + xem HCAD  ==>  EN: 3D ducts + HCAD view
+VI: Auto vẽ ống gió theo thông số  ==>  EN: Auto-draw ducts from parameters
+VI: Auto vẽ ống gió tròn theo Diameter  ==>  EN: Auto-draw round ducts by Diameter
+VI: Auto vẽ ống gió tròn theo Ø trên thanh  ==>  EN: Auto-draw round duct using Ø from the bar
+VI: Auto vẽ ống gió vuông theo thông số trên thanh (TDC / Nẹp C)  ==>  EN: Auto-draw rectangular duct using bar settings (TDC / C-cleat)
+VI: Bảo ôn ống gió  ==>  EN: Duct insulation
+VI: Bấm **3D ỐNG GIÓ** → quét chọn ống gió (Enter = cả bản vẽ, kể cả ống mềm) → nhập **cao độ tim ống**.  ==>  EN: Click **3D DUCTS** → window-select the ducts (Enter = the whole drawing, flexible ducts included) → enter the **duct centerline elevation**.
+VI: Bấm **COMBINE 3D TOÀN HỆ** → quét chọn vùng (**Enter = toàn bộ bản vẽ**). Có ống gió thì nhập **cao độ tim ống gió**.  ==>  EN: Press **COMBINE 3D WHOLE SYSTEM** → select the area (**Enter = whole drawing**). If there are ducts, enter the **duct centerline elevation**.
+VI: Bấm **Chèn tag**, chọn điểm đặt mũi tên trên thân ống gió (ống thẳng, cút, côn, tê, ống mềm), rê chuột đặt chữ — **Enter** để xong; gõ **C** để đổi cao độ giữa chừng.  ==>  EN: Click **Insert tag**, pick the arrow location on the duct body (straight duct, elbow, reducer, tee, flexible duct), move the mouse to place the text — **Enter** to finish; type **C** to change the elevation midway.
+VI: Bấm nút → nhập **đường kính** ống mềm (mặc định 25, nhớ lần trước).  ==>  EN: Click the button → enter the hose **diameter** (default 25; the last value is remembered).
+VI: Bấm đầu ống thứ nhất rồi đầu ống thứ hai (hoặc thân ống chính): cút 90/45 · côn thu tại ống to + cút · tê khi nhánh cắt vào thân ống. Phụ kiện SIDE theo ô NỐI ỐNG (Ren/Hàn · Ren/Coupling · Hàn/Hàn), chưa xét cao độ.  ==>  EN: Click the end of the first pipe, then the end of the second (or the main pipe body): 90/45 elbow · reducer at the larger pipe + elbow · tee where the branch meets the pipe body. SIDE fittings follow the PIPE JOINTS box (Threaded/Welded · Threaded/Grooved · Welded/Welded); elevations not considered yet.
+VI: Bấm đầu ống thứ nhất rồi đầu ống thứ hai: cùng cỡ cùng cao độ → cút vuông; khác cao độ → 2 cút UP90 (ống thấp) + DN90 (ống cao); khác cỡ → côn thu tại ống to + cút; trục ống 1 cắt vào thân ống 2 → Tê / Y (khác cao độ: Tê UP90/DN90 + cút). Hệ ống theo ô HT.  ==>  EN: Click the end of the first pipe, then the end of the second: same size and elevation → 90° elbow; different elevations → 2 elbows UP90 (lower pipe) + DN90 (upper pipe); different sizes → reducer at the larger pipe + elbow; axis of pipe 1 meets the body of pipe 2 → Tee / Wye (different elevations: Tee UP90/DN90 + elbow). Pipe system follows the HT box.
+VI: Bấm ống gió, ghi chữ W×H theo layer của ống.  ==>  EN: Click a duct to write W×H text on the duct's layer.
+VI: Bấm ống gió, ghi chữ W×H.  ==>  EN: Click a duct to write W×H text.
+VI: Bắt vào đầu máng (khác W) — chèn côn thu.  ==>  EN: Snapped to the tray end (different W) — inserting a reducer.
+VI: Bắt vào đầu thang (khác W) — chèn côn thu.  ==>  EN: Snapped to the ladder end (different W) — inserting a reducer.
+VI: Bề rộng ống gió vuông (mm)  ==>  EN: Rectangular duct width (mm)
+VI: Bịt đầu ống gió  ==>  EN: Cap duct end
+VI: Bỏ qua {0} block không phải ống gió HTS.  ==>  EN: Skipped {0} block(s) that are not HTS ducts.
+VI: Bỏ qua {0} block không phải ống gió.  ==>  EN: Skipped {0} blocks that are not ducts.
+VI: Bỏ qua {0} cụm không có ống thẳng (côn / Z / chân rẽ đứng lẻ).  ==>  EN: Skipped {0} groups with no straight duct (standalone reducer / Z / vertical takeoff).
+VI: Bỏ qua {0} đường không phải ống gió mềm (không có dạng gấp nếp của lệnh NM).  ==>  EN: Skipped {0} objects that are not flexible ducts (no corrugated shape from the NM command).
+VI: Cao độ ĐÁY ống gió (mm) — gán cho ống / phụ kiện vẽ mới. Để trống = không gán. Đang vẽ: phím H đổi cao độ.  ==>  EN: Duct BOTTOM elevation (mm) — assigned to newly drawn ducts / fittings. Leave blank = not assigned. While drawing: press H to change the elevation.
+VI: Cao độ đáy ống gió không hợp lệ.  ==>  EN: Invalid duct bottom elevation.
+VI: Chiều cao ống gió vuông (mm)  ==>  EN: Rectangular duct height (mm)
+VI: Chiều dài chân rẽ (L):  ==>  EN: Branch leg length (L):
+VI: Chiều dài một đốt ống gió (mm)  ==>  EN: Length of one duct section (mm)
+VI: Chiều dài ống mềm nên giữ ngắn (thường ≤ 1.5 m) theo tiêu chuẩn thi công.  ==>  EN: Keep flexible ducts short (typically ≤ 1.5 m) per installation standards.
+VI: Chuyển ống thẳng thành đầu bịt  ==>  EN: Convert a straight duct into an end cap
+VI: Chèn van gió / khớp nối mềm HVAC  ==>  EN: Insert HVAC dampers / flexible joints
+VI: Chưa có kích thước ống trên bảng HVAC — không dựng được chân rẽ.  ==>  EN: No duct size on the HVAC panel — cannot build the takeoff.
+VI: . Bề rộng MLINE tỉ lệ theo DN. Đang vẽ: phím **D** đổi cỡ (tự đặt côn thu), phím **H** đổi cao độ (tự đặt cặp cút UP / DOWN). Ống chính bị cắt tại điểm rẽ nhánh **giữ nguyên cao độ cũ**; thư viện thiếu block phụ kiện thì dòng lệnh báo đúng tên file cần bổ sung.  ==>  EN: **Reducing fittings** mode (command `PT7H9U2K`) picks the right-size elbow/tee from the **DN layer** of the connecting pipe — drawing a branch of a different DN generates **HTS-SCREW-TEE-DN25x32x25**, and the reducer at the start of the branch automatically becomes a tee. Layers are named with **bare numbers** (25, 32…), without the \
+VI: Chỉnh hình học ống gió  ==>  EN: Edit duct geometry
+VI: Chọn **1 ống thẳng** → rê chuột kéo **ngang** cả tuyến thẳng (các đốt + côn / Z nối thẳng): cút hai đầu trượt theo nhánh, nhánh và chân rẽ bám thân tự dài / ngắn lại.  ==>  EN: Select **1 straight duct** → move the mouse to drag the whole straight run **sideways** (segments + inline reducers / Z offsets): the elbows at both ends slide along their branches, and branches and takeoffs attached to the duct body lengthen / shorten automatically.
+VI: Chọn Block ống gió (tên chứa kích thước WxH, vd OG-1000x600):  ==>  EN: Select a duct block (name contains the WxH size, e.g. OG-1000x600):
+VI: Chọn cỡ ống gió cho 2.400 m³/h, trần còn 400 mm  ==>  EN: Size a duct for 2,400 m³/h with 400 mm of ceiling space left
+VI: Chọn hướng nhánh rời trục ống gió  ==>  EN: Select the direction the branch leaves the duct axis
+VI: Chọn loại chân rẽ trên thân ống  ==>  EN: Select the takeoff type on the duct body
+VI: Chọn một đốt ống gió thẳng → bấm điểm A → rê xem trước → bấm B. Đoạn chạy dọc cả chuỗi đốt thẳng nối liền (dừng ở phụ kiện); Enter ở bước A = tiêu âm cả đoạn ống. Đoạn chồng tiêu âm cũ được gộp. Lệnh: HTS_TIEUAMOG  ==>  EN: Select a straight duct segment → click point A → move the cursor to preview → click B. The section runs along the whole chain of connected straight segments (stops at fittings); Enter at step A = line the whole duct run. Overlaps with existing lining are merged. Command: HTS_TIEUAMOG
+VI: Chọn tiếp theo khi vẽ ống gió  ==>  EN: Choose the next fitting while drawing ducts
+VI: Chọn tuyến ống gió → **Enter**.  ==>  EN: Select the duct run → **Enter**.
+VI: Chọn điểm bắt đầu (TIM / CẠNH ống cũ, hoặc TRỤC ống gió):  ==>  EN: Pick start point (CENTERLINE / EDGE of an existing duct, or a DUCT RISER):
+VI: Chọn đoạn ống gió thẳng muốn chuyển thành Bịt đầu:  ==>  EN: Select the straight duct segment to convert to an end cap:
+VI: Chọn ống bịt đầu  ==>  EN: Pick duct end cap
+VI: Chọn ống gió / phụ kiện cần gán cao độ đáy:  ==>  EN: Select the ducts / fittings to assign the bottom elevation to:
+VI: Chọn ống gió / phụ kiện cần sửa:  ==>  EN: Select duct / fitting to edit:
+VI: Cút hướng LÊN cho ống gió tròn (nhập bán kính cong R)  ==>  EN: Elbow facing UP for round ducts (enter bend radius R)
+VI: Cút hướng XUỐNG cho ống gió tròn (nhập bán kính cong R)  ==>  EN: Elbow facing DOWN for round ducts (enter bend radius R)
+VI: Cút ống gió lên/xuống (CUTOG)  ==>  EN: Duct elbow up/down (CUTOG)
+VI: Cạnh lớn hoặc đường kính ống gió (mm)  ==>  EN: Duct major side or diameter (mm)
+VI: Cập nhật theo ống gió  ==>  EN: Update from ducts
+VI: Cờ ký hiệu Z (ống gió đứng)  ==>  EN: Z symbol flag (vertical duct)
+VI: Cờ nẹp C (ống gió)  ==>  EN: C-cleat flag (duct)
+VI: DIM ống gió  ==>  EN: DIM ducts
+VI: Dim ống gió  ==>  EN: Dim ducts
+VI: Dựng **Solid 3D** cho ống gió vẽ bằng HTS (ống thẳng, cút, tê, côn, chuyển vuông–tròn, chân rẽ, Z, ống mềm) theo **cao độ tim** — cao độ lan qua phụ kiện **Z**; khối đặt **tại chỗ** trên mặt bằng, layer **HVAC-3D**. Xong mở **HCAD** xem / xoay / chốt góc như CTN, PCCC, điện.  ==>  EN: Builds **3D Solids** for ducts drawn with HTS (straight ducts, elbows, tees, reducers, square-to-round transitions, takeoffs, Z offsets, flexible ducts) at the **centerline elevation** — the elevation carries through **Z** fittings; the solids are placed **in place** on the plan, layer **HVAC-3D**. Then **HCAD** opens to view / rotate / lock the view angle, as for plumbing, fire protection and electrical.
+VI: Dựng 3D + quét toàn bộ hệ MEP (cấp thoát nước, PCCC, cáp điện, ống điện chiếu sáng / ổ cắm, thang máng, ống gió) và kết cấu (dầm, tường) thành MỘT mô hình chung, mở HCAD để xem / soi va chạm; chốt góc xong chọn điểm trên AutoCAD để đặt mô hình 3D. Trích mặt cắt đứng toàn hệ bằng MẶT CẮT COMBINE.  ==>  EN: Build 3D + scan the whole MEP system (plumbing, fire protection, power cables, lighting / socket conduits, cable trays, ducts) and the structure (beams, walls) into ONE combined model, open HCAD to view / check clashes; after locking the view pick a point in AutoCAD to place the 3D model. Extract whole-system vertical sections with COMBINE SECTION.
+VI: Dựng 3D ống gió  ==>  EN: Build 3D ducts
+VI: Dựng Solid ống gió + xem HCAD  ==>  EN: Build duct solids + view in HCAD
+VI: Em chọn cỡ ống gió theo lưu lượng, tính diện tích tôn, vẽ ống gió và phụ kiện bằng công cụ HTS giúp sếp.  ==>  EN: I can size ducts by airflow, calculate sheet metal area, and draw ducts and fittings using HTS tools.
+VI: Ghi cỡ ống gió  ==>  EN: Label duct size
+VI: Ghi kích thước ống gió (DIM)  ==>  EN: Dimension ducts (DIM)
+VI: Ghi tag bằng **leader có mũi tên** cho ống gió: **tên hệ** (gió cấp, hồi, tươi, thải, hút khói, tăng áp — theo layer), **kích thước R × C / Ø** tự đọc theo block đã vẽ, **cao độ** — cùng bảng với Tag thang máng.  ==>  EN: Tags ducts with an **arrow leader**: **system name** (supply, return, fresh, exhaust air, smoke extract, pressurization — by layer), **size W × H / Ø** read automatically from the drawn block, **elevation** — same panel as Tag cable trays.
+VI: Gán cao độ đáy đang nhập cho ống gió / phụ kiện chọn trên bản vẽ (GZOG5H3K)  ==>  EN: Assign the entered bottom elevation to ducts / fittings selected in the drawing (GZOG5H3K)
+VI: Gõ **C / Z / H / L / X** khi vẽ: côn thu, đổi cao độ đoạn nghiêng, đổi cao độ bằng cặp cút lên + xuống (vẽ tiếp), một cút lên / xuống (kết thúc lệnh).  ==>  EN: Type **C / Z / H / L / X** while drawing: reducer, elevation change with a sloped section, elevation change with an elbow up + down pair (keep drawing), a single elbow up / down (command ends).
+VI: Gõ **C / Z / L / X** khi vẽ để chèn côn thu, đổi cao độ, cút lên, cút xuống.  ==>  EN: Type **C / Z / L / X** while drawing to insert a reducer, change elevation, add an elbow up, add an elbow down.
+VI: Gắn **nắp bịt** vào đầu hở của đoạn ống gió đã vẽ.  ==>  EN: Attaches an **end cap** to the open end of a drawn duct segment.
+VI: Gắn nhãn thông tin ống gió / Block HVAC  ==>  EN: Tag duct / HVAC block information
+VI: Hoặc gõ **C** (Chọn đường có sẵn) rồi chọn các Line / Polyline / Arc / Spline làm tim ống mềm.  ==>  EN: Or type **C** (select existing paths) and pick Lines / Polylines / Arcs / Splines as the hose centerline.
+VI: Hệ nhận theo layer (Supply / Return / FreshAir / Exhaust…); ống mềm theo cấp / hồi. Côn / chuyển tiếp ghi hai đầu (1000x500/800x400). Ống gió chưa lưu cao độ trên bản vẽ nên cao độ ghi theo số trên bảng.  ==>  EN: The system is detected from the layer (Supply / Return / FreshAir / Exhaust…); flexible ducts by supply / return. Reducers / transitions show both ends (1000x500/800x400). Ducts do not yet store an elevation in the drawing, so the elevation is taken from the value on the panel.
+VI: Hệ ống (uPVC / PPR / HDPE) theo ô **HT** trên palette. Thiếu Tê thu trong thư viện thì dùng Tê đều + côn thu trên nhánh. Gộp ống: khác cỡ / layer / cao độ hoặc có phụ kiện ở chỗ đứt thì không gộp (báo lý do).  ==>  EN: The pipe system (uPVC / PPR / HDPE) follows the **HT** box on the palette. If the library has no reducing tee, an equal tee + a reducer on the branch is used instead. Merging: pipes with a different size / layer / elevation, or with a fitting in the gap, are not merged (the reason is reported).
+VI: Khoảng cách bố trí giá đỡ tương ứng với chiều rộng tuyến ống gió (mm)  ==>  EN: Support spacing according to duct width (mm)
+VI: Khác cỡ → **côn thu** tại đầu ống to + đoạn ống nhỏ + cút (khác cao độ: 2 cút UP90/DN90).  ==>  EN: Different sizes → **reducer** at the larger pipe end + a short smaller pipe + elbow (different elevations: 2 elbows UP90/DN90).
+VI: Khác cỡ → **côn thu** tại đầu ống to + đoạn ống nhỏ + cút.  ==>  EN: Different sizes → **reducer** at the larger pipe end + a short smaller pipe + elbow.
+VI: Không có ống gió / phụ kiện HTS trong lựa chọn.  ==>  EN: No HTS ducts / fittings in the selection.
+VI: Không có ống gió / phụ kiện VCSHOP nào trong phần đã chọn.  ==>  EN: No VCSHOP ducts / fittings in the selection.
+VI: Không tìm thấy ống gió tại vị trí hiện tại để chèn Cút.  ==>  EN: No duct found at the current position to insert an elbow.
+VI: Không tìm thấy ống gió tại vị trí hiện tại để chèn Tê.  ==>  EN: No duct found at the current position to insert a tee.
+VI: Kiểu bịt đầu (1 / 2 / 3)  ==>  EN: End style (1 / 2 / 3)
+VI: Kiểu cút dùng khi vẽ ống gió VUÔNG gặp góc cua. Ống tròn luôn dùng cút cong.  ==>  EN: Elbow type used when a RECTANGULAR duct turns a corner. Round ducts always use curved elbows.
+VI: Kéo dời ống gió đã vẽ mà **các điểm nối vẫn khít**: ống nối vào tự **co giãn dọc trục**, tự chia lại đốt chuẩn, phụ kiện đi theo — giống ĐIỀU CHỈNH TUYẾN ỐNG (PED) của ống nước.  ==>  EN: Moves drawn ducts while **the connection points stay tight**: connected ducts **stretch / shrink along their axis**, standard segments are re-split automatically and fittings follow — like ADJUST PIPE RUN (PED) for water pipes.
+VI: Kích thước đọc theo block vẽ bằng **VẼ THANG CÁP / VẼ MÁNG CÁP / TRUNKING** (HTS-THANGCAP / HTS-MANGCAP / HTS-TRUNKING, côn thu ghi 300/200x100) và máng đời cũ **HTS Cable Tray W..xH..**; đối tượng khác hoặc block đời cũ chỉ có bề rộng thì ghi theo ô **nhập tay** R × C. Cỡ chữ để trống = theo **DIM hiện hành**; cỡ mũi tên, đoạn gãy để trống = bằng cỡ chữ. Font TrueType (mặc định Arial) nên chữ tiếng Việt không mất dấu.  ==>  EN: Sizes are read from blocks drawn with **DRAW CABLE LADDER / DRAW CABLE TRAY / TRUNKING** (HTS-THANGCAP / HTS-MANGCAP / HTS-TRUNKING; reducers are written 300/200x100) and from old-style trays **HTS Cable Tray W..xH..**; other objects, or old blocks that only carry a width, use the **manual** R × C (width × height) boxes. Blank text size = from the **current DIM style**; blank arrow size / landing = same as the text size. A TrueType font (default Arial) is used, so accented (e.g. Vietnamese) characters are not lost.
+VI: Kích thước ống. Đổi ô này KHI ĐANG VẼ = đổi cỡ ống giữa chừng, côn thu tự đặt (hoặc nhấn D khi vẽ).  ==>  EN: Pipe size. Changing this box WHILE DRAWING = changing the pipe size mid-run; a reducer is placed automatically (or press D while drawing).
+VI: Kích thước ống. Đổi ô này KHI ĐANG VẼ = đổi cỡ ống giữa chừng, côn thu tự đặt.  ==>  EN: Pipe size. Changing this box WHILE DRAWING = changing the pipe size mid-run; a reducer is placed automatically.
+VI: Kỹ sư HVAC và hệ ống gió thực tế; kính xanh dịu.  ==>  EN: HVAC engineer with real ductwork; soft blue glass.
+VI: Loại nẹp (chi tiết ghép nối) của ống gió khi vẽ: bích TDC có tai V, nẹp C không tai V.  ==>  EN: Duct joint type (joint detail) when drawing: TDC flange with V-tabs, C-cleat without V-tabs.
+VI: Loại ống gió  ==>  EN: Duct type
+VI: Lập bảng va chạm giữa ống gió và ống PCCC kèm toạ độ  ==>  EN: Build a clash table between ducts and fire protection pipes, with coordinates
+VI: Lệnh tự chạy lần lượt: 3D cấp thoát nước + QUÉT, 3D PCCC + QUÉT, 3D tuyến cáp + QUÉT (kèm thang máng / dầm / tủ quanh tuyến), thang máng còn lại, ống gió, **ống điện** (vai bò dưới dầm, ống đứng lên thiết bị), rồi **dầm + tường**. Mọi hệ dựng **cùng một chỗ đặt** (cạnh phải bản vẽ) nên khớp nhau.  ==>  EN: The command runs in turn: 3D plumbing + SCAN, 3D fire protection + SCAN, 3D cable routes + SCAN (with trays / beams / panels around the routes), remaining trays, ducts, **conduits** (offsets under beams, risers up to devices), then **beams + walls**. Every system is built at **the same placement point** (to the right of the drawing) so they line up.
+VI: Mô hình 3D ống gió  ==>  EN: Duct 3D model
+VI: Mặt cắt đứng TOÀN HỆ: vẽ đường cắt trên mặt bằng 2D (2 điểm) + điểm 3 là hướng và độ sâu nhìn → Block mặt cắt có ống, phụ kiện, cáp, thang máng, ống gió, tủ 3D, dầm và tường (phần bị cắt tô hatch, ống gió cắt ngang có ký hiệu). Kéo 4 grip giữa cạnh khung để mở rộng.  ==>  EN: WHOLE-SYSTEM vertical section: draw the cut line on the 2D plan (2 points) + point 3 for the view direction and depth → section Block with pipes, fittings, cables, cable trays, ducts, 3D panels, beams and walls (cut parts hatched, ducts cut across get a symbol). Drag the 4 mid-edge grips of the frame to extend it.
+VI: Một nút dựng **3D + quét toàn bộ hệ MEP** của bản vẽ — **cấp thoát nước, PCCC, cáp điện, ống điện chiếu sáng / ổ cắm, thang máng, ống gió** — cùng **kết cấu (dầm, tường)** thành **một mô hình chung**, mở **HCAD** xem / soi va chạm; chốt góc xong **chọn điểm trên AutoCAD** để đặt mô hình 3D.  ==>  EN: One button builds **3D + scans the whole MEP system** of the drawing — **plumbing, fire protection, power cables, lighting / socket conduits, cable trays, ducts** — together with the **structure (beams, walls)** into **one combined model**, opens **HCAD** to view / check clashes; after locking the view **pick a point in AutoCAD** to place the 3D model.
+VI: Mở bảng phụ kiện HVAC (van gió, khớp nối mềm) để chèn block  ==>  EN: Open the HVAC fittings panel (dampers, flexible joints) to insert blocks
+VI: NMC1  ==>  EN: NMC1
+VI: NMH1  ==>  EN: NMH1
+VI: Nối mềm miệng gió  ==>  EN: Flexible connection to diffusers
+VI: OG3D: dựng Solid ống gió + phụ kiện + ống mềm theo cao độ tim (lan qua Z), dựng lại thì thay khối cũ; xong mở HCAD để xem / sửa / chốt góc như các hệ khác  ==>  EN: OG3D: build solids for ducts + fittings + flexible ducts from centerline elevations (propagated through Z-offsets); rebuilding replaces the old solids; then open HCAD to view / edit / lock the angle as for the other systems
+VI: OG3DHCAD: mở mô hình 3D ống gió đã dựng trong HCAD (Enter = mọi khối OG3D), xoay góc nhìn rồi gom thành MỘT Block đặt xuống mặt bằng; dời / xoay / xoá bên HCAD áp ngược vào bản vẽ  ==>  EN: OG3DHCAD: open the built 3D duct model in HCAD (Enter = all OG3D solids), rotate the view, then combine it into ONE block placed on the plan; moves / rotations / deletions in HCAD are applied back to the drawing
+VI: Phần HVAC (ống gió, phụ kiện gió, miệng gió) sẽ bổ sung sau.  ==>  EN: The HVAC part (ducts, duct fittings, air terminals) will be added later.
+VI: Phụ kiện thang máng cáp: cút 90° / 45°, Tê, chữ thập, côn, Z, cút lên / xuống, bịt đầu — chọn Máng / Thang / Trunking + kích thước  ==>  EN: Cable tray fittings: 90° / 45° elbows, tees, crosses, reducers, Z offsets, elbows up / down, end caps — choose Tray / Ladder / Trunking + size
+VI: Pick **điểm nối trên ống cứng** → pick **miệng gió** → tool vẽ đoạn mềm.  ==>  EN: Pick the **connection point on the rigid duct** → pick the **diffuser** → the tool draws the flexible segment.
+VI: Pick các điểm gãy — tại mỗi điểm dùng phím tắt để chèn phụ kiện: **C** côn · **Z** Z đứng · **N** ngang đổi trục · **T** tê · **B** bịt đầu · **K** khớp mềm · **U** undo.  ==>  EN: Pick the bend points — at each point use the shortcut keys to insert fittings: **C** reducer · **Z** vertical offset · **N** horizontal offset · **T** tee · **B** end cap · **K** flexible joint · **U** undo.
+VI: Quét chọn các ống gió đã vẽ → tự chèn cút / côn thu / chân rẽ vào chỗ ống chạm nhau  ==>  EN: Window-select drawn ducts → automatically insert elbows / reducers / takeoffs where ducts meet
+VI: Quét chọn khu vực chứa ống gió và máng cáp (HS/HTS):  ==>  EN: Select the area containing ducts and cable trays (HS/HTS):
+VI: Quét chọn nhiều ống gió / cút / côn / tê / chân rẽ → bọc ĐÚNG những cái đã chọn (chọn sẵn rồi bấm cũng được). Chọn lại những cái đã bảo ôn đúng kiểu này là GỠ. Lệnh: HTS_BAOONOG  ==>  EN: Window-select ducts / elbows / reducers / tees / takeoffs → insulates EXACTLY the selected items (pre-selecting and then clicking also works). Re-selecting items already insulated with this same type REMOVES the insulation. Command: HTS_BAOONOG
+VI: Quét chọn để rải giá đỡ ống gió tự động  ==>  EN: Window-select to place duct supports automatically
+VI: Quét chọn ống gió HTS → tự DIM chiều dài từng đốt trên tuyến (nhập khoảng cách từ đường DIM tới mép ngoài ống)  ==>  EN: Window-select HTS ducts → automatically dimension the length of each segment along the run (enter the distance from the DIM line to the outer edge of the duct)
+VI: Rê chuột sang bên cần loe rồi bấm SPACE để chốt hướng chân rẽ:  ==>  EN: Move the mouse to the side to flare, then press SPACE to lock the takeoff direction:
+VI: Rải **ty treo / giá đỡ** dọc tuyến ống gió theo bước khoảng cách.  ==>  EN: Places **hanger rods / supports** along the duct run at a set spacing.
+VI: Rải giá đỡ ống gió  ==>  EN: Place duct supports
+VI: Solid ống gió theo cao độ, dựng lại thì thay + xem HCAD  ==>  EN: Duct solids by elevation; rebuilding replaces them + view in HCAD
+VI: Tag nhanh ống gió  ==>  EN: Quick-tag ducts
+VI: Tag ống gió  ==>  EN: Tag ducts
+VI: Thông số Cút ống gió  ==>  EN: Duct elbow parameters
+VI: Thông số Spec dự án — Giá đỡ ống gió · Kiểu cút · Độ loe chân rẽ · Vẽ TDC / Nẹp C  ==>  EN: Project spec parameters — Duct supports · Elbow type · Takeoff flare · Draw TDC / C-cleat
+VI: Thông số Tê ống gió  ==>  EN: Duct tee parameters
+VI: Thống kê ống gió theo kích thước  ==>  EN: Summarize ducts by size
+VI: Tiêu âm / bảo ôn ống gió  ==>  EN: Duct acoustic lining / insulation
+VI: Tiêu âm ống gió  ==>  EN: Duct acoustic lining
+VI: Tiền tố tên block ống gió  ==>  EN: Duct block name prefix
+VI: Trong lúc vẽ gõ **C** = côn thu, **Z** = đổi cao độ đoạn nghiêng, **H** = đổi cao độ bằng cặp **cút lên + cút xuống** rồi vẽ tiếp, **L / X** = một cút lên / xuống (tuyến rời mặt bằng) rồi **kết thúc lệnh**.  ==>  EN: While drawing, type **C** = reducer, **Z** = change elevation with a sloped section, **H** = change elevation with an **elbow up + elbow down** pair and keep drawing, **L / X** = a single elbow up / down (the run leaves this plan), then the **command ends**.
+VI: Trong lúc vẽ gõ **C** = côn thu, **Z** = đổi cao độ, **L** = cút lên, **X** = cút xuống.  ==>  EN: While drawing, type **C** = reducer, **Z** = change elevation, **L** = elbow up, **X** = elbow down.
+VI: Trong đó {0} ống gió mềm (cao độ lấy theo đầu nối).  ==>  EN: Of these, {0} are flexible ducts (elevation taken from their connections).
+VI: ) + cao độ tim đầu / cuối + Ø ống mềm. Dựng lại thì thay theo dấu này; mô hình HTS3D gửi HCAD đọc để biết ống / phụ kiện nào.  ==>  EN: On solids built by OG3D / OGM3D: 2D source (\
+VI: Trên mọi đối tượng mô hình do COMBINE 3D TOÀN HỆ (HTSCB3DMEP) dựng: tuyến 3D, Solid, phụ kiện, thang máng, ống gió, dầm, tường. Chạy lại thì xoá hết đối tượng mang dấu này rồi dựng lại cùng chỗ (lệch lưu ở NOD HTS_CB3D_LECH).  ==>  EN: On every model object built by COMBINE 3D WHOLE SYSTEM (HTSCB3DMEP): 3D routes, Solids, fittings, cable trays, ducts, beams, walls. Re-running deletes every object carrying this marker and rebuilds in the same place (the offset is stored in the NOD HTS_CB3D_LECH).
+VI: Trên ĐỊNH NGHĨA block ống gió / phụ kiện: 1 = nẹp C (không vẽ mí Tai V).  ==>  EN: On the DEFINITION of duct / fitting blocks: 1 = C-cleat (no V-tab edges drawn).
+VI: Trên ĐỊNH NGHĨA block ống gió Z đứng: 1 = đã dùng ký hiệu chữ Z mới.  ==>  EN: On the DEFINITION of vertical Z duct blocks: 1 = uses the new Z letter symbol.
+VI: Trích **mặt cắt đứng toàn hệ**: ống, phụ kiện, cáp, thang máng, **ống gió**, tủ 3D cùng **dầm và tường** — phần kết cấu bị cắt **tô hatch**, ống gió cắt ngang có ký hiệu (ống vuông 2 đường chéo, ống tròn chữ thập).  ==>  EN: Extract a **whole-system vertical section**: pipes, fittings, cables, cable trays, **ducts**, 3D panels together with **beams and walls** — cut structure is **hatched**, ducts cut across get a symbol (rectangular duct 2 diagonals, round duct a cross).
+VI: Trục ống gió  ==>  EN: Duct riser
+VI: Trục ống gió — khung W×H, bao ngoài 2.5, chéo 7°/36°. Điểm đặt là TÂM khung (lệnh TRUCOG)  ==>  EN: Duct riser — W×H frame, outer offset 2.5, diagonal 7°/36°. Insertion point is the frame CENTER (command TRUCOG)
+VI: Tính diện tích tôn ống gió theo layer  ==>  EN: Calculate duct sheet metal area by layer
+VI: Tạo ảnh phối cảnh 3D cắt lớp các hệ MEP chạy chung trong ảnh đính kèm (ống nước, ống gió, máng cáp, PCCC). Giữ đường đi và vị trí tương đối của từng tuyến, phân biệt hệ bằng màu, làm nổi chỗ các tuyến cắt nhau. Trần bán trong suốt; không tự suy ra cao độ.  ==>  EN: Create a 3D cutaway perspective image of the MEP systems running together in the attached image (water pipes, ducts, cable trays, fire protection). Keep the routing and relative position of each run, distinguish the systems by color, and highlight where runs cross. Semi-transparent ceiling; do not infer elevations.
+VI: Tạo ảnh phối cảnh 3D cắt lớp hệ HVAC từ bản vẽ đính kèm. Giữ tuyến ống gió, nhánh rẽ, thiết bị và miệng gió nhìn thấy; phân biệt gió cấp, hồi và thải theo chú giải của bản vẽ. Trần bán trong suốt, nền sáng; không tự đổi tuyến, kích thước hoặc suy ra cao độ chưa được cung cấp.  ==>  EN: Create a 3D cutaway perspective image of the HVAC system from the attached drawing. Keep the visible duct runs, branches, equipment and diffusers; distinguish supply, return and exhaust air according to the drawing legend. Semi-transparent ceiling, light background; do not change runs or sizes, or infer elevations that are not provided.
+VI: Tự chèn cút / côn thu / chân rẽ vào chỗ ống chạm nhau  ==>  EN: Auto-insert elbows / reducers / takeoffs at joints
+VI: Tự nhận hệ theo LAYER ống gió (Supply · Return · FreshAir · Exhaust…, ống mềm theo cấp / hồi) — layer không nói hệ thì ghi theo ô Khác.  ==>  EN: System detected from the duct LAYER (Supply · Return · FreshAir · Exhaust…; flexible ducts by supply / return) — if the layer does not indicate a system, the Other box is used.
+VI: Vui lòng nhập loại ống gió.  ==>  EN: Please enter the duct type.
+VI: Vẽ **ống mềm** nối từ ống nhánh xuống đầu phun — nếp ống như ống gió mềm HVAC, **đầu cuối cắt phẳng**.  ==>  EN: Draws a **flex hose** from the branch pipe down to the sprinkler head — corrugated like the HVAC flexible duct, with a **flat-cut end**.
+VI: Vẽ tuyến **máng cáp đục lỗ** — block sinh bằng code theo đúng W×H đang đặt, tự chèn co / tê / côn thu tại điểm gãy.  ==>  EN: Draws **perforated cable tray** runs — the blocks are generated in code to the exact W×H currently set, with elbows / tees / reducers inserted automatically at bend points.
+VI: Vẽ tuyến **ống gió vuông** bằng block động — tự sinh **co, côn, tê, Z đứng, ngang đổi trục, bịt đầu** ngay trong lúc vẽ.  ==>  EN: Draws **rectangular duct** runs with dynamic blocks — **elbows, reducers, tees, vertical offsets, horizontal offsets, end caps** are generated automatically as you draw.
+VI: Vẽ đoạn **ống mềm (flexible duct)** nối từ ống cứng xuống miệng gió, thể hiện dạng lượn sóng.  ==>  EN: Draws a **flexible duct** segment from the rigid duct down to the diffuser, shown as a wavy line.
+VI: Vẽ ống gió  ==>  EN: Draw duct
+VI: Vẽ ống gió chữ nhật  ==>  EN: Draw rectangular duct
+VI: Vẽ ống gió mềm  ==>  EN: Draw flexible duct
+VI: Vẽ ống gió nẹp C  ==>  EN: Draw C-cleat duct
+VI: Vẽ ống gió tròn  ==>  EN: Draw round duct
+VI: Vẽ ống gió vuông  ==>  EN: Draw rectangular duct
+VI: Vẽ ống mềm nối đầu phun sprinkler — đầu cuối cắt phẳng. Bắt điểm theo tuyến hoặc chọn đường có sẵn. Lệnh: OMSP  ==>  EN: Draw a flex hose to a sprinkler head — flat-cut end. Pick points along the route or select existing paths. Command: OMSP
+VI: Xem mô hình 3D ống gió: [Hcad/Layout/Khong] <{0}>:  ==>  EN: View the 3D duct model: [Hcad/Layout/Khong] <{0}>:
+VI: [Auto] Đã tìm thấy đầu hở, đang đảo chiều bịt đầu...  ==>  EN: [Auto] Open end found, flipping the end cap direction...
+VI: [Bảo ôn] Quét chọn các ống gió / phụ kiện cần bảo ôn (Enter = xong):  ==>  EN: [Insulation] Select the ducts / fittings to insulate (Enter = done):
+VI: [COMBINE 3D MEP] Cao độ tim ống gió (mm)  ==>  EN: [COMBINE 3D MEP] Duct centerline elevation (mm)
+VI: [COMBINE 3D MEP] Không thấy hệ nào dựng 3D được trong vùng chọn: ống cấp thoát nước / PCCC (Mline đã gán cao độ), tuyến cáp (VẼ TUYẾN CÁP), thang máng đã gán cao độ, ống gió HTS, ống điện nối thiết bị đã cấu hình, dầm (VD), tường (VT).  ==>  EN: [COMBINE 3D MEP] No system in the selection can be built in 3D: plumbing / fire pipes (Mlines with elevation), cable routes (DRAW CABLE ROUTE), ladders / trays with elevation, HTS ducts, conduits connecting configured devices, beams (VD), walls (VT).
+VI: [Chân rẽ đứng {0}] ống {1}, L = {2}, độ loe = {3} ({4}). Vẽ tiếp ống gió…  ==>  EN: [Vertical takeoff {0}] duct {1}, L = {2}, flare = {3} ({4}). Continue drawing the duct…
+VI: [DIMOG] Chọn ống gió cần DIM (Enter = quét cả bản vẽ):  ==>  EN: [DIMOG] Select the ducts to DIM (Enter = scan the whole drawing):
+VI: [DIMOG] Không thấy đốt ống gió nào (chỉ có phụ kiện, hoặc block không do HTS vẽ).  ==>  EN: [DIMOG] No duct segments found (only fittings, or blocks not drawn by HTS).
+VI: [OG3DHCAD] Chưa có mô hình 3D ống gió — chạy OG3D trước.  ==>  EN: [OG3DHCAD] No 3D duct model yet — run OG3D first.
+VI: [OG3DHCAD] Chọn mô hình 3D ống gió cần xem / chốt góc (Enter = mọi khối OG3D):  ==>  EN: [OG3DHCAD] Select the 3D duct model to view / lock the angle (Enter = all OG3D solids):
+VI: [OG3D] Chọn ống gió HTS cần dựng 3D — gồm cả ống mềm (Enter = tất cả):  ==>  EN: [OG3D] Select the HTS ducts to model in 3D — flexible ducts included (Enter = all):
+VI: [OGM3D] Chọn ống gió mềm đã vẽ (hình gấp nếp của lệnh NM):  ==>  EN: [OGM3D] Select the drawn flexible ducts (the corrugated shape from the NM command):
+VI: [OGM3D] Đã dựng {0} ống mềm → layer '{1}' (cao độ {2:0.#} mm) — {3} ms.  ==>  EN: [OGM3D] Built {0} flexible ducts → layer '{1}' (elevation {2:0.#} mm) — {3} ms.
+VI: [QUÉT PK] Cần ít nhất 2 ống gió thẳng HTS trong vùng chọn.  ==>  EN: [FITTING SCAN] At least 2 straight HTS ducts are needed in the selection.
+VI: [QUÉT PK] Quét chọn các ống gió cần thêm phụ kiện:  ==>  EN: [FITTING SCAN] Select the ducts to add fittings to:
+VI: [QUÉT PK] Đã thêm: {0} cút · {1} côn thu · {2} chân rẽ.  ==>  EN: [FITTING SCAN] Added: {0} elbow(s) · {1} reducer(s) · {2} takeoff(s).
+VI: [TRUCOG] Đã chèn trục ống gió {0}×{1}, góc {2}°.  ==>  EN: [TRUCOG] Inserted duct riser {0}×{1}, angle {2}°.
+VI: [Thống kê tiêu âm / bảo ôn] Chọn ống gió / hatch tiêu âm – bảo ôn <Enter = cả bản vẽ đang mở>:  ==>  EN: [Acoustic lining / insulation schedule] Select ducts / lining – insulation hatches <Enter = whole open drawing>:
+VI: [Tiêu âm] Chọn đốt ống gió THẲNG cần tiêu âm <xong>:  ==>  EN: [Acoustic lining] Select a STRAIGHT duct segment to line <done>:
+VI: [{0}] Chọn các đường tim ống mềm (Line / Polyline / Arc / Spline):  ==>  EN: [{0}] Select the flex centerlines (Line / Polyline / Arc / Spline):
+VI: [{0}] Điểm đầu tuyến ống mềm [Chọn đường có sẵn]:  ==>  EN: [{0}] Start point of the flex run, or select existing centerlines [Chọn đường có sẵn]:
+VI: [{0}] Đã vẽ {1} ống gió mềm Ø{2} {3}  ==>  EN: [{0}] Drew {1} flexible duct(s) Ø{2} {3}
+VI: [{0}] Đã vẽ {1} ống gió mềm Ø{2}{3}{4}  ==>  EN: [{0}] Drew {1} flexible duct(s) Ø{2}{3}{4}
+VI: [{0}] Đã vẽ {1} ống mềm nối sprinkler Ø{2}  ==>  EN: [{0}] Drew {1} sprinkler flex hose(s) Ø{2}
+VI: [{0}] Đường kính ống mềm  ==>  EN: [{0}] Flex diameter
+VI: [Điều chỉnh tuyến ống gió] Chưa dời được: {0}  ==>  EN: [Adjust duct run] Could not move: {0}
+VI: [Điều chỉnh tuyến ống gió] Chọn 1 ống thẳng (kéo ngang cả tuyến), 1 phụ kiện, hoặc quét cả cụm:  ==>  EN: [Adjust duct run] Select 1 straight duct (shifts the whole run sideways), 1 fitting, or window-select a whole group:
+VI: [Điều chỉnh tuyến ống gió] Chọn vị trí mới cho {0} — chế độ {1}, bấm để chốt:  ==>  EN: [Adjust duct run] Pick the new position for the {0} — mode {1}, click to confirm:
+VI: [Điều chỉnh tuyến ống gió] Không có ống gió / phụ kiện ống gió nào trong các đối tượng chọn.  ==>  EN: [Adjust duct run] No ducts / duct fittings among the selected objects.
+VI: [Điều chỉnh tuyến ống gió] Lưu ý: UCS đang nghiêng so với mặt bằng — tính trên mặt phẳng XY, trục X / Y của UCS lấy theo hình chiếu.  ==>  EN: [Adjust duct run] Note: the UCS is tilted relative to the plan — calculations use the XY plane, with the UCS X / Y axes taken as their projections.
+VI: [Điều chỉnh tuyến ống gió] Lỗi đọc mạng ống: {0}  ==>  EN: [Adjust duct run] Error reading the duct network: {0}
+VI: [Điều chỉnh tuyến ống gió] Lỗi: {0}  ==>  EN: [Adjust duct run] Error: {0}
+VI: [Điều chỉnh tuyến ống gió] [THÀNH CÔNG] Đã co giãn đồng bộ, các cổng nối tiếp xúc khít (dời dx={0}, dy={1} theo {2}; chế độ {3}).  ==>  EN: [Adjust duct run] [SUCCESS] Stretched in sync, all connection ports fit tightly (moved dx={0}, dy={1} in {2}; mode {3}).
+VI: [Điều chỉnh tuyến ống gió] {0}  ==>  EN: [Adjust duct run] {0}
+VI: [Điều chỉnh tuyến ống gió] Đã dời {0} block, co giãn {1} đoạn ống thẳng{2}{3}.  ==>  EN: [Adjust duct run] Moved {0} block(s), stretched {1} straight duct segment(s){2}{3}.
+VI: liên kết mô hình 3D ống gió với mặt bằng 2D  ==>  EN: links the duct 3D model to the 2D plan
+VI: miệng gió  ==>  EN: diffuser
+VI: · Bỏ qua một chân rẽ: nhánh gần như song song với ống chính.  ==>  EN: · Skipped a takeoff: the branch is almost parallel to the main duct.
+VI: · Bỏ qua một chân rẽ: nhánh ngắn hơn A = {0:0.#}.  ==>  EN: · Skipped a takeoff: the branch is shorter than A = {0:0.#}.
+VI: · Bỏ qua một côn thu: ống {0} quá ngắn.  ==>  EN: · Skipped a reducer: duct {0} is too short.
+VI: Ø ống mềm  ==>  EN: Flexible duct Ø
+VI: Điều chỉnh tuyến ống gió  ==>  EN: Adjust duct runs
+VI: Đây không phải block ống gió HTS.  ==>  EN: This is not an HTS duct block.
+VI: Đã bịt đầu và kết thúc.  ==>  EN: End capped and finished.
+VI: Đã bịt đầu ống và kết thúc nhánh.  ==>  EN: Duct end capped and branch finished.
+VI: Đã chèn Cút TRÒN ống gió Wc={0}, Hc={1}, R={2} ({3}) tại ({4}, {5})  ==>  EN: Inserted RADIUS duct elbow Wc={0}, Hc={1}, R={2} ({3}) at ({4}, {5})
+VI: Đã chèn Cút VUÔNG ống gió Wc={0}, Hc={1}, L1={2}, L2={3} ({4}) tại ({5}, {6})  ==>  EN: Inserted SQUARE duct elbow Wc={0}, Hc={1}, L1={2}, L2={3} ({4}) at ({5}, {6})
+VI: Đã chèn Cút ống gió {0} và kết thúc nhánh.  ==>  EN: Inserted duct elbow ({0}) and ended the branch.
+VI: Đã chèn Tê RẼ NHÁNH ống gió Wc={0}, Hc={1}, L1={2}, W1={3}, L2={4}, R1={5} ({6}) tại ({7}, {8})  ==>  EN: Inserted BRANCH duct tee Wc={0}, Hc={1}, L1={2}, W1={3}, L2={4}, R1={5} ({6}) at ({7}, {8})
+VI: Đã chèn Tê THẲNG ống gió Wc={0}, Hc={1}, W1={2}, L1={3}, W2={4}, R1={5} ({6}) tại ({7}, {8})  ==>  EN: Inserted STRAIGHT duct tee Wc={0}, Hc={1}, W1={2}, L1={3}, W2={4}, R1={5} ({6}) at ({7}, {8})
+VI: Đã chèn Tê ống gió Wc={0}, Hc={1}, W1={2}, R1={3}, W2={4}, R2={5} tại ({6}, {7})  ==>  EN: Inserted duct tee Wc={0}, Hc={1}, W1={2}, R1={3}, W2={4}, R2={5} at ({6}, {7})
+VI: Đã dời cao độ đáy {0} cho {1} ống gió / phụ kiện.  ==>  EN: Shifted the bottom elevation by {0} for {1} ducts / fittings.
+VI: Đã gán cao độ đáy {0} cho {1} ống gió / phụ kiện.  ==>  EN: Assigned bottom elevation {0} to {1} ducts / fittings.
+VI: Đã nhận diện phụ kiện ống gió: {0} — {1} nhánh nối vào co giãn / dời theo.  ==>  EN: Recognized duct fitting: {0} — {1} connected branches stretch / move along.
+VI: Đường cắt + hướng nhìn → mặt chiếu cạnh ống gió  ==>  EN: Section line + view direction → duct side-view detail
+VI: Đường kính ống gió tròn / gợi ý cho ống mềm (mm)  ==>  EN: Round duct diameter / suggested flex duct size (mm)
+VI: Đường tim ống gió mềm — dùng cho bóc khối lượng (hình bellows không vẽ lại khi sửa).  ==>  EN: Flexible duct centerline — used for quantity takeoff (the bellows shape is not redrawn when edited).
+VI: Đường tim ống mềm nối đầu phun (lệnh OMSP) — dùng cho bóc khối lượng (hình ống không vẽ lại khi sửa).  ==>  EN: Centerline of the sprinkler flex hose (OMSP command) — used for quantity takeoff (the hose shape is not redrawn when edited).
+VI: Đặt khung nhìn 3D ống gió vào Layout  ==>  EN: Place a 3D duct viewport in a Layout
+VI: Đọc R × C (mm) theo tên block đã vẽ — côn thu ghi 300/200x100.  ==>  EN: Reads W × H (mm) from the drawn block name — reducers are written as 300/200x100.
+VI: Đọc R × C (ống tròn Ø) theo tên block ống gió đã vẽ — côn / chuyển tiếp ghi hai đầu, vd 1000x500/800x400.  ==>  EN: Reads W × H (round ducts: Ø) from the drawn duct block name — reducers / transitions show both ends, e.g. 1000x500/800x400.
+VI: Đọc lại MỌI tag ống gió đã chèn: kích thước, và cao độ của tag lấy theo ống — ống đã đổi cỡ (grip / sửa ống) hoặc gán lại cao độ đáy thì tag đổi theo; chỉ thay đúng các cụm đó, phần chữ khác giữ nguyên.  ==>  EN: Re-reads ALL inserted duct tags: the size, and the elevation of tags that take it from the duct — when a duct is resized (grip / duct edit) or gets a new bottom elevation, its tag follows; only those parts are replaced, the rest of the text is kept.
+VI: Đọc lại kích thước ống gió của MỌI tag ống gió đã chèn — ống đã đổi cỡ (grip / sửa ống) thì tag đổi theo; chỉ thay cụm kích thước, phần chữ khác giữ nguyên.  ==>  EN: Re-reads the duct size of ALL inserted duct tags — when a duct is resized (grip / duct edit), its tag follows; only the size part is replaced, the rest of the text is kept.
+VI: Độ loe chân rẽ [{0}]:  ==>  EN: Branch leg flare [{0}]:
+VI: Độ loe của chân rẽ khi click vào thân ống gió để tách nhánh.  ==>  EN: Takeoff flare when you click on a duct body to create a branch.
+VI: Ống gió là block thẳng nên **không xiên được** — chỉ co giãn dọc trục. Ống dài hơn đốt chuẩn tự chia đốt (đốt bù ở phía kéo), đoạn bị co hết tự xoá. Không đủ chiều dài để co thì lệnh báo lý do và không sửa gì. Tag ống gió gắn vào ống đi theo.  ==>  EN: Ducts are straight blocks, so they **cannot be skewed** — they only stretch / shrink along their axis. Ducts longer than a standard segment are split automatically (the filler segment on the dragged side), and segments shrunk to nothing are deleted. If there is not enough length to shrink, the command reports why and changes nothing. Duct tags attached to the ducts move with them.
+VI: Ống gió mềm CẤP — bịt tròn hai đầu. Lệnh: NMC1  ==>  EN: SUPPLY flexible duct — rounded caps at both ends. Command: NMC1
+VI: Ống gió mềm HỒI — bịt tròn hai đầu. Lệnh: NMH1  ==>  EN: RETURN flexible duct — rounded caps at both ends. Command: NMH1
+VI: Ống mềm cấp NMC1  ==>  EN: Supply flex duct NMC1
+VI: Ống mềm hồi NMH1  ==>  EN: Return flex duct NMH1
+VI: Ống đổi cỡ (grip / sửa ống): bấm **Cập nhật kích thước** — chữ kích thước trong mọi tag ống gió đổi theo.  ==>  EN: Ducts resized (grip / duct edit): click **Update sizes** — the size text in every duct tag follows.
+VI: ống gió  ==>  EN: duct
+VI: ống gió {0} khối  ==>  EN: ducts {0} solid(s)
+VI: ⚠ {0} ống mềm không bám vào phụ kiện nào → dùng cao độ gốc.  ==>  EN: ⚠ {0} flexible duct(s) not attached to any fitting → base elevation used.
+VI: Gán cao độ ống gió  ==>  EN: Set duct elevation
+VI: {0} ống mềm bo cong hạ cao độ xuống đấu vào miệng gió ở trần giả.  ==>  EN: {0} flexible ducts bend down to connect into diffusers at the false ceiling.
+VI: Dựng {0} miệng gió 3D tại trần giả (cao độ theo: {1}).  ==>  EN: Built {0} 3D diffusers at the false ceiling (elevation from: {1}).
+VI: Cút 45° ống gió — tiết diện [Vuong/Tron]:  ==>  EN: 45° duct offset — section [Vuong(rectangular)/Tron(round)]:
+VI: Chuyển ống gió Revit → CAD  ==>  EN: Convert Revit ducts → CAD
+VI: Quét chọn mặt bằng ống gió xuất từ Revit → vẽ lại thành đốt ống, cút, côn, chân rẽ, van của HTS (lệnh HTS_RVOG)  ==>  EN: Window-select a duct plan exported from Revit → redraws it as HTS duct segments, elbows, reducers, takeoffs and dampers (command HTS_RVOG)
+VI: Bản vẽ ống gió **xuất từ Revit** ra DWG bị vỡ vụn (ống là LINE rời, mỗi phụ kiện một block Revit) → **vẽ lại** đúng như lệnh vẽ ống gió của HTS: đốt ống chia đốt chuẩn, cút, côn, chân rẽ, bịt đầu, van gió. Tag, Dim, 3D, bóc khối lượng dùng được ngay.  ==>  EN: A duct drawing **exported from Revit** to DWG comes out fragmented (ducts are loose LINEs, every fitting is its own Revit block) → **redraws** it exactly like the HTS duct command: ducts split into standard segments, elbows, reducers, takeoffs, end caps, dampers. Tag, Dim, 3D and quantity takeoff work on the result right away.
+VI: Bấm nút → **quét chọn** vùng **mặt bằng** ống gió Revit (ống, phụ kiện, nhãn) → **Enter**. Chọn lẫn mặt cắt / ALL cũng được: phần tử thuộc mặt cắt / mặt đứng tự bỏ qua.  ==>  EN: Click the button → **window-select** the Revit duct **plan** area (ducts, fittings, tags) → **Enter**. Including sections / ALL is fine: elements belonging to sections / elevations are skipped automatically.
+VI: ); block nằm trên **layer ống Revit** của từng tuyến. Giữ nguyên block Revit: miệng gió, thiết bị, ống mềm, khớp nối mềm, ống đứng. Bản vẽ phải là DWG xuất thẳng từ Revit (còn XData REVIT, chưa explode).  ==>  EN: Height H, the system prefix (SAD / RAD / EAD…) and the **bottom elevation** come from the Revit tags (\
+VI: Ghi kích thước ống gió  ==>  EN: Dimension ducts
+VI: Phụ kiện đổi tại chỗ (cút vát / cút bo / cút lên-xuống / Z / bịt đầu): {0}.  ==>  EN: Fittings changed in place (mitred / arc elbows, risers, Z, end caps): {0}.
+VI: Phụ kiện đổi tại chỗ (Tê, chữ thập, cút, côn, Z, bịt đầu, cút lên-xuống): {0}.  ==>  EN: Fittings resized in place (tees, crosses, elbows, reducers, Z, end caps, risers): {0}.
+VI: Chọn một đốt ống gió thẳng → bấm điểm A → rê xem trước → bấm B. Đoạn chạy dọc cả chuỗi đốt thẳng nối liền (dừng ở phụ kiện); Enter ở bước A = tiêu âm cả đoạn ống. Đoạn chồng tiêu âm cũ được gộp. Chọn PHỤ KIỆN (cút, côn, tê, chân rẽ…) = tiêu âm cả phụ kiện; chọn lại đúng kiểu đang đặt = gỡ. Lệnh: HTS_TIEUAMOG  ==>  EN: Pick a straight duct segment → click point A → drag to preview → click B. The run follows the whole chain of connected straight segments (stops at fittings); Enter at step A = line the whole duct run. Overlapping old lining is merged. Pick a FITTING (elbow, reducer, tee, take-off…) = line the whole fitting; picking it again with the current style = remove. Command: HTS_TIEUAMOG
+VI: \n[Tiêu âm] Chọn đốt ống gió thẳng (đoạn A–B) hoặc PHỤ KIỆN ống gió (cả phụ kiện) <xong>:   ==>  EN: \n[Acoustic lining] Pick a straight duct segment (A–B run) or a duct FITTING (whole fitting) <done>: 
+VI: côn thu  ==>  EN: reducer
+VI: {0} tại {1}: đã đặt phụ kiện theo ống to nhưng chưa đặt được côn thu về ống nhỏ (ống ngắn / thiếu block) — cần sửa tay.  ==>  EN: {0} at {1}: the fitting was placed for the larger pipe but the reducer to the smaller pipe could not be placed (short pipe / missing block) — fix manually.
+VI: Tại {0} tuyến {1} nối thẳng ống khác cỡ, không có côn — chạy Quét thêm phụ kiện (QUETPK) hoặc sửa tay.  ==>  EN: At {0}, run {1} joins a duct of another size with no reducer — run Add fittings (QUETPK) or fix by hand.
+VI: Không đọc được ống gió:  ==>  EN: Could not read the ducts:
+VI: [HTS] Vùng chọn không có ống gió nào vẽ bằng HTS (block ống thẳng, cút, Z, côn, chân rẽ…).  ==>  EN: [HTS] The selection has no ducts drawn with HTS (straight, elbow, offset, reducer, takeoff blocks…).
+VI: Đã cập nhật tag ống gió theo kích thước mới.  ==>  EN: Duct tags updated to the new sizes.
+VI: Chưa cập nhật được tag ống gió:  ==>  EN: Could not update the duct tags:
+VI: Khối 3D ống gió (OG3D / COMBINE 3D) không tự đổi theo — chạy lại nếu cần.  ==>  EN: 3D duct solids (OG3D / COMBINE 3D) are not updated automatically — run them again if needed.
+VI: Quét chọn vùng ống gió (Enter = cả bản vẽ):  ==>  EN: Select the duct area (Enter = whole drawing):
+VI: chân rẽ dời theo ống chính {0}  ==>  EN: takeoffs moved with the main duct {0}
+VI: Không có chỗ nào cần xem — ống, cút, côn và chân rẽ hai đầu đều theo được cỡ mới.  ==>  EN: Nothing to review — ducts, elbows, reducers and takeoffs at both ends follow the new size.
+VI: Thay đổi kích thước ống gió  ==>  EN: Change duct size
+VI: Đổi kích thước các tuyến ống gió trên bản vẽ đúng như mô phỏng (một lần Ctrl+Z hoàn tác)  ==>  EN: Resize the duct runs in the drawing exactly as simulated (one Ctrl+Z undoes it)
+VI: Quét tuyến, sửa W × H trên mô phỏng; cút, côn, chân rẽ theo  ==>  EN: Scan runs, edit W × H on the simulation; elbows, reducers, takeoffs follow
+VI: Quét tuyến, sửa W × H trên mô phỏng; cút, côn, chân rẽ tự theo  ==>  EN: Scan runs, edit W × H on the simulation; elbows, reducers, takeoffs follow automatically
+VI: Đổi cỡ **W × H** (ống tròn: **Ø**) cho cả tuyến ống gió đã vẽ trên **cửa sổ mô phỏng** — cút, côn, chân rẽ và ống nối vào **tự theo cỡ mới**, rồi Áp dụng một lần. Giống THAY ĐỔI KÍCH THƯỚC thang máng của tab Điện.  ==>  EN: Change the size **W × H** (round: **Ø**) of whole drawn duct runs on a **simulation window** — elbows, reducers, takeoffs and connected ducts **follow the new size**, then Apply once. Like CHANGE SIZE for cable trays on the Electrical tab.
+VI: **Quét chọn** vùng ống gió (Enter = cả bản vẽ). Lệnh gom thành **tuyến**: chuỗi ống thẳng, cút, Z, bịt đầu **cùng cỡ** (dừng ở côn, Tê, van…). Chân rẽ thuộc tuyến nhánh.  ==>  EN: **Select** the duct area (Enter = whole drawing). The command groups it into **runs**: chains of straight ducts, elbows, offsets and end caps of the **same size** (stopping at reducers, tees, dampers…). A takeoff belongs to its branch run.
+VI: Bấm **Áp dụng**: bản vẽ đổi đúng như mô phỏng, một lần **Ctrl+Z** hoàn tác. Tag ống gió và tiêu âm / bảo ôn cập nhật theo cỡ mới.  ==>  EN: Click **Apply**: the drawing changes exactly as simulated; one **Ctrl+Z** undoes it. Duct tags and acoustic lining / insulation follow the new size.
+VI: Đối tượng chọn không phải ống gió thẳng.  ==>  EN: The selected object is not a straight duct.
+VI: Không có ống gió nào để dời.  ==>  EN: There is no duct to move.
+VI: {0} tag ống gió đi theo  ==>  EN: {0} duct tag(s) followed
+VI: Kéo ống thẳng: dời song song cả tuyến thẳng (cút, chân rẽ trượt theo, ống nối vào tự co giãn) · Kéo phụ kiện: dời phụ kiện · Bấm ống / phụ kiện: chọn tuyến (Ctrl: chọn thêm) · Mũi tên: dời tuyến đang chọn một bước · Ctrl+Z / Ctrl+Y: hoàn tác / làm lại · Lăn chuột: phóng to · Chuột giữa / phải hoặc kéo nền: di chuyển  ==>  EN: Drag a straight duct: move the whole straight run sideways (elbows and taps slide along, connected ducts stretch) · Drag a fitting: move the fitting · Click a duct / fitting: select its run (Ctrl: add) · Arrow keys: move the selected runs one step · Ctrl+Z / Ctrl+Y: undo / redo · Mouse wheel: zoom · Middle / right drag or drag the background: pan
+VI: Đổi cỡ **W × H** (ống tròn: **Ø**) và **kéo dời tuyến** ống gió đã vẽ trên **cửa sổ mô phỏng** — cút, côn, chân rẽ và ống nối vào **tự theo**, rồi Áp dụng một lần. Giống THAY ĐỔI KÍCH THƯỚC thang máng (tab Điện) và CHỈNH SỬA TUYẾN ỐNG (tab Cấp thoát nước).  ==>  EN: Change the **W × H** size (round duct: **Ø**) and **drag to move runs** of drawn ducts on the **simulation window** — elbows, reducers, takeoffs and connected ducts **follow automatically**, then Apply once. Like CHANGE SIZE for cable trays (Electrical tab) and EDIT PIPE RUN (Plumbing tab).
+VI: **Kéo ống thẳng** trên hình để dời song song cả tuyến thẳng (làm tròn theo ô **Bước**): cút trượt dọc nhánh kia, chân rẽ trượt theo, ống nối vào tự co giãn (dài quá đốt chuẩn thì tự chia đốt, co hết thì xoá). **Kéo phụ kiện** để dời phụ kiện; chọn tuyến rồi bấm **phím mũi tên** để dời một bước. **Ctrl+Z / Ctrl+Y** hoàn tác / làm lại; vị trí cũ hiện **nét đứt**.  ==>  EN: **Drag a straight duct** on the preview to move the whole straight run sideways (rounded to the **Step** box): elbows slide along the other branch, takeoffs slide along, connected ducts stretch (split into standard segments when too long, removed when fully shrunk). **Drag a fitting** to move it; select runs and press the **arrow keys** to move one step. **Ctrl+Z / Ctrl+Y** undo / redo; old positions show as **dashed lines**.
+VI: Dựng **Solid 3D** cho ống gió vẽ bằng HTS (ống thẳng, cút, tê, côn, chuyển vuông–tròn, chân rẽ, Z, van gió, ống mềm, miệng gió) theo **cao độ đáy** gán khi vẽ; mô hình đặt **riêng cạnh mặt bằng** tại điểm chọn (như 3D CTN, PCCC), không chồng lên bản vẽ 2D. Xong mở thẳng **HCAD** xem / xoay / chốt góc.  ==>  EN: Builds **3D solids** for HTS ducts (straight, elbows, tees, reducers, square–round transitions, take-offs, Z, dampers, flex ducts, diffusers) at the **bottom elevation** set while drawing; the model is placed **separately next to the plan** at a picked point (like CTN / fire 3D), not on top of the 2D drawing. Then **HCAD** opens directly to view / rotate / lock the view angle.
+VI: Bấm **3D ỐNG GIÓ** → quét chọn ống gió (Enter = cả bản vẽ, kể cả ống mềm); ống chưa gán cao độ khi vẽ thì nhập **cao độ đáy**.  ==>  EN: Click **3D DUCT** → select ducts (Enter = whole drawing, flex ducts included); for ducts drawn without an elevation, enter the **bottom elevation**.
+VI: Điểm đặt mô hình 3D ống gió (góc dưới trái vùng chọn đặt tại đây; Enter = chỗ cũ)  ==>  EN: 3D duct model insertion point (lower-left corner of the selection goes here; Enter = previous place)
+VI: Điểm đặt mô hình 3D ống gió (góc dưới trái vùng chọn đặt tại đây)  ==>  EN: 3D duct model insertion point (lower-left corner of the selection goes here)
+VI: \nChọn chạc quần ống gió cần sửa:   ==>  EN: \nSelect the duct breeches to edit: 
+VI: \n[HTS] Block đã chọn không phải chạc quần ống gió (tên …-YQ-…).  ==>  EN: \n[HTS] The selected block is not a duct breeches (name …-YQ-…).
+VI: \n[HTS] Đã sửa {0} chạc quần → {1}. Chạy lại 3D ống gió (OG3D) để dựng lại khối.  ==>  EN: \n[HTS] Edited {0} breeches → {1}. Run duct 3D (OG3D) again to rebuild the solids.
+VI: \nĐiểm đặt (tâm miệng VÀO của chạc quần):   ==>  EN: \nInsertion point (centre of the breeches INLET): 
+VI: \n[HTS] Đã chèn chạc quần {0}{1}.  ==>  EN: \n[HTS] Inserted breeches {0}{1}.
+VI: Chạc quần ống gió (Y chia đôi)  ==>  EN: Duct breeches (Y split)
+VI: Miệng vào (1) ở trên, gió đi xuống; nhánh W2 bên trái, W3 bên phải. Ô nhỏ cạnh mỗi miệng là tiết diện (vuông W×H / tròn D). Các miệng đồng tâm theo chiều đứng như côn ống gió HTS. Sau khi bấm VẼ: chọn tâm miệng vào rồi hướng gió.  ==>  EN: Inlet (1) at the top, air flows down; leg W2 on the left, W3 on the right. The small box next to each opening is its section (rectangular W×H / round D). Openings are vertically concentric like HTS duct reducers. After DRAW: pick the inlet centre, then the flow direction.
+VI: Chạc quần ống gió (Y)  ==>  EN: Duct breeches (Y)
+VI: Phụ kiện **chạc quần** (Breeches / Pant-leg wye): 1 miệng vào chia thành **2 nhánh** cạnh nhau, mỗi miệng chọn **vuông W×H** hoặc **tròn D**. Có hình mặt bằng xem trước đổi ngay theo số.  ==>  EN: **Breeches** fitting (pant-leg wye): one inlet splits into **2 legs** side by side, each opening **rectangular W×H** or **round D**. The plan preview updates as you type.
+VI: Sửa: chọn sẵn block chạc quần rồi bấm nút, hoặc bấm **SỬA BLOCK CÓ SẴN** trong cửa sổ.  ==>  EN: Edit: pre-select breeches blocks then click the button, or use **EDIT EXISTING BLOCK** in the window.
+VI: Kích thước nằm trong tên block (…-YQ-…) nên **3D ống gió (OG3D)**, COMBINE 3D và HCAD tự nhận: khối loft thật vuông ⇄ tròn, các miệng đồng tâm theo chiều đứng, cao độ đáy lấy theo ô CAO ĐỘ ĐÁY ống gió đang bật.  ==>  EN: All sizes are encoded in the block name (…-YQ-…), so **duct 3D (OG3D)**, COMBINE 3D and HCAD pick it up: a true lofted solid rectangular ⇄ round, vertically concentric openings, bottom elevation from the active DUCT BOTTOM ELEVATION box.

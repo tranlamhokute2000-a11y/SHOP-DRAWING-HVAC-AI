@@ -1,0 +1,516 @@
+﻿{
+    "ui_hvac":  {
+                    "tool":  "ui_feature_list",
+                    "success":  true,
+                    "content":  "{\"tong\":192,\"theoHe\":{\"water\":26,\"fire\":23,\"hvac\":31,\"electric\":44,\"phoihop\":10,\"util\":43,\"v1\":15},\"coToolRieng\":70,\"khop\":31,\"muc\":[{\"id\":\"hvac-duct\",\"he\":\"hvac\",\"ten\":\"Vẽ ống gió\",\"moTa\":\"Auto vẽ ống gió vuông theo thông số trên thanh (TDC / Nẹp C)\",\"kieu\":\"bang\",\"tool\":[\"draw_rectangular_duct\"]},{\"id\":\"hvac-round\",\"he\":\"hvac\",\"ten\":\"Vẽ ống gió tròn\",\"moTa\":\"Auto vẽ ống gió tròn theo Ø trên thanh\",\"kieu\":\"bang\",\"tool\":[\"draw_round_duct\"]},{\"id\":\"hvac-flex-supply\",\"he\":\"hvac\",\"ten\":\"Ống mềm cấp NMC1\",\"moTa\":\"Bịt tròn hai đầu\",\"kieu\":\"bang\"},{\"id\":\"hvac-flex-c2\",\"he\":\"hvac\",\"ten\":\"Ống mềm cấp NMC2\",\"moTa\":\"Đầu cuối cắt phẳng\",\"kieu\":\"bang\"},{\"id\":\"hvac-flex-c3\",\"he\":\"hvac\",\"ten\":\"Ống mềm cấp NMC3\",\"moTa\":\"Đầu đầu bo tròn kín\",\"kieu\":\"bang\"},{\"id\":\"hvac-flex-return\",\"he\":\"hvac\",\"ten\":\"Ống mềm hồi NMH1\",\"moTa\":\"Bịt tròn hai đầu\",\"kieu\":\"bang\"},{\"id\":\"hvac-flex-h2\",\"he\":\"hvac\",\"ten\":\"Ống mềm hồi NMH2\",\"moTa\":\"Đầu cuối cắt phẳng\",\"kieu\":\"bang\"},{\"id\":\"hvac-flex-h3\",\"he\":\"hvac\",\"ten\":\"Ống mềm hồi NMH3\",\"moTa\":\"Đầu đầu bo tròn kín\",\"kieu\":\"bang\"},{\"id\":\"hvac-cap\",\"he\":\"hvac\",\"ten\":\"Chọn ống bịt đầu\",\"moTa\":\"Chuyển ống thẳng thành đầu bịt\",\"kieu\":\"lenh\",\"lenh\":\"_HG2M8Q7X\"},{\"id\":\"hvac-breeches\",\"he\":\"hvac\",\"ten\":\"Chạc quần ống gió (Y)\",\"moTa\":\"Y chia đôi vuông / tròn — nhập thông số có xem trước\",\"kieu\":\"lenh\",\"lenh\":\"HTSYQOG\",\"tool\":[\"duct_breeches_insert\"]},{\"id\":\"hvac-copper\",\"he\":\"hvac\",\"ten\":\"Vẽ ống đồng\",\"moTa\":\"Định tuyến ống đồng + tự lấy bộ chia ga + auto-fillet\",\"kieu\":\"lenh\",\"lenh\":\"NOD9X2K7M\"},{\"id\":\"hvac-ong-dong-moi\",\"he\":\"hvac\",\"ten\":\"Vẽ ống đồng theo Pline định hướng\",\"moTa\":\"Pline mồi → ống + bộ chia ga tự động\",\"kieu\":\"lenh\",\"lenh\":\"HTSONGDONGMOI\"},{\"id\":\"hvac-nuoc-ngung-moi\",\"he\":\"hvac\",\"ten\":\"Vẽ ống nước ngưng theo Pline định hướng\",\"moTa\":\"Nối Y, bẻ 45°, cỡ ống theo công suất\",\"kieu\":\"lenh\",\"lenh\":\"HTSNUOCNGUNGMOI\"},{\"id\":\"hvac-diem-noi-dong\",\"he\":\"hvac\",\"ten\":\"Điểm đấu nối ống đồng\",\"moTa\":\"POINT COPPER cho block dàn lạnh ngoài HTS\",\"kieu\":\"lenh\",\"lenh\":\"HTSDIEMNOIDONG\"},{\"id\":\"hvac-diem-noi-nuoc\",\"he\":\"hvac\",\"ten\":\"Điểm đấu nối ống nước ngưng\",\"moTa\":\"POINT DP cho block dàn lạnh ngoài HTS\",\"kieu\":\"lenh\",\"lenh\":\"HTSDIEMNOINUOC\"},{\"id\":\"hvac-detail\",\"he\":\"hvac\",\"ten\":\"Trích chi tiết\",\"moTa\":\"Đường cắt + hướng nhìn → mặt chiếu cạnh ống gió\",\"kieu\":\"lenh\",\"lenh\":\"TRCT\"},{\"id\":\"hvac-revit-convert\",\"he\":\"hvac\",\"ten\":\"Chuyển ống gió Revit → CAD\",\"moTa\":\"Bản Revit xuất DWG → ống + phụ kiện HTS\",\"kieu\":\"lenh\",\"lenh\":\"HTS_RVOG\"},{\"id\":\"hvac-fitting-scan\",\"he\":\"hvac\",\"ten\":\"Quét để thêm phụ kiện\",\"moTa\":\"Tự chèn cút / côn thu / chân rẽ vào chỗ ống chạm nhau\",\"kieu\":\"lenh\",\"lenh\":\"QUETPK\"},{\"id\":\"hvac-edit\",\"he\":\"hvac\",\"ten\":\"Điều chỉnh tuyến ống gió\",\"moTa\":\"Kéo tuyến, phụ kiện hoặc cụm; ống nối vào tự co giãn\",\"kieu\":\"lenh\",\"lenh\":\"HTS_DCTOG\"},{\"id\":\"hvac-resize\",\"he\":\"hvac\",\"ten\":\"Thay đổi kích thước ống gió\",\"moTa\":\"Quét tuyến, kéo dời tuyến và sửa W × H trên mô phỏng; phụ kiện tự theo\",\"kieu\":\"lenh\",\"lenh\":\"HTSDOIKTOG\"},{\"id\":\"hvac-support\",\"he\":\"hvac\",\"ten\":\"Rải giá đỡ ống gió\",\"moTa\":\"Quét chọn để rải giá đỡ ống gió tự động\",\"kieu\":\"lenh\",\"lenh\":\"X8M2QK9A\"},{\"id\":\"hvac-insert-block\",\"he\":\"hvac\",\"ten\":\"Insert block\",\"moTa\":\"Chèn van gió / khớp nối mềm HVAC\",\"kieu\":\"bang\",\"tool\":[\"library_catalog\",\"library_insert_block\"]},{\"id\":\"hvac-build-3d\",\"he\":\"hvac\",\"ten\":\"3D ống gió\",\"moTa\":\"Dựng Solid ống gió + xem HCAD\",\"kieu\":\"lenh\",\"lenh\":\"OG3D\",\"tool\":[\"mep_build_3d_all\",\"duct_set_elevation\"]},{\"id\":\"hvac-rotate-3d\",\"he\":\"hvac\",\"ten\":\"Xoay 3D → Block mặt bằng\",\"moTa\":\"Xoay góc nhìn bằng HCAD, gom thành Block\",\"kieu\":\"lenh\",\"lenh\":\"OG3DHCAD\"},{\"id\":\"hvac-viewport-3d\",\"he\":\"hvac\",\"ten\":\"Viewport 3D\",\"moTa\":\"Đặt khung nhìn 3D ống gió vào Layout\",\"kieu\":\"lenh\",\"lenh\":\"OG3DVP\"},{\"id\":\"hvac-acoustic\",\"he\":\"hvac\",\"ten\":\"Tiêu âm ống gió\",\"moTa\":\"Đoạn A–B dọc ống thẳng · chọn phụ kiện = cả phụ kiện\",\"kieu\":\"bang\"},{\"id\":\"hvac-insulation\",\"he\":\"hvac\",\"ten\":\"Bảo ôn ống gió\",\"moTa\":\"Quét chọn ống + phụ kiện · chọn lại = gỡ\",\"kieu\":\"bang\"},{\"id\":\"hvac-insul-update\",\"he\":\"hvac\",\"ten\":\"Cập nhật theo ống\",\"moTa\":\"Dựng lại hatch sau khi dời / copy / kéo ống\",\"kieu\":\"bang\"},{\"id\":\"hvac-insul-stats\",\"he\":\"hvac\",\"ten\":\"Thống kê tiêu âm / bảo ôn\",\"moTa\":\"m² theo loại, độ dày, quy cách → bảng\",\"kieu\":\"bang\"},{\"id\":\"hvac-smart-tag\",\"he\":\"hvac\",\"ten\":\"Smart Tag\",\"moTa\":\"Gắn nhãn thông tin ống gió / Block HVAC\",\"kieu\":\"bang\"},{\"id\":\"hvac-tag\",\"he\":\"hvac\",\"ten\":\"Tag ống gió\",\"moTa\":\"Tên hệ, kích thước R × C / Ø, cao độ + mũi tên leader\",\"kieu\":\"lenh\",\"lenh\":\"HTS_TAGOG\"}]}",
+                    "data":  {
+                                 "tong":  192,
+                                 "theoHe":  {
+                                                "water":  26,
+                                                "fire":  23,
+                                                "hvac":  31,
+                                                "electric":  44,
+                                                "phoihop":  10,
+                                                "util":  43,
+                                                "v1":  15
+                                            },
+                                 "coToolRieng":  70,
+                                 "khop":  31,
+                                 "muc":  [
+                                             {
+                                                 "id":  "hvac-duct",
+                                                 "he":  "hvac",
+                                                 "ten":  "Vẽ ống gió",
+                                                 "moTa":  "Auto vẽ ống gió vuông theo thông số trên thanh (TDC / Nẹp C)",
+                                                 "kieu":  "bang",
+                                                 "tool":  [
+                                                              "draw_rectangular_duct"
+                                                          ]
+                                             },
+                                             {
+                                                 "id":  "hvac-round",
+                                                 "he":  "hvac",
+                                                 "ten":  "Vẽ ống gió tròn",
+                                                 "moTa":  "Auto vẽ ống gió tròn theo Ø trên thanh",
+                                                 "kieu":  "bang",
+                                                 "tool":  [
+                                                              "draw_round_duct"
+                                                          ]
+                                             },
+                                             {
+                                                 "id":  "hvac-flex-supply",
+                                                 "he":  "hvac",
+                                                 "ten":  "Ống mềm cấp NMC1",
+                                                 "moTa":  "Bịt tròn hai đầu",
+                                                 "kieu":  "bang"
+                                             },
+                                             {
+                                                 "id":  "hvac-flex-c2",
+                                                 "he":  "hvac",
+                                                 "ten":  "Ống mềm cấp NMC2",
+                                                 "moTa":  "Đầu cuối cắt phẳng",
+                                                 "kieu":  "bang"
+                                             },
+                                             {
+                                                 "id":  "hvac-flex-c3",
+                                                 "he":  "hvac",
+                                                 "ten":  "Ống mềm cấp NMC3",
+                                                 "moTa":  "Đầu đầu bo tròn kín",
+                                                 "kieu":  "bang"
+                                             },
+                                             {
+                                                 "id":  "hvac-flex-return",
+                                                 "he":  "hvac",
+                                                 "ten":  "Ống mềm hồi NMH1",
+                                                 "moTa":  "Bịt tròn hai đầu",
+                                                 "kieu":  "bang"
+                                             },
+                                             {
+                                                 "id":  "hvac-flex-h2",
+                                                 "he":  "hvac",
+                                                 "ten":  "Ống mềm hồi NMH2",
+                                                 "moTa":  "Đầu cuối cắt phẳng",
+                                                 "kieu":  "bang"
+                                             },
+                                             {
+                                                 "id":  "hvac-flex-h3",
+                                                 "he":  "hvac",
+                                                 "ten":  "Ống mềm hồi NMH3",
+                                                 "moTa":  "Đầu đầu bo tròn kín",
+                                                 "kieu":  "bang"
+                                             },
+                                             {
+                                                 "id":  "hvac-cap",
+                                                 "he":  "hvac",
+                                                 "ten":  "Chọn ống bịt đầu",
+                                                 "moTa":  "Chuyển ống thẳng thành đầu bịt",
+                                                 "kieu":  "lenh",
+                                                 "lenh":  "_HG2M8Q7X"
+                                             },
+                                             {
+                                                 "id":  "hvac-breeches",
+                                                 "he":  "hvac",
+                                                 "ten":  "Chạc quần ống gió (Y)",
+                                                 "moTa":  "Y chia đôi vuông / tròn — nhập thông số có xem trước",
+                                                 "kieu":  "lenh",
+                                                 "lenh":  "HTSYQOG",
+                                                 "tool":  [
+                                                              "duct_breeches_insert"
+                                                          ]
+                                             },
+                                             {
+                                                 "id":  "hvac-copper",
+                                                 "he":  "hvac",
+                                                 "ten":  "Vẽ ống đồng",
+                                                 "moTa":  "Định tuyến ống đồng + tự lấy bộ chia ga + auto-fillet",
+                                                 "kieu":  "lenh",
+                                                 "lenh":  "NOD9X2K7M"
+                                             },
+                                             {
+                                                 "id":  "hvac-ong-dong-moi",
+                                                 "he":  "hvac",
+                                                 "ten":  "Vẽ ống đồng theo Pline định hướng",
+                                                 "moTa":  "Pline mồi → ống + bộ chia ga tự động",
+                                                 "kieu":  "lenh",
+                                                 "lenh":  "HTSONGDONGMOI"
+                                             },
+                                             {
+                                                 "id":  "hvac-nuoc-ngung-moi",
+                                                 "he":  "hvac",
+                                                 "ten":  "Vẽ ống nước ngưng theo Pline định hướng",
+                                                 "moTa":  "Nối Y, bẻ 45°, cỡ ống theo công suất",
+                                                 "kieu":  "lenh",
+                                                 "lenh":  "HTSNUOCNGUNGMOI"
+                                             },
+                                             {
+                                                 "id":  "hvac-diem-noi-dong",
+                                                 "he":  "hvac",
+                                                 "ten":  "Điểm đấu nối ống đồng",
+                                                 "moTa":  "POINT COPPER cho block dàn lạnh ngoài HTS",
+                                                 "kieu":  "lenh",
+                                                 "lenh":  "HTSDIEMNOIDONG"
+                                             },
+                                             {
+                                                 "id":  "hvac-diem-noi-nuoc",
+                                                 "he":  "hvac",
+                                                 "ten":  "Điểm đấu nối ống nước ngưng",
+                                                 "moTa":  "POINT DP cho block dàn lạnh ngoài HTS",
+                                                 "kieu":  "lenh",
+                                                 "lenh":  "HTSDIEMNOINUOC"
+                                             },
+                                             {
+                                                 "id":  "hvac-detail",
+                                                 "he":  "hvac",
+                                                 "ten":  "Trích chi tiết",
+                                                 "moTa":  "Đường cắt + hướng nhìn → mặt chiếu cạnh ống gió",
+                                                 "kieu":  "lenh",
+                                                 "lenh":  "TRCT"
+                                             },
+                                             {
+                                                 "id":  "hvac-revit-convert",
+                                                 "he":  "hvac",
+                                                 "ten":  "Chuyển ống gió Revit → CAD",
+                                                 "moTa":  "Bản Revit xuất DWG → ống + phụ kiện HTS",
+                                                 "kieu":  "lenh",
+                                                 "lenh":  "HTS_RVOG"
+                                             },
+                                             {
+                                                 "id":  "hvac-fitting-scan",
+                                                 "he":  "hvac",
+                                                 "ten":  "Quét để thêm phụ kiện",
+                                                 "moTa":  "Tự chèn cút / côn thu / chân rẽ vào chỗ ống chạm nhau",
+                                                 "kieu":  "lenh",
+                                                 "lenh":  "QUETPK"
+                                             },
+                                             {
+                                                 "id":  "hvac-edit",
+                                                 "he":  "hvac",
+                                                 "ten":  "Điều chỉnh tuyến ống gió",
+                                                 "moTa":  "Kéo tuyến, phụ kiện hoặc cụm; ống nối vào tự co giãn",
+                                                 "kieu":  "lenh",
+                                                 "lenh":  "HTS_DCTOG"
+                                             },
+                                             {
+                                                 "id":  "hvac-resize",
+                                                 "he":  "hvac",
+                                                 "ten":  "Thay đổi kích thước ống gió",
+                                                 "moTa":  "Quét tuyến, kéo dời tuyến và sửa W × H trên mô phỏng; phụ kiện tự theo",
+                                                 "kieu":  "lenh",
+                                                 "lenh":  "HTSDOIKTOG"
+                                             },
+                                             {
+                                                 "id":  "hvac-support",
+                                                 "he":  "hvac",
+                                                 "ten":  "Rải giá đỡ ống gió",
+                                                 "moTa":  "Quét chọn để rải giá đỡ ống gió tự động",
+                                                 "kieu":  "lenh",
+                                                 "lenh":  "X8M2QK9A"
+                                             },
+                                             {
+                                                 "id":  "hvac-insert-block",
+                                                 "he":  "hvac",
+                                                 "ten":  "Insert block",
+                                                 "moTa":  "Chèn van gió / khớp nối mềm HVAC",
+                                                 "kieu":  "bang",
+                                                 "tool":  [
+                                                              "library_catalog",
+                                                              "library_insert_block"
+                                                          ]
+                                             },
+                                             {
+                                                 "id":  "hvac-build-3d",
+                                                 "he":  "hvac",
+                                                 "ten":  "3D ống gió",
+                                                 "moTa":  "Dựng Solid ống gió + xem HCAD",
+                                                 "kieu":  "lenh",
+                                                 "lenh":  "OG3D",
+                                                 "tool":  [
+                                                              "mep_build_3d_all",
+                                                              "duct_set_elevation"
+                                                          ]
+                                             },
+                                             {
+                                                 "id":  "hvac-rotate-3d",
+                                                 "he":  "hvac",
+                                                 "ten":  "Xoay 3D → Block mặt bằng",
+                                                 "moTa":  "Xoay góc nhìn bằng HCAD, gom thành Block",
+                                                 "kieu":  "lenh",
+                                                 "lenh":  "OG3DHCAD"
+                                             },
+                                             {
+                                                 "id":  "hvac-viewport-3d",
+                                                 "he":  "hvac",
+                                                 "ten":  "Viewport 3D",
+                                                 "moTa":  "Đặt khung nhìn 3D ống gió vào Layout",
+                                                 "kieu":  "lenh",
+                                                 "lenh":  "OG3DVP"
+                                             },
+                                             {
+                                                 "id":  "hvac-acoustic",
+                                                 "he":  "hvac",
+                                                 "ten":  "Tiêu âm ống gió",
+                                                 "moTa":  "Đoạn A–B dọc ống thẳng · chọn phụ kiện = cả phụ kiện",
+                                                 "kieu":  "bang"
+                                             },
+                                             {
+                                                 "id":  "hvac-insulation",
+                                                 "he":  "hvac",
+                                                 "ten":  "Bảo ôn ống gió",
+                                                 "moTa":  "Quét chọn ống + phụ kiện · chọn lại = gỡ",
+                                                 "kieu":  "bang"
+                                             },
+                                             {
+                                                 "id":  "hvac-insul-update",
+                                                 "he":  "hvac",
+                                                 "ten":  "Cập nhật theo ống",
+                                                 "moTa":  "Dựng lại hatch sau khi dời / copy / kéo ống",
+                                                 "kieu":  "bang"
+                                             },
+                                             {
+                                                 "id":  "hvac-insul-stats",
+                                                 "he":  "hvac",
+                                                 "ten":  "Thống kê tiêu âm / bảo ôn",
+                                                 "moTa":  "m² theo loại, độ dày, quy cách → bảng",
+                                                 "kieu":  "bang"
+                                             },
+                                             {
+                                                 "id":  "hvac-smart-tag",
+                                                 "he":  "hvac",
+                                                 "ten":  "Smart Tag",
+                                                 "moTa":  "Gắn nhãn thông tin ống gió / Block HVAC",
+                                                 "kieu":  "bang"
+                                             },
+                                             {
+                                                 "id":  "hvac-tag",
+                                                 "he":  "hvac",
+                                                 "ten":  "Tag ống gió",
+                                                 "moTa":  "Tên hệ, kích thước R × C / Ø, cao độ + mũi tên leader",
+                                                 "kieu":  "lenh",
+                                                 "lenh":  "HTS_TAGOG"
+                                             }
+                                         ]
+                             }
+                },
+    "lib_hvac_files":  [
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Phụ kiện\\HTS-BOCHIAGA.dwg",
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Phụ kiện\\HTS_Khop noi mem tron.dwg",
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Phụ kiện\\HTS_Khop noi mem vuong.dwg",
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Phụ kiện\\HTS_Mieng gio khuyech tan 4 huong.dwg",
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Phụ kiện\\HTS_Mieng gio khuyech tan tron.dwg",
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Phụ kiện\\HTS_Mieng gio louver.dwg",
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Phụ kiện\\HTS_Mieng gio nan don.dwg",
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Phụ kiện\\HTS_Mieng gio sot trung.dwg",
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Phụ kiện\\HTS_Van chan lua dieu khien bang motor MFD.dwg",
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Phụ kiện\\HTS_Van chan lua FD.dwg",
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Phụ kiện\\HTS_Van gio mot chieu RND.dwg",
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Phụ kiện\\HTS_Van gio tron dieu chinh gio bang motor MD.dwg",
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Phụ kiện\\HTS_Van gio tron VCD.dwg",
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Phụ kiện\\HTS_Van gio vuong dieu chinh gio bang motor MD.dwg",
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Phụ kiện\\HTS_Van gio vuong VCD.dwg",
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Thiết bị\\HTS_Mieng gio khuyech tan 4 huong.dwg",
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Thiết bị\\HTS_Mieng gio khuyech tan tron.dwg",
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Thiết bị\\HTS_Mieng gio louver.dwg",
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Thiết bị\\HTS_Mieng gio nan don.dwg",
+                           "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\Library\\HVAC\\Thiết bị\\HTS_Mieng gio sot trung.dwg"
+                       ],
+    "ui_v1":  {
+                  "tool":  "ui_feature_list",
+                  "success":  true,
+                  "content":  "{\"tong\":192,\"theoHe\":{\"water\":26,\"fire\":23,\"hvac\":31,\"electric\":44,\"phoihop\":10,\"util\":43,\"v1\":15},\"coToolRieng\":70,\"khop\":15,\"muc\":[{\"id\":\"v1:HTSCBCTN\",\"he\":\"v1\",\"ten\":\"Kiểm tra va chạm ống nước - dầm\",\"moTa\":\"Tìm chỗ ống cấp thoát nước (Mline) đi xuyên dầm, chạm dầm hoặc sát đáy dầm, đánh dấu trên bản vẽ và đề xuất hạ cao độ tim ống.\",\"kieu\":\"lenh\",\"lenh\":\"HTSCBCTN\"},{\"id\":\"v1:HTSCBDIEN\",\"he\":\"v1\",\"ten\":\"Combine chiếu sáng / ổ cắm - kết cấu\",\"moTa\":\"Ống điện cắt qua dầm (PLine dầm b×h) → tự bẻ vai bò đi sát đáy dầm, rồi dựng VIEW 3D kèm khối dầm.\",\"kieu\":\"lenh\",\"lenh\":\"HTSCBDIEN\"},{\"id\":\"v1:VD\",\"he\":\"v1\",\"ten\":\"Vẽ PLine dầm (tim dầm)\",\"moTa\":\"Vẽ Polyline TIM dầm theo chiều rộng b × chiều cao h đang nhập — lưu b×h vào dầm (XData `HTS_DAM`), layer HTS-KC-DAM màu đỏ.\",\"kieu\":\"lenh\",\"lenh\":\"VD\",\"tool\":[\"struct_draw_beam\"]},{\"id\":\"v1:VT\",\"he\":\"v1\",\"ten\":\"Vẽ tường (2 nét bo 2 đầu)\",\"moTa\":\"Vẽ tường dạng 2 nét song song BO KÍN 2 đầu theo độ dày t — layer HTS-KC-TUONG màu 8, lưu t × chiều cao H vào tường (XData `HTS_TUONG`).\",\"kieu\":\"lenh\",\"lenh\":\"VT\",\"tool\":[\"struct_draw_wall\"]},{\"id\":\"v1:HTSBOTRAN\",\"he\":\"v1\",\"ten\":\"Bo chiều cao trần (trần thô / trần giả)\",\"moTa\":\"Bo một khu vực bằng PLine kín và gán cao độ trần thô + cao độ trần giả + sàn dày (XData `HTS_TRAN`). Mọi cao độ COMBINE trong vùng theo vùng: đỉnh dầm = mặt sàn trên = trần thô + sàn dày; đỉnh tường, ống điện / cáp đi trần = trần thô; đèn = trần giả.\",\"kieu\":\"lenh\",\"lenh\":\"HTSBOTRAN\"},{\"id\":\"v1:NO\",\"he\":\"v1\",\"ten\":\"Nối nhanh 2 ống cách xa\",\"moTa\":\"Bấm đầu ống 1 rồi đầu ống 2 (hoặc thân ống chính) — tự kéo ống tới điểm giao và đặt phụ kiện theo cỡ + cao độ hai ống.\",\"kieu\":\"lenh\",\"lenh\":\"NO\"},{\"id\":\"v1:Q8K2M7A9\",\"he\":\"v1\",\"ten\":\"Đi ống cấp nguồn\",\"moTa\":\"Tự vẽ ống cấp nguồn cho ổ cắm: mỗi ổ một ống nhánh vuông góc mặt tường, tuyến chính từ tủ đi qua đầu các nhánh (chữ L bám tường, né nhánh).\",\"kieu\":\"lenh\",\"lenh\":\"Q8K2M7A9\"},{\"id\":\"v1:MCV2K9X7\",\"he\":\"v1\",\"ten\":\"Vẽ máng cáp (đục lỗ)\",\"moTa\":\"Vẽ tuyến máng cáp đục lỗ — block sinh bằng code theo đúng W×H đang đặt, tự chèn co / tê / côn thu tại điểm gãy.\",\"kieu\":\"lenh\",\"lenh\":\"MCV2K9X7\"},{\"id\":\"v1:TCV2Q8K3\",\"he\":\"v1\",\"ten\":\"Vẽ thang cáp\",\"moTa\":\"Như *VẼ MÁNG CÁP* nhưng sinh thang cáp có nan — thêm tham số bước nan.\",\"kieu\":\"lenh\",\"lenh\":\"TCV2Q8K3\"},{\"id\":\"v1:HTS_VEMC\",\"he\":\"v1\",\"ten\":\"Vẽ trunking (máng trơn)\",\"moTa\":\"Vẽ máng cáp trơn / trunking — cùng cách dùng với máng cáp đục lỗ, khác bộ block và tên.\",\"kieu\":\"lenh\",\"lenh\":\"HTS_VEMC\"},{\"id\":\"v1:HTSAI_ANHCHEN\",\"he\":\"v1\",\"ten\":\"Chèn ảnh AI vào bản vẽ\",\"moTa\":\"Chèn ảnh AI vẽ (hoặc tệp ảnh bất kỳ) vào bản vẽ, ảnh chép cạnh bản vẽ (thư mục AI-Anh), đường dẫn tương đối.\",\"kieu\":\"lenh\",\"lenh\":\"HTSAI_ANHCHEN\"},{\"id\":\"v1:HTSAI_VUNG\",\"he\":\"v1\",\"ten\":\"Chọn vùng làm việc cho AI\",\"moTa\":\"Khoanh một vùng của bản vẽ để AI chỉ đọc / vẽ trong vùng đó (gửi kèm mỗi lượt hỏi ở tab AI).\",\"kieu\":\"lenh\",\"lenh\":\"HTSAI_VUNG\"},{\"id\":\"v1:OMSP\",\"he\":\"v1\",\"ten\":\"Ống mềm nối sprinkler\",\"moTa\":\"Vẽ ống mềm nối từ ống nhánh xuống đầu phun — nếp ống như ống gió mềm HVAC, đầu cuối cắt phẳng.\",\"kieu\":\"lenh\",\"lenh\":\"OMSP\"},{\"id\":\"v1:HSB3D9X\",\"he\":\"v1\",\"ten\":\"Section Box 3D\",\"moTa\":\"Cô lập và cắt mô hình trong một hộp 3D kiểu Revit, có khung điều khiển màu cyan.\",\"kieu\":\"lenh\",\"lenh\":\"HSB3D9X\"},{\"id\":\"v1:CHML\",\"he\":\"v1\",\"ten\":\"Đổi Mline Style\",\"moTa\":\"Đổi style/bề rộng của các MLINE đã vẽ mà không phải vẽ lại tuyến.\",\"kieu\":\"lenh\",\"lenh\":\"CHML\"}]}",
+                  "data":  {
+                               "tong":  192,
+                               "theoHe":  {
+                                              "water":  26,
+                                              "fire":  23,
+                                              "hvac":  31,
+                                              "electric":  44,
+                                              "phoihop":  10,
+                                              "util":  43,
+                                              "v1":  15
+                                          },
+                               "coToolRieng":  70,
+                               "khop":  15,
+                               "muc":  [
+                                           {
+                                               "id":  "v1:HTSCBCTN",
+                                               "he":  "v1",
+                                               "ten":  "Kiểm tra va chạm ống nước - dầm",
+                                               "moTa":  "Tìm chỗ ống cấp thoát nước (Mline) đi xuyên dầm, chạm dầm hoặc sát đáy dầm, đánh dấu trên bản vẽ và đề xuất hạ cao độ tim ống.",
+                                               "kieu":  "lenh",
+                                               "lenh":  "HTSCBCTN"
+                                           },
+                                           {
+                                               "id":  "v1:HTSCBDIEN",
+                                               "he":  "v1",
+                                               "ten":  "Combine chiếu sáng / ổ cắm - kết cấu",
+                                               "moTa":  "Ống điện cắt qua dầm (PLine dầm b×h) → tự bẻ vai bò đi sát đáy dầm, rồi dựng VIEW 3D kèm khối dầm.",
+                                               "kieu":  "lenh",
+                                               "lenh":  "HTSCBDIEN"
+                                           },
+                                           {
+                                               "id":  "v1:VD",
+                                               "he":  "v1",
+                                               "ten":  "Vẽ PLine dầm (tim dầm)",
+                                               "moTa":  "Vẽ Polyline TIM dầm theo chiều rộng b × chiều cao h đang nhập — lưu b×h vào dầm (XData `HTS_DAM`), layer HTS-KC-DAM màu đỏ.",
+                                               "kieu":  "lenh",
+                                               "lenh":  "VD",
+                                               "tool":  [
+                                                            "struct_draw_beam"
+                                                        ]
+                                           },
+                                           {
+                                               "id":  "v1:VT",
+                                               "he":  "v1",
+                                               "ten":  "Vẽ tường (2 nét bo 2 đầu)",
+                                               "moTa":  "Vẽ tường dạng 2 nét song song BO KÍN 2 đầu theo độ dày t — layer HTS-KC-TUONG màu 8, lưu t × chiều cao H vào tường (XData `HTS_TUONG`).",
+                                               "kieu":  "lenh",
+                                               "lenh":  "VT",
+                                               "tool":  [
+                                                            "struct_draw_wall"
+                                                        ]
+                                           },
+                                           {
+                                               "id":  "v1:HTSBOTRAN",
+                                               "he":  "v1",
+                                               "ten":  "Bo chiều cao trần (trần thô / trần giả)",
+                                               "moTa":  "Bo một khu vực bằng PLine kín và gán cao độ trần thô + cao độ trần giả + sàn dày (XData `HTS_TRAN`). Mọi cao độ COMBINE trong vùng theo vùng: đỉnh dầm = mặt sàn trên = trần thô + sàn dày; đỉnh tường, ống điện / cáp đi trần = trần thô; đèn = trần giả.",
+                                               "kieu":  "lenh",
+                                               "lenh":  "HTSBOTRAN"
+                                           },
+                                           {
+                                               "id":  "v1:NO",
+                                               "he":  "v1",
+                                               "ten":  "Nối nhanh 2 ống cách xa",
+                                               "moTa":  "Bấm đầu ống 1 rồi đầu ống 2 (hoặc thân ống chính) — tự kéo ống tới điểm giao và đặt phụ kiện theo cỡ + cao độ hai ống.",
+                                               "kieu":  "lenh",
+                                               "lenh":  "NO"
+                                           },
+                                           {
+                                               "id":  "v1:Q8K2M7A9",
+                                               "he":  "v1",
+                                               "ten":  "Đi ống cấp nguồn",
+                                               "moTa":  "Tự vẽ ống cấp nguồn cho ổ cắm: mỗi ổ một ống nhánh vuông góc mặt tường, tuyến chính từ tủ đi qua đầu các nhánh (chữ L bám tường, né nhánh).",
+                                               "kieu":  "lenh",
+                                               "lenh":  "Q8K2M7A9"
+                                           },
+                                           {
+                                               "id":  "v1:MCV2K9X7",
+                                               "he":  "v1",
+                                               "ten":  "Vẽ máng cáp (đục lỗ)",
+                                               "moTa":  "Vẽ tuyến máng cáp đục lỗ — block sinh bằng code theo đúng W×H đang đặt, tự chèn co / tê / côn thu tại điểm gãy.",
+                                               "kieu":  "lenh",
+                                               "lenh":  "MCV2K9X7"
+                                           },
+                                           {
+                                               "id":  "v1:TCV2Q8K3",
+                                               "he":  "v1",
+                                               "ten":  "Vẽ thang cáp",
+                                               "moTa":  "Như *VẼ MÁNG CÁP* nhưng sinh thang cáp có nan — thêm tham số bước nan.",
+                                               "kieu":  "lenh",
+                                               "lenh":  "TCV2Q8K3"
+                                           },
+                                           {
+                                               "id":  "v1:HTS_VEMC",
+                                               "he":  "v1",
+                                               "ten":  "Vẽ trunking (máng trơn)",
+                                               "moTa":  "Vẽ máng cáp trơn / trunking — cùng cách dùng với máng cáp đục lỗ, khác bộ block và tên.",
+                                               "kieu":  "lenh",
+                                               "lenh":  "HTS_VEMC"
+                                           },
+                                           {
+                                               "id":  "v1:HTSAI_ANHCHEN",
+                                               "he":  "v1",
+                                               "ten":  "Chèn ảnh AI vào bản vẽ",
+                                               "moTa":  "Chèn ảnh AI vẽ (hoặc tệp ảnh bất kỳ) vào bản vẽ, ảnh chép cạnh bản vẽ (thư mục AI-Anh), đường dẫn tương đối.",
+                                               "kieu":  "lenh",
+                                               "lenh":  "HTSAI_ANHCHEN"
+                                           },
+                                           {
+                                               "id":  "v1:HTSAI_VUNG",
+                                               "he":  "v1",
+                                               "ten":  "Chọn vùng làm việc cho AI",
+                                               "moTa":  "Khoanh một vùng của bản vẽ để AI chỉ đọc / vẽ trong vùng đó (gửi kèm mỗi lượt hỏi ở tab AI).",
+                                               "kieu":  "lenh",
+                                               "lenh":  "HTSAI_VUNG"
+                                           },
+                                           {
+                                               "id":  "v1:OMSP",
+                                               "he":  "v1",
+                                               "ten":  "Ống mềm nối sprinkler",
+                                               "moTa":  "Vẽ ống mềm nối từ ống nhánh xuống đầu phun — nếp ống như ống gió mềm HVAC, đầu cuối cắt phẳng.",
+                                               "kieu":  "lenh",
+                                               "lenh":  "OMSP"
+                                           },
+                                           {
+                                               "id":  "v1:HSB3D9X",
+                                               "he":  "v1",
+                                               "ten":  "Section Box 3D",
+                                               "moTa":  "Cô lập và cắt mô hình trong một hộp 3D kiểu Revit, có khung điều khiển màu cyan.",
+                                               "kieu":  "lenh",
+                                               "lenh":  "HSB3D9X"
+                                           },
+                                           {
+                                               "id":  "v1:CHML",
+                                               "he":  "v1",
+                                               "ten":  "Đổi Mline Style",
+                                               "moTa":  "Đổi style/bề rộng của các MLINE đã vẽ mà không phải vẽ lại tuyến.",
+                                               "kieu":  "lenh",
+                                               "lenh":  "CHML"
+                                           }
+                                       ]
+                           }
+              },
+    "userlib_hvac_files":  [
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\01. Dàn Nóng\\MULTI-2MXS50FV1B.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\02.Mặt Lạnh\\VRV-FXFQ100LUV1.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\02.Mặt Lạnh\\VRV-FXFQ125LUV1.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\02.Mặt Lạnh\\VRV-FXFQ25LUV1.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\02.Mặt Lạnh\\VRV-FXFQ32LUV1.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\02.Mặt Lạnh\\VRV-FXFQ40LUV1.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\02.Mặt Lạnh\\VRV-FXFQ50LUV1.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\02.Mặt Lạnh\\VRV-FXFQ80LUV1.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\03.Phụ kiện\\HTS-BOCHIAGA.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\04. Miệng_Cửa gió\\HTS_Mieng gio khuyech tan 4 huong.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\04. Miệng_Cửa gió\\HTS_Mieng gio khuyech tan tron.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\04. Miệng_Cửa gió\\HTS_Mieng gio louver.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\04. Miệng_Cửa gió\\HTS_Mieng gio nan don.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\04. Miệng_Cửa gió\\HTS_Mieng gio sot trung.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\05. Van gió\\HTS_Van chan lua dieu khien bang motor MFD.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\05. Van gió\\HTS_Van chan lua FD.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\05. Van gió\\HTS_Van gio mot chieu RND.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\05. Van gió\\HTS_Van gio tron dieu chinh gio bang motor MD.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\05. Van gió\\HTS_Van gio tron VCD.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\05. Van gió\\HTS_Van gio vuong dieu chinh gio bang motor MD.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\05. Van gió\\HTS_Van gio vuong VCD.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\06.Khớp nối mềm\\HTS_Khop noi mem tron.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\06.Khớp nối mềm\\HTS_Khop noi mem vuong.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\07.Chi tiết lắp đặt\\HTS-CT-LĐOG-01.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\07.Chi tiết lắp đặt\\HTS-CTLĐ-02.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\07.Chi tiết lắp đặt\\HTS-CTLĐ-03.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\07.Chi tiết lắp đặt\\HTS-CTLĐ-04.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\07.Chi tiết lắp đặt\\HTS-CTLĐ-05.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\07.Chi tiết lắp đặt\\HTS-CTLĐ-06.dwg",
+                               "C:\\Users\\Nguye\\AppData\\Roaming\\Autodesk\\ApplicationPlugins\\Htools.bundle\\Contents\\Windows\\UserLibrary\\HVAC\\07.Chi tiết lắp đặt\\HTS-SĐNL-ĐK VRV.dwg"
+                           ],
+    "health":  {
+                   "status":  "ok",
+                   "server":  "HTS-MCP-AutoCAD",
+                   "version":  "2.0",
+                   "licensed":  true,
+                   "toolCount":  214
+               },
+    "ui_utility":  {
+                       "tool":  "ui_feature_list",
+                       "success":  true,
+                       "content":  "{\"tong\":192,\"theoHe\":{\"water\":26,\"fire\":23,\"hvac\":31,\"electric\":44,\"phoihop\":10,\"util\":43,\"v1\":15},\"coToolRieng\":70,\"khop\":0,\"muc\":[]}",
+                       "data":  {
+                                    "tong":  192,
+                                    "theoHe":  {
+                                                   "water":  26,
+                                                   "fire":  23,
+                                                   "hvac":  31,
+                                                   "electric":  44,
+                                                   "phoihop":  10,
+                                                   "util":  43,
+                                                   "v1":  15
+                                               },
+                                    "coToolRieng":  70,
+                                    "khop":  0,
+                                    "muc":  [
+
+                                            ]
+                                }
+                   },
+    "htsai_all":  {
+                      "tool":  "htsai_tools",
+                      "success":  true,
+                      "content":  "{\"ok\":true,\"so_tool\":40,\"tools\":[{\"name\":\"acad.get_drawing_info\",\"nhom\":\"chung\",\"mo_ta\":\"Đọc thông tin tổng quan bản vẽ đang mở: đơn vị, phạm vi hình học (extents), layer hiện hành, danh sách layer và danh sách block.\"},{\"name\":\"acad.ping\",\"nhom\":\"chung\",\"mo_ta\":\"Kiểm tra kết nối tới AutoCAD. Trả về phiên bản AutoCAD, tên bản vẽ đang mở, trạng thái bộ chuẩn cấp thoát nước và bộ chuẩn chiếu sáng (số loại phòng, số mã đèn, mục nào còn là đề xuất chờ chốt). Gọi tool này khi cần biết chắc AutoCAD đang sẵn sàng, hoặc khi ng…\"},{\"name\":\"bo_tri_ong_dung\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"NHẬN DIỆN TRỤC KỸ THUẬT (hộp gen = pline kín hình chữ nhật quanh khu WC) và TỰ XẾP vị trí ỐNG ĐỨNG các hệ trong đó — dùng THAY cho hoi_diem vị trí ống đứng (người dùng chốt 06/10, BH-022).\"},{\"name\":\"chen_thiet_bi_ve_sinh\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"THIẾT BỊ VỆ SINH 3D (BH-058): chèn block thiết bị vệ sinh của HTS Shopdrawing (HTS-TBVS-BonCau / XiXom / Lavabo / TieuNam / PheuThuSan / ChauBep / BonTam / KhayTam / MayGiat — mục \\\"Thiết bị vệ sinh\\\" của tab Cấp thoát nước) tại từng thiết bị vệ sinh kiến trúc t…\"},{\"name\":\"danh_dau_nhan_dang\",\"nhom\":\"chung\",\"mo_ta\":\"Khoanh lên bản vẽ những gì vừa nhận dạng để người dùng soát, trước khi vẽ ống.\"},{\"name\":\"dat_dau_cho_cap\",\"nhom\":\"cap-nuoc\",\"mo_ta\":\"CẤP NƯỚC: đặt ĐẦU CHỜ CẤP (block HTS-CAP…-TK của HTS-Design, layer HTS_AI_DAUCHO_CAP) tại các thiết bị vệ sinh trong vùng — trên mặt tường sau thiết bị tại tim thiết bị, xí dời 300mm về bên phải người ngồi (như lệnh HTS_MB_CAP_AI).\"},{\"name\":\"dat_phu_kien\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"Chèn phụ kiện LẺ theo tên block vào toạ độ chỉ định — chỉ dùng khi người dùng đã chỉ rõ chỗ.\"},{\"name\":\"dat_phu_kien_dau_mut\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"TỰ TÌM đầu mút tuyến ống đã vẽ rồi đặt phụ kiện đúng chỗ, đúng hướng, đúng như bản vẽ mẫu — không cần toạ độ, góc xoay.\"},{\"name\":\"de_xuat_phuong_an_tuyen\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"⭐ CODE DỰNG PHƯƠNG ÁN TUYẾN ống thoát cho cả khu WC — trục chính (và nhánh gom khi cần) của mọi hệ — rồi chọn phương án ĐẠT LUẬT có CHI PHÍ QUY ĐỔI thấp nhất (mét ống theo Ø + phụ kiện quy ra mét ống — nguyên tắc tiết kiệm ống người dùng chốt 06/10).\"},{\"name\":\"doc_cam_nang\",\"nhom\":\"chung\",\"mo_ta\":\"Đọc một mục của cẩm nang nghề. Mục lục nằm trong chỉ dẫn hệ thống. Gọi trước khi làm việc thuộc mục đó — vd đọc mục đi ống trước khi vạch tuyến, mục đọc tường trước khi đo tường. Truyền số thứ tự trong mục lục, hoặc vài chữ trong tiêu đề.\"},{\"name\":\"doc_phong\",\"nhom\":\"chieu-sang\",\"mo_ta\":\"BƯỚC 1 của rải đèn: đọc các phòng trên bản vẽ — đường bao (XData HTS_ROOM của BAOPHONG, hoặc pline kín trên layer đường bao phòng) và tên phòng, nhận LOẠI phòng theo tên, độ rọi yêu cầu (QCVN 12:2014 / QCVN 22:2016 / TCVN 7114), cao độ trần.\"},{\"name\":\"doc_so_do_nguyen_ly\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"Đọc SƠ ĐỒ NGUYÊN LÝ thoát nước: từng tầng có khu nào, thiết bị gì, ống gom hệ nào cỡ bao nhiêu dốc bao nhiêu, mỗi hệ mấy TRỤC ĐỨNG cỡ nào, thiết bị nào dùng ống cỡ nào, tầng nào là cao nhất/thấp nhất của từng hệ.\"},{\"name\":\"don_dep_ban_ve\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"DỌN NÉT THỪA sau khi vẽ (người dùng chốt 09/10, BH-030): trong vùng, xoá mọi nét tạm của AI (vòng khoanh của mọi skill, số vòng, nháp phương án / thông hơi / quang treo, khung + nhãn nhận dạng thiết bị), xoá tuyến thiết kế ĐÃ VẼ thành ống (nét đơn trên layer m…\"},{\"name\":\"draw.line\",\"nhom\":\"chung\",\"mo_ta\":\"Vẽ một đoạn thẳng trong không gian mô hình.\"},{\"name\":\"export_plan_image\",\"nhom\":\"chung\",\"mo_ta\":\"Xuat 1 vung ban ve ra ANH PNG de AI NHIN duoc, kem file .json tham chieu toa do.\"},{\"name\":\"hoc_ban_ve\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"Đọc và học bài từ bản vẽ MEP đang mở trong AutoCAD.\"},{\"name\":\"khoanh_vi_tri\",\"nhom\":\"chung\",\"mo_ta\":\"Khoanh tròn ĐÁNH SỐ lên bản vẽ để chỉ vị trí cho người dùng.\"},{\"name\":\"khoi_dong_cong_cu_hts\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"Khởi động công cụ HTS Shopdrawing của công ty bằng lệnh HTS.\"},{\"name\":\"kiem_tra_don_vi_ban_ve\",\"nhom\":\"chung\",\"mo_ta\":\"Kiểm tra đơn vị chèn của bản vẽ (INSUNITS).\"},{\"name\":\"kiem_tra_phu_kien_chong_lan\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"Dò chỗ KHÔNG THI CÔNG ĐƯỢC: (1) phụ kiện ĐÈ LÊN phụ kiện, cùng hệ hay khác hệ; (2) ống đè lên chỗ NGÓC LÊN của đầu chờ (cụm 2 cút lên) — kể cả ống khác hệ.\"},{\"name\":\"noi_day_den\",\"nhom\":\"chieu-sang\",\"mo_ta\":\"BƯỚC 5 — sau rai_cong_tac: NỐI ĐÈN VỚI NHAU VỀ CÔNG TẮC và GHI TÊN LỘ (port lệnh HTS_LIGHTWIRE + TEXTTENLO của HTS-Design).\"},{\"name\":\"rai_cong_tac\",\"nhom\":\"chieu-sang\",\"mo_ta\":\"BƯỚC 4 — sau rai_den: rải CÔNG TẮC theo mặt bằng kiến trúc.\"},{\"name\":\"rai_den\",\"nhom\":\"chieu-sang\",\"mo_ta\":\"BƯỚC 3 của rải đèn — rải đúng bảng tinh_chieu_sang người dùng vừa duyệt.\"},{\"name\":\"rai_quang_treo\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"RẢI QUANG TREO cho ống NẰM NGANG TREO TRẦN trong một vùng: đặt block `HTS-QUANGTREO-D\u003cØ\u003e` vắt ngang ống, cùng layer với ống (port lệnh rải quang treo của công cụ HTS).\"},{\"name\":\"soat_ban_ve\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"Soát bản vẽ đã vẽ theo các quy tắc, đo bằng SỐ chứ không nhìn ảnh.\"},{\"name\":\"soat_phuong_an_tuyen\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"SOÁT phương án tuyến ống thoát TRƯỚC KHI VẼ.\"},{\"name\":\"soi_phu_kien\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"CHẨN ĐOÁN — liệt kê phụ kiện (block) và ống (MLINE) trong một vùng: tên, visibility state đang hiện, điểm chèn, khung của phần đang hiện, cổng nối, có phải mảnh của cụm đã nổ không.\"},{\"name\":\"sua_doi_tuong\",\"nhom\":\"chung\",\"mo_ta\":\"Sửa đối tượng ĐÃ CÓ trên bản vẽ: chép (copy), di chuyển (move), xoay (rotate), lấy đối xứng (mirror), xoá (delete).\"},{\"name\":\"tao_mline_style_hts_ong\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"Tạo kiểu nét vẽ ống HTS-ONG và đặt làm kiểu hiện hành.\"},{\"name\":\"them_thong_tac_dau_cho\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"TỪ 02/11 (BH-050 \\\"Mỗi ống chính 1 cái\\\" + BH-051 \\\"2 tuyến từ xa này cần có thông tắc\\\"): thông tắc chỉ ở đầu xa ỐNG CHÍNH — lệnh trọn gói trien_khai_thoat_nuoc tự gọi công cụ này với dau_cho = đúng các đầu chờ là đầu xa của ống chính / ống góp gom ≥ 2 thiết bị, …\"},{\"name\":\"them_tu_khoa_phong\",\"nhom\":\"chieu-sang\",\"mo_ta\":\"Dạy thêm từ khoá tên phòng cho một loại phòng (vd tên \\\"P.\"},{\"name\":\"tim_dau_cho\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"Tìm ĐẦU CHỜ ống trên bản vẽ — điểm kỹ sư đánh dấu sẵn để biết ống phải đấu vào đâu.\"},{\"name\":\"tim_thiet_bi_theo_block\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"Bắt thiết bị vệ sinh bằng BLOCK, đọc xuyên xref — chính xác tới milimét, không đoán từ ảnh.\"},{\"name\":\"tim_tuong_theo_hatch\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"Đọc vị trí THẬT của tường, không ước lượng từ ảnh.\"},{\"name\":\"tinh_chieu_sang\",\"nhom\":\"chieu-sang\",\"mo_ta\":\"BƯỚC 2 của rải đèn: tính số đèn cho các phòng đã đọc (doc_phong) theo phương pháp quang thông — K, CU, MF, N = E·A/(Φ·CU·MF), bước ≤ SHR·Hm — và TỰ CHỌN đèn cho tổng công suất nhỏ nhất mà vẫn đạt độ rọi yêu cầu (đèn KingLED / LeeDee trong thư viện HTS-Design, …\"},{\"name\":\"trien_khai_cap_nuoc\",\"nhom\":\"cap-nuoc\",\"mo_ta\":\"⭐ LỆNH TRỌN GÓI CẤP NƯỚC (BH-053): triển khai ống cấp nước PPR cho MỘT vùng (một hay nhiều phòng WC) trong MỘT lời gọi — code tự: đọc đầu chờ cấp (block HTS-CAP…-TK của HTS-Design; chưa có thì tự đặt tại thiết bị trên mặt tường) → dựng tuyến bằng lõi HTS_DRAWW…\"},{\"name\":\"trien_khai_thoat_nuoc\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"⭐ LỆNH TRỌN GÓI (người dùng chốt 02/11, ADR-045): triển khai thoát nước MỘT khu từ đầu tới RẢI QUANG TREO trong MỘT lời gọi — code tự chạy: tìm đầu chờ → bố trí ống đứng → CHÈN THIẾT BỊ VỆ SINH HTS-TBVS của HTS Shopdrawing tại từng thiết bị (BH-058 — gốc = tâm…\"},{\"name\":\"ve_duong_ong_nuoc\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"Vẽ tuyến ống qua nhiều điểm, TỰ SINH phụ kiện ở chỗ đổi hướng, giao nhau, đổi cỡ (cút, chếch, tê, côn thu).\"},{\"name\":\"ve_ong_thong_hoi\",\"nhom\":\"thoat-nuoc\",\"mo_ta\":\"Vẽ HỆ ỐNG THÔNG HƠI cho khu WC ĐÃ VẼ XONG ống thoát (trục + nhánh) VÀ ĐÃ CHẠY dat_phu_kien_dau_mut — skill TỰ TÍNH mọi toạ độ.\"},{\"name\":\"xem_bai_hoc\",\"nhom\":\"chung\",\"mo_ta\":\"Đọc lại toàn bộ bài học đã tích luỹ. Dùng khi người dùng hỏi \u0027đã học được gì\u0027, hoặc khi bạn cần kiểm tra xem một quy tắc đã được ghi chưa.\"}],\"ghi_chu\":\"Goi htsai_tools voi ten=\u003cten tool\u003e de lay mo ta + schema day du truoc khi goi htsai_run. Uu tien lenh tron goi: trien_khai_thoat_nuoc / trien_khai_cap_nuoc; chieu sang: doc_phong -\u003e tinh_chieu_sang -\u003e rai_den -\u003e rai_cong_tac -\u003e noi_day_den.\"}",
+                      "data":  null
+                  },
+    "library_all":  {
+                        "tool":  "library_catalog",
+                        "success":  true,
+                        "content":  "{\"soHo\":94,\"ho\":[{\"bang\":\"PCCC\",\"ma\":\"CUT\",\"ten\":\"CÚT 90° PCCC\",\"soCo\":28},{\"bang\":\"PCCC\",\"ma\":\"CHECH\",\"ten\":\"CHẾCH 45° PCCC\",\"soCo\":44},{\"bang\":\"PCCC\",\"ma\":\"TE\",\"ten\":\"TÊ PCCC\",\"soCo\":84},{\"bang\":\"PCCC\",\"ma\":\"CON\",\"ten\":\"CÔN THU PCCC\",\"soCo\":60},{\"bang\":\"PCCC\",\"ma\":\"CONLECH\",\"ten\":\"CÔN LỆCH THÉP HÀN PCCC\",\"soCo\":50},{\"bang\":\"PCCC\",\"ma\":\"MANGSONG\",\"ten\":\"MĂNG SÔNG PCCC\",\"soCo\":6},{\"bang\":\"PCCC\",\"ma\":\"KEPREN\",\"ten\":\"KEPREN PCCC\",\"soCo\":6},{\"bang\":\"PCCC\",\"ma\":\"DAUPHUN\",\"ten\":\"ĐẦU PHUN PCCC\",\"soCo\":2},{\"bang\":\"PCCC\",\"ma\":\"VANBI\",\"ten\":\"VAN BI PCCC\",\"soCo\":9},{\"bang\":\"PCCC\",\"ma\":\"VANBUOM\",\"ten\":\"VAN BƯỚM PCCC\",\"soCo\":10},{\"bang\":\"PCCC\",\"ma\":\"VANCONG\",\"ten\":\"VAN CỔNG PCCC\",\"soCo\":15},{\"bang\":\"PCCC\",\"ma\":\"VANGIAMAP\",\"ten\":\"VAN GIẢM ÁP PCCC\",\"soCo\":14},{\"bang\":\"PCCC\",\"ma\":\"VANHUT\",\"ten\":\"VAN HÚT PCCC\",\"soCo\":14},{\"bang\":\"PCCC\",\"ma\":\"VAN1CDONGEM\",\"ten\":\"VAN 1 CHIỀU ĐÓNG ÊM PCCC\",\"soCo\":7},{\"bang\":\"PCCC\",\"ma\":\"VAN1CLALAT\",\"ten\":\"VAN 1 CHIỀU LÁ LẬT PCCC\",\"soCo\":22},{\"bang\":\"PCCC\",\"ma\":\"VANPHAO\",\"ten\":\"VAN PHAO PCCC\",\"soCo\":14},{\"bang\":\"PCCC\",\"ma\":\"VANXAKHI\",\"ten\":\"VAN XẢ KHÍ PCCC\",\"soCo\":4},{\"bang\":\"PCCC\",\"ma\":\"YLOC\",\"ten\":\"Y LỌC PCCC\",\"soCo\":13},{\"bang\":\"PCCC\",\"ma\":\"KHOPNOIMEM\",\"ten\":\"KHỚP NỐI MỀM PCCC\",\"soCo\":12},{\"bang\":\"PCCC\",\"ma\":\"KHOPNOIMEMBE\",\"ten\":\"KHỚP NỐI MỀM BE VTECO\",\"soCo\":25},{\"bang\":\"PCCC\",\"ma\":\"BINHTICHAP\",\"ten\":\"BÌNH TÍCH ÁP PCCC\",\"soCo\":7},{\"bang\":\"PCCC\",\"ma\":\"VANBAODONG\",\"ten\":\"VAN BÁO ĐỘNG (ALARM VALVE)\",\"soCo\":9},{\"bang\":\"PCCC\",\"ma\":\"BOM\",\"ten\":\"BƠM\",\"soCo\":5},{\"bang\":\"PCCC\",\"ma\":\"VANCONGTYCHIM\",\"ten\":\"VAN CỔNG TY CHÌM (SHIN YI)\",\"soCo\":9},{\"bang\":\"PCCC\",\"ma\":\"VANCONGTYNOI\",\"ten\":\"VAN CỔNG TY NỔI (SHIN YI)\",\"soCo\":9},{\"bang\":\"PCCC\",\"ma\":\"VANCONGTINHIEU\",\"ten\":\"VAN CỔNG TÍN HIỆU (SHIN YI)\",\"soCo\":9},{\"bang\":\"PCCC\",\"ma\":\"VANCONGDONGCO\",\"ten\":\"VAN CỔNG ĐỘNG CƠ (SHIN YI)\",\"soCo\":9},{\"bang\":\"PCCC\",\"ma\":\"VANBUOMTINHIEU\",\"ten\":\"VAN BƯỚM TÍN HIỆU (SHIN YI)\",\"soCo\":9},{\"bang\":\"PCCC\",\"ma\":\"VANBUOMDONGCO\",\"ten\":\"VAN BƯỚM ĐỘNG CƠ (SHIN YI)\",\"soCo\":9},{\"bang\":\"PCCC\",\"ma\":\"CAMBIENAP\",\"ten\":\"CẢM BIẾN ÁP SUẤT PCCC\",\"soCo\":2},{\"bang\":\"PCCC\",\"ma\":\"DONGHOAP\",\"ten\":\"ĐỒNG HỒ ÁP SUẤT PCCC\",\"soCo\":1},{\"bang\":\"PCCC\",\"ma\":\"MATBICH\",\"ten\":\"MẶT BÍCH THÉP PCCC\",\"soCo\":48},{\"bang\":\"PCCC\",\"ma\":\"MATCATONG\",\"ten\":\"MẶT CẮT ỐNG PCCC\",\"soCo\":25},{\"bang\":\"TN\",\"ma\":\"2CHECH\",\"ten\":\"2 CHẾCH\",\"soCo\":16},{\"bang\":\"TN\",\"ma\":\"YCHECH\",\"ten\":\"Y+CHẾCH\",\"soCo\":65},{\"bang\":\"TN\",\"ma\":\"CHECHTHONGTAC\",\"ten\":\"CHẾCH+T.TẮC\",\"soCo\":6},{\"bang\":\"TN\",\"ma\":\"SIPHONG\",\"ten\":\"SIPHONG\",\"soCo\":4},{\"bang\":\"TN\",\"ma\":\"UBOLT\",\"ten\":\"U-BOLT\",\"soCo\":1},{\"bang\":\"TN\",\"ma\":\"MATBICH\",\"ten\":\"MẶT BÍCH\",\"soCo\":10},{\"bang\":\"TN\",\"ma\":\"NAPBIT\",\"ten\":\"NẮP BỊT\",\"soCo\":13},{\"bang\":\"TN\",\"ma\":\"CONTHU\",\"ten\":\"CÔN THU\",\"soCo\":33},{\"bang\":\"TN\",\"ma\":\"TE\",\"ten\":\"TÊ\",\"soCo\":41},{\"bang\":\"TN\",\"ma\":\"TECONG\",\"ten\":\"TÊ CONG\",\"soCo\":26},{\"bang\":\"TN\",\"ma\":\"Y\",\"ten\":\"Y\",\"soCo\":42},{\"bang\":\"TN\",\"ma\":\"CHECH\",\"ten\":\"CHẾCH\",\"soCo\":18},{\"bang\":\"TN\",\"ma\":\"CUT\",\"ten\":\"CÚT\",\"soCo\":16},{\"bang\":\"TN\",\"ma\":\"THONGTAC\",\"ten\":\"THÔNG TẮC\",\"soCo\":6},{\"bang\":\"TN\",\"ma\":\"MANGSONG\",\"ten\":\"MĂNG SÔNG\",\"soCo\":11},{\"bang\":\"TN\",\"ma\":\"DAUNOITHONGSAN\",\"ten\":\"ĐẦU NỐI THÔNG SÀN\",\"soCo\":5},{\"bang\":\"TN\",\"ma\":\"VAN\",\"ten\":\"VAN\",\"soCo\":9},{\"bang\":\"TN\",\"ma\":\"VANBI\",\"ten\":\"VAN BI uPVC\",\"soCo\":20},{\"bang\":\"TN\",\"ma\":\"NOIRENTRONG\",\"ten\":\"NỐI REN TRONG uPVC\",\"soCo\":5},{\"bang\":\"TN\",\"ma\":\"NOIRENNGOAI\",\"ten\":\"NỐI REN NGOÀI uPVC\",\"soCo\":9},{\"bang\":\"TN\",\"ma\":\"MATCATONG\",\"ten\":\"MẶT CẮT ỐNG\",\"soCo\":17},{\"bang\":\"TN\",\"ma\":\"BOM\",\"ten\":\"BƠM\",\"soCo\":5},{\"bang\":\"TN\",\"ma\":\"BOMNHIET\",\"ten\":\"BƠM NHIỆT\",\"soCo\":1},{\"bang\":\"CN\",\"ma\":\"2CUT2CUTREN\",\"ten\":\"2 CÚT + 2 CÚT REN\",\"soCo\":2},{\"bang\":\"CN\",\"ma\":\"1CUT1CUTREN\",\"ten\":\"1 CÚT + 1 CÚT REN\",\"soCo\":2},{\"bang\":\"CN\",\"ma\":\"CUT\",\"ten\":\"CÚT\",\"soCo\":13},{\"bang\":\"CN\",\"ma\":\"CHECH\",\"ten\":\"CHẾCH\",\"soCo\":10},{\"bang\":\"CN\",\"ma\":\"TE\",\"ten\":\"TÊ\",\"soCo\":39},{\"bang\":\"CN\",\"ma\":\"CON\",\"ten\":\"CÔN\",\"soCo\":29},{\"bang\":\"CN\",\"ma\":\"RACCO\",\"ten\":\"RẮC CO\",\"soCo\":6},{\"bang\":\"CN\",\"ma\":\"NAPBIT\",\"ten\":\"NẮP BỊT\",\"soCo\":8},{\"bang\":\"CN\",\"ma\":\"MANGSONGREN\",\"ten\":\"MĂNG SÔNG REN\",\"soCo\":20},{\"bang\":\"CN\",\"ma\":\"CUTREN\",\"ten\":\"CÚT REN\",\"soCo\":6},{\"bang\":\"CN\",\"ma\":\"VANVOI\",\"ten\":\"VAN/VÒI\",\"soCo\":10},{\"bang\":\"CN\",\"ma\":\"DONGHONUOC\",\"ten\":\"ĐỒNG HỒ NƯỚC\",\"soCo\":14},{\"bang\":\"CN\",\"ma\":\"MATBICH\",\"ten\":\"MẶT BÍCH\",\"soCo\":8},{\"bang\":\"CN\",\"ma\":\"VANBI\",\"ten\":\"VAN BI\",\"soCo\":9},{\"bang\":\"CN\",\"ma\":\"VANBUOM\",\"ten\":\"VAN BƯỚM\",\"soCo\":10},{\"bang\":\"CN\",\"ma\":\"VANCONG\",\"ten\":\"VAN CỔNG\",\"soCo\":15},{\"bang\":\"CN\",\"ma\":\"VANGIAMAP\",\"ten\":\"VAN GIẢM ÁP\",\"soCo\":14},{\"bang\":\"CN\",\"ma\":\"VANHUT\",\"ten\":\"VAN HÚT\",\"soCo\":14},{\"bang\":\"CN\",\"ma\":\"VAN1CDONGEM\",\"ten\":\"VAN 1 CHIỀU ĐÓNG ÊM\",\"soCo\":7},{\"bang\":\"CN\",\"ma\":\"VAN1CLALAT\",\"ten\":\"VAN 1 CHIỀU LÁ LẬT\",\"soCo\":22},{\"bang\":\"CN\",\"ma\":\"VANPHAO\",\"ten\":\"VAN PHAO\",\"soCo\":14},{\"bang\":\"CN\",\"ma\":\"VANXAKHI\",\"ten\":\"VAN XẢ KHÍ\",\"soCo\":4},{\"bang\":\"CN\",\"ma\":\"YLOC\",\"ten\":\"Y LỌC\",\"soCo\":13},{\"bang\":\"CN\",\"ma\":\"KHOPNOIMEM\",\"ten\":\"KHỚP NỐI MỀM\",\"soCo\":12},{\"bang\":\"CN\",\"ma\":\"CAMBIENAP\",\"ten\":\"CẢM BIẾN ÁP SUẤT\",\"soCo\":2},{\"bang\":\"CN\",\"ma\":\"DONGHOAP\",\"ten\":\"ĐỒNG HỒ ÁP SUẤT\",\"soCo\":1},{\"bang\":\"CN\",\"ma\":\"CUTRENTRONG\",\"ten\":\"CÚT REN TRONG PPR\",\"soCo\":3},{\"bang\":\"CN\",\"ma\":\"CUTRENNGOAI\",\"ten\":\"CÚT REN NGOÀI PPR\",\"soCo\":3},{\"bang\":\"CN\",\"ma\":\"MATCATONG\",\"ten\":\"MẶT CẮT ỐNG PPR\",\"soCo\":13},{\"bang\":\"DIEN\",\"ma\":\"BOXCHIANGA\",\"ten\":\"BOX CHIA NGÃ\",\"soCo\":1},{\"bang\":\"DIEN\",\"ma\":\"HOPCHIADIEN\",\"ten\":\"HỘP CHIA ĐIỆN\",\"soCo\":1},{\"bang\":\"DIEN\",\"ma\":\"CONGTAC\",\"ten\":\"CÔNG TẮC\",\"soCo\":1},{\"bang\":\"DIEN\",\"ma\":\"TUDIEN\",\"ten\":\"TỦ ĐIỆN\",\"soCo\":12},{\"bang\":\"DIEN\",\"ma\":\"OCAM\",\"ten\":\"Ổ CẮM\",\"soCo\":1},{\"bang\":\"DIEN\",\"ma\":\"CACLOAIDEN\",\"ten\":\"CÁC LOẠI ĐÈN\",\"soCo\":1},{\"bang\":\"DIEN\",\"ma\":\"CAMBIEN\",\"ten\":\"CẢM BIẾN\",\"soCo\":1},{\"bang\":\"DIEN\",\"ma\":\"DENSUCO\",\"ten\":\"ĐÈN SỰ CỐ\",\"soCo\":1},{\"bang\":\"TBVS\",\"ma\":\"TBVS\",\"ten\":\"THIẾT BỊ VỆ SINH\",\"soCo\":14}],\"goiY\":\"Goi library_catalog voi \u0027bang\u0027 + \u0027ma\u0027 de xem du co + ten block, roi library_insert_block.\"}",
+                        "data":  null
+                    }
+}

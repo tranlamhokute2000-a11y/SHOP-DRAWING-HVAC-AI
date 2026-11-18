@@ -1,0 +1,24 @@
+{
+  "schema": "hts-image-cad-georef/1",
+  "dwg": "C:\\Users\\Nguye\\Desktop\\SHOP DRAWING-AI\\shop drawwing onng gio.dwg",
+  "svg": "zoom_detail_reducer_left.png",
+  "unit": "mm",
+  "region": {
+    "xmin": 14800, "ymin": 13800, "xmax": 16800, "ymax": 15900,
+    "width": 2000, "height": 2100
+  },
+  "image": { "width": 1800, "height": 1890 },
+  "transform": {
+    "unitsPerPxX": 1.1111111111111112, "unitsPerPxY": 1.1111111111111112,
+    "pxPerUnitX": 0.9, "pxPerUnitY": 0.9,
+    "imageToUcs": "ucsX = xmin + px*unitsPerPxX ; ucsY = ymax - py*unitsPerPxY",
+    "ucsToImage": "px = (ucsX - xmin)*pxPerUnitX ; py = (ymax - ucsY)*pxPerUnitY",
+    "ucsToWcsMatrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+    "wcsToUcsMatrix": [1, -0, 0, 0, -0, 1, -0, 0, 0, -0, 1, 0, 0, 0, 0, 1]
+  },
+  "objectCount": 2,
+  "objects": [
+    { "handle": "10BD0", "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1", "bboxPx": [112.44921982701052, 1100.6453753575931, 137.67329351211666, 1667.645602587452], "bboxUcs": [14924.943577585567, 14047.060441569498, 14952.970326124574, 14677.060694047119], "insertUcs": [367725.14614743507, -108075.88659493644], "insertPx": [317632.63153269154, 111578.2979354428], "rotationDeg": 0 },
+    { "handle": "10BD1", "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V747-MB HỆ THỐNG ĐHKK HẦM B1", "bboxPx": [132.1739792685008, 1087.1433108683964, 274.47329351203643, 1789.1433108683964], "bboxUcs": [14946.859976965, 13912.062987924004, 15104.970326124485, 14692.062987924004], "insertUcs": [15104.970326124501, 14362.062987924011], "insertPx": [274.47329351205116, 1384.1433108683898], "rotationDeg": 0 }
+  ]
+}

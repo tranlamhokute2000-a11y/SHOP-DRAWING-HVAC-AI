@@ -1,0 +1,5 @@
+(setq *error* (lambda (msg) (princ (strcat "\nLISP_ERR: " msg "\n")) (princ)))
+(setvar "SECURELOAD" 0)
+(load "C:/Users/Nguye/Desktop/SHOP DRAWING-AI/work_hvac/_analyst_extract.lsp")
+(export-raw-entities "C:/Users/Nguye/Desktop/SHOP DRAWING-AI/work_hvac/02_raw_entities.json")
+_.QUIT

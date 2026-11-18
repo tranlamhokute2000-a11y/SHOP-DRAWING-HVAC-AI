@@ -1,0 +1,33 @@
+{
+  "tool": "group_summary_by_layer",
+  "success": true,
+  "content": "Da quet 4 layer.",
+  "data": {
+    "layers": [
+      {
+        "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+        "count": 192,
+        "total_length": 363216.16222398187,
+        "total_area": 0
+      },
+      {
+        "layer": "MEPG-M-EQUIP",
+        "count": 2,
+        "total_length": 0,
+        "total_area": 0
+      },
+      {
+        "layer": "MEPG-AC-TEXT",
+        "count": 34,
+        "total_length": 0,
+        "total_area": 0
+      },
+      {
+        "layer": "0",
+        "count": 1,
+        "total_length": 17022.24599108677,
+        "total_area": 13519924.372669095
+      }
+    ]
+  }
+}

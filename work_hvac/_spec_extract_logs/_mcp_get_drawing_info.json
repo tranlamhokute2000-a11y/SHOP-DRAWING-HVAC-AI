@@ -1,0 +1,21 @@
+{
+  "tool": "get_drawing_info",
+  "success": true,
+  "content": "Drawing info OK.",
+  "data": {
+    "filename": "C:\\Users\\Nguye\\Desktop\\SHOP DRAWING-AI\\shop drawwing onng gio.dwg",
+    "units": "Millimeters",
+    "layer_count": 8,
+    "entity_count": 229,
+    "block_ref_count": 95,
+    "current_layer": "0",
+    "extmin": {
+      "x": 4390.1086157766185,
+      "y": -4344.411160248265
+    },
+    "extmax": {
+      "x": 45848.616452176124,
+      "y": 63989.8462261682
+    }
+  }
+}

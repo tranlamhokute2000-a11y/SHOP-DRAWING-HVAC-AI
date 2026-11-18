@@ -1,0 +1,315 @@
+{
+  "tool": "extract_all_text",
+  "success": true,
+  "content": "Tim duoc 34 text entity.",
+  "data": {
+    "items": [
+      {
+        "handle": "10DAD",
+        "type": "MTEXT",
+        "content": "SEAD-2200x600",
+        "layer": "MEPG-AC-TEXT",
+        "x": 35819.821734541605,
+        "y": 2291.883604879852,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DAE",
+        "type": "MTEXT",
+        "content": "BOD=FFL+2450",
+        "layer": "MEPG-AC-TEXT",
+        "x": 35819.821734541605,
+        "y": 2152.9773548798375,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DAF",
+        "type": "MTEXT",
+        "content": "SEAD-1600x450",
+        "layer": "MEPG-AC-TEXT",
+        "x": 27180.105778587676,
+        "y": 2291.883802795751,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DB0",
+        "type": "MTEXT",
+        "content": "BOD=FFL+2500",
+        "layer": "MEPG-AC-TEXT",
+        "x": 27180.105778587676,
+        "y": 2152.977552795751,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DB1",
+        "type": "MTEXT",
+        "content": "SEAD-1450x400",
+        "layer": "MEPG-AC-TEXT",
+        "x": 18189.67583780705,
+        "y": 2291.6860276620982,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DB2",
+        "type": "MTEXT",
+        "content": "BOD=FFL+2500",
+        "layer": "MEPG-AC-TEXT",
+        "x": 18189.67583780705,
+        "y": 2152.7797776620837,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DB3",
+        "type": "MTEXT",
+        "content": "SEAD-1450x400",
+        "layer": "MEPG-AC-TEXT",
+        "x": 15713.676322642874,
+        "y": 11464.819187806756,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DB4",
+        "type": "MTEXT",
+        "content": "BOD=FFL+2500",
+        "layer": "MEPG-AC-TEXT",
+        "x": 15852.582572642874,
+        "y": 11464.819187806756,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DB5",
+        "type": "MTEXT",
+        "content": "SEAD-1100x400",
+        "layer": "MEPG-AC-TEXT",
+        "x": 15887.675802556783,
+        "y": 23053.594992303693,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DB6",
+        "type": "MTEXT",
+        "content": "BOD=FFL+2500",
+        "layer": "MEPG-AC-TEXT",
+        "x": 16026.582052556842,
+        "y": 23053.594992303693,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DB7",
+        "type": "MTEXT",
+        "content": "SEAD-800x400",
+        "layer": "MEPG-AC-TEXT",
+        "x": 15886.559320050743,
+        "y": 36212.31667302665,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DB8",
+        "type": "MTEXT",
+        "content": "BOD=FFL+2500",
+        "layer": "MEPG-AC-TEXT",
+        "x": 16025.465570050801,
+        "y": 36212.31667302665,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DB9",
+        "type": "MTEXT",
+        "content": "SEAD-550x350",
+        "layer": "MEPG-AC-TEXT",
+        "x": 15885.77237837149,
+        "y": 47373.707808268664,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DBA",
+        "type": "MTEXT",
+        "content": "BOD=FFL+2500",
+        "layer": "MEPG-AC-TEXT",
+        "x": 16024.67862837149,
+        "y": 47373.707808268664,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DBB",
+        "type": "MTEXT",
+        "content": "SEAD-1700x500",
+        "layer": "MEPG-AC-TEXT",
+        "x": 39740.22504721493,
+        "y": 7572.023693691456,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DBC",
+        "type": "MTEXT",
+        "content": "BOD=FFL+2500",
+        "layer": "MEPG-AC-TEXT",
+        "x": 39740.22504721493,
+        "y": 7433.117443691456,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DBD",
+        "type": "MTEXT",
+        "content": "SEAD-1700x500",
+        "layer": "MEPG-AC-TEXT",
+        "x": 45042.482553415335,
+        "y": 10712.064515027534,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DBE",
+        "type": "MTEXT",
+        "content": "BOD=FFL+2500",
+        "layer": "MEPG-AC-TEXT",
+        "x": 45181.38880341539,
+        "y": 10712.064515027534,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DBF",
+        "type": "MTEXT",
+        "content": "SEAD-1400x500",
+        "layer": "MEPG-AC-TEXT",
+        "x": 45042.34442614995,
+        "y": 22621.269895334666,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DC0",
+        "type": "MTEXT",
+        "content": "BOD=FFL+2500",
+        "layer": "MEPG-AC-TEXT",
+        "x": 45181.25067615001,
+        "y": 22621.269895334666,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DC1",
+        "type": "MTEXT",
+        "content": "SEAD-1400x500",
+        "layer": "MEPG-AC-TEXT",
+        "x": 40564.09454167685,
+        "y": 33508.08359734071,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DC2",
+        "type": "MTEXT",
+        "content": "BOD=FFL+2500",
+        "layer": "MEPG-AC-TEXT",
+        "x": 40703.00079167691,
+        "y": 33508.08359734071,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DC3",
+        "type": "MTEXT",
+        "content": "SEAD-1150x500",
+        "layer": "MEPG-AC-TEXT",
+        "x": 44966.011830136515,
+        "y": 47645.17326830435,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DC4",
+        "type": "MTEXT",
+        "content": "BOD=FFL+2545",
+        "layer": "MEPG-AC-TEXT",
+        "x": 45104.918080136515,
+        "y": 47645.17326830435,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DC5",
+        "type": "MTEXT",
+        "content": "SEAD-950x450",
+        "layer": "MEPG-AC-TEXT",
+        "x": 44965.15787205157,
+        "y": 57701.63685317233,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DC6",
+        "type": "MTEXT",
+        "content": "BOD=FFL+2595",
+        "layer": "MEPG-AC-TEXT",
+        "x": 45104.064122051626,
+        "y": 57701.63685317233,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DC7",
+        "type": "MTEXT",
+        "content": "SEAD-950x450",
+        "layer": "MEPG-AC-TEXT",
+        "x": 38180.03277621993,
+        "y": 63600.8233968078,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DC8",
+        "type": "MTEXT",
+        "content": "BOD=FFL+2595",
+        "layer": "MEPG-AC-TEXT",
+        "x": 38180.03277621993,
+        "y": 63461.9171468078,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DC9",
+        "type": "MTEXT",
+        "content": "SEAD-800x400",
+        "layer": "MEPG-AC-TEXT",
+        "x": 27018.618870021237,
+        "y": 63599.82832798935,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DCA",
+        "type": "MTEXT",
+        "content": "BOD=FFL+2645",
+        "layer": "MEPG-AC-TEXT",
+        "x": 27018.618870021237,
+        "y": 63460.92207798935,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DCB",
+        "type": "MTEXT",
+        "content": "SEAD-550x350",
+        "layer": "MEPG-AC-TEXT",
+        "x": 17480.054947437937,
+        "y": 63599.01689687811,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DCC",
+        "type": "MTEXT",
+        "content": "BOD=FFL+2695",
+        "layer": "MEPG-AC-TEXT",
+        "x": 17480.054947437937,
+        "y": 63460.110646878136,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DCD",
+        "type": "MTEXT",
+        "content": "SEAD-550x350",
+        "layer": "MEPG-AC-TEXT",
+        "x": 7915.138353768314,
+        "y": 59321.21173896114,
+        "height": 89.99999999999994
+      },
+      {
+        "handle": "10DCE",
+        "type": "MTEXT",
+        "content": "BOD=FFL+2695",
+        "layer": "MEPG-AC-TEXT",
+        "x": 7915.138353768314,
+        "y": 59182.30548896114,
+        "height": 89.99999999999994
+      }
+    ]
+  }
+}

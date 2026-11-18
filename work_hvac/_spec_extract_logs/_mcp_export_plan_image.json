@@ -1,0 +1,877 @@
+{
+  "tool": "export_plan_image",
+  "success": true,
+  "content": "Da xuat anh 2000x3297 px cho vung [3561,-5711]..[46678,65357]: 229 doi tuong, 6843 hinh, 95 vat the co handle. Dung Read tren 'png' de xem anh.",
+  "data": {
+    "png": "C:\\Users\\Nguye\\Desktop\\SHOP DRAWING-AI\\work_hvac\\plan_overview.png",
+    "svg": null,
+    "json": "C:\\Users\\Nguye\\Desktop\\SHOP DRAWING-AI\\work_hvac\\plan_overview.json",
+    "image": {
+      "width": 2000,
+      "height": 3297
+    },
+    "region": {
+      "xmin": 3560.9384590486284,
+      "ymin": -5711.096307976594,
+      "xmax": 46677.78660890411,
+      "ymax": 65356.53137389653,
+      "unit": "mm"
+    },
+    "transform": {
+      "unitsPerPxX": 21.558424074927743,
+      "unitsPerPxY": 21.55524042519658,
+      "pxPerUnitX": 0.04638557978655737,
+      "pxPerUnitY": 0.046392430809125626,
+      "imageToCad": "ucsX = xmin + px*unitsPerPxX ; ucsY = ymax - py*unitsPerPxY",
+      "cadToImage": "px = (ucsX - xmin)*pxPerUnitX ; py = (ymax - ucsY)*pxPerUnitY"
+    },
+    "entities": 229,
+    "shapes": 6843,
+    "skipped": 15351,
+    "objectCount": 95,
+    "objects": [
+      {
+        "handle": "10B17",
+        "name": "CEN-Van Vuông - Van VCD-V495-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1438.9,
+          2892.6,
+          1445.9,
+          2970.1
+        ],
+        "insertUcs": [
+          34656.73,
+          2175.34
+        ]
+      },
+      {
+        "handle": "10B2A",
+        "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213455-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          473.9,
+          259.5,
+          513.9,
+          299.5
+        ],
+        "insertUcs": [
+          14335.32,
+          59204.71
+        ]
+      },
+      {
+        "handle": "10B2B",
+        "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213455-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          485.6,
+          72.8,
+          525.6,
+          112.8
+        ],
+        "insertUcs": [
+          14334.96,
+          63482.2
+        ]
+      },
+      {
+        "handle": "10B49",
+        "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213481-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1693.7,
+          1167.4,
+          1775.5,
+          1249.7
+        ],
+        "insertUcs": [
+          367725.67,
+          -114275.69
+        ]
+      },
+      {
+        "handle": "10B4C",
+        "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213517-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          550.3,
+          1560.3,
+          604.1,
+          1570.9
+        ],
+        "insertUcs": [
+          16003.53,
+          31715.08
+        ]
+      },
+      {
+        "handle": "10B4D",
+        "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213533-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          813.9,
+          66.9,
+          824.5,
+          106.8
+        ],
+        "insertUcs": [
+          21115.76,
+          63483.64
+        ]
+      },
+      {
+        "handle": "10B4E",
+        "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213536-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1436.3,
+          63.4,
+          1446.9,
+          110.3
+        ],
+        "insertUcs": [
+          34533.8,
+          63484.83
+        ]
+      },
+      {
+        "handle": "10B4F",
+        "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213325-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1881.5,
+          63.4,
+          1949.4,
+          131.3
+        ],
+        "insertUcs": [
+          45081.22,
+          63484.86
+        ]
+      },
+      {
+        "handle": "10B50",
+        "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213541-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1897.9,
+          523.4,
+          1954,
+          534
+        ],
+        "insertUcs": [
+          45082.02,
+          54066.99
+        ]
+      },
+      {
+        "handle": "10B51",
+        "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V543-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1872.3,
+          1142,
+          1954.1,
+          1223.8
+        ],
+        "insertUcs": [
+          45083.25,
+          39582.68
+        ]
+      },
+      {
+        "handle": "10BAA",
+        "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10249476-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1688,
+          1299.9,
+          1755.7,
+          1310.5
+        ],
+        "insertUcs": [
+          40680.54,
+          37329.69
+        ]
+      },
+      {
+        "handle": "10BAB",
+        "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10249549-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1688,
+          1626.9,
+          1787.1,
+          1726.1
+        ],
+        "insertUcs": [
+          40680.77,
+          28879.47
+        ]
+      },
+      {
+        "handle": "10BAC",
+        "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213488-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1862.2,
+          1658.4,
+          1961.4,
+          1757.6
+        ],
+        "insertUcs": [
+          45116.07,
+          28879.84
+        ]
+      },
+      {
+        "handle": "10BAD",
+        "name": "CEN-DF-ENDCAP - Bít ống gió EI60-10249703-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          38.5,
+          272.6,
+          39.6,
+          298.2
+        ],
+        "insertUcs": [
+          4415.11,
+          59204.66
+        ]
+      },
+      {
+        "handle": "10BAE",
+        "name": "CEN-Van Vuông - Van VCD-10249905-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1484.7,
+          2841.5,
+          1566.8,
+          2848.4
+        ],
+        "insertUcs": [
+          36459.05,
+          4033.25
+        ]
+      },
+      {
+        "handle": "10BAF",
+        "name": "CEN-DF-ENDCAP - Bít ống gió EI60-10249703-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          564.3,
+          579.7,
+          589.8,
+          580.9
+        ],
+        "insertUcs": [
+          16001.97,
+          52835.08
+        ]
+      },
+      {
+        "handle": "10BB0",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V724-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1691.6,
+          2638.4,
+          1720.8,
+          2639.8
+        ],
+        "insertUcs": [
+          367725.67,
+          -114275.69
+        ]
+      },
+      {
+        "handle": "10BB1",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V740-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1685.3,
+          2639.4,
+          1721.5,
+          2646.7
+        ],
+        "insertUcs": [
+          40343.28,
+          8305.52
+        ]
+      },
+      {
+        "handle": "10BB2",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V651-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1872.9,
+          2339.4,
+          1874.2,
+          2368.6
+        ],
+        "insertUcs": [
+          228611.13,
+          289469.82
+        ]
+      },
+      {
+        "handle": "10BB3",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1872.9,
+          2064.8,
+          1874.2,
+          2094
+        ],
+        "insertUcs": [
+          228610.23,
+          305924.39
+        ]
+      },
+      {
+        "handle": "10BB4",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1886.7,
+          1838.8,
+          1888.1,
+          1868
+        ],
+        "insertUcs": [
+          228909.85,
+          310796.2
+        ]
+      },
+      {
+        "handle": "10BB5",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V741-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1681,
+          1587.7,
+          1682.3,
+          1616.9
+        ],
+        "insertUcs": [
+          367725.67,
+          -114275.69
+        ]
+      },
+      {
+        "handle": "10BB6",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V651-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1681,
+          1356.1,
+          1682.4,
+          1385.3
+        ],
+        "insertUcs": [
+          224475.02,
+          310664.59
+        ]
+      },
+      {
+        "handle": "10BB7",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1891,
+          1077.9,
+          1892.4,
+          1107.1
+        ],
+        "insertUcs": [
+          229001.57,
+          327198.51
+        ]
+      },
+      {
+        "handle": "10BB8",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1891,
+          837.9,
+          1892.4,
+          867.2
+        ],
+        "insertUcs": [
+          229001.13,
+          332370.14
+        ]
+      },
+      {
+        "handle": "10BB9",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1891,
+          545.5,
+          1892.4,
+          574.7
+        ],
+        "insertUcs": [
+          229000.59,
+          338673.59
+        ]
+      },
+      {
+        "handle": "10BBA",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1895.6,
+          299.1,
+          1897,
+          328.4
+        ],
+        "insertUcs": [
+          229100.12,
+          343983.95
+        ]
+      },
+      {
+        "handle": "10BBB",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1783.6,
+          115.8,
+          1812.9,
+          117.2
+        ],
+        "insertUcs": [
+          -243062.04,
+          247503.13
+        ]
+      },
+      {
+        "handle": "10BBC",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1467.5,
+          115.9,
+          1496.7,
+          117.3
+        ],
+        "insertUcs": [
+          -249878.08,
+          247502.55
+        ]
+      },
+      {
+        "handle": "10BBD",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1151.1,
+          112.4,
+          1180.3,
+          113.8
+        ],
+        "insertUcs": [
+          -256698.08,
+          247576.92
+        ]
+      },
+      {
+        "handle": "10BBE",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          835.7,
+          112.4,
+          864.9,
+          113.8
+        ],
+        "insertUcs": [
+          -263498.08,
+          247576.32
+        ]
+      },
+      {
+        "handle": "10BBF",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V650-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          549.2,
+          106.7,
+          578.4,
+          108.1
+        ],
+        "insertUcs": [
+          -269674.24,
+          247700.79
+        ]
+      },
+      {
+        "handle": "10BC0",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V637-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1873.9,
+          2338.7,
+          1881.2,
+          2374.9
+        ],
+        "insertUcs": [
+          44116.72,
+          14615.84
+        ]
+      },
+      {
+        "handle": "10BC1",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V637-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1873.9,
+          2064.1,
+          1881.2,
+          2100.3
+        ],
+        "insertUcs": [
+          44116.72,
+          20533.92
+        ]
+      },
+      {
+        "handle": "10BC2",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V738-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1887.8,
+          1838.1,
+          1895.1,
+          1874.3
+        ],
+        "insertUcs": [
+          44416.37,
+          25405.73
+        ]
+      },
+      {
+        "handle": "10BC3",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10268188-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1682,
+          1587,
+          1689.6,
+          1623.2
+        ],
+        "insertUcs": [
+          39980.65,
+          30817.95
+        ]
+      },
+      {
+        "handle": "10BC4",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V742-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1682,
+          1355.4,
+          1689.3,
+          1391.6
+        ],
+        "insertUcs": [
+          39980.65,
+          35810.62
+        ]
+      },
+      {
+        "handle": "10BC5",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V743-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1892,
+          1077.2,
+          1899.4,
+          1113.3
+        ],
+        "insertUcs": [
+          44508.06,
+          41808.05
+        ]
+      },
+      {
+        "handle": "10BC6",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V743-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1892,
+          837.2,
+          1899.3,
+          873.4
+        ],
+        "insertUcs": [
+          44507.62,
+          46979.67
+        ]
+      },
+      {
+        "handle": "10BC7",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V743-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1892,
+          544.8,
+          1899.3,
+          581
+        ],
+        "insertUcs": [
+          44507.09,
+          53283.13
+        ]
+      },
+      {
+        "handle": "10BC8",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V738-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1896.6,
+          298.4,
+          1903.9,
+          334.6
+        ],
+        "insertUcs": [
+          44606.63,
+          58593.49
+        ]
+      },
+      {
+        "handle": "10BC9",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V743-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1782.9,
+          108.9,
+          1819.1,
+          116.2
+        ],
+        "insertUcs": [
+          42328.42,
+          63009.62
+        ]
+      },
+      {
+        "handle": "10BCA",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V743-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1466.8,
+          108.9,
+          1503,
+          116.2
+        ],
+        "insertUcs": [
+          35512.38,
+          63009.04
+        ]
+      },
+      {
+        "handle": "10BCB",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10268197-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          1150.4,
+          105.5,
+          1186.6,
+          112.8
+        ],
+        "insertUcs": [
+          28692.38,
+          63083.44
+        ]
+      },
+      {
+        "handle": "10BCC",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V744-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          835,
+          105.5,
+          871.2,
+          112.8
+        ],
+        "insertUcs": [
+          21892.38,
+          63082.84
+        ]
+      },
+      {
+        "handle": "10BCD",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10268200-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          548.5,
+          99.7,
+          584.7,
+          107
+        ],
+        "insertUcs": [
+          15716.22,
+          63207.31
+        ]
+      },
+      {
+        "handle": "10BCE",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          527.2,
+          2638.8,
+          528.5,
+          2668
+        ],
+        "insertUcs": [
+          367725.67,
+          -114275.69
+        ]
+      },
+      {
+        "handle": "10BCF",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V746-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          528.2,
+          2638.1,
+          535.5,
+          2674.3
+        ],
+        "insertUcs": [
+          15105.52,
+          8162.26
+        ]
+      },
+      {
+        "handle": "10BD0",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          527.1,
+          2351.1,
+          528.4,
+          2380.4
+        ],
+        "insertUcs": [
+          367725.15,
+          -108075.89
+        ]
+      },
+      {
+        "handle": "10BD1",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V747-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          528.1,
+          2350.4,
+          535.5,
+          2386.6
+        ],
+        "insertUcs": [
+          15104.97,
+          14362.06
+        ]
+      },
+      {
+        "handle": "10BD2",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V748-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          543.3,
+          2089,
+          544.6,
+          2118.2
+        ],
+        "insertUcs": [
+          367725.67,
+          -114275.69
+        ]
+      },
+      {
+        "handle": "10BD3",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          543.3,
+          1838.5,
+          544.6,
+          1867.8
+        ],
+        "insertUcs": [
+          368074.18,
+          -97026.36
+        ]
+      },
+      {
+        "handle": "10BD4",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          543.3,
+          1586.8,
+          544.6,
+          1616
+        ],
+        "insertUcs": [
+          368073.72,
+          -91599.22
+        ]
+      },
+      {
+        "handle": "10BD5",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10268514-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          544.4,
+          2088.3,
+          551.7,
+          2124.5
+        ],
+        "insertUcs": [
+          15454.49,
+          20013.25
+        ]
+      },
+      {
+        "handle": "10BD6",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V749-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          544.3,
+          1837.8,
+          551.7,
+          1874
+        ],
+        "insertUcs": [
+          15454.03,
+          25411.59
+        ]
+      },
+      {
+        "handle": "10BD7",
+        "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V750-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          544.3,
+          1586.1,
+          551.6,
+          1622.2
+        ],
+        "insertUcs": [
+          15453.57,
+          30838.73
+        ]
+      },
+      {
+        "handle": "10BD8",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          550.2,
+          1339.1,
+          551.5,
+          1368.3
+        ],
+        "insertUcs": [
+          368223.39,
+          -86260.01
+        ]
+      },
+      {
+        "handle": "10BD9",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          550.2,
+          1087.9,
+          551.5,
+          1117.1
+        ],
+        "insertUcs": [
+          368222.93,
+          -80845.63
+        ]
+      },
+      {
+        "handle": "10BDA",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          556,
+          865,
+          557.3,
+          894.2
+        ],
+        "insertUcs": [
+          368347.59,
+          -76041.44
+        ]
+      },
+      {
+        "handle": "10BDB",
+        "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+        "bboxPx": [
+          556,
+          586.4,
+          557.3,
+          615.6
+        ],
+        "insertUcs": [
+          368347.05,
+          -70035.7
+        ]
+      }
+    ],
+    "objectsTruncated": true,
+    "hint": "Toa do tren anh tinh theo pixel, goc TREN-TRAI, truc Y huong XUONG. Tra nguoc ra doi tuong: dung tool map_image_cad voi ref = duong dan json."
+  }
+}

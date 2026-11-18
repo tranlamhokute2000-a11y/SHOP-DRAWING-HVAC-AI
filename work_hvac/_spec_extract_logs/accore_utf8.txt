@@ -1,0 +1,197 @@
+﻿Redirect stdout (file: C:\Users\Nguye\AppData\Local\Temp\accc248842).
+AcCoreConsole: StdOutConsoleMode: processed-output: disabled,auto
+AutoCAD Core Engine Console - Copyright 2026 Autodesk, Inc.  All rights reserved. (X.118.0.0)
+
+Execution Path:
+C:\Program Files\Autodesk\AutoCAD 2027\accoreconsole.exe
+Current Directory: C:\Users\Nguye\Desktop\SHOP DRAWING-AI
+
+Version Number: X.118.0.0 (UNICODE)
+LogFilePath has been set to the working folder.
+CoreHeartBeat
+Regenerating model.
+CoreHeartBeat
+
+**** System Variable Changed ****
+3 of the monitored system variables have changed from the preferred value. Use SYSVARMONITOR command to view changes.
+
+
+  Loading HVAC15------You can use right now HVAC15, (D) HVAC15 - 2018
+; error: bad argument type: VLA-OBJECT nil
+
+AutoCAD menu utilities loaded.
+  Loading HVAC15------You can use right now HVAC15, (D) HVAC15 - 2018
+; error: bad argument type: VLA-OBJECT nil
+
+Command:
+Command:
+
+Command:
+Command: (load "C:/Users/Nguye/Desktop/SHOP DRAWING-AI/work_hvac/extract_spec.lsp")
+C:EXTSPEC
+
+Command: EXTSPEC
+==========================================
+1. DRAWING HEADER VARIABLES
+==========================================
+INSUNITS = 4
+MEASUREMENT = 1
+CLAYER = 0
+EXTMIN = (10308.86, -29569.34, 0)
+EXTMAX = (111283.06, 50872.29, 0)
+LTSCALE = 1
+
+==========================================
+2. LAYER TABLE (100%)
+==========================================
+LAYER: "0" | ACI=7 | Linetype="Continuous" | Lineweight=-3 | Plot=1 | Flags=0 | Desc=""
+LAYER: "Defpoints" | ACI=7 | Linetype="Continuous" | Lineweight=-3 | Plot=0 | Flags=0 | Desc=""
+LAYER: "M-MVAC-SEAD" | ACI=190 | Linetype="Continuous" | Lineweight=-3 | Plot=1 | Flags=2 | Desc=""
+LAYER: "KD-1-3000" | ACI=97 | Linetype="Continuous" | Lineweight=13 | Plot=1 | Flags=2 | Desc=""
+LAYER: "M-MVAC-EAD" | ACI=80 | Linetype="Continuous" | Lineweight=-3 | Plot=1 | Flags=2 | Desc=""
+LAYER: "M-MVAC-FAD" | ACI=150 | Linetype="Continuous" | Lineweight=-3 | Plot=1 | Flags=2 | Desc=""
+LAYER: "M-MVAC-PAD" | ACI=210 | Linetype="Continuous" | Lineweight=-3 | Plot=1 | Flags=2 | Desc=""
+LAYER: "M-MVAC-CEAD" | ACI=170 | Linetype="Continuous" | Lineweight=-3 | Plot=1 | Flags=2 | Desc=""
+LAYER: "M-MVAC-CSAD" | ACI=11 | Linetype="Continuous" | Lineweight=-3 | Plot=1 | Flags=2 | Desc=""
+LAYER: "M-MVAC-Equipment" | ACI=47 | Linetype="Continuous" | Lineweight=-3 | Plot=1 | Flags=2 | Desc=""
+LAYER: "M-MVAC-Support" | ACI=42 | Linetype="Continuous" | Lineweight=-3 | Plot=1 | Flags=2 | Desc=""
+LAYER: "M-MVAC-AC Drain" | ACI=72 | Linetype="Continuous" | Lineweight=-3 | Plot=1 | Flags=2 | Desc=""
+LAYER: "M-MVAC-DIM" | ACI=97 | Linetype="Continuous" | Lineweight=-3 | Plot=1 | Flags=2 | Desc=""
+LAYER: "M-MVAC-TEXT" | ACI=2 | Linetype="Continuous" | Lineweight=-3 | Plot=1 | Flags=2 | Desc=""
+LAYER: "M-MVAC-Copper Pipe" | ACI=12 | Linetype="Continuous" | Lineweight=-3 | Plot=1 | Flags=2 | Desc=""
+LAYER: "M-PEA-DIM" | ACI=97 | Linetype="Continuous" | Lineweight=-3 | Plot=1 | Flags=0 | Desc=""
+LAYER: "ZZ" | ACI=81 | Linetype="Continuous" | Lineweight=-3 | Plot=1 | Flags=0 | Desc=""
+LAYER: "MEPG-AC-TEXT" | ACI=7 | Linetype="Continuous" | Lineweight=25 | Plot=1 | Flags=0 | Desc=""
+LAYER: "CLOUND" | ACI=240 | Linetype="Continuous" | Lineweight=20 | Plot=1 | Flags=0 | Desc=""
+
+==========================================
+3. BLOCK DEFINITIONS
+==========================================
+BLOCK_DEF: "_Dot" | Flags=0 | BasePt=(0, 0, 0)
+  [BLK_ENT] [2DB] LWPOLYLINE | Layer="0" | ACI=0 | LT="ByBlock" | LW=ByLayer | Flags=1 ConstWidth=0.5 Verts=[ V(-0.25, 0){b=1} V(0.25, 0){b=1}]
+  [BLK_ENT] [2DC] LINE | Layer="0" | ACI=0 | LT="ByBlock" | LW=-2 | Start=(-0.5, 0, 0) End=(-1, 0, 0)
+BLOCK_DEF: "*D3" | Flags=1 | BasePt=(0, 0, 0)
+  [BLK_ENT] [53A] LINE | Layer="M-PEA-DIM" | ACI=104 | LT="ByLayer" | LW=ByLayer | Start=(59206.99, 24618.35, 0) End=(59206.99, 25957.88, 0)
+  [BLK_ENT] [53B] LINE | Layer="M-PEA-DIM" | ACI=104 | LT="ByLayer" | LW=ByLayer | Start=(63646.99, 24617.93, 0) End=(63646.99, 25957.88, 0)
+  [BLK_ENT] [53C] LINE | Layer="M-PEA-DIM" | ACI=104 | LT="ByLayer" | LW=ByLayer | Start=(59206.99, 25757.88, 0) End=(63646.99, 25757.88, 0)
+  [BLK_ENT] [53D] INSERT | Layer="M-PEA-DIM" | ACI=104 | LT="ByLayer" | LW=ByLayer | Block="_Oblique" EffName="_Oblique" Ins=(59206.99, 25757.88, 0) Scale=(200,200,200) RotRad=3.142
+  [BLK_ENT] [53E] INSERT | Layer="M-PEA-DIM" | ACI=104 | LT="ByLayer" | LW=ByLayer | Block="_Oblique" EffName="_Oblique" Ins=(63646.99, 25757.88, 0) Scale=(200,200,200) RotRad=0
+  [BLK_ENT] [53F] MTEXT | Layer="M-PEA-DIM" | ACI=7 | LT="ByLayer" | LW=ByLayer | Pos=(61426.99, 26257.88, 0) H=600 Width=0 Style="VNTIMEH" Text="\A1;4440"
+  [BLK_ENT] [540] POINT | Layer="Defpoints" | ACI=0 | LT="ByLayer" | LW=ByLayer | P10=(59206.99, 24418.35, 0) DXF1=""
+  [BLK_ENT] [541] POINT | Layer="Defpoints" | ACI=0 | LT="ByLayer" | LW=ByLayer | P10=(63646.99, 24417.93, 0) DXF1=""
+  [BLK_ENT] [542] POINT | Layer="Defpoints" | ACI=0 | LT="ByLayer" | LW=ByLayer | P10=(63646.99, 25757.88, 0) DXF1=""
+BLOCK_DEF: "A$Cbbb1c70d" | Flags=0 | BasePt=(0, 0, 0)
+  [BLK_ENT] [450] LWPOLYLINE | Layer="0" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Flags=0 ConstWidth=0 Verts=[ V(36478.53, -132514.3) V(36478.53, 0) V(28116.83, 0) V(28116.83, -107586.11)]
+  [BLK_ENT] [451] LWPOLYLINE | Layer="0" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Flags=0 ConstWidth=0 Verts=[ V(65067.99, -132514.3) V(65067.99, 0) V(59770.8, 0) V(59770.8, -132514.3)]
+  [BLK_ENT] [452] LWPOLYLINE | Layer="0" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Flags=0 ConstWidth=0 Verts=[ V(100974.2, 0) V(100974.2, -132514.3)]
+BLOCK_DEF: "_Oblique" | Flags=0 | BasePt=(0, 0, 0)
+  [BLK_ENT] [537] LINE | Layer="0" | ACI=0 | LT="ByBlock" | LW=-2 | Start=(-0.5, -0.5, 0) End=(0.5, 0.5, 0)
+
+==========================================
+4. ALL DRAWING ENTITIES (MODEL & LAYOUTS)
+==========================================
+  [367] TEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(52684.73, 49076.78, 0) AlignPos=(0, 0, 0) H=960 RotRad=0 Style="VNTIMEH" Text="%%ULAYER DRAWING STANDARD"
+  [368] LWPOLYLINE (Model) | Layer="0" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Flags=1 ConstWidth=0 Verts=[ V(111283.06, 50872.29) V(10308.86, 50872.29) V(10308.86, 46253) V(111283.06, 46253)]
+  [369] TEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(71188.46, 49076.78, 0) AlignPos=(0, 0, 0) H=960 RotRad=0 Style="VNTIMEH" Text="%%UCOLOR"
+  [36A] TEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(40706.55, 49076.78, 0) AlignPos=(0, 0, 0) H=960 RotRad=0 Style="VNTIMEH" Text="%%USYMBOL"
+  [36C] TEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(22698.14, 49076.78, 0) AlignPos=(0, 0, 0) H=960 RotRad=0 Style="VNTIMEH" Text="%%USYSTEM"
+  [36D] TEXT (Model) | Layer="M-MVAC-FAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(49605.04, 42035.37, 0) AlignPos=(49605.04, 42435.37, 0) H=800 RotRad=0 Style="VNTIMEH" Text="FAD"
+  [36E] TEXT (Model) | Layer="M-MVAC-PAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(49605.04, 40157.3, 0) AlignPos=(49605.04, 40557.3, 0) H=800 RotRad=0 Style="VNTIMEH" Text="PAD"
+  [36F] TEXT (Model) | Layer="M-MVAC-CEAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(49605.05, 38279.24, 0) AlignPos=(49605.05, 38679.24, 0) H=800 RotRad=0 Style="VNTIMEH" Text="CEAD"
+  [370] TEXT (Model) | Layer="M-MVAC-TEXT" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(49605.06, 36401.18, 0) AlignPos=(49605.05, 36801.18, 0) H=800 RotRad=0 Style="VNTIMEH" Text="CSAD"
+  [371] TEXT (Model) | Layer="M-MVAC-EAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(49605.04, 43913.43, 0) AlignPos=(49605.04, 44313.43, 0) H=800 RotRad=0 Style="VNTIMEH" Text="EAD"
+  [372] TEXT (Model) | Layer="M-MVAC-Copper Pipe" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(49605.03, 32645.06, 0) AlignPos=(49605.03, 33045.06, 0) H=800 RotRad=0 Style="VNTIMEH" Text="Copper Pipe"
+  [373] TEXT (Model) | Layer="M-MVAC-AC Drain" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(49605.19, 30766.99, 0) AlignPos=(49605.19, 31166.99, 0) H=800 RotRad=0 Style="VNTIMEH" Text="AC Drain"
+  [374] TEXT (Model) | Layer="M-MVAC-DIM" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(49605.21, 25132.81, 0) AlignPos=(49605.21, 25532.81, 0) H=800 RotRad=0 Style="VNTIMEH" Text="DIM"
+  [375] TEXT (Model) | Layer="M-MVAC-TEXT" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(49605.22, 23254.75, 0) AlignPos=(49605.22, 23654.75, 0) H=800 RotRad=0 Style="VNTIMEH" Text="TEXT"
+  [376] DIMENSION (Model) | Layer="M-PEA-DIM" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | DimText="" Meas=4440 DefPt=(63646.99, 25757.88, 0) P13=(59206.99, 24418.35, 0) P14=(63646.99, 24417.93, 0)
+  [377] TEXT (Model) | Layer="M-MVAC-TEXT" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(60503.06, 23254.75, 0) AlignPos=(60503.06, 23654.75, 0) H=800 RotRad=0 Style="VNTIMEH" Text="TEXT"
+  [378] TEXT (Model) | Layer="M-MVAC-Equipment" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(49587.11, 28888.93, 0) AlignPos=(49587.11, 29288.93, 0) H=800 RotRad=0 Style="VNTIMEH" Text="Equipment"
+  [379] TEXT (Model) | Layer="M-MVAC-Support" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(49569.03, 27010.87, 0) AlignPos=(49569.02, 27410.87, 0) H=800 RotRad=0 Style="VNTIMEH" Text="Support"
+  [37A] LINE (Model) | Layer="M-MVAC-EAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Start=(57454.56, 44344.97, 0) End=(65479.37, 44344.97, 0)
+  [37B] TEXT (Model) | Layer="M-MVAC-EAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(67288.38, 43913.43, 0) AlignPos=(67288.38, 44313.43, 0) H=800 RotRad=0 Style="VNTIMEH" Text="0.20"
+  [37C] TEXT (Model) | Layer="M-MVAC-FAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(67288.38, 42024, 0) AlignPos=(67288.38, 42424, 0) H=800 RotRad=0 Style="VNTIMEH" Text="0.20"
+  [37D] TEXT (Model) | Layer="M-MVAC-PAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(67288.38, 40157.3, 0) AlignPos=(67288.38, 40557.3, 0) H=800 RotRad=0 Style="VNTIMEH" Text="0.20"
+  [37E] TEXT (Model) | Layer="M-MVAC-CEAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(67288.38, 38279.24, 0) AlignPos=(67288.38, 38679.24, 0) H=800 RotRad=0 Style="VNTIMEH" Text="0.20"
+  [37F] TEXT (Model) | Layer="M-MVAC-TEXT" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(67288.38, 36400.3, 0) AlignPos=(67288.38, 36800.3, 0) H=800 RotRad=0 Style="VNTIMEH" Text="0.20"
+  [380] TEXT (Model) | Layer="M-MVAC-Copper Pipe" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(67288.38, 32645.06, 0) AlignPos=(67288.38, 33045.06, 0) H=800 RotRad=0 Style="VNTIMEH" Text="0.20"
+  [381] TEXT (Model) | Layer="M-MVAC-AC Drain" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(67288.38, 30766.99, 0) AlignPos=(67288.38, 31166.99, 0) H=800 RotRad=0 Style="VNTIMEH" Text="0.20"
+  [382] TEXT (Model) | Layer="M-MVAC-DIM" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(67288.4, 25132.81, 0) AlignPos=(67288.4, 25532.81, 0) H=800 RotRad=0 Style="VNTIMEH" Text="0.05"
+  [383] TEXT (Model) | Layer="M-MVAC-TEXT" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(67288.41, 23254.75, 0) AlignPos=(67288.41, 23654.75, 0) H=800 RotRad=0 Style="VNTIMEH" Text="0.10"
+  [384] TEXT (Model) | Layer="M-MVAC-Equipment" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(67270.3, 28888.93, 0) AlignPos=(67270.29, 29288.93, 0) H=800 RotRad=0 Style="VNTIMEH" Text="0.10"
+  [385] TEXT (Model) | Layer="M-MVAC-Support" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(67252.22, 27024.13, 0) AlignPos=(67252.21, 27424.13, 0) H=800 RotRad=0 Style="VNTIMEH" Text="0.10"
+  [386] TEXT (Model) | Layer="M-MVAC-EAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(72451.78, 43913.43, 0) AlignPos=(72451.78, 44313.43, 0) H=800 RotRad=0 Style="VNTIMEH" Text="80"
+  [387] TEXT (Model) | Layer="M-MVAC-SEAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(49605.04, 34523.12, 0) AlignPos=(49605.04, 34923.12, 0) H=800 RotRad=0 Style="VNTIMEH" Text="SEAD"
+  [388] TEXT (Model) | Layer="M-MVAC-SEAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(67288.37, 34522.5, 0) AlignPos=(67288.37, 34922.5, 0) H=800 RotRad=0 Style="VNTIMEH" Text="0.20"
+  [389] LINE (Model) | Layer="M-MVAC-FAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Start=(57454.56, 42477.25, 0) End=(65479.37, 42477.25, 0)
+  [38A] LINE (Model) | Layer="M-MVAC-PAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Start=(57454.56, 40583.54, 0) End=(65479.37, 40583.54, 0)
+  [38B] LINE (Model) | Layer="M-MVAC-CEAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Start=(57454.56, 38761.34, 0) End=(65479.37, 38761.34, 0)
+  [38C] LINE (Model) | Layer="M-MVAC-CSAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Start=(57454.56, 36853.79, 0) End=(65479.37, 36853.79, 0)
+  [38D] LINE (Model) | Layer="M-MVAC-SEAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Start=(57454.56, 34977.55, 0) End=(65479.36, 34977.55, 0)
+  [38E] LINE (Model) | Layer="M-MVAC-Copper Pipe" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Start=(57454.56, 33093.17, 0) End=(65479.37, 33093.17, 0)
+  [38F] LINE (Model) | Layer="M-MVAC-AC Drain" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Start=(57454.56, 31175.39, 0) End=(65479.37, 31175.39, 0)
+  [390] TEXT (Model) | Layer="M-MVAC-FAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(72390.03, 42024, 0) AlignPos=(72390.03, 42424, 0) H=800 RotRad=0 Style="VNTIMEH" Text="150"
+  [391] TEXT (Model) | Layer="M-MVAC-PAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(72390.03, 40150.87, 0) AlignPos=(72390.03, 40550.87, 0) H=800 RotRad=0 Style="VNTIMEH" Text="210"
+  [392] TEXT (Model) | Layer="M-MVAC-CEAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(72390.03, 38279.24, 0) AlignPos=(72390.03, 38679.24, 0) H=800 RotRad=0 Style="VNTIMEH" Text="170"
+  [393] TEXT (Model) | Layer="M-MVAC-TEXT" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(72390.03, 36400.3, 0) AlignPos=(72390.03, 36800.3, 0) H=800 RotRad=0 Style="VNTIMEH" Text="11"
+  [394] TEXT (Model) | Layer="M-MVAC-Copper Pipe" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(72390.03, 32647.52, 0) AlignPos=(72390.03, 33047.52, 0) H=800 RotRad=0 Style="VNTIMEH" Text="12"
+  [395] TEXT (Model) | Layer="M-MVAC-AC Drain" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(72375.81, 30766.99, 0) AlignPos=(72375.81, 31166.99, 0) H=800 RotRad=0 Style="VNTIMEH" Text="72"
+  [396] TEXT (Model) | Layer="M-MVAC-DIM" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(72390.05, 25132.81, 0) AlignPos=(72390.05, 25532.81, 0) H=800 RotRad=0 Style="VNTIMEH" Text="97"
+  [397] TEXT (Model) | Layer="M-MVAC-TEXT" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(72828.37, 23254.75, 0) AlignPos=(72828.36, 23654.75, 0) H=800 RotRad=0 Style="VNTIMEH" Text="2"
+  [398] TEXT (Model) | Layer="M-MVAC-Equipment" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(72371.95, 28888.93, 0) AlignPos=(72371.94, 29288.93, 0) H=800 RotRad=0 Style="VNTIMEH" Text="47"
+  [399] TEXT (Model) | Layer="M-MVAC-Support" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(72353.87, 27010.87, 0) AlignPos=(72353.86, 27410.87, 0) H=800 RotRad=0 Style="VNTIMEH" Text="42"
+  [39A] TEXT (Model) | Layer="M-MVAC-SEAD" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(72390.02, 34522.5, 0) AlignPos=(72390.02, 34922.5, 0) H=800 RotRad=0 Style="VNTIMEH" Text="190"
+  [39B] TEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(41416.17, 33380.56, 0) AlignPos=(0, 0, 0) H=800 RotRad=0 Style="VNTIMEH" Text="%%UMVAC"
+  [39C] TEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(51396, 46964.07, 0) AlignPos=(0, 0, 0) H=960 RotRad=0 Style="VNTIMEH" Text="(QUY §ÞNH VÒ §ÆT LíP B¶N VÏ)"
+  [39D] TEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(71158.74, 47238.36, 0) AlignPos=(0, 0, 0) H=960 RotRad=0 Style="VNTIMEH" Text="(MµU)"
+  [39E] TEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(40371.32, 47192.64, 0) AlignPos=(0, 0, 0) H=960 RotRad=0 Style="VNTIMEH" Text="(Ký HIÖU)"
+  [39F] TEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(21667.67, 47055.5, 0) AlignPos=(0, 0, 0) H=960 RotRad=0 Style="VNTIMEH" Text="(HÖ THèNG)"
+  [3A0] TEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(15136.11, 33380.56, 0) AlignPos=(0, 0, 0) H=800 RotRad=0 Style="VNTIMEH" Text="%%UAIR CONDITIONAL SYSTEM & VENTILATION SYSTEM"
+  [3A1] TEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(17170.66, 31854.92, 0) AlignPos=(0, 0, 0) H=800 RotRad=0 Style="VNTIMEH" Text="(HÖ THèNG §IÒU HßA & TH¤NG GIã)"
+  [3A2] LINE (Model) | Layer="M-MVAC-Equipment" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Start=(57454.56, 29257.61, 0) End=(65479.37, 29257.61, 0)
+  [3A3] LINE (Model) | Layer="M-MVAC-Support" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Start=(57454.56, 27443.97, 0) End=(65479.37, 27443.97, 0)
+  [3E4] LINE (Model) | Layer="0" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Start=(10308.86, 21337.37, 0) End=(111283.06, 21337.37, 0)
+  [3E5] LINE (Model) | Layer="0" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Start=(10308.86, 941.36, 0) End=(111283.06, 941.36, 0)
+  [41E] TEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(84781.63, 49076.78, 0) AlignPos=(0, 0, 0) H=960 RotRad=0 Style="VNTIMEH" Text="%%UITEM"
+  [41F] TEXT (Model) | Layer="ZZ" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(76377, 41915.37, 0) AlignPos=(76377, 42315.37, 0) H=800 RotRad=0 Style="VNTIMEH" Text="FRESH AIR DUCT/ ®­êng èng giã t­¬i"
+  [420] TEXT (Model) | Layer="ZZ" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(76376.97, 40037.3, 0) AlignPos=(76376.97, 40437.3, 0) H=800 RotRad=0 Style="VNTIMEH" Text="PRESSURIZATION AIR DUCT/ èNG GIã T¹O ¸P"
+  [421] TEXT (Model) | Layer="ZZ" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(76376.98, 38159.24, 0) AlignPos=(76376.98, 38559.24, 0) H=800 RotRad=0 Style="VNTIMEH" Text="CAR EXHAUST AIR DUCT/ ®­êng èng giã th¶i nhµ xe"
+  [422] TEXT (Model) | Layer="ZZ" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(76376.99, 36281.18, 0) AlignPos=(76376.98, 36681.18, 0) H=800 RotRad=0 Style="VNTIMEH" Text="CAR SUPPLY AIR DUCT/ ®­êng èng giã cÊp nhµ xe"
+  [423] TEXT (Model) | Layer="ZZ" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(76391.52, 43793.43, 0) AlignPos=(76391.52, 44193.43, 0) H=800 RotRad=0 Style="VNTIMEH" Text="EXHAUST AIR DUCT/ ®­êng èng giã th¶i"
+  [424] TEXT (Model) | Layer="ZZ" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(76376.99, 32525.06, 0) AlignPos=(76376.98, 32925.06, 0) H=800 RotRad=0 Style="VNTIMEH" Text="COPPER PIPE/ ®­êng èng ®ång"
+  [425] TEXT (Model) | Layer="ZZ" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(76376.99, 30646.99, 0) AlignPos=(76376.98, 31046.99, 0) H=800 RotRad=0 Style="VNTIMEH" Text="DRAIN FOR AIR CONDITIONER/ ®­êng èng n­íc ng­ng ®iÒu hßa"
+  [426] TEXT (Model) | Layer="ZZ" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(76377.01, 25012.81, 0) AlignPos=(76377.01, 25412.81, 0) H=800 RotRad=0 Style="VNTIMEH" Text="DIMENSION / KÝCH TH¦íC"
+  [427] TEXT (Model) | Layer="ZZ" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(76358.91, 28768.93, 0) AlignPos=(76358.9, 29168.93, 0) H=800 RotRad=0 Style="VNTIMEH" Text="EQUIPMENT / thiÕt bÞ"
+  [428] TEXT (Model) | Layer="ZZ" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(76340.82, 26890.87, 0) AlignPos=(76340.82, 27290.87, 0) H=800 RotRad=0 Style="VNTIMEH" Text="SUPPORT / GI¸ §ì"
+  [429] TEXT (Model) | Layer="ZZ" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(76388.86, 23134.75, 0) AlignPos=(76388.86, 23534.75, 0) H=800 RotRad=0 Style="VNTIMEH" Text="TEXT / CH÷ VIÕT"
+  [42A] TEXT (Model) | Layer="ZZ" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(76376.98, 34403.12, 0) AlignPos=(76376.98, 34803.12, 0) H=800 RotRad=0 Style="VNTIMEH" Text="SMOKE EXHAUST AID DUCT/ ®­êng èng hót khãi"
+  [42B] TEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(83169.24, 47329.79, 0) AlignPos=(0, 0, 0) H=960 RotRad=0 Style="VNTIMEH" Text="(H¹NG MôC)"
+  [458] LWPOLYLINE (Model) | Layer="0" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Flags=0 ConstWidth=0 Verts=[ V(46787.4, 941.36) V(46787.4, 50872.29) V(38425.69, 50872.29) V(38425.69, 941.36)]
+  [459] LWPOLYLINE (Model) | Layer="0" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Flags=0 ConstWidth=0 Verts=[ V(75376.85, 941.36) V(75376.85, 50872.29) V(70079.67, 50872.29) V(70079.67, 941.36)]
+  [45A] LWPOLYLINE (Model) | Layer="0" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Flags=0 ConstWidth=0 Verts=[ V(111283.06, 50872.29) V(111283.06, 941.36)]
+  [45B] LWPOLYLINE (Model) | Layer="0" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Flags=1 ConstWidth=0 Verts=[ V(10308.86, 46253) V(111283.06, 46253) V(111283.06, 941.36) V(10308.86, 941.36)]
+  [4A4] MTEXT (Model) | Layer="M-MVAC-TEXT" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(68156.72, -18534.44, 0) H=800 Width=811.308 Style="VNTIMEH" Text="SEAD-1700x500"
+  [4A5] MTEXT (Model) | Layer="M-MVAC-TEXT" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Pos=(68156.72, -19916.69, 0) H=800 Width=885.063 Style="VNTIMEH" Text="BOD=FFL+2500"
+  [4A6] TEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(50055.4, -14938.67, 0) AlignPos=(0, 0, 0) H=800 RotRad=0 Style="VNTIMEH" Text="Ký HIÖU  HÖ THèNG èNG GIã"
+  [4D6] LEADER (Model) | Layer="CLOUND" | ACI=1 | LT="ByLayer" | LW=ByLayer | LeaderPts=[(69110.81, -18266.47, 0) (69110.81, -14639.51, 0) (62066.99, -14639.51, 0)]
+  [4D7] LEADER (Model) | Layer="CLOUND" | ACI=1 | LT="ByLayer" | LW=ByLayer | LeaderPts=[(72611.34, -18276.69, 0) (72611.34, -14644.56, 0) (79427.18, -14644.56, 0)]
+  [4D8] TEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(80210.05, -14938.67, 0) AlignPos=(0, 0, 0) H=800 RotRad=0 Style="VNTIMEH" Text="KÝCH TH¦íC èNG GIã W=1700"
+  [4D9] MTEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(89017.2, -15287.4, 0) H=800 Width=4332.933 Style="VNTIMEH" Text="H=500"
+  [4DB] TEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(43701.55, -25000.63, 0) AlignPos=(0, 0, 0) H=800 RotRad=0 Style="VNTIMEH" Text="CAO §é §¸Y èNG GIã SO VíI SµN HOµN THIÖN"
+  [4DC] LEADER (Model) | Layer="CLOUND" | ACI=1 | LT="ByLayer" | LW=ByLayer | LeaderPts=[(69110.81, -20937.71, 0) (69110.81, -24564.67, 0) (62066.99, -24564.67, 0)]
+  [4DD] TEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(80410.94, -25000.63, 0) AlignPos=(0, 0, 0) H=800 RotRad=0 Style="VNTIMEH" Text="CAO §é §¸Y èNG GIã SO VíI SµN HOµN THIÖN CAO 2500 MM"
+  [4DE] LEADER (Model) | Layer="CLOUND" | ACI=1 | LT="ByLayer" | LW=ByLayer | LeaderPts=[(73127.39, -20937.71, 0) (73127.39, -24564.67, 0) (80171.21, -24564.67, 0)]
+  [4DF] LWPOLYLINE (Model) | Layer="0" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Flags=1 ConstWidth=0 Verts=[ V(10308.86, -9173.32) V(111283.06, -9173.32) V(111283.06, -29569.34) V(10308.86, -29569.34)]
+  [4E0] LINE (Model) | Layer="0" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Start=(38425.69, -9173.32, 0) End=(38425.69, -29569.34, 0)
+  [4E8] TEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(19355.86, -19051.79, 0) AlignPos=(0, 0, 0) H=800 RotRad=0 Style="VNTIMEH" Text="VÝ Dô C¸CH §äC"
+  [4E9] LWPOLYLINE (Model) | Layer="0" | ACI=ByLayer | LT="ByLayer" | LW=ByLayer | Flags=1 ConstWidth=0 Verts=[ V(111283.06, -4554.04) V(10308.86, -4554.04) V(10308.86, -9173.32) V(111283.06, -9173.32)]
+  [4EB] TEXT (Model) | Layer="KD-1-3000" | ACI=2 | LT="ByLayer" | LW=ByLayer | Pos=(51396, -7458.77, 0) AlignPos=(0, 0, 0) H=960 RotRad=0 Style="VNTIMEH" Text="QUY T¾C §äC TH¤NG Sè èNG GIã"
+
+=== EXTSPEC COMPLETED ===
+
+Command:
+Command: QUIT
+Y
+Really want to discard all changes to drawing? <N> Y
+
+LogFilePath has been restored to ''.

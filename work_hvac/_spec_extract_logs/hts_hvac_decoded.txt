@@ -1,0 +1,270 @@
+﻿[UTF8][QUETPK] CDBG | HTS_VER | HTS_DCTOG | HTSDOIKTOG | HTS_DUCTEDIT | QUETPK | DIMOG | VTOG | HG3T8K2X | VETEETHANG | HG5T2K9X | VETEERENHANH | HG7T4M2X | VECUTVUONG | HG9T6Q3X | VECUTTRON | HG1R5T8X | CUTOG | 
+[UTF8][QUETPK] ại {0} tuyến {1} nối thẳng ống khác cỡ, không có côn | chạy Quét thêm phụ kiện (QUETPK) hoặc sửa tay.": "At {0}, run {1} joins a duct of another size with no reducer | run Add fittings (QUETPK) or fix by hand.",
+  "có ống / phụ kiện nằm trên layer bị khoá | mở khoá 
+[UTF8][QUETPK] t {0}, run {1} joins a duct of another size with no reducer | run Add fittings (QUETPK) or fix by hand.",
+  "có ống / phụ kiện nằm trên layer bị khoá | mở khoá layer rồi làm lại.": "some ducts / fittings are on a locked layer | unlock the layer and try again.",
+  "k
+[UTF8][HG2M8Q7X] PN9Q3M2X | HTSZ45OG | HTSZ45TACH | HG4Q7M2X | HG9K3M2X | HG2M8Q7X | HGNC4V8X | HGNC9T2X | VOZ | GZOG5H3K | OG3D | OGM3D | OG3DHCAD | OG3DVP | HTSYQOG | HTS_DUCTGRIP | HTS_NEPCDBG | HTS_
+[UTF8][HTS_TAGOG] 0j9.Mj\+N)$4IuO!XF3CT|vg;%\+Gq%+Og_qs0l>6}9H!QeBz:eGd'~0\* | HTS_TAGTMC | HTS_TAGOG | HTS_TAGCTN | HTS_TAGPCCC | INMODEL | W | Rf=IVC8qFq!V9btc/Tu~"P0DA(.LE`l6e\,Wb}CZ=rk#C=DLQ{8`)+9LpNUdU~@v\\dAz7{9\*>?nB)\*\+ | HTS_DMBV | HTS_DMBV_CAPNHAT | 
+[UTF8][HTS_TAGOG] eng gio sot trung": "HTS_Mieng gio sot trung",
+  "HTS_TAGCTN": "HTS_TAGCTN",
+  "HTS_TAGOG": "HTS_TAGOG",
+  "HTS_TAGPCCC": "HTS_TAGPCCC",
+  "HTS_TAGTMC": "HTS_TAGTMC",
+  "HTS_TAG_TT": "HTS_TAG_TT",
+  "HTS_VEMC": "HTS_VEMC",
+  "HTS_Van chan lua FD": "HTS_Van chan lua FD"
+[UTF8][HTS_TAGOG] rung": "HTS_Mieng gio sot trung",
+  "HTS_TAGCTN": "HTS_TAGCTN",
+  "HTS_TAGOG": "HTS_TAGOG",
+  "HTS_TAGPCCC": "HTS_TAGPCCC",
+  "HTS_TAGTMC": "HTS_TAGTMC",
+  "HTS_TAG_TT": "HTS_TAG_TT",
+  "HTS_VEMC": "HTS_VEMC",
+  "HTS_Van chan lua FD": "HTS_Van chan lua FD",
+  "HTS_Van 
+[UNI0][HTS_TAGOG]  đổi cỡ / gán lại cao độ thì tag đổi theo; chỉ thay đúng các cụm đó, phần chữ khác giữ nguyên. | OGIOጀHTS_TAGOGᜀTag ống gió | ống gió唁VẼ ỐNG GIÓ / VẼ ỐNG GIÓ TRÒN / ỐNG GIÓ MỀMἁtag-ong-gio.cfg | CapᄀGió cấp:ᜁỐNG GIÓ CẤP | ỐNG CẤP GIÓ LẠNHἁSUPPLY AIR DUCTԀSA | HoiᄀGió hồi:ᜁỐNG GIÓ HỒIἁRETURN AIR DUCTԀRA | TuoiጀGió tươi:ᤁỐNG GIÓ TƯƠI | ỐNG CẤP GIÓ TƯƠIᴁFRESH AIR DUCTԀOA | Th
+[UTF8][HTS_RVOG] 9T6Q3X | VECUTTRON | HG1R5T8X | CUTOG | CUTOGUP | CUTOGDOWN | HTS_RVOG | HTSDIMBLOCK | SmartTAG5 | SmartTAG1 | SmartTAG2 | SmartTAG3 | TG4Q2K9X | SmartTAG6 | SmartTAGDien | CMD_SETUP_LOTUYEN | CMD_SETUP_LOOCAM | 
+[UTF8][HTS_RVOG]  gió xuất từ Revit | vẽ lại thành đốt ống, cút, côn, chân rẽ, van của HTS (lệnh HTS_RVOG) | . | ] | $ | 8,0q | .+ | $ | 8 | $ | 34 | $ | 34 | $ | 0,0,10,0q | # | ._ | $ | $ | 16( | $ | Center= | $ | Center= | # | $ | Center= | .+ | $' | !CHUYỂN ỐNG GIÓ RE
+[UTF8][HTS_RVOG]  gió xuất từ Revit | vẽ lại thành đốt ống, cút, côn, chân rẽ, van của HTS (lệnh HTS_RVOG)": "Window-select a duct plan exported from Revit | redraws it as HTS duct segments, elbows, reducers, takeoffs and dampers (command HTS_RVOG)",
+  "Bản vẽ ống gió **xuất từ Revit*
+[UTF8][HTS_RVOG] edraws it as HTS duct segments, elbows, reducers, takeoffs and dampers (command HTS_RVOG)",
+  "Bản vẽ ống gió **xuất từ Revit** ra DWG bị vỡ vụn (ống là LINE rời, mỗi phụ kiện một block Revit) | **vẽ lại** đúng như lệnh vẽ ống gió của HTS: đốt ống chia đốt chuẩn, cút,
+[UTF8][HTS_DCTOG] G3DVP | HTSYQOG | HTS_DUCTGRIP | HTS_NEPCDBG | HTS_VER | HTS_DCTOG | HTSDOIKTOG | HTS_DUCTEDIT | QUETPK | DIMOG | VTOG | HG3T8K2X | VETEETHANG | HG5T2K9X | VETEERENHANH | HG7T4M2X | VECUTVUONG | 
+[UTF8][HTS_DCTOG] SQUET3DPCCC": "HTSQUET3DPCCC",
+  "HTS_AddinGuard.log": "HTS_AddinGuard.log",
+  "HTS_DCTOG": "HTS_DCTOG",
+  "HTS_DMBV": "HTS_DMBV",
+  "HTS_DMBV_CAPNHAT": "HTS_DMBV_CAPNHAT",
+  "HTS_DonRacNap_{0}.list": "HTS_DonRacNap_{0}.list",
+  "HTS_FLOW: {0} ong, {1} nut, {2} diem xa
+[UTF8][HTS_DCTOG]  "HTSQUET3DPCCC",
+  "HTS_AddinGuard.log": "HTS_AddinGuard.log",
+  "HTS_DCTOG": "HTS_DCTOG",
+  "HTS_DMBV": "HTS_DMBV",
+  "HTS_DMBV_CAPNHAT": "HTS_DMBV_CAPNHAT",
+  "HTS_DonRacNap_{0}.list": "HTS_DonRacNap_{0}.list",
+  "HTS_FLOW: {0} ong, {1} nut, {2} diem xa, i={3}%.": "
+[UNI1][HTS_DCTOG] X | *]\s*H\s*(\d+(?:\.\d+)?)㴀^\s*[DØ]\s*(\d+(?:\.\d+)?)\s*$ | (^|[-_ ])FD($|[-_ ]) | (^|[-_ ])MD($|[-_ ])ጁHTS_DCTOG耀 | 嬀က椁섀甞 | 挀栀준渞栀 | 琀甀礀뼀渞 | 턀渞最 | 最椀 | 崀 | 䌀栀촀渞 | 턀渞最 | 琀栀대渞最 | 欀 | 漀 | 渀最愀渀最 | 挀ꌀ | 琀甀礀뼀渞 | Ⰰ | 瀀栀 | 欀椀윀渞Ⰰ | 栀漀뜀挞 | 焀甀 | 琀 | 挀ꌀ | 挀 | 洞㨀 | Ā | 嬀က椁섀甞 | 挀栀준渞栀 | 琀甀礀뼀渞 | 턀渞最 | 最椀 | 崀 | 䰀휀椞 | ᄀ촁挞 | 洀ꄀ渞最 | 턀渞最㨀 | Ā뮀
+[Điều chỉnh tuyến ống gió] Không có ống gió / phụ kiện ống gió nào trong các đối tượng chọn.脁 | 嬀က椁섀甞 | 挀栀
+[UTF8][HTSDOIKTOG] QOG | HTS_DUCTGRIP | HTS_NEPCDBG | HTS_VER | HTS_DCTOG | HTSDOIKTOG | HTS_DUCTEDIT | QUETPK | DIMOG | VTOG | HG3T8K2X | VETEETHANG | HG5T2K9X | VETEERENHANH | HG7T4M2X | VECUTVUONG | HG9T6Q3X | VECUT
+[UTF8][X8M2QK9A] 7M29 | Q8K2M7A9 | DC7K3M2X | NOD9X2K7M | K8H4M9P2X | X8M2QK9A | AE8K2M9X | 1L2M | BuildDrainageMap | InsertDrainageElev | A2M8Q9KX | PC7Q2M9X | PL4K8M2Q | PV6M2Q8X | PN9Q3M2X | HTSZ45OG | HTSZ
+[UTF8][TEEBR] dSize | get_SelectedSize | set_SelectedSize | get_FileSize | set_FileSize | Btn2ChechSize | teeBranchSize | RibbonItemSize | get_MinimumSize | set_MinimumSize | inSize | gripSize | get_PlotPaperSize | get_PriorSize | set_PriorSize | SetSize | curViewUnitSize | set_ClientSize | set_FontSize | outSize | ge
+[UNI0][TEEBR] tỉ lệ khung nhìn: chọn khung | bảng Properties | Display Locked = Yes. | 3DSOLID洀^.+-(?:TEE01|TEETH02|TEEBR01)-[\d.]+x([\d.]+)(?:-.*)?$䔁^.+-CO-EI-[\d.]+x([\d.]+)(?:-.*)?$老廫 | 䠀吀匀嬀ⴀ开 | 崀 | 㼀 | 匀䄀䜀簀匀䄀䰀簀刀䄀䜀簀刀䄀䰀簀匀䄀䐀簀刀䄀䐀簀匀䰀䐀簀刀䰀䐀簀䔀䄀䜀簀䔀䄀䰀簀䘀䄀䰀 | ⴀ簀帀 | 䠀吀匀嬀ⴀ开 | 崀 | 㼀䴀䜀ⴀ簀䴀䤀嬀䔀였崞一䜀尀猀 | 䜀䤀嬀伀팀崀簀䌀嬀唀 | 崞䄀尀猀 | 䜀䤀嬀伀팀崀簀䐀䤀䘀䘀唀匀䔀刀Ā吹刀嬀伀툀崀一簀嬀ⴀ开 | 崀刀䐀尀戀簀刀伀唀一䐀簀䌀䤀刀䌀Āⵯ | 尀搀 | 㼀㨀尀 | 尀搀 | 㼀 | 砀 | 尀搀 | 㼀㨀尀 | 尀搀 | 㼀 | 㼀㨀ⴀ䰀 | 尀
+[UNI0][TEEBR] ᆁ脑ᄑᆁ | ą脒ም㦁脑ᄑᆁ脑 | Ѐ舒ᆅᆁ | ญ | 茒ᅭᆁ脑ᄑᆁ | ᄁᆁ茒 | Āል涃 | ᄉↁ脒ም榁എ | Ѐሁᶁ脒ᄹᆁ脑 | ሁᶁ脒ᄹᆁ | Ԁሂ၅ဍဍဍญTEETH02 | จഎ | ȍ | ᄊↁ脒ም榁എ | Ȃ | ȇ䔒ဍဍဍဍဍขTEEBR01䌊伀嘀㤀 | ᘀCOCANHHUONG	ฆഎ | ȍ
+งഎ | ȍᄂࠀ脑ሡᶁ脒 | ȍ | Ԁሂ | ഐഐȐ䌌唀吀吀 | ࠀԀฎ | ȍ
+Ȅ䔒ဍဍ | Ѐ蠑ප | Ԁ蠑ප | 轜 | 차 | Ԁሕᦁᄁ뒈 | ဍ | ሕᦁᄁ뒈 | ȍ | ᔄ脒ę蠑ප | Ԁሕᦁᄁ뒈 | ȍഈ | ሕᦁᄁ뒈 | ሕᦁᄁ뒈 | ࠂĠᔁ㴑ȁ | Ą脒ም㦁ᄝᆁ | ሁᶁ脒 | 脑 | Ȁ蠑ᇀ삈蠑 | Ā蠑ᇀ삈	ᄂ삈蠑ව	ᄂ삈ᄍ삈 | 蠑 | 蠑 | (蠑Ӏᄆ삈 | Ă蠑ᇀ삈 | ᄁ삈Ѝᄆ첈ጄ | Ѐ | ᔄ | ᔆ脒ę蠒 | ᔆ脒ę蠒 | ᔆ脒ę蠑߀ᔆ脒ęजᔆ脒ę蠒 | ᔆ脒ę蠒Әሆ | 蠒ېĠᄁ삈 | 蠒Әᄆ | ă | Ђሆ | ᔆ脒ę蠒ৰᔆ
+[UNI1][TEEBR] m thay te thu '䴁
+[CVPIPE-Thu] Khong tim thay con thu '㜁' tai dau phun. Bo qua con.ἁPipeConfig.json㜀"TeeBranchSize"\s*:\s*(\d+) | {
+  "TeeBranchSize": 25
+}㼀
+Đã tạo file cấu hình mẫu tại: 老 | 嬀䌀ꌀ渞栀 | 戀 | 漀崀 | 䰀휀椞 | 琀爀甀礀 | 砀甀ꔀ琞 | 昀椀氀攀 | 挀漀渀昀椀最 | 倀椀瀀攀䌀漀渀昀椀最 | 樀猀漀渀 | က愁渀最 | 搀豈渀最 | 渀栀 | 渀栀 | 吀䔀䔀 | 洀뜀挞 | ᄀ쬁渞栀 | 氀 | 㔀 | 䌀栀椀 | 琀椀뼀琞 | 氀휀椞㨀 | Ā䐏一 | 尀搀 | 嘗椀猀椀戀椀氀椀琀礀 | 匉瀀攀挀 | 匛瀀攀挀䠀嘀䄀䌀 | 樀猀漀渀 | 䬛椀攀甀䌀甀琀伀渀最䜀椀漀 | 䔅䤀 | 䐗漀䰀漀
+[UNI1][TEEBR] ong tim thay con thu '㜁' tai dau phun. Bo qua con.ἁPipeConfig.json㜀"TeeBranchSize"\s*:\s*(\d+) | {
+  "TeeBranchSize": 25
+}㼀
+Đã tạo file cấu hình mẫu tại: 老 | 嬀䌀ꌀ渞栀 | 戀 | 漀崀 | 䰀휀椞 | 琀爀甀礀 | 砀甀ꔀ琞 | 昀椀氀攀 | 挀漀渀昀椀最 | 倀椀瀀攀䌀漀渀昀椀最 | 樀猀漀渀 | က愁渀最 | 搀豈渀最 | 渀栀 | 渀栀 | 吀䔀䔀 | 洀뜀挞 | ᄀ쬁渞栀 | 氀 | 㔀 | 䌀栀椀 | 琀椀뼀琞 | 氀휀椞㨀 | Ā䐏一 | 尀搀 | 嘗椀猀椀戀椀氀椀琀礀 | 匉瀀攀挀 | 匛瀀攀挀䠀嘀䄀䌀 | 樀猀漀渀 | 䬛椀攀甀䌀甀琀伀渀最䜀椀漀 | 䔅䤀 | 䐗漀䰀漀攀䌀栀愀渀刀攀 | 三栀愀瀀 | 弋一䔀倀䌀 | 嬀一뤀瀞 | 䄀唀吀伀崀 | 퀀
+[UNI1][TEEBR] s_\-]*(\d{2,3})\s*$焁^(.+)-(?:COV90|COCANHHUONG)-W([\d.]+)xH([\d.]+)-L[\d.]+$攁^(.+)-(?:TEE01|TEETH02|TEEBR01)-([\d.]+)x([\d.]+)-䄁^(.+)-CUTT01-([\d.]+)x([\d.]+)-R儁^(.+)-CO-(?:UP|DOWN)-([\d.]+)x([\d.]+)-R㤁^(.+)-CO[LX]TR01-D([\d.]+)-R | Ten.ᄀTenThangᄀGhiCaoDoᄀGhiDoDocᄀNganCachᄀCoMuiTenᄀGayNgangᄀKhungChuᄀHeSoRongༀTenMangༀRongTayༀCaoDoMmༀChuThemༀDauPhayᜀTenTrun
+[UTF8][TEETH] d | Rebuild | get_Bold | get_SemiBold | bold | DragThreshold | get_threshold | PlaneToWorld | VeTeeThangCmd | VeCutVuongCmd | VeTeeReNhanhCmd | LibInsertBlockCmd | VeCutTronCmd | VeTeeOngGioCmd | VeTeeThangOngGioCmd | VeCutVuongOngGioCmd | VeTeeReNhanhOngGioCmd | VeCutTronOngGioCmd | DrawCopperPipesC
+[UTF8][TEETH] d | VeCutVuongCmd | VeTeeReNhanhCmd | LibInsertBlockCmd | VeCutTronCmd | VeTeeOngGioCmd | VeTeeThangOngGioCmd | VeCutVuongOngGioCmd | VeTeeReNhanhOngGioCmd | VeCutTronOngGioCmd | DrawCopperPipesCmd | AddPointsToSocketCmd | cmd | \0Rz!#s0e0,FrO\ZAOW~F|md | get_End | set_End | attachedEnd | SequenceE
+[UTF8][TEETH]  | HTS_DUCTEDIT | QUETPK | DIMOG | VTOG | HG3T8K2X | VETEETHANG | HG5T2K9X | VETEERENHANH | HG7T4M2X | VECUTVUONG | HG9T6Q3X | VECUTTRON | HG1R5T8X | CUTOG | CUTOGUP | CUTOGDOWN | HTS_RVOG | HTSDIMBLO
+[UNI0][TEETH] ốn khoá tỉ lệ khung nhìn: chọn khung | bảng Properties | Display Locked = Yes. | 3DSOLID洀^.+-(?:TEE01|TEETH02|TEEBR01)-[\d.]+x([\d.]+)(?:-.*)?$䔁^.+-CO-EI-[\d.]+x([\d.]+)(?:-.*)?$老廫 | 䠀吀匀嬀ⴀ开 | 崀 | 㼀 | 匀䄀䜀簀匀䄀䰀簀刀䄀䜀簀刀䄀䰀簀匀䄀䐀簀刀䄀䐀簀匀䰀䐀簀刀䰀䐀簀䔀䄀䜀簀䔀䄀䰀簀䘀䄀䰀 | ⴀ簀帀 | 䠀吀匀嬀ⴀ开 | 崀 | 㼀䴀䜀ⴀ簀䴀䤀嬀䔀였崞一䜀尀猀 | 䜀䤀嬀伀팀崀簀䌀嬀唀 | 崞䄀尀猀 | 䜀䤀嬀伀팀崀簀䐀䤀䘀䘀唀匀䔀刀Ā吹刀嬀伀툀崀一簀嬀ⴀ开 | 崀刀䐀尀戀簀刀伀唀一䐀簀䌀䤀刀䌀Āⵯ | 尀搀 | 㼀㨀尀 | 尀搀 | 㼀 | 砀 | 尀搀 | 㼀㨀尀 | 尀搀 | 㼀
+[UNI0][TEETH] Ġል䶁 | ᔁ脒ę脑ሑ䶁 | ሁ榃 | Āሎ榃 | 舒 | 脑ሡᶁ脒 | ข | 脑ᄑᆁ脑ᄑᆁ | ą脒ም㦁脑ᄑᆁ脑 | Ѐ舒ᆅᆁ | ญ | 茒ᅭᆁ脑ᄑᆁ | ᄁᆁ茒 | Āል涃 | ᄉↁ脒ም榁എ | Ѐሁᶁ脒ᄹᆁ脑 | ሁᶁ脒ᄹᆁ | Ԁሂ၅ဍဍဍญTEETH02 | จഎ | ȍ | ᄊↁ脒ም榁എ | Ȃ | ȇ䔒ဍဍဍဍဍขTEEBR01䌊伀嘀㤀 | ᘀCOCANHHUONG	ฆഎ | ȍ
+งഎ | ȍᄂࠀ脑ሡᶁ脒 | ȍ | Ԁሂ | ഐഐȐ䌌唀吀吀 | ࠀԀฎ | ȍ
+Ȅ䔒ဍဍ | Ѐ蠑ප | Ԁ蠑ප | 轜 | 차 | Ԁሕᦁᄁ뒈 | ဍ | ሕᦁᄁ뒈 | ȍ | ᔄ脒ę蠑ප | Ԁሕᦁᄁ뒈 | ȍഈ | ሕᦁᄁ뒈 | ሕᦁᄁ뒈 | ࠂĠᔁ㴑ȁ | Ą脒ም㦁ᄝᆁ | ሁᶁ脒 | 脑 | Ȁ蠑ᇀ삈蠑 | Ā蠑ᇀ삈	ᄂ삈蠑ව	ᄂ삈ᄍ삈 | 蠑 | 蠑 | (蠑Ӏᄆ삈 | Ă蠑ᇀ삈 | ᄁ삈Ѝᄆ첈ጄ | Ѐ | ᔄ | ᔆ脒ę蠒 | ᔆ脒ę蠒 | ᔆ脒ę蠑߀ᔆ脒ęजᔆ脒ę蠒 | 
+[UNI1][TEETH] -9])DN[\s_\-]*(\d{2,3})\s*$焁^(.+)-(?:COV90|COCANHHUONG)-W([\d.]+)xH([\d.]+)-L[\d.]+$攁^(.+)-(?:TEE01|TEETH02|TEEBR01)-([\d.]+)x([\d.]+)-䄁^(.+)-CUTT01-([\d.]+)x([\d.]+)-R儁^(.+)-CO-(?:UP|DOWN)-([\d.]+)x([\d.]+)-R㤁^(.+)-CO[LX]TR01-D([\d.]+)-R | Ten.ᄀTenThangᄀGhiCaoDoᄀGhiDoDocᄀNganCachᄀCoMuiTenᄀGayNgangᄀKhungChuᄀHeSoRongༀTenMangༀRongTayༀCaoDoMmༀChuThemༀDauPhay
+[UTF8][NMC1] 1 | )4Z|Ud#Zkab)Q#l7j(OAg&Jc1 | %~6goB@iev##ZtzAU|CFK/Kc1 | TMNBbxT/xq7kyeo"y's@EyZc1 | Nmc1 | ,)C5j@XFv0)/n"5cw/>3`sc1 | _?,_9JY"{x=/?+P/t~y|<Zuc1 | &`R'|j(Gf(~jrdM$d9nFsK$d1 | j>+eug,!_|{adk"OWN=D6<'d1 | B59Jl#uTazdIVq2^"Ha>1D(d1 | BOJz@8d2@3?GxuwHXRYS_B*d1 | 6f1f#d8?Es<DUdQ"t5~@y#1d
+[UTF8][NMC1]  | HTSG | HTSNOIDAU | NO | HTSNOINHANH | TRUCOG | NMC1 | NMC2 | NMC3 | NMH1 | NMH2 | NMH3 | SAGTD | SAGTDCN | SALTD | SALTDCN | RAGTD | RAGTDCN | RALT
+[UTF8][NMC1] # | [ | ! | $ | 52 | $ | 1,0q | # | $E | ?Ống gió mềm CẤP | bịt tròn hai đầu. Lệnh: NMC1 | . | $ | Center= | .+ | $ | 42 | $ | 22 | .+ | F | #4CAF50$ | 1.4 | @KL | @KL | @ | 4 | @KL | @KL | @f | @ | 4 | @f | ا | @KL | ا | @f | @w | [ | @f | @KL | @f | @f | 
+[UTF8][NMC1]  | [ | @KL | @KL | @KL | @f | @w | [ | @ | 4 | @KL | @ | 4 | @f | @w | [ | $ | NMC1 | #4CAF50$ | 9( | $ | Bold" | 3 | TextAlignment$ | 3 | Center= | $ | 0,1,0,0q | -| | # | [ | ! | $ | 52 | $ | 1,0q | # | $J | DỐng gió mềm CẤP | đầu cuối cắt phẳng. Lệnh: NM
+[UTF8][NMC1] HIỆT THƯỜNG": "CONV. HEAT",
+  "NHIỆT Đ.CHỈ": "ADDR. HEAT",
+  "NHO": "LOWER",
+  "NMC1": "NMC1",
+  "NMC2": "NMC2",
+  "NMC3": "NMC3",
+  "NMH1": "NMH1",
+  "NMH2": "NMH2",
+  "NMH3": "NMH3",
+  "NO": "NO",
+  "NOD9X2K7M": "NOD9X2K7M",
+  "NOI 2 DAU ONG: bam gan dau ong thu
+[UTF8][NMC1] ỜNG": "CONV. HEAT",
+  "NHIỆT Đ.CHỈ": "ADDR. HEAT",
+  "NHO": "LOWER",
+  "NMC1": "NMC1",
+  "NMC2": "NMC2",
+  "NMC3": "NMC3",
+  "NMH1": "NMH1",
+  "NMH2": "NMH2",
+  "NMH3": "NMH3",
+  "NO": "NO",
+  "NOD9X2K7M": "NOD9X2K7M",
+  "NOI 2 DAU ONG: bam gan dau ong thu nhat, r
+[UTF8][NMC1] 
+  "Ống gió mềm": "Flexible duct",
+  "Ống gió mềm CẤP | bịt tròn hai đầu. Lệnh: NMC1": "SUPPLY flexible duct | rounded caps at both ends. Command: NMC1",
+  "Ống gió mềm CẤP | đầu cuối cắt phẳng. Lệnh: NMC2": "SUPPLY flexible duct | end cut flat. Command: NMC2",
+  
+[UTF8][NMC1] i đầu. Lệnh: NMC1": "SUPPLY flexible duct | rounded caps at both ends. Command: NMC1",
+  "Ống gió mềm CẤP | đầu cuối cắt phẳng. Lệnh: NMC2": "SUPPLY flexible duct | end cut flat. Command: NMC2",
+  "Ống gió mềm CẤP | đầu đầu bo tròn kín. Lệnh: NMC3": "SUPPLY flexib
+[UTF8][NMH1] 1 | gJ+CF&4\v--c${>\GV2A(}Oh1 | /R"_$kI94FKO,Qo_2{@&LXPh1 | JZn;xTUZq-+24|l1-)330aRh1 | Nmh1 | angChinh1 | entChinh1 | MxQC7dp1g}0w5dFBFLH=/E3i1 | +E:bI=w1+hKmFyMwoPYV_BBi1 | jPw8FjpBuYBfN9>qt<<H(Ci1 | 4>k_RWGUim3I)|HfE!8u)_Hi1 | jH77hd@>FQ"\>!qCh5IL):Ji1 | yDai1 | rbMangCapLoai1 | vi1 | @&Q'n
+[UTF8][NMH1]  | HTSNOINHANH | TRUCOG | NMC1 | NMC2 | NMC3 | NMH1 | NMH2 | NMH3 | SAGTD | SAGTDCN | SALTD | SALTDCN | RAGTD | RAGTDCN | RALTN | RALTNCN | RAG | R
+[UTF8][NMH1] # | [ | ! | $ | 52 | $ | 1,0q | # | $E | ?Ống gió mềm HỒI | bịt tròn hai đầu. Lệnh: NMH1 | . | $ | Center= | .+ | $ | 42 | $ | 22 | .+ | F | #FF4081$ | 1.4 | @KL | @KL | @ | 4 | @KL | @KL | @f | @ | 4 | @f | ا | @KL | ا | @f | @w | [ | @f | @KL | @f | @f | 
+[UTF8][NMH1]  | [ | @KL | @KL | @KL | @f | @w | [ | @ | 4 | @KL | @ | 4 | @f | @w | [ | $ | NMH1 | #FF4081$ | 9( | $ | Bold" | $ | 3 | Center= | $ | 0,1,0,0q | - | # | [ | ! | $ | 52 | $ | 1,0q | # | $J | DỐng gió mềm HỒI | đầu cuối cắt phẳng. Lệnh: NMH2 | . | $ | Cente
+[UTF8][NMH1] AT",
+  "NHO": "LOWER",
+  "NMC1": "NMC1",
+  "NMC2": "NMC2",
+  "NMC3": "NMC3",
+  "NMH1": "NMH1",
+  "NMH2": "NMH2",
+  "NMH3": "NMH3",
+  "NO": "NO",
+  "NOD9X2K7M": "NOD9X2K7M",
+  "NOI 2 DAU ONG: bam gan dau ong thu nhat, roi bam gan dau ong thu hai. Cung co + goc 90 d
+[UTF8][NMH1] NHO": "LOWER",
+  "NMC1": "NMC1",
+  "NMC2": "NMC2",
+  "NMC3": "NMC3",
+  "NMH1": "NMH1",
+  "NMH2": "NMH2",
+  "NMH3": "NMH3",
+  "NO": "NO",
+  "NOD9X2K7M": "NOD9X2K7M",
+  "NOI 2 DAU ONG: bam gan dau ong thu nhat, roi bam gan dau ong thu hai. Cung co + goc 90 do -> cut
+[UTF8][NMH1] ounded and closed. Command: NMC3",
+  "Ống gió mềm HỒI | bịt tròn hai đầu. Lệnh: NMH1": "RETURN flexible duct | rounded caps at both ends. Command: NMH1",
+  "Ống gió mềm HỒI | đầu cuối cắt phẳng. Lệnh: NMH2": "RETURN flexible duct | end cut flat. Command: NMH2",
+  
+[UTF8][NMH1] i đầu. Lệnh: NMH1": "RETURN flexible duct | rounded caps at both ends. Command: NMH1",
+  "Ống gió mềm HỒI | đầu cuối cắt phẳng. Lệnh: NMH2": "RETURN flexible duct | end cut flat. Command: NMH2",
+  "Ống gió mềm HỒI | đầu đầu bo tròn kín. Lệnh: NMH3": "RETURN flexib
+[UTF8][Quét phụ kiện] mô hình cần tạo SectionBox:": "Window-select the model for the SectionBox:",
+  "Quét phụ kiện": "Scan fittings",
+  "Quét phụ kiện máng": "Scan tray fittings",
+  "Quét thêm phụ kiện": "Scan & add fittings",
+  "Quét thư viện block trong ProgramData và Roaming. Trong cùng một
+[UTF8][Quét phụ kiện] w-select the model for the SectionBox:",
+  "Quét phụ kiện": "Scan fittings",
+  "Quét phụ kiện máng": "Scan tray fittings",
+  "Quét thêm phụ kiện": "Scan & add fittings",
+  "Quét thư viện block trong ProgramData và Roaming. Trong cùng một bundle, block trùng tên nào có bản 
+[UTF8][côn thu]  | 1q | #22FFFFFF | #220F2D1B._ | - | $ | 91 | $ | 69 | # | [ | $ | ! | Côn thu (PPR) | . | $ | Center= | .+ | $ | 32 | $ | 32 | $ | 7 | #FFFFFFFF$ | 0,0,0,4q | ._ | IconConCN# | [ | $ | Uniform= | $ | 3q | $ | CÔN | $ | 10( | $ | Bold" | 
+[UTF8][côn thu]  | $
+" | Loai | # | [ | $ | Chữ thập | - | $ | ! | rdCon | $
+" | Loai | # | [ | $ | Côn thu | - | $	! | rdZ | $
+" | Loai | # | [ | $ | Đổi cao độ Z | - | $ | ! | rdCutLen | $
+" | Loai | # | [ | $ | Cút lên | - | $ | ! | rdCutXuong | $
+" | Loai | # | [ | $ | Cút xuống | 
+[UTF8][côn thu]  | 1q | #22FFFFFF | #220F2438._ | - | $ | 91 | $ | 69 | # | [ | $5! | /Côn thu HDPE | HTS-RED-D{lớn}x{nhỏ} HDPE | . | $ | Center= | .+ | $ | 32 | $ | 32 | $ | 7 | #FFFFFFFF$ | 0,0,0,4q | ._ | IconConThuHDPE# | [ | $ | 3q | $ | CÔN THU | 
+[UTF8][côn thu]  | #FFFFFFFF$ | 0,0,0,4q | ._ | IconConThuHDPE# | [ | $ | 3q | $ | CÔN THU | $ | 9( | $ | Bold" | $ | Center= | $ | 4,0q | $ | 11 | $ | 1q | #22FFFFFF | #220F2438._ | - | $ | 91 | $ | 69 | # | [ | $X! | RNắp bịt HDPE | HTS-CAP-{
+[UTF8][côn thu]  | 1q | #22FFFFFF | #222D0F0A._ | - | $ | 91 | $ | 69 | # | [ | $ | ! | Côn thu (PCCC) | . | $ | Center= | .+ | $ | 32 | $ | 32 | $ | 7 | #FFFFFFFF$ | 0,0,0,4q | ._ | IconConPCCC# | [ | $ | Uniform= | $ | 3q | $ | CÔN | $ | 10( | $ | Bold"
+[UTF8][côn thu]  | 1q | #22FFFFFF | #220F1B2D._ | - | $ | 91 | $ | 69 | # | [ | $ | ! | Côn thu (uPVC) | . | $ | Center= | .+ | $ | 32 | $ | 32 | $ | 7 | #FFFFFFFF$ | 0,0,0,4q | ._ | IconConThu# | [ | $ | Uniform= | $ | 3q | $ | CÔN THU | $ | 10( | $ | Bo
+[UTF8][côn thu] FFFF$ | 0,0,0,4q | ._ | IconConThu# | [ | $ | Uniform= | $ | 3q | $ | CÔN THU | $ | 10( | $ | Bold" | $ | Center= | $ | 4,0q | $ | 11 | $ | 1q | #22FFFFFF | #220F1B2D._ | - | $ | 91 | $ | 69 | # | [ | $ | ! | Tê (uPVC) | . | $ | 
+[UTF8][côn thu] chthuocong | $s | mKích thước ống. Đổi ô này KHI ĐANG VẼ = đổi cỡ ống giữa chừng, côn thu tự đặt. | # | [ | ] | $ | 0,6,0,0q | .+ | # | $ | 4 | $ | 6,3q | $ | 0,0,8,0q | $ | Center= | $0 | *Cao độ ống theo đơn vị bản vẽ | ._ | $ | CAO ĐỘ | # | # | # | -
+[UNI0][côn thu] 1={3}, L2={4}, R1={5} 㜁
+Đường kính ống (D) [{0}]: | Chiều rộng (W) [{0}]: ⴁ
+Chiều cao (H) [{0}]: 甁
+[Côn thu] Ống cũ {0} khác cỡ đang đặt {1} | chèn côn nối. | Canᴀ
+Chiều dài cônԁBo夀
+  Bỏ chèn côn | vẽ tiếp theo cỡ ống cũ {0}.䄁
+Chuyển thành ống [Vuong/Tron] < | Vuong | Tron | >: | Nhập D Mới [{0}]: | Nhập W Mới [{0}]: | Nhập H Mới [{0}]: 㬁
+Chiều dài Côn/Phụ kiện (
+[UNI0][côn thu] 0ༀ{W}x{H}ጀW{W}xH{H}ጀ{W}x{H}mmጀ{W} x {H}ጀ({W}x{H})ᜀW{W} x H{H}紀Đọc R | C (mm) theo tên block đã vẽ | côn thu ghi 300/200x100.ᔁCĐ ĐÁY xxx | CĐ: xxx | BOT xxxᜀBOT. EL xxx | H=xxx | Z=xxx | xxx脀 | 鈀 | 뜀 | 鈀 | 넀 | 吀栀攀漀 | 堀䐀愀琀愀㨀 | 挀愀漀 | ᄀ | ᄀ | 礀 | 最 | 渀 | 氀切挀 | 瘀봀 | 䌀䄀伀 | က | က섁夀 | 栀漀뜀挞 | 渀切琀 | 䜀섀一 | 琀栀愀渀最 | 挀栀뀀愁 | 最 | 渀 | 琀栀 | 最栀椀 | 猀턀 | 琀爀턀渞最 | 㴀 | 戀케 | 焀甀愀 | 㬀 | 娀Ⰰ | 挀切琀 | 氀 | 渀 | 砀甀턀渞最 | 氀ꔀ礞 | ᄀ | 甞 | 最 | 渞 | 洀椀椁 | 琀 | 渀
+[UNI1][côn thu]  các cổng nối tiếp xúc khít (dời dx= | , dy= | theo ጀ; chế độ ԁ). | 0.## | Phụ kiện / van / cửa gió | Cút | ༀCôn thu | đứng (cụm cút 45 | )㔁Ống xiên 45 | (cụm cút 45 | )ᄁCút 45 | Z đổi cao độ / đổi trục | Chân rẽԁTêༀBịt đầu | Ống gió䔁Đã nhận diện TUYẾN ỐNG GIÓ THẲNG: ἁ ống nối liền, 老ₓ瀀栀 | 欀椀윀渞 | 渀턀椞 | 琀栀대渞最 | 欀 | 漀 | 挀ꌀ | 琀甀礀뼀渞 | 瘀甀 | 渀最 | 最 | 挀 | 瀀栀 | 洀 | 䬀 | 㴀 | 渀栀관瀞 | 欀栀漀ꌀ渞最 | 挀 | 挀栀 | Āဿ | 渀栀관渞 | 搀椀윀渞 | 瀀栀 | 
+[UNI1][côn thu] tiết diện H [{0}]: | Bước nan S [{0}]: | Cao độ đáy <夁
+Bắt vào đầu thang (cùng W) | kéo dài thang.椁
+Côn thu tại đầu thang - Căn chỉnh [Can/Trai/Phai]: 圁
+Bắt vào đầu thang (khác W) | chèn côn thu.ጁDefpointsᤀHTS-TRUNKINGᜁHTS-MANGCAP企
+=== VẼ MÁNG CÁP ĐỤC LỖ (HTS_VEMCL) ===圁
+Đã chèn Tê từ máng có sẵn | vẽ nhánh tiếp.㬁
+Đã nối vào máng có sẵn (Tê). | Bề rộng mán
+[UNI1][côn thu]  dài thang.椁
+Côn thu tại đầu thang - Căn chỉnh [Can/Trai/Phai]: 圁
+Bắt vào đầu thang (khác W) | chèn côn thu.ጁDefpointsᤀHTS-TRUNKINGᜁHTS-MANGCAP企
+=== VẼ MÁNG CÁP ĐỤC LỖ (HTS_VEMCL) ===圁
+Đã chèn Tê từ máng có sẵn | vẽ nhánh tiếp.㬁
+Đã nối vào máng có sẵn (Tê). | Bề rộng máng W [{0}]: 圁
+Bước nan S (chỉ ghi vào tên block) [{0}]: 唁
+Bắt vào đầu máng (cùng W) | ké
+[UNI1][côn thu] g W [{0}]: 圁
+Bước nan S (chỉ ghi vào tên block) [{0}]: 唁
+Bắt vào đầu máng (cùng W) | kéo dài máng.朁
+Côn thu tại đầu máng - Căn chỉnh [Can/Trai/Phai]: 唁
+Bắt vào đầu máng (khác W) | chèn côn thu.䄁
+=== VẼ THANG CÁP (HTS_VETC) ===ᤁHTS-THANGCAP䔁
+Nhập cao độ Z cho các đối tượng: | MLINEἀMEP_ELEVATION_Z䤀
+Chọn đối tượng để kiểm tra cao độ: 圁
+>> Cao độ Z của đối tư
+[UNI1][côn thu] kéo dài máng.朁
+Côn thu tại đầu máng - Căn chỉnh [Can/Trai/Phai]: 唁
+Bắt vào đầu máng (khác W) | chèn côn thu.䄁
+=== VẼ THANG CÁP (HTS_VETC) ===ᤁHTS-THANGCAP䔁
+Nhập cao độ Z cho các đối tượng: | MLINEἀMEP_ELEVATION_Z䤀
+Chọn đối tượng để kiểm tra cao độ: 圁
+>> Cao độ Z của đối tượng hiện tại là: {0}弁
+>> Đối tượng này chưa được thiết lập cao độ Z.老એ儀甀 | 琀 | 挀栀촀渞 | 挀 | 挀 | 琀
+[UTF8][chân rẽ]  | Quét chọn mặt bằng ống gió xuất từ Revit | vẽ lại thành đốt ống, cút, côn, chân rẽ, van của HTS (lệnh HTS_RVOG) | . | ] | $ | 8,0q | .+ | $ | 8 | $ | 34 | $ | 34 | $ | 0,0,10,0q | # | ._ | $ | $ | 16( | $ | Center= | $ | Center= | # | $ | Center= | .
+[UTF8][chân rẽ] eft= | $ | 48 | # | $u | oQuét chọn các ống gió đã vẽ | tự chèn cút / côn thu / chân rẽ vào chỗ ống chạm nhau | . | ] | $ | 8,0q | .+ | $ | 8 | $ | 34 | $ | 34 | $ | 0,0,10,0q | # | ._ | $ | $ | 16( | $ | Center= | $ | Center= | # | $ | Center= | .+ | $
+[UTF8][chân rẽ]  | QUÉT ĐỂ THÊM PHỤ KIỆN | # | # | # | # | $J | DTự chèn cút / côn thu / chân rẽ vào chỗ ống chạm nhau | # | # | $ | $ | 8 | $ | 5,4,5,4q | # | $ | 1q | # | ._ | - | # | [ | ! | $ | Left= | $ | 48 | # | . | ] | $ | 8,0q | .+ | $ | 8 | $ | 34 | $ | 
+[UTF8][chân rẽ] êu âm cả đoạn ống. Đoạn chồng tiêu âm cũ được gộp. Chọn PHỤ KIỆN (cút, côn, tê, chân rẽ | ) = tiêu âm cả phụ kiện; chọn lại đúng kiểu đang đặt = gỡ. Lệnh: HTS_TIEUAMOG | . | ] | $ | 8,0q | .+ | $ | 8 | $ | 34 | $ | 34 | $ | 0,0,10,0q | # | ._ | ( | $ | 16 | $ | 16 | $ | 
+[UTF8][chân rẽ]  | ! | $ | Left= | $ | 48 | # | $ | Quét chọn nhiều ống gió / cút / côn / tê / chân rẽ | bọc ĐÚNG những cái đã chọn (chọn sẵn rồi bấm cũng được). Chọn lại những cái đã bảo ôn đúng kiểu này là GỠ. Lệnh: HTS_BAOONOG | . | ] | $ | 8,0q | .+ | $ | 8 | $ | 34 | $ | 34 | $
+[UTF8][chân rẽ]  | #FF94A3B8$ | Wrap= | $ | Kéo ống thẳng: dời song song cả tuyến thẳng (cút, chân rẽ trượt theo, ống nối vào tự co giãn) | Kéo phụ kiện: dời phụ kiện | Bấm ống / phụ kiện: chọn tuyến (Ctrl: chọn thêm) | Mũi tên: dời tuyến đang chọn một bước | Ctrl+Z / Ctrl+Y: hoàn
+[UTF8][chân rẽ]  | Bold" | $ | 13( | - | Name$ | LblPhuDe | $0 | *Chọn loại chân rẽ trên thân ống | $ | 9( | #99FFFFFF | - | $ | 2 | $ | 26 | $ | 26 | ! | Cursor$
+! | Hand | $ | 0q | $ | Center= | " | .R | $ | bd | #22FFFFFF
+[UTF8][chân rẽ] 0,8,10q | .+ | - | # | Name$ | # | BtnChanReVuong | # | [ | $ | ToolTip$ | $ | Chân rẽ vuông | . | .+ | #FFECEFF1$ | 6 | $ | 82 | $ | 54 | $ | Center= | ._ | IconChanReVuong# | [ | $ | 76 | $ | 48 | $ | Uniform= | $ | Chân rẽ vuông | $ | 10( | $
+[UNI0][chân rẽ] ống cũ, hoặc TRỤC ống gió): 㔁
+  Vẽ tiếp ống cao độ đáy ⴁ (H = đổi cao độ đáy).ጁVuongTron | Chiều dài chân rẽ (L): | Độ loe chân rẽ [{0}]: | Phai | Trai | ChanRe耀ઓက椁쌀洞 | 琀椀뼀瀞 | 琀栀攀漀 | 嬀䌀ⴀ䌀 | 渀 | 娀ⴀ娀ᄀ | 渞最 | 一ⴀ一最愀渀最 | 吀ⴀ吀 | 䈀ⴀ䈀쬀琞 | 䬀ⴀ䬀栀 | 瀞 | 洀섀洞 | 䠀ⴀ䌀愀漀 | ᄀ | ᄀ | 礀Ā | 唀渀搀漀崀㨀 | 唃 | 䠥吀匀开䈀䔀一䌀䠀开倀伀倀唀倀开伀䜀 | 䌇漀渀 | 娍椀最稀愀挀 | 娍㐀㔀䰀攀渀 | 娑㐀㔀堀甀漀渀最 | 下最愀渀最 | 吅攀 | 䈇椀琀 | 䌇甀琀 | 名爀甀挀伀䜀 | 䈍䰀伀䌀䬀㨀 | 䌕甀琀䰀攀渀吀爀漀渀 | 䌙甀琀堀甀漀渀最吀爀漀渀 | 唉渀搀漀 | 䌀栀 | 挞 | 渀 | 渁
+[UNI0][chân rẽ] gió): 㔁
+  Vẽ tiếp ống cao độ đáy ⴁ (H = đổi cao độ đáy).ጁVuongTron | Chiều dài chân rẽ (L): | Độ loe chân rẽ [{0}]: | Phai | Trai | ChanRe耀ઓက椁쌀洞 | 琀椀뼀瀞 | 琀栀攀漀 | 嬀䌀ⴀ䌀 | 渀 | 娀ⴀ娀ᄀ | 渞最 | 一ⴀ一最愀渀最 | 吀ⴀ吀 | 䈀ⴀ䈀쬀琞 | 䬀ⴀ䬀栀 | 瀞 | 洀섀洞 | 䠀ⴀ䌀愀漀 | ᄀ | ᄀ | 礀Ā | 唀渀搀漀崀㨀 | 唃 | 䠥吀匀开䈀䔀一䌀䠀开倀伀倀唀倀开伀䜀 | 䌇漀渀 | 娍椀最稀愀挀 | 娍㐀㔀䰀攀渀 | 娑㐀㔀堀甀漀渀最 | 下最愀渀最 | 吅攀 | 䈇椀琀 | 䌇甀琀 | 名爀甀挀伀䜀 | 䈍䰀伀䌀䬀㨀 | 䌕甀琀䰀攀渀吀爀漀渀 | 䌙甀琀堀甀漀渀最吀爀漀渀 | 唉渀搀漀 | 䌀栀 | 挞 | 渀 | 渁最 | 唀渀搀漀 | ᄀ愁渀最 | 挀관瀞 | 渀栀관琞 | 
+[UNI0][chân rẽ]  | 䰀笀 | 紀Ā唛倀 | 䐀伀圀一 | 䠀㴀笀 | 紀 | 䠙吀匀ⴀ吀刀唀䌀伀䜀ⴀ | Ā䌑栀愀渀刀攀唀瀀 | 莀
+Chưa có kích thước ống trên bảng HVAC | không dựng được chân rẽ. | DownԀUpἀ
+[Chân rẽ đứng | XUỐNG | LÊN | ] ống | , L = ᜀ, độ loe = ԁ ( | ). Vẽ tiếp ống gió | HTS | -OG- | -CAP-ԁ-Z | -CON- | -VT- | -TV- | -CO- | -TAP- | -TEE- | -CO45D- | -OGX45- | XUONGԀ L | -OG-Dᜁ-CAP-TRON-Dԁ-A | LEN | -CO45D-TRON-D | -OGX45-TRON-D | -Z45-ԁ-Hᜁ-Z45-TRON-D | -Z2-ᔁ-Z2-TRON-D
+[UNI0][chân rẽ]  | 䠙吀匀ⴀ吀刀唀䌀伀䜀ⴀ | Ā䌑栀愀渀刀攀唀瀀 | 莀
+Chưa có kích thước ống trên bảng HVAC | không dựng được chân rẽ. | DownԀUpἀ
+[Chân rẽ đứng | XUỐNG | LÊN | ] ống | , L = ᜀ, độ loe = ԁ ( | ). Vẽ tiếp ống gió | HTS | -OG- | -CAP-ԁ-Z | -CON- | -VT- | -TV- | -CO- | -TAP- | -TEE- | -CO45D- | -OGX45- | XUONGԀ L | -OG-Dᜁ-CAP-TRON-Dԁ-A | LEN | -CO45D-TRON-D | -OGX45-TRON-D | -Z45-ԁ-Hᜁ-Z45-TRON-D | -Z2-ᔁ-Z2-TRON-D | -ZN-ԁ-Eᔁ-CON-TRON-
+[UNI1][chân rẽ] gió | Cút | ༀCôn thu | đứng (cụm cút 45 | )㔁Ống xiên 45 | (cụm cút 45 | )ᄁCút 45 | Z đổi cao độ / đổi trục | Chân rẽԁTêༀBịt đầu | Ống gió䔁Đã nhận diện TUYẾN ỐNG GIÓ THẲNG: ἁ ống nối liền, 老ₓ瀀栀 | 欀椀윀渞 | 渀턀椞 | 琀栀대渞最 | 欀 | 漀 | 挀ꌀ | 琀甀礀뼀渞 | 瘀甀 | 渀最 | 最 | 挀 | 瀀栀 | 洀 | 䬀 | 㴀 | 渀栀관瀞 | 欀栀漀ꌀ渞最 | 挀 | 挀栀 | Āဿ | 渀栀관渞 | 搀椀윀渞 | 瀀栀 | 欀椀윀渞 | 턀渞最 | 最椀 | 㨀 | Ā | Ā | 渀栀 | 渀栀 | 渀턀椞 | 瘀 | 漀 | 挀漀 | 最椀 | 渀 | 搀 | 椞 | 琀栀攀漀 | Ā | 瀀栀 | 欀椀윀渞 | 瘀愀渀Ⰰ | Ā | 턀渞最 | 渀턀椞 | 戀 | Ⱎ | Ā | 渀栀 | 
+[UTF8][bịt đầu]  | Phụ kiện thang máng cáp: cút 90 | / 45 | , Tê, chữ thập, côn, Z, cút lên / xuống, bịt đầu | chọn Máng / Thang / Trunking + kích thước | . | $ | Center= | .+ | $ | 32 | $ | 32 | $ | 7 | #FFFFF8E1$ | 0,0,0,4q | ._ | ( | $ | 4q | . | $ | 24 | $ | 24 | .+ | F | 
+[UTF8][bịt đầu]  | $
+" | Loai | # | [ | $ | Cút xuống | - | $ | ! | rdBit | $
+" | Loai | # | [ | $ | Bịt đầu | $ | 0,6,0,0q | $ | 10 | #33000000 | #33C8A820$ | 1q | $ | 176 | ._ | - | # | Name$ | # | cvXemTruoc | } | . | $ | Kích thước (mm) | # | [ | $ | 0,12,0,6q
+[UTF8][bịt đầu]  | # | 8 | Icon.Geometry.Lock# | 8 | $ | Center= | .+ | $ | CHỌN ỐNG BỊT ĐẦU | # | # | # | # | $0 | *Chuyển ống thẳng thành đầu bịt | # | # | $ | 8 | $ | 5,4,5,4q | # | $ | 1q | # | ._ | - | # | [ | ! | $ | Left= | $ | 48 | # | . | 
+[UTF8][bịt đầu]  | Center= | .+ | $ | NÚT BỊT | $ | Bold" | $ | 12( | #FF64B5F6 | $9 | 3Bịt đầu ống (HTS-Nutbit theo D hiện tại) | $ | 9( | #66FFFFFF | $ | 1 | #22FFFFFF$ | 0,6q | - | $ | ! | BtnMatCatOng | # | [ | . | ] | .+ | #FF1565C0$ | 8 | $ | 
+[UTF8][bịt đầu]  | Center= | .+ | $ | NẮP BỊT | $ | Bold" | $ | 12( | #FFA5D6A7 | $9 | 3Bịt đầu ống (HTS-NapBit theo D hiện tại) | $ | 9( | #66FFFFFF | $ | 1 | #22FFFFFF$ | 0,6q | - | $ | " | BtnMatCatOng | # | [ | . | ] | .+ | #FF2E7D32$ | 8 | $ | 
+[UTF8][bịt đầu] FFFFF$ | & | Center= | $ | Wrap= | $ | 0,3,0,0q | - | $ | $ | BtnBit | # | [ | $3% | -Bịt đầu | bịt cuối ống (phím B) | . | .+ | #FFECEFF1$ | 6 | $ | 40 | $ | 40 | $ | Center= | ._ | IconBitOG# | [ | $ | 34 | $ | 34 | $ | Uniform= | $ | Bịt đầu | $ | 
+[UTF8][bịt đầu]  | Center= | ._ | IconBitOG# | [ | $ | 34 | $ | 34 | $ | Uniform= | $ | Bịt đầu | $ | 9( | #CCFFFFFF$ | & | Center= | $ | Wrap= | $ | 0,3,0,0q | - | $ | $ | BtnCut | # | [ | $*% | $Cút ống gió lên/xuống (CUTOG) | . | .+ | #FF1565C0$ | 6 | $ | 40 | 
+[UTF8][bịt đầu] ectangular duct width (mm)",
+  "Bịt tròn hai đầu": "Rounded caps both ends",
+  "Bịt đầu": "End cap",
+  "Bịt đầu ống gió": "Cap duct end",
+  "Bịt đầu | bịt cuối ống (phím B)": "End cap | cap the duct end (key B)",
+  "Bỏ chèn côn | vẽ tiếp theo cỡ ống cũ {0}.": "Reduce
+[UNI0][bịt đầu] _NEPC儀
+[Nẹp AUTO] Ống {0} | {1} (vẽ kiểu {2}). | TDC | nẹp C椁
+Chọn đoạn ống gió thẳng muốn chuyển thành Bịt đầu: 㼁
+Chỉ hỗ trợ chọn Block ống gió.愁
+Lỗi: Vui lòng chọn đoạn ống thẳng (xxx-OG-...).欁
+[Auto] Đã tìm thấy đầu hở, đang đảo chiều bịt đầu...老ઑ嬀䌀ꌀ渞栀 | 戀 | 漀崀 | 퀀渞最 | ᄀ愁渀最 | 挀栀ꄀ洞 | 挀ꌀ | ᄀ | 甞 | 栀漀뜀挞 | 栀 | 挀ꌀ | ᄀ | 甞 | 䰀ꔀ礞 | 栀뀀 | 渞最 | 洀뜀挞 | ᄀ쬁渞栀 | Ā笭 | 紀ⴀ䌀䄀倀ⴀ吀刀伀一ⴀ䐀笀 | 紀ⴀ䰀笀 | 紀Ā笩 | 紀ⴀ䌀䄀倀ⴀ笀 | 紀砀笀 | 紀ⴀ
+[UNI0][bịt đầu] ng gió.愁
+Lỗi: Vui lòng chọn đoạn ống thẳng (xxx-OG-...).欁
+[Auto] Đã tìm thấy đầu hở, đang đảo chiều bịt đầu...老ઑ嬀䌀ꌀ渞栀 | 戀 | 漀崀 | 퀀渞最 | ᄀ愁渀最 | 挀栀ꄀ洞 | 挀ꌀ | ᄀ | 甞 | 栀漀뜀挞 | 栀 | 挀ꌀ | ᄀ | 甞 | 䰀ꔀ礞 | 栀뀀 | 渞最 | 洀뜀挞 | ᄀ쬁渞栀 | Ā笭 | 紀ⴀ䌀䄀倀ⴀ吀刀伀一ⴀ䐀笀 | 紀ⴀ䰀笀 | 紀Ā笩 | 紀ⴀ䌀䄀倀ⴀ笀 | 紀砀笀 | 紀ⴀ䰀笀 | 紀Ā | က | 挀栀甀礀쌀渞 | 琀栀 | 渀栀 | က | 甞 | 戀쬀琞 | 琀栀 | 渀栀 | 挀 | 渀最 | Ā | [Nẹp AUTO] Loại nẹp tự đổi theo cỡ ống (bảng ở Setup Spec | HVAC); ô LOẠI NẸP trên bảng HV
+[UNI0][bịt đầu] ị trí hiện tại để chèn Tê.笁
+Ống chính: Wc = {0} (tự nhận diện). Chọn loại + thông số Tê:㬁
+Chiều dài Bịt đầu (L) [50]: 䔁
+Đã bịt đầu ống và kết thúc nhánh.企
+Chưa có hướng ống, không thể chèn Cút.焁
+Không tìm thấy ống gió tại vị trí hiện tại để chèn Cút.老ઉ퀀渞最 | 挀栀 | 渀栀㨀 | 圀挀㴀笀 | 紀Ⰰ | 䠀挀㴀笀 | 紀 | 琀 | 渀栀관渞 | 搀椀윀渞 | 䌀栀촀渞 | 氀漀ꄀ椞 | 琀栀 | 渀最 | 猀턀 | 䌀切琀㨀Ā䐉伀圀一 | 笷 | 紀ⴀ䌀伀ⴀ笀 | 紀ⴀ笀 | 紀砀笀 | 紀ⴀ刀笀㐀紀ⴀ䄀㤀 | Āਫက | 
+[UNI0][bịt đầu] Tê.笁
+Ống chính: Wc = {0} (tự nhận diện). Chọn loại + thông số Tê:㬁
+Chiều dài Bịt đầu (L) [50]: 䔁
+Đã bịt đầu ống và kết thúc nhánh.企
+Chưa có hướng ống, không thể chèn Cút.焁
+Không tìm thấy ống gió tại vị trí hiện tại để chèn Cút.老ઉ퀀渞最 | 挀栀 | 渀栀㨀 | 圀挀㴀笀 | 紀Ⰰ | 䠀挀㴀笀 | 紀 | 琀 | 渀栀관渞 | 搀椀윀渞 | 䌀栀촀渞 | 氀漀ꄀ椞 | 琀栀 | 渀最 | 猀턀 | 䌀切琀㨀Ā䐉伀圀一 | 笷 | 紀ⴀ䌀伀ⴀ笀 | 紀ⴀ笀 | 紀砀笀 | 紀ⴀ刀笀㐀紀ⴀ䄀㤀 | Āਫက | 挀栀 | 渀 | 䌀切琀 | 턀渞最 | 最椀 | Ā堋甀턀渞最
+[UNI1][bịt đầu] Côn thu | đứng (cụm cút 45 | )㔁Ống xiên 45 | (cụm cút 45 | )ᄁCút 45 | Z đổi cao độ / đổi trục | Chân rẽԁTêༀBịt đầu | Ống gió䔁Đã nhận diện TUYẾN ỐNG GIÓ THẲNG: ἁ ống nối liền, 老ₓ瀀栀 | 欀椀윀渞 | 渀턀椞 | 琀栀대渞最 | 欀 | 漀 | 挀ꌀ | 琀甀礀뼀渞 | 瘀甀 | 渀最 | 最 | 挀 | 瀀栀 | 洀 | 䬀 | 㴀 | 渀栀관瀞 | 欀栀漀ꌀ渞最 | 挀 | 挀栀 | Āဿ | 渀栀관渞 | 搀椀윀渞 | 瀀栀 | 欀椀윀渞 | 턀渞最 | 最椀 | 㨀 | Ā | Ā | 渀栀 | 渀栀 | 渀턀椞 | 瘀 | 漀 | 挀漀 | 最椀 | 渀 | 搀 | 椞 | 琀栀攀漀 | Ā | 瀀栀 | 欀椀윀渞 | 瘀愀渀Ⰰ | Ā | 턀渞最 | 渀턀椞 | 戀 | Ⱎ | Ā | 渀栀 | 渀栀 | 挀漀 | 最椀 | 渀 | 
+[UNI1][bịt đầu] khi chèn Tê/Thập. | Bề rộng nhánh Wn [{0}]: | Chọn hướng nhánh: ᤁ
+Đã chèn Tê. | Đã chèn Chữ thập. | Đã bịt đầu và kết thúc. | Bề rộng thang W [{0}]: 㴁
+Chiều cao tiết diện H [{0}]: | Bước nan S [{0}]: | Cao độ đáy <夁
+Bắt vào đầu thang (cùng W) | kéo dài thang.椁
+Côn thu tại đầu thang - Căn chỉnh [Can/Trai/Phai]: 圁
+Bắt vào đầu thang (khác W) | chèn côn thu.ጁDefp

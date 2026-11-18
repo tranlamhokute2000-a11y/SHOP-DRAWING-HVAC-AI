@@ -1,0 +1,150 @@
+﻿=== KEYWORD: QUETPK ===
+=== KEYWORD: HG2M8Q7X ===
+=== KEYWORD: HTS_TAGOG ===
+heo XData  |  thang đã đổi cỡ / gán lại cao độ thì tag đổi theo; chỉ thay đúng các cụm đó, phần chữ khác giữ nguyên. | OGIOጀHTS_TAGOGᜀTag ống gió | ống gió唁VẼ ỐNG GIÓ / VẼ ỐNG GIÓ TRÒN / ỐNG GIÓ MỀMἁtag-ong-gio.cfg | CapᄀGió cấp:ᜁỐNG GIÓ CẤP | ỐNG CẤP GIÓ LẠNHἁSUPPLY AIR DUCTԀSA | HoiᄀGió hồi:ᜁỐNG GIÓ HỒIἁRETURN AIR DUCTԀRA | TuoiጀG
+=== KEYWORD: HTSYQOG ===
+=== KEYWORD: GZOG5H3K ===
+=== KEYWORD: OG3D ===
+䔀䔀ⴀ | 嬀尀搀 | 崀 |  | 砀 | 嬀尀搀 | 崀 |  |  | Ā帻 |  |  |  | ⴀ伀䜀ⴀ䐀 | 嬀尀搀 | 崀 |  |  䰀 | 嬀尀搀 | 崀 |  |  | Ā幋 |  |  |  | ⴀ伀䜀ⴀ | 嬀尀搀 | 崀 |  | 砀 | 嬀尀搀 | 崀 |  |  䰀 | 嬀尀搀 | 崀 |  |  | Ā䤵一匀䔀刀吀Ⰰ䰀圀倀伀䰀夀䰀䤀一䔀Ⰰ倀伀䰀夀䰀䤀一䔀 | 醀
+[OG3D] Chọn ống gió HTS cần dựng 3D  |  gồm cả ống mềm (Enter = tất cả): 紁
+  (Không chọn  |  quét toàn bộ không gian hiện hành: {0} block)ἁ
+[OG3D] Đã hủy.䜁
+[OG3D] Không có block nào. Đã hủy. | 
+Cao độ ĐÁY ốn
+ió HTS cần dựng 3D  |  gồm cả ống mềm (Enter = tất cả): 紁
+  (Không chọn  |  quét toàn bộ không gian hiện hành: {0} block)ἁ
+[OG3D] Đã hủy.䜁
+[OG3D] Không có block nào. Đã hủy. | 
+Cao độ ĐÁY ống (mm) cho 䴁 ống / phụ kiện chưa gán cao độ khi vẽ紁
+  Mọi ống đã gán cao độ ĐÁY khi vẽ  |  dựng theo cao độ đã gán. | 
+[OG3D] Lỗi: 老અက椁쌀洞 ᄀ뜁
+3D  |  gồm cả ống mềm (Enter = tất cả): 紁
+  (Không chọn  |  quét toàn bộ không gian hiện hành: {0} block)ἁ
+[OG3D] Đã hủy.䜁
+[OG3D] Không có block nào. Đã hủy. | 
+Cao độ ĐÁY ống (mm) cho 䴁 ống / phụ kiện chưa gán cao độ khi vẽ紁
+  Mọi ống đã gán cao độ ĐÁY khi vẽ  |  dựng theo cao độ đã gán. | 
+[OG3D] Lỗi: 老અက椁쌀洞 ᄀ뜁琞 洀 |  栀 | 渀栀  | 䐀 턀渞最
+Y ống (mm) cho 䴁 ống / phụ kiện chưa gán cao độ khi vẽ紁
+  Mọi ống đã gán cao độ ĐÁY khi vẽ  |  dựng theo cao độ đã gán. | 
+[OG3D] Lỗi: 老અက椁쌀洞 ᄀ뜁琞 洀 |  栀 | 渀栀  | 䐀 턀渞最 最椀 |   | 最 | 挀 搀뀀 | 椞 琀爀 | 椀 瘀豈渀最 挀栀촀渞 ᄀ뜁琞 琀ꄀ椞 ᄀ | 礀 | Āꖀ
+Điểm đặt mô hình 3D ống gió (góc dưới trái vùng chọn đặt tại đây; Enter = chỗ cũ) | TaiCho愀
+  Dựng tại chỗ  |  mô hình chồn
+g gió (góc dưới trái vùng chọn đặt tại đây; Enter = chỗ cũ) | TaiCho愀
+  Dựng tại chỗ  |  mô hình chồng lên mặt bằng 2D. | HTS_OG3D_LECHༀbề rộngԁOGԀVG | OGMԀMG | 
+[OG3D] Dựng ᤁ giá đỡ 3D, 㔁 ty ren treo lên trần thô.老ૡ嬀伀䜀 | 䐀崀 က |  搀 | 渞最 笀　紀 欀栀턀椞  | 䐀 挀豈渀最 氀愀礀攀爀 戀氀漀挀欀  | 䐀  | ᄀ | 礀 㴀 挀愀漀 ᄀ |  | 最 | 渀 欀栀椀 瘀봀㬞 턀渞最 挀栀뀀愁 最 | 渀 ᄀ | 礀 笀 | 㨀　 |  | 紀 洀洀 |   |  | 笀 | 紀 洀猀 | Ā螀
+
+t tại đây; Enter = chỗ cũ) | TaiCho愀
+  Dựng tại chỗ  |  mô hình chồng lên mặt bằng 2D. | HTS_OG3D_LECHༀbề rộngԁOGԀVG | OGMԀMG | 
+[OG3D] Dựng ᤁ giá đỡ 3D, 㔁 ty ren treo lên trần thô.老ૡ嬀伀䜀 | 䐀崀 က |  搀 | 渞最 笀　紀 欀栀턀椞  | 䐀 挀豈渀最 氀愀礀攀爀 戀氀漀挀欀  | 䐀  | ᄀ | 礀 㴀 挀愀漀 ᄀ |  | 最 | 渀 欀栀椀 瘀봀㬞 턀渞最 挀栀뀀愁 最 | 渀 ᄀ | 礀 笀 | 㨀　 |  | 紀 洀洀 |   |  | 笀 | 紀 洀猀 | Ā螀
+  Đã thay {0} khối 3D của lần dựn
+   |  {0} van chèn tay hẹp hơn ống nằm dưới (chưa kéo Width1 theo bề rộng ống)  |  khối van lọt trong ống; chỉnh Width1 rồi OG3D lại.老ઑ  笀　紀 瘀愀渀 ᄀ |  挀 |  猀딀渞 欀栀턀椞  | 䐀 琀爀漀渀最 戀氀漀挀欀  |  | 最椀 |  | 渀最甀礀 | 渀Ⰰ 欀栀 | 渀最 搀 | 渞最 挀栀팀渞最 | Ā㖁
+  Đặt {0} thiết bị 3D (block có state 3D: dàn lạnh, chiller, máy cục bộ | )  |  {1} theo cao độ đã gán, {2} chưa gán  |  
+䬀䈀 |  |   嬀戀攀渀挀栀崀 戀漀 焀甀愀 洀漀 挀栀漀琀 最漀挀 䠀䌀䄀䐀  |  |  | 欀栀漀椀 |  |  | ਫ   | 䈀케 | 焀甀愀 挀栀턀琞 最 | 挀㨀 Ā |  |  | 
+  (Không mở được chốt góc  |  xem lại bằng lệnh OG3DHCAD; khung nhìn Layout: OG3DVP.)老ડ嬀伀䜀 | 䐀䠀䌀䄀䐀崀 䌀栀촀渞 洀 |  栀 | 渀栀  | 䐀 턀渞最 最椀 |  挀 | 渞 砀攀洀  |  挀栀턀琞 最 | 挀  | 䔀渀琀攀爀 㴀 洀촀椞 欀栀턀椞 伀䜀 | 䐀 | 㨀 Āੳ嬀伀䜀 | 䐀䠀䌀䄀䐀崀 䌀栀뀀愁 挀 |  洀 |  栀 | 渀栀  | 䐀 턀渞最 最椀 |   |  | 挀栀ꄀ礞 伀䜀 | 䐀 琀爀뀀 | 挞 | Āਙ嬀伀䜀 | 䐀䠀䌀䄀䐀崀  |  | ᄀ턁椞 琀뀀 | 渞最
+最漀挀 䠀䌀䄀䐀  |  |  | 欀栀漀椀 |  |  | ਫ   | 䈀케 | 焀甀愀 挀栀턀琞 最 | 挀㨀 Ā |  |  | 
+  (Không mở được chốt góc  |  xem lại bằng lệnh OG3DHCAD; khung nhìn Layout: OG3DVP.)老ડ嬀伀䜀 | 䐀䠀䌀䄀䐀崀 䌀栀촀渞 洀 |  栀 | 渀栀  | 䐀 턀渞最 最椀 |  挀 | 渞 砀攀洀  |  挀栀턀琞 最 | 挀  | 䔀渀琀攀爀 㴀 洀촀椞 欀栀턀椞 伀䜀 | 䐀 | 㨀 Āੳ嬀伀䜀 | 䐀䠀䌀䄀䐀崀 䌀栀뀀愁 挀 |  洀 |  栀 | 渀栀  | 䐀 턀渞最 最椀 |   |  | 挀栀ꄀ礞 伀䜀 | 䐀 琀爀뀀 | 挞 | Āਙ嬀伀䜀 | 䐀䠀䌀䄀䐀崀  |  | ᄀ턁椞 琀뀀 | 渞最 鈀 | 挀栀턀琞 最 | 挀 | Ā朇 | 渀 | 瘓豈渀最 琀爀 | 渞Ā瀏愀
+ÁNG ({0} phụ kiện) lệch {1:0.#} mm so với mức chính  |  [Len/Xuong] <Xuong>:  | Len | Xuong㼀
+     |  cao độ {0:0.#} mm ({1}).漁
+[OG3DVP] Chưa có khối 3D ống gió nào. Chạy OG3D trước.ᄁTILEMODE䴀
+[OG3DVP] Đã chuyển sang Layout '{0}'.欁
+[OG3DVP] Quét vùng trên Layout để đặt khung nhìn 3D.ἁ
+Góc thứ nhất:  | 
+[OG3DVP] Đã hủy.ἁ
+Góc đối d
+mức chính  |  [Len/Xuong] <Xuong>:  | Len | Xuong㼀
+     |  cao độ {0:0.#} mm ({1}).漁
+[OG3DVP] Chưa có khối 3D ống gió nào. Chạy OG3D trước.ᄁTILEMODE䴀
+[OG3DVP] Đã chuyển sang Layout '{0}'.欁
+[OG3DVP] Quét vùng trên Layout để đặt khung nhìn 3D.ἁ
+Góc thứ nhất:  | 
+[OG3DVP] Đã hủy.ἁ
+Góc đối diện: 㼁
+[OG3DVP] Vùng quá nhỏ. Đã hủy.洁
+  K
+ <Xuong>:  | Len | Xuong㼀
+     |  cao độ {0:0.#} mm ({1}).漁
+[OG3DVP] Chưa có khối 3D ống gió nào. Chạy OG3D trước.ᄁTILEMODE䴀
+[OG3DVP] Đã chuyển sang Layout '{0}'.欁
+[OG3DVP] Quét vùng trên Layout để đặt khung nhìn 3D.ἁ
+Góc thứ nhất:  | 
+[OG3DVP] Đã hủy.ἁ
+Góc đối diện: 㼁
+[OG3DVP] Vùng quá nhỏ. Đã hủy.洁
+  Không bật được khung nhì
+.#} mm ({1}).漁
+[OG3DVP] Chưa có khối 3D ống gió nào. Chạy OG3D trước.ᄁTILEMODE䴀
+[OG3DVP] Đã chuyển sang Layout '{0}'.欁
+[OG3DVP] Quét vùng trên Layout để đặt khung nhìn 3D.ἁ
+Góc thứ nhất:  | 
+[OG3DVP] Đã hủy.ἁ
+Góc đối diện: 㼁
+[OG3DVP] Vùng quá nhỏ. Đã hủy.洁
+  Không bật được khung nhìn  |  kiểm tra biến MAXACTVP.老થ嬀伀䜀 | 䐀嘀倀崀 က
+TILEMODE䴀
+[OG3DVP] Đã chuyển sang Layout '{0}'.欁
+[OG3DVP] Quét vùng trên Layout để đặt khung nhìn 3D.ἁ
+Góc thứ nhất:  | 
+[OG3DVP] Đã hủy.ἁ
+Góc đối diện: 㼁
+[OG3DVP] Vùng quá nhỏ. Đã hủy.洁
+  Không bật được khung nhìn  |  kiểm tra biến MAXACTVP.老થ嬀伀䜀 | 䐀嘀倀崀 က |  ᄀ뜁琞 欀栀甀渀最 渀栀 | 渀  | 䐀  | 匀䔀 䤀猀漀洀攀琀爀椀挀 |   |  | 挀栀준 | 栀椀윀渞 氀愀礀攀爀 挀 |  欀栀턀椞  | 䐀 턀渞最 最椀 | 
+Layout '{0}'.欁
+[OG3DVP] Quét vùng trên Layout để đặt khung nhìn 3D.ἁ
+Góc thứ nhất:  | 
+[OG3DVP] Đã hủy.ἁ
+Góc đối diện: 㼁
+[OG3DVP] Vùng quá nhỏ. Đã hủy.洁
+  Không bật được khung nhìn  |  kiểm tra biến MAXACTVP.老થ嬀伀䜀 | 䐀嘀倀崀 က |  ᄀ뜁琞 欀栀甀渀最 渀栀 | 渀  | 䐀  | 匀䔀 䤀猀漀洀攀琀爀椀挀 |   |  | 挀栀준 | 栀椀윀渞 氀愀礀攀爀 挀 |  欀栀턀椞  | 䐀 턀渞最 最椀 |  | ĀꞀ
+  Muốn khoá tỉ lệ khung nhìn: 
+=== KEYWORD: HTS_RVOG ===
+=== KEYWORD: HTS_DCTOG ===
+=== KEYWORD: HTSDOIKTOG ===
+=== KEYWORD: X8M2QK9A ===
+=== KEYWORD: HTS-OG- ===
+=== KEYWORD: CHANRE ===
+son). Đang dùng nhánh TEE mặc định là 25. Chi tiết lỗi:  | DN(\d+)ᜀVisibility1 | Spec | SpecHVAC.json | " | KieuCutOngGioԀEIᜀDoLoeChanRe | Nhap | _NEPC儀
+[Nẹp AUTO] Ống {0}  |  {1} (vẽ kiểu {2}). | TDC | nẹp C椁
+Chọn đoạn ống gió thẳng muốn chuyển thành Bịt đầu: 㼁
+Chỉ hỗ trợ chọn Block ống gió.愁
+Lỗi: Vui lòng chọn đoạn ống thẳng (xxx-OG-...
+㔁
+  Vẽ tiếp ống cao độ đáy ⴁ (H = đổi cao độ đáy).ጁVuongTron | 
+Chiều dài chân rẽ (L):  | 
+Độ loe chân rẽ [{0}]:  | Phai | Trai | ChanRe耀ઓက椁쌀洞 琀椀뼀瀞 琀栀攀漀 嬀䌀ⴀ䌀 | 渀 | 娀ⴀ娀ᄀ | 渞最 | 一ⴀ一最愀渀最 | 吀ⴀ吀 |  | 䈀ⴀ䈀쬀琞 | 䬀ⴀ䬀栀 | 瀞 洀섀洞 | 䠀ⴀ䌀愀漀 ᄀ |  | ᄀ | 礀Ā  |  | 唀渀搀漀崀㨀  | 唃 | 䠥吀匀开䈀䔀一䌀䠀开倀伀倀唀倀开伀䜀 | 䌇漀渀 | 娍椀最稀愀挀 | 娍㐀㔀䰀攀渀 | 娑㐀㔀堀甀漀渀最 | 下最愀渀最 | 吅攀 | 䈇椀琀 | 䌇甀琀 | 名爀甀挀伀䜀 | 䈍䰀伀䌀䬀㨀 | 䌕甀琀䰀攀渀吀爀漀渀 | 䌙甀琀堀甀漀渀最吀爀漀渀 | 唉渀搀漀 | 
+愀琀挀栀瀀氀漀琀稀漀漀洀眀椀渀搀漀眀 | 戀愀洀氀开Ӕ inputdialog.baml |  | 洤礀瀀愀氀攀琀琀攀瘀椀攀眀 | 戀愀洀氀꤀ӱⰀresource/2chechup.baml菐 | 爦攀猀漀甀爀挀攀 | 戀椀琀漀最 | 戀愀洀氀Ȁڑ　resource/chanredung.baml鞥 | 爲攀猀漀甀爀挀攀 | 挀栀愀渀爀攀瘀甀漀渀最 | 戀愀洀氀 | ڠ㨀resource/chanrevuongtron.bamlꛉ | 爸攀猀漀甀爀挀攀 | 挀漀洀戀漀戀漀砀猀琀礀氀攀猀 | 戀愀洀氀 | ڮⰀresource/conthuog.baml먇 | 牂攀猀漀甀爀挀攀 | 搀愀甀瀀栀甀渀焀甀愀礀氀攀渀椀挀漀渀猀 | 戀愀洀氀尀ہ㰀resource/dauphunquayxuong.baml켤 | 爲
+椀攀眀 | 戀愀洀氀꤀ӱⰀresource/2chechup.baml菐 | 爦攀猀漀甀爀挀攀 | 戀椀琀漀最 | 戀愀洀氀Ȁڑ　resource/chanredung.baml鞥 | 爲攀猀漀甀爀挀攀 | 挀栀愀渀爀攀瘀甀漀渀最 | 戀愀洀氀 | ڠ㨀resource/chanrevuongtron.bamlꛉ | 爸攀猀漀甀爀挀攀 | 挀漀洀戀漀戀漀砀猀琀礀氀攀猀 | 戀愀洀氀 | ڮⰀresource/conthuog.baml먇 | 牂攀猀漀甀爀挀攀 | 搀愀甀瀀栀甀渀焀甀愀礀氀攀渀椀挀漀渀猀 | 戀愀洀氀尀ہ㰀resource/dauphunquayxuong.baml켤 | 爲攀猀漀甀爀挀攀 | 搀椀愀氀漀最琀栀攀洀攀 | 戀愀洀氀ⴀ |  | resource/dictionary1.baml |  | 
+=== KEYWORD: GOTGIAY ===
+=== KEYWORD: CONTHU ===
+rce/chanredung.baml鞥 | 爲攀猀漀甀爀挀攀 | 挀栀愀渀爀攀瘀甀漀渀最 | 戀愀洀氀 | ڠ㨀resource/chanrevuongtron.bamlꛉ | 爸攀猀漀甀爀挀攀 | 挀漀洀戀漀戀漀砀猀琀礀氀攀猀 | 戀愀洀氀 | ڮⰀresource/conthuog.baml먇 | 牂攀猀漀甀爀挀攀 | 搀愀甀瀀栀甀渀焀甀愀礀氀攀渀椀挀漀渀猀 | 戀愀洀氀尀ہ㰀resource/dauphunquayxuong.baml켤 | 爲攀猀漀甀爀挀攀 | 搀椀愀氀漀最琀栀攀洀攀 | 戀愀洀氀ⴀ |  | resource/dictionary1.baml |  | 爺攀猀漀甀爀挀攀 | 椀挀漀渀戀甀琀琀漀渀猀琀礀氀攀 | 戀愀洀氀 |  |  | resource/iconsdraw.bamlቩ | 爴攀猀漀甀
+=== KEYWORD: CONLECH ===
+=== KEYWORD: BITDAU ===
+=== KEYWORD: NMC1 ===
+=== KEYWORD: NMH1 ===
+=== KEYWORD: COV90 ===
+=== KEYWORD: COCANHHUONG ===
+脒 |  | ข | 脑ᄑᆁ脑ᄑᆁ | ą脒ም㦁脑ᄑᆁ脑 | Ѐ舒ᆅᆁ | ญ | 茒ᅭᆁ脑ᄑᆁ | ᄁᆁ茒 | Āል涃 | ᄉↁ脒ም榁എ |  |  | Ѐሁᶁ脒ᄹᆁ脑 |  | ሁᶁ脒ᄹᆁ |  | Ԁሂ၅ဍဍဍญTEETH02จഎ |  | ȍ | ᄊↁ脒ም榁എ |  | Ȃ | ȇ䔒ဍဍဍဍဍขTEEBR01䌊伀嘀㤀　ᘀCOCANHHUONG	ฆഎ | ȍ
+งഎ | ȍᄂࠀ脑ሡᶁ脒 |  | ȍ | Ԁሂ | ഐഐȐ䌌唀吀吀　 | ࠀԀฎ | ȍ
+Ȅ䔒ဍဍ | Ѐ蠑ප |  | Ԁ蠑ප |  |  | 轜 | 차 | Ԁሕᦁᄁ뒈 |  | ဍ | ሕᦁᄁ뒈 |  | ȍ | ᔄ脒ę蠑ප |  | Ԁሕᦁᄁ뒈 | ȍഈ | ሕᦁᄁ뒈 |  |  | ሕᦁᄁ뒈 | ࠂĠᔁ㴑ȁ | Ą脒ም㦁ᄝᆁ |  | ሁᶁ脒 | 脑 |  | Ȁ蠑ᇀ삈蠑 | Ā蠑ᇀ삈	ᄂ삈蠑ව	ᄂ삈ᄍ삈  | 蠑 |  蠑 | (蠑Ӏᄆ삈 Ă蠑ᇀ삈 ᄁ삈Ѝᄆ첈ጄ | Ѐ |  | ᔄ |  | ᔆ脒ę蠒 | ᔆ脒ę蠒 | ᔆ脒ę蠑
+=== KEYWORD: COLTR ===
+.㬁
+Chiều dài khớp nối mềm (L):  | -KNM-Dԁ-L儁
+Chưa xác định được đường kính ống tròn. | 
+Bán kính cong R của cút ԁ <ༀCOXTR01ༀCOLTR01Ԁ-Dԁ-R | 0 | 
+[Cút ᤀ tròn] Lỗi:  | 
+Đã chèn Cút  |  ống tròn: D= | , R= | . | 
+Không tìm thấy block '㔁.dwg' trong thư viện HVAC. | 
+Chiều dài van L < | L | 
+[Van] Lỗi chèn block:  | Library | HVACᄀPhụ kiện | 
+Độ lệch tr
+=== KEYWORD: COXTR ===
+ch H={1}.㬁
+Chiều dài khớp nối mềm (L):  | -KNM-Dԁ-L儁
+Chưa xác định được đường kính ống tròn. | 
+Bán kính cong R của cút ԁ <ༀCOXTR01ༀCOLTR01Ԁ-Dԁ-R | 0 | 
+[Cút ᤀ tròn] Lỗi:  | 
+Đã chèn Cút  |  ống tròn: D= | , R= | . | 
+Không tìm thấy block '㔁.dwg' trong thư viện HVAC. | 
+Chiều dài van L < | L | 
+[Van] Lỗi chèn block:  | Library | HVACᄀPhụ kiện | 
+Độ

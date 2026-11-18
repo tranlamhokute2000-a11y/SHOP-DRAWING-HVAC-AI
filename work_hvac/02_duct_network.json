@@ -1,0 +1,4981 @@
+{
+  "metadata": {
+    "drawing_file": "C:\\Users\\Nguye\\Desktop\\SHOP DRAWING-AI\\shop drawwing onng gio.dwg",
+    "units": "Millimeters",
+    "live_entity_count": 229,
+    "disk_entity_count": 228,
+    "entity_breakdown": {
+      "LINE": 99,
+      "MTEXT": 34,
+      "INSERT": 95,
+      "UNSAVED_LIVE_LWPOLYLINE_REVCLOUD": 1
+    },
+    "grid_rotation_note": "Các tuyến ống dài có độ lệch góc cực nhỏ ~0.00485° (dx ≈ -1.34mm trên 15.8m) do xuất từ Revit True North. Khi vẽ Shop Drawing bằng HTS Tool có thể bám đúng tọa độ tim thực tế hoặc làm tròn trục trực giao tùy yêu cầu khớp khít đè lên nét cũ.",
+    "system_summary": {
+      "system_code": "SEAD",
+      "system_name_vi": "Hệ thống ống gió hút khói tầng hầm B1 (Smoke Exhaust Air Duct)",
+      "design_duct_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "design_equip_layer": "MEPG-M-EQUIP",
+      "design_text_layer": "MEPG-AC-TEXT",
+      "spec_duct_layer": "M-MVAC-SEAD",
+      "spec_duct_color_aci": 190,
+      "spec_equip_layer": "M-MVAC-Equipment",
+      "spec_equip_color_aci": 47,
+      "spec_text_layer": "M-MVAC-TEXT",
+      "spec_text_color_aci": 2,
+      "spec_dim_layer": "M-MVAC-DIM",
+      "spec_dim_color_aci": 97,
+      "spec_revcloud_layer": "CLOUND",
+      "spec_revcloud_color_aci": 240
+    }
+  },
+  "hts_continuous_runs": [
+    {
+      "run_id": "RUN-M01",
+      "description": "Ống góp chính 2200x600 từ chạc quần 10CBD tới côn thu 10D50",
+      "W": 2200,
+      "H": 600,
+      "bod_ffl": 2450,
+      "auto_elbows": 0,
+      "points": [
+        [
+          37579.39,
+          2175.33
+        ],
+        [
+          35222.39,
+          2175.33
+        ]
+      ],
+      "segment_ids": [
+        "SEG-M01"
+      ]
+    },
+    {
+      "run_id": "RUN-L01A",
+      "description": "Đoạn nối 1600x450 từ côn thu 10D50 tới van VCD 10B17",
+      "W": 1600,
+      "H": 450,
+      "bod_ffl": 2500,
+      "auto_elbows": 0,
+      "points": [
+        [
+          35018.39,
+          2175.34
+        ],
+        [
+          34731.76,
+          2175.34
+        ]
+      ],
+      "segment_ids": [
+        "SEG-L01A"
+      ]
+    },
+    {
+      "run_id": "RUN-L01B",
+      "description": "Tuyến ngang nhánh trái 1600x450 từ sau van VCD 10B17 tới côn thu 10C85",
+      "W": 1600,
+      "H": 450,
+      "bod_ffl": 2500,
+      "auto_elbows": 0,
+      "points": [
+        [
+          34581.7,
+          2175.33
+        ],
+        [
+          20644.36,
+          2175.33
+        ]
+      ],
+      "segment_ids": [
+        "SEG-L01B"
+      ]
+    },
+    {
+      "run_id": "RUN-L02-L03",
+      "description": "Tuyến 1450x400 từ sau côn thu 10C85 qua cút 90° 10D4C đi lên Bắc tới côn lệch 10E35..10E38",
+      "W": 1450,
+      "H": 400,
+      "bod_ffl": 2500,
+      "auto_elbows": 1,
+      "elbow_handles": [
+        "10D4C"
+      ],
+      "points": [
+        [
+          20440.36,
+          2175.32
+        ],
+        [
+          15830.93,
+          2175.06
+        ],
+        [
+          15829.91,
+          15018.8
+        ]
+      ],
+      "segment_ids": [
+        "SEG-L02",
+        "SEG-L03"
+      ]
+    },
+    {
+      "run_id": "RUN-L04",
+      "description": "Tuyến đứng nhánh trái 1100x400 tới côn thu 10B4C",
+      "W": 1100,
+      "H": 400,
+      "bod_ffl": 2500,
+      "auto_elbows": 0,
+      "points": [
+        [
+          16004.85,
+          15668.82
+        ],
+        [
+          16003.51,
+          31513.08
+        ]
+      ],
+      "segment_ids": [
+        "SEG-L04"
+      ]
+    },
+    {
+      "run_id": "RUN-L05",
+      "description": "Tuyến đứng nhánh trái 800x400 tới côn thu 10C97",
+      "W": 800,
+      "H": 400,
+      "bod_ffl": 2500,
+      "auto_elbows": 0,
+      "points": [
+        [
+          16003.49,
+          31717.08
+        ],
+        [
+          16002.6,
+          42282.08
+        ]
+      ],
+      "segment_ids": [
+        "SEG-L05"
+      ]
+    },
+    {
+      "run_id": "RUN-L06",
+      "description": "Tuyến đứng cuối nhánh trái 550x350 tới nắp bịt 10BAF",
+      "W": 550,
+      "H": 350,
+      "bod_ffl": 2500,
+      "auto_elbows": 0,
+      "points": [
+        [
+          16002.73,
+          42486.08
+        ],
+        [
+          16001.87,
+          52835.08
+        ]
+      ],
+      "segment_ids": [
+        "SEG-L06"
+      ]
+    },
+    {
+      "run_id": "RUN-R01A",
+      "description": "Đoạn nối 1700x500 từ gót giày nhánh chính 10D51 tới van VCD 10BAE",
+      "W": 1700,
+      "H": 500,
+      "bod_ffl": 2500,
+      "auto_elbows": 0,
+      "points": [
+        [
+          36459.09,
+          3427.34
+        ],
+        [
+          36459.06,
+          3958.23
+        ]
+      ],
+      "segment_ids": [
+        "SEG-R01A"
+      ]
+    },
+    {
+      "run_id": "RUN-R01B-R02-R03",
+      "description": "Tuyến 1700x500 từ sau van VCD 10BAE qua 2 cút 90° (10D4F, 10D4D) đi lên tới côn lệch 10D4E",
+      "W": 1700,
+      "H": 500,
+      "bod_ffl": 2500,
+      "auto_elbows": 2,
+      "elbow_handles": [
+        "10D4F",
+        "10D4D"
+      ],
+      "points": [
+        [
+          36459.05,
+          4108.26
+        ],
+        [
+          36458.95,
+          7455.34
+        ],
+        [
+          44966.72,
+          7455.77
+        ],
+        [
+          44966.72,
+          20994.85
+        ]
+      ],
+      "segment_ids": [
+        "SEG-R01B",
+        "SEG-R02",
+        "SEG-R03"
+      ]
+    },
+    {
+      "run_id": "RUN-R04-R05-R06",
+      "description": "Tuyến 1400x500 từ sau côn lệch 10D4E qua 2 cút Jog #1 (10BAC, 10BAB) đi lên tới côn thu 10BAA",
+      "W": 1400,
+      "H": 500,
+      "bod_ffl": 2500,
+      "auto_elbows": 2,
+      "elbow_handles": [
+        "10BAC",
+        "10BAB"
+      ],
+      "points": [
+        [
+          45116.72,
+          21198.84
+        ],
+        [
+          45116.19,
+          28879.73
+        ],
+        [
+          40680.65,
+          28879.58
+        ],
+        [
+          40680.65,
+          37127.69
+        ]
+      ],
+      "segment_ids": [
+        "SEG-R04",
+        "SEG-R05",
+        "SEG-R06"
+      ]
+    },
+    {
+      "run_id": "RUN-R07-R08",
+      "description": "Tuyến 1150x500 từ sau côn thu 10BAA qua 2 cút Jog #2 (10B49, 10B51) đi lên tới côn thu 10B50",
+      "W": 1150,
+      "H": 500,
+      "bod_ffl": 2545,
+      "auto_elbows": 2,
+      "elbow_handles": [
+        "10B49",
+        "10B51"
+      ],
+      "points": [
+        [
+          40680.54,
+          37331.69
+        ],
+        [
+          40680.45,
+          39577.65
+        ],
+        [
+          45083.15,
+          39577.84
+        ],
+        [
+          45082.04,
+          53864.99
+        ]
+      ],
+      "segment_ids": [
+        "SEG-R07A",
+        "SEG-R07B",
+        "SEG-R08"
+      ]
+    },
+    {
+      "run_id": "RUN-R09-T01",
+      "description": "Tuyến 950x450 từ sau côn thu 10B50 qua cút Đông-Bắc 10B4F đi sang Tây tới côn thu 10B4E",
+      "W": 950,
+      "H": 450,
+      "bod_ffl": 2595,
+      "auto_elbows": 1,
+      "elbow_handles": [
+        "10B4F"
+      ],
+      "points": [
+        [
+          45082.02,
+          54068.99
+        ],
+        [
+          45081.3,
+          63484.78
+        ],
+        [
+          34735.8,
+          63483.98
+        ]
+      ],
+      "segment_ids": [
+        "SEG-R09",
+        "SEG-T01"
+      ]
+    },
+    {
+      "run_id": "RUN-T02",
+      "description": "Tuyến ngang phía Bắc 800x400 từ sau côn thu 10B4E tới côn thu 10B4D",
+      "W": 800,
+      "H": 400,
+      "bod_ffl": 2645,
+      "auto_elbows": 0,
+      "points": [
+        [
+          34531.8,
+          63483.92
+        ],
+        [
+          21317.76,
+          63482.79
+        ]
+      ],
+      "segment_ids": [
+        "SEG-T02"
+      ]
+    },
+    {
+      "run_id": "RUN-T03-T04-T05",
+      "description": "Tuyến 550x350 từ sau côn thu 10B4D qua 2 cút bậc thang (10B2B, 10B2A) tới nắp bịt cuối tuyến 10BAD",
+      "W": 550,
+      "H": 350,
+      "bod_ffl": 2695,
+      "auto_elbows": 2,
+      "elbow_handles": [
+        "10B2B",
+        "10B2A"
+      ],
+      "points": [
+        [
+          21113.76,
+          63482.77
+        ],
+        [
+          14335.01,
+          63482.25
+        ],
+        [
+          14335.28,
+          59204.66
+        ],
+        [
+          4415.11,
+          59204.66
+        ]
+      ],
+      "segment_ids": [
+        "SEG-T03",
+        "SEG-T04",
+        "SEG-T05"
+      ]
+    },
+    {
+      "run_id": "RUN-FAN1-STUBS",
+      "description": "Các đoạn ống thẳng ngắn trên tuyến Quạt #1 (Nam, Y_tim = 1250.22..1250.33)",
+      "W": 1700,
+      "H": 600,
+      "bod_ffl": 2450,
+      "auto_elbows": 0,
+      "sub_runs": [
+        {
+          "seg": "SEG-F1-IN1",
+          "W": 1700,
+          "H": 600,
+          "p1": [
+            39399.39,
+            1250.33
+          ],
+          "p2": [
+            39444.94,
+            1250.33
+          ]
+        },
+        {
+          "seg": "SEG-F1-IN2",
+          "W": 1700,
+          "H": 600,
+          "p1": [
+            39594.94,
+            1250.32
+          ],
+          "p2": [
+            39998.68,
+            1250.3
+          ]
+        },
+        {
+          "seg": "SEG-F1-OUT1A",
+          "W": 1250,
+          "H": 1400,
+          "p1": [
+            44814.68,
+            1250.22
+          ],
+          "p2": [
+            44886.11,
+            1250.22
+          ]
+        },
+        {
+          "seg": "SEG-F1-OUT1B",
+          "W": 1250,
+          "H": 1400,
+          "p1": [
+            44978.61,
+            1250.22
+          ],
+          "p2": [
+            45103.51,
+            1250.22
+          ]
+        },
+        {
+          "seg": "SEG-F1-OUT2",
+          "W": 1250,
+          "H": 1400,
+          "p1": [
+            45253.51,
+            1250.22
+          ],
+          "p2": [
+            45603.42,
+            1250.22
+          ]
+        }
+      ],
+      "segment_ids": [
+        "SEG-F1-IN1",
+        "SEG-F1-IN2",
+        "SEG-F1-OUT1A",
+        "SEG-F1-OUT1B",
+        "SEG-F1-OUT2"
+      ]
+    },
+    {
+      "run_id": "RUN-FAN2-STUBS",
+      "description": "Các đoạn ống thẳng ngắn trên tuyến Quạt #2 (Bắc, Y_tim = 3100.08..3100.33)",
+      "W": 1700,
+      "H": 600,
+      "bod_ffl": 2450,
+      "auto_elbows": 0,
+      "sub_runs": [
+        {
+          "seg": "SEG-F2-IN1",
+          "W": 1700,
+          "H": 600,
+          "p1": [
+            39399.39,
+            3100.33
+          ],
+          "p2": [
+            39444.94,
+            3100.33
+          ]
+        },
+        {
+          "seg": "SEG-F2-IN2",
+          "W": 1700,
+          "H": 600,
+          "p1": [
+            39594.94,
+            3100.32
+          ],
+          "p2": [
+            39998.68,
+            3100.3
+          ]
+        },
+        {
+          "seg": "SEG-F2-OUT1A",
+          "W": 1250,
+          "H": 1400,
+          "p1": [
+            44814.68,
+            3100.08
+          ],
+          "p2": [
+            44886.11,
+            3100.08
+          ]
+        },
+        {
+          "seg": "SEG-F2-OUT1B",
+          "W": 1250,
+          "H": 1400,
+          "p1": [
+            44978.61,
+            3100.08
+          ],
+          "p2": [
+            45103.52,
+            3100.08
+          ]
+        },
+        {
+          "seg": "SEG-F2-OUT2",
+          "W": 1250,
+          "H": 1400,
+          "p1": [
+            45253.52,
+            3100.08
+          ],
+          "p2": [
+            45603.42,
+            3100.08
+          ]
+        }
+      ],
+      "segment_ids": [
+        "SEG-F2-IN1",
+        "SEG-F2-IN2",
+        "SEG-F2-OUT1A",
+        "SEG-F2-OUT1B",
+        "SEG-F2-OUT2"
+      ]
+    }
+  ],
+  "duct_segments": [
+    {
+      "id": "SEG-F1-OUT2",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "FAN_TRAIN_1_SOUTH",
+      "order_in_branch": 1,
+      "centerline": {
+        "x1": 45253.51,
+        "y1": 1250.22,
+        "x2": 45603.42,
+        "y2": 1250.22
+      },
+      "length_mm": 349.91,
+      "angle_deg": 0,
+      "width_W": 1250,
+      "height_H": 1400,
+      "bod_ffl": null,
+      "center_z_ffl": null,
+      "tod_ffl": null,
+      "size_source": "inferred_from_silencer_block_W1250xH1400",
+      "bod_source": "missing_on_drawing",
+      "labels": {
+        "size_mtext_handle": null,
+        "size_text_live": null,
+        "size_text_disk": null,
+        "size_pos": null,
+        "bod_mtext_handle": null,
+        "bod_text": null,
+        "bod_pos": null
+      },
+      "wall_handles": [
+        "10CB2",
+        "10CB1"
+      ],
+      "seam_or_end_handles": [
+        "10CB0"
+      ],
+      "upstream_conn": "MFD 10CAF",
+      "downstream_conn": "OPEN/CUTOFF END LINE 10CB0 (X=45603.42)",
+      "notes": "Đoạn ống đẩy cuối quạt số 1 (phía Nam), kết thúc cụt tại X=45603.42, thiếu Text kích thước & cao độ."
+    },
+    {
+      "id": "SEG-F1-OUT1B",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "FAN_TRAIN_1_SOUTH",
+      "order_in_branch": 2,
+      "centerline": {
+        "x1": 44978.61,
+        "y1": 1250.22,
+        "x2": 45103.51,
+        "y2": 1250.22
+      },
+      "length_mm": 124.9,
+      "angle_deg": 0,
+      "width_W": 1250,
+      "height_H": 1400,
+      "bod_ffl": null,
+      "center_z_ffl": null,
+      "tod_ffl": null,
+      "size_source": "inferred_from_silencer_block_W1250xH1400",
+      "bod_source": "missing_on_drawing",
+      "labels": {
+        "size_mtext_handle": null,
+        "size_text_live": null,
+        "size_text_disk": null,
+        "size_pos": null,
+        "bod_mtext_handle": null,
+        "bod_text": null,
+        "bod_pos": null
+      },
+      "wall_handles": [
+        "10CAE",
+        "10CAD"
+      ],
+      "seam_or_end_handles": [],
+      "upstream_conn": "NRD 10CAC",
+      "downstream_conn": "MFD 10CAF",
+      "notes": "Đoạn ống nối ngắn L=124.9mm giữa van NRD 10CAC và van MFD 10CAF."
+    },
+    {
+      "id": "SEG-F1-OUT1A",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "FAN_TRAIN_1_SOUTH",
+      "order_in_branch": 3,
+      "centerline": {
+        "x1": 44814.68,
+        "y1": 1250.22,
+        "x2": 44886.11,
+        "y2": 1250.22
+      },
+      "length_mm": 71.43,
+      "angle_deg": 0,
+      "width_W": 1250,
+      "height_H": 1400,
+      "bod_ffl": null,
+      "center_z_ffl": null,
+      "tod_ffl": null,
+      "size_source": "inferred_from_silencer_block_W1250xH1400",
+      "bod_source": "missing_on_drawing",
+      "labels": {
+        "size_mtext_handle": null,
+        "size_text_live": null,
+        "size_text_disk": null,
+        "size_pos": null,
+        "bod_mtext_handle": null,
+        "bod_text": null,
+        "bod_pos": null
+      },
+      "wall_handles": [
+        "10CAB",
+        "10CAA"
+      ],
+      "seam_or_end_handles": [],
+      "upstream_conn": "SILENCER 10CA9",
+      "downstream_conn": "NRD 10CAC",
+      "notes": "Đoạn ống nối rất ngắn L=71.43mm giữa tiêu âm 10CA9 và van NRD 10CAC."
+    },
+    {
+      "id": "SEG-F1-IN2",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "FAN_TRAIN_1_SOUTH",
+      "order_in_branch": 4,
+      "centerline": {
+        "x1": 39594.94,
+        "y1": 1250.32,
+        "x2": 39998.68,
+        "y2": 1250.3
+      },
+      "length_mm": 403.74,
+      "angle_deg": 0,
+      "width_W": 1700,
+      "height_H": 600,
+      "bod_ffl": 2450,
+      "center_z_ffl": 2750,
+      "tod_ffl": 3050,
+      "size_source": "inferred_width_1700_height_from_header_600",
+      "bod_source": "inferred_continuity",
+      "labels": {
+        "size_mtext_handle": null,
+        "size_text_live": null,
+        "size_text_disk": null,
+        "size_pos": null,
+        "bod_mtext_handle": null,
+        "bod_text": null,
+        "bod_pos": null
+      },
+      "wall_handles": [
+        "10CC7",
+        "10CC8"
+      ],
+      "seam_or_end_handles": [
+        "10CC6"
+      ],
+      "upstream_conn": "MFD 10CC2",
+      "downstream_conn": "REDUCER 10D6D (1700x600 -> 1700x1000)",
+      "notes": "Đoạn ống hút quạt số 1 giữa van MFD 10CC2 và côn đổi chiều cao 10D6D; thiếu Text ghi kích thước."
+    },
+    {
+      "id": "SEG-F1-IN1",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "FAN_TRAIN_1_SOUTH",
+      "order_in_branch": 5,
+      "centerline": {
+        "x1": 39399.39,
+        "y1": 1250.33,
+        "x2": 39444.94,
+        "y2": 1250.33
+      },
+      "length_mm": 45.55,
+      "angle_deg": 0,
+      "width_W": 1700,
+      "height_H": 600,
+      "bod_ffl": 2450,
+      "center_z_ffl": 2750,
+      "tod_ffl": 3050,
+      "size_source": "inferred_width_1700_height_from_header_600",
+      "bod_source": "inferred_continuity",
+      "labels": {
+        "size_mtext_handle": null,
+        "size_text_live": null,
+        "size_text_disk": null,
+        "size_pos": null,
+        "bod_mtext_handle": null,
+        "bod_text": null,
+        "bod_pos": null
+      },
+      "wall_handles": [
+        "10CC4",
+        "10CC5"
+      ],
+      "seam_or_end_handles": [
+        "10CC3"
+      ],
+      "upstream_conn": "TROUSER_PIECE 10CBD",
+      "downstream_conn": "MFD 10CC2",
+      "notes": "Đoạn ống cực ngắn L=45.55mm nối chạc quần 10CBD với van MFD 10CC2."
+    },
+    {
+      "id": "SEG-F2-OUT2",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "FAN_TRAIN_2_NORTH",
+      "order_in_branch": 1,
+      "centerline": {
+        "x1": 45253.52,
+        "y1": 3100.08,
+        "x2": 45603.42,
+        "y2": 3100.08
+      },
+      "length_mm": 349.9,
+      "angle_deg": 0,
+      "width_W": 1250,
+      "height_H": 1400,
+      "bod_ffl": null,
+      "center_z_ffl": null,
+      "tod_ffl": null,
+      "size_source": "inferred_from_silencer_block_W1250xH1400",
+      "bod_source": "missing_on_drawing",
+      "labels": {
+        "size_mtext_handle": null,
+        "size_text_live": null,
+        "size_text_disk": null,
+        "size_pos": null,
+        "bod_mtext_handle": null,
+        "bod_text": null,
+        "bod_pos": null
+      },
+      "wall_handles": [
+        "10CBC",
+        "10CBB"
+      ],
+      "seam_or_end_handles": [
+        "10CBA"
+      ],
+      "upstream_conn": "MFD 10CB9",
+      "downstream_conn": "OPEN/CUTOFF END LINE 10CBA (X=45603.42)",
+      "notes": "Đoạn ống đẩy cuối quạt số 2 (phía Bắc), kết thúc cụt tại X=45603.42, thiếu Text kích thước & cao độ."
+    },
+    {
+      "id": "SEG-F2-OUT1B",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "FAN_TRAIN_2_NORTH",
+      "order_in_branch": 2,
+      "centerline": {
+        "x1": 44978.61,
+        "y1": 3100.08,
+        "x2": 45103.52,
+        "y2": 3100.08
+      },
+      "length_mm": 124.91,
+      "angle_deg": 0,
+      "width_W": 1250,
+      "height_H": 1400,
+      "bod_ffl": null,
+      "center_z_ffl": null,
+      "tod_ffl": null,
+      "size_source": "inferred_from_silencer_block_W1250xH1400",
+      "bod_source": "missing_on_drawing",
+      "labels": {
+        "size_mtext_handle": null,
+        "size_text_live": null,
+        "size_text_disk": null,
+        "size_pos": null,
+        "bod_mtext_handle": null,
+        "bod_text": null,
+        "bod_pos": null
+      },
+      "wall_handles": [
+        "10CB8",
+        "10CB7"
+      ],
+      "seam_or_end_handles": [],
+      "upstream_conn": "NRD 10CB6",
+      "downstream_conn": "MFD 10CB9",
+      "notes": "Đoạn ống nối ngắn L=124.91mm giữa van NRD 10CB6 và van MFD 10CB9."
+    },
+    {
+      "id": "SEG-F2-OUT1A",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "FAN_TRAIN_2_NORTH",
+      "order_in_branch": 3,
+      "centerline": {
+        "x1": 44814.68,
+        "y1": 3100.08,
+        "x2": 44886.11,
+        "y2": 3100.08
+      },
+      "length_mm": 71.43,
+      "angle_deg": 0,
+      "width_W": 1250,
+      "height_H": 1400,
+      "bod_ffl": null,
+      "center_z_ffl": null,
+      "tod_ffl": null,
+      "size_source": "inferred_from_silencer_block_W1250xH1400",
+      "bod_source": "missing_on_drawing",
+      "labels": {
+        "size_mtext_handle": null,
+        "size_text_live": null,
+        "size_text_disk": null,
+        "size_pos": null,
+        "bod_mtext_handle": null,
+        "bod_text": null,
+        "bod_pos": null
+      },
+      "wall_handles": [
+        "10CB5",
+        "10CB4"
+      ],
+      "seam_or_end_handles": [],
+      "upstream_conn": "SILENCER 10CB3",
+      "downstream_conn": "NRD 10CB6",
+      "notes": "Đoạn ống nối rất ngắn L=71.43mm giữa tiêu âm 10CB3 và van NRD 10CB6."
+    },
+    {
+      "id": "SEG-F2-IN2",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "FAN_TRAIN_2_NORTH",
+      "order_in_branch": 4,
+      "centerline": {
+        "x1": 39594.94,
+        "y1": 3100.32,
+        "x2": 39998.68,
+        "y2": 3100.3
+      },
+      "length_mm": 403.74,
+      "angle_deg": 0,
+      "width_W": 1700,
+      "height_H": 600,
+      "bod_ffl": 2450,
+      "center_z_ffl": 2750,
+      "tod_ffl": 3050,
+      "size_source": "inferred_width_1700_height_from_header_600",
+      "bod_source": "inferred_continuity",
+      "labels": {
+        "size_mtext_handle": null,
+        "size_text_live": null,
+        "size_text_disk": null,
+        "size_pos": null,
+        "bod_mtext_handle": null,
+        "bod_text": null,
+        "bod_pos": null
+      },
+      "wall_handles": [
+        "10CCA",
+        "10CCB"
+      ],
+      "seam_or_end_handles": [
+        "10CC9"
+      ],
+      "upstream_conn": "MFD 10CBE",
+      "downstream_conn": "REDUCER 10D6C (1700x600 -> 1700x1000)",
+      "notes": "Đoạn ống hút quạt số 2 giữa van MFD 10CBE và côn đổi chiều cao 10D6C; thiếu Text ghi kích thước."
+    },
+    {
+      "id": "SEG-F2-IN1",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "FAN_TRAIN_2_NORTH",
+      "order_in_branch": 5,
+      "centerline": {
+        "x1": 39399.39,
+        "y1": 3100.33,
+        "x2": 39444.94,
+        "y2": 3100.33
+      },
+      "length_mm": 45.55,
+      "angle_deg": 0,
+      "width_W": 1700,
+      "height_H": 600,
+      "bod_ffl": 2450,
+      "center_z_ffl": 2750,
+      "tod_ffl": 3050,
+      "size_source": "inferred_width_1700_height_from_header_600",
+      "bod_source": "inferred_continuity",
+      "labels": {
+        "size_mtext_handle": null,
+        "size_text_live": null,
+        "size_text_disk": null,
+        "size_pos": null,
+        "bod_mtext_handle": null,
+        "bod_text": null,
+        "bod_pos": null
+      },
+      "wall_handles": [
+        "10CC0",
+        "10CC1"
+      ],
+      "seam_or_end_handles": [
+        "10CBF"
+      ],
+      "upstream_conn": "TROUSER_PIECE 10CBD",
+      "downstream_conn": "MFD 10CBE",
+      "notes": "Đoạn ống cực ngắn L=45.55mm nối chạc quần 10CBD với van MFD 10CBE."
+    },
+    {
+      "id": "SEG-M01",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "MAIN_HEADER",
+      "order_in_branch": 1,
+      "centerline": {
+        "x1": 37579.39,
+        "y1": 2175.33,
+        "x2": 35222.39,
+        "y2": 2175.33
+      },
+      "length_mm": 2357,
+      "angle_deg": 180,
+      "width_W": 2200,
+      "height_H": 600,
+      "bod_ffl": 2450,
+      "center_z_ffl": 2750,
+      "tod_ffl": 3050,
+      "size_source": "mtext_explicit",
+      "bod_source": "mtext_explicit",
+      "labels": {
+        "size_mtext_handle": "10DAD",
+        "size_text_live": "SEAD-2200x600",
+        "size_text_disk": "SED-2200x600",
+        "size_pos": [
+          35819.82,
+          2291.88
+        ],
+        "bod_mtext_handle": "10DAE",
+        "bod_text": "BOD=FFL+2450",
+        "bod_pos": [
+          35819.82,
+          2152.98
+        ]
+      },
+      "wall_handles": [
+        "10B0B",
+        "10B0A"
+      ],
+      "seam_or_end_handles": [
+        "10B09"
+      ],
+      "upstream_conn": "TROUSER_PIECE 10CBD",
+      "downstream_conn": "REDUCER 10D50 (left) + SHOE TAP 10D51 (north branch)",
+      "notes": "Ống góp chính SEAD-2200x600, BOD=FFL+2450. Tại thành Bắc (Y=3275.33) có trích gót giày 10D51 (1700x500) lên Nhánh Phải."
+    },
+    {
+      "id": "SEG-L01A",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "LEFT_BRANCH",
+      "order_in_branch": 1,
+      "centerline": {
+        "x1": 35018.39,
+        "y1": 2175.34,
+        "x2": 34731.76,
+        "y2": 2175.34
+      },
+      "length_mm": 286.63,
+      "angle_deg": 180,
+      "width_W": 1600,
+      "height_H": 450,
+      "bod_ffl": 2500,
+      "center_z_ffl": 2725,
+      "tod_ffl": 2950,
+      "size_source": "inferred_continuity",
+      "bod_source": "inferred_continuity",
+      "labels": {
+        "size_mtext_handle": null,
+        "size_text_live": null,
+        "size_text_disk": null,
+        "size_pos": null,
+        "bod_mtext_handle": null,
+        "bod_text": null,
+        "bod_pos": null
+      },
+      "wall_handles": [
+        "10B2E",
+        "10B2D"
+      ],
+      "seam_or_end_handles": [
+        "10B2C"
+      ],
+      "upstream_conn": "REDUCER 10D50 (2200x600 -> 1600x450)",
+      "downstream_conn": "VCD 10B17",
+      "notes": "Đoạn ống ngắn L=286.63mm nối giữa côn thu 10D50 và van VCD 10B17."
+    },
+    {
+      "id": "SEG-L01B",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "LEFT_BRANCH",
+      "order_in_branch": 2,
+      "centerline": {
+        "x1": 34581.7,
+        "y1": 2175.33,
+        "x2": 20644.36,
+        "y2": 2175.33
+      },
+      "length_mm": 13937.34,
+      "angle_deg": 180,
+      "width_W": 1600,
+      "height_H": 450,
+      "bod_ffl": 2500,
+      "center_z_ffl": 2725,
+      "tod_ffl": 2950,
+      "size_source": "mtext_explicit",
+      "bod_source": "mtext_explicit",
+      "labels": {
+        "size_mtext_handle": "10DAF",
+        "size_text_live": "SEAD-1600x450",
+        "size_text_disk": "SED-1600x450",
+        "size_pos": [
+          27180.11,
+          2291.88
+        ],
+        "bod_mtext_handle": "10DB0",
+        "bod_text": "BOD=FFL+2500",
+        "bod_pos": [
+          27180.11,
+          2152.98
+        ]
+      },
+      "wall_handles": [
+        "10D4A",
+        "10D4B"
+      ],
+      "seam_or_end_handles": [
+        "10D49",
+        "10D48"
+      ],
+      "upstream_conn": "VCD 10B17",
+      "downstream_conn": "REDUCER 10C85 (1600x450 -> 1450x400)",
+      "notes": "Tuyến ngang nhánh trái SEAD-1600x450, BOD=FFL+2500."
+    },
+    {
+      "id": "SEG-L02",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "LEFT_BRANCH",
+      "order_in_branch": 3,
+      "centerline": {
+        "x1": 20440.36,
+        "y1": 2175.32,
+        "x2": 17283.05,
+        "y2": 2175.06
+      },
+      "length_mm": 3157.31,
+      "angle_deg": -180,
+      "width_W": 1450,
+      "height_H": 400,
+      "bod_ffl": 2500,
+      "center_z_ffl": 2700,
+      "tod_ffl": 2900,
+      "size_source": "mtext_explicit",
+      "bod_source": "mtext_explicit",
+      "labels": {
+        "size_mtext_handle": "10DB1",
+        "size_text_live": "SEAD-1450x400",
+        "size_text_disk": "SED-1450x400",
+        "size_pos": [
+          18189.68,
+          2291.69
+        ],
+        "bod_mtext_handle": "10DB2",
+        "bod_text": "BOD=FFL+2500",
+        "bod_pos": [
+          18189.68,
+          2152.78
+        ]
+      },
+      "wall_handles": [
+        "10C83",
+        "10C84"
+      ],
+      "seam_or_end_handles": [],
+      "upstream_conn": "REDUCER 10C85 (1600x450 -> 1450x400)",
+      "downstream_conn": "ELBOW 10D4C (90° turn North)",
+      "notes": "Đoạn ngang SEAD-1450x400 trước khi rẽ lên Bắc qua cút 10D4C."
+    },
+    {
+      "id": "SEG-L03",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "LEFT_BRANCH",
+      "order_in_branch": 4,
+      "centerline": {
+        "x1": 15830.93,
+        "y1": 3626.93,
+        "x2": 15829.91,
+        "y2": 15018.8
+      },
+      "length_mm": 11391.87,
+      "angle_deg": 90.01,
+      "width_W": 1450,
+      "height_H": 400,
+      "bod_ffl": 2500,
+      "center_z_ffl": 2700,
+      "tod_ffl": 2900,
+      "size_source": "mtext_explicit",
+      "bod_source": "mtext_explicit",
+      "labels": {
+        "size_mtext_handle": "10DB3",
+        "size_text_live": "SEAD-1450x400",
+        "size_text_disk": "SED-1450x400",
+        "size_pos": [
+          15713.68,
+          11464.82
+        ],
+        "bod_mtext_handle": "10DB4",
+        "bod_text": "BOD=FFL+2500",
+        "bod_pos": [
+          15852.58,
+          11464.82
+        ]
+      },
+      "wall_handles": [
+        "10D3A",
+        "10D38",
+        "10D39",
+        "10D37"
+      ],
+      "seam_or_end_handles": [],
+      "upstream_conn": "ELBOW 10D4C",
+      "downstream_conn": "MANUAL REDUCER 10E35..10E38 (1450x400 -> 1100x400, L=650)",
+      "notes": "Đoạn đi lên phía Bắc SEAD-1450x400 (chia 2 cặp LINE thẳng hàng tại Y=8710.4 do điểm nối ống Revit); có 2 gót giày + miệng gió EAG 600x300 bên trái."
+    },
+    {
+      "id": "SEG-L04",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "LEFT_BRANCH",
+      "order_in_branch": 5,
+      "centerline": {
+        "x1": 16004.85,
+        "y1": 15668.82,
+        "x2": 16003.51,
+        "y2": 31513.08
+      },
+      "length_mm": 15844.26,
+      "angle_deg": 90,
+      "width_W": 1100,
+      "height_H": 400,
+      "bod_ffl": 2500,
+      "center_z_ffl": 2700,
+      "tod_ffl": 2900,
+      "size_source": "mtext_explicit",
+      "bod_source": "mtext_explicit",
+      "labels": {
+        "size_mtext_handle": "10DB5",
+        "size_text_live": "SEAD-1100x400",
+        "size_text_disk": "SED-1100x400",
+        "size_pos": [
+          15887.68,
+          23053.59
+        ],
+        "bod_mtext_handle": "10DB6",
+        "bod_text": "BOD=FFL+2500",
+        "bod_pos": [
+          16026.58,
+          23053.59
+        ]
+      },
+      "wall_handles": [
+        "10B33",
+        "10B34"
+      ],
+      "seam_or_end_handles": [],
+      "upstream_conn": "MANUAL REDUCER 10E35..10E38",
+      "downstream_conn": "REDUCER 10B4C (1100x400 -> 800x400)",
+      "notes": "Đoạn đi lên SEAD-1100x400, BOD=FFL+2500; có 3 gót giày + miệng gió EAG 600x300 bên trái."
+    },
+    {
+      "id": "SEG-L05",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "LEFT_BRANCH",
+      "order_in_branch": 6,
+      "centerline": {
+        "x1": 16003.49,
+        "y1": 31717.08,
+        "x2": 16002.6,
+        "y2": 42282.08
+      },
+      "length_mm": 10565,
+      "angle_deg": 90,
+      "width_W": 800,
+      "height_H": 400,
+      "bod_ffl": 2500,
+      "center_z_ffl": 2700,
+      "tod_ffl": 2900,
+      "size_source": "mtext_explicit",
+      "bod_source": "mtext_explicit",
+      "labels": {
+        "size_mtext_handle": "10DB7",
+        "size_text_live": "SEAD-800x400",
+        "size_text_disk": "SED-800x400",
+        "size_pos": [
+          15886.56,
+          36212.32
+        ],
+        "bod_mtext_handle": "10DB8",
+        "bod_text": "BOD=FFL+2500",
+        "bod_pos": [
+          16025.47,
+          36212.32
+        ]
+      },
+      "wall_handles": [
+        "10B32",
+        "10B30",
+        "10B31",
+        "10B2F"
+      ],
+      "seam_or_end_handles": [],
+      "upstream_conn": "REDUCER 10B4C",
+      "downstream_conn": "REDUCER 10C97 (800x400 -> 550x350)",
+      "notes": "Đoạn đi lên SEAD-800x400, BOD=FFL+2500 (gồm 2 cặp LINE nối tại Y=39344.18); có 2 gót giày + miệng gió EAG 600x300 bên trái."
+    },
+    {
+      "id": "SEG-L06",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "LEFT_BRANCH",
+      "order_in_branch": 7,
+      "centerline": {
+        "x1": 16002.73,
+        "y1": 42486.08,
+        "x2": 16001.87,
+        "y2": 52835.08
+      },
+      "length_mm": 10349,
+      "angle_deg": 90,
+      "width_W": 550,
+      "height_H": 350,
+      "bod_ffl": 2500,
+      "center_z_ffl": 2675,
+      "tod_ffl": 2850,
+      "size_source": "mtext_explicit",
+      "bod_source": "mtext_explicit",
+      "labels": {
+        "size_mtext_handle": "10DB9",
+        "size_text_live": "SEAD-550x350",
+        "size_text_disk": "SED-550x350",
+        "size_pos": [
+          15885.77,
+          47373.71
+        ],
+        "bod_mtext_handle": "10DBA",
+        "bod_text": "BOD=FFL+2500",
+        "bod_pos": [
+          16024.68,
+          47373.71
+        ]
+      },
+      "wall_handles": [
+        "10B22",
+        "10B21"
+      ],
+      "seam_or_end_handles": [
+        "10B20"
+      ],
+      "upstream_conn": "REDUCER 10C97",
+      "downstream_conn": "ENDCAP 10BAF (Y=52835.08)",
+      "notes": "Đoạn cuối nhánh trái SEAD-550x350, BOD=FFL+2500, kết thúc bằng nắp bịt 10BAF; có 2 gót giày + miệng gió EAG 600x300 bên trái."
+    },
+    {
+      "id": "SEG-R01A",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "RIGHT_TOP_BRANCH",
+      "order_in_branch": 1,
+      "centerline": {
+        "x1": 36459.09,
+        "y1": 3427.34,
+        "x2": 36459.06,
+        "y2": 3958.23
+      },
+      "length_mm": 530.89,
+      "angle_deg": 90,
+      "width_W": 1700,
+      "height_H": 500,
+      "bod_ffl": 2500,
+      "center_z_ffl": 2750,
+      "tod_ffl": 3000,
+      "size_source": "inferred_continuity",
+      "bod_source": "inferred_continuity",
+      "labels": {
+        "size_mtext_handle": null,
+        "size_text_live": null,
+        "size_text_disk": null,
+        "size_pos": null,
+        "bod_mtext_handle": null,
+        "bod_text": null,
+        "bod_pos": null
+      },
+      "wall_handles": [
+        "10B1E",
+        "10B1F"
+      ],
+      "seam_or_end_handles": [],
+      "upstream_conn": "SHOE TAP 10D51 (1700x500 on Main Header 2200x600)",
+      "downstream_conn": "VCD 10BAE",
+      "notes": "Đoạn ống ngắn L=530.89mm từ cổ trích gót giày 10D51 tới van VCD 10BAE; chưa có Text kích thước."
+    },
+    {
+      "id": "SEG-R01B",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "RIGHT_TOP_BRANCH",
+      "order_in_branch": 2,
+      "centerline": {
+        "x1": 36459.05,
+        "y1": 4108.26,
+        "x2": 36458.95,
+        "y2": 5753.24
+      },
+      "length_mm": 1644.98,
+      "angle_deg": 90,
+      "width_W": 1700,
+      "height_H": 500,
+      "bod_ffl": 2500,
+      "center_z_ffl": 2750,
+      "tod_ffl": 3000,
+      "size_source": "inferred_continuity",
+      "bod_source": "inferred_continuity",
+      "labels": {
+        "size_mtext_handle": null,
+        "size_text_live": null,
+        "size_text_disk": null,
+        "size_pos": null,
+        "bod_mtext_handle": null,
+        "bod_text": null,
+        "bod_pos": null
+      },
+      "wall_handles": [
+        "10CA2",
+        "10CA1"
+      ],
+      "seam_or_end_handles": [],
+      "upstream_conn": "VCD 10BAE",
+      "downstream_conn": "ELBOW 10D4F (90° turn East)",
+      "notes": "Đoạn ống từ sau van VCD 10BAE tới cút 10D4F; chưa có Text kích thước."
+    },
+    {
+      "id": "SEG-R02",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "RIGHT_TOP_BRANCH",
+      "order_in_branch": 3,
+      "centerline": {
+        "x1": 38160.81,
+        "y1": 7455.34,
+        "x2": 43264.87,
+        "y2": 7455.77
+      },
+      "length_mm": 5104.06,
+      "angle_deg": 0,
+      "width_W": 1700,
+      "height_H": 500,
+      "bod_ffl": 2500,
+      "center_z_ffl": 2750,
+      "tod_ffl": 3000,
+      "size_source": "mtext_explicit",
+      "bod_source": "mtext_explicit",
+      "labels": {
+        "size_mtext_handle": "10DBB",
+        "size_text_live": "SEAD-1700x500",
+        "size_text_disk": "SED-1700x500",
+        "size_pos": [
+          39740.23,
+          7572.02
+        ],
+        "bod_mtext_handle": "10DBC",
+        "bod_text": "BOD=FFL+2500",
+        "bod_pos": [
+          39740.23,
+          7433.12
+        ]
+      },
+      "wall_handles": [
+        "10B4A",
+        "10B4B"
+      ],
+      "seam_or_end_handles": [],
+      "upstream_conn": "ELBOW 10D4F",
+      "downstream_conn": "ELBOW 10D4D (90° turn North)",
+      "notes": "Đoạn ngang SEAD-1700x500, BOD=FFL+2500; có 1 gót giày 10BB1 + miệng gió EAG 10BB0 hướng lên Bắc (+Y) — đề xuất khoanh REVCLOUD mẫu RC-08 xác nhận quy cách miệng gió."
+    },
+    {
+      "id": "SEG-R03",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "RIGHT_TOP_BRANCH",
+      "order_in_branch": 4,
+      "centerline": {
+        "x1": 44966.72,
+        "y1": 9157.92,
+        "x2": 44966.72,
+        "y2": 20994.85
+      },
+      "length_mm": 11836.93,
+      "angle_deg": 90,
+      "width_W": 1700,
+      "height_H": 500,
+      "bod_ffl": 2500,
+      "center_z_ffl": 2750,
+      "tod_ffl": 3000,
+      "size_source": "mtext_explicit",
+      "bod_source": "mtext_explicit",
+      "labels": {
+        "size_mtext_handle": "10DBD",
+        "size_text_live": "SEAD-1700x500",
+        "size_text_disk": "SED-1700x500",
+        "size_pos": [
+          45042.48,
+          10712.06
+        ],
+        "bod_mtext_handle": "10DBE",
+        "bod_text": "BOD=FFL+2500",
+        "bod_pos": [
+          45181.39,
+          10712.06
+        ]
+      },
+      "wall_handles": [
+        "10CA0",
+        "10C9F"
+      ],
+      "seam_or_end_handles": [
+        "10C9D",
+        "10C9E"
+      ],
+      "upstream_conn": "ELBOW 10D4D",
+      "downstream_conn": "REDUCER 10D4E (1700x500 -> 1400x500 eccentric flat-right)",
+      "notes": "Đoạn đi lên SEAD-1700x500, BOD=FFL+2500; có 2 gót giày + miệng gió EAG 600x300 bên trái."
+    },
+    {
+      "id": "SEG-R04",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "RIGHT_TOP_BRANCH",
+      "order_in_branch": 5,
+      "centerline": {
+        "x1": 45116.72,
+        "y1": 21198.84,
+        "x2": 45116.19,
+        "y2": 27477.84
+      },
+      "length_mm": 6279,
+      "angle_deg": 90,
+      "width_W": 1400,
+      "height_H": 500,
+      "bod_ffl": 2500,
+      "center_z_ffl": 2750,
+      "tod_ffl": 3000,
+      "size_source": "mtext_explicit",
+      "bod_source": "mtext_explicit",
+      "labels": {
+        "size_mtext_handle": "10DBF",
+        "size_text_live": "SEAD-1400x500",
+        "size_text_disk": "SED-1400x500",
+        "size_pos": [
+          45042.34,
+          22621.27
+        ],
+        "bod_mtext_handle": "10DC0",
+        "bod_text": "BOD=FFL+2500",
+        "bod_pos": [
+          45181.25,
+          22621.27
+        ]
+      },
+      "wall_handles": [
+        "10B47",
+        "10B48"
+      ],
+      "seam_or_end_handles": [],
+      "upstream_conn": "REDUCER 10D4E",
+      "downstream_conn": "ELBOW 10BAC (90° turn West - Jog #1)",
+      "notes": "Đoạn đi lên SEAD-1400x500, BOD=FFL+2500; có 1 gót giày + miệng gió EAG 600x300 bên trái."
+    },
+    {
+      "id": "SEG-R05",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "RIGHT_TOP_BRANCH",
+      "order_in_branch": 6,
+      "centerline": {
+        "x1": 43756.37,
+        "y1": 28879.73,
+        "x2": 42082.77,
+        "y2": 28879.58
+      },
+      "length_mm": 1673.6,
+      "angle_deg": -179.99,
+      "width_W": 1400,
+      "height_H": 500,
+      "bod_ffl": 2500,
+      "center_z_ffl": 2750,
+      "tod_ffl": 3000,
+      "size_source": "inferred_continuity",
+      "bod_source": "inferred_continuity",
+      "labels": {
+        "size_mtext_handle": null,
+        "size_text_live": null,
+        "size_text_disk": null,
+        "size_pos": null,
+        "bod_mtext_handle": null,
+        "bod_text": null,
+        "bod_pos": null
+      },
+      "wall_handles": [
+        "10B45",
+        "10B46"
+      ],
+      "seam_or_end_handles": [],
+      "upstream_conn": "ELBOW 10BAC",
+      "downstream_conn": "ELBOW 10BAB (90° turn North - Jog #1)",
+      "notes": "Đoạn ngang chuyển hướng Jog #1 sang trái (W=1400); thiếu Text kích thước & cao độ (RC-05)."
+    },
+    {
+      "id": "SEG-R06",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "RIGHT_TOP_BRANCH",
+      "order_in_branch": 7,
+      "centerline": {
+        "x1": 40680.65,
+        "y1": 30281.46,
+        "x2": 40680.65,
+        "y2": 37127.69
+      },
+      "length_mm": 6846.23,
+      "angle_deg": 90,
+      "width_W": 1400,
+      "height_H": 500,
+      "bod_ffl": 2500,
+      "center_z_ffl": 2750,
+      "tod_ffl": 3000,
+      "size_source": "mtext_explicit",
+      "bod_source": "mtext_explicit",
+      "labels": {
+        "size_mtext_handle": "10DC1",
+        "size_text_live": "SEAD-1400x500",
+        "size_text_disk": "SED-1400x500",
+        "size_pos": [
+          40564.09,
+          33508.08
+        ],
+        "bod_mtext_handle": "10DC2",
+        "bod_text": "BOD=FFL+2500",
+        "bod_pos": [
+          40703,
+          33508.08
+        ]
+      },
+      "wall_handles": [
+        "10B42",
+        "10B43",
+        "10B44"
+      ],
+      "seam_or_end_handles": [
+        "10B41"
+      ],
+      "upstream_conn": "ELBOW 10BAB",
+      "downstream_conn": "REDUCER 10BAA (1400x500 -> 1150x500)",
+      "notes": "Đoạn đi lên SEAD-1400x500 sau Jog #1 (thành trái bị ngắt tại Y=30367.95..31117.95 bởi cổ gót giày 10BC3); có 2 gót giày + miệng gió EAG 600x300 bên trái."
+    },
+    {
+      "id": "SEG-R07A",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "RIGHT_TOP_BRANCH",
+      "order_in_branch": 8,
+      "centerline": {
+        "x1": 40680.54,
+        "y1": 37331.69,
+        "x2": 40680.45,
+        "y2": 38425.2
+      },
+      "length_mm": 1093.51,
+      "angle_deg": 90,
+      "width_W": 1150,
+      "height_H": 500,
+      "bod_ffl": 2500,
+      "center_z_ffl": 2750,
+      "tod_ffl": 3000,
+      "size_source": "inferred_continuity",
+      "bod_source": "ambiguous_transition_2500_to_2545",
+      "labels": {
+        "size_mtext_handle": null,
+        "size_text_live": null,
+        "size_text_disk": null,
+        "size_pos": null,
+        "bod_mtext_handle": null,
+        "bod_text": null,
+        "bod_pos": null
+      },
+      "wall_handles": [
+        "10BA7",
+        "10BA9"
+      ],
+      "seam_or_end_handles": [
+        "10BA5",
+        "10BA6",
+        "10BA8",
+        "10BA4",
+        "10BA3"
+      ],
+      "upstream_conn": "REDUCER 10BAA",
+      "downstream_conn": "ELBOW 10B49 (90° turn East - Jog #2, sloped in 3D)",
+      "notes": "Đoạn đứng ngắn W=1150 trước cút 10B49; thiếu Text kích thước, có các đoạn LINE nối ngắn 4.7~9.5mm do ống nghiêng 3D (RC-03)."
+    },
+    {
+      "id": "SEG-R07B",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "RIGHT_TOP_BRANCH",
+      "order_in_branch": 9,
+      "centerline": {
+        "x1": 41832.35,
+        "y1": 39577.65,
+        "x2": 43931.25,
+        "y2": 39577.84
+      },
+      "length_mm": 2098.9,
+      "angle_deg": 0.01,
+      "width_W": 1150,
+      "height_H": 500,
+      "bod_ffl": 2522.5,
+      "center_z_ffl": 2772.5,
+      "tod_ffl": 3022.5,
+      "size_source": "inferred_continuity",
+      "bod_source": "sloped_3d_2500_to_2545",
+      "labels": {
+        "size_mtext_handle": null,
+        "size_text_live": null,
+        "size_text_disk": null,
+        "size_pos": null,
+        "bod_mtext_handle": null,
+        "bod_text": null,
+        "bod_pos": null
+      },
+      "wall_handles": [
+        "10B40",
+        "10B3F",
+        "10B3E"
+      ],
+      "seam_or_end_handles": [
+        "10B3D"
+      ],
+      "upstream_conn": "ELBOW 10B49",
+      "downstream_conn": "ELBOW 10B51 (90° turn North - Jog #2)",
+      "notes": "Đoạn ngang Jog #2 sang phải (W=1150): có NÉT ĐÔI song song cách nhau 9.49mm ở biên Bắc (10B3F Y=40152.6 & 10B3E Y=40162.1) do ống nghiêng dốc ~1.09° nâng BOD từ +2500 lên +2545; thiếu Text kích thước (RC-03)."
+    },
+    {
+      "id": "SEG-R08",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "RIGHT_TOP_BRANCH",
+      "order_in_branch": 10,
+      "centerline": {
+        "x1": 45083.15,
+        "y1": 40734.68,
+        "x2": 45082.04,
+        "y2": 53864.99
+      },
+      "length_mm": 13130.31,
+      "angle_deg": 90,
+      "width_W": 1150,
+      "height_H": 500,
+      "bod_ffl": 2545,
+      "center_z_ffl": 2795,
+      "tod_ffl": 3045,
+      "size_source": "mtext_explicit",
+      "bod_source": "mtext_explicit",
+      "labels": {
+        "size_mtext_handle": "10DC3",
+        "size_text_live": "SEAD-1150x500",
+        "size_text_disk": "SED-1150x500",
+        "size_pos": [
+          44966.01,
+          47645.17
+        ],
+        "bod_mtext_handle": "10DC4",
+        "bod_text": "BOD=FFL+2545",
+        "bod_pos": [
+          45104.92,
+          47645.17
+        ]
+      },
+      "wall_handles": [
+        "10B3B",
+        "10B3C"
+      ],
+      "seam_or_end_handles": [],
+      "upstream_conn": "ELBOW 10B51",
+      "downstream_conn": "REDUCER 10B50 (1150x500 -> 950x450)",
+      "notes": "Đoạn đi lên SEAD-1150x500, BOD=FFL+2545 (TOD=3045); có 3 gót giày + miệng gió EAG 600x300 bên trái."
+    },
+    {
+      "id": "SEG-R09",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "RIGHT_TOP_BRANCH",
+      "order_in_branch": 11,
+      "centerline": {
+        "x1": 45082.02,
+        "y1": 54068.99,
+        "x2": 45081.3,
+        "y2": 62532.86
+      },
+      "length_mm": 8463.87,
+      "angle_deg": 90,
+      "width_W": 950,
+      "height_H": 450,
+      "bod_ffl": 2595,
+      "center_z_ffl": 2820,
+      "tod_ffl": 3045,
+      "size_source": "mtext_explicit",
+      "bod_source": "mtext_explicit",
+      "labels": {
+        "size_mtext_handle": "10DC5",
+        "size_text_live": "SEAD-950x450",
+        "size_text_disk": "SED-950x450",
+        "size_pos": [
+          44965.16,
+          57701.64
+        ],
+        "bod_mtext_handle": "10DC6",
+        "bod_text": "BOD=FFL+2595",
+        "bod_pos": [
+          45104.06,
+          57701.64
+        ]
+      },
+      "wall_handles": [
+        "10B39",
+        "10B3A"
+      ],
+      "seam_or_end_handles": [],
+      "upstream_conn": "REDUCER 10B50",
+      "downstream_conn": "ELBOW 10B4F (90° turn West)",
+      "notes": "Đoạn đi lên góc Đông-Bắc SEAD-950x450, BOD=FFL+2595 (phẳng đỉnh TOD=3045); có 1 gót giày + miệng gió EAG 600x300 bên trái."
+    },
+    {
+      "id": "SEG-T01",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "RIGHT_TOP_BRANCH",
+      "order_in_branch": 12,
+      "centerline": {
+        "x1": 44129.22,
+        "y1": 63484.78,
+        "x2": 34735.8,
+        "y2": 63483.98
+      },
+      "length_mm": 9393.42,
+      "angle_deg": -180,
+      "width_W": 950,
+      "height_H": 450,
+      "bod_ffl": 2595,
+      "center_z_ffl": 2820,
+      "tod_ffl": 3045,
+      "size_source": "mtext_explicit",
+      "bod_source": "mtext_explicit",
+      "labels": {
+        "size_mtext_handle": "10DC7",
+        "size_text_live": "SEAD-950x450",
+        "size_text_disk": "SED-950x450",
+        "size_pos": [
+          38180.03,
+          63600.82
+        ],
+        "bod_mtext_handle": "10DC8",
+        "bod_text": "BOD=FFL+2595",
+        "bod_pos": [
+          38180.03,
+          63461.92
+        ]
+      },
+      "wall_handles": [
+        "10B37",
+        "10B38"
+      ],
+      "seam_or_end_handles": [],
+      "upstream_conn": "ELBOW 10B4F",
+      "downstream_conn": "REDUCER 10B4E (950x450 -> 800x400)",
+      "notes": "Đoạn ngang phía Bắc đi sang Tây SEAD-950x450, BOD=FFL+2595; có 2 gót giày + miệng gió EAG 600x300 hướng xuống Nam (-Y)."
+    },
+    {
+      "id": "SEG-T02",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "RIGHT_TOP_BRANCH",
+      "order_in_branch": 13,
+      "centerline": {
+        "x1": 34531.8,
+        "y1": 63483.92,
+        "x2": 21317.76,
+        "y2": 63482.79
+      },
+      "length_mm": 13214.04,
+      "angle_deg": -180,
+      "width_W": 800,
+      "height_H": 400,
+      "bod_ffl": 2645,
+      "center_z_ffl": 2845,
+      "tod_ffl": 3045,
+      "size_source": "mtext_explicit",
+      "bod_source": "mtext_explicit",
+      "labels": {
+        "size_mtext_handle": "10DC9",
+        "size_text_live": "SEAD-800x400",
+        "size_text_disk": "SED-800x400",
+        "size_pos": [
+          27018.62,
+          63599.83
+        ],
+        "bod_mtext_handle": "10DCA",
+        "bod_text": "BOD=FFL+2645",
+        "bod_pos": [
+          27018.62,
+          63460.92
+        ]
+      },
+      "wall_handles": [
+        "10B35",
+        "10B36"
+      ],
+      "seam_or_end_handles": [],
+      "upstream_conn": "REDUCER 10B4E",
+      "downstream_conn": "REDUCER 10B4D (800x400 -> 550x350)",
+      "notes": "Đoạn ngang phía Bắc SEAD-800x400, BOD=FFL+2645 (phẳng đỉnh TOD=3045); có 2 gót giày + miệng gió EAG 600x300 hướng xuống Nam (-Y)."
+    },
+    {
+      "id": "SEG-T03",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "RIGHT_TOP_BRANCH",
+      "order_in_branch": 14,
+      "centerline": {
+        "x1": 21113.76,
+        "y1": 63482.77,
+        "x2": 14886.96,
+        "y2": 63482.25
+      },
+      "length_mm": 6226.8,
+      "angle_deg": -180,
+      "width_W": 550,
+      "height_H": 350,
+      "bod_ffl": 2695,
+      "center_z_ffl": 2870,
+      "tod_ffl": 3045,
+      "size_source": "mtext_explicit",
+      "bod_source": "mtext_explicit",
+      "labels": {
+        "size_mtext_handle": "10DCB",
+        "size_text_live": "SEAD-550x350",
+        "size_text_disk": "SED-550x350",
+        "size_pos": [
+          17480.05,
+          63599.02
+        ],
+        "bod_mtext_handle": "10DCC",
+        "bod_text": "BOD=FFL+2695",
+        "bod_pos": [
+          17480.05,
+          63460.11
+        ]
+      },
+      "wall_handles": [
+        "10B28",
+        "10B29"
+      ],
+      "seam_or_end_handles": [],
+      "upstream_conn": "REDUCER 10B4D",
+      "downstream_conn": "ELBOW 10B2B (90° turn South)",
+      "notes": "Đoạn ngang phía Bắc SEAD-550x350, BOD=FFL+2695 (phẳng đỉnh TOD=3045); có 1 gót giày + miệng gió EAG 600x300 hướng xuống Nam (-Y)."
+    },
+    {
+      "id": "SEG-T04",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "RIGHT_TOP_BRANCH",
+      "order_in_branch": 15,
+      "centerline": {
+        "x1": 14335.01,
+        "y1": 62930.2,
+        "x2": 14335.28,
+        "y2": 59756.71
+      },
+      "length_mm": 3173.49,
+      "angle_deg": -90,
+      "width_W": 550,
+      "height_H": 350,
+      "bod_ffl": 2695,
+      "center_z_ffl": 2870,
+      "tod_ffl": 3045,
+      "size_source": "inferred_continuity",
+      "bod_source": "inferred_continuity",
+      "labels": {
+        "size_mtext_handle": null,
+        "size_text_live": null,
+        "size_text_disk": null,
+        "size_pos": null,
+        "bod_mtext_handle": null,
+        "bod_text": null,
+        "bod_pos": null
+      },
+      "wall_handles": [
+        "10B27",
+        "10B26"
+      ],
+      "seam_or_end_handles": [],
+      "upstream_conn": "ELBOW 10B2B",
+      "downstream_conn": "ELBOW 10B2A (90° turn West)",
+      "notes": "Đoạn chuyển hướng đi xuống phía Nam W=550 giữa 2 cút 10B2B & 10B2A; thiếu Text kích thước & cao độ (RC-07)."
+    },
+    {
+      "id": "SEG-T05",
+      "system": "SEAD",
+      "system_full_name": "Smoke Exhaust Air Duct (Ống gió hút khói tầng hầm B1)",
+      "design_layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "spec_target_layer": "M-MVAC-SEAD",
+      "spec_target_color_aci": 190,
+      "branch": "RIGHT_TOP_BRANCH",
+      "order_in_branch": 16,
+      "centerline": {
+        "x1": 13783.33,
+        "y1": 59204.66,
+        "x2": 4415.11,
+        "y2": 59204.66
+      },
+      "length_mm": 9368.22,
+      "angle_deg": 180,
+      "width_W": 550,
+      "height_H": 350,
+      "bod_ffl": 2695,
+      "center_z_ffl": 2870,
+      "tod_ffl": 3045,
+      "size_source": "mtext_explicit",
+      "bod_source": "mtext_explicit",
+      "labels": {
+        "size_mtext_handle": "10DCD",
+        "size_text_live": "SEAD-550x350",
+        "size_text_disk": "SED-550x350",
+        "size_pos": [
+          7915.14,
+          59321.21
+        ],
+        "bod_mtext_handle": "10DCE",
+        "bod_text": "BOD=FFL+2695",
+        "bod_pos": [
+          7915.14,
+          59182.31
+        ]
+      },
+      "wall_handles": [
+        "10B24",
+        "10B25"
+      ],
+      "seam_or_end_handles": [
+        "10B23"
+      ],
+      "upstream_conn": "ELBOW 10B2A",
+      "downstream_conn": "ENDCAP 10BAD (X=4415.11)",
+      "notes": "Đoạn ngang cuối cùng góc Tây-Bắc SEAD-550x350, BOD=FFL+2695, kết thúc bằng nắp bịt 10BAD."
+    }
+  ],
+  "fittings_and_accessories": {
+    "elbows": [
+      {
+        "id": "ELB-01",
+        "handle": "10D4C",
+        "branch": "LEFT_BRANCH",
+        "angle_deg": 90,
+        "W": 1450,
+        "H": 400,
+        "throat_radius_mm": 725,
+        "corner_centerline": [
+          15830.93,
+          2175.06
+        ],
+        "port1": [
+          17283.05,
+          2175.06
+        ],
+        "port2": [
+          15830.93,
+          3626.93
+        ],
+        "turn": "West (-X) -> North (+Y)",
+        "bbox": {
+          "minX": 15075.93,
+          "minY": 1420.06,
+          "minZ": 0,
+          "maxX": 17289.22,
+          "maxY": 3633.11,
+          "maxZ": 0,
+          "width": 2213.29,
+          "height": 2213.05,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "ELB-02",
+        "handle": "10D4F",
+        "branch": "RIGHT_TOP_BRANCH",
+        "angle_deg": 90,
+        "W": 1700,
+        "H": 500,
+        "throat_radius_mm": 850,
+        "corner_centerline": [
+          36458.95,
+          7455.34
+        ],
+        "port1": [
+          36458.95,
+          5753.24
+        ],
+        "port2": [
+          38160.81,
+          7455.34
+        ],
+        "turn": "North (+Y) -> East (+X)",
+        "bbox": {
+          "minX": 35578.95,
+          "minY": 5747.08,
+          "minZ": 0,
+          "maxX": 38166.99,
+          "maxY": 8335.34,
+          "maxZ": 0,
+          "width": 2588.04,
+          "height": 2588.26,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "ELB-03",
+        "handle": "10D4D",
+        "branch": "RIGHT_TOP_BRANCH",
+        "angle_deg": 90,
+        "W": 1700,
+        "H": 500,
+        "throat_radius_mm": 850,
+        "corner_centerline": [
+          44966.72,
+          7455.77
+        ],
+        "port1": [
+          43264.87,
+          7455.77
+        ],
+        "port2": [
+          44966.72,
+          9157.92
+        ],
+        "turn": "East (+X) -> North (+Y)",
+        "bbox": {
+          "minX": 43258.68,
+          "minY": 6575.78,
+          "minZ": 0,
+          "maxX": 45846.72,
+          "maxY": 9164.11,
+          "maxZ": 0,
+          "width": 2588.04,
+          "height": 2588.33,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "ELB-04",
+        "handle": "10BAC",
+        "branch": "RIGHT_TOP_BRANCH",
+        "angle_deg": 90,
+        "W": 1400,
+        "H": 500,
+        "throat_radius_mm": 700,
+        "corner_centerline": [
+          45116.19,
+          28879.73
+        ],
+        "port1": [
+          45116.19,
+          27477.84
+        ],
+        "port2": [
+          43756.37,
+          28879.73
+        ],
+        "turn": "North (+Y) -> West (-X) [Jog #1]",
+        "bbox": {
+          "minX": 43707.9,
+          "minY": 27471.61,
+          "minZ": 0,
+          "maxX": 45846.19,
+          "maxY": 29609.9,
+          "maxZ": 0,
+          "width": 2138.29,
+          "height": 2138.29,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "ELB-05",
+        "handle": "10BAB",
+        "branch": "RIGHT_TOP_BRANCH",
+        "angle_deg": 90,
+        "W": 1400,
+        "H": 500,
+        "throat_radius_mm": 700,
+        "corner_centerline": [
+          40680.65,
+          28879.58
+        ],
+        "port1": [
+          42082.77,
+          28879.58
+        ],
+        "port2": [
+          40680.65,
+          30281.46
+        ],
+        "turn": "West (-X) -> North (+Y) [Jog #1]",
+        "bbox": {
+          "minX": 39950.65,
+          "minY": 28149.4,
+          "minZ": 0,
+          "maxX": 42088.94,
+          "maxY": 30287.7,
+          "maxZ": 0,
+          "width": 2138.3,
+          "height": 2138.3,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "ELB-06",
+        "handle": "10B49",
+        "branch": "RIGHT_TOP_BRANCH",
+        "angle_deg": 90,
+        "W": 1150,
+        "H": 500,
+        "throat_radius_mm": 575,
+        "corner_centerline": [
+          40680.45,
+          39577.65
+        ],
+        "port1": [
+          40680.45,
+          38425.2
+        ],
+        "port2": [
+          41832.35,
+          39577.65
+        ],
+        "turn": "North (+Y) -> East (+X) [Jog #2 - tilted 1.09° in 3D]",
+        "bbox": {
+          "minX": 40075.45,
+          "minY": 38419.19,
+          "minZ": 0,
+          "maxX": 41838.53,
+          "maxY": 40192.61,
+          "maxZ": 0,
+          "width": 1763.09,
+          "height": 1773.42,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "anomaly_flag": "RC-03"
+      },
+      {
+        "id": "ELB-07",
+        "handle": "10B51",
+        "branch": "RIGHT_TOP_BRANCH",
+        "angle_deg": 90,
+        "W": 1150,
+        "H": 500,
+        "throat_radius_mm": 575,
+        "corner_centerline": [
+          45083.15,
+          39577.84
+        ],
+        "port1": [
+          43931.25,
+          39577.84
+        ],
+        "port2": [
+          45083.15,
+          40734.68
+        ],
+        "turn": "East (+X) -> North (+Y) [Jog #2]",
+        "bbox": {
+          "minX": 43925.04,
+          "minY": 38977.58,
+          "minZ": 0,
+          "maxX": 45688.3,
+          "maxY": 40740.84,
+          "maxZ": 0,
+          "width": 1763.26,
+          "height": 1763.26,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "ELB-08",
+        "handle": "10B4F",
+        "branch": "RIGHT_TOP_BRANCH",
+        "angle_deg": 90,
+        "W": 950,
+        "H": 450,
+        "throat_radius_mm": 475,
+        "corner_centerline": [
+          45081.3,
+          63484.78
+        ],
+        "port1": [
+          45081.3,
+          62532.86
+        ],
+        "port2": [
+          44129.22,
+          63484.78
+        ],
+        "turn": "North (+Y) -> West (-X)",
+        "bbox": {
+          "minX": 44123.07,
+          "minY": 62526.67,
+          "minZ": 0,
+          "maxX": 45586.3,
+          "maxY": 63989.9,
+          "maxZ": 0,
+          "width": 1463.23,
+          "height": 1463.23,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "ELB-09",
+        "handle": "10B2B",
+        "branch": "RIGHT_TOP_BRANCH",
+        "angle_deg": 90,
+        "W": 550,
+        "H": 350,
+        "throat_radius_mm": 275,
+        "corner_centerline": [
+          14335.01,
+          63482.25
+        ],
+        "port1": [
+          14886.96,
+          63482.25
+        ],
+        "port2": [
+          14335.01,
+          62930.2
+        ],
+        "turn": "West (-X) -> South (-Y)",
+        "bbox": {
+          "minX": 14029.93,
+          "minY": 62924.06,
+          "minZ": 0,
+          "maxX": 14893.12,
+          "maxY": 63787.25,
+          "maxZ": 0,
+          "width": 863.18,
+          "height": 863.18,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "ELB-10",
+        "handle": "10B2A",
+        "branch": "RIGHT_TOP_BRANCH",
+        "angle_deg": 90,
+        "W": 550,
+        "H": 350,
+        "throat_radius_mm": 275,
+        "corner_centerline": [
+          14335.28,
+          59204.66
+        ],
+        "port1": [
+          14335.28,
+          59756.71
+        ],
+        "port2": [
+          13783.33,
+          59204.66
+        ],
+        "turn": "South (-Y) -> West (-X)",
+        "bbox": {
+          "minX": 13777.17,
+          "minY": 58899.66,
+          "minZ": 0,
+          "maxX": 14640.35,
+          "maxY": 59762.84,
+          "maxZ": 0,
+          "width": 863.18,
+          "height": 863.18,
+          "depth": 0,
+          "entityCount": 1
+        }
+      }
+    ],
+    "reducers_transitions": [
+      {
+        "id": "RED-01",
+        "handle": "10D50",
+        "kind": "SQUARE_REDUCER",
+        "plan_alignment": "concentric",
+        "z_alignment": "eccentric_bod_2450_to_2500",
+        "W1": 2200,
+        "H1": 600,
+        "W2": 1600,
+        "H2": 450,
+        "length_mm": 204,
+        "port1": [
+          35222.39,
+          2175.33
+        ],
+        "port2": [
+          35018.39,
+          2175.34
+        ],
+        "bbox": {
+          "minX": 35012.28,
+          "minY": 1045.33,
+          "minZ": 0,
+          "maxX": 35240.88,
+          "maxY": 3305.33,
+          "maxZ": 0,
+          "width": 228.6,
+          "height": 2260,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "RED-02",
+        "handle": "10C85",
+        "kind": "SQUARE_REDUCER",
+        "plan_alignment": "concentric",
+        "z_alignment": "eccentric_flat_bottom_bod_2500",
+        "W1": 1600,
+        "H1": 450,
+        "W2": 1450,
+        "H2": 400,
+        "length_mm": 204,
+        "port1": [
+          20644.36,
+          2175.33
+        ],
+        "port2": [
+          20440.36,
+          2175.32
+        ],
+        "bbox": {
+          "minX": 20434.19,
+          "minY": 1345.31,
+          "minZ": 0,
+          "maxX": 20662.92,
+          "maxY": 3005.33,
+          "maxZ": 0,
+          "width": 228.74,
+          "height": 1660.02,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "RED-03-MANUAL",
+        "handles": [
+          "10E35",
+          "10E36",
+          "10E37",
+          "10E38"
+        ],
+        "kind": "SQUARE_REDUCER_MANUAL_LINES",
+        "plan_alignment": "eccentric_flat_right_X_16554.9",
+        "z_alignment": "flat_equal_height_400",
+        "W1": 1450,
+        "H1": 400,
+        "W2": 1100,
+        "H2": 400,
+        "length_mm": 650.02,
+        "port1": [
+          15829.91,
+          15018.8
+        ],
+        "port2": [
+          16004.85,
+          15668.82
+        ],
+        "bbox": {
+          "minX": 15104.91,
+          "minY": 15018.74,
+          "maxX": 16554.91,
+          "maxY": 15668.86,
+          "width": 1450,
+          "height": 650.12
+        },
+        "anomaly_flag": "RC-04"
+      },
+      {
+        "id": "RED-04",
+        "handle": "10B4C",
+        "kind": "SQUARE_REDUCER",
+        "plan_alignment": "concentric",
+        "z_alignment": "flat_equal_height_400",
+        "W1": 1100,
+        "H1": 400,
+        "W2": 800,
+        "H2": 400,
+        "length_mm": 204,
+        "port1": [
+          16003.51,
+          31513.08
+        ],
+        "port2": [
+          16003.49,
+          31717.08
+        ],
+        "bbox": {
+          "minX": 15423.53,
+          "minY": 31494.54,
+          "minZ": 0,
+          "maxX": 16583.55,
+          "maxY": 31723.24,
+          "maxZ": 0,
+          "width": 1160.02,
+          "height": 228.7,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "RED-05",
+        "handle": "10C97",
+        "kind": "SQUARE_REDUCER",
+        "plan_alignment": "concentric",
+        "z_alignment": "eccentric_flat_bottom_bod_2500",
+        "W1": 800,
+        "H1": 400,
+        "W2": 550,
+        "H2": 350,
+        "length_mm": 204,
+        "port1": [
+          16002.6,
+          42282.08
+        ],
+        "port2": [
+          16002.73,
+          42486.08
+        ],
+        "bbox": {
+          "minX": 15572.84,
+          "minY": 42263.55,
+          "minZ": 0,
+          "maxX": 16432.86,
+          "maxY": 42492.22,
+          "maxZ": 0,
+          "width": 860.02,
+          "height": 228.67,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "RED-06",
+        "handle": "10D4E",
+        "kind": "SQUARE_REDUCER",
+        "plan_alignment": "eccentric_flat_right_X_45816.7",
+        "z_alignment": "flat_equal_height_500",
+        "W1": 1700,
+        "H1": 500,
+        "W2": 1400,
+        "H2": 500,
+        "length_mm": 204,
+        "port1": [
+          44966.72,
+          20994.85
+        ],
+        "port2": [
+          45116.72,
+          21198.84
+        ],
+        "bbox": {
+          "minX": 44106.74,
+          "minY": 20988.66,
+          "minZ": 0,
+          "maxX": 45848.62,
+          "maxY": 21217.39,
+          "maxZ": 0,
+          "width": 1741.88,
+          "height": 228.73,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "RED-07",
+        "handle": "10BAA",
+        "kind": "SQUARE_REDUCER",
+        "plan_alignment": "concentric",
+        "z_alignment": "flat_equal_height_500",
+        "W1": 1400,
+        "H1": 500,
+        "W2": 1150,
+        "H2": 500,
+        "length_mm": 204,
+        "port1": [
+          40680.65,
+          37127.69
+        ],
+        "port2": [
+          40680.54,
+          37331.69
+        ],
+        "bbox": {
+          "minX": 39950.65,
+          "minY": 37109.2,
+          "minZ": 0,
+          "maxX": 41410.65,
+          "maxY": 37337.8,
+          "maxZ": 0,
+          "width": 1460,
+          "height": 228.6,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "RED-08",
+        "handle": "10B50",
+        "kind": "SQUARE_REDUCER",
+        "plan_alignment": "concentric",
+        "z_alignment": "eccentric_flat_top_tod_3045",
+        "W1": 1150,
+        "H1": 500,
+        "W2": 950,
+        "H2": 450,
+        "length_mm": 204,
+        "port1": [
+          45082.04,
+          53864.99
+        ],
+        "port2": [
+          45082.02,
+          54068.99
+        ],
+        "bbox": {
+          "minX": 44477.02,
+          "minY": 53846.45,
+          "minZ": 0,
+          "maxX": 45687.04,
+          "maxY": 54075.15,
+          "maxZ": 0,
+          "width": 1210.02,
+          "height": 228.7,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "RED-09",
+        "handle": "10B4E",
+        "kind": "SQUARE_REDUCER",
+        "plan_alignment": "concentric",
+        "z_alignment": "eccentric_flat_top_tod_3045",
+        "W1": 950,
+        "H1": 450,
+        "W2": 800,
+        "H2": 400,
+        "length_mm": 204,
+        "port1": [
+          34735.8,
+          63483.98
+        ],
+        "port2": [
+          34531.8,
+          63483.92
+        ],
+        "bbox": {
+          "minX": 34525.65,
+          "minY": 62979.83,
+          "minZ": 0,
+          "maxX": 34754.33,
+          "maxY": 63989.85,
+          "maxZ": 0,
+          "width": 228.69,
+          "height": 1010.02,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "RED-10",
+        "handle": "10B4D",
+        "kind": "SQUARE_REDUCER",
+        "plan_alignment": "concentric",
+        "z_alignment": "eccentric_flat_top_tod_3045",
+        "W1": 800,
+        "H1": 400,
+        "W2": 550,
+        "H2": 350,
+        "length_mm": 204,
+        "port1": [
+          21317.76,
+          63482.79
+        ],
+        "port2": [
+          21113.76,
+          63482.77
+        ],
+        "bbox": {
+          "minX": 21107.61,
+          "minY": 63053.64,
+          "minZ": 0,
+          "maxX": 21336.29,
+          "maxY": 63913.66,
+          "maxZ": 0,
+          "width": 228.67,
+          "height": 860.02,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "RED-11-FAN1",
+        "handle": "10D6D",
+        "kind": "SQUARE_REDUCER_HEIGHT_ONLY",
+        "plan_alignment": "concentric_same_W_1700",
+        "z_alignment": "height_transition_600_to_1000",
+        "W1": 1700,
+        "H1": 600,
+        "W2": 1700,
+        "H2": 1000,
+        "length_mm": 204,
+        "port1": [
+          39998.68,
+          1250.3
+        ],
+        "port2": [
+          40202.61,
+          1250.26
+        ],
+        "bbox": {
+          "minX": 39980.12,
+          "minY": 370.29,
+          "minZ": 0,
+          "maxX": 40202.76,
+          "maxY": 2130.35,
+          "maxZ": 0,
+          "width": 222.64,
+          "height": 1760.06,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "anomaly_flag": "RC-01"
+      },
+      {
+        "id": "RED-12-FAN2",
+        "handle": "10D6C",
+        "kind": "SQUARE_REDUCER_HEIGHT_ONLY",
+        "plan_alignment": "concentric_same_W_1700",
+        "z_alignment": "height_transition_600_to_1000",
+        "W1": 1700,
+        "H1": 600,
+        "W2": 1700,
+        "H2": 1000,
+        "length_mm": 204,
+        "port1": [
+          39998.68,
+          3100.3
+        ],
+        "port2": [
+          40202.61,
+          3100.22
+        ],
+        "bbox": {
+          "minX": 39980.12,
+          "minY": 2220.31,
+          "minZ": 0,
+          "maxX": 40202.76,
+          "maxY": 3980.35,
+          "maxZ": 0,
+          "width": 222.64,
+          "height": 1760.04,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "anomaly_flag": "RC-01"
+      },
+      {
+        "id": "SQRD-01-FAN1-IN",
+        "handle": "10CD1",
+        "kind": "SQUARE_TO_ROUND",
+        "W1": 1700,
+        "H1": 1000,
+        "D2": 1250,
+        "length_mm": 532,
+        "port1": [
+          41100.68,
+          1250.22
+        ],
+        "port2": [
+          41632.68,
+          1250.22
+        ],
+        "bbox": {
+          "minX": 41100.68,
+          "minY": 370.22,
+          "minZ": 0,
+          "maxX": 41672.68,
+          "maxY": 2130.22,
+          "maxZ": 0,
+          "width": 572,
+          "height": 1760,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "SQRD-02-FAN1-OUT",
+        "handle": "10CD3",
+        "kind": "ROUND_TO_SQUARE",
+        "D1": 1250,
+        "W2": 1250,
+        "H2": 1400,
+        "length_mm": 532,
+        "port1": [
+          43382.68,
+          1250.22
+        ],
+        "port2": [
+          43914.68,
+          1250.22
+        ],
+        "bbox": {
+          "minX": 43342.68,
+          "minY": 595.22,
+          "minZ": 0,
+          "maxX": 43914.68,
+          "maxY": 1905.22,
+          "maxZ": 0,
+          "width": 572,
+          "height": 1310,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "SQRD-03-FAN2-IN",
+        "handle": "10CD0",
+        "kind": "SQUARE_TO_ROUND",
+        "W1": 1700,
+        "H1": 1000,
+        "D2": 1250,
+        "length_mm": 532,
+        "port1": [
+          41100.68,
+          3100.18
+        ],
+        "port2": [
+          41632.68,
+          3100.09
+        ],
+        "bbox": {
+          "minX": 41100.68,
+          "minY": 2220.18,
+          "minZ": 0,
+          "maxX": 41672.68,
+          "maxY": 3980.18,
+          "maxZ": 0,
+          "width": 572,
+          "height": 1760,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "SQRD-04-FAN2-OUT",
+        "handle": "10CD2",
+        "kind": "ROUND_TO_SQUARE",
+        "D1": 1250,
+        "W2": 1250,
+        "H2": 1400,
+        "length_mm": 532,
+        "port1": [
+          43382.68,
+          3100.09
+        ],
+        "port2": [
+          43914.68,
+          3100.08
+        ],
+        "bbox": {
+          "minX": 43342.68,
+          "minY": 2445.08,
+          "minZ": 0,
+          "maxX": 43914.68,
+          "maxY": 3755.08,
+          "maxZ": 0,
+          "width": 572,
+          "height": 1310,
+          "depth": 0,
+          "entityCount": 1
+        }
+      }
+    ],
+    "main_branch_fittings": [
+      {
+        "id": "BR-01-TROUSER",
+        "handle": "10CBD",
+        "kind": "TROUSER_PIECE_WYE",
+        "description": "Chạc quần chia đôi từ ống góp chính 2200x600 vào 2 tuyến hút quạt 1700x600",
+        "common_port": {
+          "pos": [
+            37579.39,
+            2175.33
+          ],
+          "W": 2200,
+          "H": 600
+        },
+        "branch1_port": {
+          "pos": [
+            39399.39,
+            1250.33
+          ],
+          "W": 1700,
+          "H": 600
+        },
+        "branch2_port": {
+          "pos": [
+            39399.39,
+            3100.33
+          ],
+          "W": 1700,
+          "H": 600
+        },
+        "length_mm": 1820,
+        "bbox": {
+          "minX": 37579.39,
+          "minY": 400.33,
+          "minZ": 0,
+          "maxX": 39399.39,
+          "maxY": 3950.33,
+          "maxZ": 0,
+          "width": 1820,
+          "height": 3550,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "anomaly_flag": "RC-01"
+      },
+      {
+        "id": "BR-02-MAIN-TAP",
+        "handle": "10D51",
+        "kind": "MAIN_BRANCH_SHOE_TAP",
+        "description": "Chân rẽ gót giày 1700x500 trích ngang từ thành Bắc ống góp 2200x600 lên Nhánh Phải",
+        "host_segment_id": "SEG-M01",
+        "attach_wall_point": [
+          36459.09,
+          3275.33
+        ],
+        "neck_port_point": [
+          36459.09,
+          3427.34
+        ],
+        "base_width_mm": 1850,
+        "neck_W": 1700,
+        "neck_H": 500,
+        "depth_mm": 152,
+        "bbox": {
+          "minX": 35579.09,
+          "minY": 3275.28,
+          "minZ": 0,
+          "maxX": 37459.1,
+          "maxY": 3433.49,
+          "maxZ": 0,
+          "width": 1880.01,
+          "height": 158.21,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "anomaly_flag": "RC-06"
+      }
+    ],
+    "dampers": [
+      {
+        "id": "DMP-VCD-01",
+        "handle": "10B17",
+        "kind": "VCD",
+        "W": 1600,
+        "H": 450,
+        "length_mm": 150,
+        "center": [
+          34656.73,
+          2175.34
+        ],
+        "orientation": "HORIZONTAL_RUN",
+        "bbox": {
+          "minX": 34581.66,
+          "minY": 1335.33,
+          "minZ": 0,
+          "maxX": 34731.8,
+          "maxY": 3005.34,
+          "maxZ": 0,
+          "width": 150.14,
+          "height": 1670.01,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "DMP-VCD-02",
+        "handle": "10BAE",
+        "kind": "VCD",
+        "W": 1700,
+        "H": 500,
+        "length_mm": 150,
+        "center": [
+          36459.06,
+          4033.25
+        ],
+        "orientation": "VERTICAL_RUN",
+        "bbox": {
+          "minX": 35569.05,
+          "minY": 3958.17,
+          "minZ": 0,
+          "maxX": 37339.06,
+          "maxY": 4108.32,
+          "maxZ": 0,
+          "width": 1770.01,
+          "height": 150.15,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "DMP-MFD-01",
+        "handle": "10CC2",
+        "kind": "MFD_EI60",
+        "W": 1700,
+        "H": 600,
+        "length_mm": 150,
+        "center": [
+          39519.94,
+          1250.33
+        ],
+        "orientation": "HORIZONTAL_RUN",
+        "bbox": {
+          "minX": 39444.94,
+          "minY": 370.33,
+          "minZ": 0,
+          "maxX": 39594.94,
+          "maxY": 2130.33,
+          "maxZ": 0,
+          "width": 150,
+          "height": 1760,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "DMP-MFD-02",
+        "handle": "10CBE",
+        "kind": "MFD_EI60",
+        "W": 1700,
+        "H": 600,
+        "length_mm": 150,
+        "center": [
+          39519.94,
+          3100.33
+        ],
+        "orientation": "HORIZONTAL_RUN",
+        "bbox": {
+          "minX": 39444.94,
+          "minY": 2220.33,
+          "minZ": 0,
+          "maxX": 39594.94,
+          "maxY": 3980.33,
+          "maxZ": 0,
+          "width": 150,
+          "height": 1760,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "DMP-NRD-01",
+        "handle": "10CAC",
+        "kind": "NRD",
+        "W": 1250,
+        "H": 1400,
+        "length_mm": 92.5,
+        "center": [
+          44932.36,
+          1250.22
+        ],
+        "orientation": "HORIZONTAL_RUN",
+        "bbox": {
+          "minX": 44886.11,
+          "minY": 595.22,
+          "minZ": 0,
+          "maxX": 44978.61,
+          "maxY": 1905.22,
+          "maxZ": 0,
+          "width": 92.5,
+          "height": 1310,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "note": "Chữ NRD trong block bị lật ngược (rot=180°)"
+      },
+      {
+        "id": "DMP-MFD-03",
+        "handle": "10CAF",
+        "kind": "MFD_EI60",
+        "W": 1250,
+        "H": 1400,
+        "length_mm": 150,
+        "center": [
+          45178.51,
+          1250.22
+        ],
+        "orientation": "HORIZONTAL_RUN",
+        "bbox": {
+          "minX": 45103.51,
+          "minY": 595.22,
+          "minZ": 0,
+          "maxX": 45253.51,
+          "maxY": 1905.22,
+          "maxZ": 0,
+          "width": 150,
+          "height": 1310,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "note": "Chữ MFD trong block bị lật ngược (rot=180°)"
+      },
+      {
+        "id": "DMP-NRD-02",
+        "handle": "10CB6",
+        "kind": "NRD",
+        "W": 1250,
+        "H": 1400,
+        "length_mm": 92.5,
+        "center": [
+          44932.36,
+          3100.08
+        ],
+        "orientation": "HORIZONTAL_RUN",
+        "bbox": {
+          "minX": 44886.11,
+          "minY": 2445.08,
+          "minZ": 0,
+          "maxX": 44978.61,
+          "maxY": 3755.08,
+          "maxZ": 0,
+          "width": 92.5,
+          "height": 1310,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "note": "Chữ NRD trong block bị lật ngược (rot=180°)"
+      },
+      {
+        "id": "DMP-MFD-04",
+        "handle": "10CB9",
+        "kind": "MFD_EI60",
+        "W": 1250,
+        "H": 1400,
+        "length_mm": 150,
+        "center": [
+          45178.52,
+          3100.08
+        ],
+        "orientation": "HORIZONTAL_RUN",
+        "bbox": {
+          "minX": 45103.52,
+          "minY": 2445.08,
+          "minZ": 0,
+          "maxX": 45253.52,
+          "maxY": 3755.08,
+          "maxZ": 0,
+          "width": 150,
+          "height": 1310,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "note": "Chữ MFD trong block bị lật ngược (rot=180°)"
+      }
+    ],
+    "flexible_connectors": [
+      {
+        "id": "FLX-01",
+        "handle": "10CCF",
+        "kind": "ROUND_FLEX_CONNECTOR",
+        "diameter_D": 1250,
+        "length_mm": 250,
+        "port1": [
+          41632.68,
+          1250.22
+        ],
+        "port2": [
+          41882.68,
+          1250.22
+        ],
+        "bbox": {
+          "minX": 41632.68,
+          "minY": 615.22,
+          "minZ": 0,
+          "maxX": 41882.68,
+          "maxY": 1885.22,
+          "maxZ": 0,
+          "width": 250,
+          "height": 1270,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "FLX-02",
+        "handle": "10CCE",
+        "kind": "ROUND_FLEX_CONNECTOR",
+        "diameter_D": 1250,
+        "length_mm": 250,
+        "port1": [
+          43132.68,
+          1250.22
+        ],
+        "port2": [
+          43382.68,
+          1250.22
+        ],
+        "bbox": {
+          "minX": 43132.68,
+          "minY": 615.22,
+          "minZ": 0,
+          "maxX": 43382.68,
+          "maxY": 1885.22,
+          "maxZ": 0,
+          "width": 250,
+          "height": 1270,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "FLX-03",
+        "handle": "10CCD",
+        "kind": "ROUND_FLEX_CONNECTOR",
+        "diameter_D": 1250,
+        "length_mm": 250,
+        "port1": [
+          41632.68,
+          3100.09
+        ],
+        "port2": [
+          41882.68,
+          3100.09
+        ],
+        "bbox": {
+          "minX": 41632.68,
+          "minY": 2465.09,
+          "minZ": 0,
+          "maxX": 41882.68,
+          "maxY": 3735.09,
+          "maxZ": 0,
+          "width": 250,
+          "height": 1270,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "FLX-04",
+        "handle": "10CCC",
+        "kind": "ROUND_FLEX_CONNECTOR",
+        "diameter_D": 1250,
+        "length_mm": 250,
+        "port1": [
+          43132.68,
+          3100.09
+        ],
+        "port2": [
+          43382.68,
+          3100.09
+        ],
+        "bbox": {
+          "minX": 43132.68,
+          "minY": 2465.09,
+          "minZ": 0,
+          "maxX": 43382.68,
+          "maxY": 3735.09,
+          "maxZ": 0,
+          "width": 250,
+          "height": 1270,
+          "depth": 0,
+          "entityCount": 1
+        }
+      }
+    ],
+    "end_caps": [
+      {
+        "id": "CAP-01",
+        "handle": "10BAF",
+        "branch": "LEFT_BRANCH",
+        "host_segment_id": "SEG-L06",
+        "W": 550,
+        "H": 350,
+        "thickness_mm": 25,
+        "attach_point": [
+          16001.87,
+          52835.08
+        ],
+        "direction": "+Y (North)",
+        "bbox": {
+          "minX": 15726.97,
+          "minY": 52835.05,
+          "minZ": 0,
+          "maxX": 16276.97,
+          "maxY": 52860.1,
+          "maxZ": 0,
+          "width": 550,
+          "height": 25.05,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "CAP-02",
+        "handle": "10BAD",
+        "branch": "RIGHT_TOP_BRANCH",
+        "host_segment_id": "SEG-T05",
+        "W": 550,
+        "H": 350,
+        "thickness_mm": 25,
+        "attach_point": [
+          4415.11,
+          59204.66
+        ],
+        "direction": "-X (West)",
+        "bbox": {
+          "minX": 4390.11,
+          "minY": 58929.66,
+          "minZ": 0,
+          "maxX": 4415.11,
+          "maxY": 59479.66,
+          "maxZ": 0,
+          "width": 25,
+          "height": 550,
+          "depth": 0,
+          "entityCount": 1
+        }
+      }
+    ],
+    "equipment": [
+      {
+        "id": "EQ-FAN-01",
+        "handle": "10CA7",
+        "kind": "AXIAL_FAN",
+        "layer": "MEPG-M-EQUIP",
+        "spec_target_layer": "M-MVAC-Equipment",
+        "model": "KRUGER AXIAL FAN TDC 1250_C25_J_7-7V_15",
+        "diameter_D": 1250,
+        "length_mm": 1250,
+        "center": [
+          42507.68,
+          1250.22
+        ],
+        "inlet_port": [
+          41882.68,
+          1250.22
+        ],
+        "outlet_port": [
+          43132.68,
+          1250.22
+        ],
+        "airflow_direction": "+X (West -> East)",
+        "bbox": {
+          "minX": 41882.68,
+          "minY": 560.22,
+          "minZ": 0,
+          "maxX": 43132.68,
+          "maxY": 1940.22,
+          "maxZ": 0,
+          "width": 1250,
+          "height": 1380,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "EQ-FAN-02",
+        "handle": "10CA5",
+        "kind": "AXIAL_FAN",
+        "layer": "MEPG-M-EQUIP",
+        "spec_target_layer": "M-MVAC-Equipment",
+        "model": "KRUGER AXIAL FAN TDC 1250_C25_J_7-7V_15",
+        "diameter_D": 1250,
+        "length_mm": 1250,
+        "center": [
+          42507.68,
+          3100.09
+        ],
+        "inlet_port": [
+          41882.68,
+          3100.09
+        ],
+        "outlet_port": [
+          43132.68,
+          3100.09
+        ],
+        "airflow_direction": "+X (West -> East)",
+        "bbox": {
+          "minX": 41882.68,
+          "minY": 2410.09,
+          "minZ": 0,
+          "maxX": 43132.68,
+          "maxY": 3790.09,
+          "maxZ": 0,
+          "width": 1250,
+          "height": 1380,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "EQ-SIL-01",
+        "handle": "10CA8",
+        "kind": "SILENCER_DUCT",
+        "model": "SILENCER L900xW1700xH1000",
+        "W": 1700,
+        "H": 1000,
+        "length_mm": 900,
+        "port1": [
+          40202.61,
+          1250.26
+        ],
+        "port2": [
+          41100.75,
+          1250.26
+        ],
+        "bbox": {
+          "minX": 40202.61,
+          "minY": 375.22,
+          "minZ": 0,
+          "maxX": 41100.75,
+          "maxY": 2125.29,
+          "maxZ": 0,
+          "width": 898.15,
+          "height": 1750.08,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "EQ-SIL-02",
+        "handle": "10CA6",
+        "kind": "SILENCER_DUCT",
+        "model": "SILENCER L900xW1700xH1000",
+        "W": 1700,
+        "H": 1000,
+        "length_mm": 900,
+        "port1": [
+          40202.61,
+          3100.22
+        ],
+        "port2": [
+          41100.75,
+          3100.22
+        ],
+        "bbox": {
+          "minX": 40202.61,
+          "minY": 2225.18,
+          "minZ": 0,
+          "maxX": 41100.75,
+          "maxY": 3975.26,
+          "maxZ": 0,
+          "width": 898.15,
+          "height": 1750.08,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "EQ-SIL-03",
+        "handle": "10CA9",
+        "kind": "SILENCER_DUCT",
+        "model": "SILENCER L900xW1250xH1400",
+        "W": 1250,
+        "H": 1400,
+        "length_mm": 900,
+        "port1": [
+          43914.68,
+          1250.22
+        ],
+        "port2": [
+          44814.68,
+          1250.22
+        ],
+        "bbox": {
+          "minX": 43914.68,
+          "minY": 600.22,
+          "minZ": 0,
+          "maxX": 44814.68,
+          "maxY": 1900.22,
+          "maxZ": 0,
+          "width": 900,
+          "height": 1300,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "EQ-SIL-04",
+        "handle": "10CB3",
+        "kind": "SILENCER_DUCT",
+        "model": "SILENCER L900xW1250xH1400",
+        "W": 1250,
+        "H": 1400,
+        "length_mm": 900,
+        "port1": [
+          43914.68,
+          3100.08
+        ],
+        "port2": [
+          44814.68,
+          3100.08
+        ],
+        "bbox": {
+          "minX": 43914.68,
+          "minY": 2450.08,
+          "minZ": 0,
+          "maxX": 44814.68,
+          "maxY": 3750.08,
+          "maxZ": 0,
+          "width": 900,
+          "height": 1300,
+          "depth": 0,
+          "entityCount": 1
+        }
+      }
+    ],
+    "grille_tap_assemblies": [
+      {
+        "id": "GT-L01",
+        "host_segment_id": "SEG-L03",
+        "direction": "-X",
+        "tap_handle": "10BCF",
+        "grille_handle": "10BCE",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          15105.52,
+          8162.25
+        ],
+        "neck_center_point": [
+          14947.39,
+          8162.25
+        ],
+        "grille_face_center": [
+          14925.47,
+          8162.25
+        ],
+        "tap_bbox": {
+          "minX": 14947.39,
+          "minY": 7712.26,
+          "minZ": 0,
+          "maxX": 15105.52,
+          "maxY": 8492.26,
+          "maxZ": 0,
+          "width": 158.14,
+          "height": 780,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 14925.47,
+          "minY": 7847.25,
+          "minZ": 0,
+          "maxX": 14953.5,
+          "maxY": 8477.25,
+          "maxZ": 0,
+          "width": 28.03,
+          "height": 630,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-L02",
+        "host_segment_id": "SEG-L03",
+        "direction": "-X",
+        "tap_handle": "10BD1",
+        "grille_handle": "10BD0",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          15104.97,
+          14362.06
+        ],
+        "neck_center_point": [
+          14946.86,
+          14362.06
+        ],
+        "grille_face_center": [
+          14924.94,
+          14362.06
+        ],
+        "tap_bbox": {
+          "minX": 14946.86,
+          "minY": 13912.06,
+          "minZ": 0,
+          "maxX": 15104.97,
+          "maxY": 14692.06,
+          "maxZ": 0,
+          "width": 158.11,
+          "height": 780,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 14924.94,
+          "minY": 14047.06,
+          "minZ": 0,
+          "maxX": 14952.97,
+          "maxY": 14677.06,
+          "maxZ": 0,
+          "width": 28.03,
+          "height": 630,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-L03",
+        "host_segment_id": "SEG-L04",
+        "direction": "-X",
+        "tap_handle": "10BD5",
+        "grille_handle": "10BD2",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          15454.49,
+          20013.25
+        ],
+        "neck_center_point": [
+          15296.35,
+          20013.25
+        ],
+        "grille_face_center": [
+          15274.44,
+          20013.25
+        ],
+        "tap_bbox": {
+          "minX": 15296.35,
+          "minY": 19563.25,
+          "minZ": 0,
+          "maxX": 15454.49,
+          "maxY": 20343.25,
+          "maxZ": 0,
+          "width": 158.14,
+          "height": 780,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 15274.44,
+          "minY": 19698.25,
+          "minZ": 0,
+          "maxX": 15302.46,
+          "maxY": 20328.25,
+          "maxZ": 0,
+          "width": 28.03,
+          "height": 630,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-L04",
+        "host_segment_id": "SEG-L04",
+        "direction": "-X",
+        "tap_handle": "10BD6",
+        "grille_handle": "10BD3",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          15454.03,
+          25411.58
+        ],
+        "neck_center_point": [
+          15295.89,
+          25411.58
+        ],
+        "grille_face_center": [
+          15273.98,
+          25411.58
+        ],
+        "tap_bbox": {
+          "minX": 15295.89,
+          "minY": 24961.59,
+          "minZ": 0,
+          "maxX": 15454.03,
+          "maxY": 25741.59,
+          "maxZ": 0,
+          "width": 158.14,
+          "height": 780,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 15273.98,
+          "minY": 25096.58,
+          "minZ": 0,
+          "maxX": 15302,
+          "maxY": 25726.58,
+          "maxZ": 0,
+          "width": 28.03,
+          "height": 630,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-L05",
+        "host_segment_id": "SEG-L04",
+        "direction": "-X",
+        "tap_handle": "10BD7",
+        "grille_handle": "10BD4",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          15453.57,
+          30838.73
+        ],
+        "neck_center_point": [
+          15295.43,
+          30838.73
+        ],
+        "grille_face_center": [
+          15273.52,
+          30838.73
+        ],
+        "tap_bbox": {
+          "minX": 15295.43,
+          "minY": 30388.73,
+          "minZ": 0,
+          "maxX": 15453.57,
+          "maxY": 31168.73,
+          "maxZ": 0,
+          "width": 158.14,
+          "height": 780,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 15273.52,
+          "minY": 30523.73,
+          "minZ": 0,
+          "maxX": 15301.54,
+          "maxY": 31153.73,
+          "maxZ": 0,
+          "width": 28.03,
+          "height": 630,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-L06",
+        "host_segment_id": "SEG-L05",
+        "direction": "-X",
+        "tap_handle": "10BDC",
+        "grille_handle": "10BD8",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          15603.15,
+          36177.93
+        ],
+        "neck_center_point": [
+          15445.1,
+          36177.93
+        ],
+        "grille_face_center": [
+          15423.18,
+          36177.93
+        ],
+        "tap_bbox": {
+          "minX": 15445.1,
+          "minY": 35728.02,
+          "minZ": 0,
+          "maxX": 15603.15,
+          "maxY": 36507.94,
+          "maxZ": 0,
+          "width": 158.05,
+          "height": 779.92,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 15423.18,
+          "minY": 35862.93,
+          "minZ": 0,
+          "maxX": 15451.21,
+          "maxY": 36492.93,
+          "maxZ": 0,
+          "width": 28.03,
+          "height": 630,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-L07",
+        "host_segment_id": "SEG-L05",
+        "direction": "-X",
+        "tap_handle": "10BDD",
+        "grille_handle": "10BD9",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          15602.69,
+          41592.32
+        ],
+        "neck_center_point": [
+          15444.64,
+          41592.32
+        ],
+        "grille_face_center": [
+          15422.72,
+          41592.32
+        ],
+        "tap_bbox": {
+          "minX": 15444.64,
+          "minY": 41142.4,
+          "minZ": 0,
+          "maxX": 15602.69,
+          "maxY": 41922.32,
+          "maxZ": 0,
+          "width": 158.05,
+          "height": 779.92,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 15422.72,
+          "minY": 41277.32,
+          "minZ": 0,
+          "maxX": 15450.75,
+          "maxY": 41907.32,
+          "maxZ": 0,
+          "width": 28.03,
+          "height": 630,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-L08",
+        "host_segment_id": "SEG-L06",
+        "direction": "-X",
+        "tap_handle": "10BDE",
+        "grille_handle": "10BDA",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          15727.44,
+          46396.51
+        ],
+        "neck_center_point": [
+          15569.3,
+          46396.51
+        ],
+        "grille_face_center": [
+          15547.39,
+          46396.51
+        ],
+        "tap_bbox": {
+          "minX": 15569.3,
+          "minY": 45946.51,
+          "minZ": 0,
+          "maxX": 15727.44,
+          "maxY": 46726.51,
+          "maxZ": 0,
+          "width": 158.14,
+          "height": 780,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 15547.39,
+          "minY": 46081.51,
+          "minZ": 0,
+          "maxX": 15575.42,
+          "maxY": 46711.51,
+          "maxZ": 0,
+          "width": 28.03,
+          "height": 630,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-L09",
+        "host_segment_id": "SEG-L06",
+        "direction": "-X",
+        "tap_handle": "10BDF",
+        "grille_handle": "10BDB",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          15726.9,
+          52402.24
+        ],
+        "neck_center_point": [
+          15568.77,
+          52402.24
+        ],
+        "grille_face_center": [
+          15546.85,
+          52402.24
+        ],
+        "tap_bbox": {
+          "minX": 15568.77,
+          "minY": 51952.25,
+          "minZ": 0,
+          "maxX": 15726.9,
+          "maxY": 52732.25,
+          "maxZ": 0,
+          "width": 158.14,
+          "height": 780,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 15546.85,
+          "minY": 52087.24,
+          "minZ": 0,
+          "maxX": 15574.88,
+          "maxY": 52717.24,
+          "maxZ": 0,
+          "width": 28.03,
+          "height": 630,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-R01",
+        "host_segment_id": "SEG-R02",
+        "direction": "+Y",
+        "tap_handle": "10BB1",
+        "grille_handle": "10BB0",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          40343.27,
+          8305.52
+        ],
+        "neck_center_point": [
+          40343.27,
+          8463.66
+        ],
+        "grille_face_center": [
+          40343.27,
+          8485.59
+        ],
+        "tap_bbox": {
+          "minX": 39893.28,
+          "minY": 8305.52,
+          "minZ": 0,
+          "maxX": 40673.28,
+          "maxY": 8463.66,
+          "maxZ": 0,
+          "width": 780,
+          "height": 158.14,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 40028.27,
+          "minY": 8455.48,
+          "minZ": 0,
+          "maxX": 40658.27,
+          "maxY": 8485.59,
+          "maxZ": 0,
+          "width": 630,
+          "height": 30.1,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-R02",
+        "host_segment_id": "SEG-R03",
+        "direction": "-X",
+        "tap_handle": "10BC0",
+        "grille_handle": "10BB2",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          44116.72,
+          14615.84
+        ],
+        "neck_center_point": [
+          43958.61,
+          14615.84
+        ],
+        "grille_face_center": [
+          43936.67,
+          14615.84
+        ],
+        "tap_bbox": {
+          "minX": 43958.61,
+          "minY": 14165.84,
+          "minZ": 0,
+          "maxX": 44116.72,
+          "maxY": 14945.84,
+          "maxZ": 0,
+          "width": 158.11,
+          "height": 780,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 43936.67,
+          "minY": 14300.83,
+          "minZ": 0,
+          "maxX": 43966.78,
+          "maxY": 14930.84,
+          "maxZ": 0,
+          "width": 30.1,
+          "height": 630,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-R03",
+        "host_segment_id": "SEG-R03",
+        "direction": "-X",
+        "tap_handle": "10BC1",
+        "grille_handle": "10BB3",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          44116.72,
+          20533.92
+        ],
+        "neck_center_point": [
+          43958.61,
+          20533.92
+        ],
+        "grille_face_center": [
+          43936.67,
+          20533.92
+        ],
+        "tap_bbox": {
+          "minX": 43958.61,
+          "minY": 20083.92,
+          "minZ": 0,
+          "maxX": 44116.72,
+          "maxY": 20863.92,
+          "maxZ": 0,
+          "width": 158.11,
+          "height": 780,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 43936.67,
+          "minY": 20218.92,
+          "minZ": 0,
+          "maxX": 43966.78,
+          "maxY": 20848.92,
+          "maxZ": 0,
+          "width": 30.1,
+          "height": 630,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-R04",
+        "host_segment_id": "SEG-R04",
+        "direction": "-X",
+        "tap_handle": "10BC2",
+        "grille_handle": "10BB4",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          44416.37,
+          25405.73
+        ],
+        "neck_center_point": [
+          44258.23,
+          25405.73
+        ],
+        "grille_face_center": [
+          44236.29,
+          25405.73
+        ],
+        "tap_bbox": {
+          "minX": 44258.23,
+          "minY": 24955.73,
+          "minZ": 0,
+          "maxX": 44416.37,
+          "maxY": 25735.73,
+          "maxZ": 0,
+          "width": 158.14,
+          "height": 780,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 44236.29,
+          "minY": 25090.73,
+          "minZ": 0,
+          "maxX": 44266.39,
+          "maxY": 25720.73,
+          "maxZ": 0,
+          "width": 30.1,
+          "height": 630,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-R05",
+        "host_segment_id": "SEG-R06",
+        "direction": "-X",
+        "tap_handle": "10BC3",
+        "grille_handle": "10BB5",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          39986.77,
+          30817.95
+        ],
+        "neck_center_point": [
+          39822.51,
+          30817.95
+        ],
+        "grille_face_center": [
+          39800.51,
+          30817.95
+        ],
+        "tap_bbox": {
+          "minX": 39822.51,
+          "minY": 30367.95,
+          "minZ": 0,
+          "maxX": 39986.77,
+          "maxY": 31147.95,
+          "maxZ": 0,
+          "width": 164.26,
+          "height": 780,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 39800.51,
+          "minY": 30502.95,
+          "minZ": 0,
+          "maxX": 39828.62,
+          "maxY": 31132.95,
+          "maxZ": 0,
+          "width": 28.11,
+          "height": 630,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-R06",
+        "host_segment_id": "SEG-R06",
+        "direction": "-X",
+        "tap_handle": "10BC4",
+        "grille_handle": "10BB6",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          39980.65,
+          35810.61
+        ],
+        "neck_center_point": [
+          39822.51,
+          35810.61
+        ],
+        "grille_face_center": [
+          39800.57,
+          35810.61
+        ],
+        "tap_bbox": {
+          "minX": 39822.51,
+          "minY": 35360.62,
+          "minZ": 0,
+          "maxX": 39980.65,
+          "maxY": 36140.62,
+          "maxZ": 0,
+          "width": 158.14,
+          "height": 780,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 39800.57,
+          "minY": 35495.61,
+          "minZ": 0,
+          "maxX": 39830.67,
+          "maxY": 36125.61,
+          "maxZ": 0,
+          "width": 30.1,
+          "height": 630,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-R07",
+        "host_segment_id": "SEG-R08",
+        "direction": "-X",
+        "tap_handle": "10BC5",
+        "grille_handle": "10BB7",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          44508.06,
+          41808.04
+        ],
+        "neck_center_point": [
+          44349.95,
+          41808.04
+        ],
+        "grille_face_center": [
+          44328.01,
+          41808.04
+        ],
+        "tap_bbox": {
+          "minX": 44349.95,
+          "minY": 41358.05,
+          "minZ": 0,
+          "maxX": 44508.06,
+          "maxY": 42138.05,
+          "maxZ": 0,
+          "width": 158.11,
+          "height": 780,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 44328.01,
+          "minY": 41493.04,
+          "minZ": 0,
+          "maxX": 44358.11,
+          "maxY": 42123.04,
+          "maxZ": 0,
+          "width": 30.1,
+          "height": 630,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-R08",
+        "host_segment_id": "SEG-R08",
+        "direction": "-X",
+        "tap_handle": "10BC6",
+        "grille_handle": "10BB8",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          44507.62,
+          46979.67
+        ],
+        "neck_center_point": [
+          44349.51,
+          46979.67
+        ],
+        "grille_face_center": [
+          44327.57,
+          46979.67
+        ],
+        "tap_bbox": {
+          "minX": 44349.51,
+          "minY": 46529.67,
+          "minZ": 0,
+          "maxX": 44507.62,
+          "maxY": 47309.67,
+          "maxZ": 0,
+          "width": 158.11,
+          "height": 780,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 44327.57,
+          "minY": 46664.67,
+          "minZ": 0,
+          "maxX": 44357.67,
+          "maxY": 47294.67,
+          "maxZ": 0,
+          "width": 30.1,
+          "height": 630,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-R09",
+        "host_segment_id": "SEG-R08",
+        "direction": "-X",
+        "tap_handle": "10BC7",
+        "grille_handle": "10BB9",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          44507.09,
+          53283.12
+        ],
+        "neck_center_point": [
+          44348.98,
+          53283.12
+        ],
+        "grille_face_center": [
+          44327.03,
+          53283.12
+        ],
+        "tap_bbox": {
+          "minX": 44348.98,
+          "minY": 52833.13,
+          "minZ": 0,
+          "maxX": 44507.09,
+          "maxY": 53613.13,
+          "maxZ": 0,
+          "width": 158.11,
+          "height": 780,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 44327.03,
+          "minY": 52968.12,
+          "minZ": 0,
+          "maxX": 44357.14,
+          "maxY": 53598.12,
+          "maxZ": 0,
+          "width": 30.1,
+          "height": 630,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-R10",
+        "host_segment_id": "SEG-R09",
+        "direction": "-X",
+        "tap_handle": "10BC8",
+        "grille_handle": "10BBA",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          44606.63,
+          58593.48
+        ],
+        "neck_center_point": [
+          44448.5,
+          58593.48
+        ],
+        "grille_face_center": [
+          44426.56,
+          58593.48
+        ],
+        "tap_bbox": {
+          "minX": 44448.5,
+          "minY": 58143.49,
+          "minZ": 0,
+          "maxX": 44606.63,
+          "maxY": 58923.49,
+          "maxZ": 0,
+          "width": 158.14,
+          "height": 780,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 44426.56,
+          "minY": 58278.48,
+          "minZ": 0,
+          "maxX": 44456.66,
+          "maxY": 58908.48,
+          "maxZ": 0,
+          "width": 30.1,
+          "height": 630,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-T01",
+        "host_segment_id": "SEG-T01",
+        "direction": "-Y",
+        "tap_handle": "10BC9",
+        "grille_handle": "10BBB",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          42328.43,
+          63009.62
+        ],
+        "neck_center_point": [
+          42328.43,
+          62851.51
+        ],
+        "grille_face_center": [
+          42328.43,
+          62829.57
+        ],
+        "tap_bbox": {
+          "minX": 41998.42,
+          "minY": 62851.51,
+          "minZ": 0,
+          "maxX": 42778.42,
+          "maxY": 63009.62,
+          "maxZ": 0,
+          "width": 780,
+          "height": 158.11,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 42013.43,
+          "minY": 62829.57,
+          "minZ": 0,
+          "maxX": 42643.43,
+          "maxY": 62859.67,
+          "maxZ": 0,
+          "width": 630,
+          "height": 30.1,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-T02",
+        "host_segment_id": "SEG-T01",
+        "direction": "-Y",
+        "tap_handle": "10BCA",
+        "grille_handle": "10BBC",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          35512.39,
+          63009.04
+        ],
+        "neck_center_point": [
+          35512.39,
+          62850.93
+        ],
+        "grille_face_center": [
+          35512.39,
+          62828.99
+        ],
+        "tap_bbox": {
+          "minX": 35182.38,
+          "minY": 62850.93,
+          "minZ": 0,
+          "maxX": 35962.38,
+          "maxY": 63009.04,
+          "maxZ": 0,
+          "width": 780,
+          "height": 158.11,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 35197.39,
+          "minY": 62828.99,
+          "minZ": 0,
+          "maxX": 35827.39,
+          "maxY": 62859.1,
+          "maxZ": 0,
+          "width": 630,
+          "height": 30.1,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-T03",
+        "host_segment_id": "SEG-T02",
+        "direction": "-Y",
+        "tap_handle": "10BCB",
+        "grille_handle": "10BBD",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          28692.39,
+          63083.44
+        ],
+        "neck_center_point": [
+          28692.39,
+          62925.3
+        ],
+        "grille_face_center": [
+          28692.39,
+          62903.36
+        ],
+        "tap_bbox": {
+          "minX": 28362.38,
+          "minY": 62925.3,
+          "minZ": 0,
+          "maxX": 29142.38,
+          "maxY": 63083.44,
+          "maxZ": 0,
+          "width": 780,
+          "height": 158.14,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 28377.39,
+          "minY": 62903.36,
+          "minZ": 0,
+          "maxX": 29007.39,
+          "maxY": 62933.46,
+          "maxZ": 0,
+          "width": 630,
+          "height": 30.1,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-T04",
+        "host_segment_id": "SEG-T02",
+        "direction": "-Y",
+        "tap_handle": "10BCC",
+        "grille_handle": "10BBE",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          21892.39,
+          63082.84
+        ],
+        "neck_center_point": [
+          21892.39,
+          62924.7
+        ],
+        "grille_face_center": [
+          21892.39,
+          62902.76
+        ],
+        "tap_bbox": {
+          "minX": 21562.38,
+          "minY": 62924.7,
+          "minZ": 0,
+          "maxX": 22342.38,
+          "maxY": 63082.84,
+          "maxZ": 0,
+          "width": 780,
+          "height": 158.14,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 21577.39,
+          "minY": 62902.76,
+          "minZ": 0,
+          "maxX": 22207.39,
+          "maxY": 62932.86,
+          "maxZ": 0,
+          "width": 630,
+          "height": 30.1,
+          "depth": 0,
+          "entityCount": 1
+        }
+      },
+      {
+        "id": "GT-T05",
+        "host_segment_id": "SEG-T03",
+        "direction": "-Y",
+        "tap_handle": "10BCD",
+        "grille_handle": "10BBF",
+        "grille_model": "EAG_OBD 600x300mm",
+        "neck_W": 600,
+        "neck_H": 300,
+        "shoe_base_width_mm": 750,
+        "shoe_length_mm": 150,
+        "duct_wall_attach_point": [
+          15716.23,
+          63207.31
+        ],
+        "neck_center_point": [
+          15716.23,
+          63049.17
+        ],
+        "grille_face_center": [
+          15716.23,
+          63027.23
+        ],
+        "tap_bbox": {
+          "minX": 15386.22,
+          "minY": 63049.17,
+          "minZ": 0,
+          "maxX": 16166.22,
+          "maxY": 63207.31,
+          "maxZ": 0,
+          "width": 780,
+          "height": 158.14,
+          "depth": 0,
+          "entityCount": 1
+        },
+        "grille_bbox": {
+          "minX": 15401.23,
+          "minY": 63027.23,
+          "minZ": 0,
+          "maxX": 16031.23,
+          "maxY": 63057.33,
+          "maxZ": 0,
+          "width": 630,
+          "height": 30.1,
+          "depth": 0,
+          "entityCount": 1
+        }
+      }
+    ]
+  },
+  "revcloud_regions": [
+    {
+      "id": "RC-01",
+      "title": "Cụm đầu hút 2 Quạt Hút Khói: Chạc quần + Côn đổi chiều cao ẩn + Quạt trục thiếu hoàn toàn Text kích thước, cao độ & thông số quạt",
+      "severity": "HIGH",
+      "target_layer": "CLOUND",
+      "target_color_aci": 240,
+      "bbox": {
+        "minX": 37450,
+        "minY": 200,
+        "maxX": 43250,
+        "maxY": 4150
+      },
+      "affected_handles": [
+        "10CBD",
+        "10CC2",
+        "10CBE",
+        "10D6D",
+        "10D6C",
+        "10CA8",
+        "10CA6",
+        "10CD1",
+        "10CD0",
+        "10CCF",
+        "10CCD",
+        "10CA7",
+        "10CA5"
+      ],
+      "question_for_sep_ho": "Cụm chạc quần (Trouser Piece) và tuyến đầu hút 2 quạt hướng trục chưa có Text kích thước ống, cao độ BOD và thông số quạt (Lưu lượng/Cột áp). Đoạn ống nối vào van MFD chỉ dài 45.5mm (quá ngắn để bẻ bích TDC), và cặp côn 10D6D/10D6C giữ nguyên bề rộng W=1700 trên mặt bằng (suy từ tên block tiêu âm là tăng chiều cao H từ 600 lên 1000). Xin Sếp xác nhận kích thước chính xác từng đoạn để gia công!"
+    },
+    {
+      "id": "RC-02",
+      "title": "Cụm đầu đẩy 2 Quạt Hút Khói: Thiếu Text kích thước/cao độ, chữ NRD/MFD bị lật ngược, ống nối quá ngắn & đầu ống kết thúc cụt tại X=45603.4",
+      "severity": "HIGH",
+      "target_layer": "CLOUND",
+      "target_color_aci": 240,
+      "bbox": {
+        "minX": 43250,
+        "minY": 400,
+        "maxX": 45800,
+        "maxY": 3900
+      },
+      "affected_handles": [
+        "10CCE",
+        "10CCC",
+        "10CD3",
+        "10CD2",
+        "10CA9",
+        "10CB3",
+        "10CAC",
+        "10CB6",
+        "10CAF",
+        "10CB9",
+        "10CB0",
+        "10CBA"
+      ],
+      "question_for_sep_ho": "Tuyến đẩy sau 2 quạt thiếu Text kích thước ống (suy từ tiêu âm là 1250x1400) & cao độ BOD; đoạn ống giữa Tiêu âm - NRD (71.4mm) và NRD - MFD (124.9mm) rất ngắn; chữ NRD/MFD đang bị mirror; và 2 đầu ống tại X=45603.4 kết thúc cụt chưa rõ đấu vào trục kỹ thuật (Shaft) hay cửa gió Louver?"
+    },
+    {
+      "id": "RC-03",
+      "title": "Chuyển hướng Jog #2 Nhánh Phải: Nét đôi lệch 9.49mm do ống nghiêng 3D (cút ELLIPSE), nhảy cao độ BOD +45mm (FFL+2500 -> FFL+2545) & thiếu Text kích thước",
+      "severity": "HIGH",
+      "target_layer": "CLOUND",
+      "target_color_aci": 240,
+      "bbox": {
+        "minX": 39850,
+        "minY": 37000,
+        "maxX": 45800,
+        "maxY": 40900
+      },
+      "affected_handles": [
+        "10BAA",
+        "10BA7",
+        "10BA9",
+        "10BA3",
+        "10B49",
+        "10B40",
+        "10B3F",
+        "10B3E",
+        "10B3D",
+        "10B51"
+      ],
+      "question_for_sep_ho": "Đoạn chuyển hướng Jog #2 thiếu Text kích thước (suy luận W=1150x500), xuất hiện nét đôi lệch 9.49mm ở biên cút 10B49 và ống ngang (Y=40152.6 & 40162.1) do ống trong Revit 3D bị nghiêng dốc ~1.09° để nâng cao độ từ BOD=FFL+2500 lên BOD=FFL+2545 (+45mm dù H vẫn = 500). Xin Sếp xác nhận đi phẳng hay xử lý chênh cao độ +45mm tại vị trí nào?"
+    },
+    {
+      "id": "RC-04",
+      "title": "Côn thu lệch nhánh trái (1450x400 -> 1100x400) vẽ thủ công bằng 4 nét LINE rời không bích, chiều dài L=650mm khác chuẩn L=200mm",
+      "severity": "MEDIUM",
+      "target_layer": "CLOUND",
+      "target_color_aci": 240,
+      "bbox": {
+        "minX": 14950,
+        "minY": 14850,
+        "maxX": 16750,
+        "maxY": 15850
+      },
+      "affected_handles": [
+        "10E35",
+        "10E36",
+        "10E37",
+        "10E38"
+      ],
+      "question_for_sep_ho": "Côn thu lệch phẳng phải (1450x400 -> 1100x400) tại Y=15019..15669 được vẽ bằng 4 nét LINE rời không có bích TDC và dài L=650mm (trong khi 11 côn thu khác trên bản vẽ đều là Block dài L=200mm). Xin Sếp xác nhận giữ chiều dài côn L=650mm hay chuẩn hóa theo chuẩn HTS?"
+    },
+    {
+      "id": "RC-05",
+      "title": "Đoạn ngang chuyển hướng Jog #1 Nhánh Phải (Y=28180..29580): Thiếu Text kích thước & cao độ BOD",
+      "severity": "LOW",
+      "target_layer": "CLOUND",
+      "target_color_aci": 240,
+      "bbox": {
+        "minX": 39850,
+        "minY": 27350,
+        "maxX": 45950,
+        "maxY": 30400
+      },
+      "affected_handles": [
+        "10BAC",
+        "10B45",
+        "10B46",
+        "10BAB"
+      ],
+      "question_for_sep_ho": "Đoạn ngang chuyển hướng Jog #1 giữa 2 cút 10BAC - 10BAB (W=1400) chưa có Text ghi kích thước và cao độ (tạm lấy liên tục SEAD-1400x500, BOD=FFL+2500). Xin Sếp xác nhận đoạn này không đổi tiết diện/cao độ qua dầm?"
+    },
+    {
+      "id": "RC-06",
+      "title": "Điểm trích Nhánh Phải 1700x500 từ thành ống góp 2200x600 bằng gót giày 10D51 & đoạn qua van VCD thiếu Text kích thước",
+      "severity": "MEDIUM",
+      "target_layer": "CLOUND",
+      "target_color_aci": 240,
+      "bbox": {
+        "minX": 35400,
+        "minY": 3200,
+        "maxX": 37600,
+        "maxY": 5850
+      },
+      "affected_handles": [
+        "10D51",
+        "10B1E",
+        "10B1F",
+        "10BAE",
+        "10CA2",
+        "10CA1"
+      ],
+      "question_for_sep_ho": "Nhánh chính phía Bắc rộng W=1700mm (1700x500) đang trích vuông góc vào sườn ống góp 2200x600 bằng chân rẽ gót giày 10D51 và đoạn ống qua van VCD 10BAE chưa có Text kích thước/cao độ. Xin Sếp xác nhận giữ kết cấu gót giày 1700x500 hay đổi sang Tê/Chạc chia nhánh giảm tổn thất áp suất?"
+    },
+    {
+      "id": "RC-07",
+      "title": "Đoạn chuyển hướng góc Tây-Bắc giữa 2 cút 10B2B & 10B2A (X=14060..14610): Thiếu Text kích thước & cao độ BOD",
+      "severity": "LOW",
+      "target_layer": "CLOUND",
+      "target_color_aci": 240,
+      "bbox": {
+        "minX": 13650,
+        "minY": 58750,
+        "maxX": 15000,
+        "maxY": 63900
+      },
+      "affected_handles": [
+        "10B2B",
+        "10B27",
+        "10B26",
+        "10B2A"
+      ],
+      "question_for_sep_ho": "Đoạn ống chuyển hướng giữa 2 cút 10B2B - 10B2A (W=550) chưa có Text ghi kích thước và cao độ (tạm lấy liên tục SEAD-550x350, BOD=FFL+2695). Xin Sếp xác nhận!"
+    },
+    {
+      "id": "RC-08",
+      "title": "Miệng gió hút khói đại diện (1/24 bộ EAG+OBD): Toàn bộ 24 miệng gió & gót giày trên bản vẽ đều thiếu Text ghi kích thước & lưu lượng",
+      "severity": "MEDIUM",
+      "target_layer": "CLOUND",
+      "target_color_aci": 240,
+      "bbox": {
+        "minX": 39750,
+        "minY": 8200,
+        "maxX": 40800,
+        "maxY": 8650
+      },
+      "affected_handles": [
+        "10BB1",
+        "10BB0"
+      ],
+      "question_for_sep_ho": "Khoanh đại diện 01/24 cụm miệng gió gắn sườn ống: Toàn bộ 24 miệng gió trên bản vẽ đều chưa có Text ghi quy cách kích thước cổ/mặt và lưu lượng gió (giải mã từ tên Block Revit là EAG_OBD 600x300mm gắn trên gót giày cổ 600x300). Xin Sếp xác nhận quy cách áp dụng chung cho cả 24 miệng gió!"
+    }
+  ],
+  "existing_unsaved_entities": [
+    {
+      "handle": "10E5A",
+      "type": "LWPOLYLINE",
+      "layer": "0",
+      "unsaved_in_live_autocad": true,
+      "bbox": {
+        "minX": 5412.24,
+        "minY": -4344.41,
+        "maxX": 10793.01,
+        "maxY": -1590.79,
+        "width": 5380.77,
+        "height": 2753.62
+      },
+      "description": "Đám mây REVCLOUD trống nằm độc lập ngoài vùng ống gió ở góc dưới bên trái (trên layer 0, chưa Ctrl+S lưu xuống đĩa, bước cung ~450-550mm). @cad-drafter giữ nguyên không xóa, và có thể tham khảo bước cung ~500mm của đám mây này khi vẽ các REVCLOUD RC-01..RC-08 trên layer CLOUND (ACI 240)."
+    }
+  ]
+}

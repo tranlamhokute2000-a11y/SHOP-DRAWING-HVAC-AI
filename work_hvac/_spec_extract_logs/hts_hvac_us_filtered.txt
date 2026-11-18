@@ -1,0 +1,102 @@
+﻿[61] \n[CVPIPE] Quét chọn Polyline + Block đầu phun cần xử lý: 
+[108] \nChọn đoạn ống gió thẳng muốn chuyển thành Bịt đầu: 
+[109] \nChỉ hỗ trợ chọn Block ống gió.
+[111] \n[Auto] Đã tìm thấy đầu hở, đang đảo chiều bịt đầu...
+[117] \nChọn điểm bắt đầu (TIM / CẠNH ống cũ, hoặc TRỤC ống gió): 
+[121] \nChiều dài chân rẽ (L): 
+[122] \nĐộ loe chân rẽ [{0}]: 
+[148] \n  >> Cao độ ĐÁY ống gió: 
+[164] \nĐã chèn Tê ống gió Wc={0}, Hc={1}, W1={2}, R1={3}, W2={4}, R2={5} tại ({6:F0}, {7:F0})
+[165] \nĐã chèn Tê THẲNG ống gió Wc={0}, Hc={1}, W1={2}, L1={3}, W2={4}, R1={5} 
+[169] \nĐã chèn Tê RẼ NHÁNH ống gió Wc={0}, Hc={1}, L1={2}, W1={3}, L2={4}, R1={5} 
+[173] \n[Côn thu] Ống cũ {0} khác cỡ đang đặt {1} → chèn côn nối.
+[237] \nKhông tìm thấy ống gió tại vị trí hiện tại để chèn Tê.
+[239] \nChiều dài Bịt đầu (L) [50]: 
+[240] \nĐã bịt đầu ống và kết thúc nhánh.
+[242] \nKhông tìm thấy ống gió tại vị trí hiện tại để chèn Cút.
+[246] \nĐã chèn Cút ống gió 
+[250] \nĐã chèn Cút VUÔNG ống gió Wc={0}, Hc={1}, L1={2}, L2={3} 
+[253] \nĐã chèn Cút TRÒN ống gió Wc={0}, Hc={1}, R={2} 
+[259] \nChưa có kích thước ống trên bảng HVAC — không dựng được chân rẽ.
+[262] \n[Chân rẽ đứng 
+[269] ). Vẽ tiếp ống gió…
+[328] \n[OG3D] Chọn ống gió HTS cần dựng 3D — gồm cả ống mềm (Enter = tất cả): 
+[329] \n  (Không chọn — quét toàn bộ không gian hiện hành: {0} block)
+[336] \nĐiểm đặt mô hình 3D ống gió (góc dưới trái vùng chọn đặt tại đây)
+[337] \nĐiểm đặt mô hình 3D ống gió (góc dưới trái vùng chọn đặt tại đây; Enter = chỗ cũ)
+[347]  giá đỡ 3D, 
+[352] \n  Trong đó {0} ống gió mềm (cao độ lấy theo đầu nối).
+[353] \n  ⚠ {0} ống mềm không bám vào phụ kiện nào → dùng cao độ gốc.
+[354] \n  {0} ống mềm bo cong hạ cao độ xuống đấu vào miệng gió ở trần giả.
+[362] \n  {0} thiết bị đã có khối 3D của hệ khác tại chỗ (QUÉT CTN / PCCC) — không đặt trùng.
+[365] \n  Bỏ qua {0} block không phải ống gió HTS.
+[371] \n[OGM3D] Chọn ống gió mềm đã vẽ (hình gấp nếp của lệnh NM): 
+[374] \nCao độ ĐÁY ống mềm (mm)
+[375] \n[OGM3D] Đã dựng {0} ống mềm cùng layer ống 2D (đáy {1:0.#} mm) — {2} ms.
+[378] \n  Bỏ qua {0} đường không phải ống gió mềm (không có dạng gấp nếp của lệnh NM).
+[393] \n[OG3DHCAD] Chọn mô hình 3D ống gió cần xem / chốt góc (Enter = mọi khối OG3D): 
+[394] \n[OG3DHCAD] Chưa có mô hình 3D ống gió — chạy OG3D trước.
+[443] \n[OG3DVP] Chưa có khối 3D ống gió nào. Chạy OG3D trước.
+[446] \n[OG3DVP] Quét vùng trên Layout để đặt khung nhìn 3D.
+[452] \n[OG3DVP] Đã đặt khung nhìn 3D (SE Isometric) — chỉ hiện layer có khối 3D ống gió.
+[466] \n[Điều chỉnh tuyến ống gió] Chọn 1 ống thẳng (kéo ngang cả tuyến), 1 phụ kiện, hoặc quét cả cụm: 
+[467] \n[Điều chỉnh tuyến ống gió] Lỗi đọc mạng ống: 
+[468] \n[Điều chỉnh tuyến ống gió] Không có ống gió / phụ kiện ống gió nào trong các đối tượng chọn.
+[469] \n[Điều chỉnh tuyến ống gió] Lưu ý: UCS đang nghiêng so với mặt bằng — tính trên mặt phẳng XY, trục X / Y của UCS lấy theo hình chiếu.
+[470] \n[Điều chỉnh tuyến ống gió] 
+[471] [Điều chỉnh tuyến ống gió]
+[472] \n[Điều chỉnh tuyến ống gió] Chưa dời được: 
+[473] \n[Điều chỉnh tuyến ống gió] [THÀNH CÔNG] Đã co giãn đồng bộ, các cổng nối tiếp xúc khít (dời dx=
+[482] Côn thu
+[487] Chân rẽ
+[489] Bịt đầu
+[490] Ống gió
+[491] Đã nhận diện TUYẾN ỐNG GIÓ THẲNG: 
+[494] Đã nhận diện phụ kiện ống gió: 
+[502] Đã nhận diện CỤM HÀNH LANG ỐNG GIÓ
+[505] \n[Điều chỉnh tuyến ống gió] Đã dời 
+[510]  tag ống gió đi theo
+[511] \n[Điều chỉnh tuyến ống gió] Lỗi: 
+[518] \n[Điều chỉnh tuyến ống gió] Chọn vị trí mới cho 
+[545] \nQuét chọn thiết bị (Block) hoặc đường ống (Line/Pline) để gán cao độ ngoại lệ: 
+[553] \n[MEP25D] Quét chọn toàn bộ hệ thống 2D để dựng model 3D (DIM tự động bị loại): 
+[596] \nĐã bịt đầu và kết thúc.
+[602] \nCôn thu tại đầu thang - Căn chỉnh [Can/Trai/Phai]: 
+[603] \nBắt vào đầu thang (khác W) — chèn côn thu.
+[613] \nCôn thu tại đầu máng - Căn chỉnh [Can/Trai/Phai]: 
+[614] \nBắt vào đầu máng (khác W) — chèn côn thu.
+[623] \nQuét chọn các tuyến Mline cấp thoát nước cần chuyển thành Polyline3d: 
+[624] \nQuét chọn các tuyến Mline PCCC cần chuyển thành Polyline3d: 
+[643]  mm. QUÉT tiếp để đặt phụ kiện 3D.
+[782] TAG ống 3D
+[944] \n[TMC3D] Quét chọn thang / máng / trunking cáp HTS (Enter = tất cả): 
+[998]  ống bị nghiêng vì đầu xa còn nối với phụ kiện / ống khác — dùng V / D (dời dọc theo ống) hoặc quét thêm cả cụm để giữ thẳng
+[1089] \nQuét chọn vùng có ống cần dim (đoạn // trục Z: Line, tuyến ống điện 3D / Solid ống của VIEW 3D; Enter chọn toàn bản vẽ): 
+[1193] Đọc R × C (mm) theo tên block đã vẽ — côn thu ghi 300/200x100.
+[1206] Tag ống gió
+[1207] ống gió
+[1208] VẼ ỐNG GIÓ / VẼ ỐNG GIÓ TRÒN / ỐNG GIÓ MỀM
+[1212] ỐNG GIÓ CẤP
+[1218] ỐNG GIÓ HỒI
+[1223] ỐNG GIÓ TƯƠI
+[1229] ỐNG GIÓ THẢI
+[1245] ỐNG GIÓ
+[1247] Tự nhận hệ theo LAYER ống gió (Supply · Return · FreshAir · Exhaust…, ống mềm theo cấp / hồi) — layer không nói hệ thì ghi theo ô Khác.
+[1258] Đọc R × C (ống tròn Ø) theo tên block ống gió đã vẽ — côn / chuyển tiếp ghi hai đầu, vd 1000x500/800x400.
+[1263] Cập nhật theo ống gió
+[1264] Đọc lại MỌI tag ống gió đã chèn: kích thước, và cao độ của tag lấy theo ống — ống đã đổi cỡ (grip / sửa ống) hoặc gán lại cao độ đáy thì tag đổi theo; chỉ thay đúng các cụm đó, phần chữ khác giữ nguyên.
+[1267] Tag ống cấp thoát nước
+[1268] Tag ống CTN
+[1318] Đọc lại MỌI tag ống CTN đã chèn: cỡ ống, cao độ và độ dốc lấy lại từ ống (ống đã đổi cỡ / gán lại cao độ thì tag đổi theo); chỉ thay đúng các cụm đó, phần chữ khác giữ nguyên.
+[1321] Tag ống chữa cháy
+[1322] Tag ống PCCC
+[1351] Đọc lại MỌI tag ống chữa cháy đã chèn: DN và cao độ lấy lại từ ống (ống đã đổi cỡ / gán lại cao độ thì tag đổi theo); chỉ thay đúng các cụm đó, phần chữ khác giữ nguyên.
+[1715] \nQuét chọn các Polyline3d định tuyến cấp thoát nước: 
+[1720] \nQUÉT MÔ HÌNH 3D hoàn tất [
+[1738]  Polyline3d trùng khít tuyến khác (sơ đồ dựng từ ống chồng 2 lớp) — chỉ quét 1 lần.
+[1740]  giá đỡ / quang treo 3D, 
+[1750]  Polyline3d định tuyến được giữ lại để hiệu chỉnh/quét lại.
+[1751]  vị trí KHÔNG có tên phụ kiện gán sẵn — loại đoán theo góc ống (+ ô Loại ống hiện tại nếu là góc vuông ống thoát): quét lại với Loại ống / vật liệu khác thì CHÍNH những vị trí này có thể đổi Block dù hình không đổi; muốn cố định thì vẽ/chọn rõ phụ kiện đó trên mặt cắt đứng rồi Cập nhật 3D.
+[1754]  (theo Layer / tên phụ kiện 2D). Phụ kiện thiếu trong bộ đang chọn đã lấy theo tên 2D; nếu cần đúng bộ đó hãy đổi ô HT trên palette rồi quét lại.
+[1755] \nLỗi QUÉT MÔ HÌNH 3D: 
+[2210] \nQuét mô hình cần tạo SectionBox: 

@@ -1,0 +1,16 @@
+# AutoCAD lock, backup & temporary files
+*.dwl
+*.dwl2
+*.bak
+*.sv$
+*.ac$
+*.err
+plot.log
+acaddoc.lsp.bak
+
+# OS & temp files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+~*
