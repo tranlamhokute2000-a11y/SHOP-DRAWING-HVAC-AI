@@ -1,0 +1,818 @@
+{
+  "tool": "batch_process_status",
+  "success": true,
+  "content": "{\"jobId\":\"20261118-232837-8d67\",\"trangThai\":\"xong\",\"tong\":1,\"xong\":1,\"loi\":0,\"dangChay\":0,\"cho\":0,\"luu\":\"khong\",\"thuMucRa\":\"\",\"batDau\":\"2026-11-18 23:28:37\",\"giay\":13.3,\"thuMucViec\":\"C:\\\\Users\\\\Admin\\\\AppData\\\\Local\\\\Temp\\\\HTS_Batch\\\\20261118-232837-8d67\",\"tep\":[{\"tep\":\"C:\\\\Users\\\\Admin\\\\Desktop\\\\SHOPDRAWING-HVAC-AI\\\\Spec-layer ký hiệu ống gió.dwg\",\"trangThai\":\"xong\",\"giay\":13.3,\"buoc\":[{\"buoc\":1,\"tool\":\"get_drawing_info\",\"success\":true,\"content\":\"Drawing info OK.\",\"data\":{\"filename\":\"C:\\\\Users\\\\Admin\\\\Desktop\\\\SHOPDRAWING-HVAC-AI\\\\Spec-layer ký hiệu ống gió.dwg\",\"units\":\"Millimeters\",\"layer_count\":38,\"entity_count\":161,\"block_ref_count\":13,\"current_layer\":\"0\",\"extmin\":{\"x\":10211.43816469016,\"y\":-77942.01653669629},\"extmax\":{\"x\":111283.06467887067,\"y\":50872.28595776322}},\"ms\":78},{\"buoc\":2,\"tool\":\"get_layer_list\",\"success\":true,\"content\":\"Co 38 layer, layer hien tai: 0\",\"data\":{\"currentLayer\":\"0\",\"layers\":[{\"name\":\"0\",\"isOff\":false,\"isFrozen\":false,\"color\":7},{\"name\":\"Defpoints\",\"isOff\":false,\"isFrozen\":false,\"color\":7},{\"name\":\"M-MVAC-SEAD\",\"isOff\":false,\"isFrozen\":false,\"color\":190},{\"name\":\"KD-1-3000\",\"isOff\":false,\"isFrozen\":false,\"color\":97},{\"name\":\"M-MVAC-EAD\",\"isOff\":false,\"isFrozen\":false,\"color\":80},{\"name\":\"M-MVAC-FAD\",\"isOff\":false,\"isFrozen\":false,\"color\":150},{\"name\":\"M-MVAC-PAD\",\"isOff\":false,\"isFrozen\":false,\"color\":210},{\"name\":\"M-MVAC-CEAD\",\"isOff\":false,\"isFrozen\":false,\"color\":170},{\"name\":\"M-MVAC-CSAD\",\"isOff\":false,\"isFrozen\":false,\"color\":11},{\"name\":\"M-MVAC-Equipment\",\"isOff\":false,\"isFrozen\":false,\"color\":47},{\"name\":\"M-MVAC-Support\",\"isOff\":false,\"isFrozen\":false,\"color\":42},{\"name\":\"M-MVAC-AC Drain\",\"isOff\":false,\"isFrozen\":false,\"color\":72},{\"name\":\"M-MVAC-DIM\",\"isOff\":false,\"isFrozen\":false,\"color\":97},{\"name\":\"M-MVAC-TEXT\",\"isOff\":false,\"isFrozen\":false,\"color\":2},{\"name\":\"M-MVAC-Copper Pipe\",\"isOff\":false,\"isFrozen\":false,\"color\":12},{\"name\":\"M-PEA-DIM\",\"isOff\":false,\"isFrozen\":false,\"color\":97},{\"name\":\"ZZ\",\"isOff\":false,\"isFrozen\":false,\"color\":81},{\"name\":\"MEPG-AC-TEXT\",\"isOff\":false,\"isFrozen\":false,\"color\":7},{\"name\":\"CLOUND\",\"isOff\":false,\"isFrozen\":false,\"color\":240},{\"name\":\"HÚT KHÓI\",\"isOff\":false,\"isFrozen\":false,\"color\":30},{\"name\":\"M.DMT.Pres Stair\",\"isOff\":false,\"isFrozen\":false,\"color\":3},{\"name\":\"MEP-M-TXT25\",\"isOff\":false,\"isFrozen\":false,\"color\":7},{\"name\":\"M-E-DUCT-50\",\"isOff\":false,\"isFrozen\":false,\"color\":10},{\"name\":\"!-AC-DUCT WITH INSULATION\",\"isOff\":false,\"isFrozen\":false,\"color\":4},{\"name\":\"M.VK.Exhaust Air\",\"isOff\":false,\"isFrozen\":false,\"color\":30},{\"name\":\"VNBT-DUCT EA\",\"isOff\":false,\"isFrozen\":false,\"color\":6},{\"name\":\"TDME-GT\",\"isOff\":false,\"isFrozen\":false,\"color\":70},{\"name\":\"HÚT KHÍ THẢI\",\"isOff\":false,\"isFrozen\":false,\"color\":11},{\"name\":\"sửa đổi\",\"isOff\":false,\"isFrozen\":false,\"color\":3},{\"name\":\"0_MHI-SAG\",\"isOff\":false,\"isFrozen\":false,\"color\":3},{\"name\":\"MHI-EAG\",\"isOff\":false,\"isFrozen\":false,\"color\":1},{\"name\":\"0_MHI_DETAIL\",\"isOff\":false,\"isFrozen\":false,\"color\":8},{\"name\":\"Noithat - DMC\",\"isOff\":false,\"isFrozen\":false,\"color\":155},{\"name\":\"0_MHI_RAG\",\"isOff\":false,\"isFrozen\":false,\"color\":6},{\"name\":\"!-AC-DUCT NO INSULATION\",\"isOff\":false,\"isFrozen\":false,\"color\":30},{\"name\":\"xref mb tran$0$!-AC-EQUIPEMNT\",\"isOff\":false,\"isFrozen\":false,\"color\":3},{\"name\":\"!-AC-Air Terminal\",\"isOff\":false,\"isFrozen\":false,\"color\":10},{\"name\":\"REVCLOUD\",\"isOff\":false,\"isFrozen\":false,\"color\":1}]},\"ms\":8},{\"buoc\":3,\"tool\":\"group_summary_by_layer\",\"success\":true,\"content\":\"Da quet 27 layer.\",\"data\":{\"layers\":[{\"layer\":\"KD-1-3000\",\"count\":20,\"total_length\":0.0,\"total_area\":0.0},{\"layer\":\"0\",\"count\":26,\"total_length\":2245309.13288946,\"total_area\":7567635469.190588},{\"layer\":\"M-MVAC-FAD\",\"count\":4,\"total_length\":8024.811453088892,\"total_area\":0.0},{\"layer\":\"M-MVAC-PAD\",\"count\":4,\"total_length\":8024.811453088892,\"total_area\":0.0},{\"layer\":\"M-MVAC-CEAD\",\"count\":4,\"total_length\":8024.811453088892,\"total_area\":0.0},{\"layer\":\"M-MVAC-TEXT\",\"count\":11,\"total_length\":0.0,\"total_area\":0.0},{\"layer\":\"M-MVAC-EAD\",\"count\":4,\"total_length\":8024.811453088892,\"total_area\":0.0},{\"layer\":\"M-MVAC-Copper Pipe\",\"count\":4,\"total_length\":8024.811453088892,\"total_area\":0.0},{\"layer\":\"M-MVAC-AC Drain\",\"count\":4,\"total_length\":8024.811453088892,\"total_area\":0.0},{\"layer\":\"M-MVAC-DIM\",\"count\":5,\"total_length\":10246.845368376546,\"total_area\":0.0},{\"layer\":\"M-PEA-DIM\",\"count\":1,\"total_length\":0.0,\"total_area\":0.0},{\"layer\":\"M-MVAC-Equipment\",\"count\":4,\"total_length\":8024.811453088892,\"total_area\":0.0},{\"layer\":\"M-MVAC-Support\",\"count\":4,\"total_length\":8024.811453088892,\"total_area\":0.0},{\"layer\":\"M-MVAC-SEAD\",\"count\":4,\"total_length\":8024.802751851159,\"total_area\":0.0},{\"layer\":\"M-MVAC-CSAD\",\"count\":1,\"total_length\":8024.811453088892,\"total_area\":0.0},{\"layer\":\"ZZ\",\"count\":13,\"total_length\":0.0,\"total_area\":0.0},{\"layer\":\"CLOUND\",\"count\":11,\"total_length\":83593.62018095184,\"total_area\":56956370.027166165},{\"layer\":\"HÚT KHÓI\",\"count\":11,\"total_length\":151128.6975977424,\"total_area\":0.0},{\"layer\":\"VNBT-DUCT EA\",\"count\":1,\"total_length\":0.0,\"total_area\":0.0},{\"layer\":\"MEP-M-TXT25\",\"count\":14,\"total_length\":0.0,\"total_area\":0.0},{\"layer\":\"M.VK.Exhaust Air\",\"count\":1,\"total_length\":0.0,\"total_area\":0.0},{\"layer\":\"HÚT KHÍ THẢI\",\"count\":1,\"total_length\":0.0,\"total_area\":0.0},{\"layer\":\"M-E-DUCT-50\",\"count\":2,\"total_length\":4605.253007295645,\"total_area\":322137.22689054435},{\"layer\":\"0_MHI_DETAIL\",\"count\":1,\"total_length\":0.0,\"total_area\":0.0},{\"layer\":\"0_MHI-SAG\",\"count\":4,\"total_length\":0.0,\"total_area\":0.0},{\"layer\":\"!-AC-Air Terminal\",\"count\":1,\"total_length\":0.0,\"total_area\":0.0},{\"layer\":\"TDME-GT\",\"count\":1,\"total_length\":0.0,\"total_area\":0.0}]},\"ms\":8},{\"buoc\":4,\"tool\":\"list_block_definitions\",\"success\":true,\"content\":\"19 block definition.\",\"data\":{\"items\":[{\"name\":\"_Dot\",\"instance_count\":0,\"has_attributes\":false,\"is_dynamic\":false},{\"name\":\"A$Cbbb1c70d\",\"instance_count\":0,\"has_attributes\":false,\"is_dynamic\":false},{\"name\":\"_Oblique\",\"instance_count\":2,\"has_attributes\":false,\"is_dynamic\":false},{\"name\":\"_ArchTick\",\"instance_count\":0,\"has_attributes\":false,\"is_dynamic\":false},{\"name\":\"AF-AG_825X425_TOP_\",\"instance_count\":1,\"has_attributes\":false,\"is_dynamic\":false},{\"name\":\"VD L200\",\"instance_count\":0,\"has_attributes\":false,\"is_dynamic\":true},{\"name\":\"EAG 600X300\",\"instance_count\":1,\"has_attributes\":false,\"is_dynamic\":false},{\"name\":\"van MFD\",\"instance_count\":0,\"has_attributes\":false,\"is_dynamic\":true},{\"name\":\"HTS_Van gio mot chieu RND\",\"instance_count\":0,\"has_attributes\":true,\"is_dynamic\":true},{\"name\":\"MIENG GIÓ TRÒN D...\",\"instance_count\":0,\"has_attributes\":false,\"is_dynamic\":true},{\"name\":\"CỬA THĂM TRẦN\",\"instance_count\":0,\"has_attributes\":false,\"is_dynamic\":true},{\"name\":\"600X600\",\"instance_count\":0,\"has_attributes\":false,\"is_dynamic\":true},{\"name\":\"cửa gió hút\",\"instance_count\":0,\"has_attributes\":false,\"is_dynamic\":true},{\"name\":\"xref mb tran$0$quat gan tran mb\",\"instance_count\":1,\"has_attributes\":false,\"is_dynamic\":false},{\"name\":\"RAG 300\",\"instance_count\":2,\"has_attributes\":false,\"is_dynamic\":false},{\"name\":\"RAG 450\",\"instance_count\":2,\"has_attributes\":false,\"is_dynamic\":false},{\"name\":\"RAG 600\",\"instance_count\":2,\"has_attributes\":false,\"is_dynamic\":false},{\"name\":\"AC_RAG\",\"instance_count\":0,\"has_attributes\":false,\"is_dynamic\":true},{\"name\":\"ONG GIO TRUC DUNG\",\"instance_count\":0,\"has_attributes\":false,\"is_dynamic\":true}]},\"ms\":6},{\"buoc\":5,\"tool\":\"extract_all_text\",\"success\":true,\"content\":\"Tim duoc 94 text entity.\",\"dataCat\":\"{\\\"items\\\":[{\\\"handle\\\":\\\"367\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"%%ULAYER DRAWING STANDARD\\\",\\\"layer\\\":\\\"KD-1-3000\\\",\\\"x\\\":52684.730489643465,\\\"y\\\":49076.77744803812,\\\"height\\\":960.0},{\\\"handle\\\":\\\"369\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"%%UCOLOR\\\",\\\"layer\\\":\\\"KD-1-3000\\\",\\\"x\\\":71188.4567026975,\\\"y\\\":49076.77744803812,\\\"height\\\":960.0},{\\\"handle\\\":\\\"36A\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"%%USYMBOL\\\",\\\"layer\\\":\\\"KD-1-3000\\\",\\\"x\\\":40706.551474115986,\\\"y\\\":49076.77744803812,\\\"height\\\":960.0},{\\\"handle\\\":\\\"36C\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"%%USYSTEM\\\",\\\"layer\\\":\\\"KD-1-3000\\\",\\\"x\\\":22698.139505391766,\\\"y\\\":49076.77744803812,\\\"height\\\":960.0},{\\\"handle\\\":\\\"36D\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"FAD\\\",\\\"layer\\\":\\\"M-MVAC-FAD\\\",\\\"x\\\":49605.03890348546,\\\"y\\\":42035.36710743527,\\\"height\\\":800.0},{\\\"handle\\\":\\\"36E\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"PAD\\\",\\\"layer\\\":\\\"M-MVAC-PAD\\\",\\\"x\\\":49605.03890348546,\\\"y\\\":40157.30498915622,\\\"height\\\":800.0},{\\\"handle\\\":\\\"36F\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"CEAD\\\",\\\"layer\\\":\\\"M-MVAC-CEAD\\\",\\\"x\\\":49605.04760472308,\\\"y\\\":38279.24287087714,\\\"height\\\":800.0},{\\\"handle\\\":\\\"370\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"CSAD\\\",\\\"layer\\\":\\\"M-MVAC-TEXT\\\",\\\"x\\\":49605.05630596058,\\\"y\\\":36401.18075259786,\\\"height\\\":800.0},{\\\"handle\\\":\\\"371\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"EAD\\\",\\\"layer\\\":\\\"M-MVAC-EAD\\\",\\\"x\\\":49605.03890348546,\\\"y\\\":43913.42922571455,\\\"height\\\":800.0},{\\\"handle\\\":\\\"372\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"Copper Pipe\\\",\\\"layer\\\":\\\"M-MVAC-Copper Pipe\\\",\\\"x\\\":49605.03150402644,\\\"y\\\":32645.05651603953,\\\"height\\\":800.0},{\\\"handle\\\":\\\"373\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"AC Drain\\\",\\\"layer\\\":\\\"M-MVAC-AC Drain\\\",\\\"x\\\":49605.18811031355,\\\"y\\\":30766.99439776048,\\\"height\\\":800.0},{\\\"handle\\\":\\\"374\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"DIM\\\",\\\"layer\\\":\\\"M-MVAC-DIM\\\",\\\"x\\\":49605.21421402617,\\\"y\\\":25132.808042923105,\\\"height\\\":800.0},{\\\"handle\\\":\\\"375\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"TEXT\\\",\\\"layer\\\":\\\"M-MVAC-TEXT\\\",\\\"x\\\":49605.22291526344,\\\"y\\\":23254.745924643823,\\\"height\\\":800.0},{\\\"handle\\\":\\\"377\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"TEXT\\\",\\\"layer\\\":\\\"M-MVAC-TEXT\\\",\\\"x\\\":60503.06180999737,\\\"y\\\":23254.745924643823,\\\"height\\\":800.0},{\\\"handle\\\":\\\"378\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"Equipment\\\",\\\"layer\\\":\\\"M-MVAC-Equipment\\\",\\\"x\\\":49587.10726477759,\\\"y\\\":28888.9322794812,\\\"height\\\":800.0},{\\\"handle\\\":\\\"379\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"Support\\\",\\\"layer\\\":\\\"M-MVAC-Support\\\",\\\"x\\\":49569.02641924232,\\\"y\\\":27010.870161202154,\\\"height\\\":800.0},{\\\"handle\\\":\\\"37B\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"0.20\\\",\\\"layer\\\":\\\"M-MVAC-EAD\\\",\\\"x\\\":67288.37685457774,\\\"y\\\":43913.42922571455,\\\"height\\\":800.0},{\\\"handle\\\":\\\"37C\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"0.20\\\",\\\"layer\\\":\\\"M-MVAC-FAD\\\",\\\"x\\\":67288.37685457774,\\\"y\\\":42024.00124698775,\\\"height\\\":800.0},{\\\"handle\\\":\\\"37D\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"0.20\\\",\\\"layer\\\":\\\"M-MVAC-PAD\\\",\\\"x\\\":67288.37685457774,\\\"y\\\":40157.30498915622,\\\"height\\\":800.0},{\\\"handle\\\":\\\"37E\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"0.20\\\",\\\"layer\\\":\\\"M-MVAC-CEAD\\\",\\\"x\\\":67288.37685457774,\\\"y\\\":38279.24287087714,\\\"height\\\":800.0},{\\\"handle\\\":\\\"37F\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"0.20\\\",\\\"layer\\\":\\\"M-MVAC-TEXT\\\",\\\"x\\\":67288.37685457774,\\\"y\\\":36400.2960943001,\\\"height\\\":800.0},{\\\"handle\\\":\\\"380\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"0.20\\\",\\\"layer\\\":\\\"M-MVAC-Copper Pipe\\\",\\\"x\\\":67288.37685457774,\\\"y\\\":32645.05651603953,\\\"height\\\":800.0},{\\\"handle\\\":\\\"381\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"0.20\\\",\\\"layer\\\":\\\"M-MVAC-AC Drain\\\",\\\"x\\\":67288.37685457774,\\\"y\\\":30766.99439776048,\\\"height\\\":800.0},{\\\"handle\\\":\\\"382\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"0.05\\\",\\\"layer\\\":\\\"M-MVAC-DIM\\\",\\\"x\\\":67288.40295829036,\\\"y\\\":25132.808042923105,\\\"height\\\":800.0},{\\\"handle\\\":\\\"383\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"0.10\\\",\\\"layer\\\":\\\"M-MVAC-TEXT\\\",\\\"x\\\":67288.41165952786,\\\"y\\\":23254.745924643823,\\\"height\\\":800.0},{\\\"handle\\\":\\\"384\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"0.10\\\",\\\"layer\\\":\\\"M-MVAC-Equipment\\\",\\\"x\\\":67270.29600904224,\\\"y\\\":28888.9322794812,\\\"height\\\":800.0},{\\\"handle\\\":\\\"385\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"0.10\\\",\\\"layer\\\":\\\"M-MVAC-Support\\\",\\\"x\\\":67252.21516350663,\\\"y\\\":27024.12772337615,\\\"height\\\":800.0},{\\\"handle\\\":\\\"386\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"80\\\",\\\"layer\\\":\\\"M-MVAC-EAD\\\",\\\"x\\\":72451.78435643174,\\\"y\\\":43913.42922571455,\\\"height\\\":800.0},{\\\"handle\\\":\\\"387\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"SEAD\\\",\\\"layer\\\":\\\"M-MVAC-SEAD\\\",\\\"x\\\":49605.03890348546,\\\"y\\\":34523.11863431881,\\\"height\\\":800.0},{\\\"handle\\\":\\\"388\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"0.20\\\",\\\"layer\\\":\\\"M-MVAC-SEAD\\\",\\\"x\\\":67288.36815334012,\\\"y\\\":34522.501092229846,\\\"height\\\":800.0},{\\\"handle\\\":\\\"390\\\",\\\"type\\\":\\\"TEXT\\\",\\\"content\\\":\\\"150\\\"…\",\"ms\":6},{\"buoc\":6,\"tool\":\"export_plan_image\",\"success\":true,\"content\":\"Da xuat anh 3000x3823 px cho vung [8190,-80518]..[113304,53449]: 161 doi tuong, 442 hinh, 13 vat the co handle. Dung Read tren 'png' de xem anh.\",\"data\":{\"png\":\"C:\\\\Users\\\\Admin\\\\Desktop\\\\SHOPDRAWING-HVAC-AI\\\\work_hvac\\\\spec_v2\\\\spec_v2_full.png\",\"svg\":null,\"json\":\"C:\\\\Users\\\\Admin\\\\Desktop\\\\SHOPDRAWING-HVAC-AI\\\\work_hvac\\\\spec_v2\\\\spec_v2_full.json\",\"image\":{\"width\":3000,\"height\":3823},\"region\":{\"xmin\":8190.005634406551,\"ymin\":-80518.30258658549,\"xmax\":113304.49720915427,\"ymax\":53448.57200765241,\"unit\":\"mm\"},\"transform\":{\"unitsPerPxX\":35.03816385824924,\"unitsPerPxY\":35.042342295118466,\"pxPerUnitX\":0.028540308334809163,\"pxPerUnitY\":0.02853690519823796,\"imageToCad\":\"ucsX = xmin + px*unitsPerPxX ; ucsY = ymax - py*unitsPerPxY\",\"cadToImage\":\"px = (ucsX - xmin)*pxPerUnitX ; py = (ymax - ucsY)*pxPerUnitY\"},\"entities\":161,\"shapes\":442,\"skipped\":36,\"objectCount\":13,\"objects\":[{\"handle\":\"9E5\",\"name\":\"VD L200\",\"bboxPx\":[70.9,3559.5,96.9,3565.2],\"insertUcs\":[10746.57,-71485.53]},{\"handle\":\"9EF\",\"name\":\"van MFD\",\"bboxPx\":[68.1,3530.4,94.2,3537.7],\"insertUcs\":[11526.64,-70257.77]},{\"handle\":\"A00\",\"name\":\"EAG 600X300\",\"bboxPx\":[236.5,3553.8,254.9,3573.2],\"insertUcs\":[17121.41,-71086.11]},{\"handle\":\"A02\",\"name\":\"HTS_Van gio mot chieu RND\",\"bboxPx\":[66.4,3587.8,102.1,3592.1],\"insertUcs\":[11142.54,-72351.72]},{\"handle\":\"A14\",\"name\":\"CỬA THĂM TRẦN\",\"bboxPx\":[74.8,3670.2,87.6,3683.0],\"insertUcs\":[-471821.48,-772558.69]},{\"handle\":\"A1B\",\"name\":\"600X600\",\"bboxPx\":[68.6,3606.6,96.1,3634.0],\"insertUcs\":[-3844048.01,829263.72]},{\"handle\":\"A22\",\"name\":\"cửa gió hút\",\"bboxPx\":[243.3,3612.7,274.8,3629.8],\"insertUcs\":[17818.34,-73148.32]},{\"handle\":\"A2C\",\"name\":\"MIENG GIÓ TRÒN D...\",\"bboxPx\":[75.2,3699.2,88.1,3712.0],\"insertUcs\":[10826.12,-76404.03]},{\"handle\":\"A34\",\"name\":\"xref mb tran$0$quat gan tran mb\",\"bboxPx\":[253.2,3644.7,264.0,3654.9],\"insertUcs\":[17250.81,-74458.78]},{\"handle\":\"A35\",\"name\":\"AC_RAG\",\"bboxPx\":[253.0,3672.9,264.4,3684.3],\"insertUcs\":[17255.75,-75458.6]},{\"handle\":\"A3C\",\"name\":\"ONG GIO TRUC DUNG\",\"bboxPx\":[241.7,3523.7,272.8,3543.7],\"insertUcs\":[17007.75,-70379.73]},{\"handle\":\"A48\",\"name\":\"600X600\",\"bboxPx\":[68.4,3635.5,96.1,3662.2],\"insertUcs\":[-3844048.01,828255.04]},{\"handle\":\"A55\",\"name\":\"MIENG GIÓ TRÒN D...\",\"bboxPx\":[75.2,3728.0,88.1,3740.8],\"insertUcs\":[10826.12,-77412.71]}],\"objectsTruncated\":false,\"hint\":\"Toa do tren anh tinh theo pixel, goc TREN-TRAI, truc Y huong XUONG. Tra nguoc ra doi tuong: dung tool map_image_cad voi ref = duong dan json.\"},\"ms\":291}]}]}",
+  "data": {
+    "jobId": "20261118-232837-8d67",
+    "trangThai": "xong",
+    "tong": 1,
+    "xong": 1,
+    "loi": 0,
+    "dangChay": 0,
+    "cho": 0,
+    "luu": "khong",
+    "thuMucRa": "",
+    "batDau": "2026-11-18 23:28:37",
+    "giay": 13.3,
+    "thuMucViec": "C:\\Users\\Admin\\AppData\\Local\\Temp\\HTS_Batch\\20261118-232837-8d67",
+    "tep": [
+      {
+        "tep": "C:\\Users\\Admin\\Desktop\\SHOPDRAWING-HVAC-AI\\Spec-layer ký hiệu ống gió.dwg",
+        "trangThai": "xong",
+        "giay": 13.3,
+        "buoc": [
+          {
+            "buoc": 1,
+            "tool": "get_drawing_info",
+            "success": true,
+            "content": "Drawing info OK.",
+            "data": {
+              "filename": "C:\\Users\\Admin\\Desktop\\SHOPDRAWING-HVAC-AI\\Spec-layer ký hiệu ống gió.dwg",
+              "units": "Millimeters",
+              "layer_count": 38,
+              "entity_count": 161,
+              "block_ref_count": 13,
+              "current_layer": "0",
+              "extmin": {
+                "x": 10211.43816469016,
+                "y": -77942.01653669629
+              },
+              "extmax": {
+                "x": 111283.06467887067,
+                "y": 50872.28595776322
+              }
+            },
+            "ms": 78
+          },
+          {
+            "buoc": 2,
+            "tool": "get_layer_list",
+            "success": true,
+            "content": "Co 38 layer, layer hien tai: 0",
+            "data": {
+              "currentLayer": "0",
+              "layers": [
+                {
+                  "name": "0",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 7
+                },
+                {
+                  "name": "Defpoints",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 7
+                },
+                {
+                  "name": "M-MVAC-SEAD",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 190
+                },
+                {
+                  "name": "KD-1-3000",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 97
+                },
+                {
+                  "name": "M-MVAC-EAD",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 80
+                },
+                {
+                  "name": "M-MVAC-FAD",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 150
+                },
+                {
+                  "name": "M-MVAC-PAD",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 210
+                },
+                {
+                  "name": "M-MVAC-CEAD",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 170
+                },
+                {
+                  "name": "M-MVAC-CSAD",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 11
+                },
+                {
+                  "name": "M-MVAC-Equipment",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 47
+                },
+                {
+                  "name": "M-MVAC-Support",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 42
+                },
+                {
+                  "name": "M-MVAC-AC Drain",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 72
+                },
+                {
+                  "name": "M-MVAC-DIM",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 97
+                },
+                {
+                  "name": "M-MVAC-TEXT",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 2
+                },
+                {
+                  "name": "M-MVAC-Copper Pipe",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 12
+                },
+                {
+                  "name": "M-PEA-DIM",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 97
+                },
+                {
+                  "name": "ZZ",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 81
+                },
+                {
+                  "name": "MEPG-AC-TEXT",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 7
+                },
+                {
+                  "name": "CLOUND",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 240
+                },
+                {
+                  "name": "HÚT KHÓI",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 30
+                },
+                {
+                  "name": "M.DMT.Pres Stair",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 3
+                },
+                {
+                  "name": "MEP-M-TXT25",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 7
+                },
+                {
+                  "name": "M-E-DUCT-50",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 10
+                },
+                {
+                  "name": "!-AC-DUCT WITH INSULATION",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 4
+                },
+                {
+                  "name": "M.VK.Exhaust Air",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 30
+                },
+                {
+                  "name": "VNBT-DUCT EA",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 6
+                },
+                {
+                  "name": "TDME-GT",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 70
+                },
+                {
+                  "name": "HÚT KHÍ THẢI",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 11
+                },
+                {
+                  "name": "sửa đổi",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 3
+                },
+                {
+                  "name": "0_MHI-SAG",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 3
+                },
+                {
+                  "name": "MHI-EAG",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 1
+                },
+                {
+                  "name": "0_MHI_DETAIL",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 8
+                },
+                {
+                  "name": "Noithat - DMC",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 155
+                },
+                {
+                  "name": "0_MHI_RAG",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 6
+                },
+                {
+                  "name": "!-AC-DUCT NO INSULATION",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 30
+                },
+                {
+                  "name": "xref mb tran$0$!-AC-EQUIPEMNT",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 3
+                },
+                {
+                  "name": "!-AC-Air Terminal",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 10
+                },
+                {
+                  "name": "REVCLOUD",
+                  "isOff": false,
+                  "isFrozen": false,
+                  "color": 1
+                }
+              ]
+            },
+            "ms": 8
+          },
+          {
+            "buoc": 3,
+            "tool": "group_summary_by_layer",
+            "success": true,
+            "content": "Da quet 27 layer.",
+            "data": {
+              "layers": [
+                {
+                  "layer": "KD-1-3000",
+                  "count": 20,
+                  "total_length": 0,
+                  "total_area": 0
+                },
+                {
+                  "layer": "0",
+                  "count": 26,
+                  "total_length": 2245309.13288946,
+                  "total_area": 7567635469.190588
+                },
+                {
+                  "layer": "M-MVAC-FAD",
+                  "count": 4,
+                  "total_length": 8024.811453088892,
+                  "total_area": 0
+                },
+                {
+                  "layer": "M-MVAC-PAD",
+                  "count": 4,
+                  "total_length": 8024.811453088892,
+                  "total_area": 0
+                },
+                {
+                  "layer": "M-MVAC-CEAD",
+                  "count": 4,
+                  "total_length": 8024.811453088892,
+                  "total_area": 0
+                },
+                {
+                  "layer": "M-MVAC-TEXT",
+                  "count": 11,
+                  "total_length": 0,
+                  "total_area": 0
+                },
+                {
+                  "layer": "M-MVAC-EAD",
+                  "count": 4,
+                  "total_length": 8024.811453088892,
+                  "total_area": 0
+                },
+                {
+                  "layer": "M-MVAC-Copper Pipe",
+                  "count": 4,
+                  "total_length": 8024.811453088892,
+                  "total_area": 0
+                },
+                {
+                  "layer": "M-MVAC-AC Drain",
+                  "count": 4,
+                  "total_length": 8024.811453088892,
+                  "total_area": 0
+                },
+                {
+                  "layer": "M-MVAC-DIM",
+                  "count": 5,
+                  "total_length": 10246.845368376546,
+                  "total_area": 0
+                },
+                {
+                  "layer": "M-PEA-DIM",
+                  "count": 1,
+                  "total_length": 0,
+                  "total_area": 0
+                },
+                {
+                  "layer": "M-MVAC-Equipment",
+                  "count": 4,
+                  "total_length": 8024.811453088892,
+                  "total_area": 0
+                },
+                {
+                  "layer": "M-MVAC-Support",
+                  "count": 4,
+                  "total_length": 8024.811453088892,
+                  "total_area": 0
+                },
+                {
+                  "layer": "M-MVAC-SEAD",
+                  "count": 4,
+                  "total_length": 8024.802751851159,
+                  "total_area": 0
+                },
+                {
+                  "layer": "M-MVAC-CSAD",
+                  "count": 1,
+                  "total_length": 8024.811453088892,
+                  "total_area": 0
+                },
+                {
+                  "layer": "ZZ",
+                  "count": 13,
+                  "total_length": 0,
+                  "total_area": 0
+                },
+                {
+                  "layer": "CLOUND",
+                  "count": 11,
+                  "total_length": 83593.62018095184,
+                  "total_area": 56956370.027166165
+                },
+                {
+                  "layer": "HÚT KHÓI",
+                  "count": 11,
+                  "total_length": 151128.6975977424,
+                  "total_area": 0
+                },
+                {
+                  "layer": "VNBT-DUCT EA",
+                  "count": 1,
+                  "total_length": 0,
+                  "total_area": 0
+                },
+                {
+                  "layer": "MEP-M-TXT25",
+                  "count": 14,
+                  "total_length": 0,
+                  "total_area": 0
+                },
+                {
+                  "layer": "M.VK.Exhaust Air",
+                  "count": 1,
+                  "total_length": 0,
+                  "total_area": 0
+                },
+                {
+                  "layer": "HÚT KHÍ THẢI",
+                  "count": 1,
+                  "total_length": 0,
+                  "total_area": 0
+                },
+                {
+                  "layer": "M-E-DUCT-50",
+                  "count": 2,
+                  "total_length": 4605.253007295645,
+                  "total_area": 322137.22689054435
+                },
+                {
+                  "layer": "0_MHI_DETAIL",
+                  "count": 1,
+                  "total_length": 0,
+                  "total_area": 0
+                },
+                {
+                  "layer": "0_MHI-SAG",
+                  "count": 4,
+                  "total_length": 0,
+                  "total_area": 0
+                },
+                {
+                  "layer": "!-AC-Air Terminal",
+                  "count": 1,
+                  "total_length": 0,
+                  "total_area": 0
+                },
+                {
+                  "layer": "TDME-GT",
+                  "count": 1,
+                  "total_length": 0,
+                  "total_area": 0
+                }
+              ]
+            },
+            "ms": 8
+          },
+          {
+            "buoc": 4,
+            "tool": "list_block_definitions",
+            "success": true,
+            "content": "19 block definition.",
+            "data": {
+              "items": [
+                {
+                  "name": "_Dot",
+                  "instance_count": 0,
+                  "has_attributes": false,
+                  "is_dynamic": false
+                },
+                {
+                  "name": "A$Cbbb1c70d",
+                  "instance_count": 0,
+                  "has_attributes": false,
+                  "is_dynamic": false
+                },
+                {
+                  "name": "_Oblique",
+                  "instance_count": 2,
+                  "has_attributes": false,
+                  "is_dynamic": false
+                },
+                {
+                  "name": "_ArchTick",
+                  "instance_count": 0,
+                  "has_attributes": false,
+                  "is_dynamic": false
+                },
+                {
+                  "name": "AF-AG_825X425_TOP_",
+                  "instance_count": 1,
+                  "has_attributes": false,
+                  "is_dynamic": false
+                },
+                {
+                  "name": "VD L200",
+                  "instance_count": 0,
+                  "has_attributes": false,
+                  "is_dynamic": true
+                },
+                {
+                  "name": "EAG 600X300",
+                  "instance_count": 1,
+                  "has_attributes": false,
+                  "is_dynamic": false
+                },
+                {
+                  "name": "van MFD",
+                  "instance_count": 0,
+                  "has_attributes": false,
+                  "is_dynamic": true
+                },
+                {
+                  "name": "HTS_Van gio mot chieu RND",
+                  "instance_count": 0,
+                  "has_attributes": true,
+                  "is_dynamic": true
+                },
+                {
+                  "name": "MIENG GIÓ TRÒN D...",
+                  "instance_count": 0,
+                  "has_attributes": false,
+                  "is_dynamic": true
+                },
+                {
+                  "name": "CỬA THĂM TRẦN",
+                  "instance_count": 0,
+                  "has_attributes": false,
+                  "is_dynamic": true
+                },
+                {
+                  "name": "600X600",
+                  "instance_count": 0,
+                  "has_attributes": false,
+                  "is_dynamic": true
+                },
+                {
+                  "name": "cửa gió hút",
+                  "instance_count": 0,
+                  "has_attributes": false,
+                  "is_dynamic": true
+                },
+                {
+                  "name": "xref mb tran$0$quat gan tran mb",
+                  "instance_count": 1,
+                  "has_attributes": false,
+                  "is_dynamic": false
+                },
+                {
+                  "name": "RAG 300",
+                  "instance_count": 2,
+                  "has_attributes": false,
+                  "is_dynamic": false
+                },
+                {
+                  "name": "RAG 450",
+                  "instance_count": 2,
+                  "has_attributes": false,
+                  "is_dynamic": false
+                },
+                {
+                  "name": "RAG 600",
+                  "instance_count": 2,
+                  "has_attributes": false,
+                  "is_dynamic": false
+                },
+                {
+                  "name": "AC_RAG",
+                  "instance_count": 0,
+                  "has_attributes": false,
+                  "is_dynamic": true
+                },
+                {
+                  "name": "ONG GIO TRUC DUNG",
+                  "instance_count": 0,
+                  "has_attributes": false,
+                  "is_dynamic": true
+                }
+              ]
+            },
+            "ms": 6
+          },
+          {
+            "buoc": 5,
+            "tool": "extract_all_text",
+            "success": true,
+            "content": "Tim duoc 94 text entity.",
+            "dataCat": "{\"items\":[{\"handle\":\"367\",\"type\":\"TEXT\",\"content\":\"%%ULAYER DRAWING STANDARD\",\"layer\":\"KD-1-3000\",\"x\":52684.730489643465,\"y\":49076.77744803812,\"height\":960.0},{\"handle\":\"369\",\"type\":\"TEXT\",\"content\":\"%%UCOLOR\",\"layer\":\"KD-1-3000\",\"x\":71188.4567026975,\"y\":49076.77744803812,\"height\":960.0},{\"handle\":\"36A\",\"type\":\"TEXT\",\"content\":\"%%USYMBOL\",\"layer\":\"KD-1-3000\",\"x\":40706.551474115986,\"y\":49076.77744803812,\"height\":960.0},{\"handle\":\"36C\",\"type\":\"TEXT\",\"content\":\"%%USYSTEM\",\"layer\":\"KD-1-3000\",\"x\":22698.139505391766,\"y\":49076.77744803812,\"height\":960.0},{\"handle\":\"36D\",\"type\":\"TEXT\",\"content\":\"FAD\",\"layer\":\"M-MVAC-FAD\",\"x\":49605.03890348546,\"y\":42035.36710743527,\"height\":800.0},{\"handle\":\"36E\",\"type\":\"TEXT\",\"content\":\"PAD\",\"layer\":\"M-MVAC-PAD\",\"x\":49605.03890348546,\"y\":40157.30498915622,\"height\":800.0},{\"handle\":\"36F\",\"type\":\"TEXT\",\"content\":\"CEAD\",\"layer\":\"M-MVAC-CEAD\",\"x\":49605.04760472308,\"y\":38279.24287087714,\"height\":800.0},{\"handle\":\"370\",\"type\":\"TEXT\",\"content\":\"CSAD\",\"layer\":\"M-MVAC-TEXT\",\"x\":49605.05630596058,\"y\":36401.18075259786,\"height\":800.0},{\"handle\":\"371\",\"type\":\"TEXT\",\"content\":\"EAD\",\"layer\":\"M-MVAC-EAD\",\"x\":49605.03890348546,\"y\":43913.42922571455,\"height\":800.0},{\"handle\":\"372\",\"type\":\"TEXT\",\"content\":\"Copper Pipe\",\"layer\":\"M-MVAC-Copper Pipe\",\"x\":49605.03150402644,\"y\":32645.05651603953,\"height\":800.0},{\"handle\":\"373\",\"type\":\"TEXT\",\"content\":\"AC Drain\",\"layer\":\"M-MVAC-AC Drain\",\"x\":49605.18811031355,\"y\":30766.99439776048,\"height\":800.0},{\"handle\":\"374\",\"type\":\"TEXT\",\"content\":\"DIM\",\"layer\":\"M-MVAC-DIM\",\"x\":49605.21421402617,\"y\":25132.808042923105,\"height\":800.0},{\"handle\":\"375\",\"type\":\"TEXT\",\"content\":\"TEXT\",\"layer\":\"M-MVAC-TEXT\",\"x\":49605.22291526344,\"y\":23254.745924643823,\"height\":800.0},{\"handle\":\"377\",\"type\":\"TEXT\",\"content\":\"TEXT\",\"layer\":\"M-MVAC-TEXT\",\"x\":60503.06180999737,\"y\":23254.745924643823,\"height\":800.0},{\"handle\":\"378\",\"type\":\"TEXT\",\"content\":\"Equipment\",\"layer\":\"M-MVAC-Equipment\",\"x\":49587.10726477759,\"y\":28888.9322794812,\"height\":800.0},{\"handle\":\"379\",\"type\":\"TEXT\",\"content\":\"Support\",\"layer\":\"M-MVAC-Support\",\"x\":49569.02641924232,\"y\":27010.870161202154,\"height\":800.0},{\"handle\":\"37B\",\"type\":\"TEXT\",\"content\":\"0.20\",\"layer\":\"M-MVAC-EAD\",\"x\":67288.37685457774,\"y\":43913.42922571455,\"height\":800.0},{\"handle\":\"37C\",\"type\":\"TEXT\",\"content\":\"0.20\",\"layer\":\"M-MVAC-FAD\",\"x\":67288.37685457774,\"y\":42024.00124698775,\"height\":800.0},{\"handle\":\"37D\",\"type\":\"TEXT\",\"content\":\"0.20\",\"layer\":\"M-MVAC-PAD\",\"x\":67288.37685457774,\"y\":40157.30498915622,\"height\":800.0},{\"handle\":\"37E\",\"type\":\"TEXT\",\"content\":\"0.20\",\"layer\":\"M-MVAC-CEAD\",\"x\":67288.37685457774,\"y\":38279.24287087714,\"height\":800.0},{\"handle\":\"37F\",\"type\":\"TEXT\",\"content\":\"0.20\",\"layer\":\"M-MVAC-TEXT\",\"x\":67288.37685457774,\"y\":36400.2960943001,\"height\":800.0},{\"handle\":\"380\",\"type\":\"TEXT\",\"content\":\"0.20\",\"layer\":\"M-MVAC-Copper Pipe\",\"x\":67288.37685457774,\"y\":32645.05651603953,\"height\":800.0},{\"handle\":\"381\",\"type\":\"TEXT\",\"content\":\"0.20\",\"layer\":\"M-MVAC-AC Drain\",\"x\":67288.37685457774,\"y\":30766.99439776048,\"height\":800.0},{\"handle\":\"382\",\"type\":\"TEXT\",\"content\":\"0.05\",\"layer\":\"M-MVAC-DIM\",\"x\":67288.40295829036,\"y\":25132.808042923105,\"height\":800.0},{\"handle\":\"383\",\"type\":\"TEXT\",\"content\":\"0.10\",\"layer\":\"M-MVAC-TEXT\",\"x\":67288.41165952786,\"y\":23254.745924643823,\"height\":800.0},{\"handle\":\"384\",\"type\":\"TEXT\",\"content\":\"0.10\",\"layer\":\"M-MVAC-Equipment\",\"x\":67270.29600904224,\"y\":28888.9322794812,\"height\":800.0},{\"handle\":\"385\",\"type\":\"TEXT\",\"content\":\"0.10\",\"layer\":\"M-MVAC-Support\",\"x\":67252.21516350663,\"y\":27024.12772337615,\"height\":800.0},{\"handle\":\"386\",\"type\":\"TEXT\",\"content\":\"80\",\"layer\":\"M-MVAC-EAD\",\"x\":72451.78435643174,\"y\":43913.42922571455,\"height\":800.0},{\"handle\":\"387\",\"type\":\"TEXT\",\"content\":\"SEAD\",\"layer\":\"M-MVAC-SEAD\",\"x\":49605.03890348546,\"y\":34523.11863431881,\"height\":800.0},{\"handle\":\"388\",\"type\":\"TEXT\",\"content\":\"0.20\",\"layer\":\"M-MVAC-SEAD\",\"x\":67288.36815334012,\"y\":34522.501092229846,\"height\":800.0},{\"handle\":\"390\",\"type\":\"TEXT\",\"content\":\"150\"…",
+            "ms": 6
+          },
+          {
+            "buoc": 6,
+            "tool": "export_plan_image",
+            "success": true,
+            "content": "Da xuat anh 3000x3823 px cho vung [8190,-80518]..[113304,53449]: 161 doi tuong, 442 hinh, 13 vat the co handle. Dung Read tren 'png' de xem anh.",
+            "data": {
+              "png": "C:\\Users\\Admin\\Desktop\\SHOPDRAWING-HVAC-AI\\work_hvac\\spec_v2\\spec_v2_full.png",
+              "svg": null,
+              "json": "C:\\Users\\Admin\\Desktop\\SHOPDRAWING-HVAC-AI\\work_hvac\\spec_v2\\spec_v2_full.json",
+              "image": {
+                "width": 3000,
+                "height": 3823
+              },
+              "region": {
+                "xmin": 8190.005634406551,
+                "ymin": -80518.30258658549,
+                "xmax": 113304.49720915427,
+                "ymax": 53448.57200765241,
+                "unit": "mm"
+              },
+              "transform": {
+                "unitsPerPxX": 35.03816385824924,
+                "unitsPerPxY": 35.042342295118466,
+                "pxPerUnitX": 0.028540308334809163,
+                "pxPerUnitY": 0.02853690519823796,
+                "imageToCad": "ucsX = xmin + px*unitsPerPxX ; ucsY = ymax - py*unitsPerPxY",
+                "cadToImage": "px = (ucsX - xmin)*pxPerUnitX ; py = (ymax - ucsY)*pxPerUnitY"
+              },
+              "entities": 161,
+              "shapes": 442,
+              "skipped": 36,
+              "objectCount": 13,
+              "objects": [
+                {
+                  "handle": "9E5",
+                  "name": "VD L200",
+                  "bboxPx": [
+                    70.9,
+                    3559.5,
+                    96.9,
+                    3565.2
+                  ],
+                  "insertUcs": [
+                    10746.57,
+                    -71485.53
+                  ]
+                },
+                {
+                  "handle": "9EF",
+                  "name": "van MFD",
+                  "bboxPx": [
+                    68.1,
+                    3530.4,
+                    94.2,
+                    3537.7
+                  ],
+                  "insertUcs": [
+                    11526.64,
+                    -70257.77
+                  ]
+                },
+                {
+                  "handle": "A00",
+                  "name": "EAG 600X300",
+                  "bboxPx": [
+                    236.5,
+                    3553.8,
+                    254.9,
+                    3573.2
+                  ],
+                  "insertUcs": [
+                    17121.41,
+                    -71086.11
+                  ]
+                },
+                {
+                  "handle": "A02",
+                  "name": "HTS_Van gio mot chieu RND",
+                  "bboxPx": [
+                    66.4,
+                    3587.8,
+                    102.1,
+                    3592.1
+                  ],
+                  "insertUcs": [
+                    11142.54,
+                    -72351.72
+                  ]
+                },
+                {
+                  "handle": "A14",
+                  "name": "CỬA THĂM TRẦN",
+                  "bboxPx": [
+                    74.8,
+                    3670.2,
+                    87.6,
+                    3683
+                  ],
+                  "insertUcs": [
+                    -471821.48,
+                    -772558.69
+                  ]
+                },
+                {
+                  "handle": "A1B",
+                  "name": "600X600",
+                  "bboxPx": [
+                    68.6,
+                    3606.6,
+                    96.1,
+                    3634
+                  ],
+                  "insertUcs": [
+                    -3844048.01,
+                    829263.72
+                  ]
+                },
+                {
+                  "handle": "A22",
+                  "name": "cửa gió hút",
+                  "bboxPx": [
+                    243.3,
+                    3612.7,
+                    274.8,
+                    3629.8
+                  ],
+                  "insertUcs": [
+                    17818.34,
+                    -73148.32
+                  ]
+                },
+                {
+                  "handle": "A2C",
+                  "name": "MIENG GIÓ TRÒN D...",
+                  "bboxPx": [
+                    75.2,
+                    3699.2,
+                    88.1,
+                    3712
+                  ],
+                  "insertUcs": [
+                    10826.12,
+                    -76404.03
+                  ]
+                },
+                {
+                  "handle": "A34",
+                  "name": "xref mb tran$0$quat gan tran mb",
+                  "bboxPx": [
+                    253.2,
+                    3644.7,
+                    264,
+                    3654.9
+                  ],
+                  "insertUcs": [
+                    17250.81,
+                    -74458.78
+                  ]
+                },
+                {
+                  "handle": "A35",
+                  "name": "AC_RAG",
+                  "bboxPx": [
+                    253,
+                    3672.9,
+                    264.4,
+                    3684.3
+                  ],
+                  "insertUcs": [
+                    17255.75,
+                    -75458.6
+                  ]
+                },
+                {
+                  "handle": "A3C",
+                  "name": "ONG GIO TRUC DUNG",
+                  "bboxPx": [
+                    241.7,
+                    3523.7,
+                    272.8,
+                    3543.7
+                  ],
+                  "insertUcs": [
+                    17007.75,
+                    -70379.73
+                  ]
+                },
+                {
+                  "handle": "A48",
+                  "name": "600X600",
+                  "bboxPx": [
+                    68.4,
+                    3635.5,
+                    96.1,
+                    3662.2
+                  ],
+                  "insertUcs": [
+                    -3844048.01,
+                    828255.04
+                  ]
+                },
+                {
+                  "handle": "A55",
+                  "name": "MIENG GIÓ TRÒN D...",
+                  "bboxPx": [
+                    75.2,
+                    3728,
+                    88.1,
+                    3740.8
+                  ],
+                  "insertUcs": [
+                    10826.12,
+                    -77412.71
+                  ]
+                }
+              ],
+              "objectsTruncated": false,
+              "hint": "Toa do tren anh tinh theo pixel, goc TREN-TRAI, truc Y huong XUONG. Tra nguoc ra doi tuong: dung tool map_image_cad voi ref = duong dan json."
+            },
+            "ms": 291
+          }
+        ]
+      }
+    ]
+  }
+}

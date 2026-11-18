@@ -1,0 +1,156 @@
+{
+  "auditedAt": "2026-11-18T16:17:41.152Z",
+  "elapsedSec": 0.2,
+  "verdict": "FAIL",
+  "drawing": "C:\\Users\\Admin\\Desktop\\SHOPDRAWING-HVAC-AI\\bai 2.dwg",
+  "units": "Millimeters",
+  "osmode": 4031,
+  "totalEntities": 730,
+  "surfaceAreaM2": 763.09,
+  "straightDuctCount": 276,
+  "countsByLayer": {
+    "0": 1,
+    "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED": 309,
+    "MEPG-M-EQUIP": 3,
+    "MEPG-AC-TEXT": 67,
+    "M-MVAC-SEAD": 305,
+    "M-MVAC-PAD": 42,
+    "CLOUND": 3
+  },
+  "checks": {
+    "check1_htsToolAndRule0": {
+      "pass": false,
+      "shopDuctCount": 347,
+      "nonInsertDucts": [
+        {
+          "handle": "1DCA0",
+          "type": "LWPOLYLINE",
+          "layer": "M-MVAC-SEAD",
+          "vertices": [
+            {
+              "x": 53207.02,
+              "y": 29289.74
+            },
+            {
+              "x": 53682.13,
+              "y": 29289.74
+            },
+            {
+              "x": 53682.13,
+              "y": 28846.15
+            },
+            {
+              "x": 53207.02,
+              "y": 28846.15
+            }
+          ],
+          "closed": true
+        }
+      ],
+      "nonHtsDucts": [],
+      "unusedBlocks": [],
+      "unsolicitedShop": []
+    },
+    "check2_baselineAndLayers": {
+      "pass": true,
+      "baselineChecked": true,
+      "baselineDiffs": [],
+      "unitsOk": true,
+      "extentsOk": true,
+      "totalLayers": 26,
+      "badLayers": []
+    },
+    "check3_revcloudMutualExclusion": {
+      "pass": true,
+      "cloudCount": 3,
+      "clouds": [
+        {
+          "handle": "1D981",
+          "type": "LWPOLYLINE",
+          "bbox": {
+            "minX": 63236.63,
+            "minY": 41378.04,
+            "minZ": 0,
+            "maxX": 67045.79,
+            "maxY": 44202.78,
+            "maxZ": 0,
+            "width": 3809.16,
+            "height": 2824.74,
+            "depth": 0,
+            "entityCount": 1
+          }
+        },
+        {
+          "handle": "1D983",
+          "type": "LWPOLYLINE",
+          "bbox": {
+            "minX": 42960.99,
+            "minY": 56946.02,
+            "minZ": 0,
+            "maxX": 43800.9,
+            "maxY": 58367.33,
+            "maxZ": 0,
+            "width": 839.91,
+            "height": 1421.31,
+            "depth": 0,
+            "entityCount": 1
+          }
+        },
+        {
+          "handle": "1D98B",
+          "type": "LWPOLYLINE",
+          "bbox": {
+            "minX": 36136.66,
+            "minY": 52841.85,
+            "minZ": 0,
+            "maxX": 37823.95,
+            "maxY": 53629.32,
+            "maxZ": 0,
+            "width": 1687.3,
+            "height": 787.47,
+            "depth": 0,
+            "entityCount": 1
+          }
+        }
+      ],
+      "overlaps": []
+    },
+    "check4_xdataElevation": {
+      "pass": false,
+      "checkedCount": 347,
+      "validCount": 346,
+      "missingXdata": [
+        {
+          "handle": "1DCA0",
+          "layer": "M-MVAC-SEAD"
+        }
+      ],
+      "bodDistribution": {
+        "2300": 25,
+        "2500": 49,
+        "2505": 2,
+        "2510": 1,
+        "2525": 10,
+        "2600": 14,
+        "2675": 2,
+        "2720": 20,
+        "2725": 8,
+        "2770": 27,
+        "2778": 2,
+        "2820": 16,
+        "2825": 1,
+        "2875": 1,
+        "2950": 13,
+        "3000": 32,
+        "3050": 41,
+        "3100": 30,
+        "3150": 42,
+        "3175": 1,
+        "3350": 3,
+        "3570": 1,
+        "3790": 5
+      }
+    }
+  },
+  "qaImagePath": null
+}

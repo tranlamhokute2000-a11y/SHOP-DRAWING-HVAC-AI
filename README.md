@@ -12,11 +12,18 @@ SHOP-DRAWING-HVAC-AI/
 │   ├── rules/
 │   │   └── hvac-shopdrawing-rules.md       # Kỷ luật triển khai Shop Drawing HVAC của dự án
 │   └── skills/
-│       ├── shopdrawing-ong-gio/            # Skill chuẩn triển khai Shop Drawing Ống gió bằng 100% HTS Tool
+│       ├── shopdrawing-ong-gio/            # Skill chuẩn triển khai Shop Drawing Ống gió bằng 100% HTS Tool (Turbo v2)
 │       │   ├── SKILL.md
-│       │   └── references/
-│       │       ├── spec-layer-ong-gio.md
-│       │       └── hts-hvac-tools-cheatsheet.md
+│       │   ├── references/
+│       │   │   ├── spec-layer-ong-gio.md           # Spec v3: 16 Layer, 2 DimStyle (M-DIM 1-400 / HỒ-DIM 1-70) & 14 Block ký hiệu
+│       │   │   └── hts-hvac-tools-cheatsheet.md    # Cẩm nang MCP HTS & 8 kinh nghiệm thực chiến (Z-offset, hvac-cap, MATCHPROP...)
+│       │   └── scripts/                            # Bộ 6 Script Turbo Node.js (0 dependency, rút thời gian vẽ gấp 4-5 lần)
+│       │       ├── hts_mcp.mjs
+│       │       ├── survey_hvac.mjs                 # Khảo sát + baseline.json (< 1s)
+│       │       ├── init_spec_layers.mjs            # Chuẩn hóa mm + 13 Layer Spec (< 0.2s)
+│       │       ├── draw_z_offsets.mjs              # Trích chi tiết chuyển cao độ ΔZ>200mm + 3 Dim 0.000mm + MATCHPROP (< 3s)
+│       │       ├── apply_endcaps.mjs               # Xóa đốt <100mm & bịt đầu hvac-cap qua (handent) (< 2s)
+│       │       └── qa_audit_hvac.mjs               # Nghiệm thu độc lập 5/5 tiêu chí QA/QC (< 0.3s)
 │       ├── hts-cad/                        # Skill kết nối & điều khiển AutoCAD qua HTS MCP (:5088) / VCS (:5077)
 │       └── dim-ong-gio/                    # Skill & AutoLISP tự động Dim kích thước ống gió HVAC (DOG/DAO/UDOG)
 ├── shop drawwing onng gio.dwg              # Bản vẽ Shop Drawing hệ Hút khói (SEAD) đã triển khai đè khít 100% HTS Tool

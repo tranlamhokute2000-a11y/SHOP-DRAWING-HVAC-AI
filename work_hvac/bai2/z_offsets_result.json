@@ -1,0 +1,224 @@
+[
+  {
+    "id": "Z-01a",
+    "layer": "M-MVAC-SEAD",
+    "W": 950,
+    "H": 450,
+    "z1": 3050,
+    "z2": 2505,
+    "dZ": 545,
+    "side": "UP",
+    "stepDir": "DOWN",
+    "rect": "1E079",
+    "pl": "1E07A",
+    "elevHandles": [
+      "1E085",
+      "1E08D",
+      "1E08E"
+    ],
+    "dimHandles": [
+      "1E08F",
+      "1E09C",
+      "1E0A9"
+    ],
+    "cloud": "1D981",
+    "leader": "1E0B7",
+    "cloudBbox": {
+      "minX": 63236.63,
+      "minY": 41378.04,
+      "minZ": 0,
+      "maxX": 67045.79,
+      "maxY": 44202.78,
+      "maxZ": 0,
+      "width": 3809.16,
+      "height": 2824.74,
+      "depth": 0,
+      "entityCount": 1
+    }
+  },
+  {
+    "id": "Z-01b",
+    "layer": "M-MVAC-SEAD",
+    "W": 950,
+    "H": 450,
+    "z1": 2505,
+    "z2": 3050,
+    "dZ": 545,
+    "side": "UP",
+    "stepDir": "UP",
+    "rect": "1E0B8",
+    "pl": "1E0B9",
+    "elevHandles": [
+      "1E0BA",
+      "1E0BB",
+      "1E0BC"
+    ],
+    "dimHandles": [
+      "1E0BD",
+      "1E0CA",
+      "1E0D7"
+    ],
+    "cloud": "1D981",
+    "leader": "1E0E5",
+    "cloudBbox": {
+      "minX": 63236.63,
+      "minY": 41378.04,
+      "minZ": 0,
+      "maxX": 67045.79,
+      "maxY": 44202.78,
+      "maxZ": 0,
+      "width": 3809.16,
+      "height": 2824.74,
+      "depth": 0,
+      "entityCount": 1
+    }
+  },
+  {
+    "id": "Z-02",
+    "layer": "M-MVAC-SEAD",
+    "W": 1850,
+    "H": 450,
+    "z1": 3050,
+    "z2": 2300,
+    "dZ": 750,
+    "side": "LEFT",
+    "stepDir": "DOWN",
+    "rect": "1E0E6",
+    "pl": "1E0E7",
+    "elevHandles": [
+      "1E0F2",
+      "1E0FA",
+      "1E0FB"
+    ],
+    "dimHandles": [
+      "1E0FC",
+      "1E109",
+      "1E116"
+    ],
+    "cloud": "1D983",
+    "leader": "1E124",
+    "cloudBbox": {
+      "minX": 42960.99,
+      "minY": 56946.02,
+      "minZ": 0,
+      "maxX": 43800.9,
+      "maxY": 58367.33,
+      "maxZ": 0,
+      "width": 839.91,
+      "height": 1421.31,
+      "depth": 0,
+      "entityCount": 1
+    }
+  },
+  {
+    "id": "Z-03",
+    "layer": "M-MVAC-SEAD",
+    "W": 1500,
+    "H": 450,
+    "z1": 2300,
+    "z2": 2720,
+    "dZ": 420,
+    "side": "UP",
+    "stepDir": "UP",
+    "rect": "1E125",
+    "pl": "1E126",
+    "elevHandles": [
+      "1E131",
+      "1E139",
+      "1E13A"
+    ],
+    "dimHandles": [
+      "1E13B",
+      "1E148",
+      "1E155"
+    ],
+    "cloud": "1D98B",
+    "leader": "1E165",
+    "cloudBbox": {
+      "minX": 36136.66,
+      "minY": 52841.85,
+      "minZ": 0,
+      "maxX": 37823.95,
+      "maxY": 53629.32,
+      "maxZ": 0,
+      "width": 1687.3,
+      "height": 787.47,
+      "depth": 0,
+      "entityCount": 1
+    }
+  },
+  {
+    "id": "Z-06",
+    "layer": "M-MVAC-PAD",
+    "W": 900,
+    "H": 500,
+    "z1": 3000,
+    "z2": 3350,
+    "dZ": 350,
+    "side": "UP",
+    "stepDir": "UP",
+    "rect": "1E166",
+    "pl": "1E167",
+    "elevHandles": [
+      "1E172",
+      "1E17A",
+      "1E17B"
+    ],
+    "dimHandles": [
+      "1E17C",
+      "1E189",
+      "1E198"
+    ],
+    "cloud": "1D983",
+    "leader": "1E1A8",
+    "cloudBbox": {
+      "minX": 42960.99,
+      "minY": 56946.02,
+      "minZ": 0,
+      "maxX": 43800.9,
+      "maxY": 58367.33,
+      "maxZ": 0,
+      "width": 839.91,
+      "height": 1421.31,
+      "depth": 0,
+      "entityCount": 1
+    }
+  },
+  {
+    "id": "Z-07",
+    "layer": "M-MVAC-PAD",
+    "W": 900,
+    "H": 500,
+    "z1": 3350,
+    "z2": 3790,
+    "dZ": 440,
+    "side": "RIGHT",
+    "stepDir": "UP",
+    "rect": "1E1A9",
+    "pl": "1E1AA",
+    "elevHandles": [
+      "1E1B5",
+      "1E1B6",
+      "1E1B7"
+    ],
+    "dimHandles": [
+      "1E1B8",
+      "1E1C5",
+      "1E1D2"
+    ],
+    "cloud": "1D983",
+    "leader": "1E1E2",
+    "cloudBbox": {
+      "minX": 42960.99,
+      "minY": 56946.02,
+      "minZ": 0,
+      "maxX": 43800.9,
+      "maxY": 58367.33,
+      "maxZ": 0,
+      "width": 839.91,
+      "height": 1421.31,
+      "depth": 0,
+      "entityCount": 1
+    }
+  }
+]

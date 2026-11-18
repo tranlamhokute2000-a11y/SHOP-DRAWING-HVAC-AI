@@ -1,0 +1,22 @@
+{
+  "schema": "hts-image-cad-georef/1",
+  "dwg": "C:\\Users\\Admin\\Desktop\\SHOPDRAWING-HVAC-AI\\Spec-layer ký hiệu ống gió.dwg",
+  "svg": "spec_v3_dim_zoom.png",
+  "unit": "mm",
+  "region": {
+    "xmin": 46000, "ymin": 22000, "xmax": 112000, "ymax": 28000,
+    "width": 66000, "height": 6000
+  },
+  "image": { "width": 2600, "height": 236 },
+  "transform": {
+    "unitsPerPxX": 25.384615384615383, "unitsPerPxY": 25.423728813559322,
+    "pxPerUnitX": 0.03939393939393939, "pxPerUnitY": 0.03933333333333333,
+    "imageToUcs": "ucsX = xmin + px*unitsPerPxX ; ucsY = ymax - py*unitsPerPxY",
+    "ucsToImage": "px = (ucsX - xmin)*pxPerUnitX ; py = (ymax - ucsY)*pxPerUnitY",
+    "ucsToWcsMatrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+    "wcsToUcsMatrix": [1, -0, 0, 0, -0, 1, -0, 0, 0, -0, 1, 0, 0, 0, 0, 1]
+  },
+  "objectCount": 0,
+  "objects": [
+  ]
+}

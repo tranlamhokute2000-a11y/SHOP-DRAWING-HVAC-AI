@@ -147,3 +147,58 @@ Thực hiện kiểm định chỉ-đọc độc lập sau khi `@rc03-fixer` x�
 ### 5.3. Kiểm Tra Trực Quan Sau Hiệu Chỉnh (`export_plan_image` + `read_file`) — **PASS**
 - `work_hvac\bai2\qa_rc03_verify_zoom.png` — Zoom cận góc `RC-03` (`X=47200..52500, Y=10200..14200`): cút `R500` và 3 đoạn nối mới khít mặt bích tuyệt đối với `1D517` và `1D523`, không còn mây `RC-03`, `DRAWORDER` sắc nét nằm trên nét thiết kế gốc.
 - `work_hvac\bai2\qa_full_v2.png` — Toàn mặt bằng cập nhật: góc đáy Nam đấu nối hoàn chỉnh, còn đúng `4` đám mây `RC-01, RC-02, RC-04, RC-05`, toàn bộ các tuyến khác giữ nguyên vẹn 100%.
+
+---
+
+## 6. Nghiệm Thu Bổ Sung — Triển Khai Cục Bộ Toàn Bộ Ống Gió & Phụ Kiện Trong Vùng `RC-01` (`RC-01 Revision Pass`) — **PASS 100%**
+
+Thực hiện kiểm định chỉ-đọc độc lập (2 vòng QA: vòng 1 phát hiện và gửi trả `@rc01-drafter` 3 điểm gồm layer `CLOUND` còn khóa, côn thu cao độ `L400` lệch mặt bích `200 mm`, và tổ hợp côn chuyển đầu đẩy thiếu cổ bích TDC `L32`; vòng 2 xác nhận **PASS 100% 5/5 tiêu chí** sau khi `@rc01-drafter` hoàn thiện).
+
+### 6.1. Danh Mục 23 Block HTS Mới Tạo Trong Vùng `RC-01` (`M-MVAC-SEAD`, `ByLayer`, `Z_c = +3225 mm`)
+
+| Nhóm cấu kiện | Handle (Nhánh trên / Dưới) | Tên Block HTS chuẩn | Công cụ HTS | Khoảng `X` (mm) | `BOD` (`HTS_OG_DAY`) | Đánh giá độ khít độc lập |
+| :--- | :--- | :--- | :--- | :---: | :---: | :--- |
+| **Chạc quần Y (`1CC0F`)** | `1D9C0` | `HTS-YQ-2200x550-1700x550-1700x550-A150-L1820-LC800-K100` | `duct_breeches_insert` | `57677.0 → 59497.3` | `2950` | Trùng BBox `1CC0F` sai số `[0, 0, 0, -0.01] mm`; khít ống góp `1D2BA` (`0.24 mm`) |
+| **Ống thẳng #1 (Chạc → `MFD`)** | `1D9CB` / `1D9F8` | `HTS-OG-1700x550 L111` | `draw_rectangular_duct` | `59497.0 → 59608.0` | `2950` | Khít `<= 0.31 mm` giữa chạc quần & `MFD` thượng lưu (`1CFE0`/`1CFE4`) |
+| **Ống thẳng #2 (`MFD` → Côn cao độ)** | `1DBEC` / `1DBF7` | `HTS-OG-1700x550 L633` / `L632` | `draw_rectangular_duct` | `59757.8 → 60390.3` | `2950` | Khít `<= 0.11 mm` giữa `MFD` & mặt bích côn `1D008`/`1CFF5` tại `X=60390.3` |
+| **Côn thu cao độ (`1D008`/`1CFF5`)** | `1DC0B` / `1DC0A` | `HTS-CON-Can-1700x1000-1700x550-L200` | `QUETPK` (mồi `L410`) | `60390.3 → 60590.3` | `2725` | Đè khít tuyệt đối `0.00 mm` mặt bích `L200` thiết kế & Tiêu âm 1 (`0.11 mm`) |
+| **Cổ bích TDC đầu hút (`1D007`/`1CFF4`)** | `1DBCD` / `1DBCE` | `HTS-OG-1700x1000 L32` | `draw_rectangular_duct` | `61490.3 → 61522.3` | `2725` | Khít `<= 0.08 mm` cổ bích TDC `32 mm` tại mặt ra Tiêu âm 1 |
+| **Côn chuyển Vuông–Tròn hút (`1D007`/`1CFF4`)** | `1DBBC` / `1DBBB` | `HTS-TV-Can-D1000-1700x1000-L500` | `QUETPK` | `61522.2 → 62022.4` | `2725` | Đè khít tuyệt đối `0.00 mm` đường vát `L500` Revit & khớp mềm hút (`0.11 mm`) |
+| **Đoạn tròn đầu đẩy (`1D006`/`1CFF3`)** | `1DC72` / `1DC73` | `HTS-OG-D1000 L200` | `draw_round_duct` | `62952.2 → 63152.4` | `2725` | Khít `<= 0.12 mm` khớp mềm đẩy (`1CFFA`/`1CFDF`), nằm gọn trong biên vát `L700` |
+| **Côn chuyển Tròn–Vuông đẩy (`1D006`/`1CFF3`)** | `1DC81` / `1DC80` | `HTS-VT-Can-1250x1400-D1000-L500` | `QUETPK` | `63152.2 → 63652.3` | `2525` | Khít `<= 0.12 mm` giữa ống tròn `L200` & cổ bích `L32` *(đạt ngưỡng tối đa `L500` của `QUETPK`)* |
+| **Cổ bích TDC đầu đẩy (`1D006`/`1CFF3`)** | `1DC96` / `1DC97` | `HTS-OG-1250x1400 L32` | `draw_rectangular_duct` | `63652.3 → 63684.3` | `2525` | Khít `<= 0.05 mm` cổ bích TDC `32 mm` tại mặt vào Tiêu âm 2 (`200+500+32 = 732.0 mm`) |
+| **Ống thẳng #3 (Tiêu âm 2 → `NRD`)** | `1D9E1` / `1DA04` | `HTS-OG-1250x1400 L359` | `draw_rectangular_duct` | `64584.2 → 64943.2` | `2525` | Khít `<= 0.12 mm` giữa Tiêu âm 2 (`1CFF8`/`1CC17`) & `NRD` (`1CFFF`/`1CFEC`) |
+| **Ống thẳng #4 (`NRD` → `MFD`)** | `1D9EC` / `1DA05` | `HTS-OG-1250x1400 L209` | `draw_rectangular_duct` | `65093.1 → 65302.1` | `2525` | Khít `0.00 mm` giữa `NRD` & `MFD` hạ lưu (`1D003`/`1CFF0`) |
+| **Ống thẳng #5 (`MFD` → Đầu đẩy hở)** | `1D9F7` / `1DA06` | `HTS-OG-1250x1400 L227` | `draw_rectangular_duct` | `65452.0 → 65679.6` | `2525` | Khít `<= 0.03 mm` đến mép đẩy `1CFFC`/`1CFE9` (không tự thêm nắp bịt theo thiết kế) |
+
+### 6.2. Hạng Mục Thiết Bị Ngoài Ống Gió Giữ Nguyên Trong Vùng `RC-01` (Chờ Hướng Dẫn Tiếp Của Kỹ Sư)
+Toàn bộ **16** thiết bị/phụ kiện thiết bị gốc trong vùng `RC-01` được giữ nguyên vẹn `100%` với **`0`** đoạn ống lấn vào thân thiết bị (dung sai tiếp xúc mặt bích tối đa `0.16 mm`):
+- **02 Quạt hướng trục `TDA 1000`** (`MEPG-M-EQUIP`): `1CFF6` (nhánh trên), `1CC0E` (nhánh dưới).
+- **04 Khớp nối mềm tròn `Ø1000`**: `1CFF9`/`1CFDE` (đầu hút), `1CFFA`/`1CFDF` (đầu đẩy).
+- **04 Bộ tiêu âm ống gió**: `1CFF7`/`1CC10` (Tiêu âm 1 `L900xW1700xH1000`), `1CFF8`/`1CC17` (Tiêu âm 2 `L900xW1250xH1400`).
+- **04 Van chặn lửa động cơ `MFD-EI60`**: `1CFE0`/`1CFE4` (thượng lưu `1700x550`), `1D003`/`1CFF0` (hạ lưu `1250x1400`).
+- **02 Van 1 chiều `NRD`**: `1CFFF`/`1CFEC` (`1250x1400`).
+
+### 6.3. Kết Quả Kiểm Định Chỉ-Đọc Tổng Hợp Sau `RC-01` (`port 5088`) — **PASS 100%**
+- **Bảo toàn 100% nền thiết kế gốc (`380 / 380`)**: `MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED` = **`309`**, `MEPG-AC-TEXT` = **`67`**, `MEPG-M-EQUIP` = **`3`**, `0` = **`1`**.
+- **Tổng thực thể bản vẽ**: **`729`** (`380` gốc + `346` HTS + `3` `REVCLOUD`).
+- **100% HTS Tool, `ByLayer`, `0` Block thừa & Quy tắc số 0**:
+  - **`M-MVAC-SEAD` = `304`** (`240` `HTS-OG`, `8` `HTS-CO`, `34` `HTS-TAP`, `10` `HTS-CON`, `7` `HTS-CAP`, `1` `HTS-YQ`, `2` `HTS-TV`, `2` `HTS-VT`); **`M-MVAC-PAD` = `42`** (`38` `HTS-OG`, `4` `HTS-CO`); tổng **`346 / 346`** đều là `INSERT` tên `HTS-*`, `0` nét vẽ giả.
+  - Quét toàn bộ `ACI 1..255` (`select_by_color`): **`0`** màu cưỡng bức trên cả `346` block `M-MVAC-*` (`100% ByLayer`).
+  - `list_block_definitions` (`includeUnused: true`): `224` định nghĩa block, **`0`** block thừa (`instance_count = 0`).
+  - `0` thực thể ngoài yêu cầu trên `M-MVAC-Equipment` và `9` layer Spec chưa dùng.
+- **Quy tắc số 4 & Dữ liệu 3D/BOQ**:
+  - `RC-01` (`1D980`) đã xóa hoàn toàn (`exists = false`).
+  - Còn đúng **`3`** `REVCLOUD` trên `CLOUND` (`RC-02: 1D981`, `RC-04: 1D983`, `RC-05: 1D98B`), **`0`** giao cắt BBox chặt với toàn bộ `346` block `M-MVAC-*`.
+  - XData `HTS_OG_DAY` xác minh **`346 / 346` (`100%`)** có đủ `code 1040` (`0` thiếu).
+  - Toàn bộ **`24 / 24`** layer ở trạng thái `is_locked = false`, `is_frozen = false`, `is_off = false`; `OSMODE = 4031`; `units = Millimeters` (`INSUNITS = 4`).
+  - Diện tích tôn ống thẳng chữ nhật (`compute_duct_surface_area`, `lengthScaleToMeter: 0.001`): **`763.09 m²`** trên **`276`** đốt ống chữ nhật (`+15.80 m²`, `+14` đốt so với bản `RC-03`; bổ sung thêm `2` đoạn ống tròn `HTS-OG-D1000 L200`).
+
+### 6.4. Kiểm Tra Trực Quan (`export_plan_image` + `read_file`) — **PASS**
+- `work_hvac\bai2\qa_rc01_verify_zoom.png` — Zoom cận toàn vùng `RC-01` (`X=57200..66100, Y=37100..41400`): chạc quần `1D9C0`, côn thu cao độ `L200` (`1DC0B`/`1DC0A`) đè khít `0.00 mm` mặt bích `X=60390.3`, cụm côn chuyển đầu hút `L32+L500` và đầu đẩy `L200+L500+L32`, cùng các đoạn ống thẳng dừng khít tại `MFD`, `NRD`, Tiêu âm và khớp mềm; `0` khe hở, `0` lấn thiết bị.
+- `work_hvac\bai2\qa_full_v3.png` — Toàn mặt bằng cập nhật: phòng quạt `RC-01` đã hoàn thiện toàn bộ ống gió & phụ kiện và bỏ mây `1D980`, còn đúng `3` đám mây `RC-02, RC-04, RC-05`, mọi tuyến khác giữ nguyên `100%`.
+
+### 6.5. Kinh Nghiệm Kỹ Thuật Mới Đề Xuất Cập Nhật Vào Skill `shopdrawing-ong-gio`
+1. **Điều khiển chính xác chiều dài côn thu bằng chiều dài ống mồi trong `QUETPK`**: Với côn thu có chiều dài thiết kế `L < 500 mm` (như côn chuyển chiều cao `L200`: `1700x550 → 1700x1000`), `QUETPK` tính chiều dài côn theo công thức `L_con = min(500, floor(L_bait / 2 / 50) * 50)`. Dùng ống mồi `L_bait = 410 mm` cho ra trực tiếp block chuẩn **`HTS-CON-Can-1700x1000-1700x550-L200`** mà không bị giới hạn mặc định `L400/L500`.
+2. **Ngưỡng trần `L500` của côn chuyển Vuông–Tròn (`HTS-VT-*` / `HTS-TV-*`) trong `QUETPK` & Cổ bích TDC `32 mm`**: `QUETPK` yêu cầu `gap ≈ 0` và giới hạn chiều dài tối đa `L = 500 mm` cho côn chuyển vuông–tròn; khi Revit dùng côn chuyển dài `L700` kèm cổ bích TDC `32 mm` (và `HTS_RVOG` không nhận block đơn lẻ thiếu cặp `LINE` ống thẳng 2 bên), tổ hợp chuẩn 100% HTS là **đoạn ống tròn bù (`HTS-OG-D... L200`) + côn chuyển `L500` (`HTS-VT-Can-...-L500`) + cổ bích TDC (`HTS-OG-... L32`)** đảm bảo kín bích `0.00 mm` và nằm gọn trong biên vát thiết kế.
+3. **Mở khóa đủ cả `CLOUND` sau thao tác cục bộ**: Khi khóa tạm các layer gốc và `CLOUND` trước `QUETPK`/`HTS_RVOG`, luôn chạy kiểm tra `get_layer_info` trên toàn bộ `24/24` layer để đảm bảo không bỏ sót `CLOUND` ở trạng thái `is_locked = true`.

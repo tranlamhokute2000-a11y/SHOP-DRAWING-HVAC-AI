@@ -1,0 +1,385 @@
+[
+  {
+    "buoc": 1,
+    "tool": "select_by_layer",
+    "success": true,
+    "content": "layer 'M-MVAC-DIM': 8 entity.",
+    "data": {
+      "handles": [
+        "BC3",
+        "BC2",
+        "BC1",
+        "A7C",
+        "590",
+        "396",
+        "382",
+        "374"
+      ]
+    },
+    "ms": 58
+  },
+  {
+    "buoc": 2,
+    "tool": "select_by_layer",
+    "success": true,
+    "content": "layer 'M-PEA-DIM': 1 entity.",
+    "data": {
+      "handles": [
+        "C07"
+      ]
+    },
+    "ms": 1
+  },
+  {
+    "buoc": 3,
+    "tool": "select_by_layer",
+    "success": true,
+    "content": "layer 's-dim': 1 entity.",
+    "data": {
+      "handles": [
+        "B71"
+      ]
+    },
+    "ms": 0
+  },
+  {
+    "buoc": 4,
+    "tool": "select_by_layer",
+    "success": true,
+    "content": "layer 'M-EQUIPMENT': 1 entity.",
+    "data": {
+      "handles": [
+        "BC5"
+      ]
+    },
+    "ms": 0
+  },
+  {
+    "buoc": 5,
+    "tool": "get_entities_in_area",
+    "success": true,
+    "content": "Tim thay 27 doi tuong.",
+    "data": [
+      {
+        "handle": "374",
+        "type": "TEXT",
+        "layer": "M-MVAC-DIM"
+      },
+      {
+        "handle": "375",
+        "type": "TEXT",
+        "layer": "M-MVAC-TEXT"
+      },
+      {
+        "handle": "377",
+        "type": "TEXT",
+        "layer": "M-MVAC-TEXT"
+      },
+      {
+        "handle": "379",
+        "type": "TEXT",
+        "layer": "M-MVAC-Support"
+      },
+      {
+        "handle": "382",
+        "type": "TEXT",
+        "layer": "M-MVAC-DIM"
+      },
+      {
+        "handle": "383",
+        "type": "TEXT",
+        "layer": "M-MVAC-TEXT"
+      },
+      {
+        "handle": "385",
+        "type": "TEXT",
+        "layer": "M-MVAC-Support"
+      },
+      {
+        "handle": "396",
+        "type": "TEXT",
+        "layer": "M-MVAC-DIM"
+      },
+      {
+        "handle": "397",
+        "type": "TEXT",
+        "layer": "M-MVAC-TEXT"
+      },
+      {
+        "handle": "399",
+        "type": "TEXT",
+        "layer": "M-MVAC-Support"
+      },
+      {
+        "handle": "3A3",
+        "type": "LINE",
+        "layer": "M-MVAC-Support",
+        "startX": 57454.56,
+        "startY": 27443.97,
+        "endX": 65479.37,
+        "endY": 27443.97
+      },
+      {
+        "handle": "426",
+        "type": "TEXT",
+        "layer": "ZZ"
+      },
+      {
+        "handle": "428",
+        "type": "TEXT",
+        "layer": "ZZ"
+      },
+      {
+        "handle": "429",
+        "type": "TEXT",
+        "layer": "ZZ"
+      },
+      {
+        "handle": "458",
+        "type": "LWPOLYLINE",
+        "layer": "0",
+        "vertices": [
+          {
+            "x": 46787.4,
+            "y": 941.36
+          },
+          {
+            "x": 46787.4,
+            "y": 50872.29
+          },
+          {
+            "x": 38425.69,
+            "y": 50872.29
+          },
+          {
+            "x": 38425.69,
+            "y": 941.36
+          }
+        ],
+        "closed": false
+      },
+      {
+        "handle": "459",
+        "type": "LWPOLYLINE",
+        "layer": "0",
+        "vertices": [
+          {
+            "x": 75376.85,
+            "y": 941.36
+          },
+          {
+            "x": 75376.85,
+            "y": 50872.29
+          },
+          {
+            "x": 70079.67,
+            "y": 50872.29
+          },
+          {
+            "x": 70079.67,
+            "y": 941.36
+          }
+        ],
+        "closed": false
+      },
+      {
+        "handle": "45A",
+        "type": "LWPOLYLINE",
+        "layer": "0",
+        "vertices": [
+          {
+            "x": 111283.06,
+            "y": 50872.29
+          },
+          {
+            "x": 111283.06,
+            "y": 941.36
+          }
+        ],
+        "closed": false
+      },
+      {
+        "handle": "45B",
+        "type": "LWPOLYLINE",
+        "layer": "0",
+        "vertices": [
+          {
+            "x": 10308.86,
+            "y": 46253
+          },
+          {
+            "x": 111283.06,
+            "y": 46253
+          },
+          {
+            "x": 111283.06,
+            "y": 941.36
+          },
+          {
+            "x": 10308.86,
+            "y": 941.36
+          }
+        ],
+        "closed": true
+      },
+      {
+        "handle": "A6F",
+        "type": "LINE",
+        "layer": "0",
+        "startX": 46787.4,
+        "startY": 26601.68,
+        "endX": 111283.06,
+        "endY": 26601.68
+      },
+      {
+        "handle": "A70",
+        "type": "LINE",
+        "layer": "0",
+        "startX": 46787.4,
+        "startY": 24733.96,
+        "endX": 111283.06,
+        "endY": 24733.96
+      },
+      {
+        "handle": "A71",
+        "type": "LINE",
+        "layer": "0",
+        "startX": 46787.4,
+        "startY": 22866.25,
+        "endX": 111283.06,
+        "endY": 22866.25
+      },
+      {
+        "handle": "BC1",
+        "type": "TEXT",
+        "layer": "M-MVAC-DIM"
+      },
+      {
+        "handle": "BC2",
+        "type": "TEXT",
+        "layer": "M-MVAC-DIM"
+      },
+      {
+        "handle": "BC3",
+        "type": "TEXT",
+        "layer": "M-MVAC-DIM"
+      },
+      {
+        "handle": "BC4",
+        "type": "TEXT",
+        "layer": "ZZ"
+      },
+      {
+        "handle": "BC5",
+        "type": "DIMENSION",
+        "layer": "M-EQUIPMENT"
+      },
+      {
+        "handle": "C07",
+        "type": "DIMENSION",
+        "layer": "M-PEA-DIM"
+      }
+    ],
+    "ms": 15
+  },
+  {
+    "buoc": 6,
+    "tool": "get_entities_in_area",
+    "success": true,
+    "content": "Tim thay 3 doi tuong.",
+    "data": [
+      {
+        "handle": "458",
+        "type": "LWPOLYLINE",
+        "layer": "0",
+        "vertices": [
+          {
+            "x": 46787.4,
+            "y": 941.36
+          },
+          {
+            "x": 46787.4,
+            "y": 50872.29
+          },
+          {
+            "x": 38425.69,
+            "y": 50872.29
+          },
+          {
+            "x": 38425.69,
+            "y": 941.36
+          }
+        ],
+        "closed": false
+      },
+      {
+        "handle": "45B",
+        "type": "LWPOLYLINE",
+        "layer": "0",
+        "vertices": [
+          {
+            "x": 10308.86,
+            "y": 46253
+          },
+          {
+            "x": 111283.06,
+            "y": 46253
+          },
+          {
+            "x": 111283.06,
+            "y": 941.36
+          },
+          {
+            "x": 10308.86,
+            "y": 941.36
+          }
+        ],
+        "closed": true
+      },
+      {
+        "handle": "B71",
+        "type": "DIMENSION",
+        "layer": "s-dim"
+      }
+    ],
+    "ms": 1
+  },
+  {
+    "buoc": 7,
+    "tool": "export_plan_image",
+    "success": true,
+    "content": "Da xuat anh 2600x236 px cho vung [46000,22000]..[112000,28000]: 27 doi tuong, 39 hinh, 0 vat the co handle. Dung Read tren 'png' de xem anh.",
+    "data": {
+      "png": "C:\\Users\\Admin\\Desktop\\SHOPDRAWING-HVAC-AI\\work_hvac\\spec_v3\\spec_v3_dim_zoom.png",
+      "svg": null,
+      "json": "C:\\Users\\Admin\\Desktop\\SHOPDRAWING-HVAC-AI\\work_hvac\\spec_v3\\spec_v3_dim_zoom.json",
+      "image": {
+        "width": 2600,
+        "height": 236
+      },
+      "region": {
+        "xmin": 46000,
+        "ymin": 22000,
+        "xmax": 112000,
+        "ymax": 28000,
+        "unit": "mm"
+      },
+      "transform": {
+        "unitsPerPxX": 25.384615384615383,
+        "unitsPerPxY": 25.423728813559322,
+        "pxPerUnitX": 0.03939393939393939,
+        "pxPerUnitY": 0.03933333333333333,
+        "imageToCad": "ucsX = xmin + px*unitsPerPxX ; ucsY = ymax - py*unitsPerPxY",
+        "cadToImage": "px = (ucsX - xmin)*pxPerUnitX ; py = (ymax - ucsY)*pxPerUnitY"
+      },
+      "entities": 27,
+      "shapes": 39,
+      "skipped": 0,
+      "objectCount": 0,
+      "objects": [],
+      "objectsTruncated": false,
+      "hint": "Toa do tren anh tinh theo pixel, goc TREN-TRAI, truc Y huong XUONG. Tra nguoc ra doi tuong: dung tool map_image_cad voi ref = duong dan json."
+    },
+    "ms": 67
+  }
+]

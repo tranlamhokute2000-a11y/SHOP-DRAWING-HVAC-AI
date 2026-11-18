@@ -123,3 +123,52 @@ Per updated **Quy tắc cứng số 3** (*proactively connect same-system conver
   - `M-MVAC-SEAD` = **`281`** (`278 - 1 + 4`), `M-MVAC-PAD` = **`42`** (untouched), `CLOUND` = **`4`** (`RC-01`, `RC-02`, `RC-04`, `RC-05`).
   - Straight duct surface area (`compute_duct_surface_area`): **`747.29 m²`** across **`262`** straight duct segments.
 - **Visual Proof**: Exported & verified `work_hvac\bai2\qa_rc03_fixed.png` (zero gaps, zero overlaps, zero disturbed taps/runs).
+
+---
+
+## 6. Addendum — Surgical Local Drafting of All Ductwork & Fittings in Former `RC-01` (Smoke Exhaust Fan Room)
+
+Per user instruction (*"rc-01 có chỗ nào là ống gió thì vẽ hết, còn lại tôi hướng dẫn thêm"*), drafted **100% of HVAC ductwork & duct fittings** inside former `RC-01` (`X = 57677..65680, Y = 37537..41087`) using 100% HTS Tool on `M-MVAC-SEAD` (`ByLayer`, `ACI 190`), while leaving all non-duct equipment untouched and preserving `380/380` original design entities (`100%`).
+
+### 6.1. Decoded Section Dimensions (`W × H`) & Concentric Elevation (`BOD`) Logic
+Revit block names inside `RC-01` explicitly encode exact equipment cross-sections along the concentric centerline **`Z_c = +3225 mm`** (anchored to inlet header `SEAD-2200x550`, `BOD = +2950`, `Z_c = 2950 + 550/2 = +3225`):
+1. **Trouser Piece & Upstream Branch Ducts (Header → Upstream `MFD` → Height Reducer)**: `W = 1700, H = 550` → **`BOD = +2950`** (`Z_c = +3225`).
+2. **Vertical-Height Reducers (`1D008`/`1CFF5`, `1700x550 → 1700x1000`) & Silencer 1 (`CEN_SILENCER DUCT - L900xW1700xH1000`) & Inlet Square-to-Round (`1700x1000 → Ø1000`) & Fan `TDA 1000` (`Ø1000`) & Outlet Round Spools (`Ø1000`)**: `H = 1000` / `Ø1000` → **`BOD = +2725`** (`3225 - 1000/2 = +2725`; height reducer takes lower `BOD = +2725` consistent with `RED-02..08`).
+3. **Outlet Round-to-Square Transitions (`Ø1000 → 1250x1400`) & Silencer 2 (`CEN_SILENCER DUCT - L900xW1250xH1400`) & Downstream Discharge Ducts (`1250x1400`)**: `W = 1250, H = 1400` → **`BOD = +2525`** (`3225 - 1400/2 = +2525`; transition takes lower `BOD = +2525` consistent with `RED-02..08`).
+
+### 6.2. Complete Inventory of 23 New HTS Blocks Created in `RC-01` (`M-MVAC-SEAD`, `ByLayer`)
+
+| Group | Handles (Top / Bottom) | HTS Block Name | Tool Used | Span `X` (mm) | `BOD` (`HTS_OG_DAY`) | Alignment / Fit Notes |
+| :--- | :--- | :--- | :--- | :---: | :---: | :--- |
+| **Trouser Piece (`1CC0F`)** | `1D9C0` | `HTS-YQ-2200x550-1700x550-1700x550-A150-L1820-LC800-K100` | `duct_breeches_insert` | `57677.1 → 59497.1` | `2950` | Exact `0.00 mm` bbox overlay on `1CC0F`, `gocDo = 0.004845°`, `a = 150`, `lc = 800`, `c = 100` |
+| **Straight #1 (Trouser → `MFD`)** | `1D9CB` / `1D9F8` | `HTS-OG-1700x550 L111` | `draw_rectangular_duct` | `59497.0 → 59607.8` | `2950` | Flush `0.00 mm` between trouser & upstream `MFD` (`1CFE0`/`1CFE4`) |
+| **Straight #2 (`MFD` → Height Red.)** | `1DBEC` / `1DBF7` | `HTS-OG-1700x550 L633` / `L632` | `draw_rectangular_duct` | `59757.8 → 60390.3` | `2950` | Exact `0.00 mm` overlay on `1CFE2/3/6/7`, flush at upstream `MFD` & `1D008`/`1CFF5` west flange (`60390.3`) |
+| **Height Reducers (`1D008`/`1CFF5`)** | `1DC0B` / `1DC0A` | `HTS-CON-Can-1700x1000-1700x550-L200` | `QUETPK` (`410 mm` bait) | `60390.3 → 60590.3` | `2725` | Exact `0.00 mm` overlay on `1D008`/`1CFF5` (`L = 200 mm`), flush at `60390.3` & Silencer 1 (`60590.3`) |
+| **Inlet TDC Collars (`1D007`/`1CFF4`)** | `1DBCD` / `1DBCE` | `HTS-OG-1700x1000 L32` | `draw_rectangular_duct` | `61490.3 → 61522.3` | `2725` | Exact `32 mm` Revit TDC collar flush at Silencer 1 east face (`61490.3`) |
+| **Inlet Square-to-Round (`1D007`/`1CFF4`)** | `1DBBC` / `1DBBB` | `HTS-TV-Can-D1000-1700x1000-L500` | `QUETPK` | `61522.3 → 62022.3` | `2725` | `0.00 mm` pixel-exact overlay on Revit `L500` slopes, flush at inlet round flex (`62022.3`) |
+| **Outlet Round Spools (`1D006`/`1CFF3`)** | `1DC72` / `1DC73` | `HTS-OG-D1000 L200` | `draw_round_duct` | `62952.3 → 63152.3` | `2725` | Flush `0.00 mm` at outlet round flex east face (`62952.3`); stays inside Revit `L700` taper envelope |
+| **Outlet Round-to-Square (`1D006`/`1CFF3`)** | `1DC81` / `1DC80` | `HTS-VT-Can-1250x1400-D1000-L500` | `QUETPK` | `63152.3 → 63652.3` | `2525` | Native HTS max-length `L500` transition (`QUETPK` hard-capped at `L500` — see note below) |
+| **Outlet TDC Collars (`1D006`/`1CFF3`)** | `1DC96` / `1DC97` | `HTS-OG-1250x1400 L32` | `draw_rectangular_duct` | `63652.3 → 63684.3` | `2525` | Exact `32 mm` Revit TDC collar flush at Silencer 2 west face (`63684.3`) |
+| **Straight #3 (Silencer 2 → `NRD`)** | `1D9E1` / `1DA04` | `HTS-OG-1250x1400 L359` | `draw_rectangular_duct` | `64584.3 → 64943.1` | `2525` | Flush `0.00 mm` between Silencer 2 (`1CFF8`/`1CC17`) & `NRD` (`1CFFF`/`1CFEC`) |
+| **Straight #4 (`NRD` → `MFD`)** | `1D9EC` / `1DA05` | `HTS-OG-1250x1400 L209` | `draw_rectangular_duct` | `65093.1 → 65302.1` | `2525` | Flush `0.00 mm` between `NRD` & downstream `MFD` (`1D003`/`1CFF0`) |
+| **Straight #5 (`MFD` → Open Discharge)** | `1D9F7` / `1DA06` | `HTS-OG-1250x1400 L227` | `draw_rectangular_duct` | `65452.1 → 65679.6` | `2525` | Flush `0.00 mm` to discharge end lines `1CFFC`/`1CFE9` (no endcaps added per design) |
+
+- **HTS Tool Technical Findings (Verified Live on `bai 2.dwg`)**:
+  1. **`QUETPK` Exact Custom Short-Length Trick (`L = floor(L_bait / 2 / 50) * 50`)**: `QUETPK` sizes reducer/transition length to `min(500, floor(L_trimmed_duct / 2 / 50) * 50)`. Passing a `410 mm` bait `1700x1000` duct produced exact native `HTS-CON-Can-1700x1000-1700x550-L200` (`1DC0B`/`1DC0A`) matching `1D008`/`1CFF5` to `0.00 mm`!
+  2. **Confirmed HTS Tool Ceiling for `HTS-VT`/`HTS-TV` = `L500`**: Tested (a) `QUETPK` with exact `700 mm` gap (`62952.3 → 63652.3`) → `0` blocks created (`QUETPK` strictly requires `gap ≈ 0`); (b) `QUETPK` touching an unsplit `1700 mm` single round duct (`HTS-OG-D1000 L1700`) → trimmed to `L1200` and capped at `HTS-TV-Can-D1000-1250x1400-L500`; (c) `HTS_RVOG` (`Xoagoc = KHÔNG`) on `1D006`/`1D007` and synthetic transition lines → `0` blocks created for isolated `CEN-DUCT-Giảm Vuông Tròn_Bích TDC_` blocks without flanking Revit straight duct `LINE` pairs. Therefore `HTS-OG-D1000 L200` + `HTS-VT-Can-1250x1400-D1000-L500` + `HTS-OG-1250x1400 L32` (`200 + 500 + 32 = 732.0 mm`) is the exact optimal 100% HTS Tool assembly (zero gaps, zero overlaps, symmetric `L32` TDC collar at Silencer 2, stays 100% inside the Revit `L700` taper envelope).
+- **Elevation Verification**: `duct_set_elevation` applied to all `23/23` RC-01 blocks, verified `100%` exact `HTS_OG_DAY` via `get_xdata`.
+
+### 6.3. Untouched Non-Duct Equipment Inside Former `RC-01` (Reserved for User's Next Guidance)
+- **2 Axial Fans (`TDA 1000`, `MEPG-M-EQUIP`)**: `1CFF6` (top), `1CC0E` (bottom)
+- **4 Round Flexible Connectors (`Ø1000`)**: `1CFF9`/`1CFDE` (inlet), `1CFFA`/`1CFDF` (outlet)
+- **4 Duct Silencers**: `1CFF7`/`1CC10` (Silencer 1, `L900xW1700xH1000`), `1CFF8`/`1CC17` (Silencer 2, `L900xW1250xH1400`)
+- **4 `MFD-EI60` Dampers**: `1CFE0`/`1CFE4` (upstream `1700x550`), `1D003`/`1CFF0` (downstream `1250x1400`)
+- **2 `NRD` Dampers**: `1CFFF`/`1CFEC` (`1250x1400`)
+
+### 6.4. Housekeeping & Updated Drawing Totals (`729` Total Entities)
+- **Erased**: `1D980` (`RC-01` `REVCLOUD` on `CLOUND`) only — maintaining strict Rule 4 (`0` `M-MVAC-*` inside remaining clouds `RC-02`, `RC-04`, `RC-05`).
+- **Original Design Preserved 100% (`380/380`)**: `MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED` = **`309`**, `MEPG-AC-TEXT` = **`67`**, `MEPG-M-EQUIP` = **`3`**, `0` = **`1`**.
+- **Shop Drawing Layers**: `M-MVAC-SEAD` = **`304`** (`281 + 23`), `M-MVAC-PAD` = **`42`** (untouched), `CLOUND` = **`3`** (`RC-02`, `RC-04`, `RC-05`), all other 10 Spec layers = `0`.
+- **Straight Rectangular Duct Surface Area** (`compute_duct_surface_area`, `lengthScaleToMeter: 0.001`): **`763.09 m²`** across **`276`** rectangular duct segments (`+14` in `RC-01`: `10` straight runs + `4` `L32` TDC collars; plus `2` round spools `HTS-OG-D1000 L200`).
+- **Clean Exit State**: `DRAWORDER` brought `M-MVAC-SEAD`, `M-MVAC-PAD`, `CLOUND` to `_Front`; `purge_unused_blocks` purged all unused definitions (`0` zero-instance blocks remaining); all `24/24` layers verified via `get_layer_info` (`is_locked: false, is_frozen: false, is_off: false`, including `CLOUND`); `OSMODE = 4031`; current layer `M-MVAC-SEAD`; saved via `QSAVE`.
+- **Visual Proof**: Exported & inspected `work_hvac\bai2\qa_rc01_fixed.png` (exact `L200` height reducer overlay, exact `L500` inlet overlay, crisp symmetric `L32` collars, zero overlaps, zero gaps, zero stray entities).

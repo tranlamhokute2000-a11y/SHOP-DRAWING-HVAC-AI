@@ -52,6 +52,7 @@ File AutoLISP độc lập hoàn toàn (`AutoDimOngGio.lsp`), chạy được tr
 
 ### 3.4. Tự động chọn `DIMLINEAR` và `DIMALIGNED` (`DGO:CreateDim`)
 - Sử dụng 100% **DimStyle hiện hành (`DIMSTYLE`)** và **Layer hiện hành** của bản vẽ.
+  - **Chuẩn Spec dự án (`Spec-layer ký hiệu ống gió.dwg` v3)**: Đặt Layer hiện hành là **`M-MVAC-DIM`** (`ACI 97`, nét `0.05 mm`); chọn DimStyle **`M-DIM 1-400`** khi Dim mặt bằng tổng thể, hoặc **`HỒ-DIM 1-70`** khi Dim chi tiết đốt ống / phòng máy / khung trích chi tiết!
 - **Tuyến ống thẳng Ngang ($0^\circ / 180^\circ$):** Dùng lệnh `_.DIMLINEAR` (chế độ `_H` - Horizontal).
 - **Tuyến ống thẳng Dọc ($90^\circ / 270^\circ$):** Dùng lệnh `_.DIMLINEAR` (chế độ `_V` - Vertical).
 - **Tuyến ống xoay Chéo (góc xiên bất kỳ):** Dùng lệnh `_.DIMALIGNED`.

@@ -153,17 +153,17 @@ Luôn gọi bước 1 với `"xemTruoc": true` để lấy tọa độ chính x�
 ```
 *(`type`: `"square"` | `"vaned"` | `"riser_up"` | `"riser_down"`).*
 
-### 5.3. Nắp bịt đầu ống gió (`hvac-cap` — `HTS-CAP-*`)
-1. Vẽ nối tiếp đầu cụt cuối tuyến một đốt ống thẳng ngắn dài `25 mm` (hoặc `50 mm`) bằng `draw_rectangular_duct`.
-2. Tính tọa độ 1 điểm nằm chính xác trên **cạnh biên** của đốt `25 mm` đó (vì `GetEntity` bắt theo nét vẽ của block, không bắt khoảng trống tâm ống!).
-3. Gọi `ui_feature_run`:
+### 5.3. Nắp bịt đầu ống gió (`hvac-cap` — `HTS-CAP-*`, Kỷ luật xóa đốt `< 100 mm` cuối tuyến)
+1. **Kỷ luật gia công cuối tuyến**: **TUYỆT ĐỐI KHÔNG vẽ thêm đốt mỏng `< 100 mm`** (`L25`, `L50`, `L5`...) ở cuối tuyến ống gió! Nếu cuối tuyến có đốt lẻ `< 100 mm` phải xóa bỏ hoàn toàn; đốt ống gió thật còn lại (`L ≥ 100 mm`, VD `L610`, `L1110`, `L581`...) chính là đốt chuyển thành ống bịt đầu `HTS-CAP-{W}x{H}-L{len}`!
+2. **Kiểm tra chiều `rotation` trước khi bịt đầu**: Chức năng `hvac-cap` (`_HG2M8Q7X`) đóng kín mặt phẳng bịt tại đầu `X = len` (theo chiều `rotation` của đốt ống). Nếu đốt cuối có `rotation` hướng ngược vào trong tuyến, vẽ lại đốt đó theo chiều hướng ra đầu cụt trước khi chuyển bịt đầu.
+3. **Cú pháp gọi `hvac-cap` chính xác 100% bằng `(handent)` (không phụ thuộc Zoom/Pick chuột)**:
    ```json
    {
      "id": "hvac-cap",
-     "inputs": ["15726.87,52847.58"]
+     "inputs": ["(handent \"1D5A7\")"]
    }
    ```
-4. Kiểm tra lại bằng `get_entities_in_area` xác nhận đốt ngắn đã chuyển thành `HTS-CAP-{W}x{H}-L25`.
+4. Xác nhận block mới đã chuyển thành `HTS-CAP-{W}x{H}-L{len}` trên đúng layer `M-MVAC-<HỆ>` (`ByLayer`), **gán lại XData `HTS_OG_DAY`** bằng `duct_set_elevation` cho handle mới và chạy `purge_unused_blocks`.
 
 ---
 
@@ -258,3 +258,28 @@ Trong AutoCAD 2021–2027, tùy chọn `_A` (`Arc length`) chỉ hỏi **1 số 
      2. **Hai tuyến cùng kích thước (`W1×H1 = W2×H2`)**: Vẽ liền 1 `run` đa điểm bằng `draw_rectangular_duct` từ mặt bích đốt trước $\rightarrow (X_{\text{giao}}, Y_{\text{giao}}) \rightarrow$ mặt bích đốt sau với bán kính cổ trong chuẩn **`"R": W / 2`** (HTS tự sinh cút `HTS-CO-V47-{W}x{H}-R{W/2}-A{goc}` đúng góc $\theta$ + đốt thẳng bù khít `0 mm`, không hở/không chồng).
      3. **Hai tuyến khác kích thước (`W1×H1 ≠ W2×H2`)**: Đấu nối bằng cút bo/chếch đúng góc $\theta$ với **`R = W / 2`** kết hợp thêm **côn thu (`HTS-CON-*`)** chuyển bậc bích-chạm-bích.
      4. Xóa đốt cụt tạm (nếu có), `purge_unused_blocks` block `0` instance, gán đủ `duct_set_elevation` (`HTS_OG_DAY = BOD`), đảm bảo `DRAWORDER` nằm trên nền gốc và sai số tim `< 1 mm`.
+7. **Điều khiển chính xác chiều dài Côn thu & Chuyển Vuông–Tròn khi chạy `QUETPK` (Đúc kết từ `RC-01`)**:
+   - **Ép chiều dài côn thu vuông `L < 500 mm` chuẩn gốc HTS**: Khi 2 ống khác cỡ chạm đầu nhau (`gap ≈ 0`), `QUETPK` tính chiều dài côn theo đoạn ống mồi ngắn hơn theo công thức $L_{\text{côn}} = \min\big(500,\; \lfloor L_{\text{mồi}} / 2 / 50 \rfloor \times 50\big)$. Ví dụ muốn sinh đúng block gốc **`HTS-CON-...-L200`** (thay vì `L500`), chỉ cần đặt đốt mồi dài `L_mồi = 410 mm` để `QUETPK` cắt ra đúng `L = 200 mm` khớp `0.00 mm` mặt bích thiết kế mà không cần `HTS_RVOG`!
+   - **Côn chuyển Vuông–Tròn (`HTS-VT-*` / `HTS-TV-*`) dài hơn `500 mm`**: `QUETPK` giới hạn cứng chiều dài côn chuyển vuông–tròn tại `L = 500 mm` (yêu cầu `gap ≈ 0`). Nếu côn Revit gốc dài `L700` kèm cổ bích `32 mm` (không có cặp `LINE` thẳng để chạy `HTS_RVOG`), ghép chuỗi chuẩn HTS gồm đốt tròn `HTS-OG-D{D} L200` + `HTS-VT/TV-...-L500` + cổ vuông `HTS-OG-{W}x{H} L32` (tổng `732 mm` khớp khít `0.00 mm`, nằm gọn trong bao thiết kế, đủ XData `HTS_OG_DAY`).
+   - **Kiểm tra mở khóa đủ 100% Layer (kể cả `CLOUND`)**: Sau mọi thao tác sửa cục bộ, kiểm chứng `get_layer_info` trên **tất cả các layer kể cả `CLOUND`** phải `is_locked = false` trước khi lưu bàn giao.
+8. **Triển khai Vị trí Chuyển Cao Độ Đứng `ΔZ > 200 mm` (2 Chếch `45°` + 1 Đốt Bù + Trích Chi Tiết Mặt Đứng — Chuẩn Sếp Hồ & Spec v3)**:
+   - **Điều kiện nhận diện**: Cùng 1 tuyến ống (`W × H`) có 2 cao độ đáy khác nhau $\Delta Z = |BOD_{\max} - BOD_{\min}| > 200\text{ mm}$ (VD `1000x350` từ `BOD +3150` xuống `+2500` $\Rightarrow \Delta Z = 650\text{ mm}$).
+   - **Trên mặt bằng (2D Plan)**: Xóa đốt ống thẳng bắc cầu (nếu có); dừng 2 tuyến ống thẳng khít 2 mặt bích ngoài; vẽ `draw_rectangle` (`RECTANG`) bao đúng khung chuyển cao độ + `draw_polyline` 4 đỉnh dạng vát chéo chữ Z ở giữa (cùng layer `M-MVAC-<HỆ>`, `ByLayer`).
+   - **Mẹo Hình Vuông `ΔZ × ΔZ` dựng Hình chiếu đứng bằng 100% `draw_rectangular_duct`**:
+     - Đảo ngược tiết diện: **`W_đứng = H`**, **`H_đứng = W`**, bán kính trong **`R = H / 2`**.
+     - Tính đoạn tiếp tuyến cút `45°`: $t = H(\sqrt{2} - 1) \approx 0.41421\,H$; chiều dài đốt bù nghiêng `45°`:
+       $$L_{\text{bù}} = \Delta Z\sqrt{2} - 2t = \Delta Z\sqrt{2} - 2H(\sqrt{2} - 1)$$
+       *(VD `1000x350, ΔZ=650`: $t = 144.97\text{ mm}$, $L_{\text{bù}} = 629.29 \approx 630\text{ mm}$).*
+     - Gọi `draw_rectangular_duct` với **4 điểm tim trục** nối 2 góc đối diện của hình vuông `ΔZ × ΔZ` (không cần vẽ/xóa nét mồi thủ công!):
+       - Bước **XUỐNG** (trái → phải): `(x_sq - t, y_sq + ΔZ) → (x_sq, y_sq + ΔZ) → (x_sq + ΔZ, y_sq) → (x_sq + ΔZ + t, y_sq)`.
+       - Bước **LÊN** (trái → phải): `(x_sq - t, y_sq) → (x_sq, y_sq) → (x_sq + ΔZ, y_sq + ΔZ) → (x_sq + ΔZ + t, y_sq + ΔZ)`.
+       - HTS tự sinh chính xác **2 cút `HTS-CO-V47-{H}x{W}-R{H/2}-A45` + 1 đốt bù `HTS-OG-{H}x{W} L{L_bù}`** (0 đốt thừa!). Gán `HTS_OG_DAY = min(BOD₁, BOD₂)` cho cả 3 block.
+   - **Dim chi tiết + Khoanh mây trích + Mũi tên chỉ dẫn (Spec v3 — KỶ LUẬT CHỐNG LỆCH DIM & MŨI TÊN)**:
+     - **TUYỆT ĐỐI KHÔNG lấy tọa độ bắt điểm Dim từ `get_bounding_box` của block cút xoay `45°`/`315°`** *(vì hộp bao block xoay + tai bích TDC phình dư `140–225 mm` khiến đường Dim bị tụt lệch khỏi mép ống!)*. **BẮT BUỘC** tính điểm bắt Dim chính xác `0.000 mm` trực tiếp từ tọa độ điểm chèn 2 cút `HTS-CO-V47-*` `(xL_vtx, yL_vtx)` và `(xR_vtx, yR_vtx)`:
+       - Mặt bích đứng trái: `xLeft = xL_vtx - t`, `y ∈ [yL_vtx - H/2, yL_vtx + H/2]`; mặt bích đứng phải: `xRight = xR_vtx + t`, `y ∈ [yR_vtx - H/2, yR_vtx + H/2]`.
+       - 2 góc ngoài của đốt bù nghiêng `45°` (`dOff = t/√2`, `wOff = H/(2√2)`):
+         - Bước XUỐNG: `(xL_vtx + dOff + wOff, yL_vtx - dOff + wOff)` → `(xR_vtx - dOff + wOff, yR_vtx + dOff + wOff)` (`offset: 200`).
+         - Bước LÊN: `(xR_vtx - dOff + wOff, yR_vtx - dOff - wOff)` → `(xL_vtx + dOff + wOff, yL_vtx + dOff - wOff)` (`offset: 340` để chữ không đè cút dưới).
+     - Đặt `_.-DIMSTYLE\n_R\nHỒ-DIM 1-70\n` trước khi vẽ 3 Dim trên Layer `M-MVAC-DIM`.
+     - Khoanh mây `_.REVCLOUD\n_A\n200\n_R\n...` trên Layer `CLOUND` với `pad = 150 mm` bao gọn cả 3 block + 3 Dim.
+     - **Mũi tên chỉ dẫn (`LEADER`) chuẩn 100% Spec bằng mẹo `MATCHPROP`**: `draw_leader` mặc định tạo đầu mũi tên siêu nhỏ không khớp Spec. Sau khi vẽ toàn bộ `draw_leader` dài `~1260 mm` từ cạnh mây chỉ vào trung điểm cạnh khung chữ nhật, **BẮT BUỘC** dùng mũi tên chuẩn từ Spec (copy tạm ra góc làm mồi nếu bản vẽ chưa có, xong xóa mồi) rồi chạy **`_.MATCHPROP\n(handent "<src>")\n(handent "<dst1>")\n...\n\n`** để đồng bộ tuyệt đối `DimStyle = DIM 1-1` + `XDATA DSTYLE (DIMASZ = 300.0)` + Layer `M-MVAC-DIM` và xác nhận bằng DXF `(entget (handent h) '("*"))`!

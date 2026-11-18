@@ -1,0 +1,28 @@
+{
+  "schema": "hts-image-cad-georef/1",
+  "dwg": "C:\\Users\\Admin\\Desktop\\SHOPDRAWING-HVAC-AI\\bai 2.dwg",
+  "svg": "qa_cap05_fixed.png",
+  "unit": "mm",
+  "region": {
+    "xmin": 50000, "ymin": 72200, "xmax": 52000, "ymax": 73600,
+    "width": 2000, "height": 1400
+  },
+  "image": { "width": 1800, "height": 1260 },
+  "transform": {
+    "unitsPerPxX": 1.1111111111111112, "unitsPerPxY": 1.1111111111111112,
+    "pxPerUnitX": 0.9, "pxPerUnitY": 0.9,
+    "imageToUcs": "ucsX = xmin + px*unitsPerPxX ; ucsY = ymax - py*unitsPerPxY",
+    "ucsToImage": "px = (ucsX - xmin)*pxPerUnitX ; py = (ymax - ucsY)*pxPerUnitY",
+    "ucsToWcsMatrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+    "wcsToUcsMatrix": [1, -0, 0, 0, -0, 1, -0, 0, 0, -0, 1, 0, 0, 0, 0, 1]
+  },
+  "objectCount": 6,
+  "objects": [
+    { "handle": "1CDB6", "name": "CEN-DF-ENDCAP - Bít ống gió EI60-10249703-MB HỆ THỐNG ĐHKK HẦM B1", "bboxPx": [324.46438293184843, 332.44374513013463, 346.96438293184843, 827.4437451301345], "bboxUcs": [50360.51598103539, 72680.61806096652, 50385.51598103539, 73230.61806096652], "insertUcs": [50385.515981035394, 72955.6180609665], "insertPx": [346.9643829318549, 579.9437451301477], "rotationDeg": 180 },
+    { "handle": "1CDE4", "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1", "bboxPx": [516.4283932785169, 964.2437451301084, 1083.4286205083758, 989.4678188152145], "bboxUcs": [50573.80932586502, 72500.59131242754, 51203.80957834264, 72528.61806096655], "insertUcs": [173326.75661484853, 425300.7938822771], "insertPx": [110994.0809533637, -316530.7144940494], "rotationDeg": 90 },
+    { "handle": "1CDE7", "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V637-MB HỆ THỐNG ĐHKK HẦM B1", "bboxPx": [502.9263287892776, 827.4437451301345, 1204.9263287892777, 969.7430593737095], "bboxUcs": [50558.807031988086, 72522.50771180699, 51338.807031988086, 72680.61806096652], "insertUcs": [50888.80703198808, 72680.61806096653], "insertPx": [799.9263287892711, 827.4437451301216], "rotationDeg": 270 },
+    { "handle": "1D4B8", "name": "HTS-OG-550x350 L1110", "bboxPx": [1350.8820000000028, 314.4420000000042, 2349.882000000003, 845.4420000000042], "bboxUcs": [51500.98, 72660.62, 52610.98, 73250.62], "insertUcs": [52610.98, 72955.62], "insertPx": [2349.882000000003, 579.9420000000042], "rotationDeg": 180 },
+    { "handle": "1D4B9", "name": "HTS-OG-550x350 L1110", "bboxPx": [351.8820000000029, 314.4420000000042, 1350.8820000000028, 845.4420000000042], "bboxUcs": [50390.98, 72660.62, 51500.98, 73250.62], "insertUcs": [51500.98, 72955.62], "insertPx": [1350.8820000000028, 579.9420000000042], "rotationDeg": 180 },
+    { "handle": "1D6E0", "name": "HTS-TAP-Trai-600x300-L150-D150", "bboxPx": [529.9289999999979, 827.4420000000042, 1204.9289999999978, 962.4420000000042], "bboxUcs": [50588.81, 72530.62, 51338.81, 72680.62], "insertUcs": [50888.81, 72680.62], "insertPx": [799.9289999999979, 827.4420000000042], "rotationDeg": 270 }
+  ]
+}

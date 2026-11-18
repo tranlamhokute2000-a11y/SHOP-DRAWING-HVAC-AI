@@ -57,10 +57,17 @@ Quy trình chuẩn kỹ sư MEP triển khai bản vẽ Shop Drawing ống gió 
 
 ## 3. Quy Trình 5 Bước Triển Khai Shop Drawing Ống Gió
 
-### Bước 1 — Khảo sát Read-Only, Sao lưu & Khởi tạo Layer Spec
-1. Kiểm tra kết nối cổng `5088`, gọi `get_drawing_info`, `get_layer_list`, `group_summary_by_layer`, `list_block_definitions`, `extract_all_text` và `export_plan_image` (soi kỹ mặt bằng bằng `read_file`).
-2. Tạo bản sao lưu `.dwg` gốc trước khi chỉnh sửa.
-3. Sau khi người dùng xác nhận thông số Layer dự án, gọi `batch_process` (`create_layer`) tạo đầy đủ bộ Layer chuẩn `M-MVAC-*` và `CLOUND` (chi tiết JSON mẫu trong [spec-layer-ong-gio.md](./references/spec-layer-ong-gio.md)). Đảm bảo mọi đối tượng tạo mới dùng màu `ByLayer`.
+### Bước 1 — Khảo sát Read-Only Siêu Tốc (`survey_hvac.mjs`), Sao lưu & Khởi tạo Layer Spec
+1. **Chạy 1 lệnh khảo sát Turbo (`< 1 giây`)** thay vì gọi lẻ từng tool MCP:
+   ```powershell
+   node .agents/skills/shopdrawing-ong-gio/scripts/survey_hvac.mjs --backup --image --out work_hvac/<du_an>
+   ```
+   Script tự động kiểm tra cổng `5088`, sao lưu `.dwg` gốc, ghi nhận chính xác `baseline.json` (số lượng thực thể từng layer gốc), cảnh báo `INSUNITS != Millimeters` / `ELLIPSE` / layer khóa, giải mã cặp nhãn `<HỆ>-WxH` + `BOD`, bắt cặp thành ống song song tạo tim trục `0.01 mm` và xuất `survey_full.png` để soi bằng `read_file`.
+2. **Khởi tạo bộ Layer Spec v3 + Chuẩn hóa đơn vị bằng 1 lệnh duy nhất (`< 0.2 giây`)**:
+   ```powershell
+   node .agents/skills/shopdrawing-ong-gio/scripts/init_spec_layers.mjs --lock-orig
+   ```
+   Script tự ép `INSUNITS = 4` (`Millimeters`), `MEASUREMENT = 1` (chống lỗi phóng `25.4x` Inches từ file Revit), tạo đủ 13 layer chuẩn `M-MVAC-*` & `CLOUND` (`ByLayer`, `Continuous`, nét in chuẩn) và khóa tạm toàn bộ các layer thiết kế gốc trước khi vẽ. (Nếu dự án có thêm hệ phụ như `SAD`/`RAD`, truyền thêm `--extra SAD:140,RAD:200`).
 
 ### Bước 2 — Giải mã Mạng lưới Tuyến ống & Phân vùng Rạch ròi (Vẽ vs. Khoanh Mây)
 1. **Giải mã Text thông số theo Spec**:
@@ -81,10 +88,14 @@ Tra cứu cú pháp JSON chi tiết từng công cụ trong [hts-hvac-tools-chea
 3. **Sinh Côn thu khớp đúng chiều dài thiết kế & Chân rẽ Gót giày (`HTS-TAP-*`)**:
    - **Côn thu chuẩn thiết kế**: Lệnh `QUETPK` (`hvac-fitting-scan`) tạo côn thu mặc định dài `L = 500 mm` khi 2 đầu ống khác cỡ chạm nhau (`gap ≈ 0`). Nếu côn thiết kế gốc (xuất từ Revit) có chiều dài khác (`L = 204 mm`, `L = 202 mm`, `L = 650 mm`...) cần đè khít 100% 2 mặt bích & đường vát thiết kế, sử dụng `HTS_RVOG` (`hvac-revit-convert`) kết hợp đổi tiền tố block về `HTS-CON-...` để sinh đúng block côn HTS trùng khít `0.00 mm` với bản vẽ thiết kế, đồng thời đối chiếu đảm bảo nền thiết kế gốc nguyên vẹn 100%!
    - **Chân rẽ gót giày (`HTS-TAP-*`)**: Vẽ đoạn ống mồi ngắn cùng cỡ cổ trích bắt từ mép biên ống chính vươn ra ngoài tại đúng tọa độ thiết kế → đặt `OSMODE = 0`, `set_layer` đúng `M-MVAC-<HỆ>`, gọi `QUETPK` (`hvac-fitting-scan`) sinh `HTS-TAP-*` đúng hướng vát `45°` thượng lưu → xóa đoạn ống thẳng mồi dư ngoài cổ gót giày.
-4. **Chèn phụ kiện đặc thù & Nắp bịt đầu**:
+4. **Chèn phụ kiện đặc thù, Nắp bịt đầu & Trích chi tiết Chuyển cao độ đứng (`ΔZ > 200 mm`)**:
    - Chạc quần Y chia đôi: `duct_breeches_insert` (`xemTruoc: true` kiểm tra miệng nối trước khi chèn thật).
    - Cút vuông vát / cánh hướng / lên xuống tròn: `place_duct_elbow`.
-   - Nắp bịt đầu ống (`HTS-CAP-*`): vẽ đốt ngắn `25–50 mm` ở cuối tuyến rồi gọi `ui_feature_run` `{"id": "hvac-cap", "inputs": ["x_bien,y_bien"]}`.
+   - **Nắp bịt đầu ống (`HTS-CAP-*`) — Kỷ luật xóa đốt `< 100 mm` cuối tuyến**: **TUYỆT ĐỐI KHÔNG vẽ thêm đốt mỏng `< 100 mm`** (như `L25`/`L50`) ở cuối tuyến; mọi đốt cuối tuyến có `L < 100 mm` phải xóa bỏ hoàn toàn, sau đó chuyển trực tiếp **đốt ống thật cuối cùng (`L ≥ 100 mm`, chiều `rotation` hướng ra đầu cụt)** thành ống bịt đầu bằng HTS `ui_feature_run` `{"id": "hvac-cap", "inputs": ["(handent \"<handle>\")"]}` rồi gán lại `HTS_OG_DAY`.
+   - **Vị trí chuyển cao độ đứng dọc tuyến (`ΔZ = |BOD₁ - BOD₂| > 200 mm`)**: **KHÔNG vẽ ống thẳng `HTS-OG-*` bắc cầu đè qua!** Thực hiện trọn bộ chuẩn mặt bằng + trích mặt đứng (chi tiết toán học & mẹo hình vuông `ΔZ × ΔZ` tại [hts-hvac-tools-cheatsheet.md](./references/hts-hvac-tools-cheatsheet.md#L265-L276)):
+     1. **Trên mặt bằng**: Dừng ống thẳng khít 2 mặt bích ngoài; vẽ hình chữ nhật `RECTANG` (`draw_rectangle`) bao khung chuyển cao độ + 1 `LWPOLYLINE` 4 đỉnh dạng chữ Z vát chéo ở giữa (cùng layer `M-MVAC-<HỆ>`, `ByLayer`).
+     2. **Trích hình chiếu đứng (`2` chếch `45°` + `1` đốt bù) bằng 100% HTS Tool**: Đảo ngược kích thước `W_đứng = H`, `H_đứng = W`, bán kính `R = H / 2`; dựng theo **mẹo hình vuông mồi `ΔZ × ΔZ`** (4 điểm tim trục → `draw_rectangular_duct` tự sinh đúng 2 cút `HTS-CO-V47-{H}x{W}-R{H/2}-A45` + 1 đốt bù `HTS-OG-{H}x{W} L{L_bù}` với $L_{\text{bù}} = \Delta Z\sqrt{2} - 2H(\sqrt{2}-1)$).
+     3. **Dim chi tiết & Khoanh mây trích + Mũi tên theo Spec v3**: Dim 3 kích thước (`H`, `ΔZ`, `L_bù`) bằng DimStyle **`HỒ-DIM 1-70`** trên Layer `M-MVAC-DIM` → khoanh mây `_.REVCLOUD` (`_A 200`, Layer `CLOUND`) bao khít hình chiếu đứng + Dim → vẽ `LEADER` mũi tên chỉ thẳng vào **chính giữa cạnh khung chữ nhật chuyển cao độ** với khoảng cách `~1260 mm` (tại vùng trống không đè ống/chữ).
 5. **Van gió, Khớp nối mềm & Cửa gió (`M-MVAC-Equipment`) — CHỈ THỰC HIỆN KHI ĐƯỢC YÊU CẦU RÕ RÀNG**:
    - **CẢNH BÁO PHẠM VI**: Tuyệt đối **KHÔNG tự ý đặt van gió (`VCD/FD/MFD/MD/NRD`) hay cửa gió (`HTS_Mieng gio *`)** nếu người dùng chỉ yêu cầu vẽ ống gió và phụ kiện ống gió! Chỉ mở rộng sang bước này khi có yêu cầu rõ từ người dùng.
    - Khi được yêu cầu: chèn từ `Library\HVAC\Phụ kiện\` bằng `insert_block` / `batch_insert_blocks` (`rotation` tính bằng **Radian**); kiểm soát 3 block gốc `Inches` (`HTS_Van gio tron VCD`, `MD vuông`, `RND` → kiểm tra `get_bounding_box`, scale `1/25.4` nếu phóng `25.4x`); cập nhật `Width1` và Attribute.
@@ -93,7 +104,7 @@ Tra cứu cú pháp JSON chi tiết từng công cụ trong [hts-hvac-tools-chea
    - Gọi `set_layer_state` (`locked: false`) mở khóa toàn bộ các layer thiết kế cũ.
 
 ### Bước 4 — Khoanh Mây `REVCLOUD` Sạch Gọn Trên Vùng Chưa Rõ (`Layer CLOUND`)
-1. Đặt layer hiện hành là `CLOUND` (`ACI 240`, `lineweight = 20`).
+1. Đặt layer hiện hành là `CLOUND` (theo Spec v2: thuyết minh nét in mảnh `0.05 mm`, màu `01` Đỏ; layer `CLOUND` gốc trong file Spec đang giữ `ACI 240`, đồng thời có sẵn layer `REVCLOUD` `ACI 1` — luôn đồng bộ nhất quán trong cùng 1 bản vẽ). Khi cần **trích chi tiết vật thể** (Spec v2 dòng 15), vẽ đám mây kèm 1 đường gióng thẳng chỉ về vùng ghi chú; đường **chỉ dẫn mũi tên** (`LEADER`) dùng nét `0.10`, màu `2` (`M-MVAC-TEXT`).
 2. Trên **AutoCAD 2021–2027**, tùy chọn `_A` của `_.REVCLOUD` **chỉ nhận 1 số chiều dài cung duy nhất** (ví dụ `400` hoặc `500` mm):
    ```json
    { "command": "_.REVCLOUD\n_A\n450\n_R\n37450,200\n45850,4150\n" }
@@ -101,16 +112,31 @@ Tra cứu cú pháp JSON chi tiết từng công cụ trong [hts-hvac-tools-chea
    *(Hoặc vẽ `draw_polyline` kín rồi chạy `"_.REVCLOUD\n_A\n450\n_O\n_L\n_N\n"` để bụng mây quay ra ngoài).*
 3. **Kiểm tra sạch bên trong mây**: Không rải chữ/leader dài đè rối bản vẽ; xác nhận bên trong mỗi khung `REVCLOUD` có **`0` thực thể thuộc các layer `M-MVAC-*`**.
 
-### Bước 5 — Nghiệm Thu QA/QC Độc Lập & Báo Cáo Hỏi Xác Nhận Cuối Tiến Trình
-Trước khi bàn giao cho người dùng, bắt buộc chạy kiểm tra độc lập bằng các tool chỉ-đọc (`get_drawing_info`, `get_layer_info`, `group_summary_by_layer`, `list_block_definitions`, `get_entities_in_area`, `get_bounding_box`, `get_xdata`, `export_plan_image` + `read_file` soi ảnh trực quan):
+### Bước 5 — Nghiệm Thu QA/QC Độc Lập Siêu Tốc (`qa_audit_hvac.mjs`) & Báo Cáo Cuối Tiến Trình
+Trước khi bàn giao cho người dùng, **chạy ngay script nghiệm thu độc lập Turbo (`< 1 giây`)** qua cổng `5088`:
+```powershell
+node .agents/skills/shopdrawing-ong-gio/scripts/qa_audit_hvac.mjs --baseline work_hvac/<du_an>/baseline.json --out work_hvac/<du_an>/qa_audit.json --image work_hvac/<du_an>
+```
+Sau đó dùng `read_file` soi trực quan ảnh tổng `qa_audit_full.png` cùng 2–3 ảnh zoom các nút phức tạp, đối chiếu trọn vẹn 5 tiêu chí:
 - [ ] **100% HTS Tool**: Mọi thực thể trên `M-MVAC-<HỆ>` là `INSERT` tên `HTS-*`; mọi thực thể trên `M-MVAC-Equipment` là `INSERT` tên `HTS_*`; `0` LINE/POLYLINE giả ống gió; `0` block thừa (`instance_count = 0`).
-- [ ] **Đè khít 100% tại chỗ & Bảo toàn gốc**: Số lượng thực thể trên các layer thiết kế cũ giữ nguyên 100%; sai số đường tim `< 1 mm`; tất cả layer đều `is_locked = false`, `is_frozen = false`, `is_off = false`; `extmin/extmax` không có rác ngoài phạm vi bản vẽ.
-- [ ] **Loại trừ 100% giữa Vẽ & Mây**: Vùng đã hiểu không có mây; bên trong mọi mây `CLOUND` có đúng **`0` đối tượng `M-MVAC-*`**.
+- [ ] **Đè khít 100% tại chỗ & Bảo toàn gốc**: Số lượng thực thể trên các layer thiết kế cũ khớp 100% với `baseline.json`; sai số đường tim `< 1 mm`; tất cả layer (kể cả `CLOUND`) đều `is_locked = false`, `is_frozen = false`, `is_off = false`; `extmin/extmax` không có rác ngoài phạm vi bản vẽ.
+- [ ] **Loại trừ 100% giữa Vẽ & Mây**: Vùng đã hiểu không có mây; giao cắt Bounding Box chặt giữa mọi mây `CLOUND` và toàn bộ `M-MVAC-*` bằng **`0`**.
 - [ ] **Đủ dữ liệu 3D/BOQ**: `100%` block trên `M-MVAC-<HỆ>` có XData `HTS_OG_DAY`; các van/khớp mềm/miệng gió khớp đúng `Width1` (không bị lỗi phóng `25.4x` Inches).
 - [ ] **Trạng thái AutoCAD sạch**: Không treo lệnh dở dang trên Command Line, đã `save_drawing` (`QSAVE`), tổng hợp bảng câu hỏi ngắn gọn theo từng đám mây `RC-01..RC-n` trình người dùng giải đáp.
 
+> **Mẹo tăng tốc tiến độ (Turbo Playbook — Mục tiêu `10–15 phút` / bản vẽ lớn & `1–3 phút` / sửa cục bộ)**:
+> 1. **Đợt tổng triển khai bản vẽ mới**: `survey_hvac.mjs` (`0.2s`) → `init_spec_layers.mjs --lock-orig` (`0.15s`) → gom **1–2 lượt batch** `draw_rectangular_duct` (`runs`) → xử lý côn/gót giày (`QUETPK` / `HTS_RVOG Xoagoc=KHÔNG`) → `draw_z_offsets.mjs` (`< 3s` cho toàn bộ Z-offset `ΔZ > 200mm` kèm 3 Dim `0.000mm` + `CLOUND` + `MATCHPROP` mũi tên) → `apply_endcaps.mjs` (`< 2s` xóa đốt `< 100mm` & bịt đầu `hvac-cap`) → `duct_set_elevation` gom 1 lượt → `init_spec_layers.mjs --unlock-all` → `qa_audit_hvac.mjs` (`0.2s`) + soi 1 ảnh tổng & 2–3 ảnh nút phức tạp.
+> 2. **Ca sửa cục bộ (gỡ 1–2 mây, thêm phụ kiện, chỉnh góc)**: Triển khai **trực tiếp 1 luồng** (không cần khởi động Swarm mới) kết hợp script Turbo + `qa_audit_hvac.mjs` + 1 ảnh zoom để hoàn tất chỉ trong `1–3 phút`.
+
 ---
 
-## 4. Tài Liệu Tham Chiếu Chuyên Sâu (`references/`)
-- **Tiêu chuẩn Layer, giải mã nhãn thông số & mẫu câu hỏi đầu dự án**: [spec-layer-ong-gio.md](./references/spec-layer-ong-gio.md)
-- **Cẩm nang cú pháp MCP 100% HTS Tool HVAC, toán học hình học & lệnh cấm**: [hts-hvac-tools-cheatsheet.md](./references/hts-hvac-tools-cheatsheet.md)
+## 4. Tài Liệu Tham Chiếu & Bộ 6 Script Tăng Tốc (`references/` & `scripts/`)
+- **Tiêu chuẩn Layer Spec v3 (16 hạng mục + 2 DimStyle + 14 Block ký hiệu thiết bị)**: [spec-layer-ong-gio.md](./references/spec-layer-ong-gio.md)
+- **Cẩm nang cú pháp MCP 100% HTS Tool HVAC, toán học hình học & 8 kinh nghiệm thực chiến**: [hts-hvac-tools-cheatsheet.md](./references/hts-hvac-tools-cheatsheet.md)
+- **Bộ Script Turbo Node.js không phụ thuộc ngoài (`scripts/` — 0 dependency, chạy ngay trên mọi máy cài HTS)**:
+  - [hts_mcp.mjs](./scripts/hts_mcp.mjs) — Client HTTP JSON-RPC (`:5088`), tự xử lý Bearer Token và chia chunk `batch_process` tối đa `55` bước/lần (dưới ngưỡng cứng `60` của HTS).
+  - [survey_hvac.mjs](./scripts/survey_hvac.mjs) — Khảo sát Read-Only toàn bản vẽ + sao lưu + lưu `baseline.json` + giải mã nhãn/tim ống trong **`< 1 giây`**.
+  - [init_spec_layers.mjs](./scripts/init_spec_layers.mjs) — Ép `INSUNITS = 4` / `MEASUREMENT = 1`, khởi tạo đủ 13 layer Spec v3, khóa/mở khóa layer gốc trong **`< 0.2 giây`**.
+  - [draw_z_offsets.mjs](./scripts/draw_z_offsets.mjs) — Tự động dựng trọn bộ chuyển cao độ đứng `ΔZ > 200 mm` (khung `RECTANG` + `PL` chữ Z mặt bằng, 2 chếch `45°` `R=H/2` + đốt bù hình chiếu đứng theo mẹo hình vuông `ΔZ×ΔZ`, 3 Dim `HỒ-DIM 1-70` bắt chính xác `0.000 mm` theo tâm cút, `REVCLOUD` `CLOUND`, và `LEADER` `MATCHPROP` chuẩn Spec) trong **`< 3 giây`**.
+  - [apply_endcaps.mjs](./scripts/apply_endcaps.mjs) — Tự động xóa các đốt lẻ cuối tuyến `< 100 mm`, chuyển đốt ống thật cuối cùng thành `HTS-CAP-*` bằng `hvac-cap` qua `(handent)` (không cần Zoom/Pick chuột), gán lại `HTS_OG_DAY` và `purge_unused_blocks` trong **`< 2 giây`**.
+  - [qa_audit_hvac.mjs](./scripts/qa_audit_hvac.mjs) — Kiểm toán độc lập 5/5 tiêu chí QA/QC (100% `HTS-*`, đối chiếu `baseline.json`, mở khóa 100% layer, phân tách `KHOANH MÂY` vs `TRÍCH CHI TIẾT VẬT THỂ`, 100% XData `HTS_OG_DAY`, bỏ qua mũi tên hệ thống `_Dot`/`_Oblique`) trong **`< 0.3 giây`**.

@@ -1,0 +1,270 @@
+{
+  "auditedAt": "2026-11-18T17:14:20.899Z",
+  "elapsedSec": 0.18,
+  "verdict": "FAIL",
+  "drawing": "C:\\Users\\Admin\\Desktop\\SHOPDRAWING-HVAC-AI\\bai 2.dwg",
+  "units": "Millimeters",
+  "osmode": 4031,
+  "totalEntities": 799,
+  "surfaceAreaM2": 750.52,
+  "straightDuctCount": 275,
+  "countsByLayer": {
+    "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED": 309,
+    "MEPG-M-EQUIP": 3,
+    "MEPG-AC-TEXT": 67,
+    "M-MVAC-SEAD": 327,
+    "M-MVAC-PAD": 50,
+    "CLOUND": 11,
+    "M-MVAC-DIM": 32
+  },
+  "checks": {
+    "check1_htsToolAndRule0": {
+      "pass": false,
+      "shopDuctBlockCount": 361,
+      "zOffsetPlanSymbolsCount": 16,
+      "nonInsertDucts": [],
+      "nonHtsDucts": [],
+      "unusedBlocks": [
+        "_Dot"
+      ],
+      "unsolicitedShop": []
+    },
+    "check2_baselineAndLayers": {
+      "pass": false,
+      "baselineChecked": true,
+      "baselineDiffs": [
+        {
+          "layer": "0",
+          "expected": 1,
+          "actual": 0,
+          "delta": -1
+        }
+      ],
+      "unitsOk": true,
+      "extentsOk": true,
+      "totalLayers": 28,
+      "badLayers": []
+    },
+    "check3_revcloudMutualExclusion": {
+      "pass": true,
+      "cloudCount": 11,
+      "unclearCloudCount": 3,
+      "detailCalloutCloudCount": 8,
+      "clouds": [
+        {
+          "handle": "1D981",
+          "type": "LWPOLYLINE",
+          "bbox": {
+            "minX": 63236.63,
+            "minY": 41378.04,
+            "minZ": 0,
+            "maxX": 67045.79,
+            "maxY": 44202.78,
+            "maxZ": 0,
+            "width": 3809.16,
+            "height": 2824.74,
+            "depth": 0,
+            "entityCount": 1
+          },
+          "kind": "KHOANH_MAY"
+        },
+        {
+          "handle": "1D983",
+          "type": "LWPOLYLINE",
+          "bbox": {
+            "minX": 42960.99,
+            "minY": 56946.02,
+            "minZ": 0,
+            "maxX": 43800.9,
+            "maxY": 58367.33,
+            "maxZ": 0,
+            "width": 839.91,
+            "height": 1421.31,
+            "depth": 0,
+            "entityCount": 1
+          },
+          "kind": "KHOANH_MAY"
+        },
+        {
+          "handle": "1D98B",
+          "type": "LWPOLYLINE",
+          "bbox": {
+            "minX": 36136.66,
+            "minY": 52841.85,
+            "minZ": 0,
+            "maxX": 37823.95,
+            "maxY": 53629.32,
+            "maxZ": 0,
+            "width": 1687.3,
+            "height": 787.47,
+            "depth": 0,
+            "entityCount": 1
+          },
+          "kind": "KHOANH_MAY"
+        },
+        {
+          "handle": "1DFB2",
+          "type": "LWPOLYLINE",
+          "bbox": {
+            "minX": 52879.31,
+            "minY": 28246.74,
+            "minZ": 0,
+            "maxX": 54595.01,
+            "maxY": 29686.35,
+            "maxZ": 0,
+            "width": 1715.7,
+            "height": 1439.61,
+            "depth": 0,
+            "entityCount": 1
+          },
+          "kind": "TRICH_CHI_TIET"
+        },
+        {
+          "handle": "1E077",
+          "type": "LWPOLYLINE",
+          "bbox": {
+            "minX": 67153.69,
+            "minY": 28391.24,
+            "minZ": 0,
+            "maxX": 68949.29,
+            "maxY": 29896.3,
+            "maxZ": 0,
+            "width": 1795.6,
+            "height": 1505.06,
+            "depth": 0,
+            "entityCount": 1
+          },
+          "kind": "TRICH_CHI_TIET"
+        },
+        {
+          "handle": "1E212",
+          "type": "LWPOLYLINE",
+          "bbox": {
+            "minX": 56782.52,
+            "minY": 48955.3,
+            "minZ": 0,
+            "maxX": 58707.79,
+            "maxY": 50540.25,
+            "maxZ": 0,
+            "width": 1925.27,
+            "height": 1584.95,
+            "depth": 0,
+            "entityCount": 1
+          },
+          "kind": "TRICH_CHI_TIET"
+        },
+        {
+          "handle": "1E23B",
+          "type": "LWPOLYLINE",
+          "bbox": {
+            "minX": 59884.17,
+            "minY": 49095.3,
+            "minZ": 0,
+            "maxX": 61809.43,
+            "maxY": 50680.25,
+            "maxZ": 0,
+            "width": 1925.26,
+            "height": 1584.94,
+            "depth": 0,
+            "entityCount": 1
+          },
+          "kind": "TRICH_CHI_TIET"
+        },
+        {
+          "handle": "1E264",
+          "type": "LWPOLYLINE",
+          "bbox": {
+            "minX": 46688.44,
+            "minY": 49926,
+            "minZ": 0,
+            "maxX": 48816.07,
+            "maxY": 51718.61,
+            "maxZ": 0,
+            "width": 2127.63,
+            "height": 1792.61,
+            "depth": 0,
+            "entityCount": 1
+          },
+          "kind": "TRICH_CHI_TIET"
+        },
+        {
+          "handle": "1E28F",
+          "type": "LWPOLYLINE",
+          "bbox": {
+            "minX": 26929.83,
+            "minY": 57086.91,
+            "minZ": 0,
+            "maxX": 28732.19,
+            "maxY": 58541.06,
+            "maxZ": 0,
+            "width": 1802.36,
+            "height": 1454.16,
+            "depth": 0,
+            "entityCount": 1
+          },
+          "kind": "TRICH_CHI_TIET"
+        },
+        {
+          "handle": "1E2BC",
+          "type": "LWPOLYLINE",
+          "bbox": {
+            "minX": 45309.37,
+            "minY": 64272.53,
+            "minZ": 0,
+            "maxX": 47106.05,
+            "maxY": 65867.37,
+            "maxZ": 0,
+            "width": 1796.68,
+            "height": 1594.84,
+            "depth": 0,
+            "entityCount": 1
+          },
+          "kind": "TRICH_CHI_TIET"
+        },
+        {
+          "handle": "1E2E7",
+          "type": "LWPOLYLINE",
+          "bbox": {
+            "minX": 46696.08,
+            "minY": 60306.17,
+            "minZ": 0,
+            "maxX": 48587.59,
+            "maxY": 61854.52,
+            "maxZ": 0,
+            "width": 1891.51,
+            "height": 1548.36,
+            "depth": 0,
+            "entityCount": 1
+          },
+          "kind": "TRICH_CHI_TIET"
+        }
+      ],
+      "overlaps": []
+    },
+    "check4_xdataElevation": {
+      "pass": true,
+      "checkedCount": 361,
+      "validCount": 361,
+      "missingXdata": [],
+      "bodDistribution": {
+        "2300": 31,
+        "2500": 52,
+        "2505": 8,
+        "2525": 10,
+        "2600": 17,
+        "2720": 20,
+        "2725": 8,
+        "2770": 27,
+        "2820": 16,
+        "2950": 13,
+        "3000": 35,
+        "3050": 41,
+        "3100": 30,
+        "3150": 42,
+        "3350": 6,
+        "3790": 5
+      }
+    }
+  },
+  "qaImagePath": null
+}
