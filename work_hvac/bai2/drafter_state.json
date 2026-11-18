@@ -1,0 +1,1698 @@
+{
+  "runs": {
+    "SEAD-M01": {
+      "BOD": 2950,
+      "layer": "M-MVAC-SEAD",
+      "straightHandles": [
+        "1D2BA",
+        "1D2AF",
+        "1D2AE",
+        "1D2AD",
+        "1D2AC",
+        "1D2AB",
+        "1D2AA"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-NW01a": {
+      "BOD": 3050,
+      "layer": "M-MVAC-SEAD",
+      "W": 1850,
+      "H": 450,
+      "straightHandles": [
+        "1D2C5"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-NW01b": {
+      "BOD": 3050,
+      "layer": "M-MVAC-SEAD",
+      "W": 1850,
+      "H": 450,
+      "straightHandles": [
+        "1D2D0",
+        "1D2D1",
+        "1D2D2",
+        "1D2D3",
+        "1D2D4",
+        "1D2D5",
+        "1D2D6",
+        "1D2D7",
+        "1D2E2"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-NW01z": {
+      "BOD": 2675,
+      "layer": "M-MVAC-SEAD",
+      "W": 1850,
+      "H": 450,
+      "straightHandles": [
+        "1D2E3",
+        "1D2EC"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-NW02": {
+      "BOD": 2300,
+      "layer": "M-MVAC-SEAD",
+      "W": 1850,
+      "H": 450,
+      "straightHandles": [
+        "1D2ED",
+        "1D2F8",
+        "1D2F9",
+        "1D2FA",
+        "1D2FB",
+        "1D2FC",
+        "1D2FD",
+        "1D2FE",
+        "1D2FF",
+        "1D300",
+        "1D301",
+        "1D30C"
+      ],
+      "elbowHandles": [
+        "1D314"
+      ]
+    },
+    "SEAD-NW03": {
+      "BOD": 2300,
+      "layer": "M-MVAC-SEAD",
+      "W": 1500,
+      "H": 450,
+      "straightHandles": [
+        "1D31F",
+        "1D320",
+        "1D321",
+        "1D322",
+        "1D323",
+        "1D324",
+        "1D325",
+        "1D326",
+        "1D331"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-NW03z": {
+      "BOD": 2510,
+      "layer": "M-MVAC-SEAD",
+      "W": 1500,
+      "H": 450,
+      "straightHandles": [
+        "1D33C"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-NW04": {
+      "BOD": 2720,
+      "layer": "M-MVAC-SEAD",
+      "W": 1500,
+      "H": 450,
+      "straightHandles": [
+        "1D33D",
+        "1D33E",
+        "1D33F",
+        "1D340",
+        "1D34B"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-NW05": {
+      "BOD": 2770,
+      "layer": "M-MVAC-SEAD",
+      "W": 350,
+      "H": 350,
+      "straightHandles": [
+        "1D356",
+        "1D357",
+        "1D358",
+        "1D359",
+        "1D364"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-W01a": {
+      "BOD": 2720,
+      "layer": "M-MVAC-SEAD",
+      "W": 1300,
+      "H": 450,
+      "straightHandles": [
+        "1D36F"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-W01b": {
+      "BOD": 2720,
+      "layer": "M-MVAC-SEAD",
+      "W": 1300,
+      "H": 450,
+      "straightHandles": [
+        "1D37A",
+        "1D37B",
+        "1D37C",
+        "1D37D",
+        "1D37E",
+        "1D37F",
+        "1D380",
+        "1D38B"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-W02": {
+      "BOD": 2770,
+      "layer": "M-MVAC-SEAD",
+      "W": 1200,
+      "H": 400,
+      "straightHandles": [
+        "1D396",
+        "1D397",
+        "1D398",
+        "1D399",
+        "1D39A",
+        "1D3A5"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-W03": {
+      "BOD": 2770,
+      "layer": "M-MVAC-SEAD",
+      "W": 950,
+      "H": 400,
+      "straightHandles": [
+        "1D3B0",
+        "1D3B1",
+        "1D3B2",
+        "1D3B3",
+        "1D3B4",
+        "1D3B5",
+        "1D3BE"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-W04": {
+      "BOD": 2820,
+      "layer": "M-MVAC-SEAD",
+      "W": 750,
+      "H": 350,
+      "straightHandles": [
+        "1D3C9",
+        "1D3CA",
+        "1D3CB",
+        "1D3CC",
+        "1D3CD",
+        "1D3CE",
+        "1D3CF",
+        "1D3D0",
+        "1D3D1",
+        "1D3D2",
+        "1D3DD"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-NE01a": {
+      "BOD": 3050,
+      "layer": "M-MVAC-SEAD",
+      "W": 950,
+      "H": 450,
+      "straightHandles": [
+        "1D3E8"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-NE01b": {
+      "BOD": 3050,
+      "layer": "M-MVAC-SEAD",
+      "W": 950,
+      "H": 450,
+      "straightHandles": [
+        "1D3F3",
+        "1D3F4",
+        "1D3F5",
+        "1D3F6",
+        "1D401",
+        "1D40C"
+      ],
+      "elbowHandles": [
+        "1D414"
+      ]
+    },
+    "SEAD-NE01z1": {
+      "BOD": 2778,
+      "layer": "M-MVAC-SEAD",
+      "W": 950,
+      "H": 450,
+      "straightHandles": [
+        "1D41F"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-NE01low": {
+      "BOD": 2505,
+      "layer": "M-MVAC-SEAD",
+      "W": 950,
+      "H": 450,
+      "straightHandles": [
+        "1D420",
+        "1D42B"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-NE01z2": {
+      "BOD": 2778,
+      "layer": "M-MVAC-SEAD",
+      "W": 950,
+      "H": 450,
+      "straightHandles": [
+        "1D42C"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-NE02": {
+      "BOD": 3050,
+      "layer": "M-MVAC-SEAD",
+      "W": 950,
+      "H": 450,
+      "straightHandles": [
+        "1D42D",
+        "1D42E",
+        "1D42F",
+        "1D430",
+        "1D439",
+        "1D43A",
+        "1D43B",
+        "1D43C",
+        "1D43D",
+        "1D43E",
+        "1D43F",
+        "1D440",
+        "1D441",
+        "1D442",
+        "1D443",
+        "1D44E"
+      ],
+      "elbowHandles": [
+        "1D44F"
+      ]
+    },
+    "SEAD-NE03": {
+      "BOD": 3100,
+      "layer": "M-MVAC-SEAD",
+      "W": 700,
+      "H": 400,
+      "straightHandles": [
+        "1D45A",
+        "1D465",
+        "1D466",
+        "1D467",
+        "1D472",
+        "1D473",
+        "1D474",
+        "1D475",
+        "1D476",
+        "1D477",
+        "1D478",
+        "1D483",
+        "1D484",
+        "1D485",
+        "1D486",
+        "1D487",
+        "1D492"
+      ],
+      "elbowHandles": [
+        "1D49A",
+        "1D49B",
+        "1D4A3"
+      ]
+    },
+    "SEAD-NE04": {
+      "BOD": 3150,
+      "layer": "M-MVAC-SEAD",
+      "W": 550,
+      "H": 350,
+      "straightHandles": [
+        "1D4AE",
+        "1D4AF",
+        "1D4B0",
+        "1D4B1",
+        "1D4B2",
+        "1D4B3",
+        "1D4B4",
+        "1D4B5",
+        "1D4B6",
+        "1D4B7",
+        "1D4B8",
+        "1D4B9",
+        "1D4C2"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-S01a": {
+      "BOD": 3100,
+      "layer": "M-MVAC-SEAD",
+      "W": 1200,
+      "H": 400,
+      "straightHandles": [
+        "1D6BE"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-S01b": {
+      "BOD": 3100,
+      "layer": "M-MVAC-SEAD",
+      "W": 1200,
+      "H": 400,
+      "straightHandles": [
+        "1D4CE",
+        "1D4CF",
+        "1D4D0",
+        "1D4DB"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-S02a": {
+      "BOD": 3150,
+      "layer": "M-MVAC-SEAD",
+      "W": 1000,
+      "H": 350,
+      "straightHandles": [
+        "1D4E6"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-S02b": {
+      "BOD": 3150,
+      "layer": "M-MVAC-SEAD",
+      "W": 1000,
+      "H": 350,
+      "straightHandles": [
+        "1D4F1",
+        "1D4F2",
+        "1D4F3",
+        "1D4FE"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-S02z": {
+      "BOD": 2825,
+      "layer": "M-MVAC-SEAD",
+      "W": 1000,
+      "H": 350,
+      "straightHandles": [
+        "1D509"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-S03": {
+      "BOD": 2500,
+      "layer": "M-MVAC-SEAD",
+      "W": 1000,
+      "H": 350,
+      "straightHandles": [
+        "1D50A",
+        "1D50B",
+        "1D50C",
+        "1D50D",
+        "1D50E",
+        "1D50F",
+        "1D510",
+        "1D511",
+        "1D512",
+        "1D513",
+        "1D514",
+        "1D515",
+        "1D516",
+        "1D517",
+        "1D522"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-SW01": {
+      "BOD": 2500,
+      "layer": "M-MVAC-SEAD",
+      "W": 1000,
+      "H": 350,
+      "straightHandles": [
+        "1D523",
+        "1D524",
+        "1D525",
+        "1D526",
+        "1D527",
+        "1D528",
+        "1D529",
+        "1D52A",
+        "1D52B",
+        "1D52C",
+        "1D52D",
+        "1D52E",
+        "1D539"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-SW02": {
+      "BOD": 2500,
+      "layer": "M-MVAC-SEAD",
+      "W": 550,
+      "H": 350,
+      "straightHandles": [
+        "1D53A",
+        "1D53B",
+        "1D53C",
+        "1D53D",
+        "1D53E",
+        "1D53F",
+        "1D540",
+        "1D541",
+        "1D542",
+        "1D543",
+        "1D544",
+        "1D54F"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-SE01a": {
+      "BOD": 3150,
+      "layer": "M-MVAC-SEAD",
+      "W": 750,
+      "H": 350,
+      "straightHandles": [
+        "1D55A"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-SE01b": {
+      "BOD": 3150,
+      "layer": "M-MVAC-SEAD",
+      "W": 750,
+      "H": 350,
+      "straightHandles": [
+        "1D55B",
+        "1D55C",
+        "1D55D",
+        "1D55E",
+        "1D55F",
+        "1D560",
+        "1D561",
+        "1D562",
+        "1D563",
+        "1D564",
+        "1D565",
+        "1D570",
+        "1D571",
+        "1D572",
+        "1D573",
+        "1D574",
+        "1D57F"
+      ],
+      "elbowHandles": [
+        "1D587"
+      ]
+    },
+    "SEAD-SE01z": {
+      "BOD": 2875,
+      "layer": "M-MVAC-SEAD",
+      "W": 750,
+      "H": 350,
+      "straightHandles": [
+        "1D592"
+      ],
+      "elbowHandles": []
+    },
+    "SEAD-SE02": {
+      "BOD": 2600,
+      "layer": "M-MVAC-SEAD",
+      "W": 750,
+      "H": 350,
+      "straightHandles": [
+        "1D593",
+        "1D594",
+        "1D595",
+        "1D596",
+        "1D597",
+        "1D598",
+        "1D599",
+        "1D59A",
+        "1D59B",
+        "1D59C",
+        "1D5A7"
+      ],
+      "elbowHandles": []
+    },
+    "PAD-01a": {
+      "BOD": 3000,
+      "layer": "M-MVAC-PAD",
+      "W": 900,
+      "H": 500,
+      "straightHandles": [
+        "1D5B2"
+      ],
+      "elbowHandles": []
+    },
+    "PAD-01b": {
+      "BOD": 3000,
+      "layer": "M-MVAC-PAD",
+      "W": 900,
+      "H": 500,
+      "straightHandles": [
+        "1D5BD",
+        "1D5C8",
+        "1D5C9",
+        "1D5CA",
+        "1D5CB",
+        "1D5CC",
+        "1D5CD",
+        "1D5CE",
+        "1D5CF",
+        "1D5D0",
+        "1D5D1",
+        "1D5D2",
+        "1D5D3",
+        "1D5D4",
+        "1D5D5",
+        "1D5D6",
+        "1D5D7",
+        "1D5E2",
+        "1D5E3",
+        "1D5E4",
+        "1D5E5",
+        "1D5E6",
+        "1D5E7",
+        "1D5E8",
+        "1D5E9",
+        "1D5EA",
+        "1D5EB",
+        "1D5EC",
+        "1D5F7"
+      ],
+      "elbowHandles": [
+        "1D5FF",
+        "1D600"
+      ]
+    },
+    "PAD-01z": {
+      "BOD": 3175,
+      "layer": "M-MVAC-PAD",
+      "W": 900,
+      "H": 500,
+      "straightHandles": [
+        "1D60B"
+      ],
+      "elbowHandles": []
+    },
+    "PAD-02": {
+      "BOD": 3350,
+      "layer": "M-MVAC-PAD",
+      "W": 900,
+      "H": 500,
+      "straightHandles": [
+        "1D616",
+        "1D621"
+      ],
+      "elbowHandles": [
+        "1D629"
+      ]
+    },
+    "PAD-02z": {
+      "BOD": 3570,
+      "layer": "M-MVAC-PAD",
+      "W": 900,
+      "H": 500,
+      "straightHandles": [
+        "1D634"
+      ],
+      "elbowHandles": []
+    },
+    "PAD-03": {
+      "BOD": 3790,
+      "layer": "M-MVAC-PAD",
+      "W": 900,
+      "H": 500,
+      "straightHandles": [
+        "1D635",
+        "1D636",
+        "1D641",
+        "1D64C"
+      ],
+      "elbowHandles": [
+        "1D64D"
+      ]
+    }
+  },
+  "branchTaps": {
+    "BTAP-01": {
+      "runId": "SEAD-NW01a",
+      "BOD": 3050,
+      "added": [
+        "1D654"
+      ],
+      "removed": [],
+      "addedInfo": [],
+      "bboxes": {
+        "1D654": {
+          "minX": 49872.73,
+          "minY": 40411.17,
+          "minZ": 0,
+          "maxX": 51922.74,
+          "maxY": 40611.23,
+          "maxZ": 0,
+          "width": 2050.01,
+          "height": 200.06,
+          "depth": 0,
+          "entityCount": 1
+        }
+      }
+    },
+    "BTAP-02": {
+      "runId": "SEAD-NE01a",
+      "BOD": 3050,
+      "added": [
+        "1D665"
+      ],
+      "removed": [],
+      "addedInfo": [],
+      "bboxes": {
+        "1D665": {
+          "minX": 55121.32,
+          "minY": 40411.61,
+          "minZ": 0,
+          "maxX": 56271.32,
+          "maxY": 40611.61,
+          "maxZ": 0,
+          "width": 1150,
+          "height": 200,
+          "depth": 0,
+          "entityCount": 1
+        }
+      }
+    },
+    "BTAP-03": {
+      "runId": "SEAD-S01a",
+      "BOD": 3100,
+      "added": [
+        "1D676"
+      ],
+      "removed": [],
+      "addedInfo": [],
+      "bboxes": {
+        "1D676": {
+          "minX": 50440.36,
+          "minY": 38011.21,
+          "minZ": 0,
+          "maxX": 51840.36,
+          "maxY": 38211.21,
+          "maxZ": 0,
+          "width": 1400,
+          "height": 200,
+          "depth": 0,
+          "entityCount": 1
+        }
+      }
+    },
+    "BTAP-04": {
+      "runId": "SEAD-SE01a",
+      "BOD": 3150,
+      "added": [
+        "1D687"
+      ],
+      "removed": [],
+      "addedInfo": [],
+      "bboxes": {
+        "1D687": {
+          "minX": 51640.58,
+          "minY": 34730.87,
+          "minZ": 0,
+          "maxX": 51840.58,
+          "maxY": 35680.87,
+          "maxZ": 0,
+          "width": 200,
+          "height": 950,
+          "depth": 0,
+          "entityCount": 1
+        }
+      }
+    },
+    "BTAP-05": {
+      "runId": "SEAD-NW05",
+      "BOD": 2770,
+      "added": [
+        "1D698"
+      ],
+      "removed": [],
+      "addedInfo": [],
+      "bboxes": {
+        "1D698": {
+          "minX": 22919.34,
+          "minY": 55759.84,
+          "minZ": 0,
+          "maxX": 23394.35,
+          "maxY": 55884.87,
+          "maxZ": 0,
+          "width": 475.01,
+          "height": 125.04,
+          "depth": 0,
+          "entityCount": 1
+        }
+      }
+    },
+    "BTAP-06": {
+      "runId": "SEAD-W01a",
+      "BOD": 2720,
+      "added": [
+        "1D6A9"
+      ],
+      "removed": [],
+      "addedInfo": [],
+      "bboxes": {
+        "1D6A9": {
+          "minX": 22569.47,
+          "minY": 54059.83,
+          "minZ": 0,
+          "maxX": 24069.48,
+          "maxY": 54259.9,
+          "maxZ": 0,
+          "width": 1500.01,
+          "height": 200.07,
+          "depth": 0,
+          "entityCount": 1
+        }
+      }
+    }
+  },
+  "grilleTaps": {
+    "1CDDF": {
+      "tapHandle": "1D6D0",
+      "BOD": 3050,
+      "protrudes": "+Y",
+      "bevel45": "-X",
+      "mirrored": false,
+      "verifiedBevelOk": true,
+      "bbox": [
+        61905.35,
+        47771.51,
+        62655.35,
+        47921.51
+      ],
+      "designBbox": [
+        61905.35,
+        47771.51,
+        62685.35,
+        47929.62
+      ]
+    },
+    "1CDE5": {
+      "tapHandle": "1D6DC",
+      "BOD": 3050,
+      "protrudes": "-X",
+      "bevel45": "-Y",
+      "mirrored": false,
+      "verifiedBevelOk": true,
+      "bbox": [
+        65642.57,
+        52436.39,
+        65792.57,
+        53186.39
+      ],
+      "designBbox": [
+        65634.44,
+        52436.39,
+        65792.57,
+        53216.39
+      ]
+    },
+    "1CDE6": {
+      "tapHandle": "1D6DE",
+      "BOD": 3050,
+      "protrudes": "-X",
+      "bevel45": "-Y",
+      "mirrored": false,
+      "verifiedBevelOk": true,
+      "bbox": [
+        65642.01,
+        59048.75,
+        65792.01,
+        59798.75
+      ],
+      "designBbox": [
+        65633.88,
+        59048.75,
+        65792.02,
+        59828.75
+      ]
+    },
+    "1CDE7": {
+      "tapHandle": "1D6E0",
+      "BOD": 3150,
+      "protrudes": "-Y",
+      "bevel45": "+X",
+      "mirrored": false,
+      "verifiedBevelOk": true,
+      "bbox": [
+        50588.81,
+        72530.62,
+        51338.81,
+        72680.62
+      ],
+      "designBbox": [
+        50558.81,
+        72522.51,
+        51338.81,
+        72680.62
+      ]
+    },
+    "1CDE8": {
+      "tapHandle": "1D6E2",
+      "BOD": 3150,
+      "protrudes": "-Y",
+      "bevel45": "+X",
+      "mirrored": false,
+      "verifiedBevelOk": true,
+      "bbox": [
+        57388.81,
+        72530.62,
+        58138.81,
+        72680.62
+      ],
+      "designBbox": [
+        57358.81,
+        72522.51,
+        58138.81,
+        72680.62
+      ]
+    },
+    "1CDE9": {
+      "tapHandle": "1D6E4",
+      "BOD": 3100,
+      "protrudes": "-Y",
+      "bevel45": "+X",
+      "mirrored": false,
+      "verifiedBevelOk": true,
+      "bbox": [
+        64288.81,
+        72455.68,
+        65038.81,
+        72605.68
+      ],
+      "designBbox": [
+        64258.81,
+        72447.54,
+        65038.81,
+        72605.68
+      ]
+    },
+    "1CDEA": {
+      "tapHandle": "1D6E6",
+      "BOD": 3100,
+      "protrudes": "-X",
+      "bevel45": "-Y",
+      "mirrored": false,
+      "verifiedBevelOk": true,
+      "bbox": [
+        68734.8,
+        66023.71,
+        68884.8,
+        66773.71
+      ],
+      "designBbox": [
+        68726.67,
+        66023.72,
+        68884.8,
+        66803.72
+      ]
+    },
+    "1CDEC": {
+      "tapHandle": "1D6E8",
+      "BOD": 3150,
+      "protrudes": "-X",
+      "bevel45": "+Y",
+      "mirrored": true,
+      "verifiedBevelOk": true,
+      "bbox": [
+        65124.56,
+        30989.47,
+        65274.56,
+        31739.47
+      ],
+      "designBbox": [
+        65116.45,
+        30959.47,
+        65274.56,
+        31739.47
+      ]
+    },
+    "1CDF1": {
+      "tapHandle": "1D6EA",
+      "BOD": 2500,
+      "protrudes": "+Y",
+      "bevel45": "+X",
+      "mirrored": true,
+      "verifiedBevelOk": true,
+      "bbox": [
+        21882.4,
+        11586.55,
+        22632.4,
+        11736.55
+      ],
+      "designBbox": [
+        21852.4,
+        11586.52,
+        22632.38,
+        11744.7
+      ]
+    },
+    "1CDF2": {
+      "tapHandle": "1D6EC",
+      "BOD": 2500,
+      "protrudes": "+Y",
+      "bevel45": "+X",
+      "mirrored": true,
+      "verifiedBevelOk": true,
+      "bbox": [
+        28878.13,
+        11587.14,
+        29628.13,
+        11737.14
+      ],
+      "designBbox": [
+        28848.13,
+        11587.12,
+        29628.11,
+        11745.3
+      ]
+    },
+    "1CDF3": {
+      "tapHandle": "1D6EE",
+      "BOD": 2500,
+      "protrudes": "+Y",
+      "bevel45": "+X",
+      "mirrored": true,
+      "verifiedBevelOk": true,
+      "bbox": [
+        35478.13,
+        11812.7,
+        36228.13,
+        11962.7
+      ],
+      "designBbox": [
+        35448.13,
+        11806.58,
+        36228.13,
+        11970.84
+      ]
+    },
+    "1CDF4": {
+      "tapHandle": "1D6FA",
+      "BOD": 2500,
+      "protrudes": "+Y",
+      "bevel45": "+X",
+      "mirrored": true,
+      "verifiedBevelOk": true,
+      "bbox": [
+        42078.13,
+        11813.26,
+        42828.13,
+        11963.26
+      ],
+      "designBbox": [
+        42048.13,
+        11807.14,
+        42828.13,
+        11971.4
+      ]
+    },
+    "1CE01": {
+      "tapHandle": "1D6FC",
+      "BOD": 2300,
+      "protrudes": "+Y",
+      "bevel45": "+X",
+      "mirrored": true,
+      "verifiedBevelOk": true,
+      "bbox": [
+        33215.72,
+        55760.17,
+        33965.72,
+        55910.17
+      ],
+      "designBbox": [
+        33185.73,
+        55760.14,
+        33965.69,
+        55918.3
+      ]
+    },
+    "1CE0D": {
+      "tapHandle": "1D6FE",
+      "BOD": 2820,
+      "protrudes": "-X",
+      "bevel45": "+Y",
+      "mirrored": true,
+      "verifiedBevelOk": true,
+      "bbox": [
+        22697.33,
+        20317.04,
+        22847.33,
+        21067.04
+      ],
+      "designBbox": [
+        22689.23,
+        20287.04,
+        22847.35,
+        21066.97
+      ]
+    },
+    "1CE0E": {
+      "tapHandle": "1D700",
+      "BOD": 2820,
+      "protrudes": "+X",
+      "bevel45": "+Y",
+      "mirrored": false,
+      "verifiedBevelOk": true,
+      "bbox": [
+        23597.33,
+        20317.13,
+        23747.33,
+        21067.13
+      ],
+      "designBbox": [
+        23597.23,
+        20287.1,
+        23755.56,
+        21067.13
+      ]
+    },
+    "1CE0F": {
+      "tapHandle": "1D702",
+      "BOD": 2820,
+      "protrudes": "+X",
+      "bevel45": "+Y",
+      "mirrored": false,
+      "verifiedBevelOk": true,
+      "bbox": [
+        23596.85,
+        26022.13,
+        23746.85,
+        26772.13
+      ],
+      "designBbox": [
+        23596.75,
+        25992.1,
+        23755.08,
+        26772.13
+      ]
+    },
+    "1CE10": {
+      "tapHandle": "1D704",
+      "BOD": 2820,
+      "protrudes": "-X",
+      "bevel45": "+Y",
+      "mirrored": true,
+      "verifiedBevelOk": true,
+      "bbox": [
+        22696.85,
+        26022.04,
+        22846.85,
+        26772.04
+      ],
+      "designBbox": [
+        22688.75,
+        25992.04,
+        22846.87,
+        26771.97
+      ]
+    },
+    "1CE11": {
+      "tapHandle": "1D706",
+      "BOD": 2770,
+      "protrudes": "-X",
+      "bevel45": "+Y",
+      "mirrored": true,
+      "verifiedBevelOk": true,
+      "bbox": [
+        22596.35,
+        32336.36,
+        22746.35,
+        33086.36
+      ],
+      "designBbox": [
+        22588.2,
+        32306.36,
+        22746.38,
+        33086.33
+      ]
+    },
+    "1CE12": {
+      "tapHandle": "1D708",
+      "BOD": 2770,
+      "protrudes": "+X",
+      "bevel45": "+Y",
+      "mirrored": false,
+      "verifiedBevelOk": true,
+      "bbox": [
+        23696.35,
+        32336.47,
+        23846.35,
+        33086.47
+      ],
+      "designBbox": [
+        23696.25,
+        32306.44,
+        23854.55,
+        33086.43
+      ]
+    },
+    "1CE13": {
+      "tapHandle": "1D70A",
+      "BOD": 2770,
+      "protrudes": "-X",
+      "bevel45": "+Y",
+      "mirrored": true,
+      "verifiedBevelOk": true,
+      "bbox": [
+        22470.77,
+        39154.07,
+        22620.77,
+        39904.07
+      ],
+      "designBbox": [
+        22462.64,
+        39124.07,
+        22620.79,
+        39904.03
+      ]
+    },
+    "1CE14": {
+      "tapHandle": "1D70C",
+      "BOD": 2770,
+      "protrudes": "+X",
+      "bevel45": "+Y",
+      "mirrored": false,
+      "verifiedBevelOk": true,
+      "bbox": [
+        23820.77,
+        39154.2,
+        23970.77,
+        39904.2
+      ],
+      "designBbox": [
+        23820.67,
+        39124.17,
+        23978.97,
+        39904.17
+      ]
+    },
+    "1CE15": {
+      "tapHandle": "1D70E",
+      "BOD": 2720,
+      "protrudes": "-X",
+      "bevel45": "+Y",
+      "mirrored": true,
+      "verifiedBevelOk": true,
+      "bbox": [
+        22420.12,
+        46118.6,
+        22570.12,
+        46868.6
+      ],
+      "designBbox": [
+        22411.99,
+        46088.6,
+        22570.15,
+        46868.56
+      ]
+    },
+    "1CE16": {
+      "tapHandle": "1D710",
+      "BOD": 2720,
+      "protrudes": "+X",
+      "bevel45": "+Y",
+      "mirrored": false,
+      "verifiedBevelOk": true,
+      "bbox": [
+        23869.78,
+        50163.07,
+        24019.78,
+        50913.07
+      ],
+      "designBbox": [
+        23869.68,
+        50133.04,
+        24027.97,
+        50913.03
+      ]
+    },
+    "1CE18": {
+      "tapHandle": "1D712",
+      "BOD": 2770,
+      "protrudes": "-X",
+      "bevel45": "-Y",
+      "mirrored": false,
+      "verifiedBevelOk": true,
+      "bbox": [
+        22894,
+        59541.11,
+        23044,
+        60291.11
+      ],
+      "designBbox": [
+        22885.81,
+        59541.15,
+        23044.1,
+        60321.14
+      ]
+    },
+    "1CF15": {
+      "tapHandle": "1D714",
+      "BOD": 2300,
+      "protrudes": "-Y",
+      "bevel45": "+X",
+      "mirrored": false,
+      "verifiedBevelOk": true,
+      "bbox": [
+        47088.62,
+        53759.94,
+        47838.62,
+        53909.94
+      ],
+      "designBbox": [
+        47058.62,
+        53751.8,
+        47838.62,
+        53909.94
+      ]
+    },
+    "1CF53": {
+      "tapHandle": "1D716",
+      "BOD": 2600,
+      "protrudes": "-X",
+      "bevel45": "+Y",
+      "mirrored": true,
+      "verifiedBevelOk": true,
+      "bbox": [
+        65124.56,
+        17320.78,
+        65274.56,
+        18070.78
+      ],
+      "designBbox": [
+        65116.45,
+        17290.78,
+        65274.56,
+        18070.78
+      ]
+    },
+    "1CF54": {
+      "tapHandle": "1D718",
+      "BOD": 2600,
+      "protrudes": "-X",
+      "bevel45": "+Y",
+      "mirrored": true,
+      "verifiedBevelOk": true,
+      "bbox": [
+        65124.56,
+        24186.21,
+        65274.56,
+        24936.21
+      ],
+      "designBbox": [
+        65116.45,
+        24156.21,
+        65274.56,
+        24936.21
+      ]
+    },
+    "1D05B": {
+      "tapHandle": "1D71A",
+      "BOD": 2720,
+      "protrudes": "-X",
+      "bevel45": "+Y",
+      "mirrored": true,
+      "verifiedBevelOk": true,
+      "bbox": [
+        22419.56,
+        52769.04,
+        22569.56,
+        53519.04
+      ],
+      "designBbox": [
+        22411.41,
+        52739.04,
+        22569.59,
+        53519.05
+      ]
+    }
+  },
+  "reducers": {
+    "RED-01": {
+      "handle": "1D799",
+      "blockName": null,
+      "BOD": 2300,
+      "bbox": {
+        "minX": 38074.07,
+        "minY": 53909.94,
+        "minZ": 0,
+        "maxX": 38276.07,
+        "maxY": 55759.94,
+        "maxZ": 0,
+        "width": 202,
+        "height": 1850,
+        "depth": 0,
+        "entityCount": 1
+      }
+    },
+    "RED-02": {
+      "handle": "1D7D6",
+      "blockName": null,
+      "BOD": 2720,
+      "bbox": {
+        "minX": 22570.19,
+        "minY": 45372.92,
+        "minZ": 0,
+        "maxX": 23870.21,
+        "maxY": 45577.03,
+        "maxZ": 0,
+        "width": 1300.02,
+        "height": 204.11,
+        "depth": 0,
+        "entityCount": 1
+      }
+    },
+    "RED-03": {
+      "handle": "1D7FC",
+      "blockName": null,
+      "BOD": 2770,
+      "bbox": {
+        "minX": 22620.82,
+        "minY": 38623.92,
+        "minZ": 0,
+        "maxX": 23820.84,
+        "maxY": 38828.02,
+        "maxZ": 0,
+        "width": 1200.02,
+        "height": 204.1,
+        "depth": 0,
+        "entityCount": 1
+      }
+    },
+    "RED-04": {
+      "handle": "1D829",
+      "blockName": null,
+      "BOD": 2770,
+      "bbox": {
+        "minX": 22746.38,
+        "minY": 31744.93,
+        "minZ": 0,
+        "maxX": 23696.4,
+        "maxY": 31949.01,
+        "maxZ": 0,
+        "width": 950.02,
+        "height": 204.08,
+        "depth": 0,
+        "entityCount": 1
+      }
+    },
+    "RED-05": {
+      "handle": "1D875",
+      "blockName": null,
+      "BOD": 3050,
+      "bbox": {
+        "minX": 65791.96,
+        "minY": 59911.32,
+        "minZ": 0,
+        "maxX": 66741.98,
+        "maxY": 60115.39,
+        "maxZ": 0,
+        "width": 950.01,
+        "height": 204.07,
+        "depth": 0,
+        "entityCount": 1
+      }
+    },
+    "RED-06": {
+      "handle": "1D8B1",
+      "blockName": null,
+      "BOD": 3100,
+      "bbox": {
+        "minX": 63710.92,
+        "minY": 72605.6,
+        "minZ": 0,
+        "maxX": 63914.98,
+        "maxY": 73305.62,
+        "maxZ": 0,
+        "width": 204.06,
+        "height": 700.02,
+        "depth": 0,
+        "entityCount": 1
+      }
+    },
+    "RED-07": {
+      "handle": "1D8D1",
+      "blockName": null,
+      "BOD": 3100,
+      "bbox": {
+        "minX": 50440.64,
+        "minY": 34155.88,
+        "minZ": 0,
+        "maxX": 51640.66,
+        "maxY": 34359.98,
+        "maxZ": 0,
+        "width": 1200.02,
+        "height": 204.1,
+        "depth": 0,
+        "entityCount": 1
+      }
+    },
+    "RED-08": {
+      "handle": "1D90F",
+      "blockName": null,
+      "BOD": 2500,
+      "bbox": {
+        "minX": 34818.34,
+        "minY": 10812.62,
+        "minZ": 0,
+        "maxX": 35022.43,
+        "maxY": 11812.64,
+        "maxZ": 0,
+        "width": 204.08,
+        "height": 1000.02,
+        "depth": 0,
+        "entityCount": 1
+      }
+    }
+  },
+  "endcaps": {
+    "CAP-01": {
+      "handle": "1D922",
+      "stubH": "1D91A",
+      "BOD": 2950,
+      "W": 2200,
+      "H": 550,
+      "bbox": {
+        "minX": 49966.1,
+        "minY": 38191.12,
+        "minZ": 0,
+        "maxX": 49991.1,
+        "maxY": 40431.12,
+        "maxZ": 0,
+        "width": 25,
+        "height": 2240,
+        "depth": 0,
+        "entityCount": 1
+      }
+    },
+    "CAP-02": {
+      "handle": "1D935",
+      "stubH": "1D92D",
+      "BOD": 2720,
+      "W": 1500,
+      "H": 450,
+      "bbox": {
+        "minX": 22371.25,
+        "minY": 54239.86,
+        "minZ": 0,
+        "maxX": 22396.25,
+        "maxY": 55779.86,
+        "maxZ": 0,
+        "width": 25,
+        "height": 1540,
+        "depth": 0,
+        "entityCount": 1
+      }
+    },
+    "CAP-03": {
+      "handle": "1D948",
+      "stubH": "1D940",
+      "BOD": 2770,
+      "W": 350,
+      "H": 350,
+      "bbox": {
+        "minX": 23023.96,
+        "minY": 60468.49,
+        "minZ": 0,
+        "maxX": 23413.96,
+        "maxY": 60493.49,
+        "maxZ": 0,
+        "width": 390,
+        "height": 25,
+        "depth": 0,
+        "entityCount": 1
+      }
+    },
+    "CAP-04": {
+      "handle": "1D95B",
+      "stubH": "1D953",
+      "BOD": 2820,
+      "W": 750,
+      "H": 350,
+      "bbox": {
+        "minX": 22827.36,
+        "minY": 20207.03,
+        "minZ": 0,
+        "maxX": 23617.36,
+        "maxY": 20232.03,
+        "maxZ": 0,
+        "width": 790,
+        "height": 25,
+        "depth": 0,
+        "entityCount": 1
+      }
+    },
+    "CAP-05": {
+      "handle": "1D96E",
+      "stubH": "1D966",
+      "BOD": 3150,
+      "W": 550,
+      "H": 350,
+      "bbox": {
+        "minX": 50360.52,
+        "minY": 72660.62,
+        "minZ": 0,
+        "maxX": 50385.52,
+        "maxY": 73250.62,
+        "maxZ": 0,
+        "width": 25,
+        "height": 590,
+        "depth": 0,
+        "entityCount": 1
+      }
+    },
+    "CAP-06": {
+      "handle": "1D970",
+      "stubH": "1D96F",
+      "BOD": 2500,
+      "W": 550,
+      "H": 350,
+      "bbox": {
+        "minX": 21594.38,
+        "minY": 11016.5,
+        "minZ": 0,
+        "maxX": 21619.38,
+        "maxY": 11606.5,
+        "maxZ": 0,
+        "width": 25,
+        "height": 590,
+        "depth": 0,
+        "entityCount": 1
+      }
+    },
+    "CAP-07": {
+      "handle": "1D972",
+      "stubH": "1D971",
+      "BOD": 2600,
+      "W": 750,
+      "H": 350,
+      "bbox": {
+        "minX": 65254.56,
+        "minY": 17010.36,
+        "minZ": 0,
+        "maxX": 66044.56,
+        "maxY": 17035.36,
+        "maxZ": 0,
+        "width": 790,
+        "height": 25,
+        "depth": 0,
+        "entityCount": 1
+      }
+    }
+  },
+  "clouds": {
+    "RC-01": {
+      "handle": "1D980",
+      "bbox": {
+        "minX": 57720.55,
+        "minY": 37180.51,
+        "minZ": 0,
+        "maxX": 66020.15,
+        "maxY": 41320.86,
+        "maxZ": 0,
+        "width": 8299.6,
+        "height": 4140.35,
+        "depth": 0,
+        "entityCount": 1
+      },
+      "strictOverlapCount": 0
+    },
+    "RC-02": {
+      "handle": "1D981",
+      "bbox": {
+        "minX": 63236.63,
+        "minY": 41378.04,
+        "minZ": 0,
+        "maxX": 67045.79,
+        "maxY": 44202.78,
+        "maxZ": 0,
+        "width": 3809.16,
+        "height": 2824.74,
+        "depth": 0,
+        "entityCount": 1
+      },
+      "strictOverlapCount": 0
+    },
+    "RC-03": {
+      "handle": "1D982",
+      "bbox": {
+        "minX": 48952.74,
+        "minY": 10509.5,
+        "minZ": 0,
+        "maxX": 51945.08,
+        "maxY": 12288.37,
+        "maxZ": 0,
+        "width": 2992.34,
+        "height": 1778.87,
+        "depth": 0,
+        "entityCount": 1
+      },
+      "strictOverlapCount": 0
+    },
+    "RC-04": {
+      "handle": "1D983",
+      "bbox": {
+        "minX": 42960.99,
+        "minY": 56946.02,
+        "minZ": 0,
+        "maxX": 43800.9,
+        "maxY": 58367.33,
+        "maxZ": 0,
+        "width": 839.91,
+        "height": 1421.31,
+        "depth": 0,
+        "entityCount": 1
+      },
+      "strictOverlapCount": 0
+    },
+    "RC-05": {
+      "handle": "1D98B",
+      "bbox": {
+        "minX": 36136.66,
+        "minY": 52841.85,
+        "minZ": 0,
+        "maxX": 37823.95,
+        "maxY": 53629.32,
+        "maxZ": 0,
+        "width": 1687.3,
+        "height": 787.47,
+        "depth": 0,
+        "entityCount": 1
+      },
+      "strictOverlapCount": 0
+    }
+  }
+}

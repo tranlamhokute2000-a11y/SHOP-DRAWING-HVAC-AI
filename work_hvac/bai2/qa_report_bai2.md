@@ -1,0 +1,149 @@
+# BÁO CÁO NGHIỆM THU QA/QC ĐỘC LẬP — SHOP DRAWING ỐNG GIÓ HVAC (`bai 2.dwg`)
+
+- **Trạng thái nghiệm thu**: **PASS 100% (5/5 Tiêu chí)** — Đủ điều kiện bàn giao.
+- **Bản vẽ đã nghiệm thu**: `C:\Users\Admin\Desktop\SHOPDRAWING-HVAC-AI\bai 2.dwg` (đã `QSAVE`, sạch Command Line)
+- **Bản sao lưu gốc**: `C:\Users\Admin\Desktop\SHOPDRAWING-HVAC-AI\work_hvac\bai2\bai 2_backup.dwg`
+- **Tài liệu đối chiếu**: `work_hvac\bai2\plan_bai2.md`, `work_hvac\bai2\bai2_geometry.json`, `work_hvac\bai2\drafter_log.md`
+- **Phương pháp kiểm tra**: Truy vấn chỉ-đọc 100% trực tiếp trên AutoCAD qua HTS MCP (`http://localhost:5088/mcp`: `get_drawing_info`, `get_current_settings`, `get_layer_list`, `get_layer_info`, `group_summary_by_layer`, `list_block_definitions`, `get_entities_in_area`, `get_bounding_box`, `get_xdata`, `select_by_color`, `compute_duct_surface_area`, `extract_all_text`, `export_plan_image`) + kiểm tra trực quan 14 ảnh PNG bằng mắt.
+
+---
+
+## 1. Bảng Ánh Xạ Layer Spec Đã Áp Dụng (High Autonomy Mapping)
+
+Toàn bộ 13 Layer chuẩn theo `Spec-layer ký hiệu ống gió.dwg` đã được khởi tạo đủ (`ByLayer`, `Continuous`, `is_plottable = true`, `is_locked = false`, `is_frozen = false`, `is_off = false`):
+
+| Hệ thống / Hạng mục | Tên Layer Spec | Màu ACI | Lineweight | Số thực thể | Ghi chú phạm vi (Quy tắc cứng số 0) |
+| :--- | :--- | :---: | :---: | :---: | :--- |
+| Hút khói sự cố (`SEAD`) | **`M-MVAC-SEAD`** | `190` | `20` | **`278`** | 100% `INSERT` `HTS-*` (`222` ống thẳng, `7` cút, `8` côn thu, `6` nhánh rẽ chính, `28` cổ miệng gió `600x300`, `7` nắp bịt đầu) |
+| Tăng áp (`PAD`) | **`M-MVAC-PAD`** | `210` | `20` | **`42`** | 100% `INSERT` `HTS-*` (`38` ống thẳng `900x500`, `4` cút phẳng gồm `2` cút hẹp `R=225`) |
+| Khoanh mây chưa rõ | **`CLOUND`** | `240` | `20` | **`5`** | `5` đám mây `REVCLOUD` kín (`RC-01..RC-05`), `0` thực thể `M-MVAC-*` bên trong |
+| Thiết bị / Van / Cửa gió | `M-MVAC-Equipment` | `47` | `9` | **`0`** | Đúng Quy tắc số 0 — không tự ý chèn van/cửa gió |
+| 9 Layer Spec còn lại | `EAD (80)`, `FAD (150)`, `CEAD (170)`, `CSAD (11)`, `Copper Pipe (12)`, `AC Drain (72)`, `Support (42)`, `DIM (97)`, `TEXT (2)` | Chuẩn Spec | Chuẩn Spec | **`0`** | Khởi tạo sẵn đúng chuẩn, không sinh đối tượng thừa |
+
+---
+
+## 2. Kết Quả Kiểm Tra 5 Tiêu Chí QA/QC Độc Lập
+
+### [1] 100% HTS Tool & Tuân Thủ Phạm Vi Quy Tắc Số 0 — **PASS**
+- **100% Block HTS chuẩn**: Tất cả **`320 / 320`** thực thể trên `M-MVAC-SEAD` (`278`) và `M-MVAC-PAD` (`42`) đều là `INSERT` mang tên `HTS-*`:
+  - `260` đốt ống thẳng `HTS-OG-*` (`222 SEAD` + `38 PAD`, gồm 8 cầu nối Z-offset `45°`)
+  - `11` cút bo `HTS-CO-V47-*` (`7 SEAD` gồm `2` cút góc chéo `39°` `R350-A39`; `4 PAD` gồm `2` cút hẹp `0.75W` `R225-A90`)
+  - `8` côn thu chính xác chiều dài thiết kế `HTS-CON-*` (`1` `L202` phẳng biên trên `RED-01`, `1` `L204` phẳng biên phải `RED-07`, `6` `L204` đồng tâm `RED-02..06, 08`)
+  - `34` chân rẽ gót giày `HTS-TAP-*` (`6` nhánh chính `BTAP-01..06` + `28` cổ miệng gió `600x300` `L150-D150`)
+  - `7` nắp bịt đầu ống `HTS-CAP-*-L25` (`CAP-01..07`)
+- **0 nét vẽ giả**: `0` `LINE`/`LWPOLYLINE`/`ARC`/`CIRCLE` trên các layer `M-MVAC-*`.
+- **0 Block thừa**: `list_block_definitions` xác nhận **`0`** block có `instance_count = 0`.
+- **100% ByLayer**: `select_by_color` xác nhận `0` thực thể mang màu cưỡng bức ngoài `ByLayer`.
+- **Quy tắc số 0**: `0` thực thể ngoài yêu cầu trên `M-MVAC-Equipment`, `Support`, `DIM`, `TEXT`. Cả `7` van gió Danh sách A (`1CDD9`, `1CDD6`, `1CDC2`, `1CDC6`, `1CDBF`, `1CED0`, `1D00B`) đều còn nguyên vẹn bên dưới với **`0`** block xuyên thân van; cả `28` cổ miệng gió dừng đúng tại cổ gót giày `HTS-TAP-*`.
+
+### [2] Đè Khít 100% Tại Chỗ (`In-Place Overlay`) & Bảo Toàn 100% Nền Gốc — **PASS**
+- **Bảo toàn 100% thực thể thiết kế gốc (`380 / 380`)**:
+  - `MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED`: **`309 / 309`** (`100%`)
+  - `MEPG-AC-TEXT`: **`67 / 67`** (`100%`)
+  - `MEPG-M-EQUIP`: **`3 / 3`** (`100%`)
+  - `0`: **`1 / 1`** (`100%`)
+  - Tổng thực thể bản vẽ: **`705`** (`380` gốc + `320` HTS + `5` REVCLOUD).
+- **Độ chính xác đường tim `< 1 mm`**: Kiểm tra toàn bộ `260` đốt ống thẳng trên `40` tuyến so với đường tim thiết kế trong `bai2_geometry.json` → **sai số tim lớn nhất = `0.005 mm`** (`<< 1.0 mm`).
+- **Độ chính xác phụ kiện**:
+  - Cả `8/8` côn thu (`RED-01..08`), `6/6` nhánh chính (`BTAP-01..06`), `28/28` cổ miệng gió `600x300` (đều đúng chiều vát `45°` hướng thượng lưu về phía quạt), `7/7` nắp bịt đầu (`CAP-01..07`), và `11/11` cút phẳng đều trùng khít mặt bích & đường cong thiết kế gốc.
+- **Trạng thái Layer & Bản vẽ sạch**:
+  - Đơn vị: **`Millimeters`** (`INSUNITS = 4`, `MEASUREMENT = 1`), `OSMODE` khôi phục đúng gốc **`4031`**.
+  - Toàn bộ **`24 / 24`** layer đều `is_locked = false`, `is_frozen = false`, `is_off = false`.
+  - Phạm vi `Extents`: `(21594.36, 10509.50) .. (93916.47, 73336.01)` — không có đối tượng rác ngoài khung bản vẽ.
+
+### [3] Loại Trừ Lẫn Nhau 100% Giữa Vẽ & `REVCLOUD` (Quy Tắc Số 4) — **PASS**
+- Kiểm tra bằng cả `get_entities_in_area` lẫn thuật toán giao cắt Bounding Box chặt với toàn bộ `320` block `M-MVAC-*`:
+
+| Mã Mây | Handle | Bounding Box thực tế `(minX, minY) .. (maxX, maxY)` | Giao cắt `M-MVAC-*` | Đánh giá bao phủ vùng chưa rõ |
+| :---: | :---: | :--- | :---: | :--- |
+| **`RC-01`** | `1D980` | `(57720.55, 37180.51) .. (66020.15, 41320.86)` | **`0`** | Bao trọn phòng quạt đôi `SEAD` (`53` thực thể gốc) |
+| **`RC-02`** | `1D981` | `(63236.63, 41378.04) .. (67045.79, 44202.78)` | **`0`** | Bao trọn quạt `PAD` + nhãn mâu thuẫn `SEAD-900x350` (`22` thực thể gốc) |
+| **`RC-03`** | `1D982` | `(48952.74, 10509.50) .. (51945.08, 12288.37)` | **`0`** | Bao trọn góc đứt gãy đáy Nam thiếu cút nối |
+| **`RC-04`** | `1D983` | `(42960.99, 56946.02) .. (43800.90, 58367.33)` | **`0`** | Bao trọn trục đứng cuối tuyến `PAD` (`1CCFA + Hatch 1CBFF`) |
+| **`RC-05`** | `1D98B` | `(36136.66, 52841.85) .. (37823.95, 53629.32)` | **`0`** | Bao trọn cả 2 dòng `MTEXT` lạc `1D0D6/1D0D7` (`PAD-1200x450 / BOD=FFL+3550`) |
+
+- Không có chữ/leader rải rối bên trong các đám mây; không có đám mây thừa trên vùng đã hiểu.
+
+### [4] Toàn Vẹn Dữ Liệu 3D / BOQ (`HTS_OG_DAY` & Diện Tích Tôn) — **PASS**
+- Quét `get_xdata` (`appName: "HTS_OG_DAY"`) trên **`320 / 320`** block (`278 SEAD` + `42 PAD`): **`320 / 320` có đầy đủ XData `code: 1040` khớp chính xác 100% cao độ `BOD`** trong `plan_bai2.md` (`0` thiếu, `0` sai lệch — bao gồm toàn bộ 40 runs, 8 côn thu, 6 nhánh rẽ chính, 28/28 cổ miệng gió `600x300`, 7 nắp bịt đầu).
+- Tổng diện tích tôn ống thẳng (`compute_duct_surface_area`, `lengthScaleToMeter: 0.001`): **`743.98 m²`** trên **`260`** đốt ống thẳng chữ nhật.
+
+### [5] Kiểm Tra Trực Quan Bằng Ảnh Xuất (`export_plan_image` + `read_file`) — **PASS**
+Đã xuất và soi kiểm tra trực quan toàn bộ **14 ảnh QA** trong `work_hvac\bai2\`:
+1. `work_hvac\bai2\qa_full.png` — Toàn mặt bằng tổng thể
+2. `work_hvac\bai2\qa_crop01_header_rc01_rc02.png` — Ống góp `2200x550`, `BTAP-01..03`, `VCD`, `MFD`, `RC-01`, `RC-02`
+3. `work_hvac\bai2\qa_crop02_btap03_04_red07.png` — `BTAP-03` + đốt ngắn `55 mm` khít `VCD 1CDC2`, `BTAP-04`, `RED-07` lệch phẳng phải + `VCD 1CDC6`
+4. `work_hvac\bai2\qa_crop03_crossing_sead_pad.png` — Giao cắt khác cao độ `SEAD-950x450` dưới `PAD-900x500`, `Z-01a/b`, 2 cút `90°`, cổ `1CDDF`
+5. `work_hvac\bai2\qa_crop04_pad_tight_elbows_rc04.png` — 2 cút hẹp `0.75W` (`R=225`) trên `PAD-02/03`, `Z-06/07`, `RC-04`
+6. `work_hvac\bai2\qa_crop05_red01_rc05_nw.png` — Côn lệch phẳng trên `RED-01` (`L202`) & `RC-05` bao trọn 2 dòng `PAD-1200x450 / BOD=FFL+3550`
+7. `work_hvac\bai2\qa_crop06_nw_west_btap05_06_cap02_03.png` — `CAP-02/03`, `BTAP-05/06`, `VCD 1CED0`, `Z-03`, cổ `1CE18` & `1D05B`
+8. `work_hvac\bai2\qa_crop07a_west_red02_03.png` — Nhánh đứng Tây: `RED-02`, `RED-03`, cổ `1CE15`, cặp đối xứng `1CE13/1CE14`
+9. `work_hvac\bai2\qa_crop07b_west_red04_cap04.png` — Nhánh đứng Tây đoạn dưới: `RED-04`, cặp đối xứng `1CE11/12`, `1CE10/0F`, `1CE0D/0E`, `CAP-04`
+10. `work_hvac\bai2\qa_crop08_ne_39deg_red05_06_cap05.png` — Nhánh Đông-Bắc: `RED-05`, 2 cút góc chéo `39°`, cút `90°`, `RED-06`, `CAP-05`, 4 cổ miệng gió
+11. `work_hvac\bai2\qa_crop09_south_rc03_red08_cap06.png` — Nhánh đáy Nam: `RED-08`, `CAP-06`, 4 cổ miệng gió `+Y`, `RC-03`
+12. `work_hvac\bai2\qa_crop10_rc03_zoom.png` — Zoom cận `RC-03` kiểm tra khe hở tuyệt đối `0` giao cắt với `SEAD-S03` & `SEAD-SW01`
+13. `work_hvac\bai2\qa_crop11_se_elbow_cap07.png` — Nhánh Đông-Nam: cút `90°`, `Z-05`, 3 cổ miệng gió, `CAP-07`
+14. `work_hvac\bai2\qa_crop12_nw_elbow_z02.png` — Cút lớn `1850x450` (`R925`), `Z-02`, cổ miệng gió `1CF15`
+
+**Nhận xét trực quan**: Toàn bộ đường nét `M-MVAC-SEAD` và `M-MVAC-PAD` hiển thị sắc nét nằm trên (`DRAWORDER _Front`) nét thiết kế màu vàng gốc; đường tim, góc vát côn thu, bán kính cút (gồm cả `39°` và `R=225`), chiều vát `45°` của toàn bộ `34` gót giày, mặt bích dừng tại `7` van gió, và `5` đám mây `CLOUND` đều đạt độ sạch và chính xác cao, không có khe hở bất thường, chồng chéo hay nắp bịt trôi.
+
+---
+
+## 3. Bảng Câu Hỏi Xác Nhận Cho 05 Đám Mây `REVCLOUD` (`Layer CLOUND`)
+
+| Mã Mây | Vị trí trên mặt bằng | Vướng mắc cần Kỹ sư xác nhận |
+| :---: | :--- | :--- |
+| **`RC-01`** | Phòng Quạt Hút Khói Đôi `SEAD` (`X=57720..66020, Y=37180..41320`) | Cụm chạc quần + 2 quạt `TDA 1000` + 4 tiêu âm + 2 `MFD` + 2 `NRD` + 2 đầu đẩy cụt thiếu toàn bộ nhãn `WxH`/`ØD` & `BOD`, chưa rõ đấu nối đầu đẩy ra Shaft/Louver; đồng thời thư viện HTS chưa có block Quạt hướng trục & Tiêu âm khối. Cần xác nhận kích thước, cao độ và phương án xử lý cụm thiết bị này. |
+| **`RC-02`** | Cụm Quạt Tăng Áp `PAD` (`X=63237..67046, Y=41378..44203`) | Quạt `TDA 900` chưa có block HTS; ngay sau cút nối từ `PAD-900x500 (BOD=+3000)` xuất hiện nhãn leader **`SEAD-900x350 / BOD=FFL+3075`** mâu thuẫn cả tên hệ (`SEAD` vs `PAD`) lẫn kích thước/cao độ (không có côn thu); đầu ống dừng cụt tại `Y=41521.5`. Cần xác nhận đúng hệ/cỡ ống và điểm đấu nối đầu cụt. |
+| **`RC-03`** | Góc Đáy Nam `SEAD-1000x350` (`X=48953..51945, Y=10510..12288`) | Tuyến đứng dừng cụt ở `Y=12316`, tuyến ngang dừng lệch mép ở `X=48918.1` (khoảng hở `~2.2 m x 1.0 m` không có cút nối hay nắp bịt). Cần xác nhận nối bằng cút `90°` `1000x350` hay đang thiếu trục/thiết bị tại góc này. |
+| **`RC-04`** | Trục đứng cuối tuyến `PAD-900x500` (`X=42961..43801, Y=56946..58367`) | Trục đứng (`1CCFA + Hatch 1CBFF`) không có ghi chú hướng đi **LÊN (UP)** hay **XUỐNG (DOWN)** và thiếu cao độ đích trục tăng áp. Cần xác nhận hướng đi để chọn đúng block cút/trục đứng HTS. |
+| **`RC-05`** | Nhãn Text lạc dưới `SEAD-1500x450` (`X=36137..37824, Y=52842..53629`) | Cặp nhãn **`PAD-1200x450 / BOD=FFL+3550`** nằm trơ trọi giữa khoảng trống, không có nét ống tương ứng. Cần xác nhận là Text dư thừa của thiết kế hay bị thiếu tuyến ống `PAD-1200x450`. |
+
+---
+
+## 4. Kinh Nghiệm Kỹ Thuật Mới Đề Xuất Đúc Kết Vào Skill `shopdrawing-ong-gio`
+
+1. **Kiểm tra `INSUNITS` trước khi vẽ trên bản vẽ xuất từ Revit**: Nhiều file Revit xuất DWG mang tọa độ thực tế hệ `mm` nhưng cờ hệ thống `INSUNITS = 1` (`Inches`). Bắt buộc chạy `_.INSUNITS\n4\n` và `_.MEASUREMENT\n1\n` trước khi gọi `draw_rectangular_duct`, rồi đo `get_bounding_box` đốt ống đầu tiên để tránh lỗi phóng `25.4x`.
+2. **Dùng `HTS_RVOG` an toàn không xóa nền gốc (`Xoagoc = KHÔNG`)**: Trong lệnh `HTS_RVOG`, tùy chọn `Xoagoc` mặc định là `CÓ` (xóa cả thực thể trên layer đang khóa). Gửi tùy chọn `Xoagoc` để chuyển sang `KHÔNG` giúp sinh côn thu chuẩn chiều dài thiết kế (`L202`/`L204`) mà vẫn bảo toàn 100% thực thể thiết kế gốc, sau đó chuyển layer về `M-MVAC-*` và đổi tên block về tiền tố `HTS-CON-*`.
+3. **Bù phồng ngoài của `_.REVCLOUD` (`~0.34 × arcLen`)**: Lệnh `_.REVCLOUD _A <arcLen> _R` phồng cung tròn ra ngoài khung chữ nhật đầu vào khoảng `0.34 × arcLen`. Tại các mép gần ống `M-MVAC-*`, cần thu lùi khung nhập vào `0.35 × arcLen + 15 mm` rồi kiểm chứng giao cắt Bounding Box chặt = `0`.
+4. **Kiểm chứng hướng vát `45°` cho toàn bộ gót giày `HTS-TAP-*` sau `QUETPK`**: `QUETPK` sinh chiều vát mặc định không phụ thuộc chiều gió thực tế — luôn đối chiếu `get_bounding_box` từng `HTS-TAP-*` với hình học thiết kế gốc / hướng gió thượng lưu và dùng `mirror_entity` (`eraseSource: true`) qua trục cổ trích nếu bị ngược.
+5. **Cút bán kính hẹp `0.75W` & Giao cắt 2D khác cao độ**: Truyền tường minh `"R": 0.25 * W` (VD `R: 225` cho `W = 900`) trong `draw_rectangular_duct` với các cút `0.75W`; khi 2 hệ ống gió cắt nhau trên mặt bằng 2D ở cao độ khác nhau (`SEAD` chui dưới `PAD`), bắt buộc khóa tạm layer hệ còn lại (`M-MVAC-PAD`) và dùng cửa sổ quét cục bộ khi chạy `QUETPK`.
+
+---
+
+## 5. Nghiệm Thu Bổ Sung — Xử Lý Cục Bộ Góc `RC-03` & Live Skill Sync (`RC-03 Revision Pass`) — **PASS 100%**
+
+Thực hiện kiểm định chỉ-đọc độc lập sau khi `@rc03-fixer` xử lý góc hội tụ `SEAD-S03` ↔ `SEAD-SW01` theo **Quy tắc cứng số 3 (cập nhật)**: *chủ động đấu nối 2 nhánh cùng hệ thống bị thiết kế vẽ thiếu phụ kiện tại góc bằng 100% phụ kiện HTS (`R = W / 2`), không khoanh mây `REVCLOUD`*.
+
+### 5.1. Kiểm Tra Đồng Bộ Skill & Workspace Rules — **PASS**
+- **`.agents\skills\shopdrawing-ong-gio\SKILL.md`**: Đã cập nhật chính xác Quy tắc cứng số 3 (*Chủ động đấu nối góc thiếu phụ kiện giữa 2 nhánh ống cùng hệ thống*, cút chuẩn `R = W / 2`, kèm côn thu nếu khác cỡ, tuyệt đối không khoanh mây `REVCLOUD`) và đồng bộ Quy tắc cứng số 4.
+- **`.agents\rules\hvac-shopdrawing-rules.md`**: Đã cập nhật chính xác mục 3 khớp 100% nội dung Skill.
+
+### 5.2. Kết Quả Kiểm Định Chỉ-Đọc Trực Tiếp Trên `bai 2.dwg` (`port 5088`) — **PASS**
+- **Bảo toàn 100% nền thiết kế gốc (`380 / 380`)**:
+  - `MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED`: **`309 / 309`**
+  - `MEPG-AC-TEXT`: **`67 / 67`**
+  - `MEPG-M-EQUIP`: **`3 / 3`**
+  - `0`: **`1 / 1`**
+  - Tổng thực thể bản vẽ sau hiệu chỉnh: **`707`** (`380` gốc + `323` HTS + `4` `REVCLOUD`).
+- **100% HTS Tool, `ByLayer`, `0` Block Thừa & Quy Tắc Số 0**:
+  - **`M-MVAC-SEAD` = `281`** (`224` `HTS-OG`, `8` `HTS-CO`, `34` `HTS-TAP`, `8` `HTS-CON`, `7` `HTS-CAP`); **`M-MVAC-PAD` = `42`** (`38` `HTS-OG`, `4` `HTS-CO`); tổng **`323 / 323`** đều là `INSERT` tên `HTS-*`, `0` nét vẽ giả.
+  - Quét toàn bộ dải màu cưỡng bức `ACI 1..255` (`select_by_color`) trên cả `323` block `M-MVAC-*`: **`0`** vi phạm (`100% ByLayer`).
+  - `list_block_definitions` (`includeUnused: true`): `211` định nghĩa block, **`0`** block thừa (`instance_count = 0`; đã purge sạch `HTS-OG-1000x350 L677`).
+  - Quy tắc số 0: **`0`** thực thể ngoài yêu cầu trên `M-MVAC-Equipment` và `9` layer Spec chưa dùng.
+- **Kiểm định hình học & cao độ độc lập tại nút góc `RC-03`**:
+  - Tái dựng độc lập đường tim từ 4 nét gốc (`1CCC2`/`1CCC5` cho `SEAD-S03` rộng `1000.00 mm` và `1CCBE`/`1CCBF` cho `SEAD-SW01` rộng `1000.00 mm`): giao điểm lý thuyết `(51142.4812, 11314.0085)`, góc hội tụ **`89.9998°`** (`90°`).
+  - Cút mới **`1D9B1`** (`HTS-CO-V47-1000x350-R500-A90`): bán kính cong trong chuẩn **`R = 500 = W / 2`**, sai số điểm chèn so với giao điểm lý thuyết **`0.0019 mm`** (`errS03 = 0.0012 mm`, `errSW01 = 0.0015 mm`), BBox `1500.12 × 1500.12 mm`, `HTS_OG_DAY = 2500`.
+  - Chuỗi đấu nối liền mạch `1D517 (L1110)` → `1D99D (L679)` → `1D9B1 (R500-A90)` → `1D99E (L1110)` → `1D9A9 (L114)` → `1D523 (L1110)`: sai số tim lớn nhất **`0.0047 mm`** (`<< 1.0 mm`), **`0` khe hở**, **`0` chồng chéo**, toàn bộ đoạn lân cận & cổ gót giày không bị xô lệch.
+  - Xác minh XData `HTS_OG_DAY` trên **`323 / 323`** (`100%`) block `M-MVAC-SEAD` & `M-MVAC-PAD`: `0` thiếu, `0` lỗi (cả `4/4` block mới = `2500`).
+- **Xác minh `REVCLOUD` còn lại (`4` đám mây trên `CLOUND`)**:
+  - Đám mây cũ `RC-03` (`1D982`) đã xóa hoàn toàn (`exists = false`).
+  - Còn đúng **`4`** `REVCLOUD` (`RC-01`: `1D980`, `RC-02`: `1D981`, `RC-04`: `1D983`, `RC-05`: `1D98B`), kiểm tra giao cắt BBox chặt với tất cả `323` block `M-MVAC-*`: **`0`** giao cắt.
+- **Trạng thái Layer, Đơn vị & Diện tích tôn cập nhật**:
+  - Toàn bộ **`24 / 24`** layer đều `is_locked = false`, `is_frozen = false`, `is_off = false`.
+  - `OSMODE = 4031`, `units = Millimeters` (`INSUNITS = 4`).
+  - Tổng diện tích tôn ống thẳng (`compute_duct_surface_area`, `lengthScaleToMeter: 0.001`): **`747.29 m²`** trên **`262`** đốt ống thẳng (`+3.31 m²`, `+2` đốt so với bản đầu `743.98 m² / 260`).
+
+### 5.3. Kiểm Tra Trực Quan Sau Hiệu Chỉnh (`export_plan_image` + `read_file`) — **PASS**
+- `work_hvac\bai2\qa_rc03_verify_zoom.png` — Zoom cận góc `RC-03` (`X=47200..52500, Y=10200..14200`): cút `R500` và 3 đoạn nối mới khít mặt bích tuyệt đối với `1D517` và `1D523`, không còn mây `RC-03`, `DRAWORDER` sắc nét nằm trên nét thiết kế gốc.
+- `work_hvac\bai2\qa_full_v2.png` — Toàn mặt bằng cập nhật: góc đáy Nam đấu nối hoàn chỉnh, còn đúng `4` đám mây `RC-01, RC-02, RC-04, RC-05`, toàn bộ các tuyến khác giữ nguyên vẹn 100%.

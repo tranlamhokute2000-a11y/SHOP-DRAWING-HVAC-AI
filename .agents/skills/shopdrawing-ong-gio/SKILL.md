@@ -34,13 +34,14 @@ Quy trình chuẩn kỹ sư MEP triển khai bản vẽ Shop Drawing ống gió 
 - **TUYỆT ĐỐI CẤM** vẽ lệch ra ngoài hoặc dựng tạm ở vùng nháp ngoài tọa độ gốc rồi mới `move` về!
 - **Kỹ thuật quét phụ kiện tại chỗ an toàn**: Trước khi gọi `QUETPK` (`hvac-fitting-scan`), đặt `OSMODE = 0` và khóa tạm (`locked: true`) các layer thiết kế cũ; sau khi xong khôi phục nguyên trạng `OSMODE` và mở khóa (`locked: false`). *(Lưu ý đặc biệt với `HTS_RVOG`: lệnh này có thể xóa thực thể nguồn nằm trong vùng quét kể cả khi layer bị khóa — luôn đối chiếu đếm số lượng thực thể layer nền trước/sau khi chạy và đảm bảo nền thiết kế gốc nguyên vẹn 100% + `DRAWORDER` nằm dưới lớp `M-MVAC-*`)*.
 
-### Quy tắc cứng số 3 — Quy tắc Nội suy Kích thước Dọc Tuyến Ống & Côn Thu
+### Quy tắc cứng số 3 — Quy tắc Nội suy Kích thước Dọc Tuyến Ống, Côn Thu & Chủ Động Đấu Nối Góc Thiếu Phụ Kiện
 - **Cùng 1 tuyến ống gió khi chuyển hướng (cút 90°/45°, đoạn chuyển hướng Jog)** mà người vẽ thiết kế thiếu Text ghi kích thước: **BẮT BUỘC nội suy kích thước từ Text có trên tuyến ống đó** để triển khai vẽ hoàn chỉnh, **KHÔNG khoanh mây bỏ trống**!
 - **Kích thước ống gió CHỈ thay đổi khi đi qua phụ kiện Côn thu (`Reducer / Transition`)**: kể từ ngay sau mặt bích đầu ra của côn thu, toàn bộ đoạn ống thẳng và các đoạn chuyển hướng tiếp theo lấy kích thước theo **tuyến ống tiếp theo**!
+- **Chủ động đấu nối góc thiếu phụ kiện giữa 2 nhánh ống cùng hệ thống**: Khi 2 tuyến ống thuộc **cùng 1 hệ thống** hội tụ nhau (vuông góc `90°` hoặc bất kỳ góc nghiêng $\theta$ nào) mà bản vẽ thiết kế gốc **bị vẽ thiếu phụ kiện nối tại góc**, căn cứ theo nhãn Text thượng lưu & hạ lưu để suy luận rằng người thiết kế chỉ vẽ sót phụ kiện — **CHỦ ĐỘNG đấu nối hoàn chỉnh 2 tuyến bằng 100% phụ kiện HTS phù hợp** (cút cong/cút góc khớp chính xác góc giữa 2 đường tim với bán kính cong trong tiêu chuẩn **`R = W / 2`**, kèm **côn thu** nếu kích thước `WxH` hai nhánh khác nhau) và **TUYỆT ĐỐI KHÔNG khoanh mây `REVCLOUD`** tại góc nối đó!
 
 ### Quy tắc cứng số 4 — Nguyên tắc Loại trừ Lẫn nhau 100% giữa Vẽ Shop và Khoanh Mây `REVCLOUD`
 - **TUYỆT ĐỐI KHÔNG BAO GIỜ VỪA VẼ SHOP DRAWING VỪA KHOANH MÂY `REVCLOUD` CÙNG MỘT VỊ TRÍ!** Mọi khu vực trên mặt bằng chỉ thuộc **1 trong 2 trạng thái loại trừ nhau**:
-  1. **Vùng ĐÃ HIỂU & CHẮC CHẮN ĐÚNG** *(bao gồm các đoạn chuyển hướng đã nội suy được theo Quy tắc số 3)*: Vẽ đè khít 100% bằng HTS Tool và **KHÔNG khoanh mây**.
+  1. **Vùng ĐÃ HIỂU & CHẮC CHẮN ĐÚNG** *(bao gồm các đoạn chuyển hướng đã nội suy được và các góc hội tụ cùng hệ thống thiếu phụ kiện đã chủ động đấu nối theo Quy tắc số 3)*: Vẽ đè khít 100% bằng HTS Tool và **KHÔNG khoanh mây**.
   2. **Vùng THỰC SỰ KHÔNG HIỂU / THIẾU HOÀN TOÀN THÔNG SỐ KHÔNG THỂ NỘI SUY / HTS CHƯA CÓ BLOCK THIẾT BỊ** *(ví dụ cụm phòng quạt + tiêu âm thiếu toàn bộ Text kích thước & đầu chờ cụt)*: **Khoanh mây `REVCLOUD` trên Layer `CLOUND` (`ACI 240`) và BỎ TRỐNG HOÀN TOÀN (`0` block `M-MVAC-*` bên trong mây)** — chỉ giữ nguyên nét thiết kế gốc bên dưới, không chèn chữ/leader dài đè rối bản vẽ. Chỉ sau khi kết thúc toàn bộ tiến trình vẽ mới liệt kê câu hỏi theo từng mây để hỏi người dùng!
 
 ---

@@ -1,0 +1,3668 @@
+{
+  "drawing_info": {
+    "tool": "get_drawing_info",
+    "success": true,
+    "content": "Drawing info OK.",
+    "data": {
+      "filename": "C:\\Users\\Admin\\Desktop\\SHOPDRAWING-HVAC-AI\\bai 2.dwg",
+      "units": "Inches",
+      "layer_count": 11,
+      "entity_count": 380,
+      "block_ref_count": 142,
+      "current_layer": "0",
+      "extmin": {
+        "x": 21594.360620427768,
+        "y": 10782.639491267826
+      },
+      "extmax": {
+        "x": 93916.47318390134,
+        "y": 73336.01052286758
+      }
+    }
+  },
+  "current_settings": {
+    "tool": "get_current_settings",
+    "success": true,
+    "content": "Thong tin cai dat hien tai.",
+    "data": {
+      "currentLayer": "0",
+      "mlineScale": 1,
+      "mlineJustification": 0,
+      "mlineStyle": "STANDARD",
+      "osmode": 4031,
+      "drawingFileName": "C:\\Users\\Admin\\Desktop\\SHOPDRAWING-HVAC-AI\\bai 2.dwg"
+    }
+  },
+  "layer_list": {
+    "tool": "get_layer_list",
+    "success": true,
+    "content": "Co 11 layer, layer hien tai: 0",
+    "data": {
+      "currentLayer": "0",
+      "layers": [
+        {
+          "name": "0",
+          "isOff": false,
+          "isFrozen": false,
+          "color": 7
+        },
+        {
+          "name": "MEPG-XREF-ARC",
+          "isOff": false,
+          "isFrozen": false,
+          "color": 8
+        },
+        {
+          "name": "MEPG-M-EQUIP",
+          "isOff": false,
+          "isFrozen": false,
+          "color": 8
+        },
+        {
+          "name": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+          "isOff": false,
+          "isFrozen": false,
+          "color": 7
+        },
+        {
+          "name": "MEPG-AC-M-Cấp gió tạo áp-Pressurization Air-PAD",
+          "isOff": false,
+          "isFrozen": false,
+          "color": 7
+        },
+        {
+          "name": "MEPG-AC-M-Cấp gió tươi không khí-Fresh Air-FAD",
+          "isOff": false,
+          "isFrozen": false,
+          "color": 7
+        },
+        {
+          "name": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+          "isOff": false,
+          "isFrozen": false,
+          "color": 7
+        },
+        {
+          "name": "MEPG-AC-M-Cấp gió lạnh FCU_AHU-Cool Air FCU_AHU-SAD",
+          "isOff": false,
+          "isFrozen": false,
+          "color": 7
+        },
+        {
+          "name": "MEPG-AC-M-Hồi gió lạnh FCU_AHU-Return Air-RAD",
+          "isOff": false,
+          "isFrozen": false,
+          "color": 7
+        },
+        {
+          "name": "MEPG-AC",
+          "isOff": false,
+          "isFrozen": false,
+          "color": 7
+        },
+        {
+          "name": "MEPG-AC-TEXT",
+          "isOff": false,
+          "isFrozen": false,
+          "color": 7
+        }
+      ]
+    }
+  },
+  "group_summary": {
+    "tool": "group_summary_by_layer",
+    "success": true,
+    "content": "Da quet 4 layer.",
+    "data": {
+      "layers": [
+        {
+          "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+          "count": 309,
+          "total_length": 548579.1416023461,
+          "total_area": 0
+        },
+        {
+          "layer": "MEPG-M-EQUIP",
+          "count": 3,
+          "total_length": 0,
+          "total_area": 0
+        },
+        {
+          "layer": "MEPG-AC-TEXT",
+          "count": 67,
+          "total_length": 1989.3489389020833,
+          "total_area": 0
+        },
+        {
+          "layer": "0",
+          "count": 1,
+          "total_length": 27622.6376568858,
+          "total_area": 34383393.84820033
+        }
+      ]
+    }
+  },
+  "block_defs": {
+    "tool": "list_block_definitions",
+    "success": true,
+    "content": "339 block definition.",
+    "data": {
+      "items": [
+        {
+          "name": "CEN-KRUGER_AXIAL FAN_TDA-FV SERIES - TDA 900-10938456-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-10986766-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van NRD-V471-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-KRUGER_AXIAL FAN_TDA-FV SERIES - TDA 1000-10938458-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-KRUGER_AXIAL FAN_TDA-FV SERIES - TDA 1000-V472-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 2,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DUCT-Trouser Piece-R2 - Trouser Piece-8543966-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN_SILENCER DUCT - L900xW1700xH1000-10946864-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 2,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN_SILENCER DUCT - L900xW1250xH1400-10970685-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-7845929-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-V496-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van VCD-9549874-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-KRUGER_AXIAL FAN_TDA-FV SERIES - TDA 900-V525-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "MIENG GIO DANG NAN - LB90 1350x60-10173326-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Khớp Nối Mềm Vuông - Khớp Nối Mềm Vuông-10174000-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Khớp Nối Mềm Vuông - Khớp Nối Mềm Vuông-10174061-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DUCT-Chân Rẽ Vuông Tròn - CEN-DUCT-Chân Rẽ Vuông Tròn-L200-10174220-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "MIENG GIO DANG NAN - LB90 1350x60-V532-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213313-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 2,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213342-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213356-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213311-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213377-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213382-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-10213431-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120 0_75W-10436119-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-10213391-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10214728-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V545-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10214459-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10214482-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10214485-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V546-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10214820-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10216091-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10666439-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V547-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10214469-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10673399-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10215057-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V548-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10215990-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10216008-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10216017-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10214629-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V570-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10219596-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-ENDCAP - Bít ống gió EI60-10239568-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 2,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-ENDCAP - Bít ống gió EI60-10245830-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-ENDCAP - Bít ống gió EI60-10249703-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 2,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10985819-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10250460-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10250468-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V622-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V623-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V624-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V625-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213385-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van NRD-10250808-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-EI120-10250851-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-ENDCAP - Bít ống gió EI60-10213110-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van VCD-V626-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van VCD-V627-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van VCD-9321092-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10251453-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10666489-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10985821-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10252365-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-ENDCAP - Bít ống gió EI60-10252616-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-ENDCAP - Bít ống gió EI60-10252627-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van VCD-10257468-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van VCD-10257473-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10222334-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 3,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V635-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V637-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 2,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V738-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 10,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V753-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V754-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V755-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V756-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V757-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V758-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271532-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V759-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 2,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271548-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 2,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V760-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V761-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V762-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271565-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V763-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271574-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V764-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V765-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 2,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V766-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V767-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V768-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V769-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V770-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V771-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V772-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V773-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 2,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271635-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 2,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271643-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271640-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271645-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271647-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271649-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271651-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V774-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271661-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V843-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V855-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10827655-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10322833-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10322839-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10322875-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10322881-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10322918-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10322917-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10322966-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10656893-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V858-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10652184-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10323850-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-11046047-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10437010-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-11046049-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10325206-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V861-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10797735-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10325621-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10325625-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10325682-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10228354-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10326131-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V862-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V863-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10327423-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-ENDCAP - Bít ống gió EI60-10342908-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-ENDCAP - Bít ống gió EI60-10342934-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-ENDCAP - Bít ống gió EI60-V875-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10343112-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10343493-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10348831-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10348842-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10349262-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-ENDCAP - Bít ống gió EI120-10360512-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van VCD-V902-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van VCD-9256813-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-V942-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-10228221-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-10360469-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-V943-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-V944-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-V945-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-10360551-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-V946-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120 0_75W-10360749-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI120-11422022-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-EI120-V947-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van NRD-V948-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-EI60-10361020-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-EI120-V949-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-EI60-10361140-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-EI60-10361178-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-EI60-10361216-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-EI60-V950-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-EI60-V951-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10670138-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10430328-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10670140-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10899051-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10663338-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10885866-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10885870-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van VCD-V990-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10434383-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10434949-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120 0_75W-11986514-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120 0_75W-10435595-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-V991-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-V992-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-V993-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-10436936-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-10436967-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V994-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10437617-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V995-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V996-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10438763-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V1000-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10228157-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1001-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-ENDCAP - Bít ống gió EI60-V1002-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-11422002-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10343079-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10444678-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1003-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1004-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1005-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-V1066-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC-10567811-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10568128-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10569084-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10569102-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1102-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10570618-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1117-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1118-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10652016-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1119-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10652227-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-11988930-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10656924-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10661634-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10662368-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10662415-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10662417-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10662420-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1121-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1122-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-11375821-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10666494-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10674302-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10674350-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271538-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10417116-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1140-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1141-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1142-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10322967-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10797728-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1143-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10797737-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10489526-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60 0_75W-10800273-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60 0_75W-V1144-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1145-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10801208-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10800987-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60 0_75W-10801070-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10801183-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-11296322-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10801360-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1146-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1147-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1148-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1149-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10802203-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1150-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1151-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1152-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1153-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1154-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1155-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1156-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10802731-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1157-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-11046165-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-10805106-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-11005628-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1158-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1159-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1160-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10805778-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-11046051-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10867259-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-EI60-10360866-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10885857-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10885830-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10899048-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van VCD-V1177-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-V1178-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-10935796-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1280-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1281-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-EI60-10984680-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-EI60-V1282-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van NRD-10985138-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-EI60-V1283-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L700-10985592-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 2,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L500-10986311-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10986320-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 2,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN_SILENCER DUCT - L900xW1250xH1400-V1284-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1285-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1286-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van NRD-V1287-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-EI60-V1288-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L500-V1289-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1290-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1291-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-EI120-V1292-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TO ROUND REDUCER-TDC FLANGE - Giảm vuông tròn nẹp TDC EI120-10986813-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TO ROUND REDUCER-TDC FLANGE - Giảm vuông tròn nẹp TDC EI120-10986817-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 1,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DUCT-Trouser Piece-R2 - Trouser Piece-V1361-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-KRUGER_AXIAL FAN_TDC-SERIES - TDC 1120_C22_G_9-7V_15_17_19-V1371-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN_SILENCER DUCT - L900xW1250xH1300-V1390-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN_SILENCER DUCT - L900xW1250xH1300-V1391-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L300-11003663-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L300-11003665-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN_SILENCER DUCT - L900xW1700xH800-V1402-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN_SILENCER DUCT - L900xW1700xH800-V1403-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1404-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1405-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1406-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1407-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-EI60-V1408-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-EI60-V1409-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-EI60-V1410-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van MFD-EI60-V1411-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van NRD-V1412-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Van Vuông - Van NRD-V1413-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L300-11003954-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L300-11003957-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-11045455-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-11045607-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1488-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-11046080-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-12058758-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-V1489-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-V1490-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1491-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1492-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1493-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1494-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L500-11047237-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L500-11047239-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L500-11047226-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L500-11047228-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-11047294-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-11047298-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DUCT-Bịt Đầu - CEN-DUCT-Bịt Đầu-11727367-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-11987279-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120 0_75W-11987283-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-V1693-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-12057664-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-11988972-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-12149599-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        },
+        {
+          "name": "Grid - CEN-GRID-HEAD-991982-MB HỆ THỐNG ĐHKK HẦM B1",
+          "instance_count": 0,
+          "has_attributes": false,
+          "is_dynamic": false
+        }
+      ]
+    }
+  },
+  "all_text": {
+    "tool": "extract_all_text",
+    "success": true,
+    "content": "Tim duoc 66 text entity.",
+    "data": {
+      "items": [
+        {
+          "handle": "1D085",
+          "type": "MTEXT",
+          "content": "SEAD-2200x550",
+          "layer": "MEPG-AC-TEXT",
+          "x": 53580.51018660751,
+          "y": 39427.97547070899,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D086",
+          "type": "MTEXT",
+          "content": "BOD=FFL+2950",
+          "layer": "MEPG-AC-TEXT",
+          "x": 53580.51018660751,
+          "y": 39289.06922070899,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D087",
+          "type": "MTEXT",
+          "content": "SEAD-950x450",
+          "layer": "MEPG-AC-TEXT",
+          "x": 55679.76705932469,
+          "y": 42708.94439766278,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D088",
+          "type": "MTEXT",
+          "content": "BOD=FFL+3050",
+          "layer": "MEPG-AC-TEXT",
+          "x": 55818.673309324746,
+          "y": 42708.94439766278,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D08B",
+          "type": "MTEXT",
+          "content": "SEAD-950x450",
+          "layer": "MEPG-AC-TEXT",
+          "x": 59045.71533040187,
+          "y": 47412.88497182667,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D08C",
+          "type": "MTEXT",
+          "content": "BOD=FFL+2505",
+          "layer": "MEPG-AC-TEXT",
+          "x": 59045.71533040187,
+          "y": 47273.97872182667,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D08D",
+          "type": "MTEXT",
+          "content": "SEAD-950x450",
+          "layer": "MEPG-AC-TEXT",
+          "x": 62659.265170890925,
+          "y": 47413.059897896295,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D08E",
+          "type": "MTEXT",
+          "content": "BOD=FFL+3050",
+          "layer": "MEPG-AC-TEXT",
+          "x": 62659.265170890925,
+          "y": 47274.153647896295,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D08F",
+          "type": "MTEXT",
+          "content": "SEAD-950x450",
+          "layer": "MEPG-AC-TEXT",
+          "x": 66150.99408497641,
+          "y": 54789.26352134491,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D090",
+          "type": "MTEXT",
+          "content": "BOD=FFL+3050",
+          "layer": "MEPG-AC-TEXT",
+          "x": 66289.90033497641,
+          "y": 54789.26352134491,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D091",
+          "type": "MTEXT",
+          "content": "SEAD-700x400",
+          "layer": "MEPG-AC-TEXT",
+          "x": 69118.25272999177,
+          "y": 68306.35788308574,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D092",
+          "type": "MTEXT",
+          "content": "BOD=FFL+3100",
+          "layer": "MEPG-AC-TEXT",
+          "x": 69257.15897999183,
+          "y": 68306.35788308574,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D093",
+          "type": "MTEXT",
+          "content": "SEAD-700x400",
+          "layer": "MEPG-AC-TEXT",
+          "x": 65736.28691184617,
+          "y": 73072.32546646996,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D094",
+          "type": "MTEXT",
+          "content": "BOD=FFL+3100",
+          "layer": "MEPG-AC-TEXT",
+          "x": 65736.28691184617,
+          "y": 72933.41921646996,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D095",
+          "type": "MTEXT",
+          "content": "SEAD-550x350",
+          "layer": "MEPG-AC-TEXT",
+          "x": 55024.20069563572,
+          "y": 73072.1701443692,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D096",
+          "type": "MTEXT",
+          "content": "BOD=FFL+3150",
+          "layer": "MEPG-AC-TEXT",
+          "x": 55024.20069563572,
+          "y": 72933.2638943692,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D098",
+          "type": "MTEXT",
+          "content": "SEAD-900x350",
+          "layer": "MEPG-AC-TEXT",
+          "x": 63549.26579703149,
+          "y": 42347.361274234965,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D099",
+          "type": "MTEXT",
+          "content": "BOD=FFL+3075",
+          "layer": "MEPG-AC-TEXT",
+          "x": 63549.26579703149,
+          "y": 42208.455024234965,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D09C",
+          "type": "MTEXT",
+          "content": "PAD-900x500",
+          "layer": "MEPG-AC-TEXT",
+          "x": 44858.841494019114,
+          "y": 62601.805214661974,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D09D",
+          "type": "MTEXT",
+          "content": "BOD=FFL+3350",
+          "layer": "MEPG-AC-TEXT",
+          "x": 44858.841494019114,
+          "y": 62462.898964662,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D09E",
+          "type": "MTEXT",
+          "content": "PAD-900x500",
+          "layer": "MEPG-AC-TEXT",
+          "x": 44859.95813896399,
+          "y": 58600.045093996785,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D09F",
+          "type": "MTEXT",
+          "content": "BOD=FFL+3790",
+          "layer": "MEPG-AC-TEXT",
+          "x": 44998.86438896399,
+          "y": 58600.045093996785,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0A0",
+          "type": "MTEXT",
+          "content": "SEAD-1850x450",
+          "layer": "MEPG-AC-TEXT",
+          "x": 50881.157672936126,
+          "y": 44675.159030270486,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0A1",
+          "type": "MTEXT",
+          "content": "BOD=FFL+3050",
+          "layer": "MEPG-AC-TEXT",
+          "x": 51020.063922936184,
+          "y": 44675.159030270486,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0A2",
+          "type": "MTEXT",
+          "content": "SEAD-1850x450",
+          "layer": "MEPG-AC-TEXT",
+          "x": 43087.46439756456,
+          "y": 54951.488194973426,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0A3",
+          "type": "MTEXT",
+          "content": "BOD=FFL+2300",
+          "layer": "MEPG-AC-TEXT",
+          "x": 43087.46439756456,
+          "y": 54812.581944973426,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0A4",
+          "type": "MTEXT",
+          "content": "SEAD-1500x450",
+          "layer": "MEPG-AC-TEXT",
+          "x": 31902.545284893626,
+          "y": 55126.57841537571,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0A5",
+          "type": "MTEXT",
+          "content": "BOD=FFL+2300",
+          "layer": "MEPG-AC-TEXT",
+          "x": 31902.545284893626,
+          "y": 54987.67216537571,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0A6",
+          "type": "MTEXT",
+          "content": "SEAD-1500x450",
+          "layer": "MEPG-AC-TEXT",
+          "x": 24302.83106603581,
+          "y": 55126.41449455115,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0A7",
+          "type": "MTEXT",
+          "content": "BOD=FFL+2720",
+          "layer": "MEPG-AC-TEXT",
+          "x": 24302.83106603581,
+          "y": 54987.50824455115,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0A8",
+          "type": "MTEXT",
+          "content": "SEAD-1300x450",
+          "layer": "MEPG-AC-TEXT",
+          "x": 23103.336150839954,
+          "y": 49176.60782945184,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0A9",
+          "type": "MTEXT",
+          "content": "BOD=FFL+2720",
+          "layer": "MEPG-AC-TEXT",
+          "x": 23242.242400839954,
+          "y": 49176.60782945184,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0AA",
+          "type": "MTEXT",
+          "content": "SEAD-1200x400",
+          "layer": "MEPG-AC-TEXT",
+          "x": 23104.068551928358,
+          "y": 41200.49608387989,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0AB",
+          "type": "MTEXT",
+          "content": "BOD=FFL+2770",
+          "layer": "MEPG-AC-TEXT",
+          "x": 23242.974801928416,
+          "y": 41200.49608387989,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0AC",
+          "type": "MTEXT",
+          "content": "SEAD-950x400",
+          "layer": "MEPG-AC-TEXT",
+          "x": 23104.610476571164,
+          "y": 34829.980370938414,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0AD",
+          "type": "MTEXT",
+          "content": "BOD=FFL+2770",
+          "layer": "MEPG-AC-TEXT",
+          "x": 23243.516726571164,
+          "y": 34829.980370938414,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0AE",
+          "type": "MTEXT",
+          "content": "SEAD-750x350",
+          "layer": "MEPG-AC-TEXT",
+          "x": 23105.408816482493,
+          "y": 24989.326522673175,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0AF",
+          "type": "MTEXT",
+          "content": "BOD=FFL+2820",
+          "layer": "MEPG-AC-TEXT",
+          "x": 23244.315066482493,
+          "y": 24989.326522673175,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0B0",
+          "type": "MTEXT",
+          "content": "SEAD-350x350",
+          "layer": "MEPG-AC-TEXT",
+          "x": 23102.635523838428,
+          "y": 57774.195103025166,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0B1",
+          "type": "MTEXT",
+          "content": "BOD=FFL+2770",
+          "layer": "MEPG-AC-TEXT",
+          "x": 23241.541773838486,
+          "y": 57774.195103025166,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0B8",
+          "type": "MTEXT",
+          "content": "SEAD-1200x400",
+          "layer": "MEPG-AC-TEXT",
+          "x": 50923.989654617006,
+          "y": 35583.95642940262,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0B9",
+          "type": "MTEXT",
+          "content": "BOD=FFL+3100",
+          "layer": "MEPG-AC-TEXT",
+          "x": 51062.895904617006,
+          "y": 35583.95642940262,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0BA",
+          "type": "MTEXT",
+          "content": "SEAD-750x350",
+          "layer": "MEPG-AC-TEXT",
+          "x": 57167.21275421363,
+          "y": 35222.4218697874,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0BB",
+          "type": "MTEXT",
+          "content": "BOD=FFL+3150",
+          "layer": "MEPG-AC-TEXT",
+          "x": 57167.21275421363,
+          "y": 35083.5156197874,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0BC",
+          "type": "MTEXT",
+          "content": "SEAD-1000x350",
+          "layer": "MEPG-AC-TEXT",
+          "x": 51024.341989179346,
+          "y": 31290.143677411354,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0BD",
+          "type": "MTEXT",
+          "content": "BOD=FFL+3150",
+          "layer": "MEPG-AC-TEXT",
+          "x": 51163.248239179346,
+          "y": 31290.143677411354,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0BE",
+          "type": "MTEXT",
+          "content": "SEAD-1000x350",
+          "layer": "MEPG-AC-TEXT",
+          "x": 51024.98858412038,
+          "y": 22880.12890395739,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0BF",
+          "type": "MTEXT",
+          "content": "BOD=FFL+2500",
+          "layer": "MEPG-AC-TEXT",
+          "x": 51163.89483412044,
+          "y": 22880.12890395739,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0C0",
+          "type": "MTEXT",
+          "content": "SEAD-1000x350",
+          "layer": "MEPG-AC-TEXT",
+          "x": 42513.36712538023,
+          "y": 11429.828343151763,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0C1",
+          "type": "MTEXT",
+          "content": "BOD=FFL+2500",
+          "layer": "MEPG-AC-TEXT",
+          "x": 42513.36712538023,
+          "y": 11290.922093151763,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0C2",
+          "type": "MTEXT",
+          "content": "SEAD-550x350",
+          "layer": "MEPG-AC-TEXT",
+          "x": 26405.506354017736,
+          "y": 11428.460522562586,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0C3",
+          "type": "MTEXT",
+          "content": "BOD=FFL+2500",
+          "layer": "MEPG-AC-TEXT",
+          "x": 26405.506354017736,
+          "y": 11289.554272562586,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0C4",
+          "type": "MTEXT",
+          "content": "SEAD-750x350",
+          "layer": "MEPG-AC-TEXT",
+          "x": 65533.008331386634,
+          "y": 31578.142901896223,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0C5",
+          "type": "MTEXT",
+          "content": "BOD=FFL+3150",
+          "layer": "MEPG-AC-TEXT",
+          "x": 65671.91458138669,
+          "y": 31578.142901896223,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0C6",
+          "type": "MTEXT",
+          "content": "SEAD-750x350",
+          "layer": "MEPG-AC-TEXT",
+          "x": 65533.008331386634,
+          "y": 22100.73728609238,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0C7",
+          "type": "MTEXT",
+          "content": "BOD=FFL+2600",
+          "layer": "MEPG-AC-TEXT",
+          "x": 65671.91458138669,
+          "y": 22100.73728609238,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0D6",
+          "type": "MTEXT",
+          "content": "PAD-1200x450",
+          "layer": "MEPG-AC-TEXT",
+          "x": 36453.98608553191,
+          "y": 53357.844723301576,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D0D7",
+          "type": "MTEXT",
+          "content": "BOD=FFL+3550",
+          "layer": "MEPG-AC-TEXT",
+          "x": 36453.98608553191,
+          "y": 53218.938473301576,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D130",
+          "type": "MTEXT",
+          "content": "PAD-900x500",
+          "layer": "MEPG-AC-TEXT",
+          "x": 60834.08185498332,
+          "y": 43558.43043365095,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D131",
+          "type": "MTEXT",
+          "content": "BOD=FFL+3000",
+          "layer": "MEPG-AC-TEXT",
+          "x": 60834.08185498332,
+          "y": 43419.52418365095,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D275",
+          "type": "MTEXT",
+          "content": "PAD-900x500",
+          "layer": "MEPG-AC-TEXT",
+          "x": 64913.915734015725,
+          "y": 43558.43043365095,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D276",
+          "type": "MTEXT",
+          "content": "BOD=FFL+3000",
+          "layer": "MEPG-AC-TEXT",
+          "x": 64913.915734015725,
+          "y": 43419.52418365095,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D279",
+          "type": "MTEXT",
+          "content": "PAD-900x500",
+          "layer": "MEPG-AC-TEXT",
+          "x": 59287.17093729379,
+          "y": 53096.6447736721,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D27A",
+          "type": "MTEXT",
+          "content": "BOD=FFL+3000",
+          "layer": "MEPG-AC-TEXT",
+          "x": 59426.07718729379,
+          "y": 53096.6447736721,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D27B",
+          "type": "MTEXT",
+          "content": "PAD-900x500",
+          "layer": "MEPG-AC-TEXT",
+          "x": 53298.82536785846,
+          "y": 62709.47797345265,
+          "height": 89.99999999999994
+        },
+        {
+          "handle": "1D27C",
+          "type": "MTEXT",
+          "content": "BOD=FFL+3000",
+          "layer": "MEPG-AC-TEXT",
+          "x": 53242.553016453574,
+          "y": 62565.871056974254,
+          "height": 89.99999999999994
+        }
+      ]
+    }
+  },
+  "plan_image": {
+    "tool": "export_plan_image",
+    "success": true,
+    "content": "Da xuat anh 1600x1384 px cho vung [20148,9532]..[95363,74587]: 380 doi tuong, 8095 hinh, 142 vat the co handle. Dung Read tren 'png' de xem anh.",
+    "data": {
+      "png": "C:\\Users\\Admin\\AppData\\Local\\Temp\\hts-plan\\plan_20261118_213248.png",
+      "svg": null,
+      "json": "C:\\Users\\Admin\\AppData\\Local\\Temp\\hts-plan\\plan_20261118_213248.json",
+      "image": {
+        "width": 1600,
+        "height": 1384
+      },
+      "region": {
+        "xmin": 20147.918369158295,
+        "ymin": 9531.572070635832,
+        "xmax": 95362.91543517081,
+        "ymax": 74587.07794349958,
+        "unit": "in"
+      },
+      "transform": {
+        "unitsPerPxX": 47.00937316625783,
+        "unitsPerPxY": 47.005423318543166,
+        "pxPerUnitX": 0.02127235341903634,
+        "pxPerUnitY": 0.02127414092674515,
+        "imageToCad": "ucsX = xmin + px*unitsPerPxX ; ucsY = ymax - py*unitsPerPxY",
+        "cadToImage": "px = (ucsX - xmin)*pxPerUnitX ; py = (ymax - ucsY)*pxPerUnitY"
+      },
+      "entities": 380,
+      "shapes": 8095,
+      "skipped": 26792,
+      "objectCount": 142,
+      "objects": [
+        {
+          "handle": "1CC0E",
+          "name": "CEN-KRUGER_AXIAL FAN_TDA-FV SERIES - TDA 1000-V472-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            894,
+            758.4,
+            907.4,
+            781.8
+          ],
+          "insertUcs": [
+            62802.29,
+            38387.28
+          ]
+        },
+        {
+          "handle": "1CC0F",
+          "name": "CEN-DUCT-Trouser Piece-R2 - Trouser Piece-8543966-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            798.3,
+            712.7,
+            837.1,
+            788.2
+          ],
+          "insertUcs": [
+            59016.57,
+            39311.88
+          ]
+        },
+        {
+          "handle": "1CC10",
+          "name": "CEN_SILENCER DUCT - L900xW1700xH1000-10946864-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            860.3,
+            751.5,
+            879.5,
+            788.7
+          ],
+          "insertUcs": [
+            61040.29,
+            38387.09
+          ]
+        },
+        {
+          "handle": "1CC17",
+          "name": "CEN_SILENCER DUCT - L900xW1250xH1400-10970685-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            926.1,
+            756.3,
+            945.3,
+            783.9
+          ],
+          "insertUcs": [
+            64134.29,
+            38387.4
+          ]
+        },
+        {
+          "handle": "1CC23",
+          "name": "CEN-KRUGER_AXIAL FAN_TDA-FV SERIES - TDA 900-V525-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            926.2,
+            652,
+            939.6,
+            673.2
+          ],
+          "insertUcs": [
+            63687.75,
+            43441.83
+          ]
+        },
+        {
+          "handle": "1CCD0",
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213313-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            1034.6,
+            197.1,
+            1052.3,
+            211.8
+          ],
+          "insertUcs": [
+            69234.83,
+            65066.47
+          ]
+        },
+        {
+          "handle": "1CCD1",
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213313-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            973,
+            271.3,
+            990.7,
+            286
+          ],
+          "insertUcs": [
+            66266.87,
+            61400.71
+          ]
+        },
+        {
+          "handle": "1CCE3",
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213342-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            311.9,
+            1334.8,
+            316.8,
+            1357.4
+          ],
+          "insertUcs": [
+            34820.38,
+            11312.62
+          ]
+        },
+        {
+          "handle": "1CCE4",
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213356-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            52,
+            760.6,
+            78.8,
+            765.5
+          ],
+          "insertUcs": [
+            23220.82,
+            38825.97
+          ]
+        },
+        {
+          "handle": "1CCE5",
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213311-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            1029.1,
+            26.6,
+            1052.3,
+            49.8
+          ],
+          "insertUcs": [
+            69234.75,
+            72956.07
+          ]
+        },
+        {
+          "handle": "1CCE6",
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213377-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            54.6,
+            907,
+            76.1,
+            911.8
+          ],
+          "insertUcs": [
+            23221.41,
+            31946.97
+          ]
+        },
+        {
+          "handle": "1CCE7",
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213382-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            50.9,
+            616.8,
+            79.8,
+            621.6
+          ],
+          "insertUcs": [
+            23220.23,
+            45374.97
+          ]
+        },
+        {
+          "handle": "1CCF9",
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120-10213431-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            961.8,
+            652.4,
+            991.4,
+            681.9
+          ],
+          "insertUcs": [
+            66271.34,
+            43442.04
+          ]
+        },
+        {
+          "handle": "1CCFA",
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI120 0_75W-10436119-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            489.7,
+            350.1,
+            503.8,
+            370.5
+          ],
+          "insertUcs": [
+            435927.08,
+            -105114.05
+          ]
+        },
+        {
+          "handle": "1CDA8",
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10985819-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            747.6,
+            723.7,
+            771.6,
+            727.2
+          ],
+          "insertUcs": [
+            55796.32,
+            40411.61
+          ]
+        },
+        {
+          "handle": "1CDA9",
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10250460-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            747.6,
+            569.8,
+            778.7,
+            601
+          ],
+          "insertUcs": [
+            55796.32,
+            47296.09
+          ]
+        },
+        {
+          "handle": "1CDB0",
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10250468-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            855.6,
+            569.8,
+            866.4,
+            591.3
+          ],
+          "insertUcs": [
+            435927.08,
+            -105114.05
+          ]
+        },
+        {
+          "handle": "1CDB1",
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V622-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            846.6,
+            569.8,
+            855.6,
+            591.3
+          ],
+          "insertUcs": [
+            435927.08,
+            -105114.05
+          ]
+        },
+        {
+          "handle": "1CDB2",
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V623-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            797.6,
+            569.8,
+            808.4,
+            591.3
+          ],
+          "insertUcs": [
+            435927.08,
+            -105114.05
+          ]
+        },
+        {
+          "handle": "1CDB3",
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V624-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            808.4,
+            569.8,
+            817.5,
+            591.3
+          ],
+          "insertUcs": [
+            435927.08,
+            -105114.05
+          ]
+        },
+        {
+          "handle": "1CDB4",
+          "name": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V625-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            960.7,
+            560.2,
+            991.8,
+            591.3
+          ],
+          "insertUcs": [
+            66267.96,
+            47296.5
+          ]
+        },
+        {
+          "handle": "1CDB5",
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213385-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            970.3,
+            307.7,
+            991.8,
+            312.6
+          ],
+          "insertUcs": [
+            66266.96,
+            60113.36
+          ]
+        },
+        {
+          "handle": "1CDB6",
+          "name": "CEN-DF-ENDCAP - Bít ống gió EI60-10249703-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            642.7,
+            28.9,
+            643.2,
+            40.6
+          ],
+          "insertUcs": [
+            50385.52,
+            72955.62
+          ]
+        },
+        {
+          "handle": "1CDB7",
+          "name": "CEN-Van Vuông - Van NRD-10250808-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            970.9,
+            689.8,
+            991.4,
+            693
+          ],
+          "insertUcs": [
+            66271.41,
+            42088.89
+          ]
+        },
+        {
+          "handle": "1CDBA",
+          "name": "CEN-Van Vuông - Van MFD-EI120-10250851-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            970.9,
+            696.9,
+            991.4,
+            700.1
+          ],
+          "insertUcs": [
+            66271.41,
+            41754
+          ]
+        },
+        {
+          "handle": "1CDBE",
+          "name": "CEN-DF-ENDCAP - Bít ống gió EI60-10213110-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            634.3,
+            727.1,
+            634.8,
+            773.9
+          ],
+          "insertUcs": [
+            49991.1,
+            39311.3
+          ]
+        },
+        {
+          "handle": "1CDBF",
+          "name": "CEN-Van Vuông - Van VCD-V626-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            685,
+            831.3,
+            688.2,
+            848.8
+          ],
+          "insertUcs": [
+            52423.1,
+            35105.87
+          ]
+        },
+        {
+          "handle": "1CDC2",
+          "name": "CEN-Van Vuông - Van VCD-V627-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            643.8,
+            779.3,
+            670.8,
+            782.5
+          ],
+          "insertUcs": [
+            51040.36,
+            37881.19
+          ]
+        },
+        {
+          "handle": "1CDC6",
+          "name": "CEN-Van Vuông - Van VCD-9321092-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            648,
+            864.9,
+            670.8,
+            868
+          ],
+          "insertUcs": [
+            51140.69,
+            33859.24
+          ]
+        },
+        {
+          "handle": "1CDC9",
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10251453-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            643.8,
+            773.7,
+            673.1,
+            777.2
+          ],
+          "insertUcs": [
+            51040.36,
+            38211.21
+          ]
+        },
+        {
+          "handle": "1CDCA",
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10666489-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            669.8,
+            828.8,
+            673.3,
+            848.5
+          ],
+          "insertUcs": [
+            51640.58,
+            35105.87
+          ]
+        },
+        {
+          "handle": "1CDCB",
+          "name": "CEN-DF-ENDCAP - Bít ống gió EI60-10249703-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            30.8,
+            1340.3,
+            31.3,
+            1352
+          ],
+          "insertUcs": [
+            21619.38,
+            11311.5
+          ]
+        },
+        {
+          "handle": "1CDCC",
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10985821-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            635.9,
+            723.7,
+            679.1,
+            727.2
+          ],
+          "insertUcs": [
+            50997.75,
+            40411.2
+          ]
+        },
+        {
+          "handle": "1CDD1",
+          "name": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10252365-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            381.2,
+            399.9,
+            386.1,
+            440.5
+          ],
+          "insertUcs": [
+            38076.06,
+            55010.56
+          ]
+        },
+        {
+          "handle": "1CDD3",
+          "name": "CEN-DF-ENDCAP - Bít ống gió EI60-10252616-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            61.6,
+            299.8,
+            69.1,
+            300.4
+          ],
+          "insertUcs": [
+            23218.96,
+            60468.49
+          ]
+        },
+        {
+          "handle": "1CDD4",
+          "name": "CEN-DF-ENDCAP - Bít ống gió EI60-10252627-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            47.3,
+            400.5,
+            47.8,
+            432.4
+          ],
+          "insertUcs": [
+            22396.25,
+            55009.86
+          ]
+        },
+        {
+          "handle": "1CDD5",
+          "name": "CEN-DF-ENDCAP - Bít ống gió EI60-10239568-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            57.4,
+            1156.4,
+            73.4,
+            1156.9
+          ],
+          "insertUcs": [
+            23222.36,
+            20232.03
+          ]
+        },
+        {
+          "handle": "1CDD6",
+          "name": "CEN-Van Vuông - Van VCD-10257468-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            747.4,
+            713.9,
+            769.1,
+            717.1
+          ],
+          "insertUcs": [
+            55796.32,
+            40953.89
+          ]
+        },
+        {
+          "handle": "1CDD9",
+          "name": "CEN-Van Vuông - Van VCD-10257473-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            635.9,
+            710.4,
+            676.8,
+            713.6
+          ],
+          "insertUcs": [
+            50997.71,
+            41118.75
+          ]
+        },
+        {
+          "handle": "1CDDE",
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V753-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            891.2,
+            566.6,
+            904.6,
+            567.2
+          ],
+          "insertUcs": [
+            435927.08,
+            -105114.05
+          ]
+        },
+        {
+          "handle": "1CDDF",
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V754-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            888.3,
+            567.1,
+            904.9,
+            570.5
+          ],
+          "insertUcs": [
+            62355.35,
+            47771.51
+          ]
+        },
+        {
+          "handle": "1CDE0",
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V755-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            967.1,
+            455,
+            967.7,
+            468.4
+          ],
+          "insertUcs": [
+            435927.08,
+            -105114.05
+          ]
+        },
+        {
+          "handle": "1CDE1",
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            967.1,
+            314.3,
+            967.7,
+            327.7
+          ],
+          "insertUcs": [
+            418412.17,
+            -62939.2
+          ]
+        },
+        {
+          "handle": "1CDE2",
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V756-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            1032.9,
+            165.9,
+            1033.5,
+            179.3
+          ],
+          "insertUcs": [
+            435927.08,
+            -105114.05
+          ]
+        },
+        {
+          "handle": "1CDE3",
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            791.9,
+            43.8,
+            805.3,
+            44.4
+          ],
+          "insertUcs": [
+            180126.76,
+            425300.79
+          ]
+        },
+        {
+          "handle": "1CDE4",
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            647.2,
+            43.8,
+            660.6,
+            44.4
+          ],
+          "insertUcs": [
+            173326.76,
+            425300.79
+          ]
+        },
+        {
+          "handle": "1CDE5",
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V757-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            967.6,
+            454.6,
+            971,
+            471.2
+          ],
+          "insertUcs": [
+            65792.57,
+            52886.39
+          ]
+        },
+        {
+          "handle": "1CDE6",
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V758-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            967.6,
+            314,
+            971,
+            330.6
+          ],
+          "insertUcs": [
+            65792.02,
+            59498.75
+          ]
+        },
+        {
+          "handle": "1CDE7",
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V637-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            646.9,
+            40.6,
+            663.5,
+            43.9
+          ],
+          "insertUcs": [
+            50888.81,
+            72680.62
+          ]
+        },
+        {
+          "handle": "1CDE8",
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V637-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            791.6,
+            40.6,
+            808.2,
+            43.9
+          ],
+          "insertUcs": [
+            57688.81,
+            72680.62
+          ]
+        },
+        {
+          "handle": "1CDE9",
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V738-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            938.3,
+            42.2,
+            954.9,
+            45.5
+          ],
+          "insertUcs": [
+            64588.81,
+            72605.68
+          ]
+        },
+        {
+          "handle": "1CDEA",
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271532-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            1033.4,
+            165.6,
+            1036.7,
+            182.2
+          ],
+          "insertUcs": [
+            68884.8,
+            66473.72
+          ]
+        },
+        {
+          "handle": "1CDEB",
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            956.1,
+            914.4,
+            956.7,
+            927.8
+          ],
+          "insertUcs": [
+            417894.74,
+            -91148.48
+          ]
+        },
+        {
+          "handle": "1CDEC",
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10222334-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            956.6,
+            911.5,
+            959.9,
+            928.1
+          ],
+          "insertUcs": [
+            65274.56,
+            31289.47
+          ]
+        },
+        {
+          "handle": "1CDED",
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            466.2,
+            1331.6,
+            479.6,
+            1332.2
+          ],
+          "insertUcs": [
+            -80059.81,
+            -340806.89
+          ]
+        },
+        {
+          "handle": "1CDEE",
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            325.8,
+            1331.6,
+            339.2,
+            1332.2
+          ],
+          "insertUcs": [
+            -86659.81,
+            -340807.45
+          ]
+        },
+        {
+          "handle": "1CDEF",
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            185.4,
+            1336.4,
+            198.8,
+            1337
+          ],
+          "insertUcs": [
+            -93259.81,
+            -341032.99
+          ]
+        },
+        {
+          "handle": "1CDF0",
+          "name": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            36.6,
+            1336.5,
+            50,
+            1337
+          ],
+          "insertUcs": [
+            -100255.55,
+            -341033.58
+          ]
+        },
+        {
+          "handle": "1CDF1",
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V759-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            36.3,
+            1336.9,
+            52.9,
+            1340.3
+          ],
+          "insertUcs": [
+            22182.4,
+            11586.57
+          ]
+        },
+        {
+          "handle": "1CDF2",
+          "name": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V759-MB HỆ THỐNG ĐHKK HẦM B1",
+          "bboxPx": [
+            185.1,
+            1336.9,
+            201.7,
+            1340.3
+          ],
+          "insertUcs": [
+            29178.13,
+            11587.16
+          ]
+        }
+      ],
+      "objectsTruncated": true,
+      "hint": "Toa do tren anh tinh theo pixel, goc TREN-TRAI, truc Y huong XUONG. Tra nguoc ra doi tuong: dung tool map_image_cad voi ref = duong dan json."
+    }
+  }
+}

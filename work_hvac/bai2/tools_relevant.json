@@ -1,0 +1,2015 @@
+[
+  {
+    "name": "insert_block",
+    "desc": "Chen (insert) block vao ban ve tai toa do chi dinh. Block phai da co san trong ban ve hoac Support File Search Path.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "blockName": {
+          "type": "string",
+          "description": "Ten block (VD: HTS-ELB90-D110)"
+        },
+        "x": {
+          "type": "number",
+          "description": "Toa do X"
+        },
+        "y": {
+          "type": "number",
+          "description": "Toa do Y"
+        },
+        "rotation": {
+          "type": "number",
+          "description": "(Tuy chon) Goc xoay (radian), mac dinh 0"
+        },
+        "scaleX": {
+          "type": "number",
+          "description": "(Tuy chon) Scale X, mac dinh 1"
+        },
+        "scaleY": {
+          "type": "number",
+          "description": "(Tuy chon) Scale Y, mac dinh 1"
+        },
+        "layer": {
+          "type": "string",
+          "description": "(Tuy chon) Ten layer"
+        }
+      },
+      "required": [
+        "blockName",
+        "x",
+        "y"
+      ]
+    }
+  },
+  {
+    "name": "batch_insert_blocks",
+    "desc": "Chen nhieu block cung luc trong 1 lan goi. Toi uu hon goi insert_block nhieu lan.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array",
+          "description": "Danh sach block can chen",
+          "items": {
+            "type": "object",
+            "properties": {
+              "blockName": {
+                "type": "string",
+                "description": "Ten block"
+              },
+              "x": {
+                "type": "number"
+              },
+              "y": {
+                "type": "number"
+              },
+              "rotation": {
+                "type": "number",
+                "description": "Goc xoay (radian), mac dinh 0"
+              },
+              "scaleX": {
+                "type": "number",
+                "description": "Scale X, mac dinh 1"
+              },
+              "scaleY": {
+                "type": "number",
+                "description": "Scale Y, mac dinh 1"
+              },
+              "layer": {
+                "type": "string",
+                "description": "(Tuy chon) Ten layer"
+              }
+            },
+            "required": [
+              "blockName",
+              "x",
+              "y"
+            ]
+          }
+        }
+      },
+      "required": [
+        "items"
+      ]
+    }
+  },
+  {
+    "name": "get_entities_in_area",
+    "desc": "Lay danh sach cac doi tuong (entity) trong vung hinh chu nhat. Tra ve type, layer, handle, toa do.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "minX": {
+          "type": "number",
+          "description": "X min cua vung chon"
+        },
+        "minY": {
+          "type": "number",
+          "description": "Y min cua vung chon"
+        },
+        "maxX": {
+          "type": "number",
+          "description": "X max cua vung chon"
+        },
+        "maxY": {
+          "type": "number",
+          "description": "Y max cua vung chon"
+        },
+        "entityType": {
+          "type": "string",
+          "description": "(Tuy chon) Loc theo loai: LINE, LWPOLYLINE, MLINE, INSERT. De trong = lay tat ca."
+        }
+      },
+      "required": [
+        "minX",
+        "minY",
+        "maxX",
+        "maxY"
+      ]
+    }
+  },
+  {
+    "name": "get_layer_list",
+    "desc": "Lay danh sach tat ca Layer trong ban ve hien tai.",
+    "params": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "get_mline_styles",
+    "desc": "Lay danh sach Mline Style trong ban ve.",
+    "params": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "get_block_list",
+    "desc": "Lay danh sach ten Block dinh nghia trong ban ve (khong tinh ModelSpace/PaperSpace).",
+    "params": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "select_and_export",
+    "desc": "Yeu cau nguoi dung quet chon (select) cac doi tuong tren ban ve AutoCAD. Thu thap thong tin chi tiet (type, layer, handl",
+    "params": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "string",
+          "description": "(Tuy chon) Thong bao hien thi cho nguoi dung khi chon doi tuong. Mac dinh: 'Hay quet chon cac doi tuong can phan tich'"
+        },
+        "entityType": {
+          "type": "string",
+          "description": "(Tuy chon) Loc theo loai entity: LINE, LWPOLYLINE, MLINE, INSERT, CIRCLE, ARC, TEXT, MTEXT, DIMENSION, LEADER, MLEADER, HATCH, SPLINE. De trong = lay tat ca."
+        },
+        "layer": {
+          "type": "string",
+          "description": "(Tuy chon) Loc theo ten Layer cua doi tuong. De trong = lay tat ca layer."
+        }
+      },
+      "required": []
+    }
+  },
+  {
+    "name": "erase_entity",
+    "desc": "Xoa doi tuong theo Handle (hex string).",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string",
+          "description": "Handle cua doi tuong (hex string)"
+        }
+      },
+      "required": [
+        "handle"
+      ]
+    }
+  },
+  {
+    "name": "move_entity",
+    "desc": "Di chuyen doi tuong theo vector (dx, dy).",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string",
+          "description": "Handle cua doi tuong"
+        },
+        "dx": {
+          "type": "number",
+          "description": "Khoang dich chuyen theo X"
+        },
+        "dy": {
+          "type": "number",
+          "description": "Khoang dich chuyen theo Y"
+        }
+      },
+      "required": [
+        "handle",
+        "dx",
+        "dy"
+      ]
+    }
+  },
+  {
+    "name": "set_layer",
+    "desc": "Dat layer hien hanh (current layer) cho ban ve. Tao layer moi neu chua ton tai.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "layerName": {
+          "type": "string",
+          "description": "Ten layer can dat"
+        },
+        "color": {
+          "type": "integer",
+          "description": "(Tuy chon) Chi so mau ACI (1-255)"
+        }
+      },
+      "required": [
+        "layerName"
+      ]
+    }
+  },
+  {
+    "name": "copy_entity",
+    "desc": "Sao chep doi tuong (theo handle) sang vi tri moi voi vector dich (dx, dy). Tra ve handle ban sao.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string",
+          "description": "Handle nguon"
+        },
+        "dx": {
+          "type": "number"
+        },
+        "dy": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "handle",
+        "dx",
+        "dy"
+      ]
+    }
+  },
+  {
+    "name": "rotate_entity",
+    "desc": "Xoay doi tuong quanh basePoint mot goc (do).",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string"
+        },
+        "baseX": {
+          "type": "number"
+        },
+        "baseY": {
+          "type": "number"
+        },
+        "angleDeg": {
+          "type": "number",
+          "description": "Goc xoay theo do, CCW duong"
+        }
+      },
+      "required": [
+        "handle",
+        "baseX",
+        "baseY",
+        "angleDeg"
+      ]
+    }
+  },
+  {
+    "name": "scale_entity",
+    "desc": "Phong to/thu nho doi tuong tu basePoint theo factor.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string"
+        },
+        "baseX": {
+          "type": "number"
+        },
+        "baseY": {
+          "type": "number"
+        },
+        "factor": {
+          "type": "number",
+          "description": "Ti le > 0 (1.0 = nguyen)"
+        }
+      },
+      "required": [
+        "handle",
+        "baseX",
+        "baseY",
+        "factor"
+      ]
+    }
+  },
+  {
+    "name": "mirror_entity",
+    "desc": "Lay doi xung doi tuong qua truc xac dinh boi 2 diem (axisX1,Y1) - (axisX2,Y2). eraseSource=true se xoa ban goc.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string"
+        },
+        "axisX1": {
+          "type": "number"
+        },
+        "axisY1": {
+          "type": "number"
+        },
+        "axisX2": {
+          "type": "number"
+        },
+        "axisY2": {
+          "type": "number"
+        },
+        "eraseSource": {
+          "type": "boolean",
+          "description": "true = move (xoa ban goc), false = copy (giu ban goc)"
+        }
+      },
+      "required": [
+        "handle",
+        "axisX1",
+        "axisY1",
+        "axisX2",
+        "axisY2"
+      ]
+    }
+  },
+  {
+    "name": "explode_entity",
+    "desc": "Pha vo mot block reference / polyline / hatch / dim ... thanh cac doi tuong con; xoa goc.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "handle"
+      ]
+    }
+  },
+  {
+    "name": "create_layer",
+    "desc": "Tao layer moi voi color (ACI 1-255), lineweight, plottable, description. Khac set_layer (chi dat current). Neu da co thi",
+    "params": {
+      "type": "object",
+      "properties": {
+        "layerName": {
+          "type": "string"
+        },
+        "color": {
+          "type": "integer",
+          "description": "ACI 1-255"
+        },
+        "lineweight": {
+          "type": "integer",
+          "description": "Lineweight 0-211 (vd 25 = 0.25mm); -1 = ByLayer/Default"
+        },
+        "plottable": {
+          "type": "boolean"
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "layerName"
+      ]
+    }
+  },
+  {
+    "name": "set_layer_state",
+    "desc": "Bat/tat trang thai layer: locked / frozen / off. Truyen field nao thi cap nhat field do; khong truyen → giu nguyen.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "layerName": {
+          "type": "string"
+        },
+        "locked": {
+          "type": "boolean"
+        },
+        "frozen": {
+          "type": "boolean"
+        },
+        "off": {
+          "type": "boolean",
+          "description": "true = layer OFF (an), false = ON"
+        }
+      },
+      "required": [
+        "layerName"
+      ]
+    }
+  },
+  {
+    "name": "set_entity_properties",
+    "desc": "Set thuoc tinh cua entity: color (ACI 1-255 hoac 'ByLayer'/'ByBlock'), layer, linetype, lineweight (vd 25 = 0.25mm). Fie",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string",
+          "description": "ACI 1-255 hoac 'ByLayer'/'ByBlock'"
+        },
+        "layer": {
+          "type": "string"
+        },
+        "linetype": {
+          "type": "string",
+          "description": "Ten linetype (must da load: ByLayer/Continuous/...)"
+        },
+        "lineweight": {
+          "type": "integer",
+          "description": "Lineweight 0-211 (vd 25=0.25mm); -1=ByLayer; -2=ByBlock; -3=Default"
+        }
+      },
+      "required": [
+        "handle"
+      ]
+    }
+  },
+  {
+    "name": "get_entity_area",
+    "desc": "Lay dien tich va chu vi cua doi tuong (Hatch, Polyline kin, Circle...). Input la Handle cua doi tuong.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string",
+          "description": "Handle cua doi tuong can do dien tich (vd: '1A2F')"
+        }
+      },
+      "required": [
+        "handle"
+      ]
+    }
+  },
+  {
+    "name": "get_curve_length",
+    "desc": "Lay tong chieu dai cua cac doi tuong dang tuyen (Line, Polyline, Arc, Spline, Mline). Input la danh sach Handle.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Danh sach Handle cua cac doi tuong can tinh chieu dai"
+        }
+      },
+      "required": [
+        "handles"
+      ]
+    }
+  },
+  {
+    "name": "get_bounding_box",
+    "desc": "Lay toa do MinPoint, MaxPoint va kich thuoc (Dai x Rong x Cao) cua vung bao quanh cac doi tuong. Input la danh sach Hand",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Danh sach Handle cua cac doi tuong"
+        }
+      },
+      "required": [
+        "handles"
+      ]
+    }
+  },
+  {
+    "name": "count_block_instances",
+    "desc": "Dem tong so luong Block dang co tren ban ve. Co the loc theo Layer.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "blockName": {
+          "type": "string",
+          "description": "Ten Block can dem (ho tro ky tu dai dien * de dem tat ca)"
+        },
+        "layer": {
+          "type": "string",
+          "description": "(Tuy chon) Loc theo ten Layer. De trong = dem tren tat ca layer."
+        }
+      },
+      "required": [
+        "blockName"
+      ]
+    }
+  },
+  {
+    "name": "calculate_total_length_by_layer",
+    "desc": "Tinh tong chieu dai cua tat ca Line/Polyline/Arc/Spline/Mline tren mot Layer (phuc vu boc khoi luong MEPF).",
+    "params": {
+      "type": "object",
+      "properties": {
+        "layer": {
+          "type": "string",
+          "description": "Ten Layer can tinh tong chieu dai"
+        }
+      },
+      "required": [
+        "layer"
+      ]
+    }
+  },
+  {
+    "name": "group_summary_by_layer",
+    "desc": "Cho moi layer trong Model Space: tong so entity, tong chieu dai (Curve), tong dien tich (closed Polyline / Circle / Elli",
+    "params": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    }
+  },
+  {
+    "name": "draw_rectangular_duct",
+    "desc": "Ve ong gio VUONG (HVAC) qua nhieu diem polyline. Tu dong chia segments dai L=1110mm + dat elbow tai goc cua. Block sinh ",
+    "params": {
+      "type": "object",
+      "properties": {
+        "runs": {
+          "type": "array",
+          "description": "(Batch) Danh sach run ong gio vuong",
+          "items": {
+            "type": "object",
+            "properties": {
+              "points": {
+                "type": "array",
+                "description": "Danh sach diem [{x,y}, ...] (it nhat 2 diem)",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "x": {
+                      "type": "number"
+                    },
+                    "y": {
+                      "type": "number"
+                    }
+                  }
+                }
+              },
+              "W": {
+                "type": "number",
+                "description": "Chieu rong ong (mm)"
+              },
+              "H": {
+                "type": "number",
+                "description": "Chieu cao ong (mm)"
+              },
+              "R": {
+                "type": "number",
+                "description": "(Tuy chon) Ban kinh cong elbow (mm). Bo trong = mac dinh W/2."
+              },
+              "prefix": {
+                "type": "string",
+                "description": "(Tuy chon) Prefix block name. Mac dinh: 'HTS'."
+              },
+              "layer": {
+                "type": "string",
+                "description": "(Tuy chon) Ten layer"
+              }
+            }
+          }
+        },
+        "points": {
+          "type": "array",
+          "description": "(Single) Danh sach diem [{x,y}, ...]",
+          "items": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "number"
+              },
+              "y": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "W": {
+          "type": "number",
+          "description": "(Single) Chieu rong ong (mm)"
+        },
+        "H": {
+          "type": "number",
+          "description": "(Single) Chieu cao ong (mm)"
+        },
+        "R": {
+          "type": "number",
+          "description": "(Single) Ban kinh cong (mm). Bo trong = mac dinh W/2."
+        },
+        "prefix": {
+          "type": "string",
+          "description": "(Single) Prefix block. Mac dinh: 'HTS'."
+        },
+        "layer": {
+          "type": "string",
+          "description": "(Single) Ten layer"
+        }
+      }
+    }
+  },
+  {
+    "name": "draw_round_duct",
+    "desc": "Ve ong gio TRON (HVAC) qua nhieu diem polyline. Khac voi duct vuong, ong tron khong chia segments — moi doan thang la 1 ",
+    "params": {
+      "type": "object",
+      "properties": {
+        "runs": {
+          "type": "array",
+          "description": "(Batch) Danh sach run ong gio tron",
+          "items": {
+            "type": "object",
+            "properties": {
+              "points": {
+                "type": "array",
+                "description": "Danh sach diem [{x,y}, ...]",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "x": {
+                      "type": "number"
+                    },
+                    "y": {
+                      "type": "number"
+                    }
+                  }
+                }
+              },
+              "D": {
+                "type": "number",
+                "description": "Duong kinh ong (mm)"
+              },
+              "R": {
+                "type": "number",
+                "description": "(Tuy chon) Ban kinh cong elbow (mm). Bo trong = mac dinh D/2."
+              },
+              "prefix": {
+                "type": "string",
+                "description": "(Tuy chon) Prefix. Mac dinh: 'HTS'."
+              },
+              "layer": {
+                "type": "string",
+                "description": "(Tuy chon) Ten layer"
+              }
+            }
+          }
+        },
+        "points": {
+          "type": "array",
+          "description": "(Single) Danh sach diem [{x,y}, ...]",
+          "items": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "number"
+              },
+              "y": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "D": {
+          "type": "number",
+          "description": "(Single) Duong kinh ong (mm)"
+        },
+        "R": {
+          "type": "number",
+          "description": "(Single) Ban kinh cong (mm). Bo trong = mac dinh D/2."
+        },
+        "prefix": {
+          "type": "string",
+          "description": "(Single) Prefix. Mac dinh: 'HTS'."
+        },
+        "layer": {
+          "type": "string",
+          "description": "(Single) Ten layer"
+        }
+      }
+    }
+  },
+  {
+    "name": "duct_set_elevation",
+    "desc": "GHI. Gan CAO DO DAY ong gio / phu kien ong gio HTS (block) nhu lenh GZOG5H3K - XData HTS_OG_DAY ma OG3D / COMBINE 3D / m",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Handle doi tuong (lay tu get_entities_in_area / select_*)."
+        },
+        "vung": {
+          "type": "object",
+          "description": "(Tuy chon) Chi lam trong khung chu nhat (don vi ban ve). Bo trong = toan ban ve.",
+          "properties": {
+            "xmin": {
+              "type": "number"
+            },
+            "ymin": {
+              "type": "number"
+            },
+            "xmax": {
+              "type": "number"
+            },
+            "ymax": {
+              "type": "number"
+            }
+          }
+        },
+        "day": {
+          "type": "number",
+          "description": "Cao do day ong (mm), hoac luong doi khi doiThem=true."
+        },
+        "doiThem": {
+          "type": "boolean",
+          "description": "(Tuy chon) true = doi them 'day' so voi cao do dang co (block chua co cao do bi bo qua)."
+        },
+        "nhom": {
+          "type": "array",
+          "description": "(Tuy chon) Nhieu nhom cao do khac nhau trong 1 lan goi.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "handles": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "Handle doi tuong (lay tu get_entities_in_area / select_*)."
+              },
+              "vung": {
+                "type": "object",
+                "description": "(Tuy chon) Chi lam trong khung chu nhat (don vi ban ve). Bo trong = toan ban ve.",
+                "properties": {
+                  "xmin": {
+                    "type": "number"
+                  },
+                  "ymin": {
+                    "type": "number"
+                  },
+                  "xmax": {
+                    "type": "number"
+                  },
+                  "ymax": {
+                    "type": "number"
+                  }
+                }
+              },
+              "day": {
+                "type": "number"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "name": "duct_breeches_insert",
+    "desc": "GHI. CHAC QUAN ONG GIO (Breeches / Y chia doi, nhu lenh HTSYQOG): 1 mieng vao chia 2 nhanh canh nhau. Moi mieng {w,h} (v",
+    "params": {
+      "type": "object",
+      "properties": {
+        "vao": {
+          "type": "object",
+          "properties": {
+            "w": {
+              "type": "number"
+            },
+            "h": {
+              "type": "number"
+            },
+            "d": {
+              "type": "number",
+              "description": "Co d = mieng tron"
+            }
+          }
+        },
+        "trai": {
+          "type": "object",
+          "properties": {
+            "w": {
+              "type": "number"
+            },
+            "h": {
+              "type": "number"
+            },
+            "d": {
+              "type": "number",
+              "description": "Co d = mieng tron"
+            }
+          }
+        },
+        "phai": {
+          "type": "object",
+          "properties": {
+            "w": {
+              "type": "number"
+            },
+            "h": {
+              "type": "number"
+            },
+            "d": {
+              "type": "number",
+              "description": "Co d = mieng tron"
+            }
+          }
+        },
+        "a": {
+          "type": "number"
+        },
+        "l": {
+          "type": "number"
+        },
+        "lc": {
+          "type": "number"
+        },
+        "c": {
+          "type": "number"
+        },
+        "diem": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            }
+          }
+        },
+        "gocDo": {
+          "type": "number"
+        },
+        "huongToi": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            }
+          }
+        },
+        "day": {
+          "type": "number"
+        },
+        "handles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Handle doi tuong (lay tu get_entities_in_area / select_*)."
+        },
+        "xemTruoc": {
+          "type": "boolean"
+        }
+      }
+    }
+  },
+  {
+    "name": "block_set_elevation_system",
+    "desc": "GHI. GAN CAO DO cho BAT KY block (va ong cua he) va GHI block thuoc HE do (dau HTS_HE) de 3D / HCAD / View cua he quan l",
+    "params": {
+      "type": "object",
+      "properties": {
+        "he": {
+          "type": "string",
+          "enum": [
+            "CTN",
+            "PCCC",
+            "HVAC",
+            "DIEN"
+          ]
+        },
+        "z": {
+          "type": "number"
+        },
+        "handles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Handle doi tuong (lay tu get_entities_in_area / select_*)."
+        },
+        "vung": {
+          "type": "object",
+          "description": "(Tuy chon) Chi lam trong khung chu nhat (don vi ban ve). Bo trong = toan ban ve.",
+          "properties": {
+            "xmin": {
+              "type": "number"
+            },
+            "ymin": {
+              "type": "number"
+            },
+            "xmax": {
+              "type": "number"
+            },
+            "ymax": {
+              "type": "number"
+            }
+          }
+        },
+        "xemTruoc": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "he",
+        "z"
+      ]
+    }
+  },
+  {
+    "name": "drawing_index_export_excel",
+    "desc": "GHI TEP. XUAT DANH MUC BAN VE ra Excel (.xlsx) nhu nut 'Xuat Excel' cua bang Danh muc ban ve, KHONG mo bang. Ban ve da c",
+    "params": {
+      "type": "object",
+      "properties": {
+        "duongDan": {
+          "type": "string"
+        },
+        "bangHandle": {
+          "type": "string"
+        },
+        "ghiDe": {
+          "type": "boolean"
+        },
+        "xemTruoc": {
+          "type": "boolean"
+        }
+      }
+    }
+  },
+  {
+    "name": "library_insert_block",
+    "desc": "Chen block THU VIEN HTS (nhu bang Insert Block, khong hoi) theo bang + ma ho + co tai 1 hoac nhieu vi tri. Tu nap dinh n",
+    "params": {
+      "type": "object",
+      "properties": {
+        "bang": {
+          "type": "string",
+          "description": "PCCC | TN | CN | DIEN | TBVS. Bat buoc neu 'ma' co o nhieu bang (vd CUT, TE, VANBI)."
+        },
+        "ma": {
+          "type": "string",
+          "description": "Ma ho tu library_catalog (vd CONLECH, KHOPNOIMEMBE, NAPBIT)."
+        },
+        "co": {
+          "type": "string",
+          "description": "Co / muc trong ho (vd 'WELD-DN100x50', 'HDPE-DN100', 'D48')."
+        },
+        "trangThai": {
+          "type": "string",
+          "description": "(Tuy chon) Visibility state (vd SIDE, UP, Top, 3D). Bo trong = mac dinh cua bang."
+        },
+        "x": {
+          "type": "number",
+          "description": "Toa do X (WCS, don vi ban ve) khi chen 1 diem."
+        },
+        "y": {
+          "type": "number",
+          "description": "Toa do Y khi chen 1 diem."
+        },
+        "z": {
+          "type": "number",
+          "description": "(Tuy chon) Toa do Z, mac dinh 0."
+        },
+        "goc": {
+          "type": "number",
+          "description": "(Tuy chon) Goc xoay do, mac dinh 0 (ap cho moi diem khong co goc rieng)."
+        },
+        "viTri": {
+          "type": "array",
+          "description": "(Tuy chon) Nhieu diem chen (toi da 200) thay cho x,y.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "number"
+              },
+              "y": {
+                "type": "number"
+              },
+              "z": {
+                "type": "number"
+              },
+              "goc": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "layer": {
+          "type": "string",
+          "description": "(Tuy chon) Layer dat block (tao neu chua co). Bo trong = layer hien hanh."
+        },
+        "caoDo": {
+          "type": "number",
+          "description": "(Tuy chon) Cao do (mm, XData MEP_ELEVATION_Z) gan cho block de dung 3D."
+        },
+        "xemTruoc": {
+          "type": "boolean",
+          "description": "(Tuy chon) true = chi kiem tra, khong chen."
+        }
+      },
+      "required": [
+        "ma",
+        "co"
+      ]
+    }
+  },
+  {
+    "name": "block3d_inspect",
+    "desc": "GỌI ĐẦU TIÊN khi tạo state 3D cho block: trả 'guide' (cách khai parts), 'hints' (cổng, thân cút, ống thẳng + draft_parts",
+    "params": {
+      "type": "object",
+      "properties": {
+        "block": {
+          "type": "string",
+          "description": "Tên định nghĩa block (bỏ trống = dùng 'handle' hoặc block kỹ sư đang chọn)"
+        },
+        "handle": {
+          "type": "string",
+          "description": "Handle (hex) của MỘT tham chiếu block trên bản vẽ"
+        },
+        "source_state": {
+          "type": "string",
+          "description": "(Tuỳ chọn) State nguồn (mặc định SIDE)"
+        },
+        "detail_states": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "(Tuỳ chọn) State khác cần xem đủ nét (vd TOP, UP45)"
+        }
+      }
+    }
+  },
+  {
+    "name": "block3d_preview",
+    "desc": "DỰNG THỬ khối 3D (KHÔNG đổi bản vẽ) và trả số đo để tự soát: thể tích + khung từng khối, khung tổng 3D, lệch khung XY so",
+    "params": {
+      "type": "object",
+      "properties": {
+        "block": {
+          "type": "string",
+          "description": "Tên định nghĩa block (bỏ trống = dùng 'handle' hoặc block kỹ sư đang chọn)"
+        },
+        "handle": {
+          "type": "string",
+          "description": "Handle (hex) của MỘT tham chiếu block trên bản vẽ"
+        },
+        "parts": {
+          "type": "array",
+          "description": "Khối cơ bản; cách khai xem 'guide' + bản nháp 'hints.draft_parts' của block3d_inspect. CÁCH KHAI 'parts' (toạ độ CỤC BỘ block, đơn vị bản vẽ, Z hướng lên; điểm = [x,y,z], véc tơ = [dx,dy,dz]):\n- revolve {origin, axis, profile:[[r,h],...], angle?=360, x_dir?}: xoay biên dạng NỬA mặt cắt (r ≥ 0 = khoảng cách tới trục, h = vị trí dọc trục tính từ origin) quanh trục — thân tròn xoay (van, mặt bích, côn, nắp, đầu phun, măng sông); thân có lỗ thì r nhỏ nhất > 0.\n- cylinder {p1, p2, r, r_in?}: trụ / ống thẳng từ tâm mặt đầu p1 tới tâm mặt đầu p2 (r_in → ống rỗng).\n- cone {p1, p2, r1, r2, r1_in?, r2_in?}: côn.\n- bend {center, start, end, r, r_in?}: đoạn ống cong (thân cút): center = TÂM CONG, start / end = điểm TRÊN TIM ống ở 2 đầu, cách center bằng nhau (bán kính cong > r), góc < 180°.\n- box {center, size:[dx,dy,dz], rot_z?(độ) | x_dir?, z_dir?}.\n- sphere {center, r}.\n- extrude {origin, normal?=[0,0,1], x_dir?, polygon:[[u,v],...], bulges?, height}: đùn đa giác (u theo x_dir, v = normal × x_dir).\n- chung: 'op':'subtract' = trừ khỏi khối chạm nó (hạn chế dùng); 'color' = ACI.\nQUY ƯỚC: state nguồn (SIDE) = hình nhìn từ trên mặt phẳng XY; phụ kiện ống vẽ mặt bằng → trục ống nằm trong XY ở Z = 0, khối đối xứng qua Z = 0. Cổng (ports) = TÂM miệng nối trên trục; khối KHÔNG được vượt ra ngoài mặt đầu tại cổng. hints.draft_parts là bản nháp dựng sẵn từ hình: preview NGUYÊN VĂN nó trước, rồi chỉ bổ sung phần hình còn thiếu (mặt bích, gờ, thân van…). Ống thép / nhựa có thể để đặc (không r_in) cho nhẹ trừ khi kỹ sư cần rỗng.",
+          "items": {
+            "type": "object"
+          }
+        },
+        "ports": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "description": "(Tuỳ chọn) Cổng nối [[x,y,z],...]: TÂM mỗi miệng nối ống, trên trục ống. Bỏ trống = giữ POINT cổng đang có ở state nguồn."
+        },
+        "source_state": {
+          "type": "string",
+          "description": "(Tuỳ chọn) State nguồn — hình mà khối 3D phải trùng khi nhìn từ trên (XY). Mặc định SIDE / state chứa SIDE / state mặc định."
+        }
+      },
+      "required": [
+        "parts"
+      ]
+    }
+  },
+  {
+    "name": "block3d_apply",
+    "desc": "GHI khối 3D vào block động: thêm state '3D' (cuối danh sách) = nét state nguồn trừ WIPEOUT + POINT cổng + khối 3D (khối ",
+    "params": {
+      "type": "object",
+      "properties": {
+        "block": {
+          "type": "string",
+          "description": "Tên định nghĩa block (bỏ trống = dùng 'handle' hoặc block kỹ sư đang chọn)"
+        },
+        "handle": {
+          "type": "string",
+          "description": "Handle (hex) của MỘT tham chiếu block trên bản vẽ"
+        },
+        "parts": {
+          "type": "array",
+          "description": "Khối cơ bản; cách khai xem 'guide' + bản nháp 'hints.draft_parts' của block3d_inspect. CÁCH KHAI 'parts' (toạ độ CỤC BỘ block, đơn vị bản vẽ, Z hướng lên; điểm = [x,y,z], véc tơ = [dx,dy,dz]):\n- revolve {origin, axis, profile:[[r,h],...], angle?=360, x_dir?}: xoay biên dạng NỬA mặt cắt (r ≥ 0 = khoảng cách tới trục, h = vị trí dọc trục tính từ origin) quanh trục — thân tròn xoay (van, mặt bích, côn, nắp, đầu phun, măng sông); thân có lỗ thì r nhỏ nhất > 0.\n- cylinder {p1, p2, r, r_in?}: trụ / ống thẳng từ tâm mặt đầu p1 tới tâm mặt đầu p2 (r_in → ống rỗng).\n- cone {p1, p2, r1, r2, r1_in?, r2_in?}: côn.\n- bend {center, start, end, r, r_in?}: đoạn ống cong (thân cút): center = TÂM CONG, start / end = điểm TRÊN TIM ống ở 2 đầu, cách center bằng nhau (bán kính cong > r), góc < 180°.\n- box {center, size:[dx,dy,dz], rot_z?(độ) | x_dir?, z_dir?}.\n- sphere {center, r}.\n- extrude {origin, normal?=[0,0,1], x_dir?, polygon:[[u,v],...], bulges?, height}: đùn đa giác (u theo x_dir, v = normal × x_dir).\n- chung: 'op':'subtract' = trừ khỏi khối chạm nó (hạn chế dùng); 'color' = ACI.\nQUY ƯỚC: state nguồn (SIDE) = hình nhìn từ trên mặt phẳng XY; phụ kiện ống vẽ mặt bằng → trục ống nằm trong XY ở Z = 0, khối đối xứng qua Z = 0. Cổng (ports) = TÂM miệng nối trên trục; khối KHÔNG được vượt ra ngoài mặt đầu tại cổng. hints.draft_parts là bản nháp dựng sẵn từ hình: preview NGUYÊN VĂN nó trước, rồi chỉ bổ sung phần hình còn thiếu (mặt bích, gờ, thân van…). Ống thép / nhựa có thể để đặc (không r_in) cho nhẹ trừ khi kỹ sư cần rỗng.",
+          "items": {
+            "type": "object"
+          }
+        },
+        "ports": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "description": "(Tuỳ chọn) Cổng nối [[x,y,z],...]: TÂM mỗi miệng nối ống, trên trục ống. Bỏ trống = giữ POINT cổng đang có ở state nguồn."
+        },
+        "source_state": {
+          "type": "string",
+          "description": "(Tuỳ chọn) State nguồn — hình mà khối 3D phải trùng khi nhìn từ trên (XY). Mặc định SIDE / state chứa SIDE / state mặc định."
+        },
+        "state_name": {
+          "type": "string",
+          "description": "(Tuỳ chọn) Tên state mới, mặc định '3D'"
+        },
+        "replace": {
+          "type": "boolean",
+          "description": "true = thay khối 3D của state đã có"
+        },
+        "point_states": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "(Tuỳ chọn) State khác cũng hiện POINT cổng mới (state nguồn + 3D luôn có)"
+        }
+      },
+      "required": [
+        "parts"
+      ]
+    }
+  },
+  {
+    "name": "normalize_socket_blocks",
+    "desc": "Nhan dien block O CAM (hinh hoc: Arc 180° + Line dong day cung) va chen DBPoint vao 2 vi tri chuan trong Block Definitio",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handles": {
+          "type": "array",
+          "description": "(Tuy chon) Handle cua BlockReference o cam. Bo trong → quet toan ban ve.",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  {
+    "name": "boq_export_cable",
+    "desc": "Boc khoi luong cap dien tu Polyline cap + tu dien (XData ELEC_PANEL). Tinh tong = chieu dai 2D + drop xuong tu nguon + d",
+    "params": {
+      "type": "object",
+      "properties": {
+        "groups": {
+          "type": "array",
+          "description": "(Batch) Danh sach bang BOQ",
+          "items": {
+            "type": "object",
+            "properties": {
+              "cableHandles": {
+                "type": "array",
+                "description": "Handle cua Polyline cap dien",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "trayElevation": {
+                "type": "number",
+                "description": "Cao do thang/mang cap (mm)"
+              },
+              "tablePosition": {
+                "type": "object",
+                "description": "Vi tri dat bang {x, y}",
+                "properties": {
+                  "x": {
+                    "type": "number"
+                  },
+                  "y": {
+                    "type": "number"
+                  }
+                }
+              },
+              "tableTitle": {
+                "type": "string",
+                "description": "(Tuy chon) Tieu de bang. Mac dinh: 'BANG KHOI LUONG CAP DIEN'"
+              }
+            },
+            "required": [
+              "cableHandles",
+              "trayElevation",
+              "tablePosition"
+            ]
+          }
+        },
+        "cableHandles": {
+          "type": "array",
+          "description": "(Single) Handle Polyline cap",
+          "items": {
+            "type": "string"
+          }
+        },
+        "trayElevation": {
+          "type": "number",
+          "description": "(Single) Cao do tray (mm)"
+        },
+        "tablePosition": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            }
+          }
+        },
+        "tableTitle": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  {
+    "name": "place_duct_elbow",
+    "desc": "Chen cut vao tuyen ong gio da ve (tuong duong chuot phai → chon cut tren bang phu kien HVAC). Type: 'square' (cut vuong ",
+    "params": {
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array",
+          "description": "(Batch) Danh sach cut can chen.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "point": {
+                "type": "object",
+                "description": "Diem tren doan ong can chen cut.",
+                "properties": {
+                  "x": {
+                    "type": "number"
+                  },
+                  "y": {
+                    "type": "number"
+                  },
+                  "z": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "x",
+                  "y"
+                ]
+              },
+              "type": {
+                "type": "string",
+                "description": "'square' | 'vaned' | 'riser_up' | 'riser_down'"
+              },
+              "l1": {
+                "type": "number",
+                "description": "Canh nho goc cua (mm) — cut vuong. Mac dinh 300."
+              },
+              "r": {
+                "type": "number",
+                "description": "Ban kinh cong (mm) — cut tron. Bo trong = mac dinh D/2 cua ong."
+              },
+              "down": {
+                "type": "boolean",
+                "description": "Cut vuong gap xuong (true, mac dinh) hay len (false)."
+              }
+            },
+            "required": [
+              "point",
+              "type"
+            ]
+          }
+        },
+        "point": {
+          "type": "object",
+          "description": "(Single) Diem tren doan ong can chen cut.",
+          "properties": {
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            },
+            "z": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "x",
+            "y"
+          ]
+        },
+        "type": {
+          "type": "string",
+          "description": "(Single) 'square' | 'vaned' | 'riser_up' | 'riser_down'"
+        },
+        "l1": {
+          "type": "number",
+          "description": "(Single) Canh nho goc cua (mm). Mac dinh 300."
+        },
+        "r": {
+          "type": "number",
+          "description": "(Single) Ban kinh cong (mm). Bo trong = mac dinh D/2 cua ong."
+        },
+        "down": {
+          "type": "boolean",
+          "description": "(Single) Cut vuong gap xuong (mac dinh true)."
+        }
+      }
+    }
+  },
+  {
+    "name": "export_plan_image",
+    "desc": "Xuat 1 vung ban ve ra ANH PNG de AI NHIN duoc, kem file .json tham chieu toa do. Day la cach AI 'doc' mat bang: khong co",
+    "params": {
+      "type": "object",
+      "properties": {
+        "minX": {
+          "type": "number",
+          "description": "Goc vung (toa do UCS). Bo trong ca 4 → dung extents ban ve."
+        },
+        "minY": {
+          "type": "number"
+        },
+        "maxX": {
+          "type": "number"
+        },
+        "maxY": {
+          "type": "number"
+        },
+        "widthPx": {
+          "type": "number",
+          "description": "Be rong anh (px). Mac dinh 1600. Lon hon ~2000 it khi co loi cho AI."
+        },
+        "format": {
+          "type": "string",
+          "description": "'png' (mac dinh) | 'svg' | 'both'"
+        },
+        "grid": {
+          "type": "boolean",
+          "description": "Ve luoi toa do + nhan so len PNG. Mac dinh true."
+        },
+        "gridStep": {
+          "type": "number",
+          "description": "Buoc luoi (don vi ban ve). Bo trong → tu chon theo co vung."
+        },
+        "outDir": {
+          "type": "string",
+          "description": "Thu muc luu. Mac dinh %TEMP%\\hts-plan."
+        },
+        "fileName": {
+          "type": "string",
+          "description": "Ten file khong duoi. Mac dinh 'plan_<timestamp>'."
+        }
+      }
+    }
+  },
+  {
+    "name": "change_block_base_point",
+    "desc": "Doi BasePoint cua Block Definition. Tat ca BlockReference cua block do se duoc cap nhat Position de hinh tren ban ve KHO",
+    "params": {
+      "type": "object",
+      "properties": {
+        "sourceHandle": {
+          "type": "string",
+          "description": "Handle (hex) cua BlockReference dai dien (de xac dinh BTR can doi base point)"
+        },
+        "newBasePoint": {
+          "type": "object",
+          "description": "Toa do WCS cua diem base moi {x, y, z}",
+          "properties": {
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            },
+            "z": {
+              "type": "number"
+            }
+          }
+        }
+      },
+      "required": [
+        "sourceHandle",
+        "newBasePoint"
+      ]
+    }
+  },
+  {
+    "name": "get_current_settings",
+    "desc": "Lay thong tin cai dat hien tai: layer, mline scale, mline style, osmode...",
+    "params": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "select_by_layer",
+    "desc": "Tra ve danh sach handle cua tat ca entity tren 1 layer chi dinh.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "layer": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "layer"
+      ]
+    }
+  },
+  {
+    "name": "select_by_type",
+    "desc": "Tra ve handles cua entity theo DXF type (vd 'LINE', 'LWPOLYLINE', 'INSERT', 'CIRCLE', 'ARC', 'MTEXT', 'MLINE').",
+    "params": {
+      "type": "object",
+      "properties": {
+        "dxfType": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "dxfType"
+      ]
+    }
+  },
+  {
+    "name": "select_by_block_name",
+    "desc": "Tra ve handles cua block reference theo ten block (effective name, ho tro dynamic block).",
+    "params": {
+      "type": "object",
+      "properties": {
+        "blockName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "blockName"
+      ]
+    }
+  },
+  {
+    "name": "select_in_window",
+    "desc": "Tra ve handles entity NAM TRON TRONG cua so chu nhat (xMin,yMin)-(xMax,yMax). Khac select_crossing — entity chi cat khon",
+    "params": {
+      "type": "object",
+      "properties": {
+        "xMin": {
+          "type": "number"
+        },
+        "yMin": {
+          "type": "number"
+        },
+        "xMax": {
+          "type": "number"
+        },
+        "yMax": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "xMin",
+        "yMin",
+        "xMax",
+        "yMax"
+      ]
+    }
+  },
+  {
+    "name": "select_crossing_window",
+    "desc": "Tra ve handles entity CAT QUA hoac NAM TRONG cua so chu nhat. Tuong duong AutoCAD CROSSING.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "xMin": {
+          "type": "number"
+        },
+        "yMin": {
+          "type": "number"
+        },
+        "xMax": {
+          "type": "number"
+        },
+        "yMax": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "xMin",
+        "yMin",
+        "xMax",
+        "yMax"
+      ]
+    }
+  },
+  {
+    "name": "select_by_color",
+    "desc": "Tra ve handles cua entity co color trung index ACI 1-255 (color truc tiep, KHONG ke ByLayer).",
+    "params": {
+      "type": "object",
+      "properties": {
+        "aci": {
+          "type": "integer",
+          "description": "ACI 1-255"
+        }
+      },
+      "required": [
+        "aci"
+      ]
+    }
+  },
+  {
+    "name": "get_curve_endpoints",
+    "desc": "Tra ve toa do start/end cua mot Curve (Line/Polyline/Arc/Ellipse/Spline).",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "handle"
+      ]
+    }
+  },
+  {
+    "name": "get_curve_intersections",
+    "desc": "Tinh diem giao giua 2 Curve (Line/Polyline/Arc/Circle/Ellipse). Tra danh sach toa do.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handleA": {
+          "type": "string"
+        },
+        "handleB": {
+          "type": "string"
+        },
+        "extend": {
+          "type": "boolean",
+          "description": "true = cho phep extend qua dau curve"
+        }
+      },
+      "required": [
+        "handleA",
+        "handleB"
+      ]
+    }
+  },
+  {
+    "name": "delete_layer",
+    "desc": "Xoa layer. Tu dong move tat ca entity tren layer ve '0' truoc khi xoa. Khong xoa layer dac biet (0, Defpoints) hoac laye",
+    "params": {
+      "type": "object",
+      "properties": {
+        "layerName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "layerName"
+      ]
+    }
+  },
+  {
+    "name": "rename_layer",
+    "desc": "Doi ten layer. Khong duoc trung voi layer da co.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "oldName": {
+          "type": "string"
+        },
+        "newName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "oldName",
+        "newName"
+      ]
+    }
+  },
+  {
+    "name": "isolate_layer",
+    "desc": "Freeze tat ca layer ngoai tru layer chi dinh va layer current. Tuong duong AutoCAD LAYISO.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "layerName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "layerName"
+      ]
+    }
+  },
+  {
+    "name": "thaw_all_layers",
+    "desc": "Bo freeze tat ca layer (LAYTHW). Reset isolate truoc do.",
+    "params": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    }
+  },
+  {
+    "name": "purge_unused_layers",
+    "desc": "Xoa cac layer KHONG co entity nao tham chieu. Khong xoa layer he thong (0, Defpoints) hoac current.",
+    "params": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    }
+  },
+  {
+    "name": "get_layer_info",
+    "desc": "Tra thong tin chi tiet cua mot layer: color/lineweight/linetype/state (locked/frozen/off/plottable).",
+    "params": {
+      "type": "object",
+      "properties": {
+        "layerName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "layerName"
+      ]
+    }
+  },
+  {
+    "name": "get_dynamic_block_properties",
+    "desc": "Tra ve tat ca dynamic property cua mot block reference: name, value, units, allowed values.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "handle"
+      ]
+    }
+  },
+  {
+    "name": "set_dynamic_block_property",
+    "desc": "Cap nhat 1 dynamic property cua block ref. Value ho tro string/number/bool tuy property.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string"
+        },
+        "propertyName": {
+          "type": "string"
+        },
+        "value": {
+          "description": "value moi (number/string/bool)"
+        }
+      },
+      "required": [
+        "handle",
+        "propertyName",
+        "value"
+      ]
+    }
+  },
+  {
+    "name": "replace_block_instances",
+    "desc": "Doi tat ca instance cua block 'fromName' sang 'toName' (giu vi tri/rotation/scale). Block 'toName' phai da co trong draw",
+    "params": {
+      "type": "object",
+      "properties": {
+        "fromName": {
+          "type": "string"
+        },
+        "toName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "fromName",
+        "toName"
+      ]
+    }
+  },
+  {
+    "name": "extract_all_text",
+    "desc": "Liet ke tat ca DBText va MText trong drawing — content, layer, position, height, handle.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "layer": {
+          "type": "string",
+          "description": "(Tuy chon) Chi extract layer nay"
+        }
+      },
+      "required": []
+    }
+  },
+  {
+    "name": "zoom_to_entity",
+    "desc": "Zoom view bao trum mot entity theo handle (them margin xung quanh, default 20%).",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string"
+        },
+        "marginPct": {
+          "type": "number",
+          "description": "default 20"
+        }
+      },
+      "required": [
+        "handle"
+      ]
+    }
+  },
+  {
+    "name": "get_drawing_info",
+    "desc": "Tra ve thong tin co ban: filename, units (INSUNITS), so layer, so block ref, current layer, model space extents.",
+    "params": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    }
+  },
+  {
+    "name": "compute_pipe_volume_by_layer",
+    "desc": "Tinh the tich nuoc trong ong (Mline) cho moi layer. Mac dinh: don vi drawing = mm, ket qua = m³. Truyen lengthScaleToMet",
+    "params": {
+      "type": "object",
+      "properties": {
+        "lengthScaleToMeter": {
+          "type": "number",
+          "description": "He so doi don vi length sang met (default 0.001 cho mm)"
+        },
+        "diameterScaleToMeter": {
+          "type": "number",
+          "description": "He so doi Mline.Scale sang met (default 0.001)"
+        }
+      },
+      "required": []
+    }
+  },
+  {
+    "name": "compute_duct_surface_area",
+    "desc": "Tinh tong dien tich ton (m²) cho he ong gio chu nhat. Quet block name match pattern '...-OG-WxH L<len>' (vd 'HTS-OG-1000",
+    "params": {
+      "type": "object",
+      "properties": {
+        "lengthScaleToMeter": {
+          "type": "number",
+          "description": "default 0.001 (mm→m)"
+        }
+      },
+      "required": []
+    }
+  },
+  {
+    "name": "extract_cable_schedule",
+    "desc": "Quet tat ca polyline co XData app 'CABLE_DATA' (vd '1.5MM2'), tra: layer, length, cable_data, handle. Dung de bao boi lu",
+    "params": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    }
+  },
+  {
+    "name": "count_blocks_along_curve",
+    "desc": "Dem block ref co Position nam gan curve (handle) trong khoang cach tolerance. Huu ich: dem phu kien tren tuyen ong/tray.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string"
+        },
+        "tolerance": {
+          "type": "number",
+          "description": "default 1.0"
+        },
+        "blockNamePattern": {
+          "type": "string",
+          "description": "(Tuy chon) regex match ten block"
+        }
+      },
+      "required": [
+        "handle"
+      ]
+    }
+  },
+  {
+    "name": "get_xdata",
+    "desc": "Doc XData cua entity theo app name (vd 'CABLE_DATA'). Tra danh sach (dxf_code, value).",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string"
+        },
+        "appName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "handle",
+        "appName"
+      ]
+    }
+  },
+  {
+    "name": "rename_block",
+    "desc": "Doi ten 1 block definition. Tat ca instance se tu dong cap nhat. Khong duoc trung voi block da co.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "oldName": {
+          "type": "string"
+        },
+        "newName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "oldName",
+        "newName"
+      ]
+    }
+  },
+  {
+    "name": "purge_unused_blocks",
+    "desc": "Xoa cac block definition KHONG co instance nao tham chieu. Bo qua *Model_Space, *Paper_Space, anonymous.",
+    "params": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    }
+  },
+  {
+    "name": "get_block_attributes",
+    "desc": "Tra ve danh sach attributes cua block reference: tag, value, prompt, position. Voi block khong attribute thi tra danh sa",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "handle"
+      ]
+    }
+  },
+  {
+    "name": "set_block_attribute",
+    "desc": "Set value cho 1 attribute (theo tag) cua block reference.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string"
+        },
+        "tag": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "handle",
+        "tag",
+        "value"
+      ]
+    }
+  },
+  {
+    "name": "set_all_block_attributes",
+    "desc": "Set nhieu attribute cua 1 block reference. attributes={'tag1':'value1','tag2':'value2'}.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string"
+        },
+        "attributes": {
+          "type": "object",
+          "description": "Map tag → value"
+        }
+      },
+      "required": [
+        "handle",
+        "attributes"
+      ]
+    }
+  },
+  {
+    "name": "list_block_definitions",
+    "desc": "Liet ke tat ca block definition (khong gom layout/anonymous): name, instance_count, has_attributes, is_dynamic.",
+    "params": {
+      "type": "object",
+      "properties": {
+        "includeUnused": {
+          "type": "boolean",
+          "description": "default true"
+        }
+      },
+      "required": []
+    }
+  },
+  {
+    "name": "extract_numbers_from_text",
+    "desc": "Tach tat ca SO trong content text/mtext. Truyen handle de tach 1 entity, hoac layer/contains de tach nhieu. Ho tro so am",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string"
+        },
+        "layer": {
+          "type": "string"
+        },
+        "contains": {
+          "type": "string"
+        }
+      },
+      "required": []
+    }
+  },
+  {
+    "name": "get_mleader_text",
+    "desc": "Doc noi dung MText cua mot MLeader (theo handle). Tra raw contents (co the chua format code MText \\P, \\f, ...).",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "handle"
+      ]
+    }
+  },
+  {
+    "name": "get_dimension_text",
+    "desc": "Doc Dimension theo handle: tra ve measurement (gia tri AutoCAD do duoc), dim_text (string user override hoac '<>'), dim_",
+    "params": {
+      "type": "object",
+      "properties": {
+        "handle": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "handle"
+      ]
+    }
+  }
+]

@@ -239,3 +239,22 @@ Trong AutoCAD 2021–2027, tùy chọn `_A` (`Arc length`) chỉ hỏi **1 số 
 - ❌ `pick_points`, `select_and_export`, `open_query_tools`
 - ❌ `ui_feature_run` với `id`: `"hvac-duct"`, `"hvac-round"`, `"hvac-breeches"`, `"hvac-insert-block"`, `"hvac-acoustic"`, `"hvac-insulation"` *(mở bảng giao diện UI)*
 - ❌ `ui_feature_run` với `id`: `"hvac-resize"` (`HTSDOIKTOG`), `"hvac-edit"` (`HTS_DCTOG`), `"hvac-tag"` (`HTS_TAGOG`)
+
+---
+
+## 9. Kinh Nghiệm Thực Chiến Bổ Sung (Đúc Kết Từ Triển Khai Bản Vẽ Xuất Revit)
+
+1. **Chuẩn hóa `INSUNITS = 4` trước khi vẽ trên DWG xuất từ Revit**: Nhiều bản vẽ xuất từ Revit có tọa độ thực tế hệ `mm` nhưng cờ `INSUNITS = 1` (`Inches`). Luôn chạy `_.INSUNITS\n4\n` và `_.MEASUREMENT\n1\n` ngay Bước 1, rồi kiểm tra `get_bounding_box` đốt ống đầu tiên để tránh lỗi phóng `25.4x`.
+2. **Bảo toàn 100% nền gốc khi chạy `HTS_RVOG` (`Xoagoc = KHÔNG`)**: Trong lệnh `HTS_RVOG` (`hvac-revit-convert`), tùy chọn `Xoagoc` mặc định là `CÓ` (có thể xóa thực thể trên cả layer đang khóa). Gửi tùy chọn `Xoagoc` → `KHÔNG` để sinh côn thu khớp đúng chiều dài thiết kế (`L202`/`L204`) mà vẫn giữ nguyên `100%` nền thiết kế gốc, sau đó chuyển về `M-MVAC-*` và đổi tiền tố block thành `HTS-CON-*`.
+3. **Cút bán kính hẹp `0.75W` & Giao cắt 2D khác cao độ**:
+   - Với cút bo bán kính trong hẹp `0.75W`, truyền tường minh `"R": 0.25 * W` (ví dụ `R: 225` cho `W = 900`) trong `draw_rectangular_duct`.
+   - Khi 2 hệ ống gió giao cắt trên mặt bằng 2D ở cao độ khác nhau (VD `SEAD` đi dưới `PAD`), bắt buộc khóa tạm layer hệ còn lại (`M-MVAC-PAD`) và dùng cửa sổ quét cục bộ khi chạy `QUETPK`.
+4. **Kiểm chứng & sửa hướng vát `45°` của toàn bộ `HTS-TAP-*`**: `QUETPK` sinh chiều vát mặc định không phụ thuộc chiều gió thực tế. Sau khi sinh `HTS-TAP-*`, luôn đối chiếu `get_bounding_box` với chiều gió thượng lưu / thiết kế gốc và dùng `mirror_entity` (`eraseSource: true`) qua trục cổ trích nếu bị ngược chiều vát.
+5. **Bù độ phồng cung tròn của `_.REVCLOUD` (`~0.34 × arcLen`)**: Lệnh `_.REVCLOUD _A <arcLen> _R` phồng cung tròn ra ngoài khung chữ nhật đầu vào khoảng `0.34 × arcLen`. Tại các mép áp sát ống `M-MVAC-*`, thu lùi khung nhập vào `0.35 × arcLen + 15 mm` rồi kiểm chứng giao cắt Bounding Box chặt `= 0` để giữ tuyệt đối Quy tắc số 4.
+6. **Chủ động đấu nối góc thiếu phụ kiện giữa 2 tuyến ống cùng hệ (Quy trình chuẩn đúc kết từ tình huống `RC-03`)**:
+   - **Nhận diện**: Khi 2 tuyến ống thuộc cùng hệ thống (VD cùng `SEAD`) chạy hội tụ nhau (vuông góc `90°` hoặc góc nghiêng $\theta$ bất kỳ) mà thiết kế gốc để hở khoảng trống ở góc giao (thiếu nét cút nối, không có ký hiệu thiết bị hay đầu bịt) $\Rightarrow$ dựa vào nhãn Text trước & sau xác định người thiết kế vẽ sót phụ kiện; **KHÔNG khoanh mây `REVCLOUD`**, chủ động đấu nối hoàn chỉnh bằng 100% HTS Tool!
+   - **Quy trình thực thi**:
+     1. Tính chính xác giao điểm 2 đường tim $(X_{\text{giao}}, Y_{\text{giao}})$ và góc đổi hướng $\theta$ giữa 2 vector tim trục.
+     2. **Hai tuyến cùng kích thước (`W1×H1 = W2×H2`)**: Vẽ liền 1 `run` đa điểm bằng `draw_rectangular_duct` từ mặt bích đốt trước $\rightarrow (X_{\text{giao}}, Y_{\text{giao}}) \rightarrow$ mặt bích đốt sau với bán kính cổ trong chuẩn **`"R": W / 2`** (HTS tự sinh cút `HTS-CO-V47-{W}x{H}-R{W/2}-A{goc}` đúng góc $\theta$ + đốt thẳng bù khít `0 mm`, không hở/không chồng).
+     3. **Hai tuyến khác kích thước (`W1×H1 ≠ W2×H2`)**: Đấu nối bằng cút bo/chếch đúng góc $\theta$ với **`R = W / 2`** kết hợp thêm **côn thu (`HTS-CON-*`)** chuyển bậc bích-chạm-bích.
+     4. Xóa đốt cụt tạm (nếu có), `purge_unused_blocks` block `0` instance, gán đủ `duct_set_elevation` (`HTS_OG_DAY = BOD`), đảm bảo `DRAWORDER` nằm trên nền gốc và sai số tim `< 1 mm`.
