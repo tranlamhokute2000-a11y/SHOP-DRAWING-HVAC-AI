@@ -1,0 +1,150 @@
+[
+  {
+    "id": "Z-01",
+    "layer": "M-MVAC-SEAD",
+    "W": 1000,
+    "H": 400,
+    "z1": 2650,
+    "z2": 2400,
+    "dZ": 250,
+    "side": "RIGHT",
+    "stepDir": "DOWN",
+    "rect": "33BBE",
+    "pl": "33BBF",
+    "elevHandles": [
+      "33BCA",
+      "33BD2",
+      "33BD3"
+    ],
+    "dimHandles": [
+      "33BD4",
+      "33BE1",
+      "33BF0"
+    ],
+    "cloud": "33BFF",
+    "leader": "33C00",
+    "cloudBbox": {
+      "minX": -72509.52,
+      "minY": 74220.59,
+      "minZ": 0,
+      "maxX": -70944.33,
+      "maxY": 75588.36,
+      "maxZ": 0,
+      "width": 1565.19,
+      "height": 1367.78,
+      "depth": 0,
+      "entityCount": 1
+    }
+  },
+  {
+    "id": "Z-02",
+    "layer": "M-MVAC-SEAD",
+    "W": 1850,
+    "H": 450,
+    "z1": 3050,
+    "z2": 2300,
+    "dZ": 750,
+    "side": "RIGHT",
+    "stepDir": "DOWN",
+    "rect": "33C01",
+    "pl": "33C02",
+    "elevHandles": [
+      "33C0D",
+      "33C0E",
+      "33C0F"
+    ],
+    "dimHandles": [
+      "33C10",
+      "33C1D",
+      "33C2A"
+    ],
+    "cloud": "33C37",
+    "leader": "33C38",
+    "cloudBbox": {
+      "minX": -56729.5,
+      "minY": 22290.28,
+      "minZ": 0,
+      "maxX": -37986.03,
+      "maxY": 36530.53,
+      "maxZ": 0,
+      "width": 18743.47,
+      "height": 14240.25,
+      "depth": 0,
+      "entityCount": 1
+    }
+  },
+  {
+    "id": "Z-03",
+    "layer": "M-MVAC-SEAD",
+    "W": 1500,
+    "H": 450,
+    "z1": 2720,
+    "z2": 2300,
+    "dZ": 420,
+    "side": "UP",
+    "stepDir": "DOWN",
+    "rect": "33C39",
+    "pl": "33C3A",
+    "elevHandles": [
+      "33C3B",
+      "33C3C",
+      "33C3D"
+    ],
+    "dimHandles": [
+      "33C3E",
+      "33C4B",
+      "33C58"
+    ],
+    "cloud": "33C67",
+    "leader": "33C68",
+    "cloudBbox": {
+      "minX": -82991.83,
+      "minY": 27355.57,
+      "minZ": 0,
+      "maxX": -64577.61,
+      "maxY": 45768.12,
+      "maxZ": 0,
+      "width": 18414.23,
+      "height": 18412.55,
+      "depth": 0,
+      "entityCount": 1
+    }
+  },
+  {
+    "id": "Z-04",
+    "layer": "M-MVAC-SEAD",
+    "W": 1000,
+    "H": 350,
+    "z1": 2500,
+    "z2": 3150,
+    "dZ": 650,
+    "side": "RIGHT",
+    "stepDir": "UP",
+    "rect": "33C69",
+    "pl": "33C6A",
+    "elevHandles": [
+      "33C75",
+      "33C7D",
+      "33C7E"
+    ],
+    "dimHandles": [
+      "33C7F",
+      "33C8E",
+      "33C9B"
+    ],
+    "cloud": "33CA8",
+    "leader": "33CA9",
+    "cloudBbox": {
+      "minX": -55160.39,
+      "minY": -5805.67,
+      "minZ": 0,
+      "maxX": -42121.77,
+      "maxY": 20182.36,
+      "maxZ": 0,
+      "width": 13038.62,
+      "height": 25988.03,
+      "depth": 0,
+      "entityCount": 1
+    }
+  }
+]

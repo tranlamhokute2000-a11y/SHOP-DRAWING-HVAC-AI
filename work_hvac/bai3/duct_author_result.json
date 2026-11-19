@@ -1,0 +1,833 @@
+{
+  "totalRuns": 40,
+  "totalBlocks": 385,
+  "elevationGroupsCount": 17,
+  "runResults": [
+    {
+      "name": "EAD-N1",
+      "layer": "M-MVAC-EAD",
+      "W": 900,
+      "H": 300,
+      "bod": 3200,
+      "straights": 5,
+      "elbows": 0,
+      "handles": [
+        "336D2",
+        "336D3",
+        "336D4",
+        "336D5",
+        "336D6"
+      ]
+    },
+    {
+      "name": "EAD-N2",
+      "layer": "M-MVAC-EAD",
+      "W": 700,
+      "H": 300,
+      "bod": 3200,
+      "straights": 11,
+      "elbows": 2,
+      "handles": [
+        "336E1",
+        "336E2",
+        "336E3",
+        "336E4",
+        "336EF",
+        "336FA",
+        "336FB",
+        "336FC",
+        "336FD",
+        "336FE",
+        "33709",
+        "33711",
+        "33712"
+      ]
+    },
+    {
+      "name": "EAD-W1",
+      "layer": "M-MVAC-EAD",
+      "W": 1250,
+      "H": 500,
+      "bod": 2400,
+      "straights": 4,
+      "elbows": 1,
+      "handles": [
+        "3371D",
+        "3371E",
+        "33729",
+        "33732",
+        "3373A"
+      ]
+    },
+    {
+      "name": "EAD-W2",
+      "layer": "M-MVAC-EAD",
+      "W": 1250,
+      "H": 500,
+      "bod": 2400,
+      "straights": 27,
+      "elbows": 0,
+      "handles": [
+        "3373B",
+        "3373C",
+        "3373D",
+        "3373E",
+        "3373F",
+        "33740",
+        "33741",
+        "33742",
+        "33743",
+        "33744",
+        "33745",
+        "33746",
+        "33747",
+        "33748",
+        "33749",
+        "3374A",
+        "3374B",
+        "3374C",
+        "3374D",
+        "3374E",
+        "3374F",
+        "33750",
+        "33751",
+        "33752",
+        "33753",
+        "33754",
+        "3375F"
+      ]
+    },
+    {
+      "name": "EAD-W3a",
+      "layer": "M-MVAC-EAD",
+      "W": 1250,
+      "H": 500,
+      "bod": 2550,
+      "straights": 2,
+      "elbows": 0,
+      "handles": [
+        "33760",
+        "3376B"
+      ]
+    },
+    {
+      "name": "EAD-W3b",
+      "layer": "M-MVAC-EAD",
+      "W": 1250,
+      "H": 500,
+      "bod": 2550,
+      "straights": 2,
+      "elbows": 0,
+      "handles": [
+        "3376C",
+        "33777"
+      ]
+    },
+    {
+      "name": "EAD-W4",
+      "layer": "M-MVAC-EAD",
+      "W": 1250,
+      "H": 500,
+      "bod": 2550,
+      "straights": 6,
+      "elbows": 3,
+      "handles": [
+        "33782",
+        "3378D",
+        "33798",
+        "33799",
+        "3379A",
+        "337A5",
+        "337AD",
+        "337B5",
+        "337BD"
+      ]
+    },
+    {
+      "name": "EAD-W5",
+      "layer": "M-MVAC-EAD",
+      "W": 1250,
+      "H": 500,
+      "bod": 2550,
+      "straights": 4,
+      "elbows": 2,
+      "handles": [
+        "337C8",
+        "337D3",
+        "337D4",
+        "337DF",
+        "337E7",
+        "337EF"
+      ]
+    },
+    {
+      "name": "EAD-W6",
+      "layer": "M-MVAC-EAD",
+      "W": 1000,
+      "H": 450,
+      "bod": 2575,
+      "straights": 3,
+      "elbows": 0,
+      "handles": [
+        "337F0",
+        "337F1",
+        "337FC"
+      ]
+    },
+    {
+      "name": "EAD-W7_Tap",
+      "layer": "M-MVAC-EAD",
+      "W": 1000,
+      "H": 450,
+      "bod": 2575,
+      "straights": 4,
+      "elbows": 1,
+      "handles": [
+        "33807",
+        "33808",
+        "33809",
+        "33814",
+        "33815"
+      ]
+    },
+    {
+      "name": "SED-NW_Header",
+      "layer": "M-MVAC-SEAD",
+      "W": 2200,
+      "H": 550,
+      "bod": 2350,
+      "straights": 8,
+      "elbows": 1,
+      "handles": [
+        "33820",
+        "33821",
+        "33822",
+        "33823",
+        "3382E",
+        "3382F",
+        "33830",
+        "3383B",
+        "33843"
+      ]
+    },
+    {
+      "name": "SED-NW_HeaderCont",
+      "layer": "M-MVAC-SEAD",
+      "W": 2200,
+      "H": 550,
+      "bod": 2350,
+      "straights": 3,
+      "elbows": 0,
+      "handles": [
+        "33844",
+        "33845",
+        "33850"
+      ]
+    },
+    {
+      "name": "SED-NW_Branch1",
+      "layer": "M-MVAC-SEAD",
+      "W": 1400,
+      "H": 450,
+      "bod": 2400,
+      "straights": 2,
+      "elbows": 0,
+      "handles": [
+        "33851",
+        "3385C"
+      ]
+    },
+    {
+      "name": "SED-NW_Branch2",
+      "layer": "M-MVAC-SEAD",
+      "W": 1400,
+      "H": 450,
+      "bod": 2400,
+      "straights": 13,
+      "elbows": 1,
+      "handles": [
+        "3385D",
+        "33868",
+        "33869",
+        "3386A",
+        "3386B",
+        "3386C",
+        "3386D",
+        "3386E",
+        "3386F",
+        "33870",
+        "33871",
+        "33872",
+        "3387D",
+        "3387E"
+      ]
+    },
+    {
+      "name": "SED-NW_Trunk1200",
+      "layer": "M-MVAC-SEAD",
+      "W": 1200,
+      "H": 450,
+      "bod": 2400,
+      "straights": 18,
+      "elbows": 4,
+      "handles": [
+        "3387F",
+        "33880",
+        "33881",
+        "33882",
+        "33883",
+        "3388E",
+        "33899",
+        "338A4",
+        "338A5",
+        "338A6",
+        "338A7",
+        "338A8",
+        "338A9",
+        "338AA",
+        "338AB",
+        "338AC",
+        "338AD",
+        "338B8",
+        "338C0",
+        "338C1",
+        "338C2",
+        "338C3"
+      ]
+    },
+    {
+      "name": "SED-NW_Trunk1000",
+      "layer": "M-MVAC-SEAD",
+      "W": 1000,
+      "H": 400,
+      "bod": 2650,
+      "straights": 11,
+      "elbows": 0,
+      "handles": [
+        "338CE",
+        "338CF",
+        "338D0",
+        "338D1",
+        "338D2",
+        "338D3",
+        "338D4",
+        "338D5",
+        "338D6",
+        "338D7",
+        "338E2"
+      ]
+    },
+    {
+      "name": "SED-NW_Trunk800",
+      "layer": "M-MVAC-SEAD",
+      "W": 800,
+      "H": 350,
+      "bod": 2675,
+      "straights": 11,
+      "elbows": 2,
+      "handles": [
+        "338E3",
+        "338E4",
+        "338E5",
+        "338F0",
+        "338FB",
+        "338FC",
+        "338FD",
+        "338FE",
+        "338FF",
+        "33900",
+        "3390B",
+        "33913",
+        "33914"
+      ]
+    },
+    {
+      "name": "SED-NW_Jog800",
+      "layer": "M-MVAC-SEAD",
+      "W": 800,
+      "H": 350,
+      "bod": 2675,
+      "straights": 9,
+      "elbows": 5,
+      "handles": [
+        "3391F",
+        "33920",
+        "3392B",
+        "3392C",
+        "33937",
+        "33938",
+        "33943",
+        "3394E",
+        "33959",
+        "33961",
+        "33969",
+        "33971",
+        "33972",
+        "33973"
+      ]
+    },
+    {
+      "name": "SED-NW_End500",
+      "layer": "M-MVAC-SEAD",
+      "W": 500,
+      "H": 350,
+      "bod": 2675,
+      "straights": 11,
+      "elbows": 0,
+      "handles": [
+        "33974",
+        "33975",
+        "33976",
+        "33977",
+        "33978",
+        "33979",
+        "3397A",
+        "3397B",
+        "3397C",
+        "3397D",
+        "33988"
+      ]
+    },
+    {
+      "name": "SED-NE_Header",
+      "layer": "M-MVAC-SEAD",
+      "W": 1400,
+      "H": 450,
+      "bod": 2800,
+      "straights": 17,
+      "elbows": 2,
+      "handles": [
+        "33989",
+        "3398A",
+        "3398B",
+        "3398C",
+        "3398D",
+        "3398E",
+        "3398F",
+        "33990",
+        "3399B",
+        "339A6",
+        "339A7",
+        "339A8",
+        "339A9",
+        "339AA",
+        "339AB",
+        "339AC",
+        "339B7",
+        "339BF",
+        "339C0"
+      ]
+    },
+    {
+      "name": "SED-NE_Trunk1200",
+      "layer": "M-MVAC-SEAD",
+      "W": 1200,
+      "H": 450,
+      "bod": 2800,
+      "straights": 14,
+      "elbows": 0,
+      "handles": [
+        "339C1",
+        "339C2",
+        "339C3",
+        "339C4",
+        "339C5",
+        "339C6",
+        "339C7",
+        "339C8",
+        "339C9",
+        "339CA",
+        "339CB",
+        "339CC",
+        "339CD",
+        "339CE"
+      ]
+    },
+    {
+      "name": "SED-NE_Trunk1000",
+      "layer": "M-MVAC-SEAD",
+      "W": 1000,
+      "H": 400,
+      "bod": 2800,
+      "straights": 11,
+      "elbows": 0,
+      "handles": [
+        "339CF",
+        "339D0",
+        "339D1",
+        "339D2",
+        "339D3",
+        "339D4",
+        "339D5",
+        "339D6",
+        "339D7",
+        "339D8",
+        "339E3"
+      ]
+    },
+    {
+      "name": "SED-NE_Trunk800",
+      "layer": "M-MVAC-SEAD",
+      "W": 800,
+      "H": 350,
+      "bod": 2800,
+      "straights": 13,
+      "elbows": 4,
+      "handles": [
+        "339E4",
+        "339EF",
+        "339F0",
+        "339FB",
+        "33A06",
+        "33A07",
+        "33A08",
+        "33A09",
+        "33A0A",
+        "33A0B",
+        "33A0C",
+        "33A0D",
+        "33A18",
+        "33A19",
+        "33A1A",
+        "33A1B",
+        "33A1C"
+      ]
+    },
+    {
+      "name": "SED-NE_Trunk500",
+      "layer": "M-MVAC-SEAD",
+      "W": 500,
+      "H": 350,
+      "bod": 2800,
+      "straights": 14,
+      "elbows": 4,
+      "handles": [
+        "33A1D",
+        "33A1E",
+        "33A1F",
+        "33A20",
+        "33A2B",
+        "33A36",
+        "33A37",
+        "33A42",
+        "33A43",
+        "33A44",
+        "33A45",
+        "33A46",
+        "33A47",
+        "33A52",
+        "33A5A",
+        "33A5B",
+        "33A5C",
+        "33A5D"
+      ]
+    },
+    {
+      "name": "SED-S_Header",
+      "layer": "M-MVAC-SEAD",
+      "W": 2200,
+      "H": 550,
+      "bod": 2950,
+      "straights": 7,
+      "elbows": 0,
+      "handles": [
+        "33A5E",
+        "33A5F",
+        "33A60",
+        "33A61",
+        "33A62",
+        "33A63",
+        "33A6E"
+      ]
+    },
+    {
+      "name": "SED-S_NE_Branch",
+      "layer": "M-MVAC-SEAD",
+      "W": 950,
+      "H": 450,
+      "bod": 3050,
+      "straights": 6,
+      "elbows": 0,
+      "handles": [
+        "33A6F",
+        "33A70",
+        "33A71",
+        "33A72",
+        "33A73",
+        "33A7E"
+      ]
+    },
+    {
+      "name": "SED-SE_Trunk1200",
+      "layer": "M-MVAC-SEAD",
+      "W": 1200,
+      "H": 400,
+      "bod": 3100,
+      "straights": 4,
+      "elbows": 0,
+      "handles": [
+        "33A89",
+        "33A8A",
+        "33A8B",
+        "33A96"
+      ]
+    },
+    {
+      "name": "SED-SE_Trunk1000",
+      "layer": "M-MVAC-SEAD",
+      "W": 1000,
+      "H": 350,
+      "bod": 3150,
+      "straights": 4,
+      "elbows": 0,
+      "handles": [
+        "33AA1",
+        "33AA2",
+        "33AA3",
+        "33AAE"
+      ]
+    },
+    {
+      "name": "SED-SE_Trunk1000Low",
+      "layer": "M-MVAC-SEAD",
+      "W": 1000,
+      "H": 350,
+      "bod": 2500,
+      "straights": 8,
+      "elbows": 0,
+      "handles": [
+        "33AAF",
+        "33AB0",
+        "33AB1",
+        "33AB2",
+        "33AB3",
+        "33AB4",
+        "33AB5",
+        "33AC0"
+      ]
+    },
+    {
+      "name": "SED-S_MainNorth",
+      "layer": "M-MVAC-SEAD",
+      "W": 1850,
+      "H": 450,
+      "bod": 3050,
+      "straights": 12,
+      "elbows": 0,
+      "handles": [
+        "33AC1",
+        "33AC2",
+        "33AC3",
+        "33AC4",
+        "33AC5",
+        "33AC6",
+        "33AC7",
+        "33AC8",
+        "33AC9",
+        "33ACA",
+        "33ACB",
+        "33AD6"
+      ]
+    },
+    {
+      "name": "SED-S_MainWest1850",
+      "layer": "M-MVAC-SEAD",
+      "W": 1850,
+      "H": 450,
+      "bod": 2300,
+      "straights": 10,
+      "elbows": 0,
+      "handles": [
+        "33AD7",
+        "33AD8",
+        "33AD9",
+        "33ADA",
+        "33ADB",
+        "33ADC",
+        "33ADD",
+        "33ADE",
+        "33ADF",
+        "33AE0"
+      ]
+    },
+    {
+      "name": "SED-S_MainWest1500",
+      "layer": "M-MVAC-SEAD",
+      "W": 1500,
+      "H": 450,
+      "bod": 2300,
+      "straights": 10,
+      "elbows": 2,
+      "handles": [
+        "33AE1",
+        "33AE2",
+        "33AE3",
+        "33AEE",
+        "33AEF",
+        "33AF0",
+        "33AF1",
+        "33AF2",
+        "33AF3",
+        "33AFE",
+        "33B06",
+        "33B07"
+      ]
+    },
+    {
+      "name": "SED-S_MainWest1500High",
+      "layer": "M-MVAC-SEAD",
+      "W": 1500,
+      "H": 450,
+      "bod": 2720,
+      "straights": 4,
+      "elbows": 0,
+      "handles": [
+        "33B08",
+        "33B09",
+        "33B0A",
+        "33B15"
+      ]
+    },
+    {
+      "name": "SED-S_NorthBranch350",
+      "layer": "M-MVAC-SEAD",
+      "W": 350,
+      "H": 350,
+      "bod": 2770,
+      "straights": 5,
+      "elbows": 0,
+      "handles": [
+        "33B20",
+        "33B21",
+        "33B22",
+        "33B23",
+        "33B2E"
+      ]
+    },
+    {
+      "name": "SED-S_SouthTrunk1300",
+      "layer": "M-MVAC-SEAD",
+      "W": 1300,
+      "H": 450,
+      "bod": 2720,
+      "straights": 8,
+      "elbows": 0,
+      "handles": [
+        "33B2F",
+        "33B30",
+        "33B31",
+        "33B32",
+        "33B33",
+        "33B34",
+        "33B35",
+        "33B40"
+      ]
+    },
+    {
+      "name": "SED-S_SouthTrunk1200",
+      "layer": "M-MVAC-SEAD",
+      "W": 1200,
+      "H": 400,
+      "bod": 2770,
+      "straights": 6,
+      "elbows": 0,
+      "handles": [
+        "33B41",
+        "33B42",
+        "33B43",
+        "33B44",
+        "33B45",
+        "33B50"
+      ]
+    },
+    {
+      "name": "SED-S_SouthTrunk950",
+      "layer": "M-MVAC-SEAD",
+      "W": 950,
+      "H": 400,
+      "bod": 2770,
+      "straights": 7,
+      "elbows": 0,
+      "handles": [
+        "33B5B",
+        "33B5C",
+        "33B5D",
+        "33B5E",
+        "33B5F",
+        "33B60",
+        "33B69"
+      ]
+    },
+    {
+      "name": "SED-S_SouthTrunk750",
+      "layer": "M-MVAC-SEAD",
+      "W": 750,
+      "H": 350,
+      "bod": 2820,
+      "straights": 11,
+      "elbows": 0,
+      "handles": [
+        "33B74",
+        "33B75",
+        "33B76",
+        "33B77",
+        "33B78",
+        "33B79",
+        "33B7A",
+        "33B7B",
+        "33B7C",
+        "33B7D",
+        "33B88"
+      ]
+    },
+    {
+      "name": "SED-SW_Branch1000",
+      "layer": "M-MVAC-SEAD",
+      "W": 1000,
+      "H": 400,
+      "bod": 3150,
+      "straights": 14,
+      "elbows": 0,
+      "handles": [
+        "33B89",
+        "33B8A",
+        "33B8B",
+        "33B8C",
+        "33B8D",
+        "33B8E",
+        "33B8F",
+        "33B90",
+        "33B91",
+        "33B92",
+        "33B93",
+        "33B94",
+        "33B95",
+        "33BA0"
+      ]
+    },
+    {
+      "name": "SED-SW_Branch800",
+      "layer": "M-MVAC-SEAD",
+      "W": 800,
+      "H": 350,
+      "bod": 3200,
+      "straights": 12,
+      "elbows": 0,
+      "handles": [
+        "33BA1",
+        "33BA2",
+        "33BA3",
+        "33BA4",
+        "33BA5",
+        "33BA6",
+        "33BA7",
+        "33BA8",
+        "33BA9",
+        "33BAA",
+        "33BAB",
+        "33BB6"
+      ]
+    }
+  ],
+  "originalPreserved": true
+}

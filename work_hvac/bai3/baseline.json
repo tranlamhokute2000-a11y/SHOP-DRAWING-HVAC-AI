@@ -1,0 +1,22 @@
+{
+  "capturedAt": "2026-11-19T07:47:24.925Z",
+  "drawing": "C:\\Users\\Admin\\Desktop\\SHOPDRAWING-HVAC-AI\\bai 3.dwg",
+  "units": "Millimeters",
+  "osmode": 4031,
+  "originalLayerCounts": {
+    "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED": 396,
+    "MEPG-M-EQUIP": 6,
+    "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD": 104,
+    "MEPG-XREF-ARC": 8,
+    "MEPG-AC-TEXT": 94
+  },
+  "originalTotal": 608,
+  "extmin": {
+    "x": -90611.53489537741,
+    "y": -1707.1641990775097
+  },
+  "extmax": {
+    "x": -36300.441334643925,
+    "y": 122223.65561153591
+  }
+}

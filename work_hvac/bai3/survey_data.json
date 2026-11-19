@@ -1,0 +1,5166 @@
+{
+  "drawingInfo": {
+    "filename": "C:\\Users\\Admin\\Desktop\\SHOPDRAWING-HVAC-AI\\bai 3.dwg",
+    "units": "Millimeters",
+    "layer_count": 27,
+    "entity_count": 608,
+    "block_ref_count": 225,
+    "current_layer": "CLOUND",
+    "extmin": {
+      "x": -90611.53489537741,
+      "y": -1707.1641990775097
+    },
+    "extmax": {
+      "x": -36300.441334643925,
+      "y": 122223.65561153591
+    }
+  },
+  "settings": {
+    "currentLayer": "CLOUND",
+    "mlineScale": 20,
+    "mlineJustification": 0,
+    "mlineStyle": "STANDARD",
+    "osmode": 4031,
+    "drawingFileName": "C:\\Users\\Admin\\Desktop\\SHOPDRAWING-HVAC-AI\\bai 3.dwg"
+  },
+  "layerDetails": [
+    {
+      "name": "0",
+      "aci": 7,
+      "lineweight": -3,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": ""
+    },
+    {
+      "name": "MEPG-XREF-ARC",
+      "aci": 8,
+      "lineweight": 18,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": ""
+    },
+    {
+      "name": "MEPG-M-EQUIP",
+      "aci": 8,
+      "lineweight": 50,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": ""
+    },
+    {
+      "name": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "aci": 7,
+      "lineweight": 50,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": ""
+    },
+    {
+      "name": "MEPG-AC-M-Cấp gió tạo áp-Pressurization Air-PAD",
+      "aci": 7,
+      "lineweight": 50,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": ""
+    },
+    {
+      "name": "MEPG-AC-M-Cấp gió tươi không khí-Fresh Air-FAD",
+      "aci": 7,
+      "lineweight": 50,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": ""
+    },
+    {
+      "name": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "aci": 7,
+      "lineweight": 50,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": ""
+    },
+    {
+      "name": "MEPG-AC-M-Cấp gió lạnh FCU_AHU-Cool Air FCU_AHU-SAD",
+      "aci": 7,
+      "lineweight": 50,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": ""
+    },
+    {
+      "name": "MEPG-AC-M-Hồi gió lạnh FCU_AHU-Return Air-RAD",
+      "aci": 7,
+      "lineweight": 50,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": ""
+    },
+    {
+      "name": "MEPG-AC-M-Hút gió phòng rác-Garbage Exhaust Air-GED",
+      "aci": 7,
+      "lineweight": 50,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": ""
+    },
+    {
+      "name": "MEPG-AC",
+      "aci": 7,
+      "lineweight": 50,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": ""
+    },
+    {
+      "name": "MEPG-AC-TEXT",
+      "aci": 7,
+      "lineweight": 25,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": ""
+    },
+    {
+      "name": "M-MVAC-EAD",
+      "aci": 80,
+      "lineweight": 20,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": "EXHAUST AIR DUCT / Duong ong gio thai"
+    },
+    {
+      "name": "M-MVAC-FAD",
+      "aci": 150,
+      "lineweight": 20,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": "FRESH AIR DUCT / Duong ong gio tuoi"
+    },
+    {
+      "name": "M-MVAC-PAD",
+      "aci": 210,
+      "lineweight": 20,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": "PRESSURIZATION AIR DUCT / Ong gio tao ap"
+    },
+    {
+      "name": "M-MVAC-CEAD",
+      "aci": 170,
+      "lineweight": 20,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": "CAR EXHAUST AIR DUCT / Ong gio thai nha xe"
+    },
+    {
+      "name": "M-MVAC-CSAD",
+      "aci": 11,
+      "lineweight": 20,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": "CAR SUPPLY AIR DUCT / Ong gio cap nha xe"
+    },
+    {
+      "name": "M-MVAC-SEAD",
+      "aci": 190,
+      "lineweight": 20,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": "SMOKE EXHAUST AIR DUCT / Duong ong hut khoi"
+    },
+    {
+      "name": "M-MVAC-Copper Pipe",
+      "aci": 12,
+      "lineweight": 20,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": "COPPER PIPE / Duong ong dong"
+    },
+    {
+      "name": "M-MVAC-AC Drain",
+      "aci": 72,
+      "lineweight": 20,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": "DRAIN FOR AIR CONDITIONER / Ong nuoc ngung"
+    },
+    {
+      "name": "M-MVAC-Equipment",
+      "aci": 47,
+      "lineweight": 9,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": "EQUIPMENT / Thiet bi HVAC"
+    },
+    {
+      "name": "M-MVAC-Support",
+      "aci": 42,
+      "lineweight": 9,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": "SUPPORT / Gia do HVAC"
+    },
+    {
+      "name": "M-MVAC-DIM",
+      "aci": 97,
+      "lineweight": 5,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": "DIMENSION / Kich thuoc HVAC (M-DIM 1-400 & HO-DIM 1-70)"
+    },
+    {
+      "name": "M-MVAC-TEXT",
+      "aci": 2,
+      "lineweight": 9,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": "TEXT / Ghi chu & Chi dan mui ten HVAC"
+    },
+    {
+      "name": "CLOUND",
+      "aci": 240,
+      "lineweight": 5,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": true,
+      "description": "Revision Cloud & Trich chi tiet vat the (Spec v3)"
+    },
+    {
+      "name": "Defpoints",
+      "aci": 7,
+      "lineweight": -3,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": false,
+      "is_current": false,
+      "description": ""
+    },
+    {
+      "name": "!-AC-DUCT WITH INSULATION",
+      "aci": 4,
+      "lineweight": -3,
+      "linetype": "Continuous",
+      "is_locked": false,
+      "is_frozen": false,
+      "is_off": false,
+      "is_plottable": true,
+      "is_current": false,
+      "description": ""
+    }
+  ],
+  "groupLayers": [
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "count": 396,
+      "total_length": 621523.7518555586,
+      "total_area": 0
+    },
+    {
+      "layer": "MEPG-M-EQUIP",
+      "count": 6,
+      "total_length": 0,
+      "total_area": 0
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "count": 104,
+      "total_length": 145684.7807153583,
+      "total_area": 0
+    },
+    {
+      "layer": "MEPG-XREF-ARC",
+      "count": 8,
+      "total_length": 0,
+      "total_area": 0
+    },
+    {
+      "layer": "MEPG-AC-TEXT",
+      "count": 94,
+      "total_length": 0,
+      "total_area": 0
+    }
+  ],
+  "specMapping": [
+    {
+      "system": "EAD",
+      "targetLayer": "M-MVAC-EAD",
+      "color": 80,
+      "lineweight": 20,
+      "standard": true
+    },
+    {
+      "system": "SED",
+      "targetLayer": "M-MVAC-SEAD",
+      "color": 190,
+      "lineweight": 20,
+      "standard": true
+    }
+  ],
+  "pairedLabels": [
+    {
+      "handle": "306C8",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "EAD-900x300",
+      "system": "EAD",
+      "shape": "rect",
+      "W": 900,
+      "H": 300,
+      "x": -71972.2405886547,
+      "y": 119430.95408137728,
+      "elevRef": "BOD=3200",
+      "bod": 3200,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306CA",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "EAD-700x300",
+      "system": "EAD",
+      "shape": "rect",
+      "W": 700,
+      "H": 300,
+      "x": -66706.63827431225,
+      "y": 119431.41435515336,
+      "elevRef": "BOD=3200",
+      "bod": 3200,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306CC",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "EAD-700x300",
+      "system": "EAD",
+      "shape": "rect",
+      "W": 700,
+      "H": 300,
+      "x": -59697.13704711234,
+      "y": 118385.39772021733,
+      "elevRef": "BOD=3200",
+      "bod": 3200,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306CE",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "EAD-1250x500",
+      "system": "EAD",
+      "shape": "rect",
+      "W": 1250,
+      "H": 500,
+      "x": -76124.8215597191,
+      "y": 110036.19894074685,
+      "elevRef": "BOD=2400",
+      "bod": 2400,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306D0",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-2200x550",
+      "system": "SED",
+      "shape": "rect",
+      "W": 2200,
+      "H": 550,
+      "x": -74223.93266966892,
+      "y": 116644.18323710104,
+      "elevRef": "BOD=2350",
+      "bod": 2350,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306D2",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-2200x550",
+      "system": "SED",
+      "shape": "rect",
+      "W": 2200,
+      "H": 550,
+      "x": -68687.1551733131,
+      "y": 109458.16895734899,
+      "elevRef": "BOD=2350",
+      "bod": 2350,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306D4",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-1000x400",
+      "system": "SED",
+      "shape": "rect",
+      "W": 1000,
+      "H": 400,
+      "x": -74399.11152241833,
+      "y": 69840.60997132117,
+      "elevRef": "BOD=2650",
+      "bod": 2650,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306D6",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-800x350",
+      "system": "SED",
+      "shape": "rect",
+      "W": 800,
+      "H": 350,
+      "x": -74399.12266259827,
+      "y": 59577.87308280873,
+      "elevRef": "BOD=2675",
+      "bod": 2675,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306D8",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-800x350",
+      "system": "SED",
+      "shape": "rect",
+      "W": 800,
+      "H": 350,
+      "x": -85232.08341323462,
+      "y": 56174.599685942594,
+      "elevRef": "BOD=2675",
+      "bod": 2675,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306DA",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-500x350",
+      "system": "SED",
+      "shape": "rect",
+      "W": 500,
+      "H": 350,
+      "x": -86702.23967574572,
+      "y": 47357.75718968311,
+      "elevRef": "BOD=2675",
+      "bod": 2675,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306DC",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-1400x450",
+      "system": "SED",
+      "shape": "rect",
+      "W": 1400,
+      "H": 450,
+      "x": -61040.064117876114,
+      "y": 109760.02581021762,
+      "elevRef": "BOD=2800",
+      "bod": 2800,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306DE",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-1400x450",
+      "system": "SED",
+      "shape": "rect",
+      "W": 1400,
+      "H": 450,
+      "x": -54696.77778761403,
+      "y": 103724.5196628532,
+      "elevRef": "BOD=2800",
+      "bod": 2800,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306E0",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-1200x450",
+      "system": "SED",
+      "shape": "rect",
+      "W": 1200,
+      "H": 450,
+      "x": -54596.784462025156,
+      "y": 93386.0062909226,
+      "elevRef": "BOD=2800",
+      "bod": 2800,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306E2",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-1000x400",
+      "system": "SED",
+      "shape": "rect",
+      "W": 1000,
+      "H": 400,
+      "x": -54496.28494434367,
+      "y": 76820.14204793384,
+      "elevRef": "BOD=2800",
+      "bod": 2800,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306E4",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-800x350",
+      "system": "SED",
+      "shape": "rect",
+      "W": 800,
+      "H": 350,
+      "x": -57320.59301753697,
+      "y": 64679.67030723706,
+      "elevRef": "BOD=2800",
+      "bod": 2800,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306E6",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-500x350",
+      "system": "SED",
+      "shape": "rect",
+      "W": 500,
+      "H": 350,
+      "x": -57319.922269357776,
+      "y": 56907.96435006733,
+      "elevRef": "BOD=2800",
+      "bod": 2800,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306E8",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-500x350",
+      "system": "SED",
+      "shape": "rect",
+      "W": 500,
+      "H": 350,
+      "x": -60785.33510543575,
+      "y": 51049.78200786213,
+      "elevRef": "BOD=2800",
+      "bod": 2800,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306F0",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-2200x550",
+      "system": "SED",
+      "shape": "rect",
+      "W": 2200,
+      "H": 550,
+      "x": -48399.55155068502,
+      "y": 17936.46701743391,
+      "elevRef": "BOD=2950",
+      "bod": 2950,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306F2",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-950x450",
+      "system": "SED",
+      "shape": "rect",
+      "W": 950,
+      "H": 450,
+      "x": -46300.294677967846,
+      "y": 21217.435944387704,
+      "elevRef": "BOD=3050",
+      "bod": 3050,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306FC",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-1850x450",
+      "system": "SED",
+      "shape": "rect",
+      "W": 1850,
+      "H": 450,
+      "x": -51098.90406435641,
+      "y": 23183.65057699541,
+      "elevRef": "BOD=3050",
+      "bod": 3050,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "306FE",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-1850x450",
+      "system": "SED",
+      "shape": "rect",
+      "W": 1850,
+      "H": 450,
+      "x": -58892.597339727974,
+      "y": 33459.97974169835,
+      "elevRef": "BOD=2300",
+      "bod": 2300,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "30700",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-1500x450",
+      "system": "SED",
+      "shape": "rect",
+      "W": 1500,
+      "H": 450,
+      "x": -70077.51645239891,
+      "y": 33635.069962100635,
+      "elevRef": "BOD=2300",
+      "bod": 2300,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "30702",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-1500x450",
+      "system": "SED",
+      "shape": "rect",
+      "W": 1500,
+      "H": 450,
+      "x": -77677.23067125672,
+      "y": 33634.906041276074,
+      "elevRef": "BOD=2720",
+      "bod": 2720,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "30704",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-1300x450",
+      "system": "SED",
+      "shape": "rect",
+      "W": 1300,
+      "H": 450,
+      "x": -78876.72558645258,
+      "y": 27685.09937617676,
+      "elevRef": "BOD=2720",
+      "bod": 2720,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "30706",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-1200x400",
+      "system": "SED",
+      "shape": "rect",
+      "W": 1200,
+      "H": 400,
+      "x": -78875.99318536418,
+      "y": 19708.98763060481,
+      "elevRef": "BOD=2770",
+      "bod": 2770,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "30708",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-950x400",
+      "system": "SED",
+      "shape": "rect",
+      "W": 950,
+      "H": 400,
+      "x": -78875.45126072137,
+      "y": 13338.471917663337,
+      "elevRef": "BOD=2770",
+      "bod": 2770,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "3070A",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-750x350",
+      "system": "SED",
+      "shape": "rect",
+      "W": 750,
+      "H": 350,
+      "x": -78874.65292081004,
+      "y": 3497.8180693980976,
+      "elevRef": "BOD=2820",
+      "bod": 2820,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "3070C",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-350x350",
+      "system": "SED",
+      "shape": "rect",
+      "W": 350,
+      "H": 350,
+      "x": -78877.4262134541,
+      "y": 36282.68664975009,
+      "elevRef": "BOD=2770",
+      "bod": 2770,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "3070E",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-1000x400",
+      "system": "SED",
+      "shape": "rect",
+      "W": 1000,
+      "H": 400,
+      "x": -63072.087867603,
+      "y": 24082.453446288113,
+      "elevRef": "BOD=3150",
+      "bod": 3150,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "30712",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-800x350",
+      "system": "SED",
+      "shape": "rect",
+      "W": 800,
+      "H": 350,
+      "x": -63063.33007042314,
+      "y": 10622.163725047067,
+      "elevRef": "BOD=3200",
+      "bod": 3200,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "30714",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-1200x400",
+      "system": "SED",
+      "shape": "rect",
+      "W": 1200,
+      "H": 400,
+      "x": -51056.07208267553,
+      "y": 14092.447976127543,
+      "elevRef": "BOD=3100",
+      "bod": 3100,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "30718",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-1000x350",
+      "system": "SED",
+      "shape": "rect",
+      "W": 1000,
+      "H": 350,
+      "x": -50955.71974811319,
+      "y": 9798.635224136277,
+      "elevRef": "BOD=3150",
+      "bod": 3150,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "3071A",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-1000x350",
+      "system": "SED",
+      "shape": "rect",
+      "W": 1000,
+      "H": 350,
+      "x": -50955.073153172154,
+      "y": 1388.6204506823124,
+      "elevRef": "BOD=2500",
+      "bod": 2500,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "307A8",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-2200x550",
+      "system": "SED",
+      "shape": "rect",
+      "W": 2200,
+      "H": 550,
+      "x": -68687.24366405449,
+      "y": 112948.9222054683,
+      "elevRef": "BOD=2350",
+      "bod": 2350,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "307B8",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "EAD-1250x500",
+      "system": "EAD",
+      "shape": "rect",
+      "W": 1250,
+      "H": 500,
+      "x": -76124.18879442773,
+      "y": 73226.32304953363,
+      "elevRef": "BOD=2550",
+      "bod": 2550,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "307BA",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "EAD-1000x450",
+      "system": "EAD",
+      "shape": "rect",
+      "W": 1000,
+      "H": 450,
+      "x": -86295.59887891362,
+      "y": 69938.30146213334,
+      "elevRef": "BOD=2575",
+      "bod": 2575,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "307BC",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "EAD-1000x450",
+      "system": "EAD",
+      "shape": "rect",
+      "W": 1000,
+      "H": 450,
+      "x": -86044.81003753672,
+      "y": 66944.87342089073,
+      "elevRef": "BOD=2575",
+      "bod": 2575,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "307BE",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "EAD-1250x500",
+      "system": "EAD",
+      "shape": "rect",
+      "W": 1250,
+      "H": 500,
+      "x": -80258.82252141705,
+      "y": 70362.47624747547,
+      "elevRef": "BOD=2550",
+      "bod": 2550,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "307C6",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-800x350",
+      "system": "SED",
+      "shape": "rect",
+      "W": 800,
+      "H": 350,
+      "x": -54495.92578522331,
+      "y": 71282.19973636982,
+      "elevRef": "BOD=2800",
+      "bod": 2800,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "307D2",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "EAD-1250x500",
+      "system": "EAD",
+      "shape": "rect",
+      "W": 1250,
+      "H": 500,
+      "x": -76124.18893114047,
+      "y": 93326.24368555516,
+      "elevRef": "BOD=2400",
+      "bod": 2400,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "307D4",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-1200x450",
+      "system": "SED",
+      "shape": "rect",
+      "W": 1200,
+      "H": 450,
+      "x": -73818.48061217344,
+      "y": 93232.16231244047,
+      "elevRef": "BOD=2400",
+      "bod": 2400,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "307D6",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "EAD-1250x500",
+      "system": "EAD",
+      "shape": "rect",
+      "W": 1250,
+      "H": 500,
+      "x": -78552.02853116568,
+      "y": 113420.28531331553,
+      "elevRef": "BOD=2400",
+      "bod": 2400,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "307DE",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "EAD-1250x500",
+      "system": "EAD",
+      "shape": "rect",
+      "W": 1250,
+      "H": 500,
+      "x": -76124.18893114052,
+      "y": 79588.33204832209,
+      "elevRef": "BOD=2400",
+      "bod": 2400,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "307E0",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-1400x450",
+      "system": "SED",
+      "shape": "rect",
+      "W": 1400,
+      "H": 450,
+      "x": -73918.48061217356,
+      "y": 102238.58641238611,
+      "elevRef": "BOD=2400",
+      "bod": 2400,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "307E2",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-1400x450",
+      "system": "SED",
+      "shape": "rect",
+      "W": 1400,
+      "H": 450,
+      "x": -71653.63212059526,
+      "y": 109659.06441740908,
+      "elevRef": "BOD=2400",
+      "bod": 2400,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "307E4",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-800x350",
+      "system": "SED",
+      "shape": "rect",
+      "W": 800,
+      "H": 350,
+      "x": -76755.76539447042,
+      "y": 58366.23998084238,
+      "elevRef": "BOD=2675",
+      "bod": 2675,
+      "elevDistMm": 138.9
+    },
+    {
+      "handle": "307FE",
+      "layer": "MEPG-AC-TEXT",
+      "raw": "SED-1200x450",
+      "system": "SED",
+      "shape": "rect",
+      "W": 1200,
+      "H": 450,
+      "x": -74399.15372727136,
+      "y": 79561.06693184182,
+      "elevRef": "BOD=2400",
+      "bod": 2400,
+      "elevDistMm": 138.9
+    }
+  ],
+  "otherLabels": [
+    {
+      "handle": "30669",
+      "layer": "MEPG-XREF-ARC",
+      "raw": "\u001f",
+      "x": -72804.89581543225,
+      "y": 121896.22137296156
+    },
+    {
+      "handle": "30672",
+      "layer": "MEPG-XREF-ARC",
+      "raw": "\u001f",
+      "x": -64604.89581518358,
+      "y": 121896.2213729615
+    },
+    {
+      "handle": "3067A",
+      "layer": "MEPG-XREF-ARC",
+      "raw": "\u001e",
+      "x": -56404.895815183816,
+      "y": 122183.95574796156
+    },
+    {
+      "handle": "3067B",
+      "layer": "MEPG-XREF-ARC",
+      "raw": "\u001f",
+      "x": -56404.895815183816,
+      "y": 121896.22137296156
+    },
+    {
+      "handle": "30683",
+      "layer": "MEPG-XREF-ARC",
+      "raw": "\u001e",
+      "x": -48204.895815183816,
+      "y": 122183.95574796156
+    },
+    {
+      "handle": "30684",
+      "layer": "MEPG-XREF-ARC",
+      "raw": "\u001f",
+      "x": -48204.895815183816,
+      "y": 121896.22137296156
+    },
+    {
+      "handle": "30698",
+      "layer": "MEPG-XREF-ARC",
+      "raw": "\u001e",
+      "x": -90611.53489537741,
+      "y": 72452.70764744088
+    },
+    {
+      "handle": "30699",
+      "layer": "MEPG-XREF-ARC",
+      "raw": "\u001f",
+      "x": -90611.53489537741,
+      "y": 72164.97327244088
+    }
+  ],
+  "parallelSegments": [
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FE87",
+        "2FE88"
+      ],
+      "widthMm": 2200,
+      "lengthMm": 7686,
+      "angleDeg": 0.0048,
+      "p1": {
+        "x": -51988.96,
+        "y": 17819.61
+      },
+      "p2": {
+        "x": -44302.96,
+        "y": 17820.26
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "2FEAD",
+        "2FEAE"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 510.97,
+      "angleDeg": 89.9955,
+      "p1": {
+        "x": -76008.29,
+        "y": 111006.11
+      },
+      "p2": {
+        "x": -76008.25,
+        "y": 111517.08
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "2FEB0",
+        "2FEB9"
+      ],
+      "widthMm": 203.03,
+      "lengthMm": 416.19,
+      "angleDeg": 89.9962,
+      "p1": {
+        "x": -76095.98,
+        "y": 118897.84
+      },
+      "p2": {
+        "x": -76095.95,
+        "y": 119314.03
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "2FEB2",
+        "2FEB3"
+      ],
+      "widthMm": 900,
+      "lengthMm": 260.14,
+      "angleDeg": 179.9956,
+      "p1": {
+        "x": -76197.53,
+        "y": 119314.04
+      },
+      "p2": {
+        "x": -76457.67,
+        "y": 119314.06
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "2FEB5",
+        "2FEB6"
+      ],
+      "widthMm": 900,
+      "lengthMm": 566.99,
+      "angleDeg": 0.0061,
+      "p1": {
+        "x": -75853.76,
+        "y": 119314.06
+      },
+      "p2": {
+        "x": -75286.77,
+        "y": 119314.12
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "2FEBA",
+        "2FEBB"
+      ],
+      "widthMm": 900,
+      "lengthMm": 43.56,
+      "angleDeg": 0.0132,
+      "p1": {
+        "x": -76047.4,
+        "y": 119314.05
+      },
+      "p2": {
+        "x": -76003.84,
+        "y": 119314.06
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "2FEBC",
+        "2FEBD"
+      ],
+      "widthMm": 900,
+      "lengthMm": 4740.66,
+      "angleDeg": 0.0051,
+      "p1": {
+        "x": -73422.75,
+        "y": 119314.27
+      },
+      "p2": {
+        "x": -68682.09,
+        "y": 119314.69
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "2FEBF",
+        "2FEC0"
+      ],
+      "widthMm": 700,
+      "lengthMm": 4584.98,
+      "angleDeg": 0.0049,
+      "p1": {
+        "x": -61360,
+        "y": 118268.7
+      },
+      "p2": {
+        "x": -56775.02,
+        "y": 118269.09
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF5D",
+        "2FF5E"
+      ],
+      "widthMm": 2200,
+      "lengthMm": 3307,
+      "angleDeg": 90,
+      "p1": {
+        "x": -68570.6,
+        "y": 108605.55
+      },
+      "p2": {
+        "x": -68570.6,
+        "y": 111912.55
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF60",
+        "2FF61"
+      ],
+      "widthMm": 500,
+      "lengthMm": 11460.62,
+      "angleDeg": 90,
+      "p1": {
+        "x": -86585.69,
+        "y": 42270.77
+      },
+      "p2": {
+        "x": -86585.69,
+        "y": 53731.39
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF62",
+        "2FF63"
+      ],
+      "widthMm": 1400,
+      "lengthMm": 324.5,
+      "angleDeg": 0.0035,
+      "p1": {
+        "x": -70147.14,
+        "y": 109542.63
+      },
+      "p2": {
+        "x": -69822.64,
+        "y": 109542.65
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF64",
+        "2FF65"
+      ],
+      "widthMm": 800,
+      "lengthMm": 2052.57,
+      "angleDeg": 0,
+      "p1": {
+        "x": -85783.69,
+        "y": 56058.05
+      },
+      "p2": {
+        "x": -83731.12,
+        "y": 56058.05
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF66",
+        "2FF68"
+      ],
+      "widthMm": 800,
+      "lengthMm": 467.23,
+      "angleDeg": 90,
+      "p1": {
+        "x": -86585.69,
+        "y": 54788.82
+      },
+      "p2": {
+        "x": -86585.69,
+        "y": 55256.05
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF69",
+        "2FF6A"
+      ],
+      "widthMm": 1400,
+      "lengthMm": 2102.88,
+      "angleDeg": 0.0046,
+      "p1": {
+        "x": -72400.05,
+        "y": 109542.45
+      },
+      "p2": {
+        "x": -70297.16,
+        "y": 109542.62
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF6D",
+        "2FF6E"
+      ],
+      "widthMm": 500,
+      "lengthMm": 2461.67,
+      "angleDeg": 0.0047,
+      "p1": {
+        "x": -60166.82,
+        "y": 54767.29
+      },
+      "p2": {
+        "x": -57705.15,
+        "y": 54767.49
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF6F",
+        "2FF70"
+      ],
+      "widthMm": 500,
+      "lengthMm": 4722.43,
+      "angleDeg": 90.005,
+      "p1": {
+        "x": -57203.23,
+        "y": 55269.54
+      },
+      "p2": {
+        "x": -57203.64,
+        "y": 59991.97
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF72",
+        "2FF73"
+      ],
+      "widthMm": 800,
+      "lengthMm": 9053.01,
+      "angleDeg": 90.0049,
+      "p1": {
+        "x": -57203.66,
+        "y": 60195.98
+      },
+      "p2": {
+        "x": -57204.43,
+        "y": 69248.98
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF75",
+        "2FF76"
+      ],
+      "widthMm": 500,
+      "lengthMm": 5485.23,
+      "angleDeg": 90,
+      "p1": {
+        "x": -60668.78,
+        "y": 48779.99
+      },
+      "p2": {
+        "x": -60668.78,
+        "y": 54265.22
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF77",
+        "2FF78"
+      ],
+      "widthMm": 800,
+      "lengthMm": 1221.32,
+      "angleDeg": 0.0047,
+      "p1": {
+        "x": -56402.43,
+        "y": 70051.05
+      },
+      "p2": {
+        "x": -55181.11,
+        "y": 70051.15
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF7B",
+        "2FF7C"
+      ],
+      "widthMm": 800,
+      "lengthMm": 1666.17,
+      "angleDeg": 90.0048,
+      "p1": {
+        "x": -54379.34,
+        "y": 70853.22
+      },
+      "p2": {
+        "x": -54379.48,
+        "y": 72519.38
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF7D",
+        "2FF7E"
+      ],
+      "widthMm": 1200,
+      "lengthMm": 15326.9,
+      "angleDeg": 90,
+      "p1": {
+        "x": -54480.24,
+        "y": 85131.95
+      },
+      "p2": {
+        "x": -54480.23,
+        "y": 100458.85
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF82",
+        "2FF83"
+      ],
+      "widthMm": 1500,
+      "lengthMm": 5020.87,
+      "angleDeg": 0,
+      "p1": {
+        "x": -79583.81,
+        "y": 33518.35
+      },
+      "p2": {
+        "x": -74562.94,
+        "y": 33518.35
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF89",
+        "2FF8A"
+      ],
+      "widthMm": 350,
+      "lengthMm": 4556.54,
+      "angleDeg": 90.0048,
+      "p1": {
+        "x": -78760.72,
+        "y": 34420.45
+      },
+      "p2": {
+        "x": -78761.1,
+        "y": 38976.98
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF8C",
+        "2FF8D"
+      ],
+      "widthMm": 800,
+      "lengthMm": 13298.96,
+      "angleDeg": 90,
+      "p1": {
+        "x": -62946.78,
+        "y": 3908.61
+      },
+      "p2": {
+        "x": -62946.78,
+        "y": 17207.57
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF8F",
+        "2FF90"
+      ],
+      "widthMm": 750,
+      "lengthMm": 11512.94,
+      "angleDeg": 90.0048,
+      "p1": {
+        "x": -78757.7,
+        "y": -1259.48
+      },
+      "p2": {
+        "x": -78758.67,
+        "y": 10253.46
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF91",
+        "2FF92"
+      ],
+      "widthMm": 1200,
+      "lengthMm": 102.92,
+      "angleDeg": 90,
+      "p1": {
+        "x": -50939.71,
+        "y": 16464.68
+      },
+      "p2": {
+        "x": -50939.71,
+        "y": 16567.6
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF93",
+        "2FF94"
+      ],
+      "widthMm": 1200,
+      "lengthMm": 6544.99,
+      "angleDeg": 90.0048,
+      "p1": {
+        "x": -78759.24,
+        "y": 17336.47
+      },
+      "p2": {
+        "x": -78759.79,
+        "y": 23881.46
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF95",
+        "2FF96"
+      ],
+      "widthMm": 950,
+      "lengthMm": 6674.99,
+      "angleDeg": 90.0049,
+      "p1": {
+        "x": -78758.65,
+        "y": 10457.47
+      },
+      "p2": {
+        "x": -78759.22,
+        "y": 17132.46
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF99",
+        "2FF9C"
+      ],
+      "widthMm": 1000,
+      "lengthMm": 8748.84,
+      "angleDeg": 90.0046,
+      "p1": {
+        "x": -50838.27,
+        "y": -1707.12
+      },
+      "p2": {
+        "x": -50838.98,
+        "y": 7041.72
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FF9F",
+        "2FFA0"
+      ],
+      "widthMm": 1000,
+      "lengthMm": 221.69,
+      "angleDeg": 90.0052,
+      "p1": {
+        "x": -50839.38,
+        "y": 12442.73
+      },
+      "p2": {
+        "x": -50839.4,
+        "y": 12664.42
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FFA3",
+        "2FFA4"
+      ],
+      "widthMm": 1000,
+      "lengthMm": 11912.44,
+      "angleDeg": 90,
+      "p1": {
+        "x": -62946.78,
+        "y": 17411.57
+      },
+      "p2": {
+        "x": -62946.78,
+        "y": 29324.01
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FFA6",
+        "2FFA7"
+      ],
+      "widthMm": 1850,
+      "lengthMm": 10867.56,
+      "angleDeg": 0,
+      "p1": {
+        "x": -63701.91,
+        "y": 33343.43
+      },
+      "p2": {
+        "x": -52834.35,
+        "y": 33343.43
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FFA8",
+        "2FFA9"
+      ],
+      "widthMm": 1850,
+      "lengthMm": 1516.9,
+      "angleDeg": 90,
+      "p1": {
+        "x": -50982.35,
+        "y": 29974.53
+      },
+      "p2": {
+        "x": -50982.35,
+        "y": 31491.43
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "2FFB8",
+        "2FFB9"
+      ],
+      "widthMm": 950,
+      "lengthMm": 315.24,
+      "angleDeg": 90,
+      "p1": {
+        "x": -46183.74,
+        "y": 19072.14
+      },
+      "p2": {
+        "x": -46183.74,
+        "y": 19387.38
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "30090",
+        "30091"
+      ],
+      "widthMm": 700.43,
+      "lengthMm": 623.21,
+      "angleDeg": 179.9633,
+      "p1": {
+        "x": -76009.79,
+        "y": 112016.08
+      },
+      "p2": {
+        "x": -76633,
+        "y": 112016.48
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "30092",
+        "30093"
+      ],
+      "widthMm": 1250.04,
+      "lengthMm": 696.5,
+      "angleDeg": 89.9638,
+      "p1": {
+        "x": -76008.21,
+        "y": 111667.45
+      },
+      "p2": {
+        "x": -76007.77,
+        "y": 112363.95
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "30094",
+        "30095"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 1121,
+      "angleDeg": 89.9949,
+      "p1": {
+        "x": -76008.4,
+        "y": 109735.11
+      },
+      "p2": {
+        "x": -76008.3,
+        "y": 110856.1
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "300BE",
+        "300BF"
+      ],
+      "widthMm": 1200,
+      "lengthMm": 3446.21,
+      "angleDeg": 90.0048,
+      "p1": {
+        "x": -50939.42,
+        "y": 12868.42
+      },
+      "p2": {
+        "x": -50939.71,
+        "y": 16314.63
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "300C1",
+        "300C2"
+      ],
+      "widthMm": 1000,
+      "lengthMm": 4307.06,
+      "angleDeg": 90.0047,
+      "p1": {
+        "x": -50839.02,
+        "y": 7985.67
+      },
+      "p2": {
+        "x": -50839.37,
+        "y": 12292.73
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "300C7",
+        "300C9"
+      ],
+      "widthMm": 1500.12,
+      "lengthMm": 3985.09,
+      "angleDeg": 0.0049,
+      "p1": {
+        "x": -67891.09,
+        "y": 33518.77
+      },
+      "p2": {
+        "x": -63906,
+        "y": 33519.11
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "300C8",
+        "300CA"
+      ],
+      "widthMm": 1499.89,
+      "lengthMm": 5866.33,
+      "angleDeg": 0.005,
+      "p1": {
+        "x": -73767.54,
+        "y": 33518.14
+      },
+      "p2": {
+        "x": -67901.21,
+        "y": 33518.65
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "300D1",
+        "300D2"
+      ],
+      "widthMm": 950,
+      "lengthMm": 5315.27,
+      "angleDeg": 90,
+      "p1": {
+        "x": -46183.74,
+        "y": 19537.39
+      },
+      "p2": {
+        "x": -46183.74,
+        "y": 24852.66
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "300D4",
+        "300D5"
+      ],
+      "widthMm": 1850,
+      "lengthMm": 480.48,
+      "angleDeg": 90.0036,
+      "p1": {
+        "x": -50982.32,
+        "y": 19071.75
+      },
+      "p2": {
+        "x": -50982.35,
+        "y": 19552.23
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "300D6",
+        "300D7"
+      ],
+      "widthMm": 1300,
+      "lengthMm": 263.93,
+      "angleDeg": 90.0043,
+      "p1": {
+        "x": -78760.57,
+        "y": 32352.31
+      },
+      "p2": {
+        "x": -78760.59,
+        "y": 32616.24
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "301A1",
+        "301A2"
+      ],
+      "widthMm": 400.49,
+      "lengthMm": 625,
+      "angleDeg": 90,
+      "p1": {
+        "x": -79740.39,
+        "y": 112678.65
+      },
+      "p2": {
+        "x": -79740.39,
+        "y": 113303.65
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "301A3",
+        "301A4"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 400.43,
+      "angleDeg": 0,
+      "p1": {
+        "x": -79940.64,
+        "y": 113303.65
+      },
+      "p2": {
+        "x": -79540.21,
+        "y": 113303.65
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "301CC",
+        "301CD"
+      ],
+      "widthMm": 2200.21,
+      "lengthMm": 184.09,
+      "angleDeg": 0.0278,
+      "p1": {
+        "x": -76379.2,
+        "y": 116526.77
+      },
+      "p2": {
+        "x": -76195.1,
+        "y": 116526.86
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "3022F",
+        "30230"
+      ],
+      "widthMm": 700,
+      "lengthMm": 5487.58,
+      "angleDeg": 0.005,
+      "p1": {
+        "x": -68478.09,
+        "y": 119314.71
+      },
+      "p2": {
+        "x": -62990.51,
+        "y": 119315.19
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "30231",
+        "30232"
+      ],
+      "widthMm": 701.01,
+      "lengthMm": 895.78,
+      "angleDeg": 134.9986,
+      "p1": {
+        "x": -61859.02,
+        "y": 118475.01
+      },
+      "p2": {
+        "x": -62492.42,
+        "y": 119108.43
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "30235",
+        "30236"
+      ],
+      "widthMm": 1400,
+      "lengthMm": 368.35,
+      "angleDeg": 0.0047,
+      "p1": {
+        "x": -67318.54,
+        "y": 109642.88
+      },
+      "p2": {
+        "x": -66950.18,
+        "y": 109642.91
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "30238",
+        "30239"
+      ],
+      "widthMm": 1400,
+      "lengthMm": 444.05,
+      "angleDeg": 0.0052,
+      "p1": {
+        "x": -66800.18,
+        "y": 109642.92
+      },
+      "p2": {
+        "x": -66356.12,
+        "y": 109642.96
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "3023A",
+        "3023B"
+      ],
+      "widthMm": 800,
+      "lengthMm": 4022.51,
+      "angleDeg": 90,
+      "p1": {
+        "x": -74282.57,
+        "y": 58851.69
+      },
+      "p2": {
+        "x": -74282.57,
+        "y": 62874.2
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "30240",
+        "30242"
+      ],
+      "widthMm": 1400,
+      "lengthMm": 634.49,
+      "angleDeg": 90,
+      "p1": {
+        "x": -54580.22,
+        "y": 107607.41
+      },
+      "p2": {
+        "x": -54580.22,
+        "y": 108241.9
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "30241",
+        "30243"
+      ],
+      "widthMm": 1400,
+      "lengthMm": 6944.44,
+      "angleDeg": 89.9999,
+      "p1": {
+        "x": -54580.23,
+        "y": 100662.85
+      },
+      "p2": {
+        "x": -54580.22,
+        "y": 107607.29
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "30252",
+        "30256"
+      ],
+      "widthMm": 800,
+      "lengthMm": 3638.51,
+      "angleDeg": 0,
+      "p1": {
+        "x": -78523.08,
+        "y": 58249.69
+      },
+      "p2": {
+        "x": -74884.57,
+        "y": 58249.69
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "30255",
+        "30257"
+      ],
+      "widthMm": 800,
+      "lengthMm": 2312.07,
+      "angleDeg": 0,
+      "p1": {
+        "x": -80872.74,
+        "y": 58249.69
+      },
+      "p2": {
+        "x": -78560.67,
+        "y": 58249.69
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "302B9",
+        "302BA"
+      ],
+      "widthMm": 1300,
+      "lengthMm": 8116.83,
+      "angleDeg": 90.0049,
+      "p1": {
+        "x": -78759.87,
+        "y": 24085.47
+      },
+      "p2": {
+        "x": -78760.56,
+        "y": 32202.29
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "302BB",
+        "302BC"
+      ],
+      "widthMm": 1000,
+      "lengthMm": 1958.97,
+      "angleDeg": 90,
+      "p1": {
+        "x": -62946.78,
+        "y": 30459.38
+      },
+      "p2": {
+        "x": -62946.78,
+        "y": 32418.35
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "302BF",
+        "302C0"
+      ],
+      "widthMm": 1000,
+      "lengthMm": 541.65,
+      "angleDeg": 90,
+      "p1": {
+        "x": -62946.78,
+        "y": 29772.9
+      },
+      "p2": {
+        "x": -62946.78,
+        "y": 30314.55
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "302C1",
+        "302C2"
+      ],
+      "widthMm": 1850,
+      "lengthMm": 9145.45,
+      "angleDeg": 90,
+      "p1": {
+        "x": -50982.35,
+        "y": 19702.29
+      },
+      "p2": {
+        "x": -50982.35,
+        "y": 28847.74
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "302EE",
+        "302EF"
+      ],
+      "widthMm": 1850,
+      "lengthMm": 462.35,
+      "angleDeg": 90,
+      "p1": {
+        "x": -50982.35,
+        "y": 29349.67
+      },
+      "p2": {
+        "x": -50982.35,
+        "y": 29812.02
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "302FB",
+        "302FC"
+      ],
+      "widthMm": 1000,
+      "lengthMm": 377.89,
+      "angleDeg": 90.0061,
+      "p1": {
+        "x": -54380.2,
+        "y": 84549.99
+      },
+      "p2": {
+        "x": -54380.24,
+        "y": 84927.89
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "302FE",
+        "302FF"
+      ],
+      "widthMm": 1000,
+      "lengthMm": 11826.51,
+      "angleDeg": 90.0034,
+      "p1": {
+        "x": -54379.5,
+        "y": 72723.4
+      },
+      "p2": {
+        "x": -54380.2,
+        "y": 84549.91
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "303B9",
+        "303BA"
+      ],
+      "widthMm": 1000,
+      "lengthMm": 420.92,
+      "angleDeg": 90.0041,
+      "p1": {
+        "x": -50838.99,
+        "y": 7168.88
+      },
+      "p2": {
+        "x": -50839.02,
+        "y": 7589.81
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "303DF",
+        "303E0"
+      ],
+      "widthMm": 1500,
+      "lengthMm": 130.98,
+      "angleDeg": 0,
+      "p1": {
+        "x": -74061.02,
+        "y": 33518.18
+      },
+      "p2": {
+        "x": -73930.04,
+        "y": 33518.18
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "30401",
+        "30402"
+      ],
+      "widthMm": 2200,
+      "lengthMm": 5271.23,
+      "angleDeg": 0.0274,
+      "p1": {
+        "x": -76045.1,
+        "y": 116526.76
+      },
+      "p2": {
+        "x": -70773.87,
+        "y": 116529.28
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "30410",
+        "30411"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 309.53,
+      "angleDeg": 0,
+      "p1": {
+        "x": -83205.64,
+        "y": 117224.11
+      },
+      "p2": {
+        "x": -82896.11,
+        "y": 117224.11
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "30413",
+        "30414"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 309.53,
+      "angleDeg": 0,
+      "p1": {
+        "x": -83205.64,
+        "y": 115824.11
+      },
+      "p2": {
+        "x": -82896.11,
+        "y": 115824.11
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "30416",
+        "30417"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 49.35,
+      "angleDeg": 0,
+      "p1": {
+        "x": -82561.59,
+        "y": 117224.11
+      },
+      "p2": {
+        "x": -82512.24,
+        "y": 117224.11
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "30419",
+        "3041A"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 49.35,
+      "angleDeg": 0,
+      "p1": {
+        "x": -82561.59,
+        "y": 115824.11
+      },
+      "p2": {
+        "x": -82512.24,
+        "y": 115824.11
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "3041C",
+        "3041D"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 34.52,
+      "angleDeg": 0,
+      "p1": {
+        "x": -82746.11,
+        "y": 117224.11
+      },
+      "p2": {
+        "x": -82711.59,
+        "y": 117224.11
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "3041F",
+        "30420"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 34.52,
+      "angleDeg": 0,
+      "p1": {
+        "x": -82746.11,
+        "y": 115824.11
+      },
+      "p2": {
+        "x": -82711.59,
+        "y": 115824.11
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "30460",
+        "30461"
+      ],
+      "widthMm": 1000,
+      "lengthMm": 166.63,
+      "angleDeg": 90,
+      "p1": {
+        "x": -74282.56,
+        "y": 74954.4
+      },
+      "p2": {
+        "x": -74282.56,
+        "y": 75121.03
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "304CB",
+        "304CC"
+      ],
+      "widthMm": 2200,
+      "lengthMm": 2264.7,
+      "angleDeg": 90.0048,
+      "p1": {
+        "x": -68570.62,
+        "y": 112062.65
+      },
+      "p2": {
+        "x": -68570.81,
+        "y": 114327.35
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "304CE",
+        "304CF"
+      ],
+      "widthMm": 1400,
+      "lengthMm": 9646.99,
+      "angleDeg": 0.0048,
+      "p1": {
+        "x": -65629.33,
+        "y": 109643.09
+      },
+      "p2": {
+        "x": -55982.34,
+        "y": 109643.9
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "304D2",
+        "304D3"
+      ],
+      "widthMm": 1400,
+      "lengthMm": 62.23,
+      "angleDeg": 0,
+      "p1": {
+        "x": -66193.55,
+        "y": 109642.98
+      },
+      "p2": {
+        "x": -66131.32,
+        "y": 109642.98
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "304D6",
+        "304D7"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 2442.68,
+      "angleDeg": 0.0049,
+      "p1": {
+        "x": -79390.15,
+        "y": 113303.66
+      },
+      "p2": {
+        "x": -76947.48,
+        "y": 113303.87
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "30533",
+        "30534"
+      ],
+      "widthMm": 1200,
+      "lengthMm": 6099.26,
+      "angleDeg": 90,
+      "p1": {
+        "x": -73701.93,
+        "y": 89418.38
+      },
+      "p2": {
+        "x": -73701.93,
+        "y": 95517.64
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "305B9",
+        "305BA"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 2033.87,
+      "angleDeg": 90,
+      "p1": {
+        "x": -76007.64,
+        "y": 72482.72
+      },
+      "p2": {
+        "x": -76007.64,
+        "y": 74516.59
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "305BC",
+        "305BD"
+      ],
+      "widthMm": 1400,
+      "lengthMm": 11433.63,
+      "angleDeg": 90,
+      "p1": {
+        "x": -73801.93,
+        "y": 96706.64
+      },
+      "p2": {
+        "x": -73801.93,
+        "y": 108140.27
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "305BF",
+        "305C0"
+      ],
+      "widthMm": 1000,
+      "lengthMm": 437.92,
+      "angleDeg": 90,
+      "p1": {
+        "x": -74282.56,
+        "y": 75265.88
+      },
+      "p2": {
+        "x": -74282.56,
+        "y": 75703.8
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "305C1",
+        "305C2"
+      ],
+      "widthMm": 1200,
+      "lengthMm": 514.34,
+      "angleDeg": 59.9999,
+      "p1": {
+        "x": -74120.86,
+        "y": 88369.22
+      },
+      "p2": {
+        "x": -73863.7,
+        "y": 88814.65
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "305C7",
+        "305CC"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 9787.67,
+      "angleDeg": 90,
+      "p1": {
+        "x": -76007.64,
+        "y": 77798.33
+      },
+      "p2": {
+        "x": -76007.64,
+        "y": 87586
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "305CA",
+        "305CF"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 20154.94,
+      "angleDeg": 90,
+      "p1": {
+        "x": -76007.64,
+        "y": 87586.11
+      },
+      "p2": {
+        "x": -76007.64,
+        "y": 107741.05
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "305D6",
+        "305D7"
+      ],
+      "widthMm": 1000,
+      "lengthMm": 11127.3,
+      "angleDeg": 89.9999,
+      "p1": {
+        "x": -74282.57,
+        "y": 63378.2
+      },
+      "p2": {
+        "x": -74282.55,
+        "y": 74505.5
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "305D9",
+        "305DA"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 95.34,
+      "angleDeg": 90,
+      "p1": {
+        "x": -76007.64,
+        "y": 77308.93
+      },
+      "p2": {
+        "x": -76007.64,
+        "y": 77404.27
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "305DE",
+        "305E2"
+      ],
+      "widthMm": 1200,
+      "lengthMm": 9973.87,
+      "angleDeg": 90,
+      "p1": {
+        "x": -74282.6,
+        "y": 77791.62
+      },
+      "p2": {
+        "x": -74282.6,
+        "y": 87765.49
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "305E7",
+        "305E8"
+      ],
+      "widthMm": 1200,
+      "lengthMm": 118.55,
+      "angleDeg": 90,
+      "p1": {
+        "x": -74282.56,
+        "y": 77316.54
+      },
+      "p2": {
+        "x": -74282.56,
+        "y": 77435.09
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "305EB",
+        "305EC"
+      ],
+      "widthMm": 1200,
+      "lengthMm": 1292.41,
+      "angleDeg": 90,
+      "p1": {
+        "x": -74282.56,
+        "y": 75907.8
+      },
+      "p2": {
+        "x": -74282.56,
+        "y": 77200.21
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "305EF",
+        "305F0"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 1998.86,
+      "angleDeg": 90,
+      "p1": {
+        "x": -76007.64,
+        "y": 75181.24
+      },
+      "p2": {
+        "x": -76007.64,
+        "y": 77180.1
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "305F2",
+        "305F3"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 106.28,
+      "angleDeg": 90,
+      "p1": {
+        "x": -76007.64,
+        "y": 74983.16
+      },
+      "p2": {
+        "x": -76007.64,
+        "y": 75089.44
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "305F6",
+        "305F7"
+      ],
+      "widthMm": 800,
+      "lengthMm": 1385.31,
+      "angleDeg": 45,
+      "p1": {
+        "x": -82421.4,
+        "y": 57034.4
+      },
+      "p2": {
+        "x": -81441.84,
+        "y": 58013.96
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "305FF",
+        "30600"
+      ],
+      "widthMm": 1000,
+      "lengthMm": 1058.35,
+      "angleDeg": 0,
+      "p1": {
+        "x": -87316.66,
+        "y": 69821.75
+      },
+      "p2": {
+        "x": -86258.31,
+        "y": 69821.75
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "30603",
+        "30605"
+      ],
+      "widthMm": 1000,
+      "lengthMm": 487.42,
+      "angleDeg": 0,
+      "p1": {
+        "x": -87091.66,
+        "y": 66828.32
+      },
+      "p2": {
+        "x": -86604.24,
+        "y": 66828.32
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "30604",
+        "30606"
+      ],
+      "widthMm": 1000,
+      "lengthMm": 1672.92,
+      "angleDeg": 0,
+      "p1": {
+        "x": -86404.24,
+        "y": 66828.32
+      },
+      "p2": {
+        "x": -84731.32,
+        "y": 66828.32
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "3060B",
+        "3060C"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 1266.43,
+      "angleDeg": 0,
+      "p1": {
+        "x": -84289.82,
+        "y": 69696.75
+      },
+      "p2": {
+        "x": -83023.39,
+        "y": 69696.75
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "3060D",
+        "30610"
+      ],
+      "widthMm": 1000,
+      "lengthMm": 392.98,
+      "angleDeg": 90,
+      "p1": {
+        "x": -83729.32,
+        "y": 68197.23
+      },
+      "p2": {
+        "x": -83729.32,
+        "y": 68590.21
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "30612",
+        "30613"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 40.89,
+      "angleDeg": 0,
+      "p1": {
+        "x": -81398.31,
+        "y": 70245.92
+      },
+      "p2": {
+        "x": -81357.42,
+        "y": 70245.92
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "30617",
+        "30618"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 424.46,
+      "angleDeg": 30.0007,
+      "p1": {
+        "x": -82394.64,
+        "y": 69865.22
+      },
+      "p2": {
+        "x": -82027.06,
+        "y": 70077.45
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "3061B",
+        "3061C"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 2665.51,
+      "angleDeg": 0,
+      "p1": {
+        "x": -81207.42,
+        "y": 70245.92
+      },
+      "p2": {
+        "x": -78541.91,
+        "y": 70245.92
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "wallHandles": [
+        "3061D",
+        "3061E"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 1025.02,
+      "angleDeg": 45,
+      "p1": {
+        "x": -77099.97,
+        "y": 70870.62
+      },
+      "p2": {
+        "x": -76375.17,
+        "y": 71595.42
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "318B3",
+        "318B6"
+      ],
+      "widthMm": 1850,
+      "lengthMm": 110.75,
+      "angleDeg": 0.0052,
+      "p1": {
+        "x": -42483.03,
+        "y": 18670.49
+      },
+      "p2": {
+        "x": -42372.27,
+        "y": 18670.5
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "318B4",
+        "318B7"
+      ],
+      "widthMm": 1850,
+      "lengthMm": 110.75,
+      "angleDeg": 0.0052,
+      "p1": {
+        "x": -42482.88,
+        "y": 16970.49
+      },
+      "p2": {
+        "x": -42372.12,
+        "y": 16970.5
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "318CD",
+        "318D1"
+      ],
+      "widthMm": 1849.93,
+      "lengthMm": 630.49,
+      "angleDeg": 0.0036,
+      "p1": {
+        "x": -42222.23,
+        "y": 18670.49
+      },
+      "p2": {
+        "x": -41591.74,
+        "y": 18670.53
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "318CE",
+        "318D2"
+      ],
+      "widthMm": 1849.93,
+      "lengthMm": 630.18,
+      "angleDeg": 0.0036,
+      "p1": {
+        "x": -42222.1,
+        "y": 16970.49
+      },
+      "p2": {
+        "x": -41591.92,
+        "y": 16970.53
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "318D5",
+        "318D6"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 227.44,
+      "angleDeg": 0.005,
+      "p1": {
+        "x": -36527.93,
+        "y": 16895.97
+      },
+      "p2": {
+        "x": -36300.49,
+        "y": 16895.99
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "318D9",
+        "318DA"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 358.76,
+      "angleDeg": 0.0064,
+      "p1": {
+        "x": -37395.75,
+        "y": 16895.85
+      },
+      "p2": {
+        "x": -37036.99,
+        "y": 16895.89
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "318DC",
+        "318DD"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 208.93,
+      "angleDeg": 0,
+      "p1": {
+        "x": -36886.92,
+        "y": 16895.89
+      },
+      "p2": {
+        "x": -36677.99,
+        "y": 16895.89
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "318E7",
+        "318EB"
+      ],
+      "widthMm": 1096.9,
+      "lengthMm": 625,
+      "angleDeg": 90.005,
+      "p1": {
+        "x": -36848.95,
+        "y": 18742.62
+      },
+      "p2": {
+        "x": -36849,
+        "y": 19367.62
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "318E8",
+        "318E9"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 227.44,
+      "angleDeg": 0.005,
+      "p1": {
+        "x": -36527.93,
+        "y": 18745.94
+      },
+      "p2": {
+        "x": -36300.49,
+        "y": 18745.96
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "318EC",
+        "318ED"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 358.78,
+      "angleDeg": 0,
+      "p1": {
+        "x": -37395.7,
+        "y": 18745.86
+      },
+      "p2": {
+        "x": -37036.92,
+        "y": 18745.86
+      }
+    },
+    {
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "wallHandles": [
+        "318EF",
+        "318F0"
+      ],
+      "widthMm": 1250,
+      "lengthMm": 208.93,
+      "angleDeg": 0,
+      "p1": {
+        "x": -36886.92,
+        "y": 18745.86
+      },
+      "p2": {
+        "x": -36677.99,
+        "y": 18745.86
+      }
+    }
+  ],
+  "designEquipmentBlocks": [
+    {
+      "handle": "2FE91",
+      "type": "INSERT",
+      "layer": "MEPG-M-EQUIP",
+      "blockName": "CEN-KRUGER_AXIAL FAN_TDC-SERIES - TDC 1120_C22_G_9-7V_15_17_19-10937202-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -81130.24,
+      "y": 117224.1,
+      "rotation": 4.7124
+    },
+    {
+      "handle": "2FEA0",
+      "type": "INSERT",
+      "layer": "MEPG-M-EQUIP",
+      "blockName": "CEN-KRUGER_AXIAL FAN_TDA-FV SERIES - TDA 900-V510-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -76008.36,
+      "y": 109053.11,
+      "rotation": 0.0001
+    },
+    {
+      "handle": "2FEA1",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V512-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -76008.35,
+      "y": 109128.11,
+      "rotation": 6.2831
+    },
+    {
+      "handle": "2FEA2",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V513-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -76008.3,
+      "y": 108348.11,
+      "rotation": 0.0001
+    },
+    {
+      "handle": "2FEA3",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-Van Vuông - Van MFD-V514-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -79465.15,
+      "y": 113303.66,
+      "rotation": 3.1417
+    },
+    {
+      "handle": "2FEA4",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Van Vuông - Van MFD-EI60-10189474-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -76120.1,
+      "y": 116527.72,
+      "rotation": 3.1421
+    },
+    {
+      "handle": "2FEA5",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Van Vuông - Van MFD-EI60-V526-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -68570.69,
+      "y": 111987.64,
+      "rotation": 1.5709
+    },
+    {
+      "handle": "2FEA6",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Van Vuông - Van VCD-9233134-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -70222.16,
+      "y": 109542.63,
+      "rotation": 0.0001
+    },
+    {
+      "handle": "2FEA7",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-Van Vuông - Van NRD-V527-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -76008.3,
+      "y": 110931.11,
+      "rotation": 1.5707
+    },
+    {
+      "handle": "2FEAC",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-Van Vuông - Van MFD-V530-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -76008.35,
+      "y": 111592.08,
+      "rotation": 1.5707
+    },
+    {
+      "handle": "2FEAF",
+      "type": "INSERT",
+      "layer": "MEPG-M-EQUIP",
+      "blockName": "CEN-KRUGER_AXIAL FAN_TDA-FV SERIES - TDA 630-V531-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -74104.76,
+      "y": 119314.22,
+      "rotation": 1.5709
+    },
+    {
+      "handle": "2FEB4",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-Van Vuông - Van NRD-10165656-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -75928.77,
+      "y": 119314.11,
+      "rotation": 3.1417
+    },
+    {
+      "handle": "2FEB7",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-Van Vuông - Van FD-10165709-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -76122.47,
+      "y": 119314.05,
+      "rotation": 3.1417
+    },
+    {
+      "handle": "2FEC1",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC-10166062-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -68680.09,
+      "y": 119314.72,
+      "rotation": 0.0001
+    },
+    {
+      "handle": "2FEC2",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DF-ENDCAP - Bít ống gió-10168256-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -56775.02,
+      "y": 118269.09,
+      "rotation": 0.0001
+    },
+    {
+      "handle": "2FF43",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-10189423-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF44",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-10189427-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF45",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-10189423-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -137425.5,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF46",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-10189427-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333940.9,
+      "y": -138265.6,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF47",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V533-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF49",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V535-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF4A",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V536-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF4B",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-10189427-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 320707.12,
+      "y": -179382.05,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF4C",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-10189427-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 320707.12,
+      "y": -185919.62,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF4D",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V537-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF4E",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V538-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF4F",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-ENDCAP - Bít ống gió EI60-10213115-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -86585.69,
+      "y": 42270.77,
+      "rotation": 4.7124
+    },
+    {
+      "handle": "2FF50",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-10189427-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 353162.6,
+      "y": -122907.05,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF51",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-10189423-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 353174.84,
+      "y": -132367.05,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF52",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-10189423-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 353374.84,
+      "y": -142542.05,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF53",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-10189423-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 353374.83,
+      "y": -147942.05,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF54",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-10189423-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 353575.18,
+      "y": -154042.07,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF55",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-10189423-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 353575.48,
+      "y": -159342.07,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF56",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V539-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF57",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V540-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF58",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-10189423-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 347536.29,
+      "y": -184477.17,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF59",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-10189427-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 353162.6,
+      "y": -132685.58,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF5A",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V541-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "2FF6B",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Côn Thu_Bích TDC_ - CEN-DUCT-Côn Thu_Bích TDC_-L600-12048276-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -86585.69,
+      "y": 54233.39,
+      "rotation": 4.7124
+    },
+    {
+      "handle": "2FF6C",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213154-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -73802.05,
+      "y": 109542.33,
+      "rotation": 3.1417
+    },
+    {
+      "handle": "2FF71",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213179-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -57203.15,
+      "y": 54767.54,
+      "rotation": 0.0001
+    },
+    {
+      "handle": "2FF79",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V542-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -60668.83,
+      "y": 54767.25,
+      "rotation": 3.1417
+    },
+    {
+      "handle": "2FF7A",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213158-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -57203.66,
+      "y": 60193.98,
+      "rotation": 4.7125
+    },
+    {
+      "handle": "2FF7F",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213131-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -54379.11,
+      "y": 70051.21,
+      "rotation": 0.0001
+    },
+    {
+      "handle": "2FF80",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10213131-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -57204.44,
+      "y": 70050.99,
+      "rotation": 3.1417
+    },
+    {
+      "handle": "2FFAB",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213356-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -78759.24,
+      "y": 17334.46,
+      "rotation": 4.7125
+    },
+    {
+      "handle": "2FFAC",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213377-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -78758.65,
+      "y": 10455.46,
+      "rotation": 4.7125
+    },
+    {
+      "handle": "2FFAD",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10213382-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -78759.83,
+      "y": 23883.46,
+      "rotation": 1.5709
+    },
+    {
+      "handle": "30096",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC 0_75W-11753119-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -76007.82,
+      "y": 113303.95,
+      "rotation": 1.5707
+    },
+    {
+      "handle": "30097",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-10230698-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -74508.05,
+      "y": 107076.57,
+      "rotation": 0
+    },
+    {
+      "handle": "30098",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-10230711-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -73095.81,
+      "y": 102036.57,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "30099",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-V593-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -74508.05,
+      "y": 96256.64,
+      "rotation": 0
+    },
+    {
+      "handle": "3009A",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-V594-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -73101.93,
+      "y": 90376.53,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "3009B",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-10230698-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -74788.68,
+      "y": 73928.48,
+      "rotation": 0
+    },
+    {
+      "handle": "3009C",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-V595-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -73776.44,
+      "y": 69576.67,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "3009D",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-V596-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -74788.69,
+      "y": 63879.17,
+      "rotation": 0
+    },
+    {
+      "handle": "3009E",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-10230805-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -86335.69,
+      "y": 42722.51,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "3009F",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-V597-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -86335.69,
+      "y": 49260.08,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "300A0",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-V598-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -86185.69,
+      "y": 54660.08,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "300A1",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V599-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "300A2",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-V600-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -63067.31,
+      "y": 108943.3,
+      "rotation": 4.7124
+    },
+    {
+      "handle": "300A3",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-V601-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -53880.22,
+      "y": 105735.08,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "300A4",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-V602-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -55280.23,
+      "y": 101315.08,
+      "rotation": 0
+    },
+    {
+      "handle": "300A5",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-V603-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -53880.23,
+      "y": 95956.56,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "300A6",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-V604-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -55080.23,
+      "y": 91140.08,
+      "rotation": 0
+    },
+    {
+      "handle": "300A7",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-V604-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -55080.24,
+      "y": 85740.08,
+      "rotation": 0
+    },
+    {
+      "handle": "300A8",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-V605-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -54879.9,
+      "y": 79640.07,
+      "rotation": 0
+    },
+    {
+      "handle": "300A9",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-V605-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -54879.59,
+      "y": 74340.07,
+      "rotation": 0
+    },
+    {
+      "handle": "300AA",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-V606-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -57604.39,
+      "y": 68767.56,
+      "rotation": 0
+    },
+    {
+      "handle": "300AB",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-V607-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -57603.79,
+      "y": 61733.97,
+      "rotation": 0
+    },
+    {
+      "handle": "300AC",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-V608-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -56953.32,
+      "y": 56340.08,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "300AD",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Chân Rẽ_Bích TDC_ - CEN-DUCT-Chân Rẽ_Bích TDC_-V609-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -60918.78,
+      "y": 49204.96,
+      "rotation": 0
+    },
+    {
+      "handle": "300AE",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-ENDCAP - Bít ống gió EI60-10213115-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -60668.78,
+      "y": 48779.99,
+      "rotation": 4.7124
+    },
+    {
+      "handle": "300B5",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10985819-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -46183.74,
+      "y": 18920.1,
+      "rotation": 1.5708
+    },
+    {
+      "handle": "300B8",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-ENDCAP - Bít ống gió EI60-10213110-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -51988.96,
+      "y": 17819.79,
+      "rotation": 3.1417
+    },
+    {
+      "handle": "300BC",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Van Vuông - Van VCD-V627-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -50939.71,
+      "y": 16389.68,
+      "rotation": 1.5708
+    },
+    {
+      "handle": "300C0",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Van Vuông - Van VCD-9321092-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -50839.37,
+      "y": 12367.73,
+      "rotation": 1.5709
+    },
+    {
+      "handle": "300C3",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10251453-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -50939.71,
+      "y": 16719.7,
+      "rotation": 4.7124
+    },
+    {
+      "handle": "300C6",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10985821-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -50982.32,
+      "y": 18919.7,
+      "rotation": 1.5708
+    },
+    {
+      "handle": "300CB",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10252365-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -63904.01,
+      "y": 33519.05,
+      "rotation": 0.0001
+    },
+    {
+      "handle": "300CC",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-ENDCAP - Bít ống gió EI60-10245830-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -62946.78,
+      "y": 3908.61,
+      "rotation": 4.7125
+    },
+    {
+      "handle": "300CD",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-ENDCAP - Bít ống gió EI60-10252616-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -78761.1,
+      "y": 38976.98,
+      "rotation": 1.5709
+    },
+    {
+      "handle": "300CE",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-ENDCAP - Bít ống gió EI60-10252627-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -79583.81,
+      "y": 33518.35,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "300CF",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-ENDCAP - Bít ống gió EI60-10239568-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -78757.7,
+      "y": -1259.48,
+      "rotation": 4.7125
+    },
+    {
+      "handle": "300D0",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Van Vuông - Van VCD-10257468-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -46183.74,
+      "y": 19462.38,
+      "rotation": 4.7124
+    },
+    {
+      "handle": "300D3",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Van Vuông - Van VCD-10257473-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -50982.35,
+      "y": 19627.25,
+      "rotation": 1.5708
+    },
+    {
+      "handle": "300F6",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V760-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "300F7",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V761-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "300F8",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V762-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "300F9",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V637-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -62446.78,
+      "y": 18028.89,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "300FA",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10222334-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -63446.78,
+      "y": 18029.24,
+      "rotation": 0
+    },
+    {
+      "handle": "300FB",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -415066.95,
+      "y": 147303.01,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "300FC",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V637-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -62446.78,
+      "y": 24865.06,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "300FD",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -415166.93,
+      "y": 133692.3,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "300FE",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271565-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -62546.78,
+      "y": 11254.35,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "300FF",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V745-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -415166.93,
+      "y": 126849.54,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "30100",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271565-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -62546.78,
+      "y": 4411.59,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "30101",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V763-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "30102",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271574-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -68464.34,
+      "y": 34268.66,
+      "rotation": 1.5708
+    },
+    {
+      "handle": "30103",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V635-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 301040.85,
+      "y": -191378.74,
+      "rotation": 0.0001
+    },
+    {
+      "handle": "30104",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V764-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "30105",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V765-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "30106",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V765-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 334072.58,
+      "y": -133423.27,
+      "rotation": 0
+    },
+    {
+      "handle": "30107",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V766-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "30108",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V767-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "30109",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V768-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "3010A",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V769-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "3010B",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V770-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "3010C",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V771-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "3010D",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V772-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "3010E",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V773-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -79132.7,
+      "y": -874.47,
+      "rotation": 0
+    },
+    {
+      "handle": "3010F",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271635-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -78382.7,
+      "y": -874.41,
+      "rotation": 3.1414
+    },
+    {
+      "handle": "30110",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271635-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -78383.18,
+      "y": 4830.6,
+      "rotation": 3.1414
+    },
+    {
+      "handle": "30111",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V773-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -79133.18,
+      "y": 4830.53,
+      "rotation": 0
+    },
+    {
+      "handle": "30112",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271643-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -79233.72,
+      "y": 11144.85,
+      "rotation": 0
+    },
+    {
+      "handle": "30113",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271640-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -78283.71,
+      "y": 11144.93,
+      "rotation": 3.1414
+    },
+    {
+      "handle": "30114",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271645-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -79359.29,
+      "y": 17962.56,
+      "rotation": 0
+    },
+    {
+      "handle": "30115",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271647-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -78159.29,
+      "y": 17962.66,
+      "rotation": 3.1414
+    },
+    {
+      "handle": "30116",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271649-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -79409.94,
+      "y": 24927.09,
+      "rotation": 0
+    },
+    {
+      "handle": "30117",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271651-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -78110.28,
+      "y": 28971.53,
+      "rotation": 3.1414
+    },
+    {
+      "handle": "30118",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-AT-Grille - EAG_OBD 600x300mm-V774-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "30119",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10271661-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -78936.06,
+      "y": 38499.63,
+      "rotation": 6.283
+    },
+    {
+      "handle": "30233",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC-10386938-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -61651.99,
+      "y": 118268.68,
+      "rotation": 5.4978
+    },
+    {
+      "handle": "30234",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC-V963-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -62698.52,
+      "y": 119315.25,
+      "rotation": 2.3562
+    },
+    {
+      "handle": "30237",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Van Vuông - Van VCD-V964-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -66875.18,
+      "y": 109642.92,
+      "rotation": 3.1417
+    },
+    {
+      "handle": "30251",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10392716-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -54379.48,
+      "y": 72521.39,
+      "rotation": 1.5709
+    },
+    {
+      "handle": "3025F",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-V970-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -73682.6,
+      "y": 80036.53,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "302B6",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10885866-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -78760.7,
+      "y": 34268.35,
+      "rotation": 1.5707
+    },
+    {
+      "handle": "302B7",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10885870-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -78760.59,
+      "y": 32768.35,
+      "rotation": 4.7124
+    },
+    {
+      "handle": "302B8",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Van Vuông - Van VCD-V990-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -78760.56,
+      "y": 32277.3,
+      "rotation": 1.5709
+    },
+    {
+      "handle": "302E5",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1003-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "302E6",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1004-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "302EA",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC-10567811-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -54591.44,
+      "y": 32418.43,
+      "rotation": 4.7124
+    },
+    {
+      "handle": "302EB",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10568128-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -62946.78,
+      "y": 17209.57,
+      "rotation": 1.5708
+    },
+    {
+      "handle": "302EC",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10569084-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -50982.35,
+      "y": 33343.43,
+      "rotation": 1.5708
+    },
+    {
+      "handle": "302F0",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10569102-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "302F1",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1102-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "302F9",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10617643-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -54580.22,
+      "y": 109644.02,
+      "rotation": 1.5708
+    },
+    {
+      "handle": "30366",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10666494-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -50839.45,
+      "y": 12666.43,
+      "rotation": 1.5709
+    },
+    {
+      "handle": "303BB",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1156-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "303BD",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1157-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "303D1",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10859106-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -54580.23,
+      "y": 100660.85,
+      "rotation": 4.7124
+    },
+    {
+      "handle": "303D2",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10859119-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -54480.24,
+      "y": 85129.95,
+      "rotation": 4.7124
+    },
+    {
+      "handle": "303E1",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10885857-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "303E2",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-10885830-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "303FB",
+      "type": "INSERT",
+      "layer": "MEPG-M-EQUIP",
+      "blockName": "CEN-KRUGER_AXIAL FAN_TDC-SERIES - TDC 1120_C22_G_9-7V_15_17_19-10937202-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -81130.24,
+      "y": 115824.1,
+      "rotation": 4.7124
+    },
+    {
+      "handle": "303FC",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-10949691-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -79935.24,
+      "y": 115824.11,
+      "rotation": 4.7125
+    },
+    {
+      "handle": "30400",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Trouser Piece-R2 - Trouser Piece-10965446-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -77921.53,
+      "y": 116524.15,
+      "rotation": 0
+    },
+    {
+      "handle": "30403",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1182-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -79935.24,
+      "y": 117224.11,
+      "rotation": 4.7125
+    },
+    {
+      "handle": "30404",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1183-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -81205.24,
+      "y": 117224.09,
+      "rotation": 4.7125
+    },
+    {
+      "handle": "30405",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1184-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -81205.24,
+      "y": 115824.09,
+      "rotation": 4.7125
+    },
+    {
+      "handle": "30406",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN_SILENCER DUCT - L900xW1250xH1300-V1225-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -82062.24,
+      "y": 117224.11,
+      "rotation": 0
+    },
+    {
+      "handle": "30407",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN_SILENCER DUCT - L900xW1250xH1300-V1226-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -82062.24,
+      "y": 115824.11,
+      "rotation": 0
+    },
+    {
+      "handle": "30408",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN_SILENCER DUCT - L900xW1250xH1300-V493-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -78878.24,
+      "y": 117224.15,
+      "rotation": 0
+    },
+    {
+      "handle": "30409",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN_SILENCER DUCT - L900xW1250xH1300-V493-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -78878.24,
+      "y": 115824.15,
+      "rotation": 0
+    },
+    {
+      "handle": "3040A",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L500-10965589-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -79360.24,
+      "y": 117224.14,
+      "rotation": 3.1417
+    },
+    {
+      "handle": "3040B",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L500-10965589-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -79360.24,
+      "y": 115824.14,
+      "rotation": 3.1417
+    },
+    {
+      "handle": "3040C",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10965625-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -76582.06,
+      "y": 116524.15,
+      "rotation": 0
+    },
+    {
+      "handle": "3040D",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L300-10965919-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -81580.24,
+      "y": 115824.11,
+      "rotation": 0.0001
+    },
+    {
+      "handle": "3040E",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L300-10965921-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -81580.24,
+      "y": 117224.11,
+      "rotation": 0.0001
+    },
+    {
+      "handle": "30415",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Van Vuông - Van NRD-10966808-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -82636.59,
+      "y": 117224.11,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "30418",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Van Vuông - Van NRD-V1229-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -82636.59,
+      "y": 115824.11,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "3041B",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Van Vuông - Van MFD-EI60-10966918-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -82821.11,
+      "y": 117224.11,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "3041E",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Van Vuông - Van MFD-EI60-V1230-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -82821.11,
+      "y": 115824.11,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "304C1",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1495-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -74029.76,
+      "y": 119314.23,
+      "rotation": 4.7125
+    },
+    {
+      "handle": "304C2",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1496-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -74679.76,
+      "y": 119314.17,
+      "rotation": 1.5709
+    },
+    {
+      "handle": "304C3",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L500-11047650-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -75254.76,
+      "y": 119314.12,
+      "rotation": 0.0001
+    },
+    {
+      "handle": "304C4",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L500-11047652-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -73454.76,
+      "y": 119314.27,
+      "rotation": 3.1417
+    },
+    {
+      "handle": "304C5",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L500-11049162-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -76008.4,
+      "y": 109703.11,
+      "rotation": 4.7123
+    },
+    {
+      "handle": "304CD",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-11062092-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -67470.6,
+      "y": 109642.86,
+      "rotation": 3.1415
+    },
+    {
+      "handle": "304D0",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-11062291-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -69670.6,
+      "y": 109542.66,
+      "rotation": 6.2831
+    },
+    {
+      "handle": "304D4",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1502-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "304D5",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1503-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "304D8",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L500-11049160-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -76008.25,
+      "y": 107773.11,
+      "rotation": 1.5709
+    },
+    {
+      "handle": "30523",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC EI60-10222334-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -79410.5,
+      "y": 31577.54,
+      "rotation": 6.2831
+    },
+    {
+      "handle": "30532",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-11641367-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -68570.91,
+      "y": 116530.34,
+      "rotation": 1.5708
+    },
+    {
+      "handle": "305C3",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-11751998-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -73701.93,
+      "y": 89094.84,
+      "rotation": 1.0472
+    },
+    {
+      "handle": "305C4",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1650-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -74282.64,
+      "y": 88089.03,
+      "rotation": 4.1888
+    },
+    {
+      "handle": "305C5",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1651-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "305D1",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-11753121-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -73701.93,
+      "y": 95519.64,
+      "rotation": 1.5708
+    },
+    {
+      "handle": "305DB",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC-11912508-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "305DC",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC-V1676-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "305E9",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-11912811-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "305EA",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1677-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "305ED",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-11912901-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -74282.6,
+      "y": 75705.8,
+      "rotation": 1.5708
+    },
+    {
+      "handle": "305EE",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-11912905-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "305F4",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC 0_75W-10396847-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "305F5",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC 0_75W-V1678-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "305F9",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1679-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "305FA",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-11914482-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "305FB",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60-V1680-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "305FC",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC EI60 0_75W-12071798-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "305FD",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Côn Thu_Bích TDC_ - CEN-DUCT-Côn Thu_Bích TDC_-L600-12048225-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "30611",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-Van Vuông - Van MFD-V1686-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -81282.42,
+      "y": 70245.92,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "30614",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC-11966590-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -83729.32,
+      "y": 66828.32,
+      "rotation": 0
+    },
+    {
+      "handle": "30615",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC-11966906-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -84491.82,
+      "y": 69821.75,
+      "rotation": 0
+    },
+    {
+      "handle": "30616",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DF-SQUARE TAP-TDC FLANGE - Gót giày nẹp TDC-11967018-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -83729.32,
+      "y": 69071.75,
+      "rotation": 4.7124
+    },
+    {
+      "handle": "30619",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC-11967101-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -81735.25,
+      "y": 70245.92,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "3061A",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC-V1687-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -82686.45,
+      "y": 69696.75,
+      "rotation": 0
+    },
+    {
+      "handle": "3061F",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC-11967388-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "30620",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DF-SQUARE ELBOW-TDC FLANGE - Co vuông nẹp TDC-V1688-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": 333947.02,
+      "y": -126605.56,
+      "rotation": 0
+    },
+    {
+      "handle": "30640",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút gió thải-Exhaust Air-EAD",
+      "blockName": "CEN-DF-ENDCAP - Bít ống gió-10330186-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -87316.66,
+      "y": 69821.75,
+      "rotation": 3.1416
+    },
+    {
+      "handle": "318AF",
+      "type": "INSERT",
+      "layer": "MEPG-M-EQUIP",
+      "blockName": "CEN-KRUGER_AXIAL FAN_TDA-FV SERIES - TDA 1000-V472-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -39177.77,
+      "y": 16895.77,
+      "rotation": 1.5709
+    },
+    {
+      "handle": "318B0",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Trouser Piece-R2 - Trouser Piece-8543966-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -42963.49,
+      "y": 17820.38,
+      "rotation": 3.1417
+    },
+    {
+      "handle": "318B1",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN_SILENCER DUCT - L900xW1700xH1000-10946864-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -40939.77,
+      "y": 16895.58,
+      "rotation": 0.0001
+    },
+    {
+      "handle": "318B8",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN_SILENCER DUCT - L900xW1250xH1400-10970685-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -37845.77,
+      "y": 16895.89,
+      "rotation": 0.0001
+    },
+    {
+      "handle": "318C9",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1280-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -39882.77,
+      "y": 16895.72,
+      "rotation": 1.5709
+    },
+    {
+      "handle": "318CA",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1281-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -39102.77,
+      "y": 16895.78,
+      "rotation": 4.7125
+    },
+    {
+      "handle": "318CB",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Van Vuông - Van MFD-EI60-10984680-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -42297.27,
+      "y": 18745.51,
+      "rotation": 3.1417
+    },
+    {
+      "handle": "318CF",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Van Vuông - Van MFD-EI60-V1282-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -42297.11,
+      "y": 16895.47,
+      "rotation": 3.1417
+    },
+    {
+      "handle": "318D7",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Van Vuông - Van NRD-10985138-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -36961.92,
+      "y": 16895.89,
+      "rotation": 0
+    },
+    {
+      "handle": "318DB",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Van Vuông - Van MFD-EI60-V1283-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -36602.99,
+      "y": 16895.93,
+      "rotation": 0
+    },
+    {
+      "handle": "318DE",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L700-10985592-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -38327.77,
+      "y": 16895.85,
+      "rotation": 3.1417
+    },
+    {
+      "handle": "318DF",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L500-10986311-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -40457.77,
+      "y": 16895.62,
+      "rotation": 0.0001
+    },
+    {
+      "handle": "318E0",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10986320-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -41389.77,
+      "y": 16895.54,
+      "rotation": 3.1415
+    },
+    {
+      "handle": "318E1",
+      "type": "INSERT",
+      "layer": "MEPG-M-EQUIP",
+      "blockName": "CEN-KRUGER_AXIAL FAN_TDA-FV SERIES - TDA 1000-V472-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -39177.75,
+      "y": 18745.71,
+      "rotation": 1.5709
+    },
+    {
+      "handle": "318E2",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN_SILENCER DUCT - L900xW1700xH1000-10946864-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -40939.75,
+      "y": 18745.52,
+      "rotation": 0.0001
+    },
+    {
+      "handle": "318E3",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN_SILENCER DUCT - L900xW1250xH1400-V1284-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -37845.75,
+      "y": 18745.82,
+      "rotation": 0.0001
+    },
+    {
+      "handle": "318E4",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1285-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -39882.75,
+      "y": 18745.65,
+      "rotation": 1.5709
+    },
+    {
+      "handle": "318E5",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Khớp Nối Mềm Tròn - Khớp Nối Mềm Tròn-V1286-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -39102.75,
+      "y": 18745.72,
+      "rotation": 4.7125
+    },
+    {
+      "handle": "318EA",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Van Vuông - Van NRD-V1287-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -36961.92,
+      "y": 18745.86,
+      "rotation": 0
+    },
+    {
+      "handle": "318EE",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-Van Vuông - Van MFD-EI60-V1288-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -36602.99,
+      "y": 18745.9,
+      "rotation": 0
+    },
+    {
+      "handle": "318F1",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L700-10985592-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -38327.75,
+      "y": 18745.78,
+      "rotation": 3.1417
+    },
+    {
+      "handle": "318F2",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DUCT-Giảm Vuông Tròn_Bích TDC_ - CEN-DUCT-Giảm Vuông Tròn_Bích TDC_-L500-V1289-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -40457.75,
+      "y": 18745.56,
+      "rotation": 0.0001
+    },
+    {
+      "handle": "318F3",
+      "type": "INSERT",
+      "layer": "MEPG-AC-M-Hút khói-Smoke Exhaust Air-SED",
+      "blockName": "CEN-DF-SQUARE REDUCER-TDC FLANGE - Giảm vuông nẹp TDC EI60-10986320-MB HỆ THỐNG ĐHKK HẦM B1",
+      "x": -41389.75,
+      "y": 18745.48,
+      "rotation": 3.1415
+    }
+  ],
+  "ellipses": [],
+  "blockDefinitionsCount": 345,
+  "anomalies": []
+}
