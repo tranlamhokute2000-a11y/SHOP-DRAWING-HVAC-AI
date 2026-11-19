@@ -130,7 +130,44 @@ Sau đó dùng `read_file` soi trực quan ảnh tổng `qa_audit_full.png` cùn
 
 ---
 
-## 4. Tài Liệu Tham Chiếu & Bộ 6 Script Tăng Tốc (`references/` & `scripts/`)
+## 4. Kịch Bản Tác Chiến Swarm Đa Agent (`/swarm` HVAC Orchestration)
+
+Khi người dùng ra lệnh **"triển khai bản vẽ ống gió cho tôi"** (hoặc yêu cầu Shop Drawing HVAC tương đương), Agent đóng vai trò `coordinator` bắt buộc khởi tạo đội ngũ Swarm:
+
+1. **Khởi tạo và đặt tiêu đề Swarm**:
+   ```json
+   { "action": "title", "title": "Triển khai Shop Drawing Hệ Thống Ống Gió HVAC" }
+   ```
+
+2. **Khởi tạo các Worker chuyên biệt bằng các lệnh `swarm{action:"add", name, brief}`**:
+   - **`@surveyor`**:
+     ```
+     Brief: "Bạn phụ trách khảo sát hệ thống ống gió. Chạy survey_hvac.mjs lưu baseline.json, chạy init_spec_layers.mjs --lock-orig chuẩn hóa INSUNITS=4 và khóa tạm layer gốc. Phân tách danh sách A (tuyến ống đủ thông số để vẽ) và danh sách B (vùng chưa rõ để khoanh mây CLOUND). Post [done] kèm baseline lên bảng tin."
+     ```
+   - **`@duct-author`**:
+     ```
+     Brief: "Bạn phụ trách dựng 100% ống gió và phụ kiện HTS đè tại chỗ (In-Place Overlay) theo tọa độ đường tim từ surveyor. Tuân thủ 5 Quy tắc cứng: 100% HTS Tool, chia đốt 1110mm, nối góc R=W/2, bảo toàn nét gốc, gán BOD vào HTS_OG_DAY. Tuyệt đối không tự ý đặt cửa gió/van/giá đỡ. Post [done] khi dựng xong."
+     ```
+   - **`@detailer`**:
+     ```
+     Brief: "Bạn phụ trách toàn bộ vị trí chuyển cao độ đứng ΔZ > 200mm. Chạy draw_z_offsets.mjs hoặc dựng mặt bằng RECTANG + PL chữ Z, trích hình chiếu đứng 2 chếch 45° R=H/2 + đốt bù (mẹo ΔZ×ΔZ), 3 Dim HỒ-DIM 1-70 bắt chính xác 0.000mm từ tâm cút, khoanh mây CLOUND và LEADER MATCHPROP chuẩn Spec. Post [done] khi hoàn thành."
+     ```
+   - **`@endcap-finisher`**:
+     ```
+     Brief: "Bạn phụ trách hoàn thiện các đầu cụt cuối tuyến ống. Chạy apply_endcaps.mjs: xóa sạch toàn bộ các đốt lẻ < 100mm, chuyển đốt ống thật cuối cùng (L >= 100mm) thành HTS-CAP-* bằng hvac-cap (handent). Đồng bộ lại HTS_OG_DAY. Post [done] khi hoàn thành."
+     ```
+   - **`@qa-auditor`** (Verifier):
+     ```
+     Brief: "Bạn là kiểm toán viên độc lập. Chạy qa_audit_hvac.mjs kiểm tra 5 tiêu chí: 100% Block HTS, XData BOD, Không va chạm CLOUND, Nắp bịt không đốt mỏng, Bảo toàn 100% nét gốc từ baseline.json. Nếu PASS 5/5 post [done] cho coordinator; nếu có lỗi chỉ đích danh handle và tag tên tác giả sửa."
+     ```
+
+3. **Điều phối qua Message Board**:
+   - Sử dụng `@worker-name` để giao việc và bàn giao theo chuỗi kết quả `#seq`.
+   - Khi `@qa-auditor` báo `[done]` đạt 5/5 tiêu chí PASS, `coordinator` mở khóa toàn bộ layer (`init_spec_layers.mjs --unlock-all`), lưu bản vẽ (`save_drawing`), và phát âm thanh thông báo báo cáo hoàn thành.
+
+---
+
+## 5. Tài Liệu Tham Chiếu & Bộ 6 Script Tăng Tốc (`references/` & `scripts/`)
 - **Tiêu chuẩn Layer Spec v3 (16 hạng mục + 2 DimStyle + 14 Block ký hiệu thiết bị)**: [spec-layer-ong-gio.md](./references/spec-layer-ong-gio.md)
 - **Cẩm nang cú pháp MCP 100% HTS Tool HVAC, toán học hình học & 8 kinh nghiệm thực chiến**: [hts-hvac-tools-cheatsheet.md](./references/hts-hvac-tools-cheatsheet.md)
 - **Bộ Script Turbo Node.js không phụ thuộc ngoài (`scripts/` — 0 dependency, chạy ngay trên mọi máy cài HTS)**:
